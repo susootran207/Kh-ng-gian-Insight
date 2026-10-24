@@ -72,3 +72,16 @@ OS reduction, manual reduction and hidden document disable the new spontaneous s
 
 ### Evidence
 See `docs/prototype/REVIEW.md`, the refreshed eight responsive screenshots, two actual idle-visit screenshots and `performance.json`. Headless measurements are a sanity check, not proof of GPU performance or physical-device smoothness. Skill-engine execution limits remain as documented above.
+
+## Full viewport canopy revision — current, 24 October 2026
+
+This revision supersedes the earlier two-edge-SVG garland (66/34/18px edge widths above). That garland was not approved by the user. The scope is exclusively the overhead roof; hero frame, existing hero wisteria, Mây (both contexts), petals, frosted surfaces, layout, type, copy and interactions remain intact.
+
+- **Edge-to-edge structure:** `.top-garland` is an absolute viewport-wide layer outside all page-width containers. Height budgets are 350px desktop, 250px tablet and 145px mobile; no header/hero padding, content coordinates or flow heights change. These are decorative extents, not added empty space.
+- **Three planes:** continuous branch/leaf panorama in the back (58% opacity, subtle .5px blur, 21s breeze), six unique middle sprays (85% opacity, 12.7–16.4s), three different near bouquets (94%, larger petals, stronger 1.5–2.2° sway, 9.7–11.8s). Each atlas cell is used once. Layers overlap, with stronger weight at the outer edges and unequal heights/offset phases. Actual artwork supplies petal volume; no WebGL, particle engine or enlarged legacy SVG.
+- **Safety is measured:** TopCanopy measures the visible logo, nav links, mobile menu, hero heading/prose/action/note and original garden frame. An alpha mask with padded, softly feathered exclusions clears these actual bounds. ResizeObserver, font readiness and menu-class changes update it without a scroll/frame loop. Safe areas take precedence over density. No new UI plaque or layout component is added.
+- **Responsive delivery:** half-resolution transparent WebP variants load below 700px, about 482kB total; desktop/tablet originals about 1.83MB total. Masks use the rendered viewport size, not a stretched fixed-width exclusion map. Sprays are shorter and repositioned on mobile while the roof still spans the entire screen.
+- **Restraint:** the existing manual/OS reduction, quiet-on-interaction, document visibility and offscreen pause apply to all roof layers, including the back panorama. Static canopy remains visible under reduced motion. All decoration is aria-hidden and pointer-events:none; no focus or announcements.
+- **Visual evidence:** hero screenshots at 1440/768/390 and isolated roof screenshots at each width. The isolated construction views intentionally omit content and its safety mask, exposing the full composition; live hero images are the authority for readability.
+
+The original skill execution limits remain: direct document application only, no upstream launcher, engine, detector or hook. This is a refinement of the unapproved roof, not a new visual world.

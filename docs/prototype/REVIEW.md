@@ -15,7 +15,7 @@ Font Cormorant Garamond và Be Vietnam Pro có subset tiếng Việt, được �
 
 - `npm install`: thành công; dependency được khóa trong package-lock.json.
 - `npm run build`: TypeScript strict và Vite production build thành công.
-- `npm run test:e2e`: **16/16 bài kiểm thử đạt**, chạy trên bản production build bằng Chromium 154, Playwright 1.64.1.
+- `npm run test:e2e`: **20/20 bài kiểm thử đạt**, chạy trên bản production build bằng Chromium 154, Playwright 1.64.1.
 - 320, 390, 768, 1440px: không tràn ngang; font tiếng Việt và ảnh local tải được; không có pageerror hoặc request bên ngoài.
 - Axe WCAG 2 A/AA và 2.1 AA: không phát hiện vi phạm ở bốn viewport mặc định và một trạng thái nội dung mở rộng. Đây là quét tự động, không phải chứng nhận accessibility.
 - Menu mobile: mở bằng bàn phím, Escape đóng và trả focus; liên kết đúng section; tải lại anchor không lỗi.
@@ -96,3 +96,49 @@ Số DOM không tăng khi cuộn. JavaScript gzip tăng từ khoảng 79,47kB l�
 Ảnh bổ sung: [Mây trên desktop](screenshots/atmosphere-journey-1440.png), [Mây trên mobile](screenshots/atmosphere-journey-390.png).
 
 **Chỉ cập nhật nhánh feat/homepage-garden-prototype và PR #2. Không merge, không deploy. Chờ người dùng duyệt.**
+
+
+## Chỉnh mái giàn toàn chiều ngang — 24/10/2026
+
+Mái giàn nhỏ ở hai mép của phiên bản trước chưa được người dùng duyệt. Bản này thay riêng lớp mái đó, giữ nguyên khung vườn hero và cây tử đằng bên trong, Mây, cánh hoa, nền trong mờ, bố cục, typography, nội dung và các tương tác.
+
+### Tự đánh giá bằng hình ảnh
+
+- Mái có tán cành ngang liền từ x=0 đến hết viewport, sáu cụm hoa chính và ba cụm tiền cảnh khác nhau. Ảnh tách riêng cho thấy hoa hiện ở cả giữa màn hình, không còn là hai chi tiết góc.
+- Có ba lớp thực: cành/tán sau nhạt và mờ nhẹ, hoa chính nhiều nhánh, hoa gần lớn/đậm hơn. Chùm lệch chiều dài, góc nghiêng, pha và chu kỳ; mỗi mẫu chỉ dùng một lần.
+- Ở lần render đầu, vùng trống quanh logo/menu còn giống các ô cắt cứng. Đã làm mềm vùng bảo vệ, thu hẹp bảo vệ về đúng nội dung cần thiết và feather mép atlas, rồi chụp lại. Không bàn giao ảnh thử đầu đó làm kết quả cuối.
+- Logo/menu/tiêu đề/nút vẫn rõ; hoa không phủ lên khung vườn hiện có. Mobile giữ mái phủ ngang, giới hạn cao 145px và giảm độ dài cụm, không thêm chiều cao vào luồng trang.
+
+### Kiểm tra
+
+- Build production đạt; **20/20 kiểm thử đạt**. Giữ toàn bộ 16 kiểm thử trước, bổ sung ba viewport kiểm tra mái và một nhóm kiểm tra pause/menu/reduced motion.
+- 1440/768/390px: mái bắt đầu ở x=0, rộng đúng viewport; ba lớp, sáu spray chính và ba spray gần; mỗi sprite chính dùng vị trí atlas khác nhau; cả ba artwork local decode được.
+- Kiểm tra alpha của mask tại các điểm trong logo, menu, chữ và khung hero: mức phủ tối đa nằm trong ngưỡng 4/255. Đã chờ font và cập nhật layout trước khi đo. Đây là kiểm tra vùng che thực, bổ sung cho kiểm tra click/touch.
+- Menu mobile vẫn mở/đóng/điều hướng; mask cập nhật khi menu đổi trạng thái. Hoa không nhận pointer/focus. OS/manual reduction, tab ẩn và ra khỏi viewport dừng chuyển động mái.
+- Kiểm thử cũ ở 320/390/768/1440px tiếp tục đạt, bao gồm Axe trong phạm vi đã kiểm tra, cảm ứng mô phỏng, bàn phím, kéo mèo, timeline, đọc thử và quyền riêng tư khi thả đèn.
+- Không thêm dependency. Không đổi HTML gốc, global.css, Wisteria.tsx, tranh hero, CatArt/CatGarden hoặc ScrollCompanion.
+
+### Ảnh cuối để duyệt
+
+- Hero: [1440px](screenshots/hero-1440.png), [768px](screenshots/hero-768.png), [390px](screenshots/hero-390.png).
+- Mái riêng: [1440px](screenshots/canopy-only-1440.png), [768px](screenshots/canopy-only-768.png), [390px](screenshots/canopy-only-390.png).
+- Ảnh mái riêng là bản xem cấu tạo artwork, tạm ẩn nội dung và bỏ mask vùng an toàn. Ảnh hero cho thấy bố trí thực tế có mask bảo vệ nội dung. Screenshot đóng băng chuyển động để nhìn rõ chi tiết.
+
+Mẫu đo mới lưu ở `performance-canopy.json`; không coi số đo cloud là chứng nhận hiệu năng thiết bị thật. Chưa thử Safari/Firefox, điện thoại/tablet vật lý hoặc screen reader thực tế.
+
+Chỉ cập nhật nhánh và PR #2 hiện có; không merge, không deploy, không Giai đoạn 2. Chờ người dùng duyệt mái giàn mới.
+
+### Hiệu năng mái mới — số đo và giới hạn
+
+| Mẫu 240 frame callback | Viewport | Median / p95 | Khoảng lớn nhất | Long task >50ms |
+| --- | --- | --- | --- | --- |
+| Sau font ready, chưa chờ artwork ổn định | 1440px | 16,7 / 24,1ms | 174,9ms | 0 |
+| Sau font ready, chưa chờ artwork ổn định | 390px | 16,7 / 17,3ms | 46,1ms | 0 |
+| Sau artwork decode + chờ 500ms | 1440px | 16,7 / 20,6ms | 33,2ms | 0 |
+| Sau artwork decode + chờ 500ms | 390px | 16,7 / 16,8ms | 18,3ms | 0 |
+
+Đã giữ cả mẫu đầu có khoảng frame dài và mẫu chẩn đoán sau khi ảnh ổn định, không thay số đo đầu bằng số tốt hơn. Chưa đo riêng GPU nên không kết luận chắc nguyên nhân khoảng frame dài. Các số này là khoảng callback trên Chromium headless/cloud, không phải cam kết FPS trên thiết bị thật.
+
+DOM giữ 841 node khi cuộn (phiên bản trước 1131); JavaScript gzip khoảng 82,22kB, tăng khoảng 0,60kB so với bản trước. Chi phí mới chủ yếu là artwork: tổng ba WebP desktop/tablet 1.823.996 byte, mobile dùng ba file nửa độ phân giải tổng 481.788 byte. Kiểm thử request xác nhận mobile chỉ tải các file nhỏ. Không canvas/WebGL hoặc vòng lặp thêm phần tử. Mask chỉ được đo lại khi layout/font/menu thay đổi.
+
+Dữ liệu: `performance-canopy.json` và `performance-canopy-warm.json`. Hiệu năng tải ban đầu trên mạng chậm, GPU yếu và Safari vẫn cần kiểm tra trên thiết bị thật trước khi phát hành.

@@ -12,3 +12,6 @@ Other vectors, geometric compositions and icons are authored specifically for th
 
 ## Software
 Runtime: React and React DOM (MIT), Fontsource font packages (OFL-1.1 fonts). Build/test dependencies and exact versions are recorded in package-lock.json. Their respective licenses remain in the installed packages. No external runtime service is required.
+
+## Expanded roof
+The three canopy artwork atlases/panoramas and their small variants (`public/canopy-*.webp`) are additional custom OpenAI-generated botanical illustrations made on 24 October 2026. Original generation files are retained outside the repository. See `../docs/prototype/ARTWORK.md` for dimensions, purpose and provenance. Applicable OpenAI output terms govern use; no exclusive copyright or third-party artist attribution is claimed. Their generated alpha is preserved in optimized local WebP assets.
