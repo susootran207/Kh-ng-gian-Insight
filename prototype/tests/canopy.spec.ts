@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test'
 import path from 'node:path'
 
 for(const width of [1440,768,390]){
-  test(`full-width painted roof and protected content at ${width}px`,async({page})=>{
+  test(`slender corner framing and protected content at ${width}px`,async({page})=>{
     await page.setViewportSize({width,height:1000})
     const requested:string[]=[]
     page.on('request',request=>{if(request.url().includes('/canopy-'))requested.push(request.url())})
@@ -13,9 +13,14 @@ for(const width of [1440,768,390]){
     await expect(roof).toHaveAttribute('data-ready','true')
     const bounds=(await roof.boundingBox())!
     expect(bounds.x).toBe(0);expect(bounds.width).toBe(width)
-    await expect(roof.locator('.canopy-layer')).toHaveCount(3)
-    await expect(roof.locator('.main-spray')).toHaveCount(6)
-    await expect(roof.locator('.close-spray')).toHaveCount(3)
+    await expect(roof.locator('.corner-wisteria')).toHaveCount(2)
+    await expect(roof.locator('.canopy-layer')).toHaveCount(6)
+    await expect(roof.locator('.corner-raceme')).toHaveCount(14)
+    const left=(await roof.locator('.corner-left').boundingBox())!
+    const right=(await roof.locator('.corner-right').boundingBox())!
+    expect(right.x-(left.x+left.width)).toBeGreaterThan(width*.3)
+    expect(left.width).toBeLessThanOrEqual(240)
+    expect(right.width).toBeLessThanOrEqual(224)
     const evidence=await roof.evaluate(async el=>{
       const box=el.getBoundingClientRect()
       const uri=(el as HTMLElement).style.maskImage.slice(4,-1).replace(/^["']|["']$/g,'')
@@ -33,25 +38,23 @@ for(const width of [1440,768,390]){
           }
         }
       }
-      const urls=[...el.querySelectorAll('.spray-art,.canopy-roof-art')].map(art=>getComputedStyle(art).backgroundImage.slice(4,-1).replace(/^["']|["']$/g,''))
-      await Promise.all([...new Set(urls)].map(async src=>{const img=new Image();img.src=src;await img.decode()}))
-      return {maxContentAlpha,samples,uniqueArt:new Set(urls).size,mainPositions:new Set([...el.querySelectorAll('.main-spray-art')].map(art=>getComputedStyle(art).backgroundPosition)).size,pointer:getComputedStyle(el).pointerEvents,canvas:document.querySelectorAll('canvas').length}
+      const sizes=[...el.querySelectorAll('.corner-raceme')].map(spray=>spray.getBoundingClientRect().width)
+      return {maxContentAlpha,samples,maxRacemeWidth:Math.max(...sizes),pointer:getComputedStyle(el).pointerEvents,canvas:document.querySelectorAll('canvas').length}
     })
     expect(evidence.maxContentAlpha).toBeLessThanOrEqual(4)
     expect(evidence.samples).toBeGreaterThan(100)
-    expect(evidence.uniqueArt).toBe(3);expect(evidence.mainPositions).toBe(6)
+    expect(evidence.maxRacemeWidth).toBeLessThan(32)
     expect(evidence.pointer).toBe('none');expect(evidence.canvas).toBe(0)
-    expect(requested.some(url=>url.includes('-small.webp'))).toBe(width<700)
-    if(width<700)expect(requested.every(url=>url.includes('-small.webp'))).toBeTruthy()
+    expect(requested).toEqual([]) // The discarded full roof bitmaps are not loaded.
     await page.evaluate(()=>document.getAnimations().forEach(animation=>animation.pause()))
     await page.screenshot({path:path.resolve('../docs/prototype/screenshots',`hero-${width}.png`)})
     // Construction view only: isolate the real roof and remove the content mask.
     await page.addStyleTag({content:'body *{visibility:hidden!important}.top-garland,.top-garland *{visibility:visible!important}.top-garland{mask-image:none!important;-webkit-mask-image:none!important}'})
-    await roof.screenshot({path:path.resolve('../docs/prototype/screenshots',`canopy-only-${width}.png`)})
+    await roof.screenshot({path:path.resolve('../docs/prototype/screenshots',`corner-only-${width}.png`)})
   })
 }
 
-test('roof stops for reduction, tab hiding and scrolling away; menu safety mask adapts',async({page})=>{
+test('corner framing stops for reduction, tab hiding and scrolling away; menu safety mask adapts',async({page})=>{
   await page.setViewportSize({width:390,height:844})
   await page.goto('/')
   const roof=page.locator('.top-garland')
@@ -63,10 +66,9 @@ test('roof stops for reduction, tab hiding and scrolling away; menu safety mask 
   expect(await roof.locator('.canopy-cluster').first().evaluate(el=>getComputedStyle(el).animationPlayState)).toBe('paused')
   await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}))
   await page.getByRole('button',{name:'Giảm chuyển động',exact:true}).click()
-  expect(await roof.locator('.canopy-roof-art').evaluate(el=>getComputedStyle(el).animationPlayState)).toBe('paused')
+  expect(await roof.locator('.corner-raceme').first().evaluate(el=>getComputedStyle(el).animationPlayState)).toBe('paused')
   await page.emulateMedia({reducedMotion:'reduce'})
   expect(await roof.locator('.canopy-cluster').first().evaluate(el=>getComputedStyle(el).animationName)).toBe('none')
-  expect(await roof.locator('.canopy-roof-art').evaluate(el=>getComputedStyle(el).animationName)).toBe('none')
   await expect(page.getByRole('heading',{level:1})).toBeVisible()
   await page.evaluate(()=>{Object.defineProperty(document,'hidden',{configurable:true,value:true});document.dispatchEvent(new Event('visibilitychange'))})
   await expect(page.locator('.garden-atmosphere')).toHaveAttribute('data-atmosphere-paused','true')

@@ -11,7 +11,7 @@ test('bounded petal field, top garland and frosted surfaces preserve hero',async
   await page.goto('/')
   await expect(page.locator('.garden-art .wisteria')).toHaveCount(1)
   await expect(page.locator('.garden-art .botanical-art')).toBeVisible()
-  await expect(page.locator('.top-garland .canopy-layer')).toHaveCount(3)
+  await expect(page.locator('.top-garland .canopy-layer')).toHaveCount(6)
   await expect(page.locator('.petal')).toHaveCount(20)
   const details=await page.evaluate(()=>{
     const petals=[...document.querySelectorAll('.petal')]

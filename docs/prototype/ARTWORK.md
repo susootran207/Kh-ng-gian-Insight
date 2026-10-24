@@ -21,3 +21,6 @@ All three original PNGs are preserved outside the repository. WebP conversions p
 Prompt brief: sophisticated botanical gouache, muted sage foliage and lavender/amethyst/lilac wisteria, genuine petal volume and warm light, fully transparent background, no text, people or UI. The back layer is a complete roof panorama; the middle layer is six different 2–4-raceme sprays; foreground is three different dense 3–5-raceme bouquets. These are independent artworks, not repeated copies of a single enlarged raceme.
 
 The same applicable OpenAI output terms and no-exclusive-copyright representation stated above apply. This is fictional botanical illustration, not evidence of a real site.
+
+## Current corner revision
+The full-width canopy bitmaps above are historical and no longer referenced or requested by the app. Current corner framing is authored SVG branch/leaf/petal geometry with small lilac-shaded racemes, in the scale of the initial edge decoration. It adds no generated or external raster artwork. The existing hero garden painting is unchanged.

@@ -73,7 +73,7 @@ OS reduction, manual reduction and hidden document disable the new spontaneous s
 ### Evidence
 See `docs/prototype/REVIEW.md`, the refreshed eight responsive screenshots, two actual idle-visit screenshots and `performance.json`. Headless measurements are a sanity check, not proof of GPU performance or physical-device smoothness. Skill-engine execution limits remain as documented above.
 
-## Full viewport canopy revision — current, 24 October 2026
+## Full viewport canopy revision — historical, superseded
 
 This revision supersedes the earlier two-edge-SVG garland (66/34/18px edge widths above). That garland was not approved by the user. The scope is exclusively the overhead roof; hero frame, existing hero wisteria, Mây (both contexts), petals, frosted surfaces, layout, type, copy and interactions remain intact.
 
@@ -85,3 +85,17 @@ This revision supersedes the earlier two-edge-SVG garland (66/34/18px edge width
 - **Visual evidence:** hero screenshots at 1440/768/390 and isolated roof screenshots at each width. The isolated construction views intentionally omit content and its safety mask, exposing the full composition; live hero images are the authority for readability.
 
 The original skill execution limits remain: direct document application only, no upstream launcher, engine, detector or hook. This is a refinement of the unapproved roof, not a new visual world.
+
+
+## Corner-framing wisteria — current revision, 24 October 2026
+
+The user corrected the brief: no dense continuous roof. This section supersedes the full-width artwork design above. The new framing restores small, slender flower proportions comparable to the first edge decoration, with branches extending modestly along each top edge and a few side-hanging racemes. The large canopy was not approved.
+
+- Two independent corner SVGs, 240/224px wide desktop and 180/168px tablet, tapering toward the center. These are branch extents, not flower widths. Racemes remain narrow (tested below 32px rendered width), with different lengths and muted violet tones; no solid purple field.
+- Mobile: left corner 110px wide at reduced opacity; right 156px wide as the primary corner. Flowers are smaller, not enlarged. The middle remains open. No connective branch or artwork crosses between corners.
+- Each corner has back branches/leaves, main racemes and one restrained nearer side raceme. Authored lobe geometry uses soft lilac shading; 11.4–19.2s offset sway preserves the existing garden's gentle rhythm. No complex 3D, canvas, WebGL, new artwork download or dependency.
+- Existing content-safety mask remains as a fallback, with small 10px padding and 2px feather; placement itself avoids logo, menu, hero copy and the original garden frame. Resize/font/menu updates, pointer transparency, OS/manual reduction, quiet mode and offscreen pause are preserved.
+- Only TopCanopy and its corner CSS change. Hero Wisteria, CatGarden/CatArt/ScrollCompanion, petals, frosted surfaces, global type/layout CSS, copy, original HTML and interactions are unchanged.
+- The prior six WebP canopy files are retained for history but have no CSS/DOM references and produce no runtime requests. The comparison images show the real previous build (0dd63fa) and current build at identical 1440/390 viewports, quote seed and paused animation time. They are browser-rendered side-by-side comparisons, not altered site screenshots.
+
+Current evidence: `docs/prototype/screenshots/comparison/corners-before-after-{1440,390}.png`, the updated responsive screenshots, `performance-corners.json` and the latest REVIEW section. Skill execution limits remain unchanged; no engine or hook was run.

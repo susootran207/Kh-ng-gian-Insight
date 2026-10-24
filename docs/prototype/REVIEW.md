@@ -142,3 +142,33 @@ Chỉ cập nhật nhánh và PR #2 hiện có; không merge, không deploy, kh�
 DOM giữ 841 node khi cuộn (phiên bản trước 1131); JavaScript gzip khoảng 82,22kB, tăng khoảng 0,60kB so với bản trước. Chi phí mới chủ yếu là artwork: tổng ba WebP desktop/tablet 1.823.996 byte, mobile dùng ba file nửa độ phân giải tổng 481.788 byte. Kiểm thử request xác nhận mobile chỉ tải các file nhỏ. Không canvas/WebGL hoặc vòng lặp thêm phần tử. Mask chỉ được đo lại khi layout/font/menu thay đổi.
 
 Dữ liệu: `performance-canopy.json` và `performance-canopy-warm.json`. Hiệu năng tải ban đầu trên mạng chậm, GPU yếu và Safari vẫn cần kiểm tra trên thiết bị thật trước khi phát hành.
+
+
+## Hiện tại: corner-framing wisteria — 24/10/2026
+
+Người dùng điều chỉnh lại brief: **không dùng mái lớn/dày/full-width**. Các phần mô tả và số đo mái rộng bên trên là lịch sử, không còn là thiết kế hiện hành.
+
+### Thay đổi đúng phạm vi
+
+- Khôi phục tỷ lệ chùm nhỏ, thanh thoát như lớp trang trí đầu; cành mọc từ hai góc trên, vươn ngắn dọc mép trên và rủ vài chùm sát cạnh bên. Hoa dày hơn ngay góc rồi thưa dần về giữa; không có nhánh hay mảng tím nối hai bên.
+- Ba lớp cành/lá, hoa chính và chùm gần có opacity khác nhau, chuyển động lệch pha 11,4–19,2s. Mỗi chùm giữ bề ngang dưới 32px trong kiểm thử. Không phóng to chùm hoặc kéo dài quá mức.
+- Mobile ưu tiên góc phải; góc trái nhỏ và nhẹ hơn. Phần giữa có khoảng trống rộng; logo/menu/tiêu đề/nút có vùng bảo vệ.
+- Chỉ thay TopCanopy và phần CSS của hoa góc. Không đổi HTML gốc, global.css, hero Wisteria, khung/ảnh vườn, Mây, hành vi đồng hành, petals, nền trong mờ hoặc nội dung/chức năng khác.
+
+### So sánh trước / sau
+
+- [Desktop 1440px — đặt cạnh nhau](screenshots/comparison/corners-before-after-1440.png)
+- [Mobile 390px — đặt cạnh nhau](screenshots/comparison/corners-before-after-390.png)
+- Ảnh gốc từng bên được lưu cùng thư mục, tên `before-{1440,390}.png` và `after-{1440,390}.png`. Bên trước được chụp từ build 0dd63fa trước khi sửa code; bên sau từ build hoa góc mới. Cùng viewport cao 1000px, lời nhắn seed .5 và animation đóng băng tại 1000ms. Ảnh so sánh được dựng bằng trình duyệt từ hai ảnh thật, không sửa hình trong ảnh.
+- Đã xem cả hai ảnh so sánh và ảnh hero/corner riêng. Đánh giá: hai góc không nối nhau, có không gian trống lớn ở giữa, chùm không lấn át hero. Mobile có góc phải rõ hơn và góc trái nhẹ.
+- [Ảnh hoa góc riêng 1440px](screenshots/corner-only-1440.png), [768px](screenshots/corner-only-768.png), [390px](screenshots/corner-only-390.png). Đây là construction view không có nội dung/mask, ảnh hero thể hiện bố trí thực tế.
+
+### Kiểm thử và giới hạn
+
+- Production build đạt; **20/20 kiểm thử đạt**. Cập nhật các kiểm thử mái theo brief mới: hai góc, khoảng trống giữa lớn hơn 30% viewport tại 1440/768/390px, chùm nhỏ, alpha vùng bảo vệ tối đa 4/255, menu/mask cập nhật, reduced motion và tab/offscreen pause.
+- Các kiểm thử cũ về 320/390/768/1440px, font local, Axe trong phạm vi đã kiểm tra, menu, đọc thử, timeline, Mây chuột/cảm ứng mô phỏng/bàn phím và dữ liệu tâm tình tiếp tục đạt.
+- Xác nhận không phát sinh request cho các WebP mái lớn cũ. Không thêm dependency. Các bitmap cũ chỉ được giữ làm tài nguyên lịch sử, không được giao diện mới sử dụng.
+- Mẫu cuộn 240 callback sau font ready + 500ms: p95 17,6ms ở 1440px và 17,4ms ở 390px; không long task >50ms; DOM cố định 1166 node. Dữ liệu ở `performance-corners.json`. Không coi là chứng nhận FPS/GPU hoặc thử trên thiết bị thật.
+- Chưa thử điện thoại/tablet vật lý, Safari/Firefox hoặc screen reader thực tế. Các giới hạn thực thi UI Skills vẫn giữ nguyên.
+
+**Chỉ cập nhật nhánh feat/homepage-garden-prototype và PR #2. Không merge, deploy hoặc chuyển Giai đoạn 2. Chờ người dùng duyệt bố trí hoa góc.**
