@@ -24,3 +24,6 @@ The same applicable OpenAI output terms and no-exclusive-copyright representatio
 
 ## Current corner revision
 The full-width canopy bitmaps above are historical and no longer referenced or requested by the app. Current corner framing is authored SVG branch/leaf/petal geometry with small lilac-shaded racemes, in the scale of the initial edge decoration. It adds no generated or external raster artwork. The existing hero garden painting is unchanged.
+
+## Current A/B/C review proposals
+The connected trellis proposals reuse the existing six-spray main atlas, three-spray near atlas and shallow distant-foliage panorama. Each cell is used once per proposal; A uses two near cells and B/C three. Sizes and placement differ by composition without creating new images or claiming new asset rights. Original source/provenance and alpha preservation above remain applicable. The corner-only revision above is historical, not current.

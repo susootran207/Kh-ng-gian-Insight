@@ -16,18 +16,23 @@ main,.site-footer{position:relative;z-index:1}
  .season-panel{background:var(--cream)}
  .weekly-excerpt,.sample-preview{background:var(--paper)}
 }
-/* Small corner framing, never a continuous roof. The middle stays empty. */
-.top-garland{position:absolute;inset:0 0 auto;height:190px;z-index:21;pointer-events:none;overflow:clip}
-.corner-frame{width:100%;mask-size:100% 100%;mask-repeat:no-repeat;-webkit-mask-size:100% 100%;-webkit-mask-repeat:no-repeat}
-.corner-frame[data-ready=false]{visibility:hidden}
-.corner-wisteria{position:absolute;top:0;width:240px;height:176px;pointer-events:none}
-.corner-left{left:-3px}
-.corner-right{right:-3px;width:224px;height:165px;transform:scaleX(-1)}
-.corner-branches{opacity:.58}
-.corner-blooms{opacity:.73}
-.corner-near{opacity:.83}
-.corner-raceme{animation:corner-sway var(--sway) ease-in-out var(--delay) infinite alternate}
-@keyframes corner-sway{from{transform:rotate(calc(var(--arc)*-1))}to{transform:rotate(var(--arc))}}
+/* Three reviewable compositions: B is provisional, A and C remain available. */
+.top-garland{position:absolute;inset:0 0 auto;height:220px;z-index:21;pointer-events:none;overflow:clip}
+.living-trellis{width:100%;mask-size:100% 100%;mask-repeat:no-repeat;-webkit-mask-size:100% 100%;-webkit-mask-repeat:no-repeat}
+.living-trellis[data-ready=false]{visibility:hidden}
+.canopy-layer{position:absolute;inset:0;pointer-events:none}
+.trellis-distant-leaves{position:absolute;inset:-15px 0 auto;height:100px;background:url('/canopy-roof.webp') top center/100% 100% no-repeat;opacity:.33;filter:blur(.4px);pointer-events:none}
+[data-variant=A] .trellis-distant-leaves{opacity:.23}
+[data-variant=C] .trellis-distant-leaves{opacity:.29}
+.trellis-branches{width:100%;height:210px;opacity:.64}
+.trellis-blooms{opacity:.85}
+.trellis-near{opacity:.91}
+.botanical-spray{position:absolute;aspect-ratio:1;animation:trellis-sway var(--sway) ease-in-out var(--delay) infinite alternate}
+.near-botanical{aspect-ratio:2/3}
+.botanical-paint{width:100%;height:100%;background-repeat:no-repeat;mask-image:linear-gradient(to right,transparent,#000 4%,#000 96%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,#000 4%,#000 96%,transparent)}
+.main-botanical .botanical-paint{background-image:url('/canopy-blooms.webp');background-size:300% 200%}
+.near-botanical .botanical-paint{background-image:url('/canopy-foreground.webp');background-size:300% 100%}
+@keyframes trellis-sway{from{transform:rotate(calc(var(--lean) - var(--arc)))}to{transform:rotate(calc(var(--lean) + var(--arc)))}}
 .petal-field{position:fixed;inset:0;overflow:clip;pointer-events:none;transition:opacity .7s ease}
 .petal-field-back{z-index:0}
 .petal-field-front{z-index:3}
@@ -67,16 +72,15 @@ main,.site-footer{position:relative;z-index:1}
 [data-quiet=true] .petal,[data-quiet=true] .petal i,[data-quiet=true] .canopy-cluster{animation-play-state:paused!important}
 [data-atmosphere-paused=true] .scroll-companion,[data-quiet=true] .scroll-companion,[data-motion=off] .scroll-companion{visibility:hidden;opacity:0;transition:none}
 @media(max-width:1099px){
- .top-garland{height:155px}
- .corner-wisteria{width:180px;height:132px}
- .corner-right{width:168px;height:123px}
+ .top-garland{height:185px}
  .petal-field-back .petal:nth-child(n+11){display:none}
  .navigation.open{background:rgb(247 243 233 / .98)}
 }
 @media(max-width:699px){
- .top-garland{height:120px}
- .corner-left{width:110px;height:81px;opacity:.65}
- .corner-right{width:156px;height:114px;opacity:1}
+ .top-garland{height:140px}
+ .trellis-distant-leaves{height:60px;top:-11px;background-image:url('/canopy-roof-small.webp');opacity:.26;filter:none}
+ .main-botanical .botanical-paint{background-image:url('/canopy-blooms-small.webp')}
+ .near-botanical .botanical-paint{background-image:url('/canopy-foreground-small.webp')}
  .petal-field-back .petal:nth-child(n+7){display:none}
  .petal-field-front .petal:nth-child(n+3){display:none}
  .petal-field-front .petal{opacity:.16}

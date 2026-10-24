@@ -1,59 +1,19 @@
 import { useLayoutEffect, useRef, useState, type CSSProperties } from 'react'
 
-type Spray = {x:number; y:number; length:number; width:number; lean:number; time:number; phase:number}
-const leftSprays:Spray[] = [
-  {x:16,y:18,length:132,width:7.4,lean:5,time:12.7,phase:-8},
-  {x:36,y:7,length:101,width:6.8,lean:-3,time:15.1,phase:-2},
-  {x:66,y:1,length:65,width:5.2,lean:4,time:13.8,phase:-10},
-  {x:111,y:-15,length:40,width:4.4,lean:-2,time:16.4,phase:-5},
-  {x:178,y:-13,length:31,width:3.6,lean:2,time:14.6,phase:-12},
-  {x:247,y:-18,length:28,width:3,lean:-1,time:17.8,phase:-7},
-]
-const rightSprays:Spray[] = [
-  {x:16,y:11,length:116,width:7,lean:4,time:14.3,phase:-4},
-  {x:32,y:4,length:88,width:6.3,lean:-4,time:16.1,phase:-11},
-  {x:63,y:-2,length:59,width:4.9,lean:3,time:13.5,phase:-6},
-  {x:116,y:-13,length:37,width:3.9,lean:-2,time:18.1,phase:-2},
-  {x:185,y:-15,length:29,width:3.2,lean:2,time:15.4,phase:-9},
-  {x:260,y:-19,length:25,width:2.7,lean:0,time:19.2,phase:-13},
-]
+import { readWisteriaVariant, wisteriaVariants, type BotanicalSpray } from './wisteriaVariants'
 
-function Raceme({spray,paint,near=false}:{spray:Spray;paint:string;near?:boolean}) {
-  const rows=Math.ceil(spray.length/12)
-  return <g className="canopy-cluster corner-raceme" data-length={spray.length} style={{transformOrigin:`${spray.x}px ${spray.y}px`,'--arc':near?'1.6deg':'1.1deg','--sway':`${spray.time}s`,'--delay':`${spray.phase}s`} as CSSProperties}>
-    <path d={`M${spray.x} ${spray.y}q${spray.lean} ${spray.length*.48} 0 ${spray.length}`} fill="none" stroke="#9aa58b" strokeWidth=".65"/>
-    {Array.from({length:rows},(_,i)=>{
-      const t=1-i/rows,yy=spray.y+7+i*11,bulge=spray.width*t,x=spray.x+Math.sin(i/rows*Math.PI)*spray.lean
-      return <g key={i} transform={`translate(${x} ${yy}) scale(${.42+t*.5})`}>
-        <path d={`M0 1C${-bulge*.6} -8 ${-bulge*2} -6 ${-bulge*1.6} 1Q${-bulge} 8 0 1Z`} fill={`url(#${paint})`}/>
-        <path d={`M0 5C${bulge*.6} -4 ${bulge*2} -1 ${bulge*1.6} 5Q${bulge} 12 0 5Z`} fill={i%3===0?'#c6b2d8':i%3===1?'#b7a0ca':'#d4c3e1'}/>
-      </g>
-    })}
-  </g>
-}
-
-function CornerWisteria({side}:{side:'left'|'right'}) {
-  const sprays=side==='left'?leftSprays:rightSprays
-  const paint=`corner-petal-${side}`
-  return <svg className={`corner-wisteria corner-${side}`} viewBox="0 0 300 220" fill="none">
-    <defs><linearGradient id={paint} x1="0" y1="0" x2="1" y2="1"><stop stopColor="#a88dbf"/><stop offset=".5" stopColor="#bca5ce"/><stop offset="1" stopColor="#d8cae4"/></linearGradient></defs>
-    <g className="canopy-layer corner-branches" data-depth="back">
-      <path d="M-8 47C-2 20 13 9 57 7S138 11 174 5 250 8 298 1M1-5C14 27-3 58 10 91S1 145 8 183" stroke="#91846e" strokeWidth="1.6" strokeLinecap="round"/>
-      <path d="M0 22Q34 25 68 1M27 8Q73 17 111 2M148 6Q181 15 217 3M4 70Q19 57 25 36" stroke="#a2aa8c" strokeWidth=".8"/>
-      {[{x:12,y:7,angle:20},{x:38,y:8,angle:-12},{x:75,y:3,angle:14},{x:135,y:5,angle:9},{x:202,y:3,angle:-5},{x:266,y:1,angle:7},{x:5,y:61,angle:70},{x:7,y:114,angle:83}].map(({x,y,angle},i)=><g key={x+':'+y} transform={`translate(${x} ${y}) rotate(${angle})`} opacity={1-i*.055}>
-        <path d="M0 0Q-13-13-23-4-16 7 0 0M1 0Q15-12 25-4 17 7 1 0" fill={i%2?'#a1ae8d':'#b2bba0'}/><path d="m-18-3 19 3 18-3" stroke="#899979" strokeWidth=".5"/>
-      </g>)}
-    </g>
-    <g className="canopy-layer corner-blooms" data-depth="main">{sprays.map(spray=><Raceme key={spray.x} spray={spray} paint={paint}/>)}</g>
-    <g className="canopy-layer corner-near" data-depth="front"><Raceme near paint={paint} spray={{x:10,y:47,length:76,width:7.5,lean:4,time:11.4,phase:side==='left'?-4:-9}}/></g>
-  </svg>
-}
+// Atlas roots match each individually painted botanical twig, not a uniform bar.
+const rootAnchors=[.75,.52,.68,.38,.47,.42]
 
 const protectedSelectors='.site-header .brand,.navigation>a,.menu-button,.hero-copy h1,.hero-description,.hero-copy .button,.hero-note,.garden-wrap'
 
 export function TopCanopy() {
   const root=useRef<HTMLDivElement>(null)
   const [mask,setMask]=useState('')
+  const [variant]=useState(readWisteriaVariant)
+  const [width,setWidth]=useState(()=>window.innerWidth)
+  const composition=wisteriaVariants[variant]
+  const scale=width<700?.46:width<1100?.8:1
   useLayoutEffect(()=>{
     const canopy=root.current
     if(!canopy)return
@@ -61,14 +21,15 @@ export function TopCanopy() {
     const measure=()=>{
       if(disposed)return
       const bounds=canopy.getBoundingClientRect()
+      setWidth(bounds.width)
       const holes=Array.from(document.querySelectorAll<HTMLElement>(protectedSelectors))
         .filter(el=>getComputedStyle(el).display!=='none')
         .map(el=>el.getBoundingClientRect())
         .filter(box=>box.width>0 && box.height>0 && box.top<bounds.bottom+20 && box.bottom>bounds.top)
-        .map(box=>`<rect x="${box.left-bounds.left-10}" y="${box.top-bounds.top-10}" width="${box.width+20}" height="${box.height+20}" rx="10" fill="black"/>`).join('')
+        .map(box=>`<rect x="${box.left-bounds.left-16}" y="${box.top-bounds.top-16}" width="${box.width+32}" height="${box.height+32}" rx="20" fill="black"/>`).join('')
       // A content-safety mask, not a cutout approximation of the botanical art.
       // The artwork carries its original organic alpha contours independently.
-      const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${bounds.width}" height="${bounds.height}" viewBox="0 0 ${bounds.width} ${bounds.height}"><defs><filter id="soft"><feGaussianBlur stdDeviation="2"/></filter><mask id="safe" maskUnits="userSpaceOnUse" x="0" y="0" width="${bounds.width}" height="${bounds.height}"><rect width="100%" height="100%" fill="white"/><g filter="url(#soft)">${holes}</g></mask></defs><rect width="100%" height="100%" fill="white" mask="url(#safe)"/></svg>`
+      const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${bounds.width}" height="${bounds.height}" viewBox="0 0 ${bounds.width} ${bounds.height}"><defs><filter id="soft"><feGaussianBlur stdDeviation="4"/></filter><mask id="safe" maskUnits="userSpaceOnUse" x="0" y="0" width="${bounds.width}" height="${bounds.height}"><rect width="100%" height="100%" fill="white"/><g filter="url(#soft)">${holes}</g></mask></defs><rect width="100%" height="100%" fill="white" mask="url(#safe)"/></svg>`
       setMask(`url("data:image/svg+xml,${encodeURIComponent(svg)}")`)
     }
     const request=()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(measure)}
@@ -84,8 +45,32 @@ export function TopCanopy() {
     return()=>{disposed=true;cancelAnimationFrame(frame);resize.disconnect();mutation.disconnect();window.removeEventListener('resize',request)}
   },[])
 
-  return <div ref={root} className="top-garland corner-frame" data-ready={Boolean(mask)} aria-hidden="true" style={{maskImage:mask,WebkitMaskImage:mask}}>
-    <CornerWisteria side="left"/>
-    <CornerWisteria side="right"/>
+  const renderSpray=(spray:BotanicalSpray,index:number,near=false)=>{
+    const size=spray.size*scale
+    const anchor=near?.52:rootAnchors[spray.cell]
+    return <div key={spray.cell} className={`canopy-cluster botanical-spray ${near?'near-botanical':'main-botanical'}`} data-cell={spray.cell} data-position={spray.x} style={{left:`calc(${spray.x}% - ${size/2}px)`,top:`${spray.y*scale}px`,width:`${size}px`,transformOrigin:`${anchor*100}% 7%`,'--lean':`${spray.lean}deg`,'--arc':`${near?1.7:.9+(index%3)*.2}deg`,'--sway':`${near?11.3+index*1.7:14.2+index*1.3}s`,'--delay':`${-index*2.7-(near?6:2)}s`} as CSSProperties}>
+      <div className="botanical-paint" style={{backgroundPosition:near?`${spray.cell*50}% 50%`:`${(spray.cell%3)*50}% ${Math.floor(spray.cell/3)*100}%`}}/>
+    </div>
+  }
+  return <div ref={root} className="top-garland living-trellis" data-variant={variant} data-ready={Boolean(mask)} aria-hidden="true" style={{maskImage:mask,WebkitMaskImage:mask}}>
+    <div className="trellis-distant-leaves"/>
+    <svg className="canopy-layer trellis-branches" data-depth="back" viewBox={`0 0 ${width} 210`} preserveAspectRatio="none" fill="none">
+      <path className="trellis-main-branch" d={`M-6 47C${width*.04} 5 ${width*.09} 2 ${width*.19} 13S${width*.31} 32 ${width*.39} 12Q${width*.45} -2 ${width*.51} 13M${width+6} 43C${width*.96} 5 ${width*.91} -1 ${width*.83} 10S${width*.68} 28 ${width*.61} 11Q${width*.55} 2 ${width*.51} 13`} stroke="#8e8068" strokeWidth={width<700?1.5:2.5} strokeLinecap="round"/>
+      <path d={`M-3 6Q13 44 5 132M${width+2} 1Q${width-14} 54 ${width-3} 142M${width*.11} 8Q${width*.22} -5 ${width*.29} 17M${width*.71} 17Q${width*.86} -9 ${width*.97} 13`} stroke="#a99c80" strokeWidth="1.1" strokeLinecap="round"/>
+      {composition.front.map(spray=>{
+        const size=spray.size*scale,tip=spray.x/100*width+size*.02,y=spray.y*scale+size*.065
+        return <path key={spray.cell} d={`M${spray.x/100*width+18*scale} 14Q${tip+6*scale} ${y-9*scale} ${tip} ${y}`} stroke="#93866e" strokeWidth="1.2"/>
+      })}
+      {composition.main.map(spray=>{
+        const size=spray.size*scale, tip=spray.x/100*width-size/2+size*rootAnchors[spray.cell]
+        const y=spray.y*scale+size*.08
+        return <path key={spray.cell} d={`M${spray.x/100*width-14*scale} 12Q${tip-8*scale} ${y-7*scale} ${tip} ${y}`} stroke="#9d9479" strokeWidth="1.1"/>
+      })}
+      {composition.foliage.map((x,i)=><g key={x} transform={`translate(${width*x/100} ${7+(i%3)*3}) rotate(${i%2?12:-15}) scale(${width<700?.58:.9})`}>
+        <path d="M0 0C-8-13-21-14-25-6-18 3-8 5 0 0M1 0C11-11 23-12 28-3 18 6 9 5 1 0" fill={i%3?'#a7b390':'#bdc3a8'}/><path d="m-20-5 21 5 21-2" stroke="#829574" strokeWidth=".6"/>
+      </g>)}
+    </svg>
+    <div className="canopy-layer trellis-blooms" data-depth="main">{composition.main.map((spray,i)=>renderSpray(spray,i))}</div>
+    <div className="canopy-layer trellis-near" data-depth="front">{composition.front.map((spray,i)=>renderSpray(spray,i,true))}</div>
   </div>
 }

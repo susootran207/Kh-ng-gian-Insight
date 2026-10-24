@@ -1,0 +1,19 @@
+{
+  "method": "Provisional variant B; after local botanical backgrounds decode and 500ms settling; 240 rAF samples while scrolling. Headless Chromium 154, no CPU throttle. Not physical-device or GPU FPS certification.",
+  "results": [
+    {
+      "width": 1440,
+      "medianFrameGapMs": 16.7,
+      "p95FrameGapMs": 18.3,
+      "maxFrameGapMs": 23.2,
+      "longTasksOver50ms": []
+    },
+    {
+      "width": 390,
+      "medianFrameGapMs": 16.7,
+      "p95FrameGapMs": 16.9,
+      "maxFrameGapMs": 17.3,
+      "longTasksOver50ms": []
+    }
+  ]
+}

@@ -87,7 +87,7 @@ This revision supersedes the earlier two-edge-SVG garland (66/34/18px edge width
 The original skill execution limits remain: direct document application only, no upstream launcher, engine, detector or hook. This is a refinement of the unapproved roof, not a new visual world.
 
 
-## Corner-framing wisteria — current revision, 24 October 2026
+## Corner-framing wisteria — historical, not approved
 
 The user corrected the brief: no dense continuous roof. This section supersedes the full-width artwork design above. The new framing restores small, slender flower proportions comparable to the first edge decoration, with branches extending modestly along each top edge and a few side-hanging racemes. The large canopy was not approved.
 
@@ -99,3 +99,22 @@ The user corrected the brief: no dense continuous roof. This section supersedes 
 - The prior six WebP canopy files are retained for history but have no CSS/DOM references and produce no runtime requests. The comparison images show the real previous build (0dd63fa) and current build at identical 1440/390 viewports, quote seed and paused animation time. They are browser-rendered side-by-side comparisons, not altered site screenshots.
 
 Current evidence: `docs/prototype/screenshots/comparison/corners-before-after-{1440,390}.png`, the updated responsive screenshots, `performance-corners.json` and the latest REVIEW section. Skill execution limits remain unchanged; no engine or hook was run.
+
+
+## Three living-trellis proposals — current review round, not approved
+
+The user rejected the sparse corner framing and requested a connected span with natural, moderate floral density. The new review round has three independent configurations in `wisteriaVariants.ts`; none is finalized. `?wisteria=A|B|C` previews each on the same homepage; omitted/unknown values use B provisionally. This is a decorative configuration parameter, not Phase 2 routing, a publishing system, or a persisted user preference.
+
+- A: moderate corner groupings, fewer/lighter center flowers, broad breathing spaces.
+- B: moderate-to-rich distribution with a narrow long raceme at the middle, a near-view middle spray, unequal attachment points/lengths, and corners fuller than the center. Provisional default only.
+- C: fuller corners with longer near-view drops; smaller separated middle sprays retain openness.
+
+All use the same six individually painted middle-spray cells, once per variant, plus two (A) or three (B/C) distinct near-spray cells. Main artwork widths are 74–146px desktop, not the previous 300–440px blocks. Near painting sizes account for its different atlas proportions so petal scale stays in the same visual range; extra density comes from multiple racemes and layered placement, not enormous petals.
+
+A continuous, gently forked branch skeleton grows from both corners with smaller connectors targeting the painted twig roots. A light, shallow background panorama of distant foliage provides the back plane; main and near flowers vary opacity and offset 11–21s sway. After the initial capture, straight parallel lines and over-occluded middle clusters were refined before the review images were generated. The result avoids a regular row of duplicated pendants.
+
+The inherited safety mask, glass surfaces and input-priority behavior remain. Top decoration is bounded to 220px desktop / 185px tablet / 140px mobile; these are decoration bounds and add no layout height. Mobile scales sprigs to 46% and uses half-resolution art while keeping both ends and middle plants. No canvas/WebGL, new external asset, dependency, backend or storage.
+
+Images: `docs/prototype/screenshots/variants/hero-{A,B,C}-1440.png`, top crops, and `canopy-options-1440.png`. All were captured with viewport 1440×1000, quote seed .5, local font/art readiness and every animation paused at 1000ms. The comparison board uses identically cropped screenshot regions, not different mockups. All variants remain in the build for user selection. Existing hero, Mây, quote, petals, timeline, reflection/privacy, typography and global layout source files are unchanged.
+
+Evidence: 24 passing project-owned browser tests, including stable non-decoration geometry across A/B/C, mask safety, mobile controls for all alternatives, B default/fallback, reduced motion and retained original interactions. Existing skill runtime limits remain unchanged. This round stops for the user's visual choice; no merge, deployment or Phase 2.

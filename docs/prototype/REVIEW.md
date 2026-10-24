@@ -15,7 +15,7 @@ Font Cormorant Garamond và Be Vietnam Pro có subset tiếng Việt, được �
 
 - `npm install`: thành công; dependency được khóa trong package-lock.json.
 - `npm run build`: TypeScript strict và Vite production build thành công.
-- `npm run test:e2e`: **20/20 bài kiểm thử đạt**, chạy trên bản production build bằng Chromium 154, Playwright 1.64.1.
+- `npm run test:e2e`: **24/24 bài kiểm thử đạt**, chạy trên bản production build bằng Chromium 154, Playwright 1.64.1.
 - 320, 390, 768, 1440px: không tràn ngang; font tiếng Việt và ảnh local tải được; không có pageerror hoặc request bên ngoài.
 - Axe WCAG 2 A/AA và 2.1 AA: không phát hiện vi phạm ở bốn viewport mặc định và một trạng thái nội dung mở rộng. Đây là quét tự động, không phải chứng nhận accessibility.
 - Menu mobile: mở bằng bàn phím, Escape đóng và trả focus; liên kết đúng section; tải lại anchor không lỗi.
@@ -172,3 +172,36 @@ Người dùng điều chỉnh lại brief: **không dùng mái lớn/dày/full-
 - Chưa thử điện thoại/tablet vật lý, Safari/Firefox hoặc screen reader thực tế. Các giới hạn thực thi UI Skills vẫn giữ nguyên.
 
 **Chỉ cập nhật nhánh feat/homepage-garden-prototype và PR #2. Không merge, deploy hoặc chuyển Giai đoạn 2. Chờ người dùng duyệt bố trí hoa góc.**
+
+
+## Vòng duyệt hiện tại: ba phương án A/B/C — chưa chốt
+
+Người dùng chưa duyệt bản hai góc và yêu cầu giàn nối ngang, tự nhiên, có hoa ở giữa và ba phương án trực quan. Bản hai góc cũng như bản mái lớn trước đó chỉ còn là lịch sử thử nghiệm. **B là mặc định tạm theo ưu tiên của người dùng; A/C không bị xóa và chưa phương án nào được xem là đã duyệt.**
+
+### Ảnh để lựa chọn
+
+- [Bảng A/B/C cùng tỷ lệ](screenshots/variants/canopy-options-1440.png)
+- [A — toàn viewport 1440px](screenshots/variants/hero-A-1440.png)
+- [B — toàn viewport 1440px](screenshots/variants/hero-B-1440.png)
+- [C — toàn viewport 1440px](screenshots/variants/hero-C-1440.png)
+
+Cùng viewport 1440×1000, quote seed .5, font/art local đã tải, cùng thời điểm animation 1000ms và cùng cách chụp. Bảng ghép sử dụng cùng vùng cắt từ ba screenshot thật. Không thay đổi hero hoặc typography giữa các phương án.
+
+A tập trung vào khoảng nghỉ, hai góc rõ và giữa ít chùm hơn. B có thêm hoa giữa và cành nối/phân nhánh, mật độ vừa-dày nhưng không dùng chùm khổng lồ. C tăng độ sum suê/chiều rủ ở hai góc và giữ giữa thoáng. Cả ba dùng artwork hoa có hình khối đã có, tỷ lệ nhỏ hơn nhiều so với mái lớn trước; không tạo dải tím liền che hero.
+
+Đã tự xem ảnh lần đầu: cành còn giống đường treo và vài cụm giữa bị menu che nhiều. Sau đó đã sửa cấu trúc nhánh, bổ sung tán xa nhẹ và bố trí lại hoa giữa trước khi tạo bộ ảnh cuối. Đây vẫn là các đề xuất thẩm mỹ để người dùng chọn, không tuyên bố thiết kế đã được duyệt.
+
+### Phạm vi giữ nguyên
+
+Không đổi HTML gốc, App.tsx, global.css, Wisteria.tsx, CatGarden/CatArt/ScrollCompanion/GardenAtmosphere, tranh và khung hero, quote, petals, timeline, Góc tâm tình, palette hoặc font. Chỉ thay hệ giàn hoa, cấu hình biến thể và kiểm thử tương ứng. Chưa tạo tính năng nào của Giai đoạn 2.
+
+### Kiểm tra
+
+- Production build đạt; **24/24 kiểm thử đạt** trên Chromium cloud.
+- A/B/C ở 1440px, B ở 768/390px: vùng alpha bảo vệ nội dung <=4/255, art local decode được, pointer-events:none, không canvas. Có cây/hoa giữa và giới hạn kích thước artwork <=146px desktop.
+- B mặc định/fallback; A/C mở được qua tham số preview và có cấu hình khác nhau. Tọa độ/kích thước logo, hero, khung vườn và quote giống nhau giữa ba phương án khi dùng cùng nội dung ngẫu nhiên.
+- Cả A/B/C trên mobile: menu, nhập/thả đèn và vùng an toàn tiếp tục đạt. Kiểm thử 320/390/768/1440px, Axe trong phạm vi đã kiểm tra, Mây chuột/cảm ứng mô phỏng/bàn phím, quote, timeline, bản đọc, quyền riêng tư và giảm chuyển động đều tiếp tục đạt.
+- Không dependency hoặc asset bên ngoài mới. Dùng lại ba artwork local và bản nhỏ trên mobile; panorama chỉ là tán xa thấp/nhạt, không quay lại mảng mái lớn cũ.
+- Mẫu B sau art decode + 500ms, 240 callback cuộn: p95 18,3ms desktop và 16,9ms mobile; không long task >50ms. Dữ liệu: `performance-variants-B.json`. Không coi là chứng nhận FPS/GPU hay kiểm thử thiết bị thật; Safari/Firefox/screen reader và thiết bị vật lý vẫn chưa thử.
+
+Hướng dẫn mở từng biến thể trong [README ảnh](screenshots/variants/README.md). Chỉ cập nhật PR #2 trên nhánh hiện có. **Dừng chờ người dùng chọn A/B/C; không merge, deploy hoặc chuyển Giai đoạn 2.**
