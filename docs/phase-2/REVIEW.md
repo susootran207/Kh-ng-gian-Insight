@@ -38,7 +38,7 @@ Node 22.18+; khuyến nghị Node 24. Chromium tại `/usr/bin/chromium` hoặc 
 
 ## Kiểm thử
 
-Kết quả cuối cùng và môi trường được ghi trong [verification.json](verification.json).
+**Kết quả cuối: build + publication guard đạt; development 30/30; production 4/4.** Môi trường và từng kiểm tra được ghi trong [verification.json](verification.json).
 
 - TypeScript strict, Vite production và publication guard: kiểm tra lựa chọn đủ bốn trạng thái; published thiếu hồ sơ bị từ chối; loại link bài nháp khỏi chuyên đề; leak canary phải bị phát hiện; quét mọi file dist, gồm assets sao chép từ public; không source map.
 - Bộ Chromium development gồm 22 kiểm tra kế thừa và 8 kiểm tra luồng đọc. Các trang mới được kiểm tra overflow, keyboard/skip link và Axe ở 320/390/768/1440px. Tìm kiếm gồm dấu/không dấu, hoa/thường, tiêu đề/mô tả/từ khóa, tổ hợp bộ lọc, rỗng, reset, reload và lịch sử.
