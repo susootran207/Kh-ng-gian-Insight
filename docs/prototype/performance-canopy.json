@@ -1,0 +1,33 @@
+{
+  "environment": "Headless Chromium 154 on managed cloud executor. No CPU throttling. 240 requestAnimationFrame samples during programmatic full-page scroll per viewport. Frame callback spacing is not a GPU or physical-device FPS certification.",
+  "results": [
+    {
+      "width": 1440,
+      "frames": 240,
+      "medianFrameGapMs": 16.7,
+      "p95FrameGapMs": 24.1,
+      "maxFrameGapMs": 174.9,
+      "longTasksOver50ms": [],
+      "initialNodes": 841,
+      "finalNodes": 841,
+      "petalNodes": 20,
+      "visiblePetalNodes": 20,
+      "companionVisit": "true",
+      "companionAction": "look"
+    },
+    {
+      "width": 390,
+      "frames": 240,
+      "medianFrameGapMs": 16.7,
+      "p95FrameGapMs": 17.3,
+      "maxFrameGapMs": 46.1,
+      "longTasksOver50ms": [],
+      "initialNodes": 841,
+      "finalNodes": 841,
+      "petalNodes": 20,
+      "visiblePetalNodes": 8,
+      "companionVisit": "true",
+      "companionAction": "look"
+    }
+  ]
+}

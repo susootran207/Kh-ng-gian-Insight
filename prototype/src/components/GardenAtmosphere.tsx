@@ -1,0 +1,73 @@
+import { useEffect, useState, type CSSProperties } from 'react'
+import { ScrollCompanion } from './ScrollCompanion'
+import { TopCanopy } from './TopCanopy'
+
+// Bounded, deterministic distribution. Negative phases avoid a synchronized start;
+// no per-frame JS, particle creation loop, network request, or canvas.
+const petals = Array.from({ length: 16 }, (_, i) => ({
+  x: (i * 37 + 7) % 98,
+  size: 5 + (i * 7) % 8,
+  duration: 23 + (i * 11) % 21,
+  delay: -((i * 13 + 3) % 41),
+  drift: (i % 2 ? -1 : 1) * (22 + (i * 17) % 68),
+  opacity: .14 + (i % 4) * .035,
+}))
+
+
+export function GardenAtmosphere({ motionOff }: { motionOff: boolean }) {
+  const [available, setAvailable] = useState(false)
+  const [quiet, setQuiet] = useState(false)
+  const [withinJourney, setWithinJourney] = useState(true)
+
+  useEffect(() => {
+    const preference=matchMedia('(prefers-reduced-motion: reduce)')
+    let rest:ReturnType<typeof setTimeout> | undefined
+    const update=()=>setAvailable(!document.hidden && !preference.matches)
+    const focused=()=>document.activeElement?.matches('input,textarea,button,a,summary,[tabindex]:not([tabindex="-1"])') ?? false
+    const interrupt=()=>{
+      setQuiet(true)
+      clearTimeout(rest)
+      rest=setTimeout(()=>setQuiet(focused()),7000)
+    }
+    const focusOut=()=>{
+      clearTimeout(rest)
+      rest=setTimeout(()=>setQuiet(focused()),4500)
+    }
+    const footer=document.querySelector('.site-footer')
+    const observer=new IntersectionObserver(([entry])=>setWithinJourney(!entry.isIntersecting))
+    if(footer)observer.observe(footer)
+    const canopy=document.querySelector<HTMLElement>('.top-garland')
+    const canopyObserver=new IntersectionObserver(([entry])=>{
+      if(canopy)canopy.dataset.paused=String(!entry.isIntersecting)
+    })
+    if(canopy)canopyObserver.observe(canopy)
+    update()
+    preference.addEventListener('change',update)
+    document.addEventListener('visibilitychange',update)
+    document.addEventListener('focusin',interrupt)
+    document.addEventListener('focusout',focusOut)
+    document.addEventListener('pointerdown',interrupt,{passive:true})
+    document.addEventListener('keydown',interrupt)
+    return()=>{
+      clearTimeout(rest);observer.disconnect();canopyObserver.disconnect()
+      preference.removeEventListener('change',update)
+      document.removeEventListener('visibilitychange',update)
+      document.removeEventListener('focusin',interrupt)
+      document.removeEventListener('focusout',focusOut)
+      document.removeEventListener('pointerdown',interrupt)
+      document.removeEventListener('keydown',interrupt)
+    }
+  },[])
+
+  const enabled=available&&!motionOff
+  return <div className="garden-atmosphere" data-atmosphere-paused={!enabled} data-quiet={quiet} aria-hidden="true">
+    <div className="petal-field petal-field-back" data-journey={withinJourney}>
+      {petals.map((petal,i)=><span key={i} className={`petal petal-${i}`} style={{left:`${petal.x}%`,'--petal-size':`${petal.size}px`,'--fall-time':`${petal.duration}s`,'--phase':`${petal.delay}s`,'--wind':`${petal.drift}px`,'--petal-opacity':petal.opacity} as CSSProperties}><i/></span>)}
+    </div>
+    <TopCanopy/>
+    <div className="petal-field petal-field-front" data-journey={withinJourney}>
+      {petals.slice(0,4).map((petal,i)=><span key={i} className="petal" style={{left:i%2?'calc(100% - 12px)':'9px','--petal-size':`${petal.size*.8}px`,'--fall-time':`${petal.duration+7}s`,'--phase':`${petal.delay-8}s`,'--wind':i%2?'-3px':'3px','--petal-opacity':.22} as CSSProperties}><i/></span>)}
+    </div>
+    <ScrollCompanion enabled={enabled&&!quiet}/>
+  </div>
+}

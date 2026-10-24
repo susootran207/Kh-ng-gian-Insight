@@ -1,0 +1,40 @@
+{
+  "approval": {
+    "phase": 1,
+    "design": "B",
+    "approved_by": "user",
+    "date": "2026-10-24"
+  },
+  "build": "passed",
+  "browser_tests": {
+    "passed": 22,
+    "failed": 0,
+    "engine": "Chromium 154",
+    "viewport_widths": [
+      320,
+      390,
+      768,
+      1440
+    ]
+  },
+  "visual_verification": {
+    "reference_commit": "b490894",
+    "reference": "docs/prototype/screenshots/variants/hero-B-1440.png",
+    "final": "docs/prototype/screenshots/approved/hero-B-1440.png",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "quote_seed": 0.5,
+    "animation_time_ms": 1000,
+    "rgb_pixels_identical": true,
+    "reference_sha256": "a3f06466140059c091c1f731d0bdc74ac69d3352843ce2d5e263dd2c890f78a5",
+    "final_sha256": "a3f06466140059c091c1f731d0bdc74ac69d3352843ce2d5e263dd2c890f78a5"
+  },
+  "original_html_sha256": "4f78efcea9aa8b57f0603261abc4af3a56efb35111646bb7a9fbd7e7c70a4928",
+  "scope": {
+    "auto_merge": false,
+    "deployment": false,
+    "phase_2": false
+  }
+}
