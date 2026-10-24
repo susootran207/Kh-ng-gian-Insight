@@ -1,0 +1,189 @@
+{
+  "articles": [
+    {
+      "slug": "khi-mua-thi-den-gan",
+      "title": "Khi mùa thi đến gần",
+      "description": "Một khoảng dừng giữa những trang vở và kỳ vọng.",
+      "topic": "Áp lực học tập",
+      "season": "Mùa thi",
+      "keywords": [
+        "thi cử",
+        "kỳ vọng",
+        "bài kiểm tra"
+      ],
+      "status": "draft",
+      "updated": "2026-10-24",
+      "readingMinutes": 3,
+      "sections": [
+        {
+          "id": "goi-ten",
+          "heading": "Gọi tên điều đang bận lòng",
+          "paragraphs": [
+            "Lịch kiểm tra kín dần. Bạn mở sách nhưng lại nghĩ đến kết quả, đến lời hỏi han của gia đình, đến những điều mình chưa kịp học. Trong trang mẫu này, hãy thử tưởng tượng một khoảng dừng để viết xuống điều khiến bạn bận lòng.",
+            "Không cần có một câu trả lời hoàn chỉnh. Có thể đó là một môn học, một hạn nộp bài, hoặc cảm giác chưa biết bắt đầu từ đâu. Đây là tình huống minh họa để kiểm tra nhịp đọc, chưa phải hướng dẫn chuyên môn."
+          ]
+        },
+        {
+          "id": "mot-viec-nho",
+          "heading": "Bắt đầu từ một việc nhỏ",
+          "paragraphs": [
+            "Một việc nhỏ để thử trong tình huống giả định: chọn một phần bài vừa sức, dành một khoảng thời gian ngắn cho phần đó, rồi nghỉ. Bạn có thể điều chỉnh nhịp học theo hoàn cảnh và trao đổi với thầy cô về phần cần ưu tiên."
+          ],
+          "note": "Ghi chú biên tập: cần đối chiếu nguồn và rà soát cách diễn đạt trước khi xuất bản."
+        },
+        {
+          "id": "tim-nguoi",
+          "heading": "Có người cùng nhìn lại",
+          "paragraphs": [
+            "Nếu việc học khiến sinh hoạt bị ảnh hưởng hoặc bạn thấy khó tự xoay xở, hãy tìm một người lớn tin cậy để cùng bàn cách hỗ trợ. Trang đọc này không thay thế một cuộc trao đổi phù hợp với hoàn cảnh riêng của bạn."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "WHO — Doing What Matters in Times of Stress (tài liệu để đối chiếu khi biên tập)",
+          "url": "https://www.who.int/publications/i/item/9789240003927"
+        }
+      ]
+    },
+    {
+      "slug": "o-giua-lop",
+      "title": "Ở giữa lớp, vẫn thấy một mình",
+      "description": "Về những khoảng cách không thể đo bằng chỗ ngồi.",
+      "topic": "Bạn bè & kết nối",
+      "season": "Đầu năm",
+      "keywords": [
+        "bạn bè",
+        "cô đơn",
+        "kết nối"
+      ],
+      "status": "in_review",
+      "updated": "2026-10-24",
+      "readingMinutes": 2,
+      "sections": [
+        {
+          "id": "khoang-cach",
+          "heading": "Một lớp học đông",
+          "paragraphs": [
+            "Một lớp học đông không có nghĩa ai cũng dễ tìm được người để trò chuyện. Trong tình huống minh họa này, một bạn học sinh vừa chuyển lớp và vẫn chưa quen với nhịp sinh hoạt mới.",
+            "Bạn ấy chưa cần làm quen với tất cả mọi người ngay. Câu chuyện được để ngỏ, để người duyệt đánh giá giọng kể và khoảng cách giữa các đoạn văn."
+          ]
+        },
+        {
+          "id": "loi-chao",
+          "heading": "Một lời chào vừa sức",
+          "paragraphs": [
+            "Một cuộc nói chuyện nhỏ về bài học hoặc một hoạt động chung có thể là tình tiết tiếp theo của câu chuyện. Mẫu này chưa được kiểm chứng như một hướng dẫn tâm lý."
+          ],
+          "note": "Chờ biên tập và rà soát chuyên môn. Không có xác nhận của chuyên gia."
+        },
+        {
+          "id": "ho-tro",
+          "heading": "Khi cần sự hỗ trợ",
+          "paragraphs": [
+            "Nếu có chuyện bị cô lập, trêu chọc hoặc đe dọa, bạn không phải tự xử lý một mình. Hãy tìm người lớn tin cậy trong gia đình hoặc nhà trường."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "dung-ve-phia-minh",
+      "title": "Học cách đứng về phía mình",
+      "description": "Thử nói với mình như với một người bạn thân.",
+      "topic": "Hiểu bản thân",
+      "season": "Sau thi",
+      "keywords": [
+        "tự cảm thông",
+        "bản thân",
+        "sai sót"
+      ],
+      "status": "draft",
+      "updated": "2026-10-24",
+      "readingMinutes": 2,
+      "sections": [
+        {
+          "id": "sau-sai-sot",
+          "heading": "Sau một sai sót",
+          "paragraphs": [
+            "Sau một sai sót, lời nói trong đầu đôi khi rất khắt khe. Trang mẫu đặt một câu hỏi để thử nhịp đọc: nếu một người bạn đang ở tình huống này, mình sẽ nói điều gì với bạn ấy?"
+          ]
+        },
+        {
+          "id": "viet-cu-the",
+          "heading": "Viết lại bằng lời cụ thể",
+          "paragraphs": [
+            "Trong bài tập minh họa, người viết tách một việc chưa làm tốt khỏi kết luận về toàn bộ con người mình. Phần này cần được rà soát nội dung trước khi có thể dùng làm bài viết chính thức."
+          ],
+          "note": "Bản minh họa giao diện, chưa được chuyên gia duyệt."
+        },
+        {
+          "id": "nhip-rieng",
+          "heading": "Một nhịp riêng để nhìn lại",
+          "paragraphs": [
+            "Những gợi ý ở đây chỉ là điểm bắt đầu cho một cuộc trò chuyện với chính mình. Nếu điều đang trải qua quá khó, tìm người hỗ trợ là một lựa chọn bạn có thể cân nhắc."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "dem-dai-minh-chua-ngu",
+      "title": "Đêm dài, mình chưa ngủ.",
+      "description": "Khi người đã mệt mà tâm trí vẫn còn thức giữa mùa bài vở.",
+      "topic": "Giấc ngủ & nghỉ ngơi",
+      "season": "Giữa học kỳ",
+      "keywords": [
+        "giấc ngủ",
+        "nghỉ ngơi",
+        "trằn trọc"
+      ],
+      "status": "draft",
+      "updated": "2026-10-24",
+      "readingMinutes": 3,
+      "sections": [
+        {
+          "id": "khi-dem-xuong",
+          "heading": "Khi đêm xuống",
+          "paragraphs": [
+            "Đôi khi bạn đã nằm xuống nhưng vẫn nghĩ về bài kiểm tra, một cuộc nói chuyện hoặc việc chưa xong. Tình huống này được dùng làm nội dung mẫu cho chuyên đề tuần.",
+            "Bài mẫu chưa đưa ra kết luận về nguyên nhân mất ngủ và không phải hướng dẫn điều trị. Người duyệt cần kiểm tra nguồn, ngôn ngữ và tính phù hợp với học sinh."
+          ]
+        },
+        {
+          "id": "khoang-dung",
+          "heading": "Một khoảng dừng trước giấc ngủ",
+          "paragraphs": [
+            "Bạn có thể thử ghi điều đang bận lòng ra giấy, để dành một lúc khác nhìn lại. Chọn một việc nhẹ nhàng trước khi ngủ và xem điều gì phù hợp với mình."
+          ],
+          "note": "Gợi ý trong bản nháp cần được đối chiếu tài liệu và đánh giá chuyên môn trước khi xuất bản."
+        },
+        {
+          "id": "tro-chuyen",
+          "heading": "Mở một cuộc trò chuyện",
+          "paragraphs": [
+            "Nếu khó ngủ thường xuyên hoặc ảnh hưởng đến sinh hoạt, hãy trao đổi với người lớn tin cậy hoặc người có chuyên môn. Bạn không cần tự tìm một lời giải từ trang mẫu này."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "NHS — Insomnia (tài liệu để đối chiếu khi biên tập)",
+          "url": "https://www.nhs.uk/conditions/insomnia/"
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "slug": "dem-dai",
+      "title": "Đêm dài, mình chưa ngủ.",
+      "description": "Một lối đọc về giấc nghỉ, bài vở và những điều còn thức trong lòng.",
+      "status": "draft",
+      "articleSlugs": [
+        "dem-dai-minh-chua-ngu",
+        "khi-mua-thi-den-gan"
+      ]
+    }
+  ]
+}

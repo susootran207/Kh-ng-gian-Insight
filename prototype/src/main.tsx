@@ -8,7 +8,7 @@ import '@fontsource/cormorant-garamond/latin-400.css'
 import '@fontsource/cormorant-garamond/vietnamese-400.css'
 import '@fontsource/cormorant-garamond/latin-500.css'
 import '@fontsource/cormorant-garamond/vietnamese-500.css'
-import App from './App'
+import App from './reading/Router'
 import './styles/global.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App /></React.StrictMode>)

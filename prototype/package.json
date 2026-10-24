@@ -5,15 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && npm run test:content",
     "preview": "vite preview --host 0.0.0.0",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:production": "playwright test -c playwright.production.config.ts",
+    "test:content": "node --experimental-strip-types scripts/check-publication.mts"
   },
   "dependencies": {
     "@fontsource/be-vietnam-pro": "^5.2.8",
     "@fontsource/cormorant-garamond": "^5.2.8",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.10.2",

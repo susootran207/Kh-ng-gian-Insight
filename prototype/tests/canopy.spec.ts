@@ -96,7 +96,7 @@ test('trellis pauses for OS/manual reduction, tab hiding and offscreen; menu mas
   const initialMask=await roof.getAttribute('style')
   await page.getByRole('button',{name:'Menu',exact:true}).click()
   await expect.poll(()=>roof.getAttribute('style')).not.toBe(initialMask)
-  await page.getByRole('navigation').getByRole('link',{name:'Góc đọc'}).click()
+  await page.getByRole('navigation').getByRole('link',{name:'Dòng chảy'}).click()
   await expect(roof).toHaveAttribute('data-paused','true')
   expect(await roof.locator('.canopy-cluster').first().evaluate(el=>getComputedStyle(el).animationPlayState)).toBe('paused')
   await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}))

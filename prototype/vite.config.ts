@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { editorial } from './build/editorial'
 
-// Relative assets keep this review-only prototype portable under a repository path.
-// Full article routing belongs to Phase 2; no publishing workflow is installed.
-export default defineConfig({ plugins: [react()], base: './' })
+// Relative assets + HashRouter support GitHub Pages repository paths and reloads.
+export default defineConfig({ plugins: [react(), editorial()], base: './', build:{sourcemap:false} })
