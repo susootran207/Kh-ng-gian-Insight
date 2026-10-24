@@ -1,13 +1,15 @@
 # Không Gian Nội Tâm
 
-## Acceptance status — 24 October 2026
-Phase 1 was approved with wisteria B and merged through PR #2. The user explicitly authorized Phase 2 (reading flow and sample content) on 24 October 2026. Phase 2 is implemented on a separate branch for review; it is not yet user-approved, merged or deployed. Phase 3 remains unauthorized.
+## Acceptance status — 25 October 2026
+Phase 1 (wisteria B) and Phase 2 are user-approved; PR #2 and #3 are merged. The user selected Phase 3 option B: preserve the original 24 core topics and add 5 extension topics. ONLY batch 3.1 is authorized: editorial foundation, planning records and a review PR. No individual article, expert approval, publication, later batch, merge or deployment is authorized.
 
 ## Product and audience
 A Vietnamese school-wellbeing frontend for students who want a calm place to read, pause, and understand everyday school experiences. No diagnosis, treatment, crisis-response service, account, backend, or human inbox is provided.
 
 ## Current authorization
-Phase 2: preserve the approved homepage and extend React + TypeScript + Vite in `prototype/` with HashRouter, an editorial library, article and topic reading pages, and a development-only preview/publication boundary. No backend, authentication, 24-article collection, merge or hosting deployment. The original `Không Gian Nội Tâm.html` remains immutable (SHA-256 `4f78efcea9aa8b57f0603261abc4af3a56efb35111646bb7a9fbd7e7c70a4928`).
+Batch 3.1 only. See [Phase 3 plan](docs/phase-3/PLAN.md), [29-topic matrix](docs/phase-3/MATRIX.md) and [standards](docs/phase-3/STANDARDS.md). Planning data remains outside the website catalogue. No runtime/schema change is necessary in this batch. The library remains extensible beyond 29 items. Preserve the original HTML and all Phase 1–2 design and behavior. Open a separate PR; do not merge or deploy. Batch 3.2 requires explicit new authorization.
+
+The original `Không Gian Nội Tâm.html` remains immutable (SHA-256 `4f78efcea9aa8b57f0603261abc4af3a56efb35111646bb7a9fbd7e7c70a4928`).
 
 ## Phase 1 acceptance
 - New React + TypeScript + Vite project under `prototype/`.
