@@ -1,0 +1,1595 @@
+{
+  "version": 1,
+  "scope": "planning-only; not imported by website",
+  "selection": "B",
+  "articles": [
+    {
+      "id": "KGNT-C01",
+      "title": "Hôm nay mình đang cảm thấy gì?",
+      "slug": "hom-nay-minh-cam-thay-gi",
+      "collection": "core",
+      "topic": "Cảm xúc và bản thân",
+      "keywords": [
+        "cảm xúc",
+        "nhận diện"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Gọi tên ba cảm xúc trong ví dụ",
+        "understand": "Phân biệt cảm xúc và hành động",
+        "apply": "Mô tả cảm xúc của nhân vật từ tình huống"
+      },
+      "candidateConcepts": [
+        "emotion",
+        "emotional awareness"
+      ],
+      "researchDirection": "Tổng quan về nhận biết cảm xúc ở thanh thiếu niên; kiểm tra định nghĩa và khác biệt văn hóa",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Sơ đồ cảm xúc–tín hiệu–hành động",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Đầu năm",
+      "relatedArticleIds": [
+        "KGNT-C02"
+      ],
+      "topicIds": [
+        "T01"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C02",
+      "title": "Khi lo lắng ghé đến trước giờ học",
+      "slug": "lo-lang-truoc-gio-hoc",
+      "collection": "core",
+      "topic": "Cảm xúc và bản thân",
+      "keywords": [
+        "lo lắng",
+        "trường học"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện hai biểu hiện lo lắng",
+        "understand": "Phân biệt lo lắng tình huống với kết luận chẩn đoán",
+        "apply": "Chọn một bước ứng phó và người hỗ trợ cho nhân vật"
+      },
+      "candidateConcepts": [
+        "anxiety",
+        "stress response"
+      ],
+      "researchDirection": "Hướng dẫn chuyên môn và tổng quan lo lắng ở học sinh; giới hạn của gợi ý tự hỗ trợ",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Lưu đồ tình huống–lựa chọn–hỗ trợ",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Giữa học kỳ",
+      "relatedArticleIds": [
+        "KGNT-C03"
+      ],
+      "topicIds": [
+        "T01"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C03",
+      "title": "Một sai sót không kể hết về bạn",
+      "slug": "dung-ve-phia-minh",
+      "collection": "core",
+      "topic": "Cảm xúc và bản thân",
+      "keywords": [
+        "sai sót",
+        "tự trắc ẩn"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện lời tự phê bình",
+        "understand": "Phân biệt sự việc với phán xét toàn bộ bản thân",
+        "apply": "Viết lại một nhận xét về sai sót của nhân vật"
+      },
+      "candidateConcepts": [
+        "self-compassion",
+        "self-criticism"
+      ],
+      "researchDirection": "Tài liệu gốc định nghĩa tự trắc ẩn và tổng quan trên thanh thiếu niên; phân biệt với dễ dãi",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Hai cách diễn giải cùng sự việc",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Sau thi",
+      "relatedArticleIds": [
+        "KGNT-C04"
+      ],
+      "topicIds": [
+        "T02"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C04",
+      "title": "Khi cơn giận đến trước lời nói",
+      "slug": "con-gian-truoc-loi-noi",
+      "collection": "core",
+      "topic": "Cảm xúc và bản thân",
+      "keywords": [
+        "cơn giận",
+        "điều tiết"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện tín hiệu cơn giận",
+        "understand": "Phân biệt cảm xúc giận với hành vi gây hại",
+        "apply": "Chọn cách tạm dừng an toàn trong tình huống"
+      },
+      "candidateConcepts": [
+        "anger",
+        "emotion regulation"
+      ],
+      "researchDirection": "Tổng quan điều tiết cảm xúc ở tuổi vị thành niên; không hứa triệt tiêu cảm xúc",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Chuỗi tín hiệu–tạm dừng–lựa chọn",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Giữa học kỳ",
+      "relatedArticleIds": [
+        "KGNT-C01"
+      ],
+      "topicIds": [
+        "T01"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C05",
+      "title": "Khi mùa thi đến gần",
+      "slug": "khi-mua-thi-den-gan",
+      "collection": "core",
+      "topic": "Học tập và thi cử",
+      "keywords": [
+        "thi cử",
+        "kỳ vọng"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Liệt kê hai nguồn áp lực thi",
+        "understand": "Giải thích liên hệ học–nghỉ–hỗ trợ",
+        "apply": "Lập kế hoạch một buổi học có thể điều chỉnh"
+      },
+      "candidateConcepts": [
+        "test anxiety",
+        "coping"
+      ],
+      "researchDirection": "Tổng quan lo âu thi cử và can thiệp học đường; phân biệt stress thông thường và rối loạn",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Phiếu kế hoạch có khoảng nghỉ",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Mùa thi",
+      "relatedArticleIds": [
+        "KGNT-C06"
+      ],
+      "topicIds": [
+        "T03"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C06",
+      "title": "Biết cần học, nhưng vẫn chưa bắt đầu",
+      "slug": "chua-bat-dau-hoc",
+      "collection": "core",
+      "topic": "Học tập và thi cử",
+      "keywords": [
+        "trì hoãn",
+        "bắt đầu"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện hành vi trì hoãn",
+        "understand": "Phân biệt trì hoãn với thiếu thời gian hoặc nguồn lực",
+        "apply": "Chia nhiệm vụ giả định thành bước khởi đầu"
+      },
+      "candidateConcepts": [
+        "procrastination",
+        "task initiation"
+      ],
+      "researchDirection": "Nghiên cứu và tổng quan trì hoãn học tập; kiểm tra nhóm tuổi và thiết kế nghiên cứu",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Sơ đồ nhiệm vụ–bước nhỏ",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Giữa học kỳ",
+      "relatedArticleIds": [
+        "KGNT-C07"
+      ],
+      "topicIds": [
+        "T03"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C07",
+      "title": "Học nhiều chưa chắc đã nhớ lâu",
+      "slug": "hoc-va-nho-lau",
+      "collection": "core",
+      "topic": "Học tập và thi cử",
+      "keywords": [
+        "truy hồi",
+        "ôn cách quãng"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Gọi tên truy hồi và ôn cách quãng",
+        "understand": "Phân biệt truy hồi với chỉ đọc lại",
+        "apply": "Lập lịch thử ôn một nội dung"
+      },
+      "candidateConcepts": [
+        "retrieval practice",
+        "spaced practice"
+      ],
+      "researchDirection": "Nghiên cứu gốc và phân tích gộp khoa học nhận thức, đặc biệt bối cảnh lớp học; không đặt lịch tối ưu chung",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Lịch ôn minh họa",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Mùa thi",
+      "relatedArticleIds": [
+        "KGNT-C08"
+      ],
+      "topicIds": [
+        "T03"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C08",
+      "title": "Sau một bài kiểm tra không như mong đợi",
+      "slug": "sau-bai-kiem-tra",
+      "collection": "core",
+      "topic": "Học tập và thi cử",
+      "keywords": [
+        "điểm số",
+        "phản hồi"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện phản hồi có thể hành động",
+        "understand": "Phân biệt điểm số với thông tin cải thiện",
+        "apply": "Chọn một điều chỉnh từ bài làm giả định"
+      },
+      "candidateConcepts": [
+        "feedback",
+        "attribution nếu cần"
+      ],
+      "researchDirection": "Tổng quan phản hồi học tập và ứng phó thất vọng; không quy kết mọi kết quả cho nỗ lực",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Phiếu đọc phản hồi",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Sau thi",
+      "relatedArticleIds": [
+        "KGNT-C05"
+      ],
+      "topicIds": [
+        "T02"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C09",
+      "title": "Ở giữa lớp, vẫn thấy một mình",
+      "slug": "o-giua-lop",
+      "collection": "core",
+      "topic": "Bạn bè và trường lớp",
+      "keywords": [
+        "cô đơn",
+        "kết nối"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện tình huống cô đơn",
+        "understand": "Phân biệt cô đơn với ở một mình",
+        "apply": "Chọn một bước kết nối an toàn"
+      },
+      "candidateConcepts": [
+        "loneliness",
+        "school belonging"
+      ],
+      "researchDirection": "Tổng quan cảm giác thuộc về và cô đơn ở học sinh; phân biệt liên hệ với quan hệ nhân quả",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Bản đồ lựa chọn kết nối",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Đầu năm",
+      "relatedArticleIds": [
+        "KGNT-C10"
+      ],
+      "topicIds": [
+        "T04"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C10",
+      "title": "Một bất đồng có làm mất tình bạn?",
+      "slug": "bat-dong-tinh-ban",
+      "collection": "core",
+      "topic": "Bạn bè và trường lớp",
+      "keywords": [
+        "bất đồng",
+        "lắng nghe"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện bất đồng trong hội thoại",
+        "understand": "Phân biệt bất đồng với bắt nạt",
+        "apply": "Thử câu nói nhu cầu trong tình huống"
+      },
+      "candidateConcepts": [
+        "conflict resolution",
+        "active listening"
+      ],
+      "researchDirection": "Tổng quan giao tiếp và giải quyết xung đột học đường; giới hạn khi có chênh lệch quyền lực",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Hội thoại có chú giải",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Giữa học kỳ",
+      "relatedArticleIds": [
+        "KGNT-C11"
+      ],
+      "topicIds": [
+        "T04"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C11",
+      "title": "Khi lời trêu chọc không còn là đùa",
+      "slug": "treu-choc-va-bat-nat",
+      "collection": "core",
+      "topic": "Bạn bè và trường lớp",
+      "keywords": [
+        "bắt nạt",
+        "an toàn"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện dấu hiệu bắt nạt",
+        "understand": "Phân biệt bắt nạt và bất đồng",
+        "apply": "Chọn cách tìm người hỗ trợ an toàn"
+      },
+      "candidateConcepts": [
+        "bullying",
+        "bystander"
+      ],
+      "researchDirection": "Định nghĩa chuyên môn, tổng quan bắt nạt và hướng dẫn bảo vệ học sinh; không đổ trách nhiệm cho nạn nhân",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Lưu đồ tìm trợ giúp",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Đầu năm",
+      "relatedArticleIds": [
+        "KGNT-C12"
+      ],
+      "topicIds": [
+        "T05"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C12",
+      "title": "Nói “không” mà vẫn tôn trọng nhau",
+      "slug": "noi-khong-ton-trong",
+      "collection": "core",
+      "topic": "Bạn bè và trường lớp",
+      "keywords": [
+        "ranh giới",
+        "áp lực bạn bè"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện ranh giới cá nhân",
+        "understand": "Giải thích áp lực đồng trang lứa",
+        "apply": "Soạn một câu từ chối và phương án rời tình huống"
+      },
+      "candidateConcepts": [
+        "assertiveness",
+        "peer pressure"
+      ],
+      "researchDirection": "Tài liệu chuyên môn về kỹ năng khẳng định và áp lực bạn bè ở tuổi vị thành niên",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Thẻ hội thoại từ chối",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Giữa học kỳ",
+      "relatedArticleIds": [
+        "KGNT-C09"
+      ],
+      "topicIds": [
+        "T05"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C13",
+      "title": "Khi kỳ vọng ở nhà làm mình thấy nặng",
+      "slug": "ky-vong-o-nha",
+      "collection": "core",
+      "topic": "Gia đình và hỗ trợ",
+      "keywords": [
+        "gia đình",
+        "kỳ vọng"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện nguồn kỳ vọng",
+        "understand": "Phân biệt nhu cầu và mong đợi",
+        "apply": "Chuẩn bị lời trao đổi hoặc chọn người hỗ trợ khác"
+      },
+      "candidateConcepts": [
+        "parental expectations",
+        "communication"
+      ],
+      "researchDirection": "Tổng quan kỳ vọng gia đình theo bối cảnh văn hóa; không mặc định gia đình an toàn",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Sơ đồ kỳ vọng–nhu cầu–hỗ trợ",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Mùa thi",
+      "relatedArticleIds": [
+        "KGNT-C14"
+      ],
+      "topicIds": [
+        "T06"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C14",
+      "title": "Bắt đầu một cuộc trò chuyện khó với người lớn",
+      "slug": "tro-chuyen-voi-nguoi-lon",
+      "collection": "core",
+      "topic": "Gia đình và hỗ trợ",
+      "keywords": [
+        "người lớn",
+        "hỗ trợ"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Kể tên bước chuẩn bị trò chuyện",
+        "understand": "Giải thích lựa chọn người và thời điểm",
+        "apply": "Soạn lời mở đầu và phương án thay thế"
+      },
+      "candidateConcepts": [
+        "help-seeking",
+        "trusted adult"
+      ],
+      "researchDirection": "Nghiên cứu tìm kiếm trợ giúp ở học sinh và hướng dẫn giao tiếp; kiểm tra rào cản tiếp cận",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Thẻ chuẩn bị và đường thay thế",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Đầu năm",
+      "relatedArticleIds": [
+        "KGNT-C15"
+      ],
+      "topicIds": [
+        "T06"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C15",
+      "title": "Khi nào mình nên tìm thêm sự giúp đỡ?",
+      "slug": "tim-them-su-giup-do",
+      "collection": "core",
+      "topic": "Gia đình và hỗ trợ",
+      "keywords": [
+        "trợ giúp",
+        "sinh hoạt"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện ảnh hưởng sinh hoạt trong ví dụ",
+        "understand": "Phân biệt vai trò giáo viên, tư vấn và nhân viên y tế",
+        "apply": "Chọn bước liên hệ phù hợp trong tình huống"
+      },
+      "candidateConcepts": [
+        "mental health literacy",
+        "help-seeking"
+      ],
+      "researchDirection": "Hướng dẫn chuyên môn cho thanh thiếu niên; kiểm tra thông tin dịch vụ địa phương trước khi nêu",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Bản đồ vai trò hỗ trợ",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Giữa học kỳ",
+      "relatedArticleIds": [
+        "KGNT-C16"
+      ],
+      "topicIds": [
+        "T06"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C16",
+      "title": "Khi một người bạn nói rằng bạn ấy đang rất buồn",
+      "slug": "khi-ban-rat-buon",
+      "collection": "core",
+      "topic": "Gia đình và hỗ trợ",
+      "keywords": [
+        "lắng nghe",
+        "giới hạn"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện phản hồi lắng nghe",
+        "understand": "Giải thích giới hạn trách nhiệm của bạn bè",
+        "apply": "Chọn phản hồi và người lớn cần nhờ trong tình huống"
+      },
+      "candidateConcepts": [
+        "supportive listening",
+        "referral"
+      ],
+      "researchDirection": "Hướng dẫn hỗ trợ bạn bè và bảo vệ trẻ em; kiểm tra nội dung nhạy cảm với người chuyên môn khi có",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Hội thoại và đường hỗ trợ",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Giữa học kỳ",
+      "relatedArticleIds": [
+        "KGNT-C13"
+      ],
+      "topicIds": [
+        "T05"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C17",
+      "title": "Đêm dài, mình chưa ngủ",
+      "slug": "dem-dai-minh-chua-ngu",
+      "collection": "core",
+      "topic": "Giấc ngủ và nhịp sống",
+      "keywords": [
+        "giấc ngủ",
+        "nhịp sinh học"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện yếu tố liên quan giấc ngủ",
+        "understand": "Giải thích khác biệt nhịp sinh học và thói quen",
+        "apply": "Chọn một điều chỉnh và dấu hiệu cần trao đổi"
+      },
+      "candidateConcepts": [
+        "adolescent sleep",
+        "circadian rhythm"
+      ],
+      "researchDirection": "Hướng dẫn giấc ngủ thanh thiếu niên và tổng quan; không suy rộng nguồn về mất ngủ người lớn",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Sơ đồ nhịp ngày–đêm",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Giữa học kỳ",
+      "relatedArticleIds": [
+        "KGNT-C18"
+      ],
+      "topicIds": [
+        "T07"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C18",
+      "title": "Nghỉ một chút có phải là lười?",
+      "slug": "nghi-mot-chut",
+      "collection": "core",
+      "topic": "Giấc ngủ và nhịp sống",
+      "keywords": [
+        "nghỉ ngơi",
+        "phục hồi"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện hình thức nghỉ",
+        "understand": "Phân biệt nghỉ với né tránh kéo dài theo tình huống",
+        "apply": "Chọn khoảng nghỉ và điều chỉnh nhiệm vụ"
+      },
+      "candidateConcepts": [
+        "rest",
+        "recovery",
+        "tránh dùng burnout tùy tiện"
+      ],
+      "researchDirection": "Tổng quan nghỉ và phục hồi trong học tập; kiểm tra giới hạn bằng chứng ở trẻ vị thành niên",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Thực đơn nghỉ và kế hoạch trở lại",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Mùa thi",
+      "relatedArticleIds": [
+        "KGNT-C19"
+      ],
+      "topicIds": [
+        "T02"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C19",
+      "title": "Cơ thể đang nhắc mình điều gì?",
+      "slug": "tin-hieu-co-the",
+      "collection": "core",
+      "topic": "Giấc ngủ và nhịp sống",
+      "keywords": [
+        "cơ thể",
+        "căng thẳng"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện tín hiệu cơ thể",
+        "understand": "Giải thích một tín hiệu có thể có nhiều nguyên nhân",
+        "apply": "Chọn bước nghỉ hoặc tìm trợ giúp trong tình huống"
+      },
+      "candidateConcepts": [
+        "stress physiology",
+        "nonspecific symptoms"
+      ],
+      "researchDirection": "Nguồn y khoa và tổng quan stress ở tuổi vị thành niên; không quy mọi triệu chứng cho tâm lý",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Sơ đồ cơ thể với chú thích không đặc hiệu",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Giữa học kỳ",
+      "relatedArticleIds": [
+        "KGNT-C20"
+      ],
+      "topicIds": [
+        "T07"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C20",
+      "title": "Một khoảng vận động giữa ngày học",
+      "slug": "van-dong-giua-ngay-hoc",
+      "collection": "core",
+      "topic": "Giấc ngủ và nhịp sống",
+      "keywords": [
+        "vận động",
+        "sức khỏe"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Kể tên vận động vừa sức",
+        "understand": "Giải thích vận động hỗ trợ nhưng không thay điều trị",
+        "apply": "Chọn hoạt động có thể điều chỉnh theo khả năng"
+      },
+      "candidateConcepts": [
+        "physical activity",
+        "wellbeing"
+      ],
+      "researchDirection": "Hướng dẫn vận động theo tuổi và tổng quan sức khỏe tinh thần; chú ý khả năng tiếp cận",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Các lựa chọn vận động có điều chỉnh",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Giữa học kỳ",
+      "relatedArticleIds": [
+        "KGNT-C17"
+      ],
+      "topicIds": [
+        "T07"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C21",
+      "title": "Lướt mạng rồi thấy mình kém hơn",
+      "slug": "so-sanh-tren-mang",
+      "collection": "core",
+      "topic": "Đời sống số và chuyển tiếp",
+      "keywords": [
+        "mạng xã hội",
+        "so sánh"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện so sánh xã hội",
+        "understand": "Giải thích tính chọn lọc của nội dung mạng",
+        "apply": "Chọn một điều chỉnh cách sử dụng"
+      },
+      "candidateConcepts": [
+        "social comparison",
+        "social media"
+      ],
+      "researchDirection": "Tài liệu gốc khái niệm và tổng quan thanh thiếu niên; phân biệt tương quan và nhân quả",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Nội dung được đăng và bối cảnh không thấy",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Giữa học kỳ",
+      "relatedArticleIds": [
+        "KGNT-C22"
+      ],
+      "topicIds": [
+        "T08"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C22",
+      "title": "Điện thoại cứ kéo mình ra khỏi trang vở",
+      "slug": "dien-thoai-va-chu-y",
+      "collection": "core",
+      "topic": "Đời sống số và chuyển tiếp",
+      "keywords": [
+        "điện thoại",
+        "chú ý"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện tác nhân ngắt quãng",
+        "understand": "Giải thích chuyển đổi chú ý trong tình huống",
+        "apply": "Thiết kế khoảng học ít gián đoạn"
+      },
+      "candidateConcepts": [
+        "attention",
+        "task switching"
+      ],
+      "researchDirection": "Nghiên cứu thực nghiệm và tổng quan chú ý trong học tập; tránh tuyên bố tổn thương não",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Môi trường học trước/sau điều chỉnh",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Mùa thi",
+      "relatedArticleIds": [
+        "KGNT-C23"
+      ],
+      "topicIds": [
+        "T08"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C23",
+      "title": "Lớp mới, trường mới, mình bắt đầu từ đâu?",
+      "slug": "lop-moi-truong-moi",
+      "collection": "core",
+      "topic": "Đời sống số và chuyển tiếp",
+      "keywords": [
+        "chuyển trường",
+        "thích nghi"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện khó khăn chuyển tiếp",
+        "understand": "Giải thích khác biệt nhịp thích nghi",
+        "apply": "Chọn bước làm quen và nguồn hỗ trợ"
+      },
+      "candidateConcepts": [
+        "school transition",
+        "belonging"
+      ],
+      "researchDirection": "Nghiên cứu chuyển cấp và cảm giác thuộc về; không đặt hạn thích nghi cố định",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Bản đồ bước nhỏ",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Đầu năm",
+      "relatedArticleIds": [
+        "KGNT-C24"
+      ],
+      "topicIds": [
+        "T04"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-C24",
+      "title": "Chưa biết mình muốn trở thành ai cũng được",
+      "slug": "kham-pha-tuong-lai",
+      "collection": "core",
+      "topic": "Đời sống số và chuyển tiếp",
+      "keywords": [
+        "tương lai",
+        "giá trị"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Gọi tên sở thích và giá trị trong ví dụ",
+        "understand": "Phân biệt khám phá với cam kết nghề nghiệp",
+        "apply": "Chọn hoạt động thử và cách nhìn lại"
+      },
+      "candidateConcepts": [
+        "career exploration",
+        "identity development nếu cần"
+      ],
+      "researchDirection": "Tổng quan phát triển nghề nghiệp ở vị thành niên; không ép chọn nghề từ bài đọc",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Phiếu thử hoạt động–nhìn lại",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Sau thi",
+      "relatedArticleIds": [
+        "KGNT-C21"
+      ],
+      "topicIds": [
+        "T08"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-E01",
+      "title": "MBTI và 16 kiểu tính cách: hiểu và đọc kết quả thế nào?",
+      "slug": "mbti-va-16-kieu-tinh-cach",
+      "collection": "extension",
+      "topic": "Công cụ tâm lý và khám phá bản thân",
+      "keywords": [
+        "MBTI",
+        "16 kiểu tính cách"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện tên công cụ và kết quả phân loại",
+        "understand": "Phân biệt MBTI chính thức với bài 16 tính cách khác",
+        "apply": "Xem xét một kết luận gắn nhãn trong ví dụ"
+      },
+      "candidateConcepts": [
+        "type theory",
+        "MBTI",
+        "reliability",
+        "validity"
+      ],
+      "researchDirection": "Tài liệu gốc/lịch sử và nghiên cứu tâm trắc độc lập; kiểm tra độ ổn định, mục đích và giới hạn từng phiên bản",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Sơ đồ công cụ–kết quả–kết luận; không sao chép test",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Sau thi",
+      "relatedArticleIds": [
+        "KGNT-E02"
+      ],
+      "topicIds": [
+        "T09"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-E02",
+      "title": "Big Five: hiểu đặc điểm nhân cách mà không đóng khung bản thân",
+      "slug": "big-five",
+      "collection": "extension",
+      "topic": "Công cụ tâm lý và khám phá bản thân",
+      "keywords": [
+        "Big Five",
+        "nhân cách"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Gọi tên năm chiều sau khi xác minh thuật ngữ",
+        "understand": "Phân biệt chiều liên tục và loại người",
+        "apply": "Mô tả nhân vật không gắn nhãn cố định"
+      },
+      "candidateConcepts": [
+        "Big Five",
+        "Five-Factor Model",
+        "trait"
+      ],
+      "researchDirection": "Đối chiếu lịch sử nhiều nhóm phát triển và tổng quan đo lường theo tuổi/văn hóa; tách mô hình khỏi bảng hỏi",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Năm trục liên tục không có điểm cá nhân",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Sau thi",
+      "relatedArticleIds": [
+        "KGNT-E03"
+      ],
+      "topicIds": [
+        "T09"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-E03",
+      "title": "Holland RIASEC: khám phá sở thích nghề nghiệp",
+      "slug": "holland-riasec",
+      "collection": "extension",
+      "topic": "Công cụ tâm lý và khám phá bản thân",
+      "keywords": [
+        "RIASEC",
+        "sở thích nghề nghiệp"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Gọi tên sáu nhóm sở thích",
+        "understand": "Phân biệt sở thích, năng lực và nghề định sẵn",
+        "apply": "Chọn hoạt động khám phá từ tình huống"
+      },
+      "candidateConcepts": [
+        "RIASEC",
+        "vocational interests",
+        "person–environment fit"
+      ],
+      "researchDirection": "Tài liệu gốc Holland và tổng quan hiệu lực theo tuổi/văn hóa; kiểm tra quyền mỗi công cụ",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Sơ đồ sáu nhóm tự thiết kế theo nguồn",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Sau thi",
+      "relatedArticleIds": [
+        "KGNT-E04"
+      ],
+      "topicIds": [
+        "T09"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-E04",
+      "title": "Stress và công cụ sàng lọc: một con số nói được gì?",
+      "slug": "stress-va-cong-cu-sang-loc",
+      "collection": "extension",
+      "topic": "Công cụ tâm lý và khám phá bản thân",
+      "keywords": [
+        "stress",
+        "sàng lọc"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện các loại công cụ",
+        "understand": "Phân biệt sàng lọc, đo stress và chẩn đoán",
+        "apply": "Chọn câu hỏi cần hỏi khi gặp kết quả giả định"
+      },
+      "candidateConcepts": [
+        "perceived stress",
+        "screening",
+        "measurement"
+      ],
+      "researchDirection": "Nguồn gốc mỗi thang được chọn sau; nghiên cứu giá trị/độ tin cậy, bản Việt hóa và tuổi; không tự chọn ngưỡng",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Lưu đồ điểm số–bối cảnh–đánh giá tiếp",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Mùa thi",
+      "relatedArticleIds": [
+        "KGNT-E05"
+      ],
+      "topicIds": [
+        "T09"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    },
+    {
+      "id": "KGNT-E05",
+      "title": "Phong cách học tập: phân biệt sở thích với bằng chứng khoa học",
+      "slug": "phong-cach-hoc-tap",
+      "collection": "extension",
+      "topic": "Công cụ tâm lý và khám phá bản thân",
+      "keywords": [
+        "phong cách học",
+        "sở thích học"
+      ],
+      "audience": [
+        "THCS",
+        "THPT"
+      ],
+      "bloom": {
+        "remember": "Nhận diện tuyên bố về kiểu học",
+        "understand": "Phân biệt sở thích với giả thuyết ghép cách dạy theo kiểu học",
+        "apply": "Chọn phương pháp theo nhiệm vụ thay vì nhãn"
+      },
+      "candidateConcepts": [
+        "learning styles",
+        "meshing hypothesis"
+      ],
+      "researchDirection": "Tổng quan và thử nghiệm kiểm tra giả thuyết ghép kiểu học; tách tuyên bố có và chưa có bằng chứng",
+      "visualPlan": {
+        "purpose": "Hỗ trợ mục tiêu Hiểu/Vận dụng; đối chiếu trong bảng alignment trước khi dùng",
+        "proposal": "Bảng tuyên bố–bằng chứng cần có–cách thử",
+        "rightsStatus": "pending",
+        "sourceStatus": "pending"
+      },
+      "season": "Mùa thi",
+      "relatedArticleIds": [
+        "KGNT-E01"
+      ],
+      "topicIds": [
+        "T09"
+      ],
+      "editorialStatus": "draft",
+      "artifactStage": "outline_only",
+      "isIllustrative": false,
+      "sourceVerification": "not_started",
+      "editorialApproval": null,
+      "expertReview": null,
+      "publicationAuthorization": null,
+      "approvalNeeded": [
+        "Tiêu đề, đối tượng và phạm vi cụ thể",
+        "Mục tiêu Bloom và hoạt động",
+        "Nguồn/khái niệm sau nghiên cứu; hình và quyền sử dụng",
+        "Bản thảo, rà soát chuyên môn thực tế và quyết định xuất bản riêng"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "T01",
+      "title": "Gọi tên điều đang ở trong mình",
+      "articleIds": [
+        "KGNT-C01",
+        "KGNT-C02",
+        "KGNT-C04"
+      ],
+      "status": "draft",
+      "kind": "planned-topic"
+    },
+    {
+      "id": "T02",
+      "title": "Đứng về phía mình sau một ngày khó",
+      "articleIds": [
+        "KGNT-C03",
+        "KGNT-C08",
+        "KGNT-C18"
+      ],
+      "status": "draft",
+      "kind": "planned-topic"
+    },
+    {
+      "id": "T03",
+      "title": "Học vừa sức giữa mùa bài vở",
+      "articleIds": [
+        "KGNT-C05",
+        "KGNT-C06",
+        "KGNT-C07"
+      ],
+      "status": "draft",
+      "kind": "planned-topic"
+    },
+    {
+      "id": "T04",
+      "title": "Tìm một chỗ thuộc về",
+      "articleIds": [
+        "KGNT-C09",
+        "KGNT-C10",
+        "KGNT-C23"
+      ],
+      "status": "draft",
+      "kind": "planned-topic"
+    },
+    {
+      "id": "T05",
+      "title": "Ranh giới để ở cạnh nhau an toàn",
+      "articleIds": [
+        "KGNT-C11",
+        "KGNT-C12",
+        "KGNT-C16"
+      ],
+      "status": "draft",
+      "kind": "planned-topic"
+    },
+    {
+      "id": "T06",
+      "title": "Mở lời và tìm người đồng hành",
+      "articleIds": [
+        "KGNT-C13",
+        "KGNT-C14",
+        "KGNT-C15"
+      ],
+      "status": "draft",
+      "kind": "planned-topic"
+    },
+    {
+      "id": "T07",
+      "title": "Chăm một nhịp sống dễ thở hơn",
+      "articleIds": [
+        "KGNT-C17",
+        "KGNT-C19",
+        "KGNT-C20"
+      ],
+      "status": "draft",
+      "kind": "planned-topic"
+    },
+    {
+      "id": "T08",
+      "title": "Giữ nhịp riêng giữa những so sánh",
+      "articleIds": [
+        "KGNT-C21",
+        "KGNT-C22",
+        "KGNT-C24"
+      ],
+      "status": "draft",
+      "kind": "planned-topic"
+    },
+    {
+      "id": "T09",
+      "title": "Đọc hiểu công cụ, không đóng khung bản thân",
+      "articleIds": [
+        "KGNT-E01",
+        "KGNT-E02",
+        "KGNT-E03",
+        "KGNT-E04",
+        "KGNT-E05"
+      ],
+      "status": "draft",
+      "kind": "planned-topic"
+    }
+  ]
+}
