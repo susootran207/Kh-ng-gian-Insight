@@ -20,8 +20,8 @@ for(const width of [320,390,768,1440]) {
     expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([])
     // Freeze the actual ambient poses for review without hiding the new petals.
     await page.evaluate(()=>{document.getAnimations().forEach(animation=>animation.pause());(document.activeElement as HTMLElement)?.blur();window.scrollTo({top:0,behavior:'instant'})})
-    await page.screenshot({path:path.resolve('../docs/prototype/screenshots',`homepage-${width}.png`),fullPage:true})
-    await page.screenshot({path:path.resolve('../docs/prototype/screenshots',`hero-${width}.png`)})
+    await page.screenshot({path:path.resolve('../docs/phase-2/screenshots',`homepage-${width}.png`),fullPage:true})
+    await page.screenshot({path:path.resolve('../docs/phase-2/screenshots',`hero-${width}.png`)})
     expect(errors).toEqual([])
     expect(external).toEqual([])
   })
@@ -37,7 +37,7 @@ test('mobile menu supports keyboard, Escape and section links',async({page})=>{
   await expect(menu).toBeFocused();await expect(menu).toHaveAttribute('aria-expanded','false')
   await menu.click();await page.getByRole('navigation').getByRole('link',{name:'Góc đọc'}).click()
   await expect(menu).toHaveAttribute('aria-expanded','false')
-  await expect(page).toHaveURL(/#bai-viet$/)
+  await expect(page).toHaveURL(/#\/thu-vien$/)
   await page.reload();await expect(page.getByRole('heading',{name:'Những trang nhỏ, để hiểu mình hơn.'})).toBeVisible()
 })
 

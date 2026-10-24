@@ -1,33 +1,20 @@
-# Không Gian Nội Tâm — Phase 1 homepage prototype
+# Không Gian Nội Tâm — prototype
 
-The original HTML in the repository root is unchanged. This is a separate React + TypeScript + Vite project. No backend, login, publication pipeline, full library, or 24-article dataset is included.
+React + TypeScript + Vite; Phase 2 review branch. No hosting workflow or deployment.
 
-```sh
-cd prototype
-npm install
-npm run dev
-npm run build
-npm run preview
-npm run test:e2e
-```
+Requires Node 22.18+ (Node 24 recommended) and npm. Install with `npm ci`.
 
-The tests use an installed Chromium at `/usr/bin/chromium` by default. Set `CHROMIUM_PATH` to your local executable or install Playwright Chromium and change the config accordingly. The test server binds localhost only.
+- `npm run dev`: full sample review mode. Open `/#/thu-vien`, `/#/chuyen-de`, `/#/bai-viet/khi-mua-thi-den-gan`, `/#/chuyen-de/dem-dai`.
+- `npm run build`: TypeScript, production build, then publication guard. Unpublished articles, topics and legacy homepage excerpts must not appear in dist.
+- `npm run preview`: inspect the production artifact. There are currently no published articles; empty states are expected. Preview flags cannot unlock drafts.
+- `npm run test:e2e`: development reading flow plus all retained homepage checks, Chromium at 320/390/768/1440px. Uses `/usr/bin/chromium` or `CHROMIUM_PATH`.
+- `npm run test:production`: after build, serves dist under `/Kho-ng-gian-Insight/` without SPA fallback and checks assets, reload and unpublished-route exclusion. Uses a separate output directory.
+- `npm run test:content`: schema selection tests and full dist leak scan (build first).
 
-All fonts and artwork are local. See `THIRD_PARTY_NOTICES.md` for provenance. No hosting workflow is installed. `base: './'` makes built assets portable; Phase 2's proposed HashRouter is not installed.
+## Editorial changes
 
-## Interactions
-- Mobile Menu expands native navigation links; Escape closes and restores focus.
-- Mây: tap/click changes expression and message. Drag with mouse/touch within the garden. Enable “Di chuyển bằng phím”, focus goes to Mây; arrows move, Shift+arrows moves farther, Home resets, Escape exits. “Về chỗ cũ” resets at any time.
-- Quote control always selects a different locally authored message.
-- Weekly excerpt, four timeline stages, and three sample excerpts open within the page.
-- Lantern input is ephemeral. Release clears text before animation metadata is created. No sensitive input is stored or transmitted.
-- OS reduced motion and the “Giảm chuyển động” button stop ambient movement.
+Edit `editorial/catalogue.json` outside `public/`. `editorial/schema.ts` defines articles/topics, statuses and reference links. Content must undergo actual editorial/source review before changing status. `approved` stays private to development; `published` requires `approval: {by, at, revision}` and `publishedAt`. Record the reviewed revision in the approval record; changed prose requires re-review. Metadata is not authentication or proof of expert approval. Use a reviewed PR to record the human decision. Nothing is published in this phase.
 
-## Review scope
-All sample content is unreviewed, explicitly labeled illustrative copy. This prototype is not a public publication of the future article collection. Noindex metadata is an indexing hint, not access control. Do not deploy without the next explicit approval.
+Vite's build plugin constructs `virtual:editorial` from eligible records before client bundling. Never import the raw catalogue into frontend code or put drafts in public assets. The guard also checks the Phase 1 excerpt strings. This is website-build exclusion, not source-repository privacy.
 
-## Additive atmosphere revision
-The original garden frame and design remain intact. A separate atmosphere layer adds translucent surfaces, edge wisteria, a bounded CSS petal field and occasional decorative Mây visits in safe section padding. Mobile reduces particles, character size and frequency. OS/manual reduced motion stops spontaneous visits; the interactive hero cat remains available. Input, focus, expanded reads and hero visibility take precedence. See DESIGN.md and docs/prototype/REVIEW.md in the repository root for behavior and measured limits.
-
-## Approved Phase 1 design
-The user approved Phase 1 and selected B on 24 October 2026. B is fixed in `src/components/wisteriaDesign.ts`; no runtime A/C alternatives or preview selector remain. Old `?wisteria=A` / `C` URLs render B. Archived comparison images remain in `../docs/prototype/screenshots/variants/`. The visual B parameters and all other functionality are unchanged. PR #2 is for manual merge only, with no deployment or Phase 2 work.
+HashRouter keeps server requests on the repository index; Vite `base: './'` keeps local assets relative to that index. New article/topic slugs are route parameters. Library query filters live inside the hash (`/#/thu-vien?q=mua+thi`); homepage sections use the second fragment (`/#/#dong-chay`). See `../docs/phase-2/REVIEW.md` for review evidence and remaining limits.

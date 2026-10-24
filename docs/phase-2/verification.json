@@ -1,0 +1,530 @@
+{
+  "date": "2026-10-24",
+  "branch": "phase-2-reading-flow",
+  "baseCommit": "842ac129dcf0ac6473293cc4a840db71d3ca7313",
+  "node": "v24.19.0",
+  "chromium": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+  "build": {
+    "typescript": "passed",
+    "vite": "passed",
+    "publicationGuard": "passed",
+    "productionArticles": 0,
+    "productionTopics": 0,
+    "guardChecks": [
+      "four statuses",
+      "reject missing approval",
+      "remove unpublished topic references",
+      "detect leak canary",
+      "scan all dist files including public copies",
+      "reject source maps"
+    ]
+  },
+  "development": {
+    "stats": {
+      "startTime": "2026-10-24T17:04:17.191Z",
+      "duration": 133640.519,
+      "expected": 30,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "tests": [
+      {
+        "name": "bounded petal field, top garland and frosted surfaces preserve hero",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 3197
+          }
+        ]
+      },
+      {
+        "name": "companion visits safe padding, rests, retreats during interaction and never duplicates hero",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2470
+          }
+        ]
+      },
+      {
+        "name": "mobile companion waits longer and uses no run behavior",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2462
+          }
+        ]
+      },
+      {
+        "name": "OS and manual reduction stop new spontaneous activity but preserve requested interaction",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2870
+          }
+        ]
+      },
+      {
+        "name": "reading journey keeps a constant lightweight effect budget without long main-thread tasks",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2993
+          }
+        ]
+      },
+      {
+        "name": "all four ambient actions use the shared character and bounded CSS motion",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 5282
+          }
+        ]
+      },
+      {
+        "name": "approved B at 1440px preserves UI and has flowers across its span",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2498
+          }
+        ]
+      },
+      {
+        "name": "approved B at 768px preserves UI and has flowers across its span",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2506
+          }
+        ]
+      },
+      {
+        "name": "approved B at 390px preserves UI and has flowers across its span",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2501
+          }
+        ]
+      },
+      {
+        "name": "approved B is fixed: old A/C preview URLs cannot change decoration or page geometry",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 6806
+          }
+        ]
+      },
+      {
+        "name": "legacy preview parameters cannot change approved B on mobile or disrupt controls",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 5025
+          }
+        ]
+      },
+      {
+        "name": "trellis pauses for OS/manual reduction, tab hiding and offscreen; menu mask adapts",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2639
+          }
+        ]
+      },
+      {
+        "name": "layout, fonts and accessibility at 320px",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 3447
+          }
+        ]
+      },
+      {
+        "name": "layout, fonts and accessibility at 390px",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 4163
+          }
+        ]
+      },
+      {
+        "name": "layout, fonts and accessibility at 768px",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 4672
+          }
+        ]
+      },
+      {
+        "name": "layout, fonts and accessibility at 1440px",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 4692
+          }
+        ]
+      },
+      {
+        "name": "mobile menu supports keyboard, Escape and section links",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2965
+          }
+        ]
+      },
+      {
+        "name": "quote, weekly, timeline, all three previews and privacy disclosure work",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 11326
+          }
+        ]
+      },
+      {
+        "name": "cat expressions, bounded mouse dragging, keyboard and reset",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 3821
+          }
+        ]
+      },
+      {
+        "name": "touch drag moves cat and vertical swipes outside cat still scroll",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 3292
+          }
+        ]
+      },
+      {
+        "name": "lantern never transmits or persists text, clears on release and pagehide",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 3115
+          }
+        ]
+      },
+      {
+        "name": "OS reduced motion and manual toggle preserve visible content and feedback",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2357
+          }
+        ]
+      },
+      {
+        "name": "reading pages responsive, keyboard focus and axe at 320",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 8573
+          }
+        ]
+      },
+      {
+        "name": "reading pages responsive, keyboard focus and axe at 390",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 9172
+          }
+        ]
+      },
+      {
+        "name": "reading pages responsive, keyboard focus and axe at 768",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 7609
+          }
+        ]
+      },
+      {
+        "name": "reading pages responsive, keyboard focus and axe at 1440",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 8323
+          }
+        ]
+      },
+      {
+        "name": "Vietnamese title, description and keyword search, filters, query history and reset",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2834
+          }
+        ]
+      },
+      {
+        "name": "real article links, reload, TOC, references, related reading and return filters",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2344
+          }
+        ]
+      },
+      {
+        "name": "topic index, detail, every article link, missing article and recovery",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2765
+          }
+        ]
+      },
+      {
+        "name": "new mobile menu, homepage sections, reduced motion, reflection cleanup on route leave",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2566
+          }
+        ]
+      }
+    ]
+  },
+  "production": {
+    "stats": {
+      "startTime": "2026-10-24T17:07:25.990Z",
+      "duration": 13878.827,
+      "expected": 4,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "tests": [
+      {
+        "name": "production repository path, local assets, reload and draft exclusion 320",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 3259
+          }
+        ]
+      },
+      {
+        "name": "production repository path, local assets, reload and draft exclusion 390",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2782
+          }
+        ]
+      },
+      {
+        "name": "production repository path, local assets, reload and draft exclusion 768",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2909
+          }
+        ]
+      },
+      {
+        "name": "production repository path, local assets, reload and draft exclusion 1440",
+        "status": "expected",
+        "runs": [
+          {
+            "status": "passed",
+            "durationMs": 2834
+          }
+        ]
+      }
+    ]
+  },
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "protectedSourceDiffBytes": 0,
+  "originalHtmlSha256": "4f78efcea9aa8b57f0603261abc4af3a56efb35111646bb7a9fbd7e7c70a4928",
+  "screenshots": [
+    {
+      "path": "docs/phase-2/screenshots/404-1440.png",
+      "sha256": "fc34491a385cbdd26a68e26257dc7839d2b8fc4ea3cda918f74ce7bc86d8173d"
+    },
+    {
+      "path": "docs/phase-2/screenshots/404-320.png",
+      "sha256": "5b4c10a7830c96e32481d0ad2527fbc0bad4c119a0ba2a4170420486ca2aee06"
+    },
+    {
+      "path": "docs/phase-2/screenshots/404-390.png",
+      "sha256": "238293cb2e5a43658e8b347fb96ff939648c78402204112fd40dca614f15b52f"
+    },
+    {
+      "path": "docs/phase-2/screenshots/404-768.png",
+      "sha256": "c35ccfdf2adc06a0be866831d8997abf8c5844f9b870f174b98ad7a00f207269"
+    },
+    {
+      "path": "docs/phase-2/screenshots/article-1440.png",
+      "sha256": "784622195aa95723f9523a108f1438d2b84acf264344810577c0d509364c2f36"
+    },
+    {
+      "path": "docs/phase-2/screenshots/article-320.png",
+      "sha256": "e36d7a4e2de00a20cf322389dd7aedd577668d7e57d1d433d269d6cecfd67eec"
+    },
+    {
+      "path": "docs/phase-2/screenshots/article-390.png",
+      "sha256": "4129a3a57eafc772e22406b41839a33742159c6a59a86a81779a692a5a82589f"
+    },
+    {
+      "path": "docs/phase-2/screenshots/article-768.png",
+      "sha256": "58884199d9755324a8e61bc2e007d5aa89b656514a7d3e0bc01820d75f007264"
+    },
+    {
+      "path": "docs/phase-2/screenshots/hero-1440.png",
+      "sha256": "8ac42c87552c33572962bce4b61b3399e61d87f969f3c1fdd6da0bc59caa297a"
+    },
+    {
+      "path": "docs/phase-2/screenshots/hero-320.png",
+      "sha256": "44751cb4f9785e4f2db03d4ab0c353a8fa4ef5356277539f0f2c20e89eca82b7"
+    },
+    {
+      "path": "docs/phase-2/screenshots/hero-390.png",
+      "sha256": "8a0eab4430b83e84884ea7ed2d4130c5c8959f80489cde1a9c947f503d024247"
+    },
+    {
+      "path": "docs/phase-2/screenshots/hero-768.png",
+      "sha256": "e4c75ef3ed17d3d8950c447d3e87e0c40836dc3a17295dc4be989cf30618c73c"
+    },
+    {
+      "path": "docs/phase-2/screenshots/homepage-1440.png",
+      "sha256": "cba1a52c5d97341372804c638bd76641386d27b53abb26e0461cc9a50dccaf76"
+    },
+    {
+      "path": "docs/phase-2/screenshots/homepage-320.png",
+      "sha256": "be2a732ad0a6ed117ba68c081a6306a87b7350644a23bd9af8f3c17ed9912aad"
+    },
+    {
+      "path": "docs/phase-2/screenshots/homepage-390.png",
+      "sha256": "151170f77c451dd8e17077821100eac610851cb3d5f3abf23c4bfd4b0d2fa660"
+    },
+    {
+      "path": "docs/phase-2/screenshots/homepage-768.png",
+      "sha256": "7f9936bb465ece8344563d3456d912ad57079e055d18410a51b66346095b9f44"
+    },
+    {
+      "path": "docs/phase-2/screenshots/library-1440.png",
+      "sha256": "9e21891041e8468ba4257ec6eac9ad9a0c7c5864c51e0facb571004f2c980971"
+    },
+    {
+      "path": "docs/phase-2/screenshots/library-320.png",
+      "sha256": "eae2a1228b9161c2eabfb76f47d54ae68fb7d09a7c99308aa6c2d79b14a76efb"
+    },
+    {
+      "path": "docs/phase-2/screenshots/library-390.png",
+      "sha256": "9dc5af1dbb3aabf8fff252e27db7e19224e38f1db378766733cc9cffc8800401"
+    },
+    {
+      "path": "docs/phase-2/screenshots/library-768.png",
+      "sha256": "d7f63006ebac6f2816ada8058a39b73378e08939e7be0dda425834f43b223eea"
+    },
+    {
+      "path": "docs/phase-2/screenshots/production-home-1440.png",
+      "sha256": "1019f88e2ae0898e5b085f4b58600c16260810b8294d35ff383259d4a4b6ef9a"
+    },
+    {
+      "path": "docs/phase-2/screenshots/production-home-320.png",
+      "sha256": "37aa334aab2bf9a7f1aca13a8793b5fa44262acc28c43bb166426d17fb4bddcf"
+    },
+    {
+      "path": "docs/phase-2/screenshots/production-home-390.png",
+      "sha256": "19d84f08a124bafd774a81d78c9e3f8c0964e6a4f426181ccc6b2820182a07e6"
+    },
+    {
+      "path": "docs/phase-2/screenshots/production-home-768.png",
+      "sha256": "3d5c2b858261111ecfe3b0f65f1085a3a0de08d5f49994cc5d8f7623dcac8b46"
+    },
+    {
+      "path": "docs/phase-2/screenshots/topic-1440.png",
+      "sha256": "d50ed733794005b9c75ddc8bc78e1cb91133bc5e8f1732f3af595f1db6808fd8"
+    },
+    {
+      "path": "docs/phase-2/screenshots/topic-320.png",
+      "sha256": "e3850180894989bd50a1a20fc2fb1bd7e40edb11a579592809327b5782936876"
+    },
+    {
+      "path": "docs/phase-2/screenshots/topic-390.png",
+      "sha256": "973b853b35d8c5d913e8671bca7fba78befd224957e910a52a48e3c78cdebf5b"
+    },
+    {
+      "path": "docs/phase-2/screenshots/topic-768.png",
+      "sha256": "5000331d4a3faf2ad923619caa378f6e0c7aec484a34b2176f3b8dc3acbd70ae"
+    },
+    {
+      "path": "docs/phase-2/screenshots/topics-1440.png",
+      "sha256": "311404b7455c91e974b5af58b16dab271d8a137d8784e41b7fcedd1469e8ca14"
+    },
+    {
+      "path": "docs/phase-2/screenshots/topics-320.png",
+      "sha256": "6e2c60c8357bac4fce1d84e985d82530a0c4976421d68207e985366cb7ced448"
+    },
+    {
+      "path": "docs/phase-2/screenshots/topics-390.png",
+      "sha256": "3f18ff2a6aee50d4d29276b49f3915898ac13c2e2f82894ed9f92e69ef6298d0"
+    },
+    {
+      "path": "docs/phase-2/screenshots/topics-768.png",
+      "sha256": "16597b24028ee65d17546ab957f04dc97dac441ec0c2f0d0723a1fca2fd8fca6"
+    }
+  ],
+  "limitations": [
+    "No physical-device, Safari, Firefox or real screen-reader testing",
+    "No article approved or published; development samples only",
+    "Source repository remains public",
+    "No merge, deploy, backend, login or Phase 3"
+  ]
+}

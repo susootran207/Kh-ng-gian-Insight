@@ -42,7 +42,10 @@ test('bounded petal field, top garland and frosted surfaces preserve hero',async
 test('companion visits safe padding, rests, retreats during interaction and never duplicates hero',async({page})=>{
   await page.setViewportSize({width:1440,height:1000})
   await page.addInitScript(()=>{Math.random=()=>.5})
-  await page.clock.install()
+  // Freeze wall-clock advancement so assertions do not consume the 6.8s visit window.
+  const epoch=new Date('2026-10-24T10:00:00Z')
+  await page.clock.install({time:epoch})
+  await page.clock.pauseAt(epoch)
   await page.goto('/')
   await page.evaluate(()=>document.fonts.ready)
   await dockAt(page,'nen-tang')
