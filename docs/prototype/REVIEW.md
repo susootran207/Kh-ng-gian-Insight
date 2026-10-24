@@ -15,7 +15,7 @@ Font Cormorant Garamond và Be Vietnam Pro có subset tiếng Việt, được �
 
 - `npm install`: thành công; dependency được khóa trong package-lock.json.
 - `npm run build`: TypeScript strict và Vite production build thành công.
-- `npm run test:e2e`: **10/10 bài kiểm thử đạt**, chạy trên bản production build bằng Chromium 154, Playwright 1.64.1.
+- `npm run test:e2e`: **16/16 bài kiểm thử đạt**, chạy trên bản production build bằng Chromium 154, Playwright 1.64.1.
 - 320, 390, 768, 1440px: không tràn ngang; font tiếng Việt và ảnh local tải được; không có pageerror hoặc request bên ngoài.
 - Axe WCAG 2 A/AA và 2.1 AA: không phát hiện vi phạm ở bốn viewport mặc định và một trạng thái nội dung mở rộng. Đây là quét tự động, không phải chứng nhận accessibility.
 - Menu mobile: mở bằng bàn phím, Escape đóng và trả focus; liên kết đúng section; tải lại anchor không lỗi.
@@ -24,7 +24,7 @@ Font Cormorant Garamond và Be Vietnam Pro có subset tiếng Việt, được �
 - Cảm ứng: mô phỏng touch thực qua Chromium CDP, kéo mèo thay đổi vị trí; vuốt dọc bên ngoài mèo vẫn cuộn trang.
 - Tâm tình: chuỗi thử nghiệm được xóa khỏi ô nhập và HTML sau thả; không xuất hiện trong URL; localStorage/sessionStorage rỗng; không có request mạng khi nhập/thả; pagehide xóa ô nhập; đèn không giữ văn bản và tối đa bốn đèn.
 - Reduced motion của hệ điều hành và nút giảm chuyển động: giữ nội dung, dừng loop, vẫn có xác nhận thả đèn.
-- Đã mở và xem cả tám ảnh chụp cuối cùng (hero và toàn trang ở bốn kích thước). Chụp với ambient motion tạm dừng để hình ảnh rõ; không có nội dung bị ẩn khi tắt animation.
+- Đã mở và xem cả tám ảnh chụp cuối cùng (hero và toàn trang ở bốn kích thước). Chụp bằng cách đóng băng vị trí animation đang hiển thị để giữ cả cánh hoa trong ảnh; không có nội dung bị ẩn khi tắt animation.
 
 ## Đánh giá hình ảnh sau khi xem render
 
@@ -60,3 +60,39 @@ Hoặc `npm run build` rồi `npm run preview`. Kiểm thử: `npm run test:e2e`
 - Ảnh riêng phần đầu trang: `screenshots/hero-{320,390,768,1440}.png`.
 
 Chờ duyệt chất lượng trang chủ trước khi thực hiện bất kỳ phần nào của Giai đoạn 2.
+
+
+## Bổ sung hiệu ứng và Mây đồng hành — 24/10/2026
+
+**Giữ nguyên thiết kế đã duyệt:** `prototype/src/styles/global.css`, khung vườn hero, `Wisteria.tsx`, tranh vườn và HTML gốc không thay đổi. Không thêm dependency; không triển khai Giai đoạn 2.
+
+### Những gì được thêm
+
+- Bề mặt kem/tím/sage bán trong suốt, blur giới hạn 4–10px trên các lớp phù hợp; có fallback màu đặc.
+- Giàn hoa mép trên độc lập, hai bên có độ dài và nhịp khác nhau. Chỉ chiếm lề, giảm mật độ trên tablet/mobile; dừng khi ra khỏi màn hình.
+- 20 phần tử cánh hoa cố định, tablet hiện 14 và mobile hiện 8. Có rơi, trôi và xoay bằng CSS; không tạo phần tử liên tục hoặc dùng canvas. Lớp trước chỉ ở lề, lớp sau nằm dưới chữ/nội dung. Dừng/ẩn theo giảm chuyển động, hoạt động nhập/bấm và vùng footer.
+- Tái sử dụng CatArt cho Mây trong hero và Mây trang trí theo section. Giữ toàn bộ tương tác Mây trong hero. Mây trang trí chỉ xuất hiện trong hành lang trống đã kiểm tra va chạm; đi cùng vị trí section khi cuộn, có fade và khoảng nghỉ, không di chuyển tự do qua chữ.
+- Hành vi trang trí: vẫy tay, nhìn quanh, chạy ngắn trong giới hạn, ló đầu qua vùng crop. Mobile nhỏ hơn, nghỉ lâu hơn, không chạy. Không phát thông báo screen reader, không lấy focus; nhường chỗ khi người dùng tương tác, mở bài hoặc khi hero xuất hiện.
+
+### Kiểm thử bản bổ sung
+
+- Production build thành công. **16/16 kiểm thử đạt:** giữ 10 kiểm thử cũ và thêm 6 nhóm về lớp hiệu ứng, giới hạn phần tử, vị trí an toàn/cooldown của Mây, mobile, reduced motion và bốn hành vi tự phát.
+- Bốn kích thước 320/390/768/1440px vẫn không tràn ngang, tải font/ảnh local, không pageerror hoặc request bên ngoài. Axe A/AA vẫn không phát hiện vi phạm ở phạm vi đã kiểm tra.
+- Mouse drag, touch drag mô phỏng và bàn phím trong hero vẫn đạt. Nhập/thả đèn vẫn xóa nội dung, không lưu hoặc gửi dữ liệu.
+- Đã xem lại cả tám screenshot responsive và hai ảnh chụp lượt ghé thực tế của Mây trên desktop/mobile. Bộ kiểm thử thời gian sử dụng đồng hồ và giá trị ngẫu nhiên điều khiển được; bản ứng dụng không có hook/debug API để ép hành vi.
+- Kiểm tra mã: toàn bộ nội dung và bố cục gốc được giữ. Mọi lớp trang trí mới đều không nhận pointer/focus. Cả hành lang chạy, không chỉ điểm đầu, được kiểm tra với nội dung thực.
+
+### Mẫu đo hiệu năng
+
+`performance.json` lưu kết quả đo khi hiệu ứng đang bật: 240 callback requestAnimationFrame trong hành trình cuộn toàn trang mỗi viewport, Chromium headless trên cloud, không throttle CPU.
+
+| Viewport | Median / p95 khoảng frame | Khoảng lớn nhất | Long task >50ms | DOM đầu/cuối |
+| --- | --- | --- | --- | --- |
+| 1440px | 16,7 / 17,0ms | 31,5ms | 0 | 1131 / 1131 |
+| 390px | 16,7 / 16,8ms | 34,9ms | 0 | 1131 / 1131 |
+
+Số DOM không tăng khi cuộn. JavaScript gzip tăng từ khoảng 79,47kB lên 81,62kB; không có dependency mới. Đây là mẫu đo callback và main thread, không phải chứng nhận FPS render/GPU. Chưa thử thiết bị cấu hình thấp, điện thoại/tablet vật lý hoặc Safari/Firefox.
+
+Ảnh bổ sung: [Mây trên desktop](screenshots/atmosphere-journey-1440.png), [Mây trên mobile](screenshots/atmosphere-journey-390.png).
+
+**Chỉ cập nhật nhánh feat/homepage-garden-prototype và PR #2. Không merge, không deploy. Chờ người dùng duyệt.**

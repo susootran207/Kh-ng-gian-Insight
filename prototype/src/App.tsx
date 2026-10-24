@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Arrow, LeafMark, SmallFlower } from './components/Icons'
+import { GardenAtmosphere } from './components/GardenAtmosphere'
 import { CatGarden } from './components/CatGarden'
 import { LanternGarden } from './components/LanternGarden'
 import { quotes, samples, seasons } from './content'
@@ -29,6 +30,7 @@ function App(){
     requestAnimationFrame(()=>preview.current?.scrollIntoView({behavior:motionOff||matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'nearest'}))
   }
   return <>
+    <GardenAtmosphere motionOff={motionOff}/>
     <a className="skip-link" href="#noi-dung">Đến nội dung chính</a>
     <header className="site-header" id="dau-trang" onKeyDown={e=>{if(e.key==='Escape' && menu){setMenu(false);menuButton.current?.focus()}}}>
       <div className="header-inner">

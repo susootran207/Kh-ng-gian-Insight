@@ -1,0 +1,86 @@
+/* Additive atmosphere: original layout, typography and hero frame stay intact. */
+body{position:relative;isolation:isolate}
+main,.site-footer{position:relative;z-index:1}
+.garden-atmosphere{display:contents}
+.site-header{background:rgb(247 243 233 / .84);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.quote-section{background:rgb(233 226 238 / .86);-webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px)}
+.weekly{background:rgb(238 231 216 / .87)}
+.timeline-section{background:rgb(229 233 220 / .87)}
+.season-panel{background:rgb(247 243 233 / .88);-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}
+.weekly-excerpt,.sample-preview{background:rgb(255 253 247 / .96);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.reflection{background:rgb(48 72 62 / .98)}
+/* A solid, readable fallback also keeps screenshots and older engines honest. */
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+ .site-header{background:var(--cream)}
+ .quote-section{background:var(--lilac-light)}
+ .season-panel{background:var(--cream)}
+ .weekly-excerpt,.sample-preview{background:var(--paper)}
+}
+.top-garland{position:absolute;inset:0 0 auto;height:270px;z-index:21;pointer-events:none;overflow:clip}
+.edge-wisteria{position:absolute;top:-13px;width:clamp(22px,4.6vw,66px);height:265px;opacity:.74}
+.edge-left{left:-5px}
+.edge-right{right:-4px;transform:scaleX(-1);height:235px;top:-22px}
+.canopy-top-line{position:absolute;top:0;left:0;width:100%;height:13px;opacity:.45}
+.canopy-cluster{transform-origin:var(--pivot);animation:canopy-breathe var(--sway) ease-in-out var(--delay) infinite alternate}
+.canopy-depth-0{opacity:.49}.canopy-depth-1{opacity:.9}
+@keyframes canopy-breathe{from{transform:rotate(calc(var(--arc)*-1))}to{transform:rotate(var(--arc))}}
+.petal-field{position:fixed;inset:0;overflow:clip;pointer-events:none;transition:opacity .7s ease}
+.petal-field-back{z-index:0}
+.petal-field-front{z-index:3}
+.petal-field[data-journey=false]{opacity:0}
+.petal{position:absolute;top:-24px;width:var(--petal-size);height:calc(var(--petal-size)*1.6);animation:petal-fall var(--fall-time) linear var(--phase) infinite;opacity:var(--petal-opacity);pointer-events:none}
+.petal i{display:block;width:100%;height:100%;border-radius:70% 10% 65% 35%;background:#9c7ab4;animation:petal-turn calc(var(--fall-time)*.31) ease-in-out var(--phase) infinite alternate}
+.petal:nth-child(3n) i{background:#bea5cf}
+@keyframes petal-fall{0%{transform:translate3d(0,-30px,0)}35%{transform:translate3d(var(--wind),38vh,0)}70%{transform:translate3d(calc(var(--wind)*.35),76vh,0)}100%{transform:translate3d(var(--wind),calc(100vh + 55px),0)}}
+@keyframes petal-turn{0%{transform:rotate(-35deg) rotateY(10deg)}60%{transform:rotate(90deg) rotateY(65deg)}100%{transform:rotate(205deg) rotateY(-25deg)}}
+/* Same CatArt, same expression system. Ambient head motions never write a status
+   message. Explicit drag/focus and OS/manual reduction always take precedence. */
+.cat-head{transform-origin:80px 75px}
+.cat:not(:active):not(:focus) .cat-head{animation:may-idle 27s ease-in-out -9s infinite}
+@keyframes may-idle{0%,70%,85%,100%{transform:rotate(0)}74%,79%{transform:rotate(-5deg)}82%{transform:rotate(3deg)}}
+.being-carried .cat-head{animation:none!important}
+.cat-paw{transform-origin:48px 123px}
+.companion-stage{position:absolute;inset:0;overflow:clip;pointer-events:none;z-index:4}
+.scroll-companion{position:absolute;left:0;top:0;height:65px;width:156px;opacity:0;pointer-events:none;transition:opacity .65s ease}
+.scroll-companion[data-visible=true]{opacity:1}
+.companion-mask{height:100%;overflow:clip}
+.companion-character{height:65px;width:65px;transform-origin:center bottom}
+.companion-character .cat-art{width:100%;height:100%;filter:none}
+.companion-character .cat-eyes{animation:blink 7s infinite}
+.scroll-companion[data-active=false] *{animation-play-state:paused!important}
+[data-active=true] [data-action=wave] .cat-paw{animation:may-wave 1.7s ease-in-out 1.1s 2}
+[data-active=true] [data-action=look] .cat-head{animation:may-look 5.8s ease-in-out}
+[data-active=true] [data-action=run]{animation:may-run 6.4s var(--ease) forwards}
+[data-active=true] [data-action=run] .cat-art{animation:may-trot .34s ease-in-out .6s 10}
+[data-active=true] [data-action=peek]{animation:may-peek 6.3s var(--ease) both}
+@keyframes may-wave{0%,100%{transform:rotate(0)}35%{transform:rotate(105deg)}65%{transform:rotate(75deg)}}
+@keyframes may-look{0%,20%,100%{transform:rotate(0)}35%,47%{transform:rotate(-8deg)}65%,77%{transform:rotate(7deg)}}
+@keyframes may-run{0%,12%{transform:translateX(0)}65%,85%{transform:translateX(86px)}100%{transform:translateX(80px)}}
+@keyframes may-trot{50%{transform:translateY(-3px) rotate(2deg)}}
+@keyframes may-peek{0%,100%{transform:translateY(70px)}23%,75%{transform:translateY(28px)}45%{transform:translateY(23px) rotate(-6deg)}}
+[data-atmosphere-paused=true] .petal,[data-atmosphere-paused=true] .petal i,[data-atmosphere-paused=true] .canopy-cluster{animation-play-state:paused!important}
+[data-atmosphere-paused=true] .petal-field,[data-quiet=true] .petal-field{opacity:0}
+[data-quiet=true] .petal,[data-quiet=true] .petal i,[data-quiet=true] .canopy-cluster{animation-play-state:paused!important}
+[data-atmosphere-paused=true] .scroll-companion,[data-quiet=true] .scroll-companion,[data-motion=off] .scroll-companion{visibility:hidden;opacity:0;transition:none}
+@media(max-width:1099px){
+ .edge-wisteria{height:205px;width:34px;top:-17px}.edge-right{height:175px}
+ .petal-field-back .petal:nth-child(n+11){display:none}
+ .navigation.open{background:rgb(247 243 233 / .98)}
+}
+@media(max-width:699px){
+ .edge-wisteria{height:126px;width:18px;top:-11px;opacity:.6}.edge-right{height:106px;top:-9px}
+ .edge-wisteria .canopy-cluster:nth-of-type(n+3){display:none}
+ .top-garland{height:130px}.canopy-top-line{height:7px;opacity:.3}
+ .petal-field-back .petal:nth-child(n+7){display:none}
+ .petal-field-front .petal:nth-child(n+3){display:none}
+ .petal-field-front .petal{opacity:.16}
+ .scroll-companion,.companion-character{height:49px}.companion-character{width:49px}
+ .site-header{-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+ .quote-section,.season-panel{-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+}
+@media(prefers-reduced-motion:reduce){
+ .petal-field,.scroll-companion{display:none!important}
+ .canopy-cluster,.cat .cat-head{animation:none!important}
+}
+.scroll-companion[data-safe=false]{visibility:hidden;transition:none}
+.top-garland[data-paused=true] .canopy-cluster,.petal-field[data-journey=false] *{animation-play-state:paused!important}
