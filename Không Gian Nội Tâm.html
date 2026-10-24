@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Không Gian Nội Tâm</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Be+Vietnam+Pro:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/htm@3.1.1/dist/htm.umd.js"></script>
+<style>
+:root{--bg:#F6F0E4;--bg2:#EFE6D4;--card:#FBF8F1;--ink:#3B3a33;--mute:#7A7160;--sage:#8FA383;--sage-d:#566A4F;--line:#DDD2BC;--wis:#B3A5BF;--lan:#E8A765;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#25241f;--bg2:#2d2c26;--card:#33322b;--ink:#EDE6D6;--mute:#A89F8C;--sage:#8FA383;--sage-d:#A9BE9C;--line:#47453b}}
+:root[data-theme="dark"]{--bg:#25241f;--bg2:#2d2c26;--card:#33322b;--ink:#EDE6D6;--mute:#A89F8C;--sage:#8FA383;--sage-d:#A9BE9C;--line:#47453b}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
+body{background:var(--bg);color:var(--ink);font-family:'Be Vietnam Pro',system-ui,sans-serif;font-weight:300;line-height:1.75;overflow-x:hidden}
+.serif{font-family:'Fraunces',Georgia,serif;font-weight:400;letter-spacing:-.01em;line-height:1.12}
+.mute{color:var(--mute)} .eyebrow{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--sage-d);font-weight:500}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none}
+.btn{display:inline-block;padding:.85rem 1.6rem;border-radius:999px;font-size:.92rem;font-weight:400;transition:transform .35s,box-shadow .35s,background .35s;cursor:pointer;border:1px solid var(--sage-d)}
+.btn:hover{transform:translateY(-3px);box-shadow:0 10px 24px -10px rgba(60,70,50,.45)}
+.btn-p{background:var(--sage-d);color:#FBF8F1}.btn-s{background:transparent;color:var(--sage-d)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;transition:transform .4s,box-shadow .4s}
+.card:hover{transform:translateY(-6px);box-shadow:0 22px 40px -24px rgba(70,60,40,.4)}
+.link{color:var(--sage-d);border-bottom:1px solid currentColor;font-size:.9rem;cursor:pointer;background:none}
+.drop p:first-of-type::first-letter{font-family:'Fraunces',serif;float:left;font-size:4.6rem;line-height:.82;padding:.35rem .6rem 0 0;color:var(--sage-d)}
+input,textarea{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:.8rem 1rem;width:100%;color:var(--ink);font:inherit;outline:none;transition:border .3s,box-shadow .3s}
+input:focus,textarea:focus{border-color:var(--sage-d);box-shadow:0 0 0 4px rgba(143,163,131,.25)}
+.chip{padding:.5rem 1.1rem;border-radius:999px;border:1px solid var(--line);font-size:.85rem;cursor:pointer;background:transparent;color:var(--ink);transition:all .3s}
+.chip:hover,.chip.on{background:var(--sage-d);color:#FBF8F1;border-color:var(--sage-d)}
+.swing{transform-origin:top center;animation:sw 7s ease-in-out infinite alternate}
+@keyframes sw{from{transform:rotate(-1.6deg)}to{transform:rotate(1.6deg)}}
+@keyframes rise{from{transform:translateY(0);opacity:0}10%{opacity:1}to{transform:translateY(-230px);opacity:0}}
+.lan{position:absolute;bottom:0;animation:rise 9s ease-out forwards;text-align:center;font-size:.7rem;width:84px}
+.fade{animation:fd .9s both}@keyframes fd{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.pop{animation:pp .4s both}@keyframes pp{from{opacity:0;transform:scale(.9) translateY(6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const {useState,useEffect,useRef}=React; const html=htm.bind(React.createElement);
+
+function R({d=0,children,cls=''}){const r=useRef();useEffect(()=>{const o=new IntersectionObserver(([e])=>{if(e.isIntersecting){r.current.classList.add('in');o.disconnect()}},{threshold:.12});o.observe(r.current);return()=>o.disconnect()},[]);
+return html`<div ref=${r} class=${'rv '+cls} style=${{'--d':d+'s'}}>${children}</div>`}
+
+const Wisteria=({cls=''})=>html`<svg class=${cls} viewBox="0 0 420 260" fill="none" aria-hidden="true">
+<path d="M0 14 C90 26 200 8 420 22" stroke="#7B6A55" stroke-width="5" stroke-linecap="round"/>
+${[[40,22,150,8],[110,24,200,10],[180,16,120,7],[250,18,185,9],[320,20,140,8],[380,22,95,6]].map(([x,y,l,w],i)=>html`<g key=${i} class="swing" style=${{animationDelay:-i*1.3+'s'}}>
+<path d=${'M'+x+' '+y+' V'+(y+l)} stroke="#8FA383" stroke-width="1.5"/>
+${Array.from({length:Math.round(l/16)}).map((_,k)=>html`<g key=${k}><circle cx=${x-w*(1-k/(l/16))*.9} cy=${y+14+k*15} r=${5+w*(1-k/(l/16))*.6} fill=${k%2?'#B3A5BF':'#A395B2'} opacity=".85"/><circle cx=${x+w*(1-k/(l/16))*.9} cy=${y+20+k*15} r=${5+w*(1-k/(l/16))*.6} fill="#C4B8CE" opacity=".85"/></g>`)}</g>`)}</svg>`;
+
+const Cat=({onClick})=>html`<svg onClick=${onClick} viewBox="0 0 120 110" class="w-24 cursor-pointer transition-transform hover:-translate-y-1" role="button" aria-label="Chú mèo">
+<path d="M22 100 C10 60 36 40 60 40 C86 40 108 62 96 100Z" fill="#C9A98A"/><path d="M96 96 C118 96 118 74 104 70" stroke="#C9A98A" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M34 46 L38 18 L54 36Z M86 46 L82 18 L66 36Z" fill="#C9A98A"/><ellipse cx="60" cy="50" rx="27" ry="22" fill="#D6B99C"/>
+<path d="M48 49 q4 4 8 0 M64 49 q4 4 8 0" stroke="#3B3a33" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M57 58 l3 3 3-3z" fill="#B9806F"/></svg>`;
+
+const Ico=({n})=>({x:html`<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>`,
+user:html`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>`,
+search:html`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>`}[n]);
+
+const NAV=[['home','Trang chủ'],['week','Chủ đề tuần'],['base','Nền tảng'],['flow','Dòng chảy'],['lib','Thư viện'],['talk','Góc tâm tình']];
+const HEADS=['Bạn không cần phải ổn mọi lúc.','Ở đây, cứ ngồi xuống đã.'];
+const TOPICS=[['Lo âu trước thi','Khi tim đập nhanh và đầu trống rỗng ngay trước giờ làm bài.'],['Mâu thuẫn với bạn bè','Vì sao một câu nói nhỏ lại làm mình nghĩ suốt nhiều ngày.'],['Cảm thấy cô đơn','Ở giữa lớp đông người vẫn thấy lạc lõng, và điều đó có lý do.'],['Áp lực từ gia đình','Khi kỳ vọng của người thương lại trở nên nặng như gánh.'],['Tự ti về bản thân','Tiếng nói trong đầu luôn chê mình, và cách nghe nó khác đi.'],['Khó tập trung','Ngồi vào bàn học mà tâm trí đi đâu mất.'],['Nghiện điện thoại','Lướt mãi không dừng được, dù biết là mệt.']];
+const FLOW=[['Đầu năm','Làm quen lớp mới, bạn mới, áp lực “phải thể hiện”.','Không cần kết bạn hết trong tuần đầu.'],['Giữa học kỳ','Bài vở dồn lại, dễ thấy mình tụt lại phía sau.','So với chính mình tuần trước, đừng so với bạn.'],['Mùa thi','Ngủ ít, ăn uống thất thường, dễ cáu.','Giữ giấc ngủ trước, ôn bài sau.'],['Sau thi','Nhẹ người nhưng đôi khi lại trống rỗng.','Cảm giác này bình thường, hãy cho mình vài ngày.']];
+const MEOW=['Meo. Hôm nay bạn thế nào?','Uống miếng nước đi.','Nghỉ một chút cũng được.'];
+
+function App(){
+const [h,setH]=useState(0),[saved,setSaved]=useState(false),[q,setQ]=useState(''),[cat,setCat]=useState(''),[ci,setCi]=useState(0),
+[lan,setLan]=useState([]),[lt,setLt]=useState(''),[sent,setSent]=useState(false),[modal,setModal]=useState(null),[user,setUser]=useState(null),[name,setName]=useState('');
+useEffect(()=>{const t=setInterval(()=>setH(x=>(x+1)%2),5500);return()=>clearInterval(t)},[]);
+const meow=()=>{setCat(MEOW[ci%3]);setCi(ci+1);clearTimeout(window.__c);window.__c=setTimeout(()=>setCat(''),3200)};
+const release=()=>{if(!lt.trim())return;setLan(l=>[...l.slice(-4),{id:Date.now(),t:lt,x:Math.random()*55+5}]);setLt('')};
+const list=TOPICS.filter(([a,b])=>(a+b).toLowerCase().includes(q.toLowerCase()));
+const auth=e=>{e.preventDefault();setUser(name||'Bạn');setModal('profile')};
+const go=id=>document.getElementById(id).scrollIntoView();
+
+return html`<div>
+<header class="sticky top-0 z-40" style=${{background:'color-mix(in srgb,var(--bg) 88%,transparent)',borderBottom:'1px solid var(--line)',paddingTop:'env(safe-area-inset-top,0px)'}}>
+<div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between gap-4">
+<a href="#home" class="serif text-xl whitespace-nowrap">Không Gian Nội Tâm</a>
+<nav class="hidden lg:flex gap-7 text-sm">${NAV.map(([i,t])=>html`<a key=${i} href=${'#'+i} class="mute hover:text-[color:var(--sage-d)] transition-colors">${t}</a>`)}</nav>
+<button class="btn btn-s !py-2 !px-4 flex items-center gap-2" onClick=${()=>setModal(user?'profile':'login')}><${Ico} n="user"/> ${user||'Tài khoản'}</button></div>
+<div class="lg:hidden flex gap-5 overflow-x-auto px-5 pb-2 text-sm mute whitespace-nowrap">${NAV.map(([i,t])=>html`<a key=${i} href=${'#'+i}>${t}</a>`)}</div>
+</header>
+
+<section id="home" class="relative max-w-6xl mx-auto px-5 pt-16 pb-24 md:pt-28 md:pb-36">
+<${Wisteria} cls="absolute -top-2 right-0 w-[78%] max-w-[520px] opacity-80 pointer-events-none"/>
+<div class="relative max-w-2xl">
+<p class="eyebrow mb-6 fade">Thông tin tâm lý cho học sinh</p>
+<h1 key=${h} class="serif fade text-5xl md:text-7xl min-h-[2.4em] md:min-h-[2.3em]">${HEADS[h]}</h1>
+<p class="mute text-lg mt-6 max-w-xl">Đây là nơi để hiểu rõ hơn chuyện đang diễn ra trong đầu và trong lòng mình: áp lực thi cử, bạn bè xa cách, những đêm không ngủ được. Không phán xét, không bắt bạn phải “tích cực lên”. Chỉ có thông tin dựa trên khoa học, viết bằng giọng của một người ngồi nghe bạn nói.</p>
+<div class="flex flex-wrap gap-3 mt-10"><button class="btn btn-p" onClick=${()=>go('base')}>Bắt đầu từ đâu cũng được</button><button class="btn btn-s" onClick=${()=>go('week')}>Đọc chủ đề tuần này</button></div></div>
+<div class="relative mt-16 md:mt-0 md:absolute md:right-5 md:bottom-16 flex flex-col items-start md:items-center">
+${cat&&html`<div class="pop card !rounded-2xl px-4 py-2 text-sm mb-2">${cat}</div>`}<${Cat} onClick=${meow}/></div>
+</section>
+
+<section id="week" class="py-24" style=${{background:'var(--bg2)'}}><div class="max-w-6xl mx-auto px-5 grid lg:grid-cols-12 gap-12">
+<${R} cls="lg:col-span-4"><p class="eyebrow mb-4">Tuần này, mình cùng nói về…</p><h2 class="serif text-4xl md:text-5xl">Vì sao đã mệt mà vẫn không ngủ được?</h2>
+<div class="flex flex-col items-start gap-4 mt-8"><button class="btn btn-p" onClick=${()=>setSaved(!saved)}>${saved?'✓ Đã lưu bài này':'Lưu bài này'}</button>
+<button class="link" onClick=${()=>navigator.share?navigator.share({title:document.title,url:location.href}).catch(()=>{}):0}>Chia sẻ cho một người bạn</button><button class="link">Xem chủ đề tuần trước</button></div><//>
+<${R} d=".15" cls="lg:col-span-7 lg:col-start-6 drop text-[1.05rem]">
+<p>Bạn nằm xuống lúc 11 giờ, người rã rời, nhưng đầu thì bắt đầu chạy: bài kiểm tra ngày mai, câu nói của ai đó hồi chiều, chuyện chưa làm xong. Đây không phải lỗi ở bạn. Khi căng thẳng kéo dài, cơ thể giữ nguyên trạng thái “đề phòng”, dù nguy hiểm thật sự không có.</p>
+<h3 class="serif text-2xl mt-10 mb-2">Chuyện gì đang xảy ra bên trong</h3>
+<p>Hệ thần kinh của bạn đang cố bảo vệ bạn bằng cách giữ bạn tỉnh táo. Nó chưa biết rằng bài kiểm tra không phải là con hổ.</p>
+<blockquote class="serif italic text-2xl md:text-3xl my-10 pl-6" style=${{borderLeft:'2px solid var(--sage)',color:'var(--sage-d)'}}>“Tỉnh táo lúc 1 giờ sáng thường không phải để giải quyết vấn đề. Nó chỉ là lo lắng đang làm việc ngoài giờ.”</blockquote>
+<h3 class="serif text-2xl mb-2">Thử những việc nhỏ, nhưng thật</h3>
+<p>Viết mọi thứ đang lo ra giấy trước khi ngủ, để đầu bớt phải “ôm”. Để điện thoại xa giường. Nếu 20 phút vẫn chưa ngủ được, hãy ngồi dậy làm gì đó nhẹ nhàng rồi quay lại. Nằm trằn trọc lâu chỉ khiến giường gắn với lo âu.</p>
+<h3 class="serif text-2xl mt-10 mb-2">Khi nào nên tìm người giúp</h3>
+<p>Nếu mất ngủ kéo dài hơn 2–3 tuần, hoặc đi kèm cảm giác trống rỗng, mất hứng thú với mọi thứ, hãy nói với thầy cô, người thân hoặc chuyên gia. Đó không phải yếu đuối, đó là xử lý đúng vấn đề.</p><//>
+</div></section>
+
+<section id="base" class="max-w-6xl mx-auto px-5 py-28">
+<${R}><p class="eyebrow mb-4">Nền tảng</p><h2 class="serif text-4xl md:text-6xl max-w-2xl">Những điều nên biết trước khi bắt đầu</h2><p class="mute mt-5 max-w-lg">Vài hiểu biết cơ bản để bạn bớt tự trách mình.</p><//>
+<div class="grid md:grid-cols-6 gap-5 mt-14">
+${[['Cảm xúc không có đúng sai','Buồn, giận, sợ đều là tín hiệu, không phải khuyết điểm.','md:col-span-3 md:row-span-2 p-10 md:p-12 !bg-[color:var(--sage)] !text-[#26301f]'],['Cơ thể và tâm trí là một','Đau đầu, đau bụng, mệt mỏi đôi khi là cách cơ thể nói thay bạn.','md:col-span-3 p-8'],['Xin giúp đỡ là một kỹ năng','Ai cũng cần, chỉ là không phải ai cũng biết bắt đầu thế nào.','md:col-span-3 md:ml-10 p-8']].map(([t,d,c],i)=>html`
+<${R} key=${i} d=${i*.12} cls=${c.split(' ').filter(x=>x.startsWith('md:col')||x.startsWith('md:row')).join(' ')}><div class=${'card h-full flex flex-col justify-between gap-10 '+c.replace(/md:col-span-\d|md:row-span-\d/g,'')} style=${i==0?{border:'none'}:{}}>
+<div><span class="eyebrow" style=${i==0?{color:'#26301f'}:{}}>0${i+1}</span><h3 class="serif text-2xl md:text-3xl mt-3 mb-3">${t}</h3><p class=${i==0?'':'mute'}>${d}</p></div><button class="link self-start" style=${i==0?{color:'#26301f'}:{}}>Đọc tiếp →</button></div><//>`)}
+</div>
+<${R} cls="mt-24 grid md:grid-cols-5 gap-10 items-center"><div class="md:col-span-2"><h3 class="serif text-3xl">Đội ngũ đồng hành</h3></div>
+<div class="md:col-span-3"><p class="mute">Nội dung ở đây được biên soạn và rà soát bởi những người làm việc với học sinh mỗi ngày.</p>
+<div class="flex mt-5">${['#C9B79C','#9CAF88','#B3A5BF','#D6B99C','#A9A08A','#C7D0B8'].map((c,i)=>html`<div key=${i} class="w-12 h-12 rounded-full border-2 -ml-2 first:ml-0" style=${{background:c,borderColor:'var(--bg)'}}></div>`)}</div></div><//>
+</section>
+
+<section id="flow" class="py-28" style=${{background:'var(--bg2)'}}><div class="max-w-6xl mx-auto px-5">
+<${R}><p class="eyebrow mb-4">Dòng chảy</p><h2 class="serif text-4xl md:text-6xl max-w-2xl">Một năm học, nhiều mùa tâm trạng</h2><p class="mute mt-5 max-w-lg">Áp lực không đến ngẫu nhiên. Nó có nhịp, và biết trước nhịp sẽ giúp bạn chuẩn bị.</p><//>
+<div class="mt-16 relative pl-8 md:pl-0">
+<div class="absolute left-0 md:left-1/2 top-2 bottom-2 w-px" style=${{background:'var(--sage)'}}></div>
+${FLOW.map(([t,d,g],i)=>html`<${R} key=${i} cls=${'relative md:w-1/2 mb-14 '+(i%2?'md:ml-auto md:pl-14':'md:pr-14 md:text-right')}>
+<span class=${'absolute top-3 w-3 h-3 rounded-full -left-[38px] '+(i%2?'md:-left-[6px]':'md:-right-[6px] md:left-auto')} style=${{background:'var(--sage-d)'}}></span>
+<h3 class="serif text-3xl">${t}</h3><p class="mute mt-2">${d}</p><p class="mt-2 serif italic text-lg" style=${{color:'var(--sage-d)'}}>${g}</p><//>`)}
+</div></div></section>
+
+<section id="lib" class="max-w-6xl mx-auto px-5 py-28">
+<${R}><p class="eyebrow mb-4">Thư viện</p><h2 class="serif text-4xl md:text-6xl">Tìm đúng thứ bạn đang cần</h2>
+<div class="relative mt-10 max-w-xl"><span class="absolute left-4 top-1/2 -translate-y-1/2 mute"><${Ico} n="search"/></span><input style=${{paddingLeft:'2.8rem'}} placeholder="Bạn đang gặp chuyện gì?" value=${q} onInput=${e=>setQ(e.target.value)}/></div>
+<div class="flex flex-wrap gap-2 mt-5">${TOPICS.map(([t])=>html`<button key=${t} class=${'chip '+(q==t?'on':'')} onClick=${()=>setQ(q==t?'':t)}>${t}</button>`)}</div><//>
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
+${list.map(([t,d],i)=>html`<${R} key=${t} d=${(i%3)*.08}><div class="card p-7 h-full flex flex-col justify-between gap-8"><div><h3 class="serif text-2xl mb-2">${t}</h3><p class="mute text-[.95rem]">${d}</p></div><button class="link self-start">Đọc bài →</button></div><//>`)}
+${!list.length&&html`<p class="mute">Chưa có bài khớp với “${q}”. Thử một từ khác nhé.</p>`}</div></section>
+
+<section id="talk" class="py-28" style=${{background:'var(--bg2)'}}><div class="max-w-6xl mx-auto px-5 grid lg:grid-cols-2 gap-16">
+<${R}><p class="eyebrow mb-4">Góc tâm tình</p><h2 class="serif text-4xl md:text-5xl">Có điều gì muốn nói ra không?</h2>
+<p class="mute mt-5 max-w-md">Bạn có thể viết ở đây, không cần tên. Chúng tôi không thay thế được một buổi trò chuyện trực tiếp, nhưng đôi khi viết ra đã là bước đầu.</p>
+${sent?html`<div class="pop card p-7 mt-8"><p class="serif text-xl">Cảm ơn bạn đã tin tưởng viết ra. Điều đó không dễ. Nếu cần nói chuyện với ai ngay, hãy xem mục hỗ trợ khẩn cấp bên dưới.</p><button class="link mt-4" onClick=${()=>setSent(false)}>Viết thêm</button></div>`:
+html`<form class="mt-8 space-y-4" onSubmit=${e=>{e.preventDefault();setSent(true)}}><textarea required rows="6" placeholder="Cứ viết như đang nói chuyện với một người sẽ lắng nghe…"></textarea>
+<div class="flex flex-wrap gap-6 text-sm"><label class="flex gap-2 items-center"><input type="radio" name="o" defaultChecked style=${{width:16}}/>Mình muốn nhận lời hồi âm</label><label class="flex gap-2 items-center"><input type="radio" name="o" style=${{width:16}}/>Chỉ cần viết thôi</label></div>
+<button class="btn btn-p">Gửi đi</button></form>`}<//>
+<${R} d=".15"><div class="relative h-[420px] rounded-[28px] overflow-hidden flex flex-col justify-end p-6" style=${{background:'linear-gradient(#2f3a33,#46544a)',color:'#F6F0E4'}}>
+<div class="absolute inset-x-0 top-0 h-60 overflow-hidden pointer-events-none">${lan.map(l=>html`<div key=${l.id} class="lan" style=${{left:l.x+'%',bottom:'-20px'}}><div class="mx-auto w-9 h-11 rounded-[40%]" style=${{background:'var(--lan)',boxShadow:'0 0 28px 8px rgba(232,167,101,.5)'}}></div><span class="block mt-1 opacity-90">${l.t.slice(0,28)}</span></div>`)}</div>
+<p class="serif text-2xl mb-4 relative">Thả một điều xuống, để nó bay đi.</p>
+<div class="flex gap-2 relative"><input style=${{background:'rgba(255,255,255,.08)',borderColor:'rgba(255,255,255,.2)',color:'#F6F0E4'}} placeholder="Viết một điều bạn muốn buông xuống" value=${lt} maxLength="80" onInput=${e=>setLt(e.target.value)} onKeyDown=${e=>e.key=='Enter'&&release()}/>
+<button class="btn !bg-[#E8A765] !text-[#2f3a33] !border-0 whitespace-nowrap" onClick=${release}>Thả đèn</button></div></div><//>
+</div></section>
+
+<footer class="max-w-6xl mx-auto px-5 py-16 text-sm">
+<div class="card p-7 mb-10"><p><strong class="font-medium">Nếu bạn đang gặp nguy hiểm hoặc có ý nghĩ tự làm hại mình:</strong> hãy nói ngay với người lớn tin cậy ở gần bạn, hoặc gọi <strong class="font-medium">111</strong> (Tổng đài quốc gia bảo vệ trẻ em, miễn phí) / <strong class="font-medium">115</strong> nếu cần cấp cứu.</p></div>
+<p class="mute italic">Trang này cung cấp thông tin tham khảo, không thay thế chẩn đoán hay điều trị chuyên môn.</p>
+<div class="flex flex-wrap gap-6 mt-5 mute"><a href="#home">Giới thiệu</a><a href="#home">Quyền riêng tư</a><a href="#talk">Liên hệ</a><span>© Không Gian Nội Tâm</span></div></footer>
+
+${modal&&html`<div class="fixed inset-0 z-50 flex items-center justify-center p-5" style=${{background:'rgba(40,38,30,.45)'}} onClick=${()=>setModal(null)}>
+<div class="pop card !rounded-3xl p-8 w-full max-w-md relative" onClick=${e=>e.stopPropagation()} style=${{transform:'none'}}>
+<button class="absolute top-5 right-5 mute" aria-label="Đóng" onClick=${()=>setModal(null)}><${Ico} n="x"/></button>
+${modal=='profile'?html`<h3 class="serif text-3xl mb-1">Xin chào, ${user}</h3><p class="mute mb-6">Không gian riêng của bạn.</p>
+<p class="eyebrow mb-2">Bài đã lưu</p><p class="mb-5">${saved?'• Vì sao đã mệt mà vẫn không ngủ được?':html`<span class="mute">Chưa có bài nào.</span>`}</p>
+<p class="eyebrow mb-2">Chủ đề quan tâm</p><div class="flex flex-wrap gap-2 mb-7">${TOPICS.slice(0,4).map(([t])=>html`<span key=${t} class="chip">${t}</span>`)}</div>
+<button class="btn btn-s" onClick=${()=>{setUser(null);setModal(null)}}>Đăng xuất</button>`:
+html`<h3 class="serif text-3xl mb-5">${modal=='login'?'Chào mừng trở lại':'Tạo không gian của bạn'}</h3>
+<form class="space-y-3" onSubmit=${auth}>${modal=='register'&&html`<input placeholder="Tên gọi (không cần tên thật)" value=${name} onInput=${e=>setName(e.target.value)}/>`}
+<input type="email" required placeholder="Email"/><input type="password" required placeholder="Mật khẩu"/>
+<button class="btn btn-p w-full !mt-5">${modal=='login'?'Vào lại không gian của mình':'Tạo tài khoản'}</button></form>
+${modal=='login'?html`<button type="button" class="link mt-4">Quên mật khẩu?</button>`:html`<p class="mute text-xs mt-4">Chúng tôi chỉ dùng thông tin này để lưu bài bạn thích.</p>`}
+<p class="mt-5 text-sm mute">${modal=='login'?'Chưa có tài khoản?':'Đã có tài khoản?'} <button type="button" class="link" onClick=${()=>setModal(modal=='login'?'register':'login')}>${modal=='login'?'Đăng ký':'Đăng nhập'}</button></p>`}
+</div></div>`}
+</div>`}
+ReactDOM.createRoot(document.getElementById('root')).render(html`<${App}/>`);
+</script>
+</body>
+</html>
