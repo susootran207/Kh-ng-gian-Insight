@@ -29,5 +29,5 @@ All sample content is unreviewed, explicitly labeled illustrative copy. This pro
 ## Additive atmosphere revision
 The original garden frame and design remain intact. A separate atmosphere layer adds translucent surfaces, edge wisteria, a bounded CSS petal field and occasional decorative Mây visits in safe section padding. Mobile reduces particles, character size and frequency. OS/manual reduced motion stops spontaneous visits; the interactive hero cat remains available. Input, focus, expanded reads and hero visibility take precedence. See DESIGN.md and docs/prototype/REVIEW.md in the repository root for behavior and measured limits.
 
-## Current trellis review round
-Three alternatives remain available on the same homepage: `/?wisteria=A`, `/?wisteria=B`, `/?wisteria=C`. B is provisional default, not an approved choice; A/C are retained. The parameter only selects decorative composition, with no persisted preference or article routing. See `../docs/prototype/screenshots/variants/README.md` for matched 1440px screenshots and the review board.
+## Approved Phase 1 design
+The user approved Phase 1 and selected B on 24 October 2026. B is fixed in `src/components/wisteriaDesign.ts`; no runtime A/C alternatives or preview selector remain. Old `?wisteria=A` / `C` URLs render B. Archived comparison images remain in `../docs/prototype/screenshots/variants/`. The visual B parameters and all other functionality are unchanged. PR #2 is for manual merge only, with no deployment or Phase 2 work.

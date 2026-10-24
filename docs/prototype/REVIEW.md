@@ -1,5 +1,7 @@
 # Giai đoạn 1 — Bản bàn giao prototype trang chủ
 
+**Trạng thái chính thức: người dùng đã duyệt Giai đoạn 1 ngày 24/10/2026 và chọn B. B được cố định; PR #2 chuẩn bị cho merge thủ công sau kiểm tra cuối. Không tự merge, deploy hoặc triển khai Giai đoạn 2.**
+
 Ngày kiểm tra: 24/10/2026. Phạm vi: chỉ Giai đoạn 1. Dự án mới tại `prototype/`.
 
 ## Kết quả
@@ -15,7 +17,7 @@ Font Cormorant Garamond và Be Vietnam Pro có subset tiếng Việt, được �
 
 - `npm install`: thành công; dependency được khóa trong package-lock.json.
 - `npm run build`: TypeScript strict và Vite production build thành công.
-- `npm run test:e2e`: **24/24 bài kiểm thử đạt**, chạy trên bản production build bằng Chromium 154, Playwright 1.64.1.
+- `npm run test:e2e`: **22/22 bài kiểm thử cuối cùng đạt**, chạy trên bản production build bằng Chromium 154, Playwright 1.64.1.
 - 320, 390, 768, 1440px: không tràn ngang; font tiếng Việt và ảnh local tải được; không có pageerror hoặc request bên ngoài.
 - Axe WCAG 2 A/AA và 2.1 AA: không phát hiện vi phạm ở bốn viewport mặc định và một trạng thái nội dung mở rộng. Đây là quét tự động, không phải chứng nhận accessibility.
 - Menu mobile: mở bằng bàn phím, Escape đóng và trả focus; liên kết đúng section; tải lại anchor không lỗi.
@@ -174,7 +176,7 @@ Người dùng điều chỉnh lại brief: **không dùng mái lớn/dày/full-
 **Chỉ cập nhật nhánh feat/homepage-garden-prototype và PR #2. Không merge, deploy hoặc chuyển Giai đoạn 2. Chờ người dùng duyệt bố trí hoa góc.**
 
 
-## Vòng duyệt hiện tại: ba phương án A/B/C — chưa chốt
+## Lịch sử vòng duyệt: ba phương án A/B/C
 
 Người dùng chưa duyệt bản hai góc và yêu cầu giàn nối ngang, tự nhiên, có hoa ở giữa và ba phương án trực quan. Bản hai góc cũng như bản mái lớn trước đó chỉ còn là lịch sử thử nghiệm. **B là mặc định tạm theo ưu tiên của người dùng; A/C không bị xóa và chưa phương án nào được xem là đã duyệt.**
 
@@ -205,3 +207,29 @@ Không đổi HTML gốc, App.tsx, global.css, Wisteria.tsx, CatGarden/CatArt/Sc
 - Mẫu B sau art decode + 500ms, 240 callback cuộn: p95 18,3ms desktop và 16,9ms mobile; không long task >50ms. Dữ liệu: `performance-variants-B.json`. Không coi là chứng nhận FPS/GPU hay kiểm thử thiết bị thật; Safari/Firefox/screen reader và thiết bị vật lý vẫn chưa thử.
 
 Hướng dẫn mở từng biến thể trong [README ảnh](screenshots/variants/README.md). Chỉ cập nhật PR #2 trên nhánh hiện có. **Dừng chờ người dùng chọn A/B/C; không merge, deploy hoặc chuyển Giai đoạn 2.**
+
+
+## Nghiệm thu cuối Giai đoạn 1 — B đã được phê duyệt
+
+Ngày 24/10/2026, người dùng chính thức chọn B và yêu cầu ghi nhận **Giai đoạn 1 đã được duyệt**. Những trạng thái “chưa chốt/chờ chọn” trong các mục lịch sử bên trên đã được quyết định này thay thế. Việc duyệt prototype không phải xác nhận chuyên gia đã duyệt nội dung tâm lý và không cấp quyền triển khai Giai đoạn 2.
+
+### Cố định B, không sửa thiết kế
+
+- Tách đúng dữ liệu B đã duyệt sang `prototype/src/components/wisteriaDesign.ts`, xuất `approvedWisteria`. Đã so sánh văn bản object với B ở commit b490894: thông số giống hệt.
+- Xóa dữ liệu A/C, hàm đọc tham số biến thể và CSS dành riêng cho A/C khỏi runtime. TopCanopy luôn dùng B; `?wisteria=A` / `C` / giá trị khác không thay đổi giao diện. Không có bộ chọn mới hoặc hành động rewrite URL.
+- Giữ nguyên ảnh A/C và bảng so sánh làm tài liệu lịch sử. README ảnh đã ghi B được duyệt và bỏ hướng dẫn chọn A/C trong ứng dụng.
+- Không thay App.tsx, global.css, Wisteria.tsx, CatGarden/CatArt/ScrollCompanion/GardenAtmosphere, ảnh/khung hero, petals, quote, timeline, Góc tâm tình, typography hoặc nội dung. HTML gốc giữ nguyên SHA-256.
+
+### Kiểm tra cuối
+
+- `npm run build`: TypeScript strict và Vite production build thành công.
+- `npm run test:e2e`: **22/22 đạt** trên Chromium 154. Số lượng giảm từ 24 vì kiểm thử chọn các biến thể đã được thay bằng kiểm thử khóa B và URL preview cũ.
+- 320/390/768/1440px: không tràn ngang, font/ảnh local tải được, không pageerror/request ngoài; Axe không phát hiện vi phạm trong phạm vi tự động đã kiểm tra.
+- Xác nhận B trên desktop/tablet/mobile; URL A/C cũ và tham số không hợp lệ đều cho cùng B, tọa độ thành phần và thông số giàn không đổi. Menu/mask, reduced motion và tab/offscreen pause vẫn đạt.
+- Mây click/biểu cảm, kéo chuột/cảm ứng mô phỏng, bàn phím/reset, hành vi đồng hành, quote, chuyên đề, cả ba bản đọc, timeline, focus và quyền riêng tư khi thả đèn tiếp tục đạt.
+- Đã chụp ảnh B cố định ở cùng viewport 1440×1000, quote seed .5, animation 1000ms như ảnh B duyệt ở vòng trước. So sánh raw pixel RGB bằng Pillow: **không có pixel khác biệt**. Ảnh cuối: [B chính thức](screenshots/approved/hero-B-1440.png). Dữ liệu xác minh: `final-verification.json`.
+- Các giới hạn cũ vẫn giữ: chưa thử thiết bị vật lý, Safari/Firefox hoặc screen reader thực tế; chưa chạy engine/launcher/hook UI Skills. Không tuyên bố có chứng nhận accessibility hoặc chuyên gia duyệt nội dung.
+
+### Bàn giao merge thủ công
+
+Chỉ cập nhật nhánh feat/homepage-garden-prototype của PR #2, base main. Ghi nhận phê duyệt và kết quả build/test trong mô tả PR, giữ PR không ở trạng thái draft. Không gọi merge hoặc bật auto-merge. Không tạo workflow deploy, backend hoặc công việc Giai đoạn 2.

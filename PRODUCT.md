@@ -1,5 +1,8 @@
 # Không Gian Nội Tâm
 
+## Acceptance status — 24 October 2026
+The user has approved Phase 1 and selected wisteria composition B as final. Runtime alternatives A/C are removed; comparison images remain as historical documentation. PR #2 may be prepared for manual merge after final checks. No automatic merge, deployment or Phase 2 work is authorized. Approval covers this homepage prototype, not expert review of the sample psychology copy.
+
 ## Product and audience
 A Vietnamese school-wellbeing frontend for students who want a calm place to read, pause, and understand everyday school experiences. No diagnosis, treatment, crisis-response service, account, backend, or human inbox is provided.
 

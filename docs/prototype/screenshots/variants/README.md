@@ -1,4 +1,4 @@
-# Giàn tử đằng — ba phương án chờ duyệt
+# Giàn tử đằng — ảnh lịch sử; B đã được duyệt
 
 Cả ba phương án sử dụng cùng trang chủ, viewport 1440×1000, cùng quote seed `.5`, cùng pha animation đóng băng tại 1000ms. Không sửa khung hero hoặc thay đổi thành phần nào khác.
 
@@ -10,12 +10,8 @@ Cả ba phương án sử dụng cùng trang chủ, viewport 1440×1000, cùng q
 
 [Bảng so sánh A/B/C cùng tỷ lệ](canopy-options-1440.png). Bảng chỉ cắt cùng vùng đầu của ba screenshot thật để dễ đối chiếu; các ảnh hero giữ toàn viewport.
 
-Chạy prototype bằng `npm run dev`, rồi xem:
+## Quyết định chính thức
 
-- `http://localhost:5173/?wisteria=A`
-- `http://localhost:5173/?wisteria=B`
-- `http://localhost:5173/?wisteria=C`
+Ngày 24/10/2026, người dùng chính thức chọn B và duyệt Giai đoạn 1. A/C và cơ chế chọn biến thể đã được loại khỏi giao diện chạy; các ảnh ở đây chỉ giữ để đối chiếu lịch sử. Không dùng các URL preview cũ để chọn A/C nữa: mọi URL đều hiển thị B.
 
-Không có tham số sẽ xem B theo ưu tiên của người dùng. Đây là mặc định tạm để phát triển, **chưa phải quyết định thiết kế**. A/C vẫn có đầy đủ dữ liệu, render và animation trong build; không biến thể nào bị xóa. Các URL chỉ chọn cấu hình trang trí của cùng trang chủ, không tạo routing hoặc tính năng Giai đoạn 2.
-
-Người dùng chọn một phương án hoặc chỉ rõ phần cần kết hợp trước vòng triển khai tiếp theo.
+Thiết kế chính thức là ảnh [B — 1440px](hero-B-1440.png), được giữ nguyên thông số trong `prototype/src/components/wisteriaDesign.ts`. Không merge tự động, deploy hoặc triển khai Giai đoạn 2.

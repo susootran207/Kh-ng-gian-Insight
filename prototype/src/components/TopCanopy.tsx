@@ -1,6 +1,6 @@
 import { useLayoutEffect, useRef, useState, type CSSProperties } from 'react'
 
-import { readWisteriaVariant, wisteriaVariants, type BotanicalSpray } from './wisteriaVariants'
+import { approvedWisteria, type BotanicalSpray } from './wisteriaDesign'
 
 // Atlas roots match each individually painted botanical twig, not a uniform bar.
 const rootAnchors=[.75,.52,.68,.38,.47,.42]
@@ -10,9 +10,8 @@ const protectedSelectors='.site-header .brand,.navigation>a,.menu-button,.hero-c
 export function TopCanopy() {
   const root=useRef<HTMLDivElement>(null)
   const [mask,setMask]=useState('')
-  const [variant]=useState(readWisteriaVariant)
   const [width,setWidth]=useState(()=>window.innerWidth)
-  const composition=wisteriaVariants[variant]
+  const composition=approvedWisteria
   const scale=width<700?.46:width<1100?.8:1
   useLayoutEffect(()=>{
     const canopy=root.current
@@ -52,7 +51,7 @@ export function TopCanopy() {
       <div className="botanical-paint" style={{backgroundPosition:near?`${spray.cell*50}% 50%`:`${(spray.cell%3)*50}% ${Math.floor(spray.cell/3)*100}%`}}/>
     </div>
   }
-  return <div ref={root} className="top-garland living-trellis" data-variant={variant} data-ready={Boolean(mask)} aria-hidden="true" style={{maskImage:mask,WebkitMaskImage:mask}}>
+  return <div ref={root} className="top-garland living-trellis" data-variant="B" data-ready={Boolean(mask)} aria-hidden="true" style={{maskImage:mask,WebkitMaskImage:mask}}>
     <div className="trellis-distant-leaves"/>
     <svg className="canopy-layer trellis-branches" data-depth="back" viewBox={`0 0 ${width} 210`} preserveAspectRatio="none" fill="none">
       <path className="trellis-main-branch" d={`M-6 47C${width*.04} 5 ${width*.09} 2 ${width*.19} 13S${width*.31} 32 ${width*.39} 12Q${width*.45} -2 ${width*.51} 13M${width+6} 43C${width*.96} 5 ${width*.91} -1 ${width*.83} 10S${width*.68} 28 ${width*.61} 11Q${width*.55} 2 ${width*.51} 13`} stroke="#8e8068" strokeWidth={width<700?1.5:2.5} strokeLinecap="round"/>

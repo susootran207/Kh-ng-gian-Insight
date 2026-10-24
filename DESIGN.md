@@ -1,5 +1,7 @@
 # Không Gian Nội Tâm — garden / editorial system
 
+**Trạng thái: Giai đoạn 1 đã được người dùng duyệt ngày 24/10/2026. Phương án B là thiết kế giàn tử đằng chính thức.** A/C chỉ giữ ảnh lịch sử trong tài liệu; không còn trong mã giao diện chạy. Không triển khai Giai đoạn 2 trong PR #2.
+
 ## Committed world
 Poetic Interactive Garden × Editorial Design. A private pause under wisteria, not a medical dashboard. Homepage: Experience and gentle wayfinding; excerpts: Read. Concept: the garden offers a seat before it offers advice. Wisteria and Mây the cat are the identifying objects. The lantern is a small closing ritual, never a simulated inbox.
 
@@ -101,7 +103,7 @@ The user corrected the brief: no dense continuous roof. This section supersedes 
 Current evidence: `docs/prototype/screenshots/comparison/corners-before-after-{1440,390}.png`, the updated responsive screenshots, `performance-corners.json` and the latest REVIEW section. Skill execution limits remain unchanged; no engine or hook was run.
 
 
-## Three living-trellis proposals — current review round, not approved
+## Three living-trellis proposals — historical review round
 
 The user rejected the sparse corner framing and requested a connected span with natural, moderate floral density. The new review round has three independent configurations in `wisteriaVariants.ts`; none is finalized. `?wisteria=A|B|C` previews each on the same homepage; omitted/unknown values use B provisionally. This is a decorative configuration parameter, not Phase 2 routing, a publishing system, or a persisted user preference.
 
@@ -118,3 +120,14 @@ The inherited safety mask, glass surfaces and input-priority behavior remain. To
 Images: `docs/prototype/screenshots/variants/hero-{A,B,C}-1440.png`, top crops, and `canopy-options-1440.png`. All were captured with viewport 1440×1000, quote seed .5, local font/art readiness and every animation paused at 1000ms. The comparison board uses identically cropped screenshot regions, not different mockups. All variants remain in the build for user selection. Existing hero, Mây, quote, petals, timeline, reflection/privacy, typography and global layout source files are unchanged.
 
 Evidence: 24 passing project-owned browser tests, including stable non-decoration geometry across A/B/C, mask safety, mobile controls for all alternatives, B default/fallback, reduced motion and retained original interactions. Existing skill runtime limits remain unchanged. This round stops for the user's visual choice; no merge, deployment or Phase 2.
+
+
+## Official approval and design lock — 24 October 2026
+
+The user explicitly selected and approved B and requested Phase 1 to be marked approved, with PR #2 ready for a manual merge after final verification. This supersedes all earlier provisional/review statuses in the historical sections above.
+
+- `prototype/src/components/wisteriaDesign.ts` now exports only `approvedWisteria`, copied exactly from the reviewed B composition. Positions, sizes, tilt, foliage, opacity, timing, depth, responsive scale and the safety mask are unchanged.
+- TopCanopy always renders B. A/C data, the query-reading function and A/C-only CSS have been removed from runtime. Legacy `?wisteria=A` / `C` URLs cannot change the design. No new selector or URL-rewrite interaction is introduced.
+- The A/B/C screenshots and comparison board remain archived under `docs/prototype/screenshots/variants/`; their README records the decision rather than advertising live alternatives.
+- Hero, Mây, petals, glass surfaces, all other interaction/layout/type/copy files and original HTML remain unchanged. Phase 1 approval is not specialist approval of draft psychology text and is not deployment or Phase 2 authorization.
+- Final verification and merge-readiness evidence are recorded in REVIEW.md. No automatic merge, publishing action, backend or further phase is added.

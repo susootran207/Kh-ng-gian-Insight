@@ -16,14 +16,12 @@ main,.site-footer{position:relative;z-index:1}
  .season-panel{background:var(--cream)}
  .weekly-excerpt,.sample-preview{background:var(--paper)}
 }
-/* Three reviewable compositions: B is provisional, A and C remain available. */
+/* Official Phase 1 composition B, approved by the user. */
 .top-garland{position:absolute;inset:0 0 auto;height:220px;z-index:21;pointer-events:none;overflow:clip}
 .living-trellis{width:100%;mask-size:100% 100%;mask-repeat:no-repeat;-webkit-mask-size:100% 100%;-webkit-mask-repeat:no-repeat}
 .living-trellis[data-ready=false]{visibility:hidden}
 .canopy-layer{position:absolute;inset:0;pointer-events:none}
 .trellis-distant-leaves{position:absolute;inset:-15px 0 auto;height:100px;background:url('/canopy-roof.webp') top center/100% 100% no-repeat;opacity:.33;filter:blur(.4px);pointer-events:none}
-[data-variant=A] .trellis-distant-leaves{opacity:.23}
-[data-variant=C] .trellis-distant-leaves{opacity:.29}
 .trellis-branches{width:100%;height:210px;opacity:.64}
 .trellis-blooms{opacity:.85}
 .trellis-near{opacity:.91}

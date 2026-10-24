@@ -24,15 +24,15 @@ async function safeMask(page:Page){
   })
 }
 
-for(const [variant,width] of [['A',1440],['B',1440],['C',1440],['B',768],['B',390]] as const){
-  test(`trellis ${variant} at ${width}px preserves UI and has flowers across its span`,async({page})=>{
+for(const width of [1440,768,390]){
+  test(`approved B at ${width}px preserves UI and has flowers across its span`,async({page})=>{
     await page.setViewportSize({width,height:1000})
     const requested:string[]=[]
     page.on('request',request=>{if(request.url().includes('/canopy-'))requested.push(request.url())})
-    await page.goto(`/?wisteria=${variant}`)
+    await page.goto('/')
     await ready(page)
     const roof=page.locator('.top-garland')
-    await expect(roof).toHaveAttribute('data-variant',variant)
+    await expect(roof).toHaveAttribute('data-variant','B')
     await expect(roof).toHaveAttribute('data-ready','true')
     const box=(await roof.boundingBox())!
     expect(box.x).toBe(0);expect(box.width).toBe(width)
@@ -59,26 +59,26 @@ for(const [variant,width] of [['A',1440],['B',1440],['C',1440],['B',768],['B',39
   })
 }
 
-test('all alternatives remain selectable, B is provisional default, and page geometry stays identical',async({page})=>{
+test('approved B is fixed: old A/C preview URLs cannot change decoration or page geometry',async({page})=>{
   await page.setViewportSize({width:1440,height:1000})
   await page.addInitScript(()=>{Math.random=()=>.5})
   const geometries:unknown[]=[]
   const compositions:string[]=[]
-  for(const variant of ['A','B','C']){
-    await page.goto(`/?wisteria=${variant}`);await ready(page)
+  for(const url of ['/','/?wisteria=A','/?wisteria=C','/?wisteria=B','/?wisteria=unknown']){
+    await page.goto(url);await ready(page)
+    await expect(page.locator('.top-garland')).toHaveAttribute('data-variant','B')
     geometries.push(await page.locator('.brand,.hero-copy,.garden-art,.quote-section').evaluateAll(els=>els.map(el=>{const r=el.getBoundingClientRect();return [r.x,r.y,r.width,r.height]})))
     compositions.push(await page.locator('.botanical-spray').evaluateAll(els=>els.map(el=>(el as HTMLElement).getAttribute('style')).join('|')))
   }
-  expect(geometries[0]).toEqual(geometries[1]);expect(geometries[1]).toEqual(geometries[2])
-  expect(new Set(compositions).size).toBe(3)
-  await page.goto('/');await expect(page.locator('.top-garland')).toHaveAttribute('data-variant','B')
-  await page.goto('/?wisteria=unknown');await expect(page.locator('.top-garland')).toHaveAttribute('data-variant','B')
+  expect(geometries.every(g=>JSON.stringify(g)===JSON.stringify(geometries[0]))).toBeTruthy()
+  expect(new Set(compositions).size).toBe(1)
 })
 
-test('all mobile alternatives preserve safe controls and a connected middle',async({page})=>{
+test('legacy preview parameters cannot change approved B on mobile or disrupt controls',async({page})=>{
   await page.setViewportSize({width:390,height:844})
-  for(const variant of ['A','B','C']){
-    await page.goto(`/?wisteria=${variant}`);await ready(page)
+  for(const value of ['A','B','C']){
+    await page.goto(`/?wisteria=${value}`);await ready(page)
+    await expect(page.locator('.top-garland')).toHaveAttribute('data-variant','B')
     expect((await safeMask(page)).maxAlpha).toBeLessThanOrEqual(4)
     await page.getByRole('button',{name:'Menu',exact:true}).click()
     await expect(page.getByRole('navigation')).toBeVisible()
