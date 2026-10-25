@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1450" viewBox="0 0 640 1450" role="img" aria-labelledby="plan-title plan-desc" lang="vi">
+<title id="plan-title">Một buổi học có chỗ điều chỉnh</title>
+<desc id="plan-desc">Phiếu học tập cho Minh gồm yêu cầu, điều kiện và nguồn lực, việc ưu tiên, chỗ nghỉ và giấc ngủ, điều chỉnh cùng người hỗ trợ. Không có mốc phút bắt buộc, dữ liệu thực nghiệm hoặc cam kết điều trị.</desc>
+<rect width="640" height="1450" fill="#f7f3e9"/>
+<g font-family="Noto Sans, DejaVu Sans, sans-serif" fill="#333e32">
+<text x="32" y="50" font-size="30" font-weight="600">Một buổi học có chỗ sửa</text>
+<text x="32" y="92" font-size="26">Tình huống Minh · Không lịch cố định</text>
+<rect x="32" y="124" width="576" height="172" rx="4" fill="#fffdf7" stroke="#616656"/>
+<text x="52" y="166" font-size="30" font-weight="600">Yêu cầu và nhiệm vụ</text>
+<text x="52" y="213" font-size="28">Hai bài thi: Toán và Lịch sử.</text>
+<text x="52" y="254" font-size="28">Phần nào còn cần hỏi lại?</text>
+<rect x="32" y="322" width="576" height="172" rx="4" fill="#e9e2ee" stroke="#655274"/>
+<text x="52" y="364" font-size="30" font-weight="600">Điều kiện và nguồn lực</text>
+<text x="52" y="411" font-size="28">Việc nhà · Sách vở · Chỗ học</text>
+<text x="52" y="452" font-size="28">Ai có thể giúp điều gì?</text>
+<rect x="32" y="520" width="576" height="172" rx="4" fill="#fffdf7" stroke="#616656"/>
+<text x="52" y="562" font-size="30" font-weight="600">Một việc ưu tiên</text>
+<text x="52" y="609" font-size="28">Chọn phần vừa sức để ôn.</text>
+<text x="52" y="650" font-size="28">Thử làm, rồi xem chỗ cần sửa.</text>
+<rect x="32" y="718" width="576" height="172" rx="4" fill="#dce3d2" stroke="#616656"/>
+<text x="52" y="760" font-size="30" font-weight="600">Chỗ nghỉ và giấc ngủ</text>
+<text x="52" y="807" font-size="28">Nghỉ theo điều kiện buổi học.</text>
+<text x="52" y="848" font-size="28">Tính cả thời gian cần ngủ.</text>
+<rect x="32" y="916" width="576" height="198" rx="4" fill="#eee7d8" stroke="#616656"/>
+<text x="52" y="958" font-size="30" font-weight="600">Nếu kế hoạch không khớp</text>
+<text x="52" y="1005" font-size="28">Bớt việc, đổi thứ tự, hỏi lại.</text>
+<text x="52" y="1046" font-size="28">Nhờ người hỗ trợ khi cần.</text>
+<text x="52" y="1087" font-size="26">Có thể quay lại sửa các ô trên.</text>
+<text x="32" y="1173" font-size="28">Không cần lấp kín buổi tối.</text>
+<text x="32" y="1214" font-size="28">Không có số phút đúng cho tất cả.</text>
+<text x="32" y="1273" font-size="26">Phiếu học tập tự biên soạn · C05 r1</text>
+<text x="32" y="1314" font-size="24">Tham khảo theo phạm vi bài:</text>
+<text x="32" y="1351" font-size="24">Jagiello và cs. (2025); Dunlosky và cs. (2013);</text>
+<text x="32" y="1388" font-size="24">Paruthi và cs. (2016).</text>
+<text x="32" y="1425" font-size="24">Bản nháp · Không phải chương trình điều trị</text>
+</g></svg>
