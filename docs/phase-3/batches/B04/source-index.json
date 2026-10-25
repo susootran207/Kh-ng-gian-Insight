@@ -1,0 +1,253 @@
+{
+  "batch": "B04",
+  "checked": "2026-10-25",
+  "sources": {
+    "NIMH24": {
+      "id": "NIMH24",
+      "apa7": "National Institute of Mental Health. (2024). *Children and mental health: Is this just a stage?* (NIH Publication No. 24-MH-8085). https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+      "accessURL": "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+      "type": "Hướng dẫn chuyên môn NIMH, HTML, revised2024",
+      "population": "Trẻ/người trẻ; chủ yếu hướng dẫn người chăm sóc tại Mỹ, không mẫu nghiên cứu",
+      "location": "What are the signs of mental health conditions in children?; Where should I start…?; How is children’s mental health assessed?; How are childhood mental health disorders treated?",
+      "support": "Khổ sở/ảnh hưởng chức năng có thể cần giúp; đánh giá đa thông tin/chuyên môn, nguy hiểm cần giúp ngay.",
+      "limits": "Không checklist/ngưỡng tự chẩn đoán, không yêu cầu chờ đủ ngày; không luật/dịch vụ Mỹ. Hoạt động vận động của bài không được nguồn thử nghiệm.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": ""
+    },
+    "MIND26": {
+      "id": "MIND26",
+      "apa7": "Mind. (2026, January). *Where to get mental health support.* https://www.mind.org.uk/for-young-people/how-to-get-help-and-support/where-to-look-for-mental-health-support/",
+      "accessURL": "https://www.mind.org.uk/for-young-people/how-to-get-help-and-support/where-to-look-for-mental-health-support/",
+      "type": "Hướng dẫn cho người trẻ, HTML; Published January2026, next review January2029",
+      "population": "Trang cho11–18 tuổi ở Anh/Wales; không mẫu thử nghiệm",
+      "location": "How can I get support for mental health?; Support from people you know and trust; Support from your doctor; Support from school or college; glossary Counsellor",
+      "support": "Có thể hỏi khi chưa biết cần gì; người đáng tin giúp thực tế, có lựa chọn người khác; phân biệt công việc ở trường/bác sĩ/người tham vấn.",
+      "limits": "Không khái quát nhân sự/giấy phép/chẩn đoán/kê thuốc/luật bảo mật/tiếp cận độc lập ở Việt Nam. Bảng vai trò biên tập có điều kiện, không phân tuyến bắt buộc.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Ngày ở nội dung footer publication, không dùng copyright2026 để suy năm. Không sao dịch vụ/số Anh hoặc hứa trường có MHST/CAMHS."
+    },
+    "GULLIVER10": {
+      "id": "GULLIVER10",
+      "apa7": "Gulliver, A., Griffiths, K. M., & Christensen, H. (2010). Perceived barriers and facilitators to mental health help-seeking in young people: A systematic review. *BMC Psychiatry, 10*, Article 113. https://doi.org/10.1186/1471-244X-10-113",
+      "accessURL": "https://link.springer.com/article/10.1186/1471-244X-10-113",
+      "type": "Tổng quan hệ thống bình duyệt, toàn văn HTML nhà xuất bản; thematic synthesis, không phân tích gộp hiệu quả",
+      "population": "Tập trung12–25 tuổi, có cả thiếu niên/người trẻ trưởng thành, chủ yếu Australia/Mỹ; không riêng THCS–THPT Việt Nam",
+      "location": "Aims and scope; Methods > Study Selection; Results > characteristics; Discussion > Confidentiality and trust/Lack of accessibility; Limitations",
+      "support": "Rào cản người trẻ tự thuật: lo bị đánh giá, riêng tư/lòng tin, khó tiếp cận; không đơn giản ý chí.",
+      "limits": "Bằng chứng đến2009/nguồn cũ; ít cơ sở suy nhân quả/hiệu quả lời mở. Một người mã hóa chủ đề, đếm chủ đề không nhất thiết độ quan trọng; chỉ rào cản người tham gia nhận thức.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "URL BMC chuyển Springer; đọc bản hiện hành. Không lấy số tỉ lệ hoặc nghiên cứu người lớn được dẫn trong Background áp cho học sinh."
+    },
+    "NHS23": {
+      "id": "NHS23",
+      "apa7": "National Health Service. (2023, December 15). *Anxiety disorders in children.* https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/",
+      "accessURL": "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/",
+      "type": "Hướng dẫn NHS, HTML, last reviewed15/12/2023, due15/12/2026",
+      "population": "Trẻ/người trẻ, hướng dẫn người chăm sóc Anh; không mẫu thử nghiệm",
+      "location": "Symptoms of anxiety in children and young people",
+      "support": "Căng người/bụng khó chịu có thể đi cùng lo âu.",
+      "limits": "Không đặc hiệu, không xác định nguyên nhân một triệu chứng; không lấy danh sách thành tiêu chuẩn tự chẩn đoán hoặc dùng phần thuốc/di truyền/CBT.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": ""
+    },
+    "SCHN26": {
+      "id": "SCHN26",
+      "apa7": "Sydney Children’s Hospitals Network. (2026, June 10). *Abdominal pain and stomach ache factsheet.* https://www.schn.health.nsw.gov.au/factsheets/abdominal-pain-and-stomach-ache",
+      "accessURL": "https://www.schn.health.nsw.gov.au/factsheets/abdominal-pain-and-stomach-ache",
+      "type": "Hướng dẫn bệnh viện trẻ em thuộc NSW Government, HTML; Last updated10/6/2026",
+      "population": "Trẻ em và gia đình ở Australia; không thử nghiệm mẫu nghỉ hay một nhóm học sinh cụ thể",
+      "location": "Introduction; Signs and symptoms; Diagnosis; Disclaimer",
+      "support": "Đau bụng có nhiều nguyên nhân; đau nặng/tăng/không hết cần bác sĩ xem; khám và xét nghiệm khi cần để tìm nguyên nhân.",
+      "limits": "Không bài tự phân loại cấp cứu, không chẩn đoán từ triệu chứng; không dùng mục thuốc/chườm/điều trị ở nhà hoặc mang dịch vụ Australia vào Việt Nam.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Chọn trang cập nhật2026 này cho claim; RCH Abdominal pain đã đọc nhưng ghi Reviewed May2018/awaiting routine review (footer updated2025) nên không dùng làm nguồn chính."
+    },
+    "WHO24": {
+      "id": "WHO24",
+      "apa7": "World Health Organization. (2024, June 26). *Physical activity.* https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "accessURL": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "type": "Tài liệu tổng hợp/hướng dẫn WHO, HTML,26/6/2024",
+      "population": "Tách trẻ/vị thành niên, người lớn, các nhóm khác; chỉ dùng đoạn trẻ và nghĩa khái niệm/bối cảnh cơ hội chung",
+      "location": "Overview; Benefits of physical activity and risks of sedentary behaviour and inactivity; How much physical activity is recommended?; Levels of physical inactivity globally (đoạn yếu tố tiếp cận)",
+      "support": "Định nghĩa hoạt động thể chất; lợi ích sức khỏe ở trẻ/người trẻ; cơ hội phụ thuộc yếu tố môi trường/xã hội.",
+      "limits": "Không lấy giảm triệu chứng ở đoạn người lớn cho học sinh, không hứa một lần ngắn chữa bệnh; không dùng số liệu tử vong/cân nặng hoặc kê lịch phút cho cá nhân.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Các lần thử full guideline2020/summary qua IRIS timeout, Bookshelf captcha; không nhận đã đọc hướng dẫn đầy đủ2020 hoặc web annex. Nguồn dùng là factsheet2024 đọc thật, khác ISBN2020."
+    },
+    "NHSPA24": {
+      "id": "NHSPA24",
+      "apa7": "National Health Service. (2024, October 23). *Physical activity guidelines for children and young people.* https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/",
+      "accessURL": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/",
+      "type": "Hướng dẫn NHS, HTML, last reviewed23/10/2024, due23/10/2027",
+      "population": "5–18 tuổi; có đoạn khuyến nghị riêng người trẻ sống với khuyết tật, không một mẫu nghiên cứu",
+      "location": "Phần mở đầu/khuyến nghị5–18; What counts as moderate activity?; Exercising safely",
+      "support": "Nhiều loại vận động, ngắt khoảng lâu không vận động; hợp tuổi/khả năng/kinh nghiệm, bắt đầu mới từ từ, hỏi y tế khi có tình trạng sức khỏe.",
+      "limits": "Không tái tạo các lượng phút khác nhau thành một chỉ định chung; không áp5–18 cho người19+; không hướng dẫn dụng cụ/tập sức mạnh/phục hồi tự làm.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Bài không đưa các con số khuyến nghị hoặc ghép với WHO2020. Đoạn disability có lượng riêng; không xem khả năng di chuyển là đồng nhất hoặc cho một bài tập thay thế mọi khuyết tật."
+    },
+    "FEST54": {
+      "id": "FEST54",
+      "apa7": "Festinger, L. (1954). A theory of social comparison processes. *Human Relations, 7*(2), 117–140. https://doi.org/10.1177/001872675400700202",
+      "accessURL": "https://www.decodedscience.org/files/docs/festinger%20(1954)%20a%20theory%20of%20social%20comparison%20processes.pdf",
+      "type": "Công trình lý thuyết gốc đọc qua bản chép/dàn lại văn bản16 trang; không bản nhà xuất bản được đọc trực tiếp",
+      "population": "Lý thuyết đánh giá ý kiến/khả năng, không mẫu người dùng mạng xã hội hiện đại hay xác nhận ở HS Việt Nam",
+      "location": "Hypotheses I–II, PDF bản dàn lại tr.1–2; không gán số trang PDF ấy thành số trang in gốc",
+      "support": "Đánh giá ý kiến/khả năng bằng so với người khác, nhất là khi thiếu căn cứ khách quan không mang tính xã hội.",
+      "limits": "Bản chép có thể có lỗi định dạng/OCR; chỉ dùng luận điểm hẹp, không trích nguyên văn hoặc chứng nhận toàn bản; không nói so sánh luôn xấu/gây bệnh.",
+      "access": "reproduced_text_relevant_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Metadata tác giả1954/7(2)/117–140/DOI đối chiếu hồ sơ SAGE và bìa PDF UBC https://www2.psych.ubc.ca/~schaller/528Readings/Festinger1954.pdf . Bản UBC chủ yếu scan, parser chỉ cho bìa/footer; screenshot tool chỉ trả placeholder, chưa xem được trang scan. Nhà xuất bản timeout. Đọc nội dung Hypotheses I–II ở bản chép DecodedScience thật; cần đối chiếu bản ghi gốc trước công bố, không giả đã xem scan hoặc toàn văn SAGE. Không tái bản PDF/bản dịch toàn bài."
+    },
+    "VAL22": {
+      "id": "VAL22",
+      "apa7": "Valkenburg, P. M., Meier, A., & Beyens, I. (2022). Social media use and its impact on adolescent mental health: An umbrella review of the evidence. *Current Opinion in Psychology, 44*, 58–68. https://doi.org/10.1016/j.copsyc.2021.08.017",
+      "accessURL": "https://www.project-awesome.nl/images/PDFs/Publications/Valkenburg_et_al._An_umbrella_review_COiP_2022.pdf",
+      "type": "Umbrella review bình duyệt, PDF bản xuất bản trên trang dự án của nhóm nghiên cứu,11 trang",
+      "population": "Tập trung thanh thiếu niên, tổng hợp các review2019–giữa2021; một số meta có tuổi làm moderator, không mọi nghiên cứu chỉ cùng một nhóm tuổi",
+      "location": "Abstract/Methods tr.58–59; Main findings/Identified gaps tr.59–60; Discussion",
+      "support": "Phần lớn review diễn giải liên hệ yếu/không nhất quán; khác định nghĩa/cách đo, chủ yếu cắt ngang và tự báo cáo; không kết luận nhân quả đơn giản.",
+      "limits": "Không riêng self-esteem: nguồn nêu self-esteem bị loại khỏi phạm vi chỉ tiêu chính; không dùng để khẳng định so sánh gây giảm tự trọng. Không đồng nhất tổng thời gian màn hình với SMU hoặc kết quả giữa người thành thay đổi cá nhân.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Online2021 nhưng năm tập2022,44:58–68, DOI thật trên PDF. CC BY4.0; không sao bảng/hình. Không gọi đây là bằng chứng cập nhật đến2026 hoặc đọc toàn25 review gốc."
+    },
+    "YMSOC": {
+      "id": "YMSOC",
+      "apa7": "YoungMinds. (n.d.). *Social media and mental health.* https://www.youngminds.org.uk/young-person/coping-with-life/social-media-and-mental-health/",
+      "accessURL": "https://www.youngminds.org.uk/young-person/coping-with-life/social-media-and-mental-health/",
+      "type": "Hướng dẫn người trẻ, HTML không xác minh năm; không thử nghiệm hiệu quả hoạt động",
+      "population": "Người trẻ ở Anh; không mẫu nghiên cứu hoặc kết quả cho từng HS Việt Nam",
+      "location": "The negative impacts… > Comparing yourself to others; Tips for having a positive time online > Take regular breaks/Mute notifications/Unfollow or mute accounts",
+      "support": "Nội dung có thể chọn phần nổi bật/chỉnh sửa; lựa chọn nghỉ/giảm thông báo/đổi nguồn xem.",
+      "limits": "Không kết luận mọi bài giả/mọi người bị hại; không áp phút ví dụ, blue-light filter, nội dung luật/dịch vụ hoặc tuyên bố thuật toán/cơ chế não chưa đối chiếu. Giữ tính gợi ý, không hiệu quả điều trị.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "C21 dùng về nội dung/lựa chọn; C22 chỉ mục thông báo. Đối chiếu claim từng bài, không lấy nguồn dùng chung thay xem ngữ nghĩa riêng."
+    },
+    "MONSELL03": {
+      "id": "MONSELL03",
+      "apa7": "Monsell, S. (2003). Task switching. *Trends in Cognitive Sciences, 7*(3), 134–140. https://doi.org/10.1016/S1364-6613(03)00028-7",
+      "accessURL": "https://www.psychfiles.net/experimental/Monsell_2003.pdf",
+      "type": "Tổng quan bình duyệt; PDF bản xuất bản7 trang từ mirror, không trang tác giả/nhà xuất bản",
+      "population": "Thí nghiệm nhiệm vụ đơn giản, chủ yếu người lớn; không thử điện thoại ở lớp THCS–THPT",
+      "location": "Tr.134–135 mở đầu/Task switching: basic phenomena; Fig1 caption tr.136 nói young adults; All of the above?/Issues for further research tr.137",
+      "support": "Khái niệm đổi nhiệm vụ và switch cost trong phòng thí nghiệm; nhiều cách giải thích/giới hạn.",
+      "limits": "Không suy con số tác động, phút hồi phục, tổn thương não, điểm học hoặc rối loạn chú ý ở HS. Không nhận Monsell là người khai sinh; chưa đọc mọi công trình gốc trong review.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Tác giả/tên/tập7(3)/134–140/DOI in PDF khớp PubMed12639695 đã tra. Nguồn mirror được ghi rõ, không khẳng định chứng nhận quyền tái bản; chỉ diễn giải ngắn, không chép đồ thị/toàn văn. Rosen2013 tìm được đầu mối nhưng full publisher403/author PDF redirect/UVa robot, không dùng."
+    }
+  },
+  "articleSourceIds": {
+    "C15": [
+      "GULLIVER10",
+      "MIND26",
+      "NIMH24"
+    ],
+    "C19": [
+      "NHS23",
+      "SCHN26"
+    ],
+    "C20": [
+      "NHSPA24",
+      "NIMH24",
+      "WHO24"
+    ],
+    "C21": [
+      "FEST54",
+      "VAL22",
+      "YMSOC"
+    ],
+    "C22": [
+      "MONSELL03",
+      "YMSOC"
+    ]
+  },
+  "localSourceIds": {
+    "C15": {
+      "GULLIVER10": "C15-S01",
+      "MIND26": "C15-S02",
+      "NIMH24": "C15-S03"
+    },
+    "C19": {
+      "NHS23": "C19-S01",
+      "SCHN26": "C19-S02"
+    },
+    "C20": {
+      "NHSPA24": "C20-S01",
+      "NIMH24": "C20-S02",
+      "WHO24": "C20-S03"
+    },
+    "C21": {
+      "FEST54": "C21-S01",
+      "VAL22": "C21-S02",
+      "YMSOC": "C21-S03"
+    },
+    "C22": {
+      "MONSELL03": "C22-S01",
+      "YMSOC": "C22-S02"
+    }
+  },
+  "excludedOrLimitedSearches": [
+    {
+      "source": "WHO full guidelines2020 / at-a-glance English IRIS and NCBI",
+      "access": "IRIS timeout; NCBI captcha; Deakin403; TMU file is Japanese translation",
+      "used": false,
+      "reason": "Bài dùng factsheetWHO2024 và NHS2024 thực đọc, không nhận đã đọc full guideline2020 hoặc dùng lượng phút chưa đối chiếu."
+    },
+    {
+      "source": "Recchia et al.2023 exercise meta-analysis",
+      "access": "JAMA timeout; PMC captcha; PubMed metadata/đầu trang rồi footer; EuropePMC unavailable",
+      "used": false,
+      "reason": "Không đủ phần liên quan để dùng. Không dùng snippet hoặc đoán toàn văn; không claim hiệu quả can thiệp từ nguồn này."
+    },
+    {
+      "source": "Rosen et al.2013 Facebook and texting",
+      "access": "Publisher/DOI403; author oldPDF redirect to inaccessible page; UVa robot",
+      "used": false,
+      "reason": "Không đủ nội dung nguồn; Monsell khái niệm có giới hạn người lớn và hướng dẫn YoungMinds hỗ trợ claim thực dùng C22."
+    },
+    {
+      "source": "RCH Abdominal pain",
+      "access": "Full relevant HTML read, reviewed2018/awaiting routine review/footer updated2025",
+      "used": false,
+      "reason": "Chọn SCHN2026 đã đọc cho claim cơ thể."
+    },
+    {
+      "source": "Festinger scan screenshots",
+      "access": "UBC scan parser cover/footer; screenshot returned text placeholder only",
+      "used": false,
+      "reason": "Không giả đã xem scan; nội dung thực đọc qua bản chép/dàn lại được ghi riêng FEST54."
+    }
+  ]
+}

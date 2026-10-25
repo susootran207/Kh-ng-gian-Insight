@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="763" viewBox="0 0 320 763" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Một khoảng phù hợp với mình</title>
+<desc id="desc">Thẻ lựa chọn vận động gồm người và điều kiện đang có, hoạt động quen thuộc phù hợp, cùng phương án đổi cách, nghỉ hoặc hỏi hỗ trợ; không có bài tập hoặc số phút bắt buộc.</desc>
+<rect width="320" height="763" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Một khoảng phù hợp</text>
+<text x="20" y="67" font-size="22" font-weight="700">với mình</text>
+<rect x="16" y="114" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">XEM ĐIỀU KIỆN</text>
+<text x="32" y="170" font-size="16">Không gian có an toàn? Hoạt</text>
+<text x="32" y="195" font-size="16">động có phù hợp khả năng và</text>
+<text x="32" y="220" font-size="16">hướng dẫn đang có?</text>
+<rect x="16" y="268" width="288" height="159" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="297" font-size="18" font-weight="700">CHỌN HOẶC NGHỈ</text>
+<text x="32" y="324" font-size="16">Chọn vận động quen thuộc</text>
+<text x="32" y="349" font-size="16">phù hợp nếu có điều kiện;</text>
+<text x="32" y="374" font-size="16">cũng có thể nghỉ hoặc hỏi</text>
+<text x="32" y="399" font-size="16">giúp.</text>
+<rect x="16" y="447" width="288" height="161" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="476" font-size="18" font-weight="700">ĐIỀU CHỈNH / TÌM HỖ</text>
+<text x="32" y="503" font-size="18" font-weight="700">TRỢ</text>
+<text x="32" y="530" font-size="16">Không ép khi đau, không khỏe</text>
+<text x="32" y="555" font-size="16">hoặc chưa rõ giới hạn. Không</text>
+<text x="32" y="580" font-size="16">thay chăm sóc chuyên môn.</text>
+<text x="20" y="638" font-size="16">Không mốc phút, số bước hay</text>
+<text x="20" y="663" font-size="16">động tác bắt buộc. Làm bài bằng</text>
+<text x="20" y="688" font-size="16">tình huống, không cần vận động</text>
+<text x="20" y="713" font-size="16">thật.</text>
+</g>
+</svg>

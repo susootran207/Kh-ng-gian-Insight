@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="767" viewBox="0 0 320 767" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Nhờ đúng việc, hỏi đúng vai</title>
+<desc id="desc">Bản đồ ba vai trò hỗ trợ: giáo viên giúp việc học và tìm lựa chọn ở trường; người tham vấn có đào tạo giúp trao đổi trong phạm vi chuyên môn; nhân viên y tế đánh giá sức khỏe và phối hợp khi cần. Có thể tìm người khác, không phải đi theo thứ tự.</desc>
+<rect width="320" height="767" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Nhờ đúng việc, hỏi</text>
+<text x="20" y="67" font-size="22" font-weight="700">đúng vai</text>
+<rect x="16" y="114" width="288" height="136" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">GIÁO VIÊN / NGƯỜI Ở</text>
+<text x="32" y="170" font-size="18" font-weight="700">TRƯỜNG</text>
+<text x="32" y="197" font-size="16">Có thể giúp việc học, sinh</text>
+<text x="32" y="222" font-size="16">hoạt và tìm đầu mối hỗ trợ.</text>
+<rect x="16" y="270" width="288" height="161" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="299" font-size="18" font-weight="700">NGƯỜI THAM VẤN PHÙ</text>
+<text x="32" y="326" font-size="18" font-weight="700">HỢP</text>
+<text x="32" y="353" font-size="16">Nếu có: lắng nghe, cùng tìm</text>
+<text x="32" y="378" font-size="16">hiểu khó khăn trong phạm vi</text>
+<text x="32" y="403" font-size="16">chuyên môn.</text>
+<rect x="16" y="451" width="288" height="161" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="480" font-size="18" font-weight="700">NGƯỜI CHUYÊN MÔN Y</text>
+<text x="32" y="507" font-size="18" font-weight="700">TẾ</text>
+<text x="32" y="534" font-size="16">Đánh giá sức khỏe và hướng</text>
+<text x="32" y="559" font-size="16">chăm sóc hoặc chuyển tiếp</text>
+<text x="32" y="584" font-size="16">phù hợp.</text>
+<text x="20" y="642" font-size="16">Hỏi vai trò thực tế và cách giữ</text>
+<text x="20" y="667" font-size="16">riêng tư. Đây không phải thứ tự</text>
+<text x="20" y="692" font-size="16">bắt buộc; có thể tìm người an toàn</text>
+<text x="20" y="717" font-size="16">khác. Nguy hiểm: tìm giúp ngay.</text>
+</g>
+</svg>

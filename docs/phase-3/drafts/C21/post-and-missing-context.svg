@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="840" viewBox="0 0 320 840" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Một bài đăng chưa kể hết</title>
+<desc id="desc">Sơ đồ tách bài đăng đã thấy, điều chưa biết ngoài khung hình, kết luận đang suy rộng và một lựa chọn sử dụng mạng phù hợp; không xếp hạng người đăng hoặc người xem.</desc>
+<rect width="320" height="840" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Một bài đăng chưa kể</text>
+<text x="20" y="67" font-size="22" font-weight="700">hết</text>
+<rect x="16" y="114" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">ĐÃ THẤY</text>
+<text x="32" y="170" font-size="16">Khả đăng một giải vẽ. Đó là</text>
+<text x="32" y="195" font-size="16">một kết quả trong bài đăng.</text>
+<rect x="16" y="243" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="272" font-size="18" font-weight="700">CHƯA BIẾT</text>
+<text x="32" y="299" font-size="16">Chưa biết toàn bộ việc học,</text>
+<text x="32" y="324" font-size="16">chuẩn bị hay điều kiện của</text>
+<text x="32" y="349" font-size="16">bạn.</text>
+<rect x="16" y="397" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="426" font-size="18" font-weight="700">KẾT LUẬN QUÁ RỘNG</text>
+<text x="32" y="453" font-size="16">“Bạn giỏi mọi thứ, mình chẳng</text>
+<text x="32" y="478" font-size="16">có gì” vượt quá dữ kiện đang</text>
+<text x="32" y="503" font-size="16">thấy.</text>
+<rect x="16" y="551" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="580" font-size="18" font-weight="700">MỘT LỰA CHỌN</text>
+<text x="32" y="607" font-size="16">Có thể tạm dừng phần gây</text>
+<text x="32" y="632" font-size="16">cuốn theo; vẫn giữ kênh lớp</text>
+<text x="32" y="657" font-size="16">đang cần.</text>
+<text x="20" y="715" font-size="16">Không suy ngược rằng bài đăng</text>
+<text x="20" y="740" font-size="16">giả hoặc người đăng chắc có khó</text>
+<text x="20" y="765" font-size="16">khăn. Các thẻ không chấm giá trị</text>
+<text x="20" y="790" font-size="16">con người.</text>
+</g>
+</svg>
