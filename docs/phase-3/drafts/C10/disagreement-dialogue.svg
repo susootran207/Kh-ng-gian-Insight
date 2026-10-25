@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="580" viewBox="0 0 320 580" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Một lượt nói để làm rõ</title>
+<desc id="desc">Hội thoại báo tường phân biệt sự việc, điều muốn làm rõ và câu hỏi kiểm lại ý bạn; có lựa chọn tạm dừng hoặc tìm người lớn khi trao đổi không an toàn.</desc>
+<rect width="320" height="580" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Một lượt nói để làm rõ</text>
+<rect x="16" y="83" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="112" font-size="18" font-weight="700">CHUYỆN CỤ THỂ</text>
+<text x="32" y="139" font-size="16">“Hôm trước mình hiểu là đã</text>
+<text x="32" y="164" font-size="16">chọn truyện tranh.”</text>
+<rect x="16" y="212" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="241" font-size="18" font-weight="700">ĐIỀU MUỐN NHỜ</text>
+<text x="32" y="268" font-size="16">“Mình muốn kiểm lại hai đứa</text>
+<text x="32" y="293" font-size="16">đã chốt đến đâu.”</text>
+<rect x="16" y="341" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="370" font-size="18" font-weight="700">HỎI LẠI Ý BẠN</text>
+<text x="32" y="397" font-size="16">“Phần nào cậu muốn giữ, phần</text>
+<text x="32" y="422" font-size="16">nào mình còn có thể bàn?”</text>
+<text x="20" y="480" font-size="16">Có thể tạm dừng. Khi có đe dọa</text>
+<text x="20" y="505" font-size="16">hoặc bị hại, tìm người lớn; không</text>
+<text x="20" y="530" font-size="16">ép hòa giải.</text>
+</g>
+</svg>

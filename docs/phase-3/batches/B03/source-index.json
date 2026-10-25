@@ -1,0 +1,260 @@
+{
+  "batch": "B03",
+  "checked": "2026-10-25",
+  "sources": {
+    "SB24": {
+      "id": "SB24",
+      "apa7": "StopBullying.gov. (2024, October 7). *What is bullying.* https://www.stopbullying.gov/bullying/what-is-bullying",
+      "accessURL": "https://www.stopbullying.gov/bullying/what-is-bullying",
+      "type": "Định nghĩa/hướng dẫn liên bang Mỹ; HTML, Date Last Reviewed 7/10/2024",
+      "population": "Trẻ tuổi đi học, không mẫu nghiên cứu",
+      "location": "Phần mở đầu; hai bullet Imbalance of Power/Repetition; Types of Bullying",
+      "support": "Định nghĩa gây hấn không mong muốn + chênh quyền lực + lặp lại/khả năng lặp lại.",
+      "limits": "Định nghĩa thực hành Mỹ, không kết luận điều tra hoặc chuẩn pháp lý Việt Nam; không lấy số liệu Mỹ trong trang áp cho Việt Nam. Không nguồn khai sinh thuật ngữ.",
+      "note": "",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    },
+    "SB21": {
+      "id": "SB21",
+      "apa7": "StopBullying.gov. (2021, November 17). *Respond to bullying.* https://www.stopbullying.gov/prevention/on-the-spot",
+      "accessURL": "https://www.stopbullying.gov/prevention/on-the-spot",
+      "type": "Hướng dẫn người lớn; HTML, Date Last Reviewed 17/11/2021",
+      "population": "Trẻ tuổi đi học trong bối cảnh Mỹ; không mẫu thử nghiệm",
+      "location": "Stop Bullying on the Spot (Do/Avoid these common mistakes); Find Out What Happened; Determine if it’s Bullying",
+      "support": "Vai trò bảo vệ của người lớn; nghe riêng và nhiều nguồn, không ép xin lỗi/làm hòa tại chỗ.",
+      "limits": "Không chuyển trách nhiệm can thiệp/điều tra sang học sinh; không dùng lời dẫn về hiệu quả như bằng chứng riêng cho thẻ.",
+      "note": "URL /respond/on-the-spot chuyển sang /prevention/on-the-spot; APA dùng đích thật đã đọc. Không áp luật/dịch vụ Mỹ.",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    },
+    "SB22": {
+      "id": "SB22",
+      "apa7": "StopBullying.gov. (2022, March 8). *What kids can do.* https://www.stopbullying.gov/kids/what-you-can-do",
+      "accessURL": "https://www.stopbullying.gov/kids/what-you-can-do",
+      "type": "Hướng dẫn cho trẻ/người trẻ; HTML, reviewed 8/3/2022",
+      "population": "Người trẻ tuổi đi học Mỹ; không thử nghiệm mẫu câu",
+      "location": "What to Do If You’re Bullied; Stand Up for Others",
+      "support": "Khi đối đáp không an toàn có thể tránh đối đầu và tìm người lớn; người chứng kiến có thể báo người lớn/quan tâm bạn.",
+      "limits": "Không nhận mọi gợi ý nguồn an toàn cho mọi hoàn cảnh; không dùng lời cười cho qua, chia sẻ mật khẩu hay các lời hứa hiệu quả trong trang.",
+      "note": "",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    },
+    "CLF": {
+      "id": "CLF",
+      "apa7": "Childline. (n.d.). *Friendship problems.* https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/friendship-problems/",
+      "accessURL": "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/friendship-problems/",
+      "type": "Hướng dẫn người trẻ của dịch vụ NSPCC; HTML không xác định năm",
+      "population": "Người trẻ Anh; không mẫu nghiên cứu",
+      "location": "Falling out with friends > Think about how your friend is feeling; Saying sorry to a friend; Worrying about a friend",
+      "support": "Bất đồng không nhất thiết kết thúc tình bạn; nghe góc nhìn không phải chấp nhận bị hại; xin lỗi không tự sửa tất cả; báo người lớn khi bạn không an toàn.",
+      "limits": "Không hứa bảo toàn quan hệ hoặc khuyến nghị hòa giải bắt nạt; không dùng dịch vụ/số Anh cho Việt Nam. Nguồn hướng dẫn không phải nghiên cứu thực nghiệm.",
+      "note": "",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    },
+    "CLA": {
+      "id": "CLA",
+      "apa7": "Childline. (n.d.-a). *Being assertive.* https://www.childline.org.uk/info-advice/your-feelings/feelings-emotions/being-assertive/",
+      "accessURL": "https://www.childline.org.uk/info-advice/your-feelings/feelings-emotions/being-assertive/",
+      "type": "Định nghĩa kỹ năng/hướng dẫn người trẻ NSPCC; HTML không xác định năm",
+      "population": "Người trẻ Anh; không mẫu thực nghiệm",
+      "location": "What does it mean to be assertive?; When to be assertive (đoạn giữ an toàn)",
+      "support": "Nói rõ nhu cầu mà không đe dọa/ép người khác; khi có đe dọa có thể tìm người lớn thay tự đối đầu.",
+      "limits": "Không dùng tư thế/eye contact như điều kiện, không áp kỹ thuật fogging/broken record; không lấy hướng dẫn làm bằng chứng hiệu quả câu từ chối.",
+      "note": "n.d.-a vì cùng Childline không ngày với Peer pressure ở C12; sắp tên Being trước Peer. Không phải năm/phiên bản khác.",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    },
+    "CLP": {
+      "id": "CLP",
+      "apa7": "Childline. (n.d.-b). *Peer pressure: What it is and how to say no.* https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/peer-pressure/",
+      "accessURL": "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/peer-pressure/",
+      "type": "Giải thích thực hành và hướng dẫn NSPCC; HTML không xác định năm",
+      "population": "Người trẻ Anh; không mẫu nghiên cứu",
+      "location": "what peer pressure means; Ways to say no",
+      "support": "Cảm giác phải làm vì người khác muốn/mong đợi; ảnh hưởng không luôn tiêu cực; có lựa chọn từ chối/rời khi phù hợp và không bảo đảm người khác tôn trọng.",
+      "limits": "Không dùng trang này làm định nghĩa bắt nạt (rộng hơn nguồn SB24) hoặc bằng chứng nhân quả sức khỏe; không dùng ví dụ tình dục/chất gây nghiện/luật trong bài.",
+      "note": "n.d.-b dùng riêng C12 cùng nguồn Childline Being assertive; tên theo tiêu đề trang được lập chỉ mục, không tự tạo lý thuyết.",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    },
+    "YMF": {
+      "id": "YMF",
+      "apa7": "YoungMinds. (n.d.). *Family.* https://www.youngminds.org.uk/young-person/coping-with-life/family/",
+      "accessURL": "https://www.youngminds.org.uk/young-person/coping-with-life/family/",
+      "type": "Hướng dẫn thực hành tổ chức sức khỏe tâm thần người trẻ; HTML không năm xác minh",
+      "population": "Người trẻ Anh, không thử nghiệm trên gia đình Việt Nam",
+      "location": "Talking to your family about how you’re feeling; If your family don’t understand; Getting support with family issues; If you don’t feel safe in your own home",
+      "support": "Chuẩn bị/chọn lúc/nói phần sẵn sàng khi phù hợp; hỗ trợ ngoài nhà khi gia đình không an toàn.",
+      "limits": "Không nhận mọi gia đình rồi sẽ hiểu; không lấy lời chứng cá nhân làm nghiên cứu; không sao số khẩn cấp Anh hoặc gán luật địa phương.",
+      "note": "",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    },
+    "YMS": {
+      "id": "YMS",
+      "apa7": "YoungMinds. (n.d.). *Supporting a friend with their mental health.* https://www.youngminds.org.uk/young-person/supporting-a-friend-with-their-mental-health/",
+      "accessURL": "https://www.youngminds.org.uk/young-person/supporting-a-friend-with-their-mental-health/",
+      "type": "Hướng dẫn thực hành người trẻ; HTML không xác minh năm",
+      "population": "Người trẻ Anh, không một mẫu thử nghiệm hoặc khóa đào tạo peer counsellor",
+      "location": "How to talk to a friend who’s struggling; Should I tell someone what my friend said?; Looking after yourself; How to respond in a crisis (chỉ ranh giới cần giúp ngay)",
+      "support": "Nghe/không ép kể/không chẩn đoán; giới hạn trách nhiệm; an toàn trước bí mật và nhờ người lớn.",
+      "limits": "Không biến người nghe thành therapist/đánh giá nguy cơ. Không chuyển các thao tác xử trí, thu giữ vật dụng hoặc dịch vụ/số Anh trong nguồn vào bài.",
+      "note": "Hai đường dẫn suy từ tên /supporting-a-friend/ và /your-guide-to-support/supporting-a-friend/ không truy cập được. Tìm thấy URL chính xác rồi mở và đọc thực tế; không dùng lỗi truy cập đó như bằng chứng nguồn đã đọc.",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    },
+    "MIND25": {
+      "id": "MIND25",
+      "apa7": "Mind. (2025, March). *Understanding exam stress.* https://www.mind.org.uk/for-young-people/feelings-and-experiences/exam-stress/",
+      "accessURL": "https://www.mind.org.uk/for-young-people/feelings-and-experiences/exam-stress/",
+      "type": "Hướng dẫn tổ chức chuyên môn; HTML ghi Published March 2025, next review March 2028",
+      "population": "Trang cho 11–18 tuổi tại Anh; không mẫu thực nghiệm",
+      "location": "What causes exam stress?; Feeling under pressure",
+      "support": "Nguồn áp lực đa dạng; xem áp lực từ đâu, cần người khác giúp gì.",
+      "limits": "Không dùng định nghĩa burnout hoặc quyền điều chỉnh/dịch vụ Anh chưa đối chiếu. Không kết luận mong đợi cha mẹ gây bệnh.",
+      "note": "",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    },
+    "STEARE23": {
+      "id": "STEARE23",
+      "apa7": "Steare, T., Gutiérrez Muñoz, C., Sullivan, A., & Lewis, G. (2023). The association between academic pressure and adolescent mental health problems: A systematic review. *Journal of Affective Disorders, 339*, 302–317. https://doi.org/10.1016/j.jad.2023.07.028",
+      "accessURL": "https://discovery.ucl.ac.uk/id/eprint/10174035/1/1-s2.0-S0165032723008510-main.pdf",
+      "type": "Tổng quan hệ thống bình duyệt, tổng hợp tường thuật (không phân tích gộp); bản xuất bản PDF UCL,16 trang",
+      "population": "Tiêu chí tuổi trung bình mẫu <18, trường học; nghiên cứu chủ yếu trung học, tuổi trung bình báo cáo 11,5–16,8, không giới hạn mọi cá nhân cùng tuổi",
+      "location": "Abstract tr.302; Methods Participants/Exposures tr.303; Results/Table1 tr.304–306; Discussion tr.314–315",
+      "support": "Áp lực bao gồm lo kỳ vọng người chăm sóc trong phạm vi đa mặt; đa số nghiên cứu thấy liên hệ, không kết luận chiều nhân quả từ đa số cắt ngang.",
+      "limits": "39/52 nghiên cứu cắt ngang; cách đo khác, nhiễu chưa điều chỉnh đủ, ít bối cảnh thu nhập thấp; không phán một gia đình, không bằng chứng hiệu quả câu trao đổi.",
+      "note": "Bản xuất bản online 10/7/2023, tập339 trang302–317; DOI in ngay PDF. CC BY4.0, nhưng không tái bản bảng/hình/test; chỉ diễn giải ngắn có dẫn. Không dùng bản medRxiv thay bài bình duyệt.",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    },
+    "MOORE17": {
+      "id": "MOORE17",
+      "apa7": "Moore, S. E., Norman, R. E., Suetani, S., Thomas, H. J., Sly, P. D., & Scott, J. G. (2017). Consequences of bullying victimization in childhood and adolescence: A systematic review and meta-analysis. *World Journal of Psychiatry, 7*(1), 60–76. https://doi.org/10.5498/wjp.v7.i1.60",
+      "accessURL": "https://www.wjgnet.com/2220-3206/full/v7/i1/60.htm",
+      "type": "Tổng quan hệ thống/phân tích gộp nghiên cứu quan sát; toàn văn HTML nhà xuất bản",
+      "population": "Phơi nhiễm bắt nạt trong thời thơ ấu/vị thành niên; một số kết quả theo dõi đến trưởng thành, không toàn bộ kết quả ngay thời trung học",
+      "location": "Abstract; Materials and methods > Inclusion and exclusion criteria; Discussion > Assessment of causality; Limitations",
+      "support": "Liên hệ nhiều kết quả sức khỏe; tác giả đánh giá nhân quả với mức khác nhau theo kết quả, có giới hạn đo lường/nhiễu/dị biệt.",
+      "limits": "Không làm nhẹ kết luận nguồn thành tất cả chỉ tương quan, nhưng không dự đoán/chẩn đoán cá nhân; không thử nghiệm thẻ hỗ trợ hoặc diễn giải odds ratio như xác suất một người.",
+      "note": "HTML metadata xác nhận 22/3/2017,7(1),60–76,DOI. CC BY-NC4.0: không sao hình/toàn văn; hình bài là mới. Không khẳng định đã đọc tất cả165 nghiên cứu gốc.",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    },
+    "NIMH24": {
+      "id": "NIMH24",
+      "apa7": "National Institute of Mental Health. (2024). *Children and mental health: Is this just a stage?* (NIH Publication No. 24-MH-8085). https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+      "accessURL": "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+      "type": "Hướng dẫn chính thức NIMH; revised2024; HTML",
+      "population": "Trẻ/người trẻ, chủ yếu hướng dẫn người chăm sóc Mỹ, không một mẫu nghiên cứu",
+      "location": "What are the signs of mental health conditions in children?; Where should I start…?; How is children’s mental health assessed?",
+      "support": "Đánh giá đa nguồn/chuyên môn; khó khăn gây khổ sở/ảnh hưởng đời sống là lý do tìm hỗ trợ; nguy hiểm cần giúp ngay.",
+      "limits": "Không danh sách tự chẩn đoán; không số ngày chờ trước hỏi giúp; không chuyển hotline/law/dịch vụ Mỹ vào Việt Nam.",
+      "note": "",
+      "checked": "2026-10-25",
+      "access": "full_text_relevant_sections",
+      "verification": "claim_scoped_partial; no independent human review",
+      "checker": "AI assistant"
+    }
+  },
+  "articleSourceIds": {
+    "C10": [
+      "CLF",
+      "SB21",
+      "SB24"
+    ],
+    "C11": [
+      "MOORE17",
+      "SB21",
+      "SB22",
+      "SB24"
+    ],
+    "C12": [
+      "CLA",
+      "CLP"
+    ],
+    "C13": [
+      "MIND25",
+      "STEARE23",
+      "YMF"
+    ],
+    "C16": [
+      "CLF",
+      "NIMH24",
+      "YMS"
+    ]
+  },
+  "localSourceIds": {
+    "C10": {
+      "CLF": "C10-S01",
+      "SB21": "C10-S02",
+      "SB24": "C10-S03"
+    },
+    "C11": {
+      "MOORE17": "C11-S01",
+      "SB21": "C11-S02",
+      "SB22": "C11-S03",
+      "SB24": "C11-S04"
+    },
+    "C12": {
+      "CLA": "C12-S01",
+      "CLP": "C12-S02"
+    },
+    "C13": {
+      "MIND25": "C13-S01",
+      "STEARE23": "C13-S02",
+      "YMF": "C13-S03"
+    },
+    "C16": {
+      "CLF": "C16-S01",
+      "NIMH24": "C16-S02",
+      "YMS": "C16-S03"
+    }
+  },
+  "excludedOrLimitedSearches": [
+    {
+      "source": "YoungMinds supporting a friend at guessed paths",
+      "access": "tool internal error at /young-person/supporting-a-friend/ and /young-person/your-guide-to-support/supporting-a-friend/",
+      "used": false,
+      "resolution": "Found actual /young-person/supporting-a-friend-with-their-mental-health/; opened and read relevant sections, see YMS"
+    },
+    {
+      "source": "YoungMinds Friends guide",
+      "access": "HTML relevant parts read",
+      "used": false,
+      "reason": "Screened; not required for claims; no bibliography padding"
+    },
+    {
+      "source": "Steare medRxiv preprint",
+      "access": "Search lead only",
+      "used": false,
+      "reason": "Read published PDF at UCL instead"
+    }
+  ]
+}

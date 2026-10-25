@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="715" viewBox="0 0 320 715" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Nghe và tìm người cùng giúp</title>
+<desc id="desc">Thẻ hỗ trợ bạn có ba vùng: nghe và hỏi điều bạn muốn; nói giới hạn và nhờ người lớn khi cần; giữ riêng tư nhưng không hứa giữ kín khi có nguy cơ gây hại.</desc>
+<rect width="320" height="715" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Nghe và tìm người</text>
+<text x="20" y="67" font-size="22" font-weight="700">cùng giúp</text>
+<rect x="16" y="114" width="288" height="136" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">NGHE / HỎI ĐIỀU BẠN</text>
+<text x="32" y="170" font-size="18" font-weight="700">MUỐN</text>
+<text x="32" y="197" font-size="16">Dựa lời bạn kể; không ép nói</text>
+<text x="32" y="222" font-size="16">hết hoặc tự chẩn đoán.</text>
+<rect x="16" y="270" width="288" height="136" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="299" font-size="18" font-weight="700">GIỚI HẠN / NGƯỜI CÙNG</text>
+<text x="32" y="326" font-size="18" font-weight="700">GIÚP</text>
+<text x="32" y="353" font-size="16">Nói khả năng của mình; tìm</text>
+<text x="32" y="378" font-size="16">người lớn phù hợp khi cần.</text>
+<rect x="16" y="426" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="455" font-size="18" font-weight="700">RIÊNG TƯ / AN TOÀN</text>
+<text x="32" y="482" font-size="16">Không kể cho nhóm lớp. Khi có</text>
+<text x="32" y="507" font-size="16">nguy cơ bị hại, báo người lớn</text>
+<text x="32" y="532" font-size="16">an toàn.</text>
+<text x="20" y="590" font-size="16">Không trực suốt ngày, không cần</text>
+<text x="20" y="615" font-size="16">làm bạn hết buồn. Nguy hiểm</text>
+<text x="20" y="640" font-size="16">ngay? Tìm giúp ngay, không đợi</text>
+<text x="20" y="665" font-size="16">làm hết thẻ.</text>
+</g>
+</svg>
