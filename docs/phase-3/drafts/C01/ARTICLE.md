@@ -1,6 +1,6 @@
 # Hôm nay mình đang cảm thấy gì?
 
-> **Bản nháp để duyệt · KGNT-C01 · c01-draft-r1 · 25/10/2026.**
+> **Bản nháp để duyệt · KGNT-C01 · c01-draft-r2 · 25/10/2026.**
 > Chưa được duyệt biên tập hoặc rà soát chuyên môn; không có quyền xuất bản.
 
 Ngày mai, An sẽ thuyết trình trước lớp. Trong lúc chuẩn bị, An nghĩ: “Mình sẽ quên mất phần mở đầu.” An nhận thấy tim đập nhanh, đặt vở xuống và chưa bước vào buổi tập cùng nhóm. Khi một bạn hỏi, An nói: “Mình lo, nhưng cũng mong đến lúc được kể về chủ đề này.”
@@ -11,9 +11,11 @@ Trong câu chuyện ấy có điều An nghĩ, điều An nói mình cảm thấ
 
 ## Cảm xúc là gì?
 
-Trong cách tiếp cận quá trình thành phần, Scherer (2005, tr. 697–699) mô tả cảm xúc qua những thay đổi có liên hệ giữa đánh giá sự kiện, cơ thể, xu hướng hành động, biểu hiện và trải nghiệm chủ quan. Đây là một cách tiếp cận, không phải định nghĩa duy nhất. Các lý thuyết cũng không thống nhất một danh sách cảm xúc cơ bản duy nhất (Scherer, 2005, tr. 706–707).
+Với An, “lo” là cách bạn ấy kể điều mình đang cảm thấy trước buổi thuyết trình. Câu “mình sẽ quên” lại nói về điều An dự đoán; tim đập nhanh là điều An nhận thấy ở cơ thể. Nhìn riêng những chi tiết ấy giúp ta đọc câu chuyện rõ hơn, thay vì gom tất cả vào một lời nhận xét về An.
 
-Với bài này, ta dùng bốn vùng để đọc tình huống: **cảm xúc, suy nghĩ, tín hiệu cơ thể và hành vi**. Đây là cách sắp xếp phục vụ học tập do bài viết lựa chọn, không phải bốn thành phần nguyên bản của mô hình Scherer.
+Một cách giải thích trong tâm lý học là xem cảm xúc như một trải nghiệm có nhiều phần liên hệ với nhau, chứ không chỉ là một từ hay một biểu hiện. Scherer (2005, tr. 697–699) trình bày cách tiếp cận này dưới tên **mô hình quá trình thành phần**. Đây là một cách nhìn, không phải định nghĩa duy nhất về cảm xúc.
+
+Trong bài, **cảm xúc, suy nghĩ, tín hiệu cơ thể và hành vi** là bốn vùng để ghi và phân tích dữ kiện tình huống. Đây không phải một cách phân loại chính thức nói rằng cảm xúc có đúng bốn thành phần. Phần “Tìm hiểu sâu hơn” giải thích mô hình gốc khác sơ đồ học tập này ở đâu.
 
 ## Nhìn từng phần trong câu chuyện An
 
@@ -24,21 +26,21 @@ Với bài này, ta dùng bốn vùng để đọc tình huống: **cảm xúc, 
 | Tín hiệu cơ thể | An nhận thấy tim đập nhanh. |
 | Hành vi | An đặt vở xuống và chưa vào tập cùng nhóm. |
 
-Bốn vùng là những chỗ để ghi dữ kiện, không phải bốn bước bắt buộc diễn ra theo thứ tự. Phân biệt chúng trong bài tập cũng không có nghĩa chúng tách rời nhau ngoài đời. Khung thành phần xem xét sự phối hợp giữa các quá trình, thay vì chỉ một biểu hiện đơn lẻ (Scherer, 2005, tr. 697–699).
+Bảng không phải một trình tự “nghĩ trước, rồi mới có cảm xúc, rồi mới hành động”. Việc tách các vùng để đọc không có nghĩa chúng tách rời trong trải nghiệm; khung thành phần xem xét sự phối hợp giữa các quá trình (Scherer, 2005, tr. 697–699).
 
-Có một chi tiết cần giữ lại: An **nói** mình lo. Nếu chỉ biết An đặt vở xuống, ta chưa có lời kể ấy. Khi đó, một câu hỏi như “Bạn muốn nghỉ một chút hay đang cần nhóm giúp phần nào?” để An trả lời sẽ phù hợp với mục đích tìm hiểu hơn là tự điền cảm xúc vào chỗ trống.
+Có một chi tiết cần giữ lại: An **nói** mình lo. Nếu chỉ biết An đặt vở xuống, ta chưa có lời kể ấy. Khi đó, một câu hỏi như “Lúc này bạn thấy thế nào? Có điều gì bạn muốn nhóm biết không?” để An trả lời sẽ phù hợp với mục đích tìm hiểu hơn là tự điền cảm xúc vào chỗ trống.
 
-![Tình huống An liên hệ với bốn vùng: cảm xúc An tự nói, suy nghĩ, tín hiệu cơ thể và hành vi. Các đường nối nét đứt hai chiều không chỉ trình tự hay quan hệ nhân quả cố định.](experience-map.svg)
+![Tình huống An liên hệ với bốn vùng: cảm xúc An tự nói, suy nghĩ, tín hiệu cơ thể và hành vi. Các đường nét đứt nối mỗi vùng với bối cảnh, không biểu thị trình tự hoặc quan hệ nhân quả.](experience-map.svg)
 
 *Sơ đồ diễn giải do dự án biên soạn cho bài học; tham khảo Scherer (2005). Không tái tạo mô hình gốc hoặc dùng để chẩn đoán.*
 
-**Mô tả tương đương bằng chữ:** Bối cảnh chung của sơ đồ là An chuẩn bị thuyết trình. Xung quanh là bốn vùng chứa dữ kiện trong bảng trên. Mỗi vùng nối với bối cảnh bằng đường nét đứt hai chiều; đường nối nhắc đọc các phần cùng bối cảnh, không nói phần nào nhất thiết gây ra phần nào.
+**Mô tả tương đương bằng chữ:** Bối cảnh chung của sơ đồ là An chuẩn bị thuyết trình. Bốn vùng xếp dọc chứa dữ kiện trong bảng trên. Mỗi vùng có đường nét đứt nối riêng với bối cảnh, không có đầu mũi tên. Các đường chỉ nhắc đọc dữ kiện cùng bối cảnh, không biểu thị thứ tự hoặc phần nào gây ra phần nào.
 
 ## Khi chưa tìm được từ thật vừa
 
 Nếu câu trả lời đầu tiên chỉ là “mình thấy không ổn”, bạn có thể thử xem từ nào gần hơn: buồn, lo, thất vọng hay bực. Chưa cần chọn ngay một từ cuối cùng. Trong câu chuyện An, cách kể cũng không bị giới hạn ở một từ: An nói cả điều khiến mình lo và điều mình mong chờ.
 
-Trong nghiên cứu, *emotion differentiation* nói đến mức độ nhận diện trải nghiệm cảm xúc một cách cụ thể (Nook, 2021, mục “Carving the Subject Matter”). Bài tập ở đây chỉ mời thử cách mô tả; nó không đo năng lực ấy và không cho điểm sức khỏe tâm lý.
+Chọn giữa “buồn” và “thất vọng” trong một câu chuyện là một ví dụ về việc tìm từ cụ thể hơn. Nghiên cứu gọi mức độ nhận diện trải nghiệm cảm xúc cụ thể là *emotion differentiation* — có thể hiểu ngắn là khả năng phân biệt cảm xúc (Nook, 2021, mục “Carving the Subject Matter”). Bài tập này không đo khả năng ấy hay chấm điểm sức khỏe tâm lý.
 
 Bạn có thể thử một câu hỏi với nhân vật: “Điều gì trong tình huống khiến từ ‘lo’ có vẻ phù hợp?” Nếu chưa đủ dữ kiện, ghi “chưa biết” cũng là một câu trả lời có ích cho bài tập: nó chỉ ra điều cần hỏi thêm.
 
@@ -50,12 +52,12 @@ Bình đang chờ kết quả đăng ký câu lạc bộ. Bình nghĩ: “Không
 
 Bạn chỉ cần dùng câu chuyện này, không cần kể chuyện riêng. Có thể bỏ qua hoạt động nếu chưa muốn làm.
 
-Làm theo bốn bước:
+Bạn có thể điền bảng theo bốn bước sau:
 
-1. Đọc dữ kiện đã có, không thêm tình tiết.
-2. Điền các vùng: suy nghĩ, cơ thể, hành vi, cảm xúc.
-3. Đánh dấu điều chưa biết. Nếu đề xuất một từ cảm xúc, ghi rõ đó chỉ là phỏng đoán.
-4. Viết một câu hỏi để Bình có thể làm rõ hoặc không trả lời.
+1. Tìm những gì câu chuyện đã kể: Bình nghĩ gì, nhận thấy gì ở cơ thể và làm gì?
+2. Ghi các dữ kiện vào vùng tương ứng bằng từ của bạn; không cần chép nguyên câu.
+3. Ở vùng cảm xúc, ghi điều còn chưa biết. Nếu đề xuất “có thể hồi hộp”, giữ rõ đó là phỏng đoán.
+4. Viết một câu hỏi mở để Bình có thể kể thêm, đồng thời có quyền chưa trả lời.
 
 Mẫu điền:
 
@@ -75,7 +77,7 @@ Chẳng hạn: “Trong lúc chờ kết quả, bạn đang cảm thấy thế n
 “Lo”, “vui”, “buồn”, “đặt vở xuống”, “tim đập nhanh”, “mình sẽ quên”.
 
 **2. “Mình sẽ quên phần mở đầu” khác “mình lo” ở điểm nào?**  
-Giải thích dựa trên lời kể của An, không kết luận dự đoán ấy sẽ thành sự thật.
+Giải thích dựa trên lời kể của An. Sau đó, chỉ ra chi tiết nào nói về cơ thể và chi tiết nào là việc An đã làm.
 
 **3. Dùng mẫu bốn vùng cho Bình. Bạn biết gì, chưa biết gì và sẽ hỏi câu nào?**  
 Đừng kết luận cảm xúc chỉ từ bàn tay ẩm hoặc việc mở lại trang.
@@ -84,15 +86,15 @@ Giải thích dựa trên lời kể của An, không kết luận dự đoán �
 
 **Câu 1:** “Lo”, “vui”, “buồn” là các từ cảm xúc trong bài tập này. “Đặt vở xuống” mô tả việc làm; “tim đập nhanh” là tín hiệu cơ thể; “mình sẽ quên” là một suy nghĩ dạng dự đoán.
 
-**Câu 2:** “Mình sẽ quên” nói về điều An dự đoán; “mình lo” là lời An mô tả cảm xúc. Có suy nghĩ ấy không chứng minh An sẽ quên, cũng không cho biết toàn bộ cảm xúc của An.
+**Câu 2:** “Mình sẽ quên” nói về điều An dự đoán; “mình lo” là lời An mô tả cảm xúc. Có suy nghĩ ấy không chứng minh An sẽ quên, cũng không cho biết toàn bộ cảm xúc của An. Tim đập nhanh là tín hiệu cơ thể; đặt vở xuống là hành vi. Bạn có thể giải thích bằng cách khác nếu vẫn giữ các phân biệt này.
 
-**Câu 3:** Ta có câu nghĩ của Bình, tín hiệu bàn tay ẩm và hành vi mở lại trang. Cảm xúc vẫn chưa có lời kể trực tiếp. Có thể ghi “chưa biết” rồi hỏi một câu mở. Nếu viết “có thể hồi hộp”, cần giữ chữ “có thể”, không biến thành kết luận. Một câu trả lời tốt nêu được cả dữ kiện và giới hạn của điều mình biết.
+**Câu 3:** Ta có câu nghĩ của Bình, tín hiệu bàn tay ẩm và hành vi mở lại trang. Cảm xúc vẫn chưa có lời kể trực tiếp. Có thể ghi “chưa biết” rồi hỏi một câu mở. Nếu viết “có thể hồi hộp”, cần giữ chữ “có thể”, không biến thành kết luận. Bạn không cần dùng đúng một câu mẫu: lời diễn đạt khác vẫn phù hợp nếu dựa dữ kiện, giữ điều chưa biết và không ép Bình xác nhận cảm xúc người hỏi đoán.
 
 ## Khi cần có người cùng nhìn lại
 
 Nếu cảm xúc làm bạn khổ sở, kéo dài hoặc ảnh hưởng việc học, sinh hoạt hay các mối quan hệ, hãy trao đổi với một người lớn đáng tin và cân nhắc hỗ trợ chuyên môn. Đây là hướng tìm trợ giúp, không phải danh sách tự chẩn đoán (National Institute of Mental Health [NIMH], 2024).
 
-Bạn có thể bắt đầu với người chăm sóc, giáo viên, người tư vấn ở trường hoặc nhân viên y tế. Nếu người đầu tiên không phù hợp hoặc bạn không thấy an toàn để nói, hãy tìm một người lớn khác. Bạn không cần gọi tên cảm xúc thật chính xác mới được mở lời.
+Bạn có thể bắt đầu với người chăm sóc, giáo viên hoặc nhân viên y tế; nếu trường có người phụ trách tư vấn phù hợp, đó cũng có thể là một lựa chọn. Nếu người đầu tiên không phù hợp hoặc bạn không thấy an toàn để nói, hãy tìm một người lớn khác. Bạn không cần gọi tên cảm xúc thật chính xác mới được mở lời.
 
 Bài viết và hoạt động này không thay thế đánh giá hay điều trị cá nhân. Nook (2021) cũng lưu ý những câu hỏi còn mở trong bằng chứng về phân biệt cảm xúc; từ đó không thể hứa rằng bài tập gọi tên sẽ chữa bệnh hay chắc chắn giảm triệu chứng.
 
@@ -102,7 +104,7 @@ Với một tình huống, thử tách điều đã biết khỏi điều đang 
 
 ### Tìm hiểu sâu hơn — có thể đọc thêm
 
-Bốn vùng trong bài không tương ứng một–một với năm thành phần Scherer trình bày. Đặc biệt, “muốn tránh buổi tập” là xu hướng hoặc ý định, khác với việc đã thực sự bỏ tập. Khi đọc một mô hình, hãy hỏi nó đang mô tả khía cạnh nào và đã giản lược điều gì. Phần này không yêu cầu học thuộc thuật ngữ hoặc tự đánh giá bệnh lý.
+Scherer trình bày năm thành phần: đánh giá sự kiện, thay đổi sinh lý, xu hướng hành động, biểu hiện và trải nghiệm chủ quan — tức điều người trong cuộc cảm nhận (2005, tr. 697–699, Bảng 1). **Xu hướng hành động** là sự thôi thúc muốn làm gì đó, chưa đồng nghĩa với việc đã làm. Bốn vùng của bài không tương ứng một–một với năm thành phần ấy. Đặc biệt, “muốn tránh buổi tập” là xu hướng hoặc ý định, khác với việc đã thực sự bỏ tập. Các lý thuyết cũng không thống nhất một danh sách cảm xúc cơ bản duy nhất (Scherer, 2005, tr. 706–707). Khi đọc một mô hình, ta có thể hỏi nó đang mô tả khía cạnh nào và đã giản lược điều gì. Phần này không yêu cầu học thuộc thuật ngữ hoặc tự đánh giá bệnh lý.
 
 ## Tài liệu tham khảo
 

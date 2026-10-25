@@ -1,3 +1,33 @@
+# Bàn giao chỉnh sửa C01 — c01-draft-r2
+
+Ngày 25/10/2026. Cập nhật trực tiếp PR #6, nhánh phase-3-2b-1-c01-draft. Chỉ C01, không đổi trạng thái xuất bản/chuyên môn.
+r1 được giữ nguyên tại commit [abe0feb2084efe979e05cac56566844851f8c4ad](https://github.com/susootran207/Kho-ng-gian-Insight/tree/abe0feb2084efe979e05cac56566844851f8c4ad/docs/phase-3/drafts/C01); commit r2 nối tiếp, không rewrite lịch sử. Phần hồ sơ r1 dưới đây chỉ là lịch sử, không kết quả chạy lại r2.
+
+## Thay đổi r2 và ví dụ trước–sau
+- Cảm xúc là gì: trước “Trong cách tiếp cận quá trình thành phần…”; sau bắt đầu “Với An, ‘lo’ là cách bạn ấy kể…” rồi mới giới thiệu tên mô hình và dẫn Scherer. Năm thành phần/giới hạn phân loại chuyển sang phần sâu, không xóa kiến thức.
+- Thuật ngữ: ví dụ chọn từ cụ thể đứng trước emotion differentiation; giải nghĩa ngắn, giữ Nook và giới hạn không đo/chẩn đoán.
+- Câu 2: từ chỉ so sánh suy nghĩ–cảm xúc sang thêm chi tiết cơ thể và hành vi; đáp án chấp nhận diễn đạt có căn cứ.
+- Bình: bốn bước đi từ dữ kiện tới mẫu, cho phép dùng lời riêng, đánh dấu chưa biết và hỏi mở. Giữ cả ba mục tiêu, không chấm nội tâm người thật.
+- Hỗ trợ: trước “người tư vấn ở trường”; sau “nếu trường có người phụ trách tư vấn phù hợp”. Giữ quyền tìm người khác và không cần gọi tên chính xác.
+- SVG: bỏ toàn bộ đầu mũi tên, đường nét đứt chỉ nhắc cùng bối cảnh; alt/desc/mô tả chữ khớp. Không mỹ thuật mới cho website.
+- CLAIM-AUDIT cập nhật A01–A07 theo vị trí mới/giới hạn; không nguồn mới hay thay đổi kết luận khoa học.
+
+## Kiểm tra r2
+- Kiểm tài liệu/link, ba cặp citation–APA, ba câu hỏi/đáp án và nhãn r2; rà thủ công alignment và dữ kiện An/Bình.
+- SVG XML/title/desc, không script/tài nguyên ngoài/marker; alt đồng nhất trong ARTICLE và VISUAL-REVIEW.
+- Inkscape render 320/640px thành công, xem cả hai: không thấy cắt chữ hoặc mất vùng; có cảnh báo thư viện Pango/GTK.
+- Tính tương phản từ màu SVG: chữ #333e32 trên năm nền đạt 8,51–11,01:1; đường/border mẫu đạt 4,50–6,29:1. Đây là tính màu tĩnh, chưa kiểm reader/screen reader.
+- Không chạy lại Chromium đã lỗi khởi chạy ở r1, không báo PASS trình duyệt. Không chạy runtime/build/hồi quy toàn website vì không đổi ứng dụng.
+- Đối chiếu Git trước commit: chỉ sáu tệp C01 ảnh hưởng thay đổi; REFERENCES và mọi tệp ngoài C01 giữ nguyên.
+
+## Còn cần duyệt
+Giọng văn/độ dài sau tổ chức lại; phần sâu tùy chọn; hoạt động và cách chấp nhận đáp án; SVG không mũi tên, cỡ chữ/chú thích ở mobile; đoạn tìm hỗ trợ.
+Chưa rà soát chuyên môn thực tế, chưa học sinh/giáo viên đọc thử, chưa reader/screen reader hoặc tích hợp website.
+Không viết C05/C17/E05 hay bài khác, không 3.2B-2, merge hoặc xuất bản. Chờ người dùng nghiệm thu.
+
+---
+
+## Hồ sơ lịch sử r1
 # Bàn giao C01 — c01-draft-r1, 25/10/2026
 
 ## Phạm vi
