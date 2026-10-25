@@ -7,7 +7,7 @@ Workflow: `.github/workflows/ci.yml`. Chỉ kiểm thử; không deploy, publish
 - PR hướng vào main, push main và workflow_dispatch. Không dùng pull_request_target hoặc bộ lọc đường dẫn khiến required check bị bỏ qua.
 - Job ổn định: **Verify prototype**; Ubuntu 24.04, timeout 20 phút, quyền duy nhất contents: read, checkout không lưu credential.
 - Node **24.19.0 LTS** phù hợp Vite 7.3.7 trong lockfile (Node ^20.19.0 hoặc >=22.12.0), @types/node 24 và lệnh strip-types F0.
-- checkout v4.2.2 và setup-node v4.4.0 pin SHA đầy đủ, đã đối chiếu tag chính thức khi thiết lập.
+- checkout v5.0.0 và setup-node v5.0.0 (runtime Node 24) pin SHA đầy đủ, đã đối chiếu tag chính thức khi thiết lập.
 - npm ci trong prototype; cache chỉ kho tải npm theo prototype/package-lock.json, không cache node_modules hoặc dist.
 - Theo thứ tự: manifest --check; test:f0 (bao gồm baseline 29); tsc -b; xóa dist rồi npm run build; npm run test:content trên dist vừa tạo.
 - Build gốc đã gồm typecheck và scanner. Việc chạy scanner riêng sau build là chủ ý để có bước nghiệm thu rõ ràng. Không thay script ứng dụng.
