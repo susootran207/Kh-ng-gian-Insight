@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="1040" viewBox="0 0 320 1040" role="img" aria-labelledby="title desc">
+<title id="title">Bối cảnh ngủ của Lan và mẫu ba bước</title>
+<desc id="desc">Ba vùng bối cảnh: nhu cầu theo tuổi, lịch học và việc nhà, môi trường dùng chung. Ba bước học tập: tách dữ kiện, chọn một việc, tìm hỗ trợ. Không biểu thị cơ chế hay quan hệ nhân quả.</desc>
+<rect width="320" height="1040" fill="#f7f3e9"/>
+<g fill="#333e32" font-family="DejaVu Sans, sans-serif">
+<text x="20" y="34" font-size="21" font-weight="bold">Nhìn cùng bối cảnh</text>
+<text x="20" y="62" font-size="16">Tình huống giả định: Lan, 14 tuổi</text>
+<rect x="16" y="92" width="288" height="116" rx="4" fill="#fffdf7" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="121" font-size="18" font-weight="bold">Nhu cầu theo tuổi</text>
+<text x="28" y="154" font-size="16">Xem nhóm tuổi trong bài.</text>
+<text x="28" y="179" font-size="16">Không tự kết luận bệnh.</text>
+<rect x="16" y="228" width="288" height="116" rx="4" fill="#dce3d2" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="257" font-size="18" font-weight="bold">Lịch học và việc nhà</text>
+<text x="28" y="290" font-size="16">Lan phải dậy sớm đi học,</text>
+<text x="28" y="315" font-size="16">còn phụ dọn hàng buổi tối.</text>
+<rect x="16" y="364" width="288" height="116" rx="4" fill="#e9e2ee" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="393" font-size="18" font-weight="bold">Môi trường dùng chung</text>
+<text x="28" y="426" font-size="16">Phòng còn đèn sáng</text>
+<text x="28" y="451" font-size="16">và có tiếng nói chuyện.</text>
+<rect x="16" y="580" width="288" height="116" rx="4" fill="#fffdf7" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="609" font-size="18" font-weight="bold">1. Tách dữ kiện</text>
+<text x="28" y="642" font-size="16">Điều nào đã biết?</text>
+<text x="28" y="667" font-size="16">Điều nào còn cần hỏi?</text>
+<rect x="16" y="716" width="288" height="116" rx="4" fill="#dce3d2" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="745" font-size="18" font-weight="bold">2. Chọn một việc</text>
+<text x="28" y="778" font-size="16">Việc gì có thể thử?</text>
+<text x="28" y="803" font-size="16">Cần điều kiện nào?</text>
+<rect x="16" y="852" width="288" height="116" rx="4" fill="#e9e2ee" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="881" font-size="18" font-weight="bold">3. Tìm hỗ trợ</text>
+<text x="28" y="914" font-size="16">Nói với ai, về việc gì?</text>
+<text x="28" y="939" font-size="16">Nếu chưa làm được thì sao?</text>
+<text x="20" y="530" font-size="21" font-weight="bold">Thử ba bước</text>
+<text x="20" y="557" font-size="16">Dùng mẫu, không chẩn đoán.</text>
+<text x="20" y="1003" font-size="15">Sơ đồ học tập tự biên soạn.</text>
+<text x="20" y="1027" font-size="15">Không biểu thị quan hệ nhân quả.</text>
+</g></svg>
