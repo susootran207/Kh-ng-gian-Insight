@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="611" viewBox="0 0 320 611" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Ba vùng câu hỏi làm quen</title>
+<desc id="desc">Ba câu hỏi làm quen: điều gì đang mới, hỏi ai về một việc cụ thể, và xác nhận hoặc tìm lựa chọn khác thế nào; không có hạn thích nghi.</desc>
+<rect width="320" height="611" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Ba vùng câu hỏi làm</text>
+<text x="20" y="67" font-size="22" font-weight="700">quen</text>
+<rect x="16" y="114" width="288" height="84" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">NƠI / LỊCH</text>
+<text x="32" y="170" font-size="16">Phòng nào? Tiết tới ở đâu?</text>
+<rect x="16" y="218" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="247" font-size="18" font-weight="700">CÁCH LÀM VIỆC</text>
+<text x="32" y="274" font-size="16">Nộp bằng cách nào, cho ai, lúc</text>
+<text x="32" y="299" font-size="16">nào?</text>
+<rect x="16" y="347" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="376" font-size="18" font-weight="700">NGƯỜI CÓ THỂ HỎI</text>
+<text x="32" y="403" font-size="16">Giáo viên hoặc người phụ</text>
+<text x="32" y="428" font-size="16">trách phù hợp với việc đang</text>
+<text x="32" y="453" font-size="16">vướng.</text>
+<text x="20" y="511" font-size="16">Chọn một việc — hỏi — xác nhận.</text>
+<text x="20" y="536" font-size="16">Có thể đổi người/cách hỏi. Không</text>
+<text x="20" y="561" font-size="16">hạn ngày phải quen.</text>
+</g>
+</svg>
