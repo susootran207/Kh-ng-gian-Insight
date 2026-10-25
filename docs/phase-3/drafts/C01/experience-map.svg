@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1140" viewBox="0 0 640 1140" role="img" aria-labelledby="map-title map-desc" lang="vi">
+<title id="map-title">Một tình huống, bốn vùng để đọc</title>
+<desc id="map-desc">An chuẩn bị thuyết trình. Bốn vùng ghi cảm xúc An tự nói, suy nghĩ, tín hiệu cơ thể và hành vi. Mỗi vùng liên hệ với cùng bối cảnh bằng đường nét đứt không có đầu mũi tên; không thể hiện trình tự hay nhân quả cố định. Sơ đồ học tập tự biên soạn, không tái tạo mô hình Scherer.</desc>
+<rect width="640" height="1140" fill="#f7f3e9"/>
+<g font-family="Noto Sans, DejaVu Sans, sans-serif" fill="#333e32">
+<text x="32" y="49" font-size="30" font-weight="600">Một tình huống, bốn vùng</text>
+<text x="32" y="88" font-size="24">Cùng bối cảnh · Không là trình tự</text>
+<rect x="32" y="112" width="540" height="104" rx="4" fill="#eee7d8" stroke="#616656"/>
+<text x="52" y="153" font-size="28" font-weight="600">An chuẩn bị thuyết trình</text>
+<text x="52" y="193" font-size="24">Dữ kiện trong câu chuyện giả định</text>
+<g fill="none" stroke="#655274" stroke-width="2" stroke-dasharray="6 7">
+<path d="M575 142 C618 142 618 326 575 326"/>
+<path d="M575 162 C636 162 636 510 575 510"/>
+<path d="M575 181 C625 181 625 694 575 694"/>
+<path d="M575 201 C609 201 609 878 575 878"/>
+</g>
+<rect x="32" y="248" width="540" height="156" rx="4" fill="#e9e2ee" stroke="#655274"/>
+<text x="52" y="289" font-size="30" font-weight="600">Cảm xúc</text>
+<text x="52" y="333" font-size="28">An nói: “Mình lo”, đồng thời</text>
+<text x="52" y="373" font-size="28">“mong đến lúc được kể”.</text>
+<rect x="32" y="432" width="540" height="156" rx="4" fill="#fffdf7" stroke="#616656"/>
+<text x="52" y="473" font-size="30" font-weight="600">Suy nghĩ</text>
+<text x="52" y="517" font-size="28">“Mình sẽ quên mất phần mở đầu.”</text>
+<text x="52" y="557" font-size="24">Một dự đoán, chưa phải sự thật.</text>
+<rect x="32" y="616" width="540" height="156" rx="4" fill="#dce3d2" stroke="#616656"/>
+<text x="52" y="657" font-size="30" font-weight="600">Tín hiệu cơ thể</text>
+<text x="52" y="701" font-size="28">An nhận thấy tim đập nhanh.</text>
+<text x="52" y="741" font-size="24">Chưa đủ để đoán cảm xúc.</text>
+<rect x="32" y="800" width="540" height="156" rx="4" fill="#fffdf7" stroke="#616656"/>
+<text x="52" y="841" font-size="30" font-weight="600">Hành vi</text>
+<text x="52" y="885" font-size="28">An đặt vở xuống,</text>
+<text x="52" y="925" font-size="28">chưa vào tập cùng nhóm.</text>
+<text x="32" y="1003" font-size="24">Mỗi vùng nối với cùng bối cảnh.</text>
+<text x="32" y="1041" font-size="24">Đường nối không biểu thị nhân quả.</text>
+<text x="32" y="1080" font-size="22">Diễn giải học tập · Tham khảo Scherer (2005)</text>
+<text x="32" y="1115" font-size="22">Bản nháp C01 r2 · Không phải mô hình gốc</text>
+</g></svg>
