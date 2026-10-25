@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="611" viewBox="0 0 320 611" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Cảm nhận và điều chưa biết</title>
+<desc id="desc">Thẻ đọc tín hiệu cơ thể gồm điều nhân vật kể, nguyên nhân chưa xác định và người có thể hỗ trợ; một tín hiệu không trỏ duy nhất đến stress hoặc một bệnh.</desc>
+<rect width="320" height="611" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Cảm nhận và điều</text>
+<text x="20" y="67" font-size="22" font-weight="700">chưa biết</text>
+<rect x="16" y="114" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">ĐIỀU DƯƠNG KỂ</text>
+<text x="32" y="170" font-size="16">Bụng khó chịu, vai căng khi</text>
+<text x="32" y="195" font-size="16">làm bài buổi chiều.</text>
+<rect x="16" y="243" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="272" font-size="18" font-weight="700">ĐIỀU CHƯA XÁC ĐỊNH</text>
+<text x="32" y="299" font-size="16">Nguyên nhân chưa biết. Không</text>
+<text x="32" y="324" font-size="16">thể kết luận chỉ do lo thi.</text>
+<rect x="16" y="372" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="401" font-size="18" font-weight="700">NGƯỜI CÓ THỂ GIÚP</text>
+<text x="32" y="428" font-size="16">Nói với người lớn; tìm đánh giá</text>
+<text x="32" y="453" font-size="16">y tế phù hợp khi cần.</text>
+<text x="20" y="511" font-size="16">Đau tăng hoặc đáng lo: báo người</text>
+<text x="20" y="536" font-size="16">lớn. Không cần thử nghỉ đủ lâu</text>
+<text x="20" y="561" font-size="16">hoặc làm xong thẻ mới được giúp.</text>
+</g>
+</svg>
