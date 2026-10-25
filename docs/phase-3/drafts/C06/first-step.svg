@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="549" viewBox="0 0 320 549" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Một bước để bắt đầu</title>
+<desc id="desc">Thẻ bắt đầu gồm ba câu hỏi: việc cụ thể là gì; điều kiện đã đủ chưa; nếu vướng thì hỏi hoặc đổi gì. Có thể bổ sung điều kiện trước khi học.</desc>
+<rect width="320" height="549" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Một bước để bắt đầu</text>
+<rect x="16" y="83" width="288" height="107" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="112" font-size="18" font-weight="700">Việc cụ thể</text>
+<text x="32" y="139" font-size="16">Chọn thao tác có thể làm,</text>
+<text x="32" y="164" font-size="16">thay vì ghi “xong cả bài”.</text>
+<rect x="16" y="210" width="288" height="107" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="239" font-size="18" font-weight="700">Điều kiện đã có?</text>
+<text x="32" y="266" font-size="16">Có đề, tài liệu và thời gian phù</text>
+<text x="32" y="291" font-size="16">hợp chưa?</text>
+<rect x="16" y="337" width="288" height="107" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="366" font-size="18" font-weight="700">Nếu đang vướng</text>
+<text x="32" y="393" font-size="16">Ghi điều cần hỏi hoặc một</text>
+<text x="32" y="418" font-size="16">việc có thể đổi.</text>
+<text x="20" y="474" font-size="16">Có thể cần thêm điều kiện trước</text>
+<text x="20" y="499" font-size="16">khi học. Không chấm ý chí.</text>
+</g>
+</svg>

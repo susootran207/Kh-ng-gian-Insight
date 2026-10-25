@@ -1,0 +1,37 @@
+{
+  "C06": {
+    "file": "first-step.svg",
+    "width": 320,
+    "bodyFontPx": 16,
+    "revision": "v1",
+    "publicationRights": "pending"
+  },
+  "C07": {
+    "file": "return-to-learn.svg",
+    "width": 320,
+    "bodyFontPx": 16,
+    "revision": "v1",
+    "publicationRights": "pending"
+  },
+  "C08": {
+    "file": "read-feedback.svg",
+    "width": 320,
+    "bodyFontPx": 16,
+    "revision": "v1",
+    "publicationRights": "pending"
+  },
+  "C14": {
+    "file": "conversation-options.svg",
+    "width": 320,
+    "bodyFontPx": 16,
+    "revision": "v1",
+    "publicationRights": "pending"
+  },
+  "C18": {
+    "file": "rest-options.svg",
+    "width": 320,
+    "bodyFontPx": 16,
+    "revision": "v1",
+    "publicationRights": "pending"
+  }
+}

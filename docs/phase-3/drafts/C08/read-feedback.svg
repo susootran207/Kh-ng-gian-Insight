@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="524" viewBox="0 0 320 524" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Đọc để biết chỗ sửa</title>
+<desc id="desc">Phiếu đọc phản hồi có ba vùng: yêu cầu của bài; thông tin tại một chỗ cụ thể; bước sửa hoặc câu hỏi cần làm rõ.</desc>
+<rect width="320" height="524" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Đọc để biết chỗ sửa</text>
+<rect x="16" y="83" width="288" height="82" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="112" font-size="18" font-weight="700">1 · Yêu cầu</text>
+<text x="32" y="139" font-size="16">Bài cần thể hiện điều gì?</text>
+<rect x="16" y="185" width="288" height="107" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="214" font-size="18" font-weight="700">2 · Một chỗ cụ thể</text>
+<text x="32" y="241" font-size="16">Lời nhận xét nói về phần nào?</text>
+<text x="32" y="266" font-size="16">Điều gì còn thiếu?</text>
+<rect x="16" y="312" width="288" height="107" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="341" font-size="18" font-weight="700">3 · Sửa hoặc hỏi</text>
+<text x="32" y="368" font-size="16">Chọn một việc rồi đối chiếu.</text>
+<text x="32" y="393" font-size="16">Chưa rõ thì hỏi lại.</text>
+<text x="20" y="449" font-size="16">Số là thứ tự đọc phiếu, không phải</text>
+<text x="20" y="474" font-size="16">mô hình hoặc lời hứa tăng điểm.</text>
+</g>
+</svg>

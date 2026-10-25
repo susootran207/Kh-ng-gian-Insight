@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="599" viewBox="0 0 320 599" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Gặp lại cùng nội dung</title>
+<desc id="desc">Ba lần gặp cùng nhóm từ: học và thử ở buổi này; tự trả lời rồi kiểm ở buổi khác; quay lại phần còn vướng ở lần sau nếu có điều kiện. Không có số ngày hoặc đường cong ghi nhớ.</desc>
+<rect width="320" height="599" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Gặp lại cùng nội dung</text>
+<rect x="16" y="83" width="288" height="132" rx="6" fill="#e9e2ee" stroke="#616656"/>
+<text x="32" y="112" font-size="18" font-weight="700">BUỔI NÀY · cùng nhóm</text>
+<text x="32" y="139" font-size="18" font-weight="700">từ</text>
+<text x="32" y="166" font-size="16">Học và xem ví dụ. Thử trả lời</text>
+<text x="32" y="191" font-size="16">trước khi mở nghĩa; rồi kiểm.</text>
+<rect x="16" y="235" width="288" height="107" rx="6" fill="#e9e2ee" stroke="#616656"/>
+<text x="32" y="264" font-size="18" font-weight="700">BUỔI KHÁC · nhóm từ ấy</text>
+<text x="32" y="291" font-size="16">Thử nhớ hoặc dùng lại. Đối</text>
+<text x="32" y="316" font-size="16">chiếu chỗ còn vướng.</text>
+<rect x="16" y="362" width="288" height="132" rx="6" fill="#e9e2ee" stroke="#616656"/>
+<text x="32" y="391" font-size="18" font-weight="700">LẦN SAU · nếu có điều</text>
+<text x="32" y="418" font-size="18" font-weight="700">kiện</text>
+<text x="32" y="445" font-size="16">Quay lại phần cần củng cố. Có</text>
+<text x="32" y="470" font-size="16">thể đổi ví dụ để thử hiểu.</text>
+<text x="20" y="524" font-size="16">Khoảng trống không theo tỷ lệ.</text>
+<text x="20" y="549" font-size="16">Không có số ngày tối ưu chung.</text>
+</g>
+</svg>
