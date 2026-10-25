@@ -1,0 +1,396 @@
+{
+  "batch": "B05",
+  "checked": "2026-10-25",
+  "sources": {
+    "OECD24": {
+      "id": "OECD24",
+      "apa7": "OECD. (2024). *Teenage career uncertainty: Why it matters and how to reduce it?* (OECD Education Spotlights, No. 16). https://www.oecd.org/en/publications/teenage-career-uncertainty_e89c3da9-en.html",
+      "accessURL": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/teenage-career-uncertainty_63c29ae4/e89c3da9-en.pdf",
+      "type": "Báo cáo tổng hợp chính sách/nghiên cứu, PDF chính thức14 trang",
+      "population": "PISA15–16 tuổi; tổng hợp cohort vị thành niên theo dõi đến trưởng thành ở nhiều nước; không thử phiếu C24 ở Việt Nam",
+      "location": "Tr.2–3: định nghĩa khảo sát và liên hệ cohort; tr.10–11: khám phá/kế hoạch thay đổi, thời điểm quyết định và giới hạn uncertainty",
+      "support": "Kế hoạch tuổi đi học có thể đổi, khám phá cần hỗ trợ/thông tin; không rõ hướng có liên hệ bất lợi trong một số nghiên cứu.",
+      "limits": "Liên hệ có kiểm soát không nhân quả hay tiên đoán cá nhân; không mọi uncertainty tốt, không ép tên nghề để chữa khó khăn; chưa đọc mọi cohort gốc.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Trang HTML nhiều navigation; đọc nội dung PDF thật. DOI không đưa khi chưa cần, URL chính thức đã đối chiếu. Không sao bảng/phần trăm hoặc khái quát tỷ lệ OECD cho Việt Nam."
+    },
+    "NCS": {
+      "id": "NCS",
+      "apa7": "National Careers Service. (n.d.). *Post 16 options.* https://nationalcareers.service.gov.uk/careers-advice/career-choices-at-16",
+      "accessURL": "https://nationalcareers.service.gov.uk/careers-advice/career-choices-at-16",
+      "type": "Hướng dẫn công chúng chính thức, HTML không xác minh ngày riêng",
+      "population": "Người trẻ chọn hướng sau year11 ở Anh; không nghiên cứu can thiệp",
+      "location": "Things to consider; Rethinking your options",
+      "support": "Tìm thông tin và người hỗ trợ, có lựa chọn dự phòng khi kế hoạch thay đổi.",
+      "limits": "Không mang luật độ tuổi/học nghề/bằng cấp/trợ cấp Anh vào Việt Nam, không chứng minh phiếu tự tạo hiệu quả.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Không dùng liên kết skills assessment để yêu cầu làm test; chọn gợi ý thông tin, không gán trách nhiệm vượt nguồn."
+    },
+    "AERA14": {
+      "id": "AERA14",
+      "apa7": "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). *Standards for educational and psychological testing.* American Educational Research Association. https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf",
+      "accessURL": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf",
+      "type": "Chuẩn chuyên môn, bản2014 chính thức PDF240 trang mở truy cập",
+      "population": "Chuẩn đo lường giáo dục/tâm lý, không mẫu nghiên cứu hoặc cấp quyền hành nghề ở Việt Nam",
+      "location": "Tr.11: cách diễn giải/mục đích; Standard1.0–1.1 tr.23; reliability/precision tr.33–35 (PDF42–44 theo số0-based tương ứng)",
+      "support": "Độ tin cậy/nhất quán của điểm khác căn cứ cho cách diễn giải/sử dụng; cần đối tượng, bối cảnh và mục đích.",
+      "limits": "Không mọi test đòi mọi loại chứng cứ giống nhau; chuẩn không tự kiểm định MBTI/PSS hoặc cấp quyền bộ test. Không nhận đọc trọn240 trang.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Đã đọc các đoạn liên quan và metadata, không tái bản bảng/định nghĩa nguyên văn; không gọi true score của lý thuyết đo là true type MBTI."
+    },
+    "MBTIFACT": {
+      "id": "MBTIFACT",
+      "apa7": "The Myers-Briggs Company. (n.d.). *MBTI® facts.* https://www.themyersbriggs.com/en-US/Support/MBTI-Facts",
+      "accessURL": "https://www.themyersbriggs.com/en-US/Support/MBTI-Facts",
+      "type": "Thông tin lịch sử/công cụ của đơn vị phát triển/xuất bản, HTML; có lợi ích thương mại",
+      "population": "MBTI nhiều phiên bản/mẫu, không xác nhận hiệu lực mọi học sinh Việt Nam",
+      "location": "Mục1–3: người phát triển,1943/1962/lịch sử form, mục đích/không phân vai/chẩn đoán; mục6–8: bốn cặp/khuynh hướng không năng lực; mục15–17: các loại reliability/whole type/validity",
+      "support": "Briggs/Myers phát triển dựa Jung; bốn cặp/16 tổ hợp; không công cụ chẩn đoán hoặc phân vai sẵn. Phân biệt điểm thang với whole type.",
+      "limits": "Nguồn có lợi ích thương mại; không lấy tuyên bố quảng bá thay kiểm độc lập hoặc số ổn định ở một version áp mọi version. Không đọc manual gốc.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Không dùng các phần trăm retest hay bảng norm trong ARTICLE; số của Global/Form M khác nhau không gộp. Lịch sử là thông tin đơn vị phát triển, không tự thành bằng chứng hiệu quả."
+    },
+    "NERIS": {
+      "id": "NERIS",
+      "apa7": "16Personalities. (n.d.). *Our framework.* https://www.16personalities.com/articles/our-theory",
+      "accessURL": "https://www.16personalities.com/articles/our-theory",
+      "type": "Tự mô tả của nhà cung cấp, HTML; footer NERIS Analytics Limited",
+      "population": "Người dùng công cụ NERIS; không nghiên cứu độc lập cho HS Việt Nam",
+      "location": "Introduction/Historical detour; Our Approach; Reliability and Validity (đọc để phân biệt tự quảng bá với kiểm độc lập); footer",
+      "support": "NERIS Type Explorer dùng định dạng chữ tương tự nhưng khung năm khía cạnh, không dùng Jungian cognitive functions như MBTI.",
+      "limits": "Không suy NERIS bằng mọi Big Five, không dùng số lượt test/cảm giác đúng/free làm bằng chứng; không xác minh tâm trắc bản Việt hoặc độ tuổi.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Không sao mô tả16 kiểu, bảng/câu hỏi/logo/ảnh; chỉ diễn giải ngắn nhận diện công cụ, không giới thiệu nút làm test."
+    },
+    "STEIN19": {
+      "id": "STEIN19",
+      "apa7": "Stein, R., & Swan, A. B. (2019). Evaluating the validity of Myers-Briggs Type Indicator theory: A teaching tool and window into intuitive psychology. *Social and Personality Psychology Compass, 13*(2), Article e12434. https://doi.org/10.1111/spc3.12434",
+      "accessURL": "https://www.swanpsych.com/publications/SteinSwanMBTITheory_2019.pdf",
+      "type": "Bài phân tích lý thuyết bình duyệt, PDF xuất bản trên trang đồng tác giả11 trang",
+      "population": "Không mẫu can thiệp hoặc đo hiệu quả ở học sinh; phê bình khung true type Jungian",
+      "location": "PDF tr.1–3: Abstract/§2–4.1/Table1 (chỉ đọc nội dung, không sao bảng)",
+      "support": "Phân tích phê bình giả định true type, cặp rời, tính kiểm chứng/nhất quán; khác câu hỏi tâm trắc Form M.",
+      "limits": "Không phải meta mọi phiên bản, không từ phê bình suy mọi phép đo random hoặc mọi người dùng bị hại. Không kiểm nghiệm hoạt động của bài.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Đối chiếu publisher https://compass.onlinelibrary.wiley.com/doi/10.1111/spc3.12434 :13(2),e12434,25/1/2019. Search dễ lẫn e12441: đó là Teaching and Learning Guide13(3), không DOI bài PDF được đọc. Đã phân biệt trước biên soạn."
+    },
+    "ERFORD25": {
+      "id": "ERFORD25",
+      "apa7": "Erford, B. T., Zhang, X., Sweeting, E. L., Russo, M., Rashid, A., Sherman, M. F., Bradford, E. L., Wang, X., Gao, A., Huang, X., Liu, Z., Haskew, A., MacInerney, E., Moore, E., Thompson, D., Barboza, S., Huang, X., Zhou, A., Xu, Y., . . . Yang, X. (2025). A 25-year review and psychometric synthesis of the Myers–Briggs Type Indicator (MBTI) – Form M. *Journal of Counseling & Development, 103*(4), 403–417. https://doi.org/10.1002/jcad.70006",
+      "accessURL": "https://onlinelibrary.wiley.com/doi/10.1002/jcad.70006",
+      "type": "Tổng hợp tâm trắc bình duyệt, HTML toàn văn khả dụng ở các mục đã đọc; nhiều lần URL/full403",
+      "population": "Tập193 công trình1999–2024, bản tiếng Anh Form M; nhiều mẫu khác nhau, chuẩn manual3009 người lớn; không hiệu lực riêng HS Việt Nam",
+      "location": "Abstract; Introduction/History; Discussion §4 (nhất quán, đo lặp/cấu trúc ngoài manual), §4.1 và §4.2 Study Limitations; Conclusion",
+      "support": "Nhất quán nội tại/hội tụ được ghi nhận nhưng thiếu nghiên cứu đo lặp/structure ngoài manual trong tập tìm; version/language/phạm vi mẫu giới hạn diễn giải.",
+      "limits": "Không nói chưa từng có nghiên cứu đo lặp: manual có, phải tách ngoài manual. Không lấy kết luận authors về screening personality thành công cụ sàng lọc bệnh hoặc phân vai trẻ. Chưa đọc toàn193 công trình.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Tác giả26 người đối chiếu publisher, APA7 ghi19 người đầu + . . . + người cuối, không & trước người cuối. Hai Huang,X. là Xinlei và Xinran khác người. Không dùng số hệ số/phần trăm trong ARTICLE. Một số lần đọc bị403 nhưng các mục nêu trên đã đọc thật, không gọi403 là kiểm link thành công."
+    },
+    "JOHN08": {
+      "id": "JOHN08",
+      "apa7": "John, O. P., Naumann, L. P., & Soto, C. J. (2008). Paradigm shift to the integrative Big Five trait taxonomy: History, measurement, and conceptual issues. In O. P. John, R. W. Robins, & L. A. Pervin (Eds.), *Handbook of personality: Theory and research* (3rd ed., pp. 114–158). Guilford Press. https://www.colby.edu/wp-content/uploads/2019/06/John_et_al_2008.pdf",
+      "accessURL": "https://www.colby.edu/wp-content/uploads/2019/06/John_et_al_2008.pdf",
+      "type": "Chương chuyên khảo học thuật, bản thảo tác giả March4,2008 trên trường đồng tác giả;83 trang, không bản dàn xuất bản",
+      "population": "Tổng quan lịch sử/khái niệm và phép đo nhiều nhóm; không norm HS Việt Nam",
+      "location": "PDF tr.1–8: lịch sử/taxonomy nhiều nhóm; PDF tr.30–31: nhãn và Preliminary Definitions; khác số trang chương xuất bản114–158",
+      "support": "Big Five nhiều nhánh phát triển; năm chiều rộng gom các nét nhỏ, nghĩa năm chiều, trait khác trạng thái thoáng qua.",
+      "limits": "Không một cha đẻ hoặc năm loại người; không nhân cách chỉ có năm nét, không suy nguyên nhân hành vi/cảm xúc hoặc đánh giá đạo đức. Không coi bản thảo là bản xuất bản đã kiểm trang.",
+      "access": "author_draft_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Đọc phần được nêu, không toàn83 trang; không sao AppendixA câu hỏi/scoring hoặc Table4.2. Thư mục xuất bản đối chiếu cover draft và trang BPL. Số trang PDF chỉ ghi như PDF, không gán thành trang sách."
+    },
+    "SOTO08": {
+      "id": "SOTO08",
+      "apa7": "Soto, C. J., John, O. P., Gosling, S. D., & Potter, J. (2008). The developmental psychometrics of Big Five self-reports: Acquiescence, factor structure, coherence, and differentiation from ages 10 to 20. *Journal of Personality and Social Psychology, 94*(4), 718–737. https://doi.org/10.1037/0022-3514.94.4.718",
+      "accessURL": "https://www.colby.edu/wp-content/uploads/2013/08/Soto_et_al_2008.pdf",
+      "type": "Nghiên cứu thực nghiệm quan sát/cắt ngang nhiều nhóm tuổi, PDF bản xuất bản trên trường tác giả20 trang",
+      "population": "Tình nguyện Internet10–20 tuổi, Mỹ90%/Canada10%;230047 ban đầu, loại một phần trường hợp trước phân tích; không đại diện VN",
+      "location": "Abstract tr.718; Method/Sample/Procedure/Measurement tr.722–723; phần khác biệt coherence/differentiation tr.729 (PDFp11)",
+      "support": "Chất lượng đo BFI tự báo cáo có khác biệt theo tuổi/chiều; cần kiểm dụng cụ/đối tượng.",
+      "limits": "BFI44, không BFI-2; không theo dõi cùng người lớn lên, không định mốc trưởng thành, không hiệu lực bản Việt hóa hoặc bắt HS làm test. Không dùng mọi số mẫu như mẫu cuối.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Không lấy quy trình thu dữ liệu/waiver của nghiên cứu làm chuẩn quyền cho website; không sao câu hỏi hoặc chuẩn. Chỉ dùng nhận định hẹp về đo lường theo tuổi."
+    },
+    "VIC25": {
+      "id": "VIC25",
+      "apa7": "Vicentini, G., Raccanello, D., & Burro, R. (2025). Self-report questionnaires to measure Big Five personality traits in children and adolescents: A systematic review. *Scandinavian Journal of Psychology, 66*(5), 627–653. https://doi.org/10.1111/sjop.13110",
+      "accessURL": "https://onlinelibrary.wiley.com/doi/10.1111/sjop.13110",
+      "type": "Tổng quan hệ thống bình duyệt, HTML publisher và PMC; các phần tiếp cận được xen403/captcha",
+      "population": "10 bảng hỏi, chủ yếu7–18 tuổi (một ngoại lệ),24 bài; không kết luận mọi bản dịch VN",
+      "location": "Abstract; Introduction §1.1; Conclusion §5, dòng ngay trước về thiếu kiểm đo lặp; không nhận đã đọc mọi bảng/COSMIN scoring/supplement",
+      "support": "Công cụ theo tuổi/ngôn ngữ khác nhau, bằng chứng cấu trúc/nhất quán không đồng đều; không nhãn Big Five bảo đảm mọi bảng hỏi.",
+      "limits": "Kết luận scoped theo review, không định mức hiệu lực từng thang/bản Việt. Chỉ đọc các phần nêu, không so toàn bộ10 thang hoặc phát biểu phù hợp nhất.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "PMC12423744 đọc metadata/Abstract một lượt rồicaptcha; publisher đọcIntro/Conclusion thực tế. Không báo Abstract-only là toàn văn; ở đây có các đoạn thân bài cụ thể nhưng không tuyên bố đọc toàn bài."
+    },
+    "BPL": {
+      "id": "BPL",
+      "apa7": "Berkeley Personality Lab. (n.d.). *Big Five Inventory (BFI-2).* https://www.ocf.berkeley.edu/~johnlab/bfi.html",
+      "accessURL": "https://www.ocf.berkeley.edu/~johnlab/bfi.html",
+      "type": "Trang nhóm phát triển/chủ quyền, HTML; phần lịch sử BFI/BFI-2 xen nhau",
+      "population": "BFI-2 công cụ tự báo cáo, không chứng nhận mọi tuổi/ngôn ngữ",
+      "location": "Mở đầu BFI-2; Downloading > availability/copyright; reference; phần về languages/translation đọc nhưng không làm hướng dẫn tự dịch",
+      "support": "BFI-2 do Soto/John, nhãn Negative Emotionality/Open-Mindedness; họ giữ bản quyền, nghiên cứu phi thương mại có điều kiện.",
+      "limits": "Không tự mở rộng free research sang tái bản công khai/thương mại; không dùng FAQ cũ11-item như thông số hiện hành BFI-2 hoặc nhầm BFI con/cha mẹ thành BFI-2 đã xác minh.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Không tải/fill survey, chép items hoặc scoring, không dùng online-feedback link. Publication site/module chưa được cấp quyền triển khai công cụ."
+    },
+    "ONET21": {
+      "id": "ONET21",
+      "apa7": "Rounds, J., Hoff, K. A., & Lewis, P. (Eds.). (2021). *O\\*NET® Interest Profiler manual* (Version 1.0). National Center for O\\*NET Development. https://www.onetcenter.org/dl_files/IP_Manual.pdf",
+      "accessURL": "https://www.onetcenter.org/dl_files/IP_Manual.pdf",
+      "type": "Cẩm nang kỹ thuật chuyên môn của nhóm phát triển cho USDOL/ETA, PDF139 trang; dùng lịch sử Holland qua nguồn này",
+      "population": "Ch1 nhiều tuổi; Ch3 thận trọng14 trở xuống; nghiên cứu nhiều form/mẫu phần lớn Mỹ, có HS/người lớn chứ không norm VN",
+      "location": "Ch1 tr.5–10: khái niệm/sáu hướng/cân nhắc; Ch3 tr.30–31 tuổi; Ch5 Table2 tr.66 có mẫu HS và đại học; Ch6 tr.77–81 cấu trúc/hội tụ/mẫu theo form",
+      "support": "Sáu RIASEC, sở thích khác phép đo năng lực/định nghề; công cụ nhiều form, có bằng chứng theo mẫu; tuổi/khả năng đọc/hiểu việc cần tính.",
+      "limits": "Không nói thích là năng lực hoặc mã quyết nghề; không lấy người lớn/Mỹ áp HS Việt. Lịch sử1959/1997 là trích dẫn thứ cấp từ cẩm nang, không giả đọc trực tiếp Holland. Không kiểm toàn bộ139 trang.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Metadata manual Version1.0 March2021 và editors cover/list; trang báo cáo https://www.onetcenter.org/reports/IP_Manual.html . Không sao item/scoring/hexagon/logo/norm hoặc triển khai Interest Profiler. Chương do nhiều tác giả, không gán editors phát minh mô hình."
+    },
+    "ONETLIC": {
+      "id": "ONETLIC",
+      "apa7": "National Center for O\\*NET Development. (n.d.). *O\\*NET® Career Exploration Tools content license.* https://www.onetcenter.org/license_tools.html",
+      "accessURL": "https://www.onetcenter.org/license_tools.html",
+      "type": "Điều kiện quyền chính thức, HTML; không nghiên cứu khoa học",
+      "population": "Công cụ O*NET Career Exploration Tools, không mọi bảng hỏi mang tên Holland",
+      "location": "Options1–2: CC BY-ND4.0 nguyên trạng; Developer License chỉnh sửa có attribution/link/validation; trademark notice",
+      "support": "Quyền sử dụng phụ thuộc hình thức; sao nguyên trạng khác sửa/dịch/phát triển, không tự cấp quyền mọi test.",
+      "limits": "Không tiến hành xin phép hoặc dùng license để tự tạo test; không tự gán CC BY-ND cho hình bài tự thiết kế. Không khẳng định chỉ ghi nguồn là được dịch công cụ.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Chủ quyền/nhãn O*NET là USDOL/ETA, National Center là bên phát triển. Bài chỉ diễn giải khái niệm không nhập nội dung Tools hoặc logo."
+    },
+    "WHO26": {
+      "id": "WHO26",
+      "apa7": "World Health Organization. (2026, March 30). *Stress.* https://www.who.int/news-room/questions-and-answers/item/stress",
+      "accessURL": "https://www.who.int/news-room/questions-and-answers/item/stress",
+      "type": "Hỏi đáp sức khỏe công chúng, HTML ngày30/3/2026",
+      "population": "Công chúng, có ví dụ school exams; không mẫu can thiệp/phép đo HS",
+      "location": "What is stress?; Does everyone respond…?; I am feeling stressed, does that mean I cannot work?",
+      "support": "Định nghĩa stress đời thường có căn cứ, khác đáp ứng cá nhân; có thể tìm người đáng tin/y tế khi khó đối phó.",
+      "limits": "Không dùng dấu hiệu để tự chẩn đoán, khẳng định cơ thể do stress, hứa techniques chữa bệnh hoặc lịch ngủ chung; không dùng mục management như điều trị.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Ngày hiển thị2026 khác các trích dẫn cũ2023 của trang, đã ghi theo bản thực đọc."
+    },
+    "CMUCOLD": {
+      "id": "CMUCOLD",
+      "apa7": "The Common Cold Project. (n.d.). *Perceived stress.* Carnegie Mellon University. https://www.cmu.edu/common-cold-project/measures-by-study/psychological-and-social-constructs/stress-measures/perceived-stress.html",
+      "accessURL": "https://www.cmu.edu/common-cold-project/measures-by-study/psychological-and-social-constructs/stress-measures/perceived-stress.html",
+      "type": "Trang nghiên cứu CMU giới thiệu thang và nguồn gốc, HTML",
+      "population": "Các nghiên cứu Common Cold Project, không xác nhận phiên bản cho HS Việt Nam",
+      "location": "Primary References (Cohen/Kamarck/Mermelstein1983); Purpose; Description; Copyright Information",
+      "support": "PSS đo perceived stress, cảm nhận khó đoán/khó kiểm soát/quá tải, có khoảng thời gian; giới thiệu nguồn gốc1983.",
+      "limits": "Nguồn thứ cấp về bài1983, không giả đọc bản scan. Không suy mầm bệnh/stress gây bệnh hoặc kết quả người lớn áp HS; không chép items/scaling.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "CMU originalPDF13trang/Stanfordmirror parser0lines, KiltHub403, PubMed chỉfooter: chưa đọc được nguyên bản. Lịch sử công cụ dẫn rõ qua trang dự án, không dùng Abstract từ snippet như đã đọc."
+    },
+    "CMUSCALE": {
+      "id": "CMUSCALE",
+      "apa7": "Laboratory for the Study of Stress, Immunity, and Disease. (n.d.). *Dr. Cohen’s scales.* Carnegie Mellon University. https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/",
+      "accessURL": "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/",
+      "type": "Trang phòng nghiên cứu tác giả, HTML",
+      "population": "PSS và các phiên bản/bản dịch, không mặc định norm HS Việt Nam",
+      "location": "PERMISSION FOR USE; PSS PLEASE NOTE; PSS TRANSLATIONS",
+      "support": "PSS không chẩn đoán/không cut-off; yêu cầu quyền qua ePROVIDE, bản dịch có quyền người dịch.",
+      "limits": "Không biến không-cutoff của PSS thành không-cutoff mọi thang sàng lọc; không sao questions/scoring/translation từ link. Không coi requestfree là licensefree.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Một số nguồn tổng hợp cũ nói tự do academic, nhưng dùng hướng dẫn trực tiếp hiện đọc về yêu cầu quyền. Chưa xin/có phép cho bất kỳ bản PSS nào, không triển khai test."
+    },
+    "DAO17": {
+      "id": "DAO17",
+      "apa7": "Dao-Tran, T.-H., Anderson, D., & Seib, C. (2017). The Vietnamese version of the Perceived Stress Scale (PSS-10): Translation equivalence and psychometric properties among older women. *BMC Psychiatry, 17*, Article 53. https://doi.org/10.1186/s12888-017-1221-6",
+      "accessURL": "https://link.springer.com/article/10.1186/s12888-017-1221-6",
+      "type": "Nghiên cứu dịch/kiểm tâm trắc, toàn văn HTML publisher",
+      "population": "473 phụ nữ60+ tại16 khu vực nông thôn/đô thị VN; phỏng vấn riêng do khác trình độ/nhìn; không HS",
+      "location": "Abstract; Methods > Translation/Psychometric evaluation/Participants/Procedure; Conclusion; đối chiếu giới hạn mẫu",
+      "support": "Có nghiên cứu V-PSS-10 ở người lớn tuổi, nhưng không tự xác nhận độ phù hợp cho HS THCS–THPT.",
+      "limits": "Không claim mọi bản dịch hợp lệ hoặc không có nghiên cứu trẻ; không nói valid cho HS, không dùng alpha/retest/norm/ngưỡng trong ARTICLE hoặc chép bản dịch.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Reference13 trong bài có tên Kamarck bị ghi khác; lịch sử tác giả dùng CMU để đối chiếu không chép lỗi thư mục thứ cấp. Nguồn không chứng minh hoạt động E04 hiệu quả."
+    },
+    "NLM26": {
+      "id": "NLM26",
+      "apa7": "National Library of Medicine. (2026, July 20). *Mental health screening.* MedlinePlus. https://medlineplus.gov/lab-tests/mental-health-screening/",
+      "accessURL": "https://medlineplus.gov/lab-tests/mental-health-screening/",
+      "type": "Hướng dẫn công chúng NLM/MedlinePlus, HTML lastupdated20/7/2026",
+      "population": "Công chúng có đoạn riêng trẻ/vị thành niên, dịch vụ/chức danh trong bối cảnh Mỹ",
+      "location": "What is a mental health screening?; What is it used for?; What happens…? đoạn tuổi/khả năng; What do the results mean?; phần cần giúp ngay",
+      "support": "Sàng lọc thường bước đầu có thể cần đánh giá tiếp; đánh giá có nhiều thông tin, tuổi/khả năng cần phù hợp; nguy hiểm không chờ điểm.",
+      "limits": "Không chuyển chức danh/quyền kê thuốc/số911/988/luật Mỹ vào VN; không sao checklist/khuyến nghị thuốc hoặc hứa không có rủi ro tâm lý/riêng tư chỉ vì trang nói no risk questionnaire.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Ngày cập nhật riêng ở cuối trang đã đọc, không suy từ copyright hoặc ngày tài liệu tham khảo. Chỉ dùng đoạn chức năng sàng lọc/đánh giá và an toàn, không hướng dẫn crisis-response."
+    },
+    "MBTIPERM": {
+      "id": "MBTIPERM",
+      "apa7": "The Myers-Briggs Company. (n.d.). *Assessment licensing, copyright and permissions.* https://www.themyersbriggs.com/en-US/Support/Copyright-and-Permissions",
+      "accessURL": "https://www.themyersbriggs.com/en-US/Support/Copyright-and-Permissions",
+      "type": "Điều kiện quyền publisher, HTML; hồ sơ quyền phụ trợ, không bibliography ARTICLE",
+      "population": "Tài liệu/công cụ do Company xuất bản, không cấp phép website dự án",
+      "location": "Copyright; Permissions; Licensee Requirements",
+      "support": "Không tự sao/sửa/dịch bộ câu hỏi, báo cáo, scoring hoặc bảng tài liệu khi chưa có quyền; quản lý licensing cụ thể.",
+      "limits": "Không tự nhận certified MBTI practitioner/giấy phép bản test. Chỉ đọc điều kiện; chưa xin/chưa có phép. Không khẳng định Company là chủ độc quyền mọi ý tưởng khái niệm.",
+      "access": "full_text_selected_sections",
+      "checked": "2026-10-25",
+      "checker": "AI assistant",
+      "verification": "claim-scoped partial; no independent human approval",
+      "note": "Tài liệu này dùng kiểm quyền hồ sơ, không là bằng chứng tâm trắc, không nhập vào bibliography E01 hoặc tạo suffix cho một trích dẫn chưa dùng ở ARTICLE."
+    }
+  },
+  "articleSourceIds": {
+    "C24": [
+      "NCS",
+      "OECD24"
+    ],
+    "E01": [
+      "AERA14",
+      "ERFORD25",
+      "MBTIFACT",
+      "NERIS",
+      "STEIN19"
+    ],
+    "E02": [
+      "BPL",
+      "JOHN08",
+      "SOTO08",
+      "VIC25"
+    ],
+    "E03": [
+      "ONETLIC",
+      "ONET21"
+    ],
+    "E04": [
+      "AERA14",
+      "CMUCOLD",
+      "DAO17",
+      "CMUSCALE",
+      "NLM26",
+      "WHO26"
+    ]
+  },
+  "localSourceIds": {
+    "C24": {
+      "NCS": "C24-S01",
+      "OECD24": "C24-S02"
+    },
+    "E01": {
+      "AERA14": "E01-S01",
+      "ERFORD25": "E01-S02",
+      "MBTIFACT": "E01-S03",
+      "NERIS": "E01-S04",
+      "STEIN19": "E01-S05"
+    },
+    "E02": {
+      "BPL": "E02-S01",
+      "JOHN08": "E02-S02",
+      "SOTO08": "E02-S03",
+      "VIC25": "E02-S04"
+    },
+    "E03": {
+      "ONETLIC": "E03-S01",
+      "ONET21": "E03-S02"
+    },
+    "E04": {
+      "AERA14": "E04-S01",
+      "CMUCOLD": "E04-S02",
+      "DAO17": "E04-S03",
+      "CMUSCALE": "E04-S04",
+      "NLM26": "E04-S05",
+      "WHO26": "E04-S06"
+    }
+  },
+  "auxiliarySourceIds": {
+    "E01": [
+      "MBTIPERM"
+    ]
+  },
+  "excludedOrLimitedSearches": [
+    {
+      "source": "Cohen/Kamarck/Mermelstein1983 original",
+      "access": "CMU/Stanford PDFs parse0lines, KiltHub403, PubMedfooter only",
+      "used": false,
+      "reason": "Origin described through CMU project, explicitly secondary. No claim read original or Abstract from snippet; no original bibliography as firsthand."
+    },
+    {
+      "source": "Holland1959/1997 original",
+      "access": "Search leads/metadata via manual; originals not read",
+      "used": false,
+      "reason": "History attributed to technical manual; current six labels/age/evidence from its actual sections. No direct quote/original bibliography."
+    },
+    {
+      "source": "Stein/Swan2019 Teaching and Learning Guide e12441",
+      "access": "Publisher metadata read, distinct13(3) guide",
+      "used": false,
+      "reason": "Actual theory article PDF and publisher have e12434/13(2); do not misassign DOI."
+    },
+    {
+      "source": "AAP2025 screening report",
+      "access": "Metadata/author list read; body redirect login unavailable",
+      "used": false,
+      "reason": "Use MedlinePlus actual relevant sections; do not claim read AAP clinical report."
+    },
+    {
+      "source": "Wiley/PMC retry failures",
+      "access": "Some Wiley full/doi URLs403; PMC captcha; EuropePMC unavailable",
+      "used": false,
+      "reason": "Used only actual sections successfully read listed per source; not extrapolate unread Methods/tables or report blocked retry as passed."
+    },
+    {
+      "source": "Vietnamese adolescence stress studies search leads",
+      "access": "Search-result leads only; no full source used",
+      "used": false,
+      "reason": "No inference absence of youth research. No validated PSS translation selected/administered; adult-Vietnamese example limited to actual2017 sample."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="784" viewBox="0 0 320 784" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Thử để biết thêm</title>
+<desc id="desc">Phiếu khám phá gồm câu hỏi muốn tìm hiểu, cách thử phù hợp điều kiện, điều nhận ra và bước tiếp; không có mũi tên tới một nghề định sẵn.</desc>
+<rect width="320" height="784" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Thử để biết thêm</text>
+<rect x="16" y="83" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="112" font-size="18" font-weight="700">ĐIỀU MUỐN TÌM HIỂU</text>
+<text x="32" y="139" font-size="16">Một phần hoạt động hoặc</text>
+<text x="32" y="164" font-size="16">công việc còn muốn biết rõ</text>
+<text x="32" y="189" font-size="16">hơn.</text>
+<rect x="16" y="237" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="266" font-size="18" font-weight="700">CÁCH THỬ PHÙ HỢP</text>
+<text x="32" y="293" font-size="16">Xét thời gian, khả năng, tài</text>
+<text x="32" y="318" font-size="16">liệu và người hỗ trợ đang có.</text>
+<rect x="16" y="366" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="395" font-size="18" font-weight="700">NHÌN LẠI</text>
+<text x="32" y="422" font-size="16">Phần nào đã trải nghiệm? Điều</text>
+<text x="32" y="447" font-size="16">gì chưa rõ hoặc còn thiếu điều</text>
+<text x="32" y="472" font-size="16">kiện?</text>
+<rect x="16" y="520" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="549" font-size="18" font-weight="700">BƯỚC TIẾP CÓ THỂ ĐỔI</text>
+<text x="32" y="576" font-size="16">Tìm thêm thông tin, hỏi giúp,</text>
+<text x="32" y="601" font-size="16">thử phần khác hoặc để lại khi</text>
+<text x="32" y="626" font-size="16">chưa có điều kiện.</text>
+<text x="20" y="684" font-size="16">Không chốt nghề bằng phiếu. Gần</text>
+<text x="20" y="709" font-size="16">hạn lựa chọn: nhờ hỗ trợ thông tin,</text>
+<text x="20" y="734" font-size="16">không đợi chắc chắn tuyệt đối.</text>
+</g>
+</svg>

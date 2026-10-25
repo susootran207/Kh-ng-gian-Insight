@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="713" viewBox="0 0 320 713" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Trước khi tin một mã chữ</title>
+<desc id="desc">Ba vùng đọc kết quả: xác định công cụ và phiên bản, xem kết quả thực báo, kiểm kết luận định rút ra; không nối mã tính cách tới nghề hoặc năng lực cố định.</desc>
+<rect width="320" height="713" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Trước khi tin một mã</text>
+<text x="20" y="67" font-size="22" font-weight="700">chữ</text>
+<rect x="16" y="114" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">CÔNG CỤ NÀO?</text>
+<text x="32" y="170" font-size="16">Tên, đơn vị phát triển, phiên</text>
+<text x="32" y="195" font-size="16">bản. Cùng mã chữ chưa chắc</text>
+<text x="32" y="220" font-size="16">cùng công cụ.</text>
+<rect x="16" y="268" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="297" font-size="18" font-weight="700">KẾT QUẢ THỰC BÁO GÌ?</text>
+<text x="32" y="324" font-size="16">Mã khuynh hướng không tự là</text>
+<text x="32" y="349" font-size="16">điểm năng lực hoặc sức khỏe.</text>
+<rect x="16" y="397" width="288" height="161" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="426" font-size="18" font-weight="700">ĐANG MUỐN KẾT LUẬN</text>
+<text x="32" y="453" font-size="18" font-weight="700">GÌ?</text>
+<text x="32" y="480" font-size="16">Chưa đủ cơ sở lấy mã định</text>
+<text x="32" y="505" font-size="16">nghề, phân vai hoặc đánh giá</text>
+<text x="32" y="530" font-size="16">giá trị một người.</text>
+<text x="20" y="588" font-size="16">Chưa biết nguồn thì giữ “chưa</text>
+<text x="20" y="613" font-size="16">biết”. Không cần làm test, kể mã</text>
+<text x="20" y="638" font-size="16">riêng hoặc mua báo cáo để học</text>
+<text x="20" y="663" font-size="16">bài này.</text>
+</g>
+</svg>

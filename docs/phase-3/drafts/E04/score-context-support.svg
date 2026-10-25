@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="713" viewBox="0 0 320 713" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Một đầu ra, những câu cần hỏi</title>
+<desc id="desc">Ba nhóm câu hỏi khi gặp một đầu ra tâm lý: tên và điều được đo, phiên bản/tuổi/ngôn ngữ/mục đích, người giải thích và cách giữ riêng tư; không có điểm hoặc nhánh chẩn đoán.</desc>
+<rect width="320" height="713" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Một đầu ra, những</text>
+<text x="20" y="67" font-size="22" font-weight="700">câu cần hỏi</text>
+<rect x="16" y="114" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">TÊN VÀ ĐIỀU ĐƯỢC ĐO</text>
+<text x="32" y="170" font-size="16">Công cụ nào? Stress cảm nhận</text>
+<text x="32" y="195" font-size="16">hay dấu hiệu cần xem xét</text>
+<text x="32" y="220" font-size="16">tiếp?</text>
+<rect x="16" y="268" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="297" font-size="18" font-weight="700">PHẠM VI BẰNG CHỨNG</text>
+<text x="32" y="324" font-size="16">Phiên bản, tuổi, ngôn ngữ và</text>
+<text x="32" y="349" font-size="16">mục đích nào được nghiên</text>
+<text x="32" y="374" font-size="16">cứu?</text>
+<rect x="16" y="422" width="288" height="136" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="451" font-size="18" font-weight="700">NGƯỜI GIẢI THÍCH /</text>
+<text x="32" y="478" font-size="18" font-weight="700">RIÊNG TƯ</text>
+<text x="32" y="505" font-size="16">Ai có thể giải thích? Thông tin</text>
+<text x="32" y="530" font-size="16">dùng thế nào và ai xem được?</text>
+<text x="20" y="588" font-size="16">Không từ điểm suy bệnh. Có thể</text>
+<text x="20" y="613" font-size="16">hỏi giúp khi đang khó khăn; nguy</text>
+<text x="20" y="638" font-size="16">hiểm cần tìm giúp ngay, không đợi</text>
+<text x="20" y="663" font-size="16">hoàn thành thẻ.</text>
+</g>
+</svg>
