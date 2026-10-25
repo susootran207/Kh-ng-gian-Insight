@@ -1,3 +1,35 @@
+# C17 — Hoàn thiện c17-draft-r2
+
+25/10/2026. Cập nhật **chính PR #8** trên `phase-3-2b-3-c17-draft`; không PR mới/merge/xuất bản. r1 được giữ tại [commit 34596e41a266b693068c1d8337f8fd9471780e3b](https://github.com/susootran207/Kho-ng-gian-Insight/tree/34596e41a266b693068c1d8337f8fd9471780e3b/docs/phase-3/drafts/C17); r2 nối tiếp, không rewrite lịch sử. Hồ sơ r1 dưới đây chỉ là lịch sử, không kết quả chạy lại r2.
+
+## Trước–sau và phạm vi nhận định
+- Giải thích: trước “Cơ thể có nhịp ngày–đêm gần 24 giờ, gọi là nhịp sinh học…”; sau “Sau nhiều giờ thức, cơ thể tích lũy nhu cầu ngủ…” và lời thường về nhịp ngày–đêm trước thuật ngữ. Giữ hai khái niệm, tương tác, ánh sáng và dẫn NHLBI; nêu rõ không phải hai nguyên nhân đã xác định cho Lan và không mọi học sinh cùng lịch/nhịp.
+- Ranh giới chẩn đoán: trước nhắc không cần chờ một mốc ngày; sau nói trực tiếp “Chưa đủ căn cứ chẩn đoán không có nghĩa khó khăn của Lan là không quan trọng”, không phải đợi thời hạn hoặc “đủ nặng”. Giữ đánh giá thuộc chuyên môn; không thêm ngưỡng tự chẩn đoán.
+- Hỗ trợ: trước tập trung khó ngủ/không ngủ đủ; sau gọi rõ khó ngủ hoặc buồn ngủ ban ngày ảnh hưởng sinh hoạt, người lớn đáng tin và người chuyên môn. Không dịch vụ địa phương, không mặc định mọi trường có tham vấn viên; giữ quyền tìm người khác.
+- Phản hồi câu 2 thêm rằng thiếu căn cứ kết luận không phải lý do gạt khó khăn đi; câu hỏi, thủ tục ba bước và đáp án mở khác giữ nguyên.
+- Hình: trước sáu khối liên tiếp với hai tiêu đề; sau hai khung A/B, mỗi nhóm ba khối, khoảng trắng rõ, tiêu đề và nhãn riêng. Đổi tên khối cuối thành “Hỗ trợ / điều chỉnh”; đồng bộ alt/desc/mô tả chữ. Không mũi tên nhân quả hoặc mô hình sinh học.
+
+## Nguồn giữ nguyên và đối chiếu r2
+Bốn nguồn thực dùng vẫn là Paruthi và cộng sự (2016), NHLBI Diagnosis (2022a), Healthy Sleep Habits (2022b), What Makes You Sleep? (2022c). Hậu tố/thư mục/DOI/URL không đổi. REFERENCES giữ nguyên byte vì không thêm thông tin nguồn hoặc phạm vi xác minh mới.
+Đọc lại hai trang NHLBI đã dùng: “Your body clock”, “Changes in body clock with aging”; Diagnosis mở đầu và “Medical history and physical exam”. Các mục tiếp tục hỗ trợ Q3/Q5/Q6 trong phạm vi r1; điều chỉnh ở r2 là trình tự và giới hạn diễn giải. Không thêm kiến thức hormone/số liệu, không mở lại AASM/Healthy Sleep Habits hoặc báo đọc lại mọi nguồn. Q1/Q2/Q4 giữ nguyên.
+Carskadon S07 vẫn excerpt_only/pending_fulltext theo hồ sơ r1; lượt r2 không tra cứu lại, không nâng xác minh hay dùng nguồn để thêm cơ chế. Câu không cần “đủ nặng” là nguyên tắc biên tập mở đường hỗ trợ, không một ngưỡng y khoa mới hoặc phát biểu nguyên văn của NHLBI. CLAIM-AUDIT ghi rõ các điểm này.
+
+## Kiểm tra r2
+- Rà thủ công nhận định–nguồn và thuật ngữ; lời thường → thuật ngữ; hai khía cạnh điều hòa khác hai nguyên nhân riêng. Giữ đúng nhóm 6–12/13–18, khoảng 9–12/8–10 giờ, thường xuyên mỗi 24 giờ; không áp cho 19+.
+- Rà ba mức Bloom bằng nội dung, câu hỏi và phản hồi: Nhớ có tuổi/đơn vị/yếu tố bối cảnh; Hiểu cần lý do và dữ kiện thiếu; Vận dụng cần hành động có điều kiện và hỗ trợ/điều chỉnh. Không đo kết quả học thật, điểm sức khỏe hoặc yêu cầu khai riêng.
+- Kiểm tự động r2 PASS: liên kết nội bộ, bốn mục citation–references, metadata r2, tuổi/đơn vị, ba câu hỏi–phản hồi, alt/caption và SVG. Kiểm thêm hai nhóm/sáu khối, kích thước PNG, thứ tự lời thường trước thuật ngữ; REFERENCES/thư mục/câu hỏi giữ nguyên. Kiểm chuỗi/cấu trúc không thay thế đọc nguồn, rà lập luận hoặc thử với học sinh.
+- Render Inkscape mới 320px và 640px, đã xem cả hai: chữ Việt, hai nhóm/sáu khối và footer hiển thị đầy đủ, không thấy cắt chữ. Có warning Pango/GTK/font cache/profile read-only; cả hai lệnh xuất PNG thành công. PNG giữ trong thư mục work, không đưa vào repo.
+- Màu chữ #333e32 trên kem/giấy/sage/tím được tính lại theo mã màu; tỷ lệ 10,10 / 11,01 / 8,51 / 8,84:1. Đây là kiểm tĩnh, không chứng nhận accessibility hoặc độ đọc thực tế.
+- Chỉ sáu tệp cần thay: ARTICLE, CLAIM-AUDIT, BLOOM-REVIEW, VISUAL-REVIEW, EDITORIAL-REVIEW và SVG. REFERENCES và mọi tệp ngoài C17 giữ nguyên; đối chiếu tree GitHub cuối ghi tại PR.
+
+## Chưa kiểm và chờ nghiệm thu
+Chưa kiểm trình duyệt, reader tích hợp, screen reader, thiết bị vật lý hoặc người đọc THCS–THPT/giáo viên. Không chạy build/runtime/Playwright/Axe website vì không đổi ứng dụng. Chưa reviewer chuyên môn hoặc quyền công bố asset cuối; không ghi approved/expert_reviewed/published.
+Cần người dùng duyệt mạch giải thích mới, cách nói không cần đợi để nhờ giúp, phản hồi Bloom và hình hai nhóm. Giới hạn nguồn NHLBI công chúng và Carskadon pending còn nguyên.
+Không sửa C01/C05/E05/website, không merge/deploy/publish hoặc 3.2B-4. Dừng tại PR #8 chờ nghiệm thu C17-r2.
+
+---
+
+## Hồ sơ lịch sử r1
 # C17 — Bàn giao c17-draft-r1
 
 Ngày 25/10/2026. Nhánh `phase-3-2b-3-c17-draft`; chỉ 3.2B-3/KGNT-C17, slug dành sẵn `dem-dai-minh-chua-ngu`.

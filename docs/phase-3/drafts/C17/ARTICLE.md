@@ -1,6 +1,6 @@
 # Đêm dài, mình chưa ngủ
 
-> **Bản nháp để duyệt · KGNT-C17 · c17-draft-r1 · 25/10/2026.**
+> **Bản nháp để duyệt · KGNT-C17 · c17-draft-r2 · 25/10/2026.**
 > Chưa được duyệt biên tập hoặc rà soát chuyên môn; chưa có quyền xuất bản.
 
 Lan 14 tuổi. Tối qua, sau khi phụ dọn hàng cùng gia đình, Lan làm nốt bài tập trong căn phòng vẫn còn tiếng nói chuyện và đèn sáng. Bạn có xem tin nhắn nhóm lớp. Khi nằm xuống thì đã muộn; Lan muốn ngủ nhưng còn thức một lúc. Sáng nay, bạn phải dậy sớm đi học và buồn ngủ trong lớp.
@@ -30,9 +30,11 @@ Với Lan, chỉ bảo “đi ngủ sớm hơn” chưa giải quyết được 
 
 ## Vì sao muốn ngủ mà vẫn chưa ngủ được?
 
-Cơ thể có nhịp ngày–đêm gần 24 giờ, gọi là **nhịp sinh học** (*circadian rhythm*). Ánh sáng và những tín hiệu môi trường góp phần đồng bộ nhịp ấy. Còn **áp lực ngủ** là xu hướng cần ngủ tích lũy khi thức, khác với áp lực bài vở. Hai quá trình tương tác trong điều hòa ngủ–thức (National Heart, Lung, and Blood Institute [NHLBI], 2022c, mục “Your body clock”). Đây là cách giải thích giản lược, không phải đồng hồ đo riêng cho Lan.
+Sau nhiều giờ thức, cơ thể tích lũy nhu cầu ngủ. Bên cạnh đó, cơ thể còn có một nhịp ngủ–thức theo ngày đêm. Thời gian đã thức và nhịp trong ngày là hai khía cạnh khác nhau, cùng tham gia điều hòa giấc ngủ (National Heart, Lung, and Blood Institute [NHLBI], 2022c, mục “Your body clock”).
 
-NHLBI (2022c, mục “Changes in body clock with aging”) cũng mô tả xu hướng giờ ngủ muộn hơn ở tuổi thiếu niên. Xu hướng chung ấy không cho biết nhịp của từng người và không chứng minh nguyên nhân một đêm của Lan.
+Nhu cầu ngủ tích lũy khi thức được gọi là **áp lực ngủ**, khác với áp lực bài vở. Nhịp ngày–đêm gần 24 giờ được gọi là **nhịp sinh học** (*circadian rhythm*); ánh sáng và những tín hiệu môi trường góp phần đồng bộ nhịp ấy. Hai quá trình này tương tác, không hoạt động tách rời (NHLBI, 2022c, mục “Your body clock”). Đây là giải thích chung về điều hòa giấc ngủ, không phải hai nguyên nhân đã được xác định cho đêm của Lan.
+
+NHLBI (2022c, mục “Changes in body clock with aging”) mô tả xu hướng giờ ngủ muộn hơn ở tuổi thiếu niên. Điều đó không có nghĩa mọi học sinh tuổi dậy thì đều có cùng lịch ngủ hoặc nhịp sinh học giống nhau, cũng không cho biết nguyên nhân một đêm của Lan.
 
 Ánh sáng, tiếng ồn, lịch sinh hoạt và chất kích thích như caffeine đều là những yếu tố cần cân nhắc; hướng dẫn thói quen ngủ lành mạnh đề cập các yếu tố này (NHLBI, 2022b). Tuy vậy, câu chuyện không cho biết Lan có dùng caffeine hay không. Không nên thêm một dữ kiện chưa có, hoặc kết luận điện thoại là nguyên nhân duy nhất.
 
@@ -50,7 +52,7 @@ Bảng giúp phân biệt điều cần hỏi với điều có thể khẳng đ
 
 Nói “Lan khó vào giấc tối qua” là mô tả điều được kể. Nói “Lan mắc rối loạn mất ngủ” là một kết luận khác, cần đánh giá chuyên môn. NHLBI (2022a, phần mở đầu và mục “Medical history and physical exam”) mô tả việc đánh giá phải xem xét nhiều thông tin về giấc ngủ, sức khỏe và ảnh hưởng ban ngày. Một đêm trong câu chuyện không cung cấp đủ thông tin ấy.
 
-Điều này cũng không có nghĩa Lan phải bỏ qua buồn ngủ hoặc chờ đến một mốc ngày mới được nhờ giúp. Bài không đưa ngưỡng số đêm, bảng điểm nguy cơ hay bộ tiêu chí để tự kết luận bệnh.
+Chưa đủ căn cứ chẩn đoán không có nghĩa khó khăn của Lan là không quan trọng. Bạn ấy vẫn có thể nhờ người cùng xem lại việc khó ngủ và buồn ngủ ban ngày. Không cần chờ đến một thời hạn hoặc đạt một mức độ nặng cố định mới được tìm hỗ trợ.
 
 ## Chọn việc có thể thử, cùng người có thể giúp
 
@@ -58,11 +60,11 @@ Một vài hướng trong hướng dẫn NHLBI (2022b) là giữ sinh hoạt ng�
 
 Với hoàn cảnh Lan, có thể bắt đầu bằng **một việc** thay vì đổi cả buổi tối. Chẳng hạn, Lan có thể hỏi người chăm sóc xem sau lúc dọn hàng có thể giảm bớt đèn gần chỗ ngủ không. Nếu người khác vẫn cần ánh sáng làm việc, hai bên còn phải tìm cách phù hợp hơn; không mặc định Lan có phòng riêng hoặc tự thay được lịch gia đình.
 
-![Bối cảnh ngủ của Lan gồm nhu cầu theo tuổi, lịch học và việc nhà, môi trường dùng chung; hoạt động gợi ý tách dữ kiện, chọn một việc khả thi và xác định hỗ trợ.](sleep-context.svg)
+![Sơ đồ gồm nhóm A về bối cảnh ngủ của Lan: nhu cầu ngủ theo tuổi, lịch học và việc nhà, môi trường ngủ dùng chung; nhóm B về bài tập: tách dữ kiện với điều chưa biết, chọn thay đổi khả thi, xác định hỗ trợ hoặc điều chỉnh.](sleep-context.svg)
 
 *Sơ đồ học tập tự biên soạn; tham khảo Paruthi và cộng sự (2016), NHLBI (2022a, 2022b). Không phải sơ đồ cơ chế sinh học, thang sàng lọc hay phác đồ điều trị.*
 
-**Mô tả tương đương bằng chữ:** Hình có hai phần. Phần bối cảnh nhắc ba điều cần nhìn cùng nhau: nhu cầu ngủ theo tuổi; lịch học và việc nhà; môi trường dùng chung. Phần thao tác có ba bước: ghi điều biết và chưa biết, chọn một việc có thể thử, xác định hỗ trợ hoặc điều cần hỏi. Các khối xếp dọc để đọc, không có đường nối biểu thị nhân quả.
+**Mô tả tương đương bằng chữ:** Hai nhóm có tiêu đề và khung riêng, cách nhau một khoảng trống. Nhóm A — “Nhìn trong bối cảnh” — có ba khối: nhu cầu ngủ theo tuổi; lịch học và việc nhà; môi trường ngủ dùng chung. Nhóm B — “Làm trong bài tập” — có ba khối đánh số: tách dữ kiện với điều chưa biết; chọn thay đổi khả thi; xác định hỗ trợ hoặc điều chỉnh. Số chỉ thứ tự làm bài tập, không phải quá trình sinh học. Sáu khối xếp dọc, không có mũi tên hoặc đường nối nhân quả.
 
 ## Thử ba bước với Lan
 
@@ -88,13 +90,13 @@ Ví dụ về cách điền bước 1: “Biết Lan dậy sớm đi học; chư
 
 **Câu 1:** Nhân vật 12 tuổi thuộc nhóm 6–12: 9–12 giờ; Lan 14 tuổi thuộc nhóm 13–18: 8–10 giờ. Cả hai khoảng đều tính mỗi 24 giờ và theo hướng thường xuyên. Có thể nêu phòng sáng, tiếng nói chuyện hoặc lịch dậy sớm. Đây là nhận diện khuyến nghị và dữ kiện, không kết luận bệnh cho hai nhân vật.
 
-**Câu 2:** Câu chuyện chỉ kể một đêm và chưa xác định tác động riêng của từng yếu tố. Có thể hỏi thêm về điều kiện ngủ hoặc tình trạng qua những ngày khác. Việc có xem tin nhắn không chứng minh đó là nguyên nhân duy nhất. Chấp nhận cách giải thích khác nếu giữ rõ điều đã biết, điều chưa biết và giới hạn kết luận.
+**Câu 2:** Câu chuyện chỉ kể một đêm và chưa xác định tác động riêng của từng yếu tố. Có thể hỏi thêm về điều kiện ngủ hoặc tình trạng qua những ngày khác. Việc có xem tin nhắn không chứng minh đó là nguyên nhân duy nhất. Chấp nhận cách giải thích khác nếu giữ rõ điều đã biết, điều chưa biết và giới hạn kết luận. Chưa kết luận được bệnh không phải lý do gạt đi khó khăn hoặc trì hoãn tìm hỗ trợ.
 
 **Câu 3:** Có nhiều phương án hợp lý. Phiếu cần có dữ kiện và điều chưa biết; một hành động cụ thể kèm điều kiện thực hiện; một người hoặc câu hỏi hỗ trợ, cùng cách điều chỉnh nếu chưa làm được. “Lan phải ngủ ngay dù phòng vẫn ồn” chưa cho thấy việc khả thi. Có thể đổi sang bàn một việc chung với người lớn; nếu chưa có hỗ trợ ngay, ghi nhận giới hạn ấy, không xem đó là lỗi của Lan. Không chấm đáp án theo việc Lan có ngủ thành công hay không.
 
 ## Khi nào nên mở lời tìm hỗ trợ?
 
-Nếu khó ngủ hoặc không ngủ đủ đang ảnh hưởng việc học và sinh hoạt ban ngày, có thể trao đổi với người chăm sóc và nhân viên y tế; NHLBI (2022a, phần mở đầu) khuyến nghị nói với bác sĩ khi việc thiếu ngủ ảnh hưởng hoạt động hằng ngày. Không cần biết tên một rối loạn trước khi nhờ giúp.
+Nếu việc khó ngủ hoặc buồn ngủ ban ngày đang ảnh hưởng việc học và sinh hoạt, bạn có thể trao đổi với một người lớn đáng tin và người có chuyên môn. NHLBI (2022a, phần mở đầu) khuyến nghị nói với bác sĩ khi việc thiếu ngủ ảnh hưởng hoạt động hằng ngày. Không cần biết tên một rối loạn hoặc tự chứng minh mình đã “đủ nặng” mới được mở lời.
 
 Lan có thể nói: “Dạo này con buồn ngủ ở lớp; con muốn cùng xem điều gì đang làm việc ngủ khó hơn.” Đây là câu mở lời do bài biên soạn. Giáo viên có thể là người giúp trao đổi khó khăn ở trường; nếu trường có người tư vấn phù hợp, đó cũng là một lựa chọn. Không giả định mọi trường đều có nhân viên tham vấn chuyên trách. Nếu người đầu tiên không phù hợp hoặc không an toàn để nói, có thể tìm người lớn khác.
 

@@ -1,4 +1,4 @@
-# C17 — Đối chiếu nhận định c17-draft-r1
+# C17 — Đối chiếu nhận định c17-draft-r2
 
 25/10/2026, trợ lý biên soạn. Supported_scoped nghĩa là phần nguồn đã đọc khớp nhận định hẹp; không là duyệt chuyên môn hoặc toàn nguồn verified. Đường truy cập/loại/tuổi và giới hạn ở [REFERENCES](REFERENCES.md). Không lời trích nguyên văn hoặc số hiệu quả mới.
 
@@ -22,3 +22,10 @@ Giữ hồ sơ nghiên cứu 3.2A nguyên trạng; báo cáo mới chỉ trong C
 - Không thang điểm, mốc số đêm tự chẩn đoán, thuốc/melatonin hay liệu pháp ánh sáng.
 - Phân biệt thời gian nằm với thời gian thực ngủ: không suy số giờ Lan ngủ từ lịch trong câu chuyện.
 - Không dùng một nguồn khoa học chứng minh cả phiếu hoặc lời mở đầu đã có hiệu quả.
+
+## Lượt biên tập r2 — 25/10/2026
+- Q3: lời thường về thời gian thức và nhịp ngày–đêm đứng trước thuật ngữ. Giữ định nghĩa, tương tác, ánh sáng và giới hạn xu hướng tuổi từ C17-S10; nói rõ không phải hai nguyên nhân đã xác định ở Lan hoặc lịch chung cho mọi học sinh. Đọc lại “Your body clock” và “Changes in body clock with aging”; không thêm cơ chế/hormone/số liệu hay đổi phạm vi nguồn.
+- Q5/Q6: đọc lại C17-S11, mở đầu và “Medical history and physical exam”. Giữ giới hạn đánh giá một đêm và hướng trao đổi khi ảnh hưởng sinh hoạt. Câu không cần đợi thời hạn/“đủ nặng” và khó khăn đáng được lắng nghe là nguyên tắc biên tập để không biến thông tin chẩn đoán thành rào cản trợ giúp; không gán cho nguồn một ngưỡng mới hoặc hiệu quả lời mở đầu.
+- P2: hình vẫn sáu khối, tách ba mặt bối cảnh khỏi ba bước bài tập bằng nhãn A/B, tiêu đề, khung nhóm và khoảng trắng; không mô hình sinh học. Alt/mô tả chữ cập nhật, caption giữ nguồn cũ.
+- Q1/Q2/Q4 và bộ bốn nguồn thực dùng giữ nguyên. Không mở lại AASM/Healthy Sleep Habits trong lượt r2; không báo đã đọc lại mọi nguồn. REFERENCES giữ nguyên byte, S07 vẫn pending_fulltext, không nghiên cứu bổ sung hoặc nâng xác minh.
+- Không thêm trích dẫn, tỷ lệ, điều trị hay kết quả thí nghiệm. Lịch sử r1 giữ trong Git tại 34596e41a266b693068c1d8337f8fd9471780e3b.

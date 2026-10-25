@@ -1,4 +1,4 @@
-# C17 — Alignment c17-draft-r1
+# C17 — Alignment c17-draft-r2
 
 Khung Nhớ–Hiểu–Vận dụng được người dùng chỉ định, tiếp nối thiết kế [3.2A](../../research/C17/BLOOM.md). Không khẳng định có đủ nhãn là đã đạt học tập; chưa thử với người học. Không đưa ba nhãn thành ba tiêu đề bắt buộc trong bài.
 
@@ -19,3 +19,8 @@ Bảng giải thích tình huống; hình hình dung bối cảnh và thủ tụ
 ## Độ khó, an toàn và giới hạn
 THCS có tình huống Lan 14 tuổi, câu ngắn và mẫu; không cơ chế nội tiết/số liệu thực nghiệm. THPT có mục sâu phân biệt khuyến nghị, giải thích và đánh giá cá nhân. Bảng tuổi bao gồm nhân vật 12 để tránh áp một khoảng cho mọi THCS.
 Cho phép bỏ qua; không hỏi giờ ngủ thật, nhật ký hay tình trạng sức khỏe. Chấp nhận cách diễn đạt khác có căn cứ; không điểm tâm lý hoặc kết luận hiệu quả học tập. Chưa giáo viên/học sinh thử đọc hoặc đo trước–sau.
+
+## Kiểm tra lại r2
+Ba mục tiêu, ba câu hỏi và thủ tục giữ nguyên. Câu 2 thêm phản hồi: thiếu căn cứ kết luận không làm khó khăn kém quan trọng hay buộc đợi mới nhờ giúp. Đây không phải một câu hỏi sàng lọc mới.
+Nhóm A của SVG giúp Hiểu bối cảnh; nhóm B minh họa thủ tục Vận dụng. Bảng dữ kiện vẫn để đọc tình huống, mẫu một dòng chỉ hướng dẫn bước 1, phiếu để người đọc làm, phản hồi dùng tiêu chí và chấp nhận nhiều phương án. Không chép thêm phiếu mẫu vào đáp án.
+Tự đối chiếu lại các câu hỏi–phản hồi với bài r2: đúng hai tuổi/đơn vị; giải thích giới hạn và một dữ kiện thiếu; hành động có điều kiện, hỗ trợ/điều chỉnh. Không chấm sức khỏe, thu thông tin riêng hoặc đo kết quả học thực tế.
