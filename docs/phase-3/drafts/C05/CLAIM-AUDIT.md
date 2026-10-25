@@ -1,4 +1,4 @@
-# C05 — Kiểm tra nhận định c05-draft-r1
+# C05 — Kiểm tra nhận định c05-draft-r2
 
 25/10/2026; tự đối chiếu bằng trợ lý, chưa có reviewer chuyên môn. Tài liệu và mức truy cập: [REFERENCES](REFERENCES.md).
 
@@ -18,3 +18,9 @@
 
 Ranh giới: nguồn y học chỉ cho khuyến nghị nhóm tuổi, nguồn giáo dục cho kỹ thuật học, nguồn tổng quan stress cho định nghĩa/phạm vi hỗ trợ, NIMH cho mở lời. Các bảng, hình, hoạt động và đáp án là diễn giải mới, không protocol đã thử nghiệm.
 Không lời trích nguyên văn, DOI hoặc trang bịa; mọi nhận định chuyên môn trong bài có tác giả–năm tại đoạn liên quan.
+
+## Cập nhật r2
+- A02: ví dụ ôn cách quãng nay chỉ rõ cùng dạng phương trình được quay lại ở hai buổi. Đối chiếu lại S05, mục9/9.1, pp.35–36; đây là ví dụ sư phạm, không protocol tối ưu/số ngày phải tuân thủ. A03/tự kiểm và các giới hạn điểm số giữ nguyên.
+- A04: đối chiếu lại S06, Consensus Recommendations p.785. Hai nhóm tuổi/đơn vị giữ nguyên. Câu không dùng giờ ngủ để trách chăm chỉ là nguyên tắc biên tập; không kết luận sức khỏe cá nhân từ khuyến nghị quần thể.
+- P01/P02: bảng chỉ phân tích điều kiện; hình cho cấu phần; một dòng mẫu; hoạt động điền ba phần; phản hồi chuyển sang tiêu chí, không chép kế hoạch mẫu. Không thêm bằng chứng hiệu quả của phiếu.
+Không đổi DOI/nguồn, không bổ sung lý thuyết stress, dữ liệu cá nhân hoặc lời hứa điều trị. r1 giữ trong Git tại 7eeed20903e2065fce05d22f81a85d3a3bee0186.

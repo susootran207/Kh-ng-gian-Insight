@@ -1,6 +1,6 @@
 # Khi mùa thi đến gần
 
-> **Bản nháp để duyệt · KGNT-C05 · c05-draft-r1 · 25/10/2026.**
+> **Bản nháp để duyệt · KGNT-C05 · c05-draft-r2 · 25/10/2026.**
 > Chưa được duyệt biên tập hoặc rà soát chuyên môn; không có quyền xuất bản.
 
 Minh có bài thi Toán vào thứ Tư và Lịch sử vào thứ Sáu. Tối nay, Minh còn rửa bát và trông em đến khi người chăm sóc đi làm về. Bạn đã mở sách nhưng chưa biết phần nào cần ưu tiên. Hai tối vừa rồi, Minh ngủ ít hơn thường lệ để học thêm.
@@ -23,23 +23,22 @@ Giả sử Hà học cùng lớp Minh, thi cùng ngày và có sẵn một buổ
 
 Nếu cả hai dùng một lịch giống hệt, những ô dành cho việc học có thể vừa với Hà nhưng chồng lên việc nhà của Minh. Điều cần sửa lúc ấy là tính khả thi của kế hoạch, không phải vội kết luận Minh ít nỗ lực.
 
-Một cách nhìn tình huống:
+Bảng này giúp đọc **điều kiện của Minh**, chưa phải kế hoạch cần điền:
 
-| Điều cần biết | Với Minh, cần làm rõ gì? |
+| Dữ kiện | Vì sao cần tính đến? |
 |---|---|
-| Yêu cầu | Phạm vi ôn Toán và Lịch sử; phần nào còn chưa hiểu? |
-| Điều kiện | Có sách và vở nào; lúc nào phải trông em; có chỗ học hoặc người cùng xem bài không? |
-| Ưu tiên | Việc học cụ thể nào nên làm trước, dựa vào lịch thi và chỗ đang vướng? |
-| Hỗ trợ | Có thể hỏi thầy cô về phạm vi bài, nhờ bạn giải thích hoặc trao đổi việc nhà với người lớn nào? |
+| Toán thi trước Lịch sử | Thứ tự chuẩn bị cần xét lịch thi, cùng phần bài đang vướng. |
+| Minh phải rửa bát và trông em | Không thể coi cả buổi tối là thời gian học sẵn có. |
+| Chưa rõ phần nào cần ưu tiên | Còn thiếu thông tin để chọn việc; không chỉ thiếu một ô giờ. |
 
-Bạn không cần giải quyết hết các cột ngay. Một ô ghi “cần hỏi lại” có thể giúp nhận ra thông tin còn thiếu.
+Người có thể giúp cần gắn với việc cụ thể: giáo viên làm rõ phạm vi ôn, bạn học cùng xem một chỗ vướng, hoặc người lớn cùng bàn việc nhà. Chưa có hỗ trợ ngay cũng là một điều kiện cần ghi nhận.
 
 ## Chọn cách học, không chỉ chọn giờ học
 
 Hai hướng có căn cứ trong tổng quan của Dunlosky và cộng sự (2013) là **tự kiểm tra kiến thức** và **ôn cách quãng**:
 
 - **Tự kiểm tra:** thử nhớ hoặc trả lời trước khi xem lại, rồi đối chiếu để biết chỗ cần sửa. Ví dụ của bài này: Minh che lời giải một bài đã học, thử làm lại và đánh dấu bước chưa hiểu.
-- **Ôn cách quãng:** quay lại nội dung ở những lần học tách nhau, thay vì dồn tất cả vào một lần. Ví dụ: sau buổi hôm nay, Minh ghi phần cần xem lại vào một buổi còn có thể sắp xếp trước thi.
+- **Ôn cách quãng:** quay lại **cùng một nội dung** ở những lần học tách nhau, thay vì dồn vào một lần. Ví dụ giả định: buổi này Minh xem lại dạng phương trình đang vướng; ở một buổi khác trước thi, bạn quay lại chính dạng đó để thử làm và kiểm chỗ còn sai. Đây là hai lần ôn cùng nội dung, không chỉ chia hai môn cho hai buổi. Khoảng cách giữa các buổi không phải số ngày bắt buộc.
 
 Hai hướng này được xếp mức hữu ích cao trong tổng quan; không có nghĩa chúng bảo đảm điểm số hoặc thay được việc giảng giải phần chưa hiểu (Dunlosky và cộng sự, 2013, mục 8–9 và Bảng 4). Các ví dụ của Minh là cách áp dụng do bài viết biên soạn, không phải lịch được thử nghiệm riêng.
 
@@ -49,7 +48,7 @@ Nếu chỉ còn một buổi trước thi, không cần cố tạo ra một “
 
 Trong phiếu sắp làm, khoảng nghỉ là chỗ có thể điều chỉnh: Minh có thể rời bàn, uống nước hoặc ngồi yên một lúc theo điều kiện của mình. Đây là gợi ý tổ chức buổi học, không phải quy định rằng cứ học một số phút nhất định thì phải nghỉ đúng một số phút khác.
 
-Giấc ngủ cũng cần được tính khi xếp buổi tối. Khuyến nghị AASM là **9–12 giờ mỗi 24 giờ cho trẻ 6–12 tuổi** và **8–10 giờ cho tuổi 13–18**, thường xuyên, để hỗ trợ sức khỏe (Paruthi và cộng sự, 2016). Đây là khoảng theo nhóm tuổi, không là ngưỡng tự chẩn đoán hay lời hứa “ngủ đủ sẽ thi tốt”. Không nên áp cùng một khoảng cho mọi học sinh THCS–THPT.
+Giấc ngủ cũng cần được tính khi xếp buổi tối. Khuyến nghị AASM là **9–12 giờ mỗi 24 giờ cho trẻ 6–12 tuổi** và **8–10 giờ cho tuổi 13–18**, thường xuyên, để hỗ trợ sức khỏe (Paruthi và cộng sự, 2016). Đây là khoảng theo nhóm tuổi, không là ngưỡng tự chẩn đoán hay lời hứa “ngủ đủ sẽ thi tốt”. Không nên áp cùng một khoảng cho mọi học sinh THCS–THPT. Các con số này không dùng để chấm mức độ chăm chỉ hoặc trách móc học sinh; chúng cũng không đủ để kết luận một cá nhân có hay không có vấn đề sức khỏe.
 
 Nếu việc học và việc nhà đang khiến Minh không có đủ cơ hội ngủ, chỉ thêm lời nhắc “ngủ sớm đi” chưa giải quyết được lịch tối ấy. Một phần kế hoạch có thể là trao đổi với người lớn về việc cần chia sẻ hoặc với thầy cô về khó khăn đang gặp.
 
@@ -63,13 +62,9 @@ Phiếu dưới đây giúp nhìn lại một buổi học cụ thể. Nó khôn
 
 **Mô tả tương đương bằng chữ:** Phiếu có năm vùng: xác định yêu cầu; ghi điều kiện và nguồn lực; chọn việc ưu tiên cùng cách học; dành chỗ cho nghỉ và giấc ngủ; ghi điều sẽ sửa hoặc cần nhờ ai. Vùng cuối nhắc có thể quay lại sửa các vùng trước. Hình không thể hiện dữ liệu nghiên cứu hoặc quan hệ nhân quả.
 
-### Thử điền một phần cho Minh
+### Một dòng mẫu, không phải đáp án cả phiếu
 
-Ví dụ một việc ưu tiên là: “Xem lại dạng Toán đã học nhưng còn sai một bước.” Minh có thể thử làm một bài, đối chiếu lời giải và ghi câu hỏi để hỏi giáo viên. Phạm vi nhỏ này cụ thể hơn “học xong cả môn Toán”.
-
-Phần nghỉ có thể ghi: “Nghỉ sau lượt làm và xem lại bài; nếu đã quá mệt thì dừng để xem lại kế hoạch.” Phần điều chỉnh có thể ghi: “Nếu phải trông em lâu hơn, giữ một bài, chuyển phần luyện thêm và nhờ giải thích bước vướng vào hôm sau.”
-
-Đây chỉ là **một phương án**. Nếu Minh chưa biết thi phần nào, việc ưu tiên đầu tiên có thể là ghi câu hỏi về phạm vi ôn, không phải tự đoán rồi làm càng nhiều càng tốt.
+“Xem lại một bài Toán còn sai một bước; thử làm rồi đối chiếu” là một việc cụ thể hơn “học xong cả môn Toán”. Nếu chưa rõ phạm vi, Minh có thể ưu tiên ghi câu hỏi cho giáo viên trước. Phần còn lại của phiếu dành cho bạn thử ở hoạt động bên dưới.
 
 ### Khi kế hoạch không khớp thực tế
 
@@ -81,17 +76,15 @@ Trong tình huống ấy, có thể giảm phần việc, đổi thứ tự ho�
 
 Bạn có thể dùng hoàn toàn dữ kiện giả định, không cần kể lịch học hay hoàn cảnh riêng; cũng có thể bỏ qua hoạt động.
 
-Dùng mẫu dưới đây theo ba bước: **chọn một việc ưu tiên → ghi cách học và chỗ nghỉ → thêm điều chỉnh hoặc câu hỏi cần hỗ trợ**.
+Dựa vào tình huống và sơ đồ, thử ba bước: **chọn việc → dành chỗ học và nghỉ → dự kiến cách sửa hoặc nhờ hỗ trợ**.
 
-| Vùng của phiếu | Bạn sẽ ghi gì cho Minh? |
+| Phần bạn cần điền | Kế hoạch cho Minh |
 |---|---|
-| Yêu cầu và điều còn thiếu | Hai bài thi; phạm vi nào cần hỏi lại? |
-| Điều kiện và nguồn lực | Việc nhà, sách/vở, người có thể hỏi… |
-| Một việc ưu tiên và cách học | … |
-| Phương án nghỉ, bảo vệ thời gian ngủ | … |
-| Nếu hoàn cảnh thay đổi | Bớt/đổi việc gì, hoặc nhờ ai điều gì? |
+| Một việc ưu tiên và cách thực hiện | … |
+| Phương án nghỉ, tính cả thời gian cần ngủ | … |
+| Khi thời gian trông em kéo dài | Điều chỉnh việc gì, hoặc hỏi ai về điều gì? … |
 
-Bạn có thể chọn Toán vì bài thi đến trước, hoặc chọn hỏi lại phạm vi vì chưa đủ thông tin. Điều quan trọng là giải thích lựa chọn và không đặt nhiệm vụ đòi hỏi những điều kiện Minh chưa có.
+Ở mỗi lựa chọn, bạn có thể thêm một câu giải thích vì sao nó phù hợp với điều kiện của Minh. Không cần lập lịch phút hoặc dùng hết mọi thời gian còn trống.
 
 ## Tự kiểm tra
 
@@ -100,7 +93,7 @@ Bạn có thể chọn Toán vì bài thi đến trước, hoặc chọn hỏi l
 **2. Vì sao Minh và Hà có cùng lịch thi nhưng có thể cần kế hoạch khác nhau?**  
 Dựa trên điều kiện của hai nhân vật, không suy đoán ai chăm chỉ hay thông minh hơn.
 
-**3. Điền phiếu cho Minh:** một việc ưu tiên, cách thực hiện, phương án nghỉ và ít nhất một cách điều chỉnh hoặc nhờ hỗ trợ. Nếu buổi trông em kéo dài, bạn sửa gì?
+**3. Xem lại phiếu bạn vừa điền:** việc ưu tiên đã cụ thể chưa, chỗ nghỉ ở đâu và nếu phải trông em lâu hơn thì có thể sửa hoặc nhờ hỗ trợ thế nào? Nếu chưa làm hoạt động, bạn có thể dùng mẫu ở trên để thử ngay.
 
 ### Gợi ý phản hồi
 
@@ -108,7 +101,7 @@ Dựa trên điều kiện của hai nhân vật, không suy đoán ai chăm ch�
 
 **Câu 2:** Hà có buổi tối yên tĩnh; Minh còn thời gian phải chăm em và có điều kiện học khác. Vì vậy, số việc và cách sắp xếp có thể khác, dù hạn thi giống nhau. Có thể diễn đạt bằng lời riêng nếu gắn với dữ kiện; không dùng khác biệt ấy để kết luận về giá trị hay năng lực của hai bạn.
 
-**Câu 3:** Một phương án là chọn một bài Toán còn vướng, thử làm rồi xem phản hồi, dành chỗ nghỉ và không kéo dài việc luyện thêm sang thời gian cần ngủ. Nếu phải chăm em lâu hơn, giảm số bài và ghi câu hỏi để hỏi giáo viên. Phương án khác vẫn phù hợp khi cụ thể, khả thi trong dữ kiện và có cách sửa. Không có một thời khóa biểu duy nhất là đáp án đúng.
+**Câu 3:** Bạn có thể tự đối chiếu bốn tiêu chí: việc làm rõ ràng; phù hợp điều kiện; có chỗ nghỉ và tính thời gian ngủ; có cách sửa hoặc tìm trợ giúp. Chẳng hạn, “ôn hết mọi thứ dù phải trông em lâu hơn” chưa có phương án điều chỉnh. Bạn có thể sửa bằng cách bớt việc, đổi thứ tự hoặc ghi điều cần nhờ. Có nhiều kế hoạch đáp ứng các tiêu chí; hoàn cảnh ngoài khả năng kiểm soát không phải lỗi của Minh.
 
 ## Khi cần có người cùng bàn cách hỗ trợ
 
