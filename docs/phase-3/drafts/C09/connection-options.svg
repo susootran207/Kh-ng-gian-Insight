@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="636" viewBox="0 0 320 636" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Nhìn hoàn cảnh, nghe lời kể</title>
+<desc id="desc">Hai tình huống ở cùng hay ngồi riêng không tự cho biết cô đơn; thẻ lựa chọn giữ lời nhân vật kể, một bước kết nối khả thi và người hỗ trợ nếu cần.</desc>
+<rect width="320" height="636" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Nhìn hoàn cảnh, nghe</text>
+<text x="20" y="67" font-size="22" font-weight="700">lời kể</text>
+<rect x="16" y="114" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">LÂM · Ở CÙNG NHÓM</text>
+<text x="32" y="170" font-size="16">Kể rằng thiếu người để chia sẻ</text>
+<text x="32" y="195" font-size="16">điều mình quan tâm.</text>
+<rect x="16" y="243" width="288" height="109" rx="6" fill="#e9e2ee" stroke="#616656"/>
+<text x="32" y="272" font-size="18" font-weight="700">CHI · NGỒI RIÊNG</text>
+<text x="32" y="299" font-size="16">Kể rằng muốn đọc sách yên</text>
+<text x="32" y="324" font-size="16">tĩnh. Không suy mọi lúc khác.</text>
+<rect x="16" y="372" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="401" font-size="18" font-weight="700">MỘT LỰA CHỌN</text>
+<text x="32" y="428" font-size="16">Chọn việc kết nối vừa điều</text>
+<text x="32" y="453" font-size="16">kiện; có thể nhờ giáo viên tìm</text>
+<text x="32" y="478" font-size="16">cách tham gia.</text>
+<text x="20" y="536" font-size="16">Không đếm bạn để đo cô đơn.</text>
+<text x="20" y="561" font-size="16">Chưa phù hợp? Có thể đổi cách</text>
+<text x="20" y="586" font-size="16">hoặc tìm hỗ trợ.</text>
+</g>
+</svg>

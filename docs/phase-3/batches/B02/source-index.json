@@ -1,0 +1,189 @@
+{
+  "batch": "B02",
+  "checked": "2026-10-25",
+  "sources": {
+    "NHS26": {
+      "id": "NHS26",
+      "apa7": "National Health Service. (2026, August 5). *Anxiety in children.* https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-in-children/",
+      "accessURL": "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-in-children/",
+      "type": "Hướng dẫn chính thức; HTML hiện hành, ngày last reviewed",
+      "population": "Trẻ/người trẻ; hướng dẫn cho người chăm sóc tại Anh, không mẫu thực nghiệm",
+      "location": "What makes children anxious?; When is anxiety a problem for children?; How to help an anxious child; When should we get help?",
+      "support": "Lo trước thay đổi/kiểm tra có thể gặp; chú ý ảnh hưởng đời sống; lắng nghe, cùng giải quyết, không ép khi chưa trao đổi.",
+      "limits": "Không hiệu quả thử nghiệm; không xác nhận lựa chọn cụ thể của Hạnh hoặc dịch vụ Việt Nam.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "note": ""
+    },
+    "NHS23A": {
+      "id": "NHS23A",
+      "apa7": "National Health Service. (2023, December 15). *Anxiety disorders in children.* https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/",
+      "accessURL": "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/",
+      "type": "Hướng dẫn chính thức; HTML, ngày last reviewed",
+      "population": "Trẻ/người trẻ, không mẫu hoặc khoảng tuổi nghiên cứu cụ thể",
+      "location": "Introduction; Symptoms of anxiety in children and young people; Where to get help for anxiety",
+      "support": "Các biểu hiện lo nghĩ, khó tập trung, khó chịu bụng có thể gặp; cần xét đời sống khi tìm đánh giá.",
+      "limits": "Danh sách không phải tiêu chuẩn tự chẩn đoán; không xác định nguyên nhân triệu chứng; không dùng nội dung thuốc/CBT trong bài.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "note": ""
+    },
+    "NIMH24": {
+      "id": "NIMH24",
+      "apa7": "National Institute of Mental Health. (2024). *Children and mental health: Is this just a stage?* https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+      "accessURL": "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+      "type": "Hướng dẫn cơ quan chuyên môn Mỹ; NIH Publication No. 24-MH-8085, revised 2024",
+      "population": "Trẻ/người trẻ, hướng dẫn cho gia đình; không nghiên cứu một mẫu",
+      "location": "When should I seek help for my child’s mental health?; How is children’s mental health assessed?; Where can I get help?",
+      "support": "Khổ sở, ảnh hưởng chức năng, khó khăn kéo dài là lý do tìm hỗ trợ; đánh giá đa nguồn thông tin.",
+      "limits": "Không áp dịch vụ, luật hoặc đường dây Mỹ vào Việt Nam; không yêu cầu chờ đủ số tuần mới hỏi giúp.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "note": ""
+    },
+    "NEFF03": {
+      "id": "NEFF03",
+      "apa7": "Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself. *Self and Identity, 2*(2), 85–101. https://doi.org/10.1080/15298860309032",
+      "accessURL": "https://self-compassion.org/wp-content/uploads/publications/SCtheoryarticle.pdf",
+      "type": "Bài khái niệm gốc; PDF tác giả, 17 trang, trang in 85–101",
+      "population": "Không mẫu can thiệp; không bằng chứng hiệu quả riêng ở THCS–THPT",
+      "location": "Abstract tr.85; What Is Self-Compassion? tr.86–89; tr.87 về không nuông chiều/phủ nhận điều cần sửa",
+      "support": "Cách khái niệm hóa ba mặt: self-kindness, common humanity, mindfulness; không đồng nghĩa bỏ trách nhiệm.",
+      "limits": "Không thử nghiệm mẫu câu của bài; không nhận tác giả là nguồn gốc đầu tiên của lòng trắc ẩn.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "note": "PDF in DOI 10.1080/15298860390129863; metadata nhà xuất bản được lập chỉ mục cho đúng tác giả/tên/2(2)/85–101 dùng 10.1080/15298860309032. DOI trong APA theo metadata đó; resolver trả 403, không suy nguyên nhân chênh lệch hoặc nhận đã đối chiếu toàn văn nhà xuất bản. Trước công bố nên xác nhận lại khác biệt metadata. Không nhầm bài thang đo có DOI khác."
+    },
+    "MARSH18": {
+      "id": "MARSH18",
+      "apa7": "Marsh, I. C., Chan, S. W. Y., & MacBeth, A. (2018). Self-compassion and psychological distress in adolescents—a meta-analysis. *Mindfulness, 9*, 1011–1027. https://doi.org/10.1007/s12671-017-0850-7",
+      "accessURL": "https://link.springer.com/article/10.1007/s12671-017-0850-7",
+      "type": "Phân tích gộp; toàn văn HTML open access",
+      "population": "Thanh thiếu niên 10–19 tuổi; 19 nghiên cứu trong tổng hợp",
+      "location": "Abstract; Discussion; Limitations",
+      "support": "Liên hệ nghịch giữa tự trắc ẩn và khó khăn tâm lý.",
+      "limits": "Phần lớn tương quan/cắt ngang; dị biệt cao, nguy cơ sai lệch; không chứng minh bài viết lại có hiệu quả.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "note": "Đăng online 2017; APA dùng năm tập 9 (2018), không nhầm năm trong DOI."
+    },
+    "COMPAS17": {
+      "id": "COMPAS17",
+      "apa7": "Compas, B. E., Jaser, S. S., Bettis, A. H., Watson, K. H., Gruhn, M. A., Dunbar, J. P., Williams, E., & Thigpen, J. C. (2017). Coping, emotion regulation, and psychopathology in childhood and adolescence: A meta-analysis and narrative review. *Psychological Bulletin, 143*(9), 939–991. https://doi.org/10.1037/bul0000110",
+      "accessURL": "https://cdn.vanderbilt.edu/vu-my/wp-content/uploads/sites/2804/2019/04/14195744/Compas-et-al-2017-Psych-Bulletin.pdf",
+      "type": "Phân tích gộp và tổng quan tường thuật; PDF đại học, 53 trang",
+      "population": "Trẻ và vị thành niên; độ tuổi, đo lường, bối cảnh khác nhau giữa nghiên cứu; không đại diện riêng học sinh Việt Nam",
+      "location": "Abstract tr.939; định nghĩa và Table 1 tr.940–941; Discussion tr.970–972",
+      "support": "Điều tiết cảm xúc có nhiều cách định nghĩa/chiến lược; không chỉ che giấu cảm xúc; bằng chứng chủ yếu cắt ngang.",
+      "limits": "Tương quan không chứng minh hiệu quả tạm dừng trong tình huống Dũng; các định nghĩa trước đó được đọc qua tổng quan, không giả đã đọc công trình gốc.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "note": "Không dùng Gross (1998) làm nguồn đã đọc; bản thử truy cập chỉ trả trang robot."
+    },
+    "NHS23G": {
+      "id": "NHS23G",
+      "apa7": "National Health Service. (2023, April 24). *Helping your child with anger issues.* https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/",
+      "accessURL": "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/",
+      "type": "Hướng dẫn thực hành NHS; HTML",
+      "population": "Trẻ/người trẻ; hướng dẫn cha mẹ, không mẫu thử nghiệm",
+      "location": "Help your child spot the signs of anger; Anger tips for your child; When to get help",
+      "support": "Tín hiệu có thể nhận thấy; cùng tìm cách ứng phó, tạm rời và nói với người đáng tin.",
+      "limits": "Không chẩn đoán từ tín hiệu; không liều thời gian hoặc kỹ thuật đảm bảo hết giận.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "note": "Last reviewed 24/4/2023; trang ghi next review due 24/4/2026, đã qua ngày dự kiến vào lúc kiểm. Không gọi là đã cập nhật 2026; cần rà lại trước xuất bản."
+    },
+    "LOADES20": {
+      "id": "LOADES20",
+      "apa7": "Loades, M. E., Chatburn, E., Higson-Sweeney, N., Reynolds, S., Shafran, R., Brigden, A., Linney, C., McManus, M. N., Borwick, C., & Crawley, E. (2020). Rapid systematic review: The impact of social isolation and loneliness on the mental health of children and adolescents in the context of COVID-19. *Journal of the American Academy of Child & Adolescent Psychiatry, 59*(11), 1218–1239.e3. https://doi.org/10.1016/j.jaac.2020.05.009",
+      "accessURL": "https://research-information.bris.ac.uk/ws/files/239095275/JAACAP_revision_3_28.5.2020_complete.pdf",
+      "type": "Tổng quan hệ thống nhanh; accepted author manuscript, 39 trang PDF gồm bìa kho đại học",
+      "population": "Trẻ/người trẻ, tiêu chí tuổi trung bình <21 nên có mẫu người trẻ lớn hơn tuổi trung học; không đại diện riêng THCS–THPT",
+      "location": "Introduction PDF tr.5 (trang bản thảo 4); Discussion PDF tr.8; Strengths and limitations PDF tr.9; Implications PDF tr.10",
+      "support": "Cô đơn là khoảng cách cảm nhận giữa kết nối mong muốn và thực tế; ở riêng không nhất thiết cô đơn; chủ yếu bằng chứng quan sát.",
+      "limits": "Bối cảnh COVID-19; nhiều nghiên cứu trước đại dịch; tự báo cáo, yếu tố nhiễu và chiều quan hệ; không hứa tăng tiếp xúc hết cô đơn.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "note": "PMC/nhà xuất bản có hạn chế truy cập; đọc bản AAM Bristol thật. AAM ghi CC BY-NC-ND; chỉ diễn giải có dẫn, không sao chép hình/toàn văn hoặc dịch phát hành nguồn. APA theo bài xuất bản cuối."
+    },
+    "CDC24": {
+      "id": "CDC24",
+      "apa7": "Centers for Disease Control and Prevention. (2024, November 18). *School connectedness helps students thrive.* https://www.cdc.gov/youth-behavior/school-connectedness/index.html",
+      "accessURL": "https://www.cdc.gov/youth-behavior/school-connectedness/index.html",
+      "type": "Hướng dẫn/tổng hợp của cơ quan y tế; HTML",
+      "population": "Học sinh trong bối cảnh trường học Mỹ; không một mẫu thực nghiệm",
+      "location": "What to know; Why it’s important; What schools can do",
+      "support": "School connectedness gồm cảm nhận người lớn/bạn quan tâm, hỗ trợ, tôn trọng và thuộc về; vai trò nhà trường.",
+      "limits": "Không dùng phát biểu kết quả sức khỏe trong trang để khẳng định nhân quả; không chỉ số lượng bạn hoặc trách nhiệm riêng học sinh.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "note": ""
+    },
+    "JINDAL20": {
+      "id": "JINDAL20",
+      "apa7": "Jindal-Snape, D., Hannah, E. F. S., Cantali, D., Barlow, W., & MacGillivray, S. (2020). Systematic literature review of primary–secondary transitions: International research. *Review of Education, 8*(2), 526–566. https://doi.org/10.1002/rev3.3197",
+      "accessURL": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/rev3.3197",
+      "type": "Tổng quan hệ thống; chỉ abstract và metadata nhà xuất bản",
+      "population": "Chuyển tiểu học lên trung học ở nghiên cứu quốc tế; không suy tuổi cụ thể ngoài abstract hoặc khái quát mọi lần chuyển THPT",
+      "location": "Abstract (không số trang toàn văn đã kiểm)",
+      "support": "Quan hệ với giáo viên/bạn là trọng tâm trải nghiệm; chưa kết luận chắc nguyên nhân hoặc duy trì tác động theo thời gian.",
+      "limits": "Chưa đọc phương pháp/kết quả toàn văn. Chỉ dùng hai nhận xét hẹp có ngay trong Abstract; mở rộng cần truy cập thêm.",
+      "access": "abstract_only",
+      "checked": "2026-10-25",
+      "note": "Đường /doi/full chuyển sang /doi/abs; không gọi toàn văn hoặc quality appraisal hoàn chỉnh. 96 nghiên cứu giai đoạn 2008–2018 trong abstract, không đưa con số vào bài để tạo thẩm quyền."
+    },
+    "YOUNG": {
+      "id": "YOUNG",
+      "apa7": "YoungMinds. (n.d.). *Problems at school.* https://www.youngminds.org.uk/young-person/coping-with-life/problems-at-school/",
+      "accessURL": "https://www.youngminds.org.uk/young-person/coping-with-life/problems-at-school/",
+      "type": "Hướng dẫn thực hành tổ chức sức khỏe tâm thần người trẻ; HTML, không xác minh năm",
+      "population": "Người trẻ ở Anh; không mẫu nghiên cứu hoặc thử nghiệm",
+      "location": "Coping with school transitions > Moving to a new school or secondary school",
+      "support": "Làm quen đường đi, quy định, quan hệ; chuẩn bị thông tin và hỏi hỗ trợ; dành thời gian cho tình bạn.",
+      "limits": "Không bằng chứng hiệu quả mẫu câu; không mặc định mọi trường có buddy, dịch vụ hoặc quy định Anh.",
+      "access": "full_text_relevant_sections",
+      "checked": "2026-10-25",
+      "note": ""
+    }
+  },
+  "articleSourceIds": {
+    "C02": [
+      "NHS26",
+      "NHS23A",
+      "NIMH24"
+    ],
+    "C03": [
+      "MARSH18",
+      "NEFF03",
+      "NIMH24"
+    ],
+    "C04": [
+      "COMPAS17",
+      "NHS23G",
+      "NIMH24"
+    ],
+    "C09": [
+      "CDC24",
+      "LOADES20",
+      "NIMH24"
+    ],
+    "C23": [
+      "JINDAL20",
+      "YOUNG"
+    ]
+  },
+  "excludedAttempts": [
+    {
+      "source": "Creswell et al. 2014 clinical review",
+      "access": "BMJ 403; Reading repository access denied; PubMed footer only",
+      "used": false,
+      "reason": "Không đủ phần liên quan để dùng; claim C02 thực dùng đã có hướng dẫn NHS/NIMH. Không phải nguồn thiết yếu còn thiếu."
+    },
+    {
+      "source": "Gross 1998 original review PDF",
+      "access": "robot page",
+      "used": false,
+      "reason": "Không nhận đã đọc; Compas 2017 được ghi rõ nguồn thứ cấp cho định nghĩa."
+    }
+  ]
+}
