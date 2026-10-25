@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="1104" viewBox="0 0 320 1104" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Năm chiều, nhiều mức biểu hiện</title>
+<desc id="desc">Năm dải liên tục có nhãn Big Five, không có điểm, vạch chuẩn hoặc vị trí cá nhân; mỗi chiều là một cách mô tả, không một nhóm người.</desc>
+<rect width="320" height="1104" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Năm chiều, nhiều mức</text>
+<text x="20" y="67" font-size="22" font-weight="700">biểu hiện</text>
+<rect x="16" y="114" width="288" height="146" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">EXTRAVERSION</text>
+<text x="32" y="170" font-size="16">Hướng ngoại</text>
+<rect x="32" y="217" width="248" height="2" fill="#616656"/><text x="32" y="244" font-size="16">Ít biểu hiện hơn</text>
+<text x="202" y="244" font-size="16">Nhiều hơn</text>
+<rect x="16" y="280" width="288" height="146" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="309" font-size="18" font-weight="700">AGREEABLENESS</text>
+<text x="32" y="336" font-size="16">Hòa hợp</text>
+<rect x="32" y="383" width="248" height="2" fill="#616656"/><text x="32" y="410" font-size="16">Ít biểu hiện hơn</text>
+<text x="202" y="410" font-size="16">Nhiều hơn</text>
+<rect x="16" y="446" width="288" height="146" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="475" font-size="18" font-weight="700">CONSCIENTIOUSNESS</text>
+<text x="32" y="502" font-size="16">Tận tâm</text>
+<rect x="32" y="549" width="248" height="2" fill="#616656"/><text x="32" y="576" font-size="16">Ít biểu hiện hơn</text>
+<text x="202" y="576" font-size="16">Nhiều hơn</text>
+<rect x="16" y="612" width="288" height="171" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="641" font-size="18" font-weight="700">NEUROTICISM</text>
+<text x="32" y="668" font-size="16">Dễ trải nghiệm cảm xúc tiêu</text>
+<text x="32" y="693" font-size="16">cực</text>
+<rect x="32" y="740" width="248" height="2" fill="#616656"/><text x="32" y="767" font-size="16">Ít biểu hiện hơn</text>
+<text x="202" y="767" font-size="16">Nhiều hơn</text>
+<rect x="16" y="803" width="288" height="146" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="832" font-size="18" font-weight="700">OPENNESS</text>
+<text x="32" y="859" font-size="16">Cởi mở với trải nghiệm</text>
+<rect x="32" y="906" width="248" height="2" fill="#616656"/><text x="32" y="933" font-size="16">Ít biểu hiện hơn</text>
+<text x="202" y="933" font-size="16">Nhiều hơn</text>
+<text x="20" y="979" font-size="16">Không có điểm/vị trí cá nhân hoặc</text>
+<text x="20" y="1004" font-size="16">ngưỡng. Năm chiều không phải</text>
+<text x="20" y="1029" font-size="16">năm loại người; không cộng thành</text>
+<text x="20" y="1054" font-size="16">“người tốt”.</text>
+</g>
+</svg>
