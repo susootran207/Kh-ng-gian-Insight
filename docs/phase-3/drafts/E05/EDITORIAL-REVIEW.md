@@ -1,3 +1,34 @@
+# E05 — Hoàn thiện e05-draft-r2
+
+25/10/2026. Chỉnh **chính PR #9**, nhánh `phase-3-2b-4-e05-draft`. R1 giữ tại [0f0fc7f2cfc5bfa8134ec9c757cd4d53c3f0ae5b](https://github.com/susootran207/Kho-ng-gian-Insight/tree/0f0fc7f2cfc5bfa8134ec9c757cd4d53c3f0ae5b/docs/phase-3/drafts/E05); r2 nối tiếp, không rewrite lịch sử. Phần r1 bên dưới là hồ sơ lịch sử, không báo như mọi kiểm tra r1 đã chạy lại.
+
+## Trước–sau
+- Matching: trước giới thiệu tên matching/meshing rồi mô tả phân ngẫu nhiên/phép kiểm chung trong mạch chính; sau bắt đầu hai nhóm sở thích A/B, thử cả hai cách trong mỗi nhóm, lợi thế phải đổi giữa nhóm, rồi mới giới thiệu thuật ngữ. Phép đo phân nhóm, phân ngẫu nhiên, phép kiểm chung và tương tác chéo chuyển thành phần đọc sâu có hướng dẫn, không xóa kiến thức.
+- Tổng quan: trước chỉ nhắc khác tập/cách gộp; sau thêm tiêu chí chọn, cách đo và phương pháp tổng hợp có thể ảnh hưởng kết quả, nhưng chưa chứng minh nguyên nhân chênh cụ thể 2018/2024. Giữ bảng và lợi ích trung bình nhỏ dương cùng chất lượng/nhất quán/tương tác, không tuyệt đối hóa bằng chứng.
+- Hai nhiệm vụ: trước các phương án đã được gọi ví dụ; sau nói rõ nghe không là cách duy nhất cho phát âm và hình không là cách duy nhất cho bản đồ. Mẫu yêu cầu chọn theo điều kiện tiếp cận/thực tế; ví dụ trước hoạt động chỉ ghi mục tiêu, không cung cấp cả đáp án.
+- Phản hồi câu 2: từ lời có “phép kiểm tra chung” sang logic so kết quả trong mỗi nhóm và lợi thế đổi nhóm, cho phép ví dụ A/B hoặc lời riêng. Câu hỏi 1–3 và tiêu chí mở câu 3 giữ nguyên.
+- SVG: khối bằng chứng từ bốn dòng có thuật ngữ phép kiểm chung sang ba dòng: “So kết quả học của / các cách dạy trong mỗi nhóm, / không chỉ hỏi sở thích.” Giữ bốn khối, bố cục/màu/kích thước. Alt/desc/mô tả chữ cập nhật, phần chữ nêu cả logic lợi thế khác nhóm. Caption giữ nguồn/phạm vi cũ.
+
+## Nhận định–nguồn và các điểm pending
+Giữ bốn nguồn Pashler (2008), Aslaksen & Lorås (2018), Clinton-Lisell & Litzinger (2024), Dunlosky và cộng sự (2013). REFERENCES và thư mục cuối ARTICLE không đổi; không nguồn/DOI hoặc thông tin xác minh mới.
+R2 đọc lại PDF Pashler phần tr. 108–110, đặc biệt Interactions; HTML 2024 phần Potential moderators/The current study/Inclusion criteria. Đây là đối chiếu lại các mục đã dùng ở r1, không rà soát/tái phân tích mới. Q2/Q3/Q4 cập nhật trong CLAIM-AUDIT; các nhận định còn lại giữ căn cứ r1, không báo đã mở lại mọi nguồn.
+Không gán các yếu tố phương pháp luận là nguyên nhân đã chứng minh khác biệt 2018/2024. Giữ hạn chế áp dụng rộng, hiệu quả lâu dài và khái quát cho học sinh Việt Nam.
+Fallace vẫn abstract_only/pending_fulltext, không tra lại hoặc nâng xác minh; không lịch sử chi tiết trong ARTICLE. Chênh lệch g của 2024 vẫn chưa giải quyết theo hồ sơ r1; không chọn một số và không đưa g/p/CI hoặc biểu đồ vào ARTICLE/SVG.
+
+## Bloom và kiểm tra r2
+Nhớ giữ hai câu sở thích/hiệu quả. Hiểu dùng ví dụ trước thuật ngữ và phản hồi dựa logic. Vận dụng giữ hai nhiệm vụ, hành động có điều kiện tiếp cận, phản hồi đúng mục tiêu và điều chỉnh; nhiều phương án được chấp nhận. Không test VAK, dữ liệu riêng, chấm năng lực hoặc công kích người từng tin VAK; có quyền bỏ qua.
+Kiểm tự động r2 PASS: đủ bảy tệp; liên kết nội bộ; bốn cặp citation–references/DOI; ba câu hỏi/ba phản hồi; nhãn r2; hai nhiệm vụ/quyền bỏ qua/ranh giới tiếp cận; không số g trong bài hoặc hình; SVG XML/title/desc/bốn khối, không tài nguyên ngoài; alt/caption/mô tả và kích thước PNG. Kiểm thêm ví dụ đứng trước thuật ngữ, cả hai phương pháp trong mỗi nhóm, chi tiết thiết kế còn trong phần sâu, không khẳng định nguyên nhân chênh hai tổng quan; REFERENCES/thư mục cuối bài giữ nguyên. Kiểm chuỗi/cấu trúc không thay đọc nguồn, rà lập luận hoặc thử với học sinh.
+Đã render Inkscape mới 320px/640px và xem cả hai: chữ Việt, bốn khối/footer hiện đủ, không thấy cắt chữ. Có warning Pango/GTK/cache/profile read-only; PNG xuất thành công, giữ ngoài tệp repo. Màu chữ/nền giữ nguyên; tương phản tĩnh tính lại từ mã màu: 10,10 / 11,01 / 8,51 / 8,84:1 trên kem/giấy/sage/tím. Không chứng nhận accessibility.
+Chỉ sáu tệp E05 cần thay: ARTICLE, CLAIM-AUDIT, BLOOM-REVIEW, VISUAL-REVIEW, EDITORIAL-REVIEW và SVG. REFERENCES giữ nguyên; đối chiếu tree GitHub cuối ghi tại PR, không coi riêng thư mục cục bộ là bằng chứng phạm vi Git.
+
+## Chưa kiểm, chờ duyệt và điểm dừng
+Chưa reader/browser/screen reader, thiết bị vật lý, học sinh/giáo viên thử hoặc reviewer chuyên môn. Không chạy build/runtime/Playwright/Axe website vì không thay ứng dụng. Chưa quyền công bố asset cuối hoặc giải quyết các điểm pending nguồn.
+Cần người dùng duyệt mạch matching mới, mức chi tiết phần sâu, cách giải thích phương pháp luận, ví dụ/đáp án và SVG ngắn hơn. Chưa approved/expert_reviewed/published; không reviewer giả.
+Không sửa C01/C05/C17/website, không PR mới/merge/deploy/publish, không tổng kết 3.2 hay bắt đầu 3.3. Dừng tại PR #9 chờ nghiệm thu E05-r2.
+
+---
+
+## Hồ sơ lịch sử r1
 # E05 — Bàn giao e05-draft-r1
 
 25/10/2026; chỉ đợt 3.2B-4/KGNT-E05. Nhánh `phase-3-2b-4-e05-draft`, slug `phong-cach-hoc-tap`, collection extension, đối tượng THCS–THPT, chủ đề T09 theo ma trận.

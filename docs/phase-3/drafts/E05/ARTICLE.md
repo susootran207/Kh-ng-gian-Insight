@@ -1,6 +1,6 @@
 # Phong cách học tập: phân biệt sở thích với bằng chứng khoa học
 
-> **Bản nháp để duyệt · KGNT-E05 · e05-draft-r1 · 25/10/2026.**
+> **Bản nháp để duyệt · KGNT-E05 · e05-draft-r2 · 25/10/2026.**
 > Chưa được duyệt biên tập hoặc rà soát chuyên môn; chưa có quyền xuất bản.
 
 Huy thích những trang vở có hình và sơ đồ. Bạn nghĩ: “Mình là người học bằng hình ảnh, chắc chỉ học tốt khi được xem hình.” Tuần này, Huy vừa cần luyện phát âm một đoạn tiếng Anh, vừa phải đọc một bản đồ để tìm đường giữa hai địa điểm.
@@ -21,11 +21,11 @@ Vì vậy, câu của Huy có hai phần cần tách: **thích hình** và **ch�
 
 ## Ghép cách dạy theo “kiểu học” là một giả thuyết
 
-Giả sử có người đề nghị: “Bạn được xếp kiểu nhìn thì học qua hình; bạn được xếp kiểu nghe thì học qua âm thanh. Ghép đúng sẽ giúp mỗi nhóm đạt kết quả tốt hơn.” Trong nghiên cứu, đề nghị này được gọi là **giả thuyết ghép**, hay *matching/meshing hypothesis* (Pashler và cộng sự, 2008, tr. 108–109).
+Giả sử có hai nhóm: nhóm A nói thích xem hình, nhóm B nói thích nghe. Có người đề nghị dạy bằng hình cho A và bằng âm thanh cho B, vì cho rằng ghép như vậy sẽ giúp mỗi nhóm học tốt hơn. Đây là ví dụ giả định, chưa xác nhận hai nhóm là những kiểu học cố định.
 
-Cần phân biệt bốn việc: hỏi học sinh thích gì; dùng một cách đo để xếp nhóm; ghép cách dạy theo nhóm; kiểm tra điều đã học. Làm được các bước đầu không có nghĩa bước cuối đã tốt hơn.
+Muốn xem đề nghị ấy có đúng không, cần kiểm tra **cả hai cách dạy trong mỗi nhóm** rồi so kết quả học. Theo dự đoán đang xét, nhóm thích hình cần có lợi thế khi học bằng hình so với nghe; nhóm thích nghe cần có lợi thế ngược lại. Nếu một cách dạy tốt hơn cho cả hai nhóm, kết quả đó chưa cho thấy cần ghép riêng theo sở thích (Pashler và cộng sự, 2008, tr. 109–110).
 
-Để kiểm tra, không chỉ cho nhóm thích hình xem hình rồi hỏi “có thích không?”. Cần so sánh các cách dạy trong từng nhóm, phân người học ngẫu nhiên vào các cách dạy và dùng cùng một phép kiểm tra kết quả. Còn phải xem lợi thế của cách dạy có khác theo nhóm như dự đoán hay không (Pashler và cộng sự, 2008, tr. 109). Đây là yêu cầu nghiên cứu, không phải bài test bạn cần làm.
+Ý tưởng “ghép cách dạy phù hợp kiểu sẽ giúp học tốt hơn” được gọi là **giả thuyết ghép**, hay *matching/meshing hypothesis* (Pashler và cộng sự, 2008, tr. 108–109). Thích một cách học là điều cần phân biệt với việc đã học tốt hơn nhờ được ghép cách dạy. Phần “Tìm hiểu sâu hơn” trình bày các yêu cầu thiết kế nghiên cứu; bạn không cần làm một bài test kiểu học để đọc tiếp.
 
 ## Các tổng quan đã thấy gì?
 
@@ -38,7 +38,9 @@ Tổng quan năm 2008 kết luận bằng chứng khi ấy chưa đủ để áp
 
 Nguồn: Aslaksen & Lorås (2018), các mục “Scope”, “Tailoring Instruction” và “Concluding Remarks”; Clinton-Lisell & Litzinger (2024), “Results”, “Crossover interactions”, “Limitations and future directions”, “Conclusion”.
 
-Hai tổng quan không dùng cùng một tập nghiên cứu và cách tổng hợp. Không nên bỏ kết quả dương của năm 2024, cũng không nên từ đó hứa rằng ghép đúng kiểu chắc chắn có ích. Nguồn 2024 lưu ý các nghiên cứu chỉ diễn ra trong một phiên học, nên chưa xác định được hiệu quả dài hạn (Clinton-Lisell & Litzinger, 2024). Đây cũng không phải bằng chứng về riêng Huy hoặc mọi học sinh Việt Nam.
+Hai tổng quan không dùng cùng một tập nghiên cứu và cách tổng hợp. Tiêu chí chọn nghiên cứu, cách đo kết quả và phương pháp tổng hợp có thể ảnh hưởng kết quả; đó là những lý do phương pháp luận có thể góp phần làm kết luận khác nhau, **chưa phải nguyên nhân cụ thể đã được chứng minh cho chênh lệch giữa hai tổng quan này** (Aslaksen & Lorås, 2018, mục “Scope”; Clinton-Lisell & Litzinger, 2024, các mục “Potential moderators”, “Inclusion criteria”).
+
+Lợi ích trung bình nhỏ, dương chưa đủ để khuyến nghị ghép kiểu rộng rãi: còn cần xem chất lượng, mức nhất quán và bằng chứng lợi thế khác nhau giữa các nhóm. Nguồn 2024 cũng lưu ý các nghiên cứu chỉ diễn ra trong một phiên học, nên chưa xác định được hiệu quả dài hạn (Clinton-Lisell & Litzinger, 2024, các mục “Limitations and future directions”, “Conclusion”). Không nên bỏ kết quả dương, nhưng cũng không từ đó hứa ghép đúng kiểu chắc chắn có ích cho Huy hoặc mọi học sinh Việt Nam.
 
 ## Chọn theo việc cần làm
 
@@ -49,7 +51,7 @@ Với Huy, ta có thể bắt đầu từ câu hỏi: **Sau khi học, bạn ấ
 - Nếu cần phát âm, một phương án thử là nghe mẫu có thể tiếp cận, luyện nói và nhờ giáo viên phản hồi về chỗ cần sửa. Hình mô tả khẩu hình có thể đi kèm, nhưng việc thích hình chưa trả lời được Huy đã phát âm ra sao.
 - Nếu cần đọc bản đồ, một phương án thử là xem chú giải, lần theo tuyến đường rồi giải thích vì sao chọn đường ấy. Phản hồi có thể chỉ ra Huy đọc nhầm ký hiệu hay bỏ sót một đoạn.
 
-Đây là **ví dụ biên tập về yêu cầu nhiệm vụ**, không phải thí nghiệm chứng minh một phương pháp luôn tốt nhất. Cách làm còn cần phù hợp điều kiện tiếp cận và hướng dẫn thực tế của giáo viên.
+Đây là **ví dụ biên tập về yêu cầu nhiệm vụ**, không phải thí nghiệm chứng minh một phương pháp luôn tốt nhất. Nghe không phải lựa chọn duy nhất cho phát âm, cũng như hình ảnh không phải lựa chọn duy nhất để học đọc bản đồ. Có thể phối hợp hoặc điều chỉnh cách học theo điều kiện tiếp cận và hướng dẫn thực tế của giáo viên.
 
 **Một phản ví dụ:** Huy quyết định không nghe hoặc luyện nói trong bài phát âm chỉ vì nhãn “người học bằng hình”. Lựa chọn ấy chưa xem xét yêu cầu cần thực hiện. Có thể sửa bằng cách giữ hình làm hỗ trợ và tìm thêm cách luyện/nhận phản hồi phù hợp, thay vì dùng nhãn để loại bỏ lựa chọn.
 
@@ -61,17 +63,17 @@ Xem xét bằng chứng về ghép kiểu học không có nghĩa mọi người
 
 Các ví dụ của Huy không phải yêu cầu cho mọi học sinh. Nếu phương án nghe, nhìn hoặc thao tác không phù hợp, có thể cùng giáo viên tìm cách tiếp cận đáp ứng mục tiêu học. Bài không đánh giá nhu cầu cá nhân hay thay hướng dẫn hỗ trợ chuyên môn.
 
-![Bốn phần đọc một lời khẳng định: Huy thích xem hình; muốn kết luận ghép kiểu có ích cần so các cách dạy trong từng nhóm bằng phép kiểm chung; sở thích chưa đủ kết luận; chọn cách thử theo nhiệm vụ và xem phản hồi.](claim-to-practice.svg)
+![Bốn phần đọc một lời khẳng định: Huy thích xem hình; cần so kết quả các cách dạy trong mỗi nhóm, không chỉ hỏi thích gì; sở thích chưa đủ kết luận; chọn cách thử theo nhiệm vụ và xem phản hồi.](claim-to-practice.svg)
 
 *Infographic sư phạm tự biên soạn; tham khảo Pashler và cộng sự (2008), Aslaksen & Lorås (2018), Clinton-Lisell & Litzinger (2024). Không phải dữ liệu thực nghiệm, biểu đồ hiệu quả hoặc bài test kiểu học.*
 
-**Mô tả tương đương bằng chữ:** Hình có bốn khối theo thứ tự đọc: tuyên bố “Huy thích xem hình”; bằng chứng cần có nếu muốn khẳng định lợi ích ghép kiểu là so các cách dạy trong từng nhóm bằng phép kiểm tra chung; kết luận giới hạn rằng sở thích chưa đủ; cách vận dụng là chọn theo nhiệm vụ, thử và xem phản hồi. Các số chỉ thứ tự đọc, không biểu thị dữ liệu hay quan hệ nhân quả. Hình không phân loại Huy.
+**Mô tả tương đương bằng chữ:** Bốn khối lần lượt là tuyên bố “Huy thích xem hình”; yêu cầu so kết quả học của các cách dạy trong mỗi nhóm thay vì chỉ hỏi sở thích; kết luận giới hạn rằng sở thích chưa đủ; chọn cách thử theo nhiệm vụ và phản hồi. Muốn ủng hộ matching, lợi thế cần thay đổi giữa các nhóm theo dự đoán: nhóm thích hình có lợi hơn với hình so với nghe, nhóm thích nghe có lợi thế ngược lại. Nếu một cách tốt hơn cho tất cả thì chưa đủ. Chi tiết thiết kế, phép kiểm chung và tương tác chéo ở phần đọc sâu. Số trong hình chỉ thứ tự đọc, không dữ liệu hoặc nhân quả; hình không phân loại Huy.
 
 ## Thử với hai nhiệm vụ của Huy
 
 Bạn có thể bỏ qua hoạt động hoặc chỉ dùng tình huống giả định. Không cần làm test VAK, kể sở thích riêng hay phân loại năng lực của mình.
 
-Dùng mẫu: **xác định việc cần làm → chọn một cách thử → xem phản hồi → điều chỉnh**. Ví dụ, ghi mục tiêu “đọc đúng một ký hiệu và giải thích tuyến đường” cụ thể hơn “học Địa tốt”. Phần chọn cách thử và phản hồi dành cho bạn điền.
+Dùng mẫu: **xác định việc cần làm → chọn một cách thử → xem phản hồi → điều chỉnh**. Với mỗi nhiệm vụ, bạn điền điều Huy cần làm được, cách có thể thử trong điều kiện thực tế, rồi cách nhận phản hồi và sửa nếu cần. Ví dụ, mục tiêu “đọc đúng một ký hiệu” cụ thể hơn “học Địa tốt”; ví dụ này chưa chọn sẵn cách học hay đáp án cho cả phiếu.
 
 | Nhiệm vụ | Việc Huy cần làm được | Một cách thử phù hợp, có thể tiếp cận | Phản hồi/kiểm tra gì? Nếu chưa đạt thì sửa gì? |
 |---|---|---|---|
@@ -95,7 +97,7 @@ Giải thích bằng lời của bạn, không cần công thức thống kê.
 
 **Câu 1:** A kể điều người nói thích. B dự đoán kết quả tốt hơn khi được ghép cách dạy, nên cần bằng chứng về học tập. Nhận diện hai loại câu không có nghĩa đã xác nhận hoặc phủ nhận năng lực người nói.
 
-**Câu 2:** Thích không cho biết đã học được gì. Để xem xét matching cần so sánh kết quả giữa các cách dạy trong các nhóm kiểu học, dùng phép kiểm tra chung và xem lợi thế có khác theo nhóm không. Chỉ hỏi hài lòng hoặc thấy một cách tốt hơn cho mọi nhóm chưa đủ cho kết luận ghép kiểu. Có thể diễn đạt khác nếu giữ được lý do và nhu cầu so sánh; không cần tự tổ chức thí nghiệm.
+**Câu 2:** Thích không cho biết đã học được gì. Cần so kết quả học của cả hai cách dạy trong mỗi nhóm sở thích, rồi xem cách có lợi hơn có đổi giữa các nhóm như dự đoán không. Chỉ hỏi hài lòng, hoặc thấy một cách tốt hơn cho cả hai nhóm, chưa đủ cho kết luận cần ghép riêng. Có thể giải thích bằng ví dụ A/B hoặc lời khác có căn cứ; không cần dùng thuật ngữ thống kê hay tự tổ chức thí nghiệm.
 
 **Câu 3:** Có nhiều phương án. Mỗi hàng cần mục tiêu cụ thể, cách thử gắn nhiệm vụ và điều kiện tiếp cận, phản hồi kiểm đúng điều muốn học, cùng một cách điều chỉnh. Với phát âm, phản hồi cần liên quan cách phát âm; với bản đồ, cần kiểm việc đọc ký hiệu/tuyến đường. “Xem hình cho cả hai vì Huy là kiểu nhìn” chưa giải thích mục tiêu hoặc cách kiểm. Có thể sửa lựa chọn, bổ sung hỗ trợ hay hỏi giáo viên; không đánh giá Huy kém vì một lần chưa đạt.
 
@@ -105,9 +107,16 @@ Huy không cần bỏ hình ảnh. Bạn ấy có thể giữ điều mình thí
 
 ### Tìm hiểu sâu hơn — tùy chọn cho người muốn đọc thêm
 
-Trong kiểm định giả thuyết ghép, **tương tác chéo** (*crossover interaction*) là mẫu kết quả trong đó cách dạy có lợi hơn cho nhóm kiểu này khác với cách có lợi hơn cho nhóm kiểu kia. Ví dụ giả định không có số liệu: nhóm được xếp kiểu nhìn làm tốt hơn với cách trình bày hình so với nghe, còn nhóm được xếp kiểu nghe có lợi thế ngược lại. Nếu hình tốt hơn nghe cho cả hai nhóm, đó chưa phải bằng chứng cần ghép riêng theo kiểu (Pashler và cộng sự, 2008, tr. 109–110).
+Để kiểm định chặt chẽ, Pashler và cộng sự (2008, tr. 109–110) nêu các yêu cầu thiết kế:
 
-Ví dụ chỉ giải thích mẫu kết quả cần tìm, chưa phải bằng chứng tồn tại hai kiểu ổn định. Một nghiên cứu còn cần thiết kế, phép đo và phân tích phù hợp. Tổng quan 2024 phân biệt lợi ích trung bình với mẫu tương tác và nêu giới hạn chất lượng, nên một kết quả gộp dương không tự xác nhận toàn bộ giả thuyết (Clinton-Lisell & Litzinger, 2024, mục “Conclusion”).
+1. Dùng phép đo được mô tả rõ để phân người học thành các nhóm kiểu học đang xét. Việc phân nhóm không tự xác nhận nhãn là đúng hoặc ổn định.
+2. Trong **mỗi nhóm**, phân ngẫu nhiên người học vào các cách dạy, để có thể so sánh cả hai cách trong từng nhóm; không phải chỉ ghép một cách cho mỗi nhóm rồi hỏi mức yêu thích.
+3. Cho các nhóm/cách dạy làm cùng một phép kiểm tra kết quả học.
+4. Kiểm tra mẫu lợi thế khác nhau theo nhóm như giả thuyết dự đoán, bằng thiết kế và phân tích phù hợp.
+
+Mẫu trong đó cách dạy có lợi hơn cho nhóm này khác cách có lợi hơn cho nhóm kia được gọi là **tương tác chéo** (*crossover interaction*). Với ví dụ giả định A/B, cần lợi thế hình so với nghe ở nhóm thích hình và lợi thế ngược lại ở nhóm thích nghe. Một cách tốt hơn cho cả hai nhóm chưa riêng xác nhận matching (Pashler và cộng sự, 2008, tr. 109–110). Ví dụ không có số liệu và chưa chứng minh tồn tại hai kiểu ổn định.
+
+Một nghiên cứu còn cần phép đo và phân tích phù hợp. Tổng quan 2024 phân biệt lợi ích trung bình với mẫu tương tác và nêu giới hạn chất lượng, nên kết quả gộp dương không tự xác nhận toàn bộ giả thuyết (Clinton-Lisell & Litzinger, 2024, mục “Conclusion”). Đây là phần đọc thêm, không yêu cầu học sinh tự phân loại người khác hoặc tiến hành thử nghiệm.
 
 ## Tài liệu tham khảo
 

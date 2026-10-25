@@ -1,4 +1,4 @@
-# E05 — Đối chiếu nhận định e05-draft-r1
+# E05 — Đối chiếu nhận định e05-draft-r2
 
 25/10/2026; người thực hiện là trợ lý biên soạn, không reviewer chuyên môn. Supported_scoped chỉ phần nhận định khớp các mục đã đọc, không toàn nguồn/bài verified. Xem [REFERENCES](REFERENCES.md) về truy cập, tuổi và các điểm mở.
 
@@ -20,3 +20,11 @@
 Sở thích là điều người nói thích; nhãn phân loại là cách nhóm được tạo; ghép là cách chọn dạy; hiệu quả là kết quả cần kiểm. Bốn việc không thay cho nhau. VAK không bị đánh đồng với Big Five/MBTI/Holland hoặc nhu cầu hỗ trợ tiếp cận.
 Không gán “mô hình gốc Pashler” cho infographic; dùng tổng quan cho tiêu chuẩn. Không test VAK, câu hỏi inventory, điểm số hay chẩn đoán. Không công kích người từng tin hoặc yêu cầu bỏ sở thích.
 Đã tự đọc đối chiếu các vị trí nguồn; kiểm tự động tài liệu không thay việc đọc nguồn. Chưa chuyên gia/giáo viên/học sinh kiểm chứng hoặc đo kết quả học thật.
+
+## Biên tập r2 — 25/10/2026
+- Q2/Q3: phần chính đi từ hai nhóm sở thích giả định → thử cả hai cách dạy trong mỗi nhóm → lợi thế phải đổi theo nhóm như dự đoán → tên matching/meshing. Phân nhóm bằng phép đo, phân ngẫu nhiên, phép kiểm chung và tên tương tác chéo chuyển sang phần sâu; không xóa tiêu chuẩn. Đọc lại S10 tr. 108–110/Interactions. Ví dụ không chứng minh kiểu ổn định hoặc yêu cầu học sinh làm thí nghiệm.
+- Q4: giữ nguyên bảng/kết luận 2018/2024. Thêm giải thích khả năng tiêu chí chọn, phép đo và cách gộp ảnh hưởng kết quả; ghi rõ chưa chứng minh nguyên nhân chênh lệch cụ thể. Đối chiếu lại S12 Potential moderators/Inclusion criteria và các ranh giới đã kiểm r1; S11 Scope là căn cứ phạm vi cũ. Không tái phân tích hoặc nói một yếu tố đã gây ra khác biệt. Không đổi nhận xét dương nhỏ, chất lượng/nhất quán/tương tác và giới hạn một phiên.
+- P1/P2, Q6/Q7: làm rõ ví dụ không quy nghe là cách duy nhất cho phát âm hoặc hình là cách duy nhất cho bản đồ. Phương án vẫn cần tiếp cận/điều kiện/phản hồi, không bổ sung hiệu quả một biện pháp mới. Giữ mẫu mở và không phân loại năng lực người đọc.
+- Hình: rút khối bằng chứng từ bốn dòng có thuật ngữ phép kiểm chung thành ba dòng dễ đọc về so kết quả mỗi nhóm/không chỉ hỏi thích. Mô tả chữ nêu thêm lợi thế khác nhóm; phép kiểm chung giữ trong phần sâu. Không giản lược thành chỉ cần so điểm trước–sau một người.
+- Q1/Q5 và bốn nguồn thực dùng không đổi. REFERENCES giữ nguyên byte, Fallace vẫn abstract_only/pending_fulltext; chênh g 2024 vẫn chưa giải quyết. Lượt này không tra lại Fallace, không chọn số g, không mở lại mọi nguồn hoặc nâng trạng thái nguồn.
+R1 giữ trong Git tại 0f0fc7f2cfc5bfa8134ec9c757cd4d53c3f0ae5b. Không bổ sung DOI/nguồn, đồ thị hoặc dữ liệu; cập nhật là diễn giải trong phạm vi đã đối chiếu.
