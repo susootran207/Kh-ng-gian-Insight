@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="605" viewBox="0 0 320 605" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Chừa chỗ cho khoảng nghỉ</title>
+<desc id="desc">Ba phần chọn khoảng nghỉ: tạm dừng một yêu cầu; chọn cách nghỉ khả thi; xem lại nhiệm vụ và hỗ trợ. Không cần chứng minh nghỉ giúp tăng năng suất.</desc>
+<rect width="320" height="605" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Chừa chỗ cho khoảng</text>
+<text x="20" y="67" font-size="22" font-weight="700">nghỉ</text>
+<rect x="16" y="114" width="288" height="107" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">Tạm dừng gì?</text>
+<text x="32" y="170" font-size="16">Một yêu cầu đang làm. Không</text>
+<text x="32" y="195" font-size="16">cần xong hết mới được nghỉ.</text>
+<rect x="16" y="241" width="288" height="107" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="270" font-size="18" font-weight="700">Nghỉ thế nào?</text>
+<text x="32" y="297" font-size="16">Chọn cách an toàn, khả thi với</text>
+<text x="32" y="322" font-size="16">nơi và điều kiện đang có.</text>
+<rect x="16" y="368" width="288" height="107" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="397" font-size="18" font-weight="700">Sau đó xem lại</text>
+<text x="32" y="424" font-size="16">Trở lại, nghỉ thêm, giảm việc</text>
+<text x="32" y="449" font-size="16">hoặc nhờ người hỗ trợ.</text>
+<text x="20" y="505" font-size="16">Không chấm khoảng nghỉ bằng</text>
+<text x="20" y="530" font-size="16">năng suất. Không mốc phút bắt</text>
+<text x="20" y="555" font-size="16">buộc.</text>
+</g>
+</svg>

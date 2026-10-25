@@ -1,0 +1,174 @@
+{
+  "checkedDate": "2026-10-25",
+  "scope": "Research log only; not imported by website",
+  "sources": {
+    "STEEL": {
+      "apa": "Steel, P. (2007). The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure. *Psychological Bulletin, 133*(1), 65–94. https://doi.org/10.1037/0033-2909.133.1.65",
+      "url": "https://www.researchgate.net/profile/Piers-Steel/publication/6598646_The_Nature_of_Procrastination_A_Meta-Analytic_and_Theoretical_Review_of_Quintessential_Self-Regulatory_Failure/links/0046352704d88f37a3000000/The-Nature-of-Procrastination-A-Meta-Analytic-and-Theoretical-Review-of-Quintessential-Self-Regulatory-Failure.pdf",
+      "access": "fulltext_sections",
+      "location": "tr. 65–66, đặc biệt “Definition of Procrastination” tr. 66",
+      "kind": "Tổng quan lý thuyết và phân tích gộp bình duyệt; APA",
+      "population": "Nhiều mẫu, nổi bật sinh viên và người lớn; không mẫu đại diện THCS–THPT Việt Nam",
+      "supports": "Định nghĩa có ý định, trì chậm và bất lợi dự kiến; tổng hợp các định nghĩa trước, không người khai sinh",
+      "limits": "Chỉ dùng định nghĩa; không lấy tương quan làm nguyên nhân hoặc trích tỷ lệ phổ biến cho học sinh. Không gọi hành vi là chẩn đoán."
+    },
+    "YOUTH": {
+      "apa": "González-Brignardello, M. P., Sánchez-Elvira Paniagua, A., & López-González, M. Á. (2023). Academic procrastination in children and adolescents: A scoping review. *Children, 10*(6), Article 1016. https://doi.org/10.3390/children10061016",
+      "url": "https://mdpi-res.com/d_attachment/children/children-10-01016/article_deploy/children-10-01016-v2.pdf?version=1686035181",
+      "access": "fulltext_sections",
+      "location": "PDF v2: Introduction tr. 1–2; coding tr. 5; mục 3.2.2–3.2.3 tr. 8–10; Appendix B về bối cảnh",
+      "kind": "Tổng quan phạm vi bình duyệt; MDPI, Children",
+      "population": "Tiểu học khoảng 6–12, trung học khoảng 12–18; nhiều nước; không gán số tuổi chính xác cho mọi mẫu",
+      "supports": "Khoảng trống theo tuổi, khác biệt đo lường và ưu thế thiết kế ex post facto/tương quan",
+      "limits": "Lập bản đồ lĩnh vực, không phân tích hiệu quả thẻ ba câu hỏi. Bản trích xuất có đoạn trùng lớp hình ở tr. 2; chỉ dùng phần văn đã xác định."
+    },
+    "CCI": {
+      "apa": "Centre for Clinical Interventions. (n.d.). *Practical strategies to stop procrastination* [Information sheet]. https://www.cci.health.wa.gov.au/~/media/CCI/Mental-Health-Professionals/Procrastination/Procrastination---Information-Sheets/Procrastination-Information-Sheet---04---Practical-Strategies-to-Stop-Procrastinating.pdf",
+      "url": "https://www.cci.health.wa.gov.au/~/media/CCI/Mental-Health-Professionals/Procrastination/Procrastination---Information-Sheets/Procrastination-Information-Sheet---04---Practical-Strategies-to-Stop-Procrastinating.pdf",
+      "access": "fulltext_sections",
+      "location": "Một trang, “What Do I Need To Do?” và “How Can I Do It?”; chân trang giới hạn mục đích thông tin",
+      "kind": "Tờ hướng dẫn công chúng thuộc dịch vụ chuyên môn y tế Western Australia; không phải nghiên cứu bình duyệt",
+      "population": "Không nêu mẫu hoặc khoảng tuổi trong tờ này; không xác minh riêng THCS–THPT",
+      "supports": "Gợi ý làm rõ việc và chia thành các phần nhỏ; cần xét tình huống",
+      "limits": "Không dùng các lịch 5/30 phút, kỹ thuật thở, hiệu quả hoặc cách thưởng trong tài liệu. Không sao chép phiếu. Tờ không có ngày hiển thị: n.d., không suy năm từ ngày crawler."
+    },
+    "NIMH": {
+      "apa": "National Institute of Mental Health. (2024). *Children and mental health: Is this just a stage?* (NIH Publication No. 24-MH-8085). https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+      "url": "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+      "access": "fulltext_sections",
+      "location": "“What are the signs of mental health conditions in children?”, “Where should I start if I’m concerned about my child’s mental health?”, “How is children’s mental health assessed?”; Revised 2024",
+      "kind": "Hướng dẫn công chúng; NIMH/NIH",
+      "population": "Trẻ em và thiếu niên, viết cho người chăm sóc trong hệ thống Hoa Kỳ; không nghiên cứu có mẫu riêng",
+      "supports": "Khổ sở/ảnh hưởng chức năng là lý do tìm giúp; đánh giá cần nhiều thông tin, không từ một dấu hiệu",
+      "limits": "Không mang dịch vụ 988/911, luật hoặc chương trình trường Mỹ sang Việt Nam. Không lập ngưỡng chờ đợi; các câu không cần chẩn đoán/chọn người khác là hướng biên tập an toàn, không kết quả thử nghiệm."
+    },
+    "DUNLOSKY": {
+      "apa": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students’ learning with effective learning techniques: Promising directions from cognitive and educational psychology. *Psychological Science in the Public Interest, 14*(1), 4–58. https://doi.org/10.1177/1529100612453266",
+      "url": "https://acs.ist.psu.edu/ist521/dunloskyRMNW13.pdf",
+      "access": "fulltext_sections",
+      "location": "Bảng 1 tr. 6; mục 8 tr. 29–35, đặc biệt 8.4–8.5; mục 9 tr. 35–39, 9.2a tr. 36–37 và 9.4–9.5",
+      "kind": "Tổng quan chuyên khảo bình duyệt; SAGE/APS",
+      "population": "Nhiều lứa tuổi; nhiều nghiên cứu sinh viên, có nghiên cứu phổ thông; vật liệu và nhiệm vụ không đồng nhất",
+      "supports": "Định nghĩa luyện tự kiểm tra/phân bố luyện tập, phản hồi, xếp hữu ích cao và giới hạn lịch theo retention interval",
+      "limits": "Không lịch ngày chung, không khẳng định đọc lại vô ích, không chứng minh sơ đồ hoặc kế hoạch Duy. Không tự nhận đây là nguồn gốc lịch sử duy nhất."
+    },
+    "MCDANIEL": {
+      "apa": "McDaniel, M. A., Agarwal, P. K., Huelser, B. J., McDermott, K. B., & Roediger, H. L., III. (2011). Test-enhanced learning in a middle school science classroom: The effects of quiz frequency and placement. *Journal of Educational Psychology, 103*(2), 399–414. https://doi.org/10.1037/a0021782",
+      "url": "https://pdf.poojaagarwal.com/McDaniel_Agarwal_etal_2011_JEP.pdf",
+      "access": "fulltext_sections",
+      "location": "tr. 399–400 định nghĩa/bối cảnh; Experiment 1 Method/Results tr. 401–402; đọc Abstract để kiểm phạm vi kết luận các thí nghiệm còn lại",
+      "kind": "Nghiên cứu thực nghiệm lớp học bình duyệt; APA, bản PDF trang tác giả",
+      "population": "Lớp 8 khoa học tại một trường công ngoại ô Midwest, Hoa Kỳ; Exp.1 tuyển 139, phân tích chính 92 sau loại các trường hợp được mô tả",
+      "supports": "Nội dung hỏi luyện có phản hồi tốt hơn nội dung không hỏi luyện trong phân tích đã đọc; retrieval là thao tác gọi lại",
+      "limits": "Không trích % tiến bộ; item lặp trong phép kiểm, có giảng dạy, có phần điểm thấp cho quiz; không chuyển thành hiệu quả tự học ở Việt Nam hay mọi kỹ năng. Không gọi đã đọc hết ba thí nghiệm."
+    },
+    "AGARWAL": {
+      "apa": "Agarwal, P. K., Nunes, L. D., & Blunt, J. R. (2021). Retrieval practice consistently benefits student learning: A systematic review of applied research in schools and classrooms. *Educational Psychology Review, 33*, 1409–1453. https://doi.org/10.1007/s10648-021-09595-9",
+      "url": "https://link.springer.com/article/10.1007/s10648-021-09595-9",
+      "access": "abstract_only",
+      "location": "Abstract và metadata nhà xuất bản, published 14 March 2021; thân bài subscription preview",
+      "kind": "Tổng quan hệ thống bình duyệt; Springer Nature",
+      "population": "Nhiều bậc giáo dục, không chỉ phổ thông; Abstract mô tả ít nghiên cứu ngoài WEIRD; chưa kiểm bảng tuổi toàn văn",
+      "supports": "Lợi ích ở nhiều bối cảnh và hạn chế địa lý/văn hóa đều nêu trực tiếp trong Abstract",
+      "limits": "Chỉ dùng hai nhận xét cấp Abstract, không thuật lại phương pháp hoặc hiệu quả nhóm tuổi; muốn mở rộng phải đọc toàn văn. Không coi Abstract là kiểm toàn nguồn."
+    },
+    "HATTIE": {
+      "apa": "Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research, 77*(1), 81–112. https://doi.org/10.3102/003465430298487",
+      "url": "https://educacion.udd.cl/files/2018/04/The-Power-of-Feedback.pdf",
+      "access": "fulltext_sections",
+      "location": "“The Meaning of Feedback” tr. 81–82; “A Model of Feedback” tr. 86–88",
+      "kind": "Phân tích khái niệm/tổng quan bình duyệt; SAGE/AERA; PDF tại đại học UDD",
+      "population": "Tổng hợp nhiều bậc/loại nhiệm vụ; không một mẫu học sinh với tuổi chung",
+      "supports": "Feedback là thông tin về performance/understanding; gắn nhiệm vụ, phân biệt nhận xét con người",
+      "limits": "Không giới thiệu mô hình bốn mức/ba câu hỏi như nội dung giảng dạy riêng; không gán nguồn gốc thuật ngữ cho hai tác giả. Phiếu ba vùng C08 là mới, không hình nguồn."
+    },
+    "WISNIEWSKI": {
+      "apa": "Wisniewski, B., Zierer, K., & Hattie, J. (2020). The power of feedback revisited: A meta-analysis of educational feedback research. *Frontiers in Psychology, 10*, Article 3087. https://doi.org/10.3389/fpsyg.2019.03087",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full",
+      "access": "fulltext_sections",
+      "location": "Metadata 22 January 2020; Results: General Impact, Bias and Heterogeneity, Moderator Analysis/Tables 2–3; Discussion, Effects of Different Forms of Feedback",
+      "kind": "Phân tích gộp bình duyệt; Frontiers",
+      "population": "Nhiều tuổi và nhiệm vụ từ mầm non đến đại học và hơn; không hiệu quả riêng cho THCS–THPT Việt Nam",
+      "supports": "Hiệu quả biến thiên, loại thông tin và thiết kế/bối cảnh cần phân biệt",
+      "limits": "Không lấy trung bình làm hứa hẹn; không cần trích số d/I². DOI có 2019 và volume10 nhưng ngày công bố là 2020: dùng 2020 nhất quán."
+    },
+    "GULLIVER": {
+      "apa": "Gulliver, A., Griffiths, K. M., & Christensen, H. (2010). Perceived barriers and facilitators to mental health help-seeking in young people: A systematic review. *BMC Psychiatry, 10*, Article 113. https://doi.org/10.1186/1471-244X-10-113",
+      "url": "https://link.springer.com/article/10.1186/1471-244X-10-113",
+      "access": "fulltext_sections",
+      "location": "Aims and scope; Study Selection; Results: Study characteristics và Perceived barriers; Discussion: Confidentiality and trust, Limitations",
+      "kind": "Tổng quan hệ thống định tính/định lượng bình duyệt; BMC/Springer",
+      "population": "Mục tiêu 12–25, một số mẫu có tuổi ngoài dải; lớp7–12/đại học/cộng đồng, chủ yếu Úc/Mỹ; tìm đến 2009",
+      "supports": "Ngại kỳ thị/đánh giá, lo riêng tư/lòng tin là rào cản được báo cáo; không mặc định ai cũng dễ mở lời",
+      "limits": "Không thử hiệu quả câu thoại hoặc trò chuyện việc nhóm; kết quả tự báo cáo, giới hạn mã hóa/chất lượng và tuổi/văn hóa; không suy nhân quả."
+    },
+    "NAMI": {
+      "apa": "National Alliance on Mental Illness. (n.d.). *How to talk to my parents or guardian.* https://www.nami.org/kids-teens-and-young-adults/teens/how-to-talk-to-my-parents-or-guardian/",
+      "url": "https://www.nami.org/kids-teens-and-young-adults/teens/how-to-talk-to-my-parents-or-guardian/",
+      "access": "fulltext_sections",
+      "location": "Plan What You Want to Say; Find a Private Space to Talk; Discuss Possible Next Steps; Talk to Someone Else in Your Family or Network",
+      "kind": "Hướng dẫn công chúng của tổ chức chuyên môn vận động/hỗ trợ sức khỏe tinh thần; không bài bình duyệt",
+      "population": "Trang dành cho teens, bối cảnh Hoa Kỳ; không mẫu/tuổi cụ thể",
+      "supports": "Chuẩn bị ghi chú, thời điểm riêng và lựa chọn người khác khi thiếu hỗ trợ",
+      "limits": "Không chuyển toàn hướng dẫn: bài KHÔNG dùng câu nguồn khuyên không rời cuộc nói chuyện, không khuyên kiềm cảm xúc để được giúp; ưu tiên an toàn. Không sao dịch vụ Mỹ hoặc khẳng định bảo mật. Không có ngày hiện: n.d."
+    },
+    "CDC": {
+      "apa": "Centers for Disease Control and Prevention. (2024, November 29). *Conversation tips for connecting conversations.* https://www.cdc.gov/healthy-youth/connecting-conversations/index.html",
+      "url": "https://www.cdc.gov/healthy-youth/connecting-conversations/index.html",
+      "access": "fulltext_sections",
+      "location": "Preparing for the conversation; Engage in active listening; Be the person they trust and want to come to when they need an adult",
+      "kind": "Hướng dẫn người lớn; CDC, Adolescent and School Health",
+      "population": "Người chăm sóc trẻ em/thiếu niên; không mẫu nghiên cứu ở trang này",
+      "supports": "Người lớn có vai trò lắng nghe không ngắt lời, kiểm lại hiểu và tạo an toàn",
+      "limits": "Không suy câu nói của trẻ quyết định phản ứng người lớn; không dùng claim giảm nguy cơ bệnh hoặc dịch vụ địa phương."
+    },
+    "ALBULESCU": {
+      "apa": "Albulescu, P., Macsinga, I., Rusu, A., Sulea, C., Bodnaru, A., & Tulbure, B. T. (2022). “Give me a break!” A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance. *PLOS ONE, 17*(8), Article e0272460. https://doi.org/10.1371/journal.pone.0272460",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460",
+      "access": "fulltext_sections",
+      "location": "Abstract; Results: Description of included studies, Table 3/main results; Discussion và limitations",
+      "kind": "Tổng quan hệ thống/phân tích gộp bình duyệt; PLOS",
+      "population": "22 mẫu từ19 công bố, tổng2335, tuổi trung bình31,2; sinh viên/nhân viên/tình nguyện, không bộ mẫu trường THCS–THPT",
+      "supports": "Lợi ích trung bình nhỏ về vigor/fatigue, hiệu suất tổng thể không có ý nghĩa thống kê; giới hạn tự báo cáo, khác biệt nhiệm vụ",
+      "limits": "Không áp tuổi người lớn thành lịch nghỉ học sinh, không d hoặc p chưa cần dùng, không coi ngưỡng chọn nghiên cứu là chỉ định cá nhân. Một số số liệu khác nhau giữa Abstract/main/sensitivity nên bài chỉ dùng kết luận định tính ổn định."
+    },
+    "UN": {
+      "apa": "United Nations. (1989). *Convention on the Rights of the Child.* UNICEF. https://www.unicef.org/child-rights-convention/convention-text",
+      "url": "https://www.unicef.org/child-rights-convention/convention-text",
+      "access": "fulltext_sections",
+      "location": "Dòng adopted resolution44/25 ngày20/11/1989; Article1 và Article31(1)–(2)",
+      "kind": "Văn kiện quốc tế gốc được UNICEF đăng lại; căn cứ chuẩn tắc, không nghiên cứu hiệu quả",
+      "population": "Văn kiện nói về trẻ em theo Article1, thông thường dưới18; không áp như kết luận pháp lý cá nhân ở Việt Nam",
+      "supports": "Quyền rest/leisure/play; không phải phần thưởng theo năng suất",
+      "limits": "Không giải thích luật, thời hạn nghỉ hay dịch vụ Việt Nam. Không dùng văn kiện thay bằng chứng thực nghiệm."
+    }
+  },
+  "articleSources": {
+    "C06": [
+      "CCI",
+      "YOUTH",
+      "NIMH",
+      "STEEL"
+    ],
+    "C07": [
+      "AGARWAL",
+      "DUNLOSKY",
+      "MCDANIEL"
+    ],
+    "C08": [
+      "HATTIE",
+      "WISNIEWSKI"
+    ],
+    "C14": [
+      "CDC",
+      "GULLIVER",
+      "NAMI",
+      "NIMH"
+    ],
+    "C18": [
+      "ALBULESCU",
+      "NIMH",
+      "UN"
+    ]
+  }
+}
