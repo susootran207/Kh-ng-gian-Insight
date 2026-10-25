@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="729" viewBox="0 0 320 729" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Tìm giúp, không tự đối đầu</title>
+<desc id="desc">Thẻ hỗ trợ có phần kể việc đã xảy ra, người lớn có thể giúp và phương án nếu người đầu bỏ qua; riêng người chứng kiến có lựa chọn báo điều trực tiếp biết, không tự đối đầu.</desc>
+<rect width="320" height="729" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Tìm giúp, không tự</text>
+<text x="20" y="67" font-size="22" font-weight="700">đối đầu</text>
+<rect x="16" y="114" width="288" height="109" rx="6" fill="#e9e2ee" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">NGƯỜI BỊ NHẮM ĐẾN</text>
+<text x="32" y="170" font-size="16">Kể điều nhớ được. Nhờ người</text>
+<text x="32" y="195" font-size="16">lớn giúp để tham gia an toàn.</text>
+<rect x="16" y="243" width="288" height="161" rx="6" fill="#e9e2ee" stroke="#616656"/>
+<text x="32" y="272" font-size="18" font-weight="700">NẾU NGƯỜI ĐẦU BỎ</text>
+<text x="32" y="299" font-size="18" font-weight="700">QUA</text>
+<text x="32" y="326" font-size="16">Có thể chọn người lớn khác</text>
+<text x="32" y="351" font-size="16">phù hợp; không phải nói hay</text>
+<text x="32" y="376" font-size="16">hơn mới được giúp.</text>
+<rect x="16" y="440" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="469" font-size="18" font-weight="700">NGƯỜI CHỨNG KIẾN</text>
+<text x="32" y="496" font-size="16">Báo điều trực tiếp biết; đi</text>
+<text x="32" y="521" font-size="16">cùng bạn khi an toàn. Không</text>
+<text x="32" y="546" font-size="16">tự làm trọng tài.</text>
+<text x="20" y="604" font-size="16">Không cần đối đầu, thu đủ chứng</text>
+<text x="20" y="629" font-size="16">cứ hoặc làm hết thẻ mới được</text>
+<text x="20" y="654" font-size="16">giúp. Nguy hiểm ngay? Tìm người</text>
+<text x="20" y="679" font-size="16">lớn giúp ngay.</text>
+</g>
+</svg>

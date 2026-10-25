@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="636" viewBox="0 0 320 636" role="img" aria-labelledby="title desc" xml:lang="vi">
+<title id="title">Một câu không, một đường khác</title>
+<desc id="desc">Thẻ từ chối gồm điều không muốn tham gia, một câu nói rõ, lựa chọn dừng hoặc rời đến nơi phù hợp khi an toàn và người có thể hỗ trợ; không bắt buộc giải thích chuyện riêng.</desc>
+<rect width="320" height="636" fill="#fffdf7"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#333e32">
+<text x="20" y="36" font-size="22" font-weight="700">Một câu không, một</text>
+<text x="20" y="67" font-size="22" font-weight="700">đường khác</text>
+<rect x="16" y="114" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="143" font-size="18" font-weight="700">GIỚI HẠN</text>
+<text x="32" y="170" font-size="16">Mai không muốn xuất hiện</text>
+<text x="32" y="195" font-size="16">trong video.</text>
+<rect x="16" y="243" width="288" height="109" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="272" font-size="18" font-weight="700">CÂU NÓI RÕ</text>
+<text x="32" y="299" font-size="16">“Mình không muốn vào video.</text>
+<text x="32" y="324" font-size="16">Các bạn quay phần khác nhé.”</text>
+<rect x="16" y="372" width="288" height="134" rx="6" fill="#dce3d2" stroke="#616656"/>
+<text x="32" y="401" font-size="18" font-weight="700">DỪNG / TÌM HỖ TRỢ</text>
+<text x="32" y="428" font-size="16">Dừng tham gia, đến nơi phù</text>
+<text x="32" y="453" font-size="16">hợp nếu an toàn; hoặc nhờ</text>
+<text x="32" y="478" font-size="16">giáo viên.</text>
+<text x="20" y="536" font-size="16">Không cần lý do riêng, nhìn mắt</text>
+<text x="20" y="561" font-size="16">hoặc tư thế bắt buộc. Không phải</text>
+<text x="20" y="586" font-size="16">nói đến khi người khác đồng ý.</text>
+</g>
+</svg>
