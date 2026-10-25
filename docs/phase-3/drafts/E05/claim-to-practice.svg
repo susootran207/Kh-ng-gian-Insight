@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="876" viewBox="0 0 320 876" role="img" aria-labelledby="title desc">
+<title id="title">Từ lời về sở thích đến lựa chọn học tập</title>
+<desc id="desc">Ví dụ giả định Huy thích xem hình. Bốn khối: tuyên bố, bằng chứng cần có, kết luận có giới hạn và cách vận dụng. Sở thích chưa đủ kết luận chỉ học tốt bằng hình; cần xem kết quả và lựa chọn theo nhiệm vụ. Không dữ liệu thống kê, test kiểu học hoặc đường nhân quả.</desc>
+<rect width="320" height="876" fill="#f7f3e9"/>
+<g fill="#333e32" font-family="DejaVu Sans, sans-serif">
+<text x="20" y="34" font-size="21" font-weight="bold">Đọc một lời khẳng định</text>
+<text x="20" y="63" font-size="16">Ví dụ giả định về Huy</text>
+<rect class="content-card" x="16" y="100" width="288" height="132" rx="4" fill="#fffdf7" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="131" font-size="17" font-weight="bold">1. Tuyên bố</text>
+<text x="28" y="166" font-size="16">Huy thích xem hình.</text>
+<text x="28" y="192" font-size="16">Đây là lời về sở thích.</text>
+<rect class="content-card" x="16" y="256" width="288" height="170" rx="4" fill="#dce3d2" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="287" font-size="17" font-weight="bold">2. Bằng chứng cần có</text>
+<text x="28" y="322" font-size="16">Cần so các cách dạy</text>
+<text x="28" y="348" font-size="16">trong từng nhóm kiểu học,</text>
+<text x="28" y="374" font-size="16">bằng phép kiểm tra chung;</text>
+<text x="28" y="400" font-size="16">không chỉ hỏi thích gì.</text>
+<rect class="content-card" x="16" y="450" width="288" height="142" rx="4" fill="#e9e2ee" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="481" font-size="17" font-weight="bold">3. Kết luận có giới hạn</text>
+<text x="28" y="516" font-size="16">Sở thích chưa đủ kết luận</text>
+<text x="28" y="542" font-size="16">chỉ học tốt bằng hình.</text>
+<rect class="content-card" x="16" y="616" width="288" height="174" rx="4" fill="#fffdf7" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="647" font-size="17" font-weight="bold">4. Cách vận dụng</text>
+<text x="28" y="682" font-size="16">Xem nhiệm vụ cần làm gì.</text>
+<text x="28" y="708" font-size="16">Chọn cách thử, xem phản hồi.</text>
+<text x="28" y="734" font-size="16">Điều chỉnh khi cần.</text>
+<text x="20" y="827" font-size="15">Số chỉ thứ tự đọc bốn phần.</text>
+<text x="20" y="851" font-size="15">Không phải dữ liệu thực nghiệm.</text>
+</g></svg>
