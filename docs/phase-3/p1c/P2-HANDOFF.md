@@ -34,3 +34,7 @@ Khi đủ điều kiện và có chỉ thị riêng: tái sử dụng F0 PublicV
 Không đổi roadmap/checklist/guard hiện hành. Bằng chứng chung có thể tái sử dụng khi hợp phạm vi; “máy test xanh” không chứng minh thử học sinh hoặc quyền pháp lý. Chỉ sửa bài/hồ sơ khi có lỗi thực chất và chỉ thị riêng; khi byte/hash đổi phải rà phần phụ thuộc, không tự kế thừa giấy duyệt cũ.
 
 **P1C dừng tại Draft PR.** Không P2/W2/Q1, không merge/deploy/publish.
+
+## Kế hoạch bảo vệ khi chọn host sau này
+
+Bổ sung chủ dự án không cho phép bắt đầu P2. Đọc [hosting/truy cập](HOSTING-ACCESS.md) và [checklist trước private/phát hành](PRE-RELEASE-CHECKLIST.md) trước quyết định quản trị riêng. B được đề xuất cho giai đoạn chia sẻ bài tiểu luận; không biến lựa chọn host thành quyền dùng 29 draft trên production. Các mô tả GitHub Pages trong roadmap là nền kế hoạch, chưa được sửa hay triển khai; nhà cung cấp cuối cần chốt riêng và kiểm tương thích artifact, noindex/access, quyền riêng tư cùng các gate hiện hành.

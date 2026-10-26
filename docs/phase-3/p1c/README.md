@@ -15,6 +15,15 @@ Nền: PR [#27](https://github.com/susootran207/Kho-ng-gian-Insight/pull/27) đ�
 
 Đã đọc F0-CONTRACT, mã Record/validator hiện hành, roadmap V1.0/phương án A, P1 checklist/QA, hồ sơ P1A và 13 ghi nhận/blocker. Không nâng UNVERIFIED thành expert verified hoặc tự đóng blocker P1A. P1A giữ nguyên là lịch sử; quyết định mới được ghi ở P1C.
 
+## Bổ sung yêu cầu chủ dự án — 27/10/2026
+
+- [Mục đích học thuật/phi thương mại](ACADEMIC-SCOPE.md): tiểu luận cá nhân môn Tham vấn học đường; website đầy đủ chức năng, không hạ gate chất lượng/quyền.
+- [Bảo vệ mã nguồn/tài sản](PRODUCT-PROTECTION.md): private repo dự kiến, artifact tối thiểu, notices có phân định quyền và bảo toàn lịch sử; không DRM hoặc license mở tự cấp.
+- [So sánh hosting/truy cập A/B/C](HOSTING-ACCESS.md): đề xuất B — private repo + Cloudflare Pages artifact-only, public-unindexed. Không phải giới hạn người đọc; C cần đánh đổi xác thực. Chưa chọn/triển khai thay chủ dự án.
+- [Checklist và A01–A07 cần duyệt riêng](PRE-RELEASE-CHECKLIST.md): visibility, hosting/quota, notice, bằng chứng F0 và quyền triển khai sau này.
+
+Chỉ sửa/bổ sung tài liệu P1C trong PR #28 đang Draft; các mô tả “chỉ thêm” ở bàn giao ban đầu là phạm vi so với main, không có nghĩa bỏ qua quyết định bổ sung. Repo hiện public/Pages chưa bật theo API khi khảo sát; chưa thay visibility hoặc tạo host.
+
 ## Bảo toàn
 
 Chỉ thêm `docs/phase-3/p1c/`; không sửa 29 ARTICLE, 145 dossier, 29 SVG, manifest/matrix/catalogue/weekly/publication records, mã guard/renderer/UI/Mây/tử đằng B, dependency hoặc CI. Đối chiếu byte với main và P1A cho thấy cùng 29 ID, bốn r2/25 r1, cùng contentHash/revisionHash/SVG hash. Mọi source status vẫn draft, publication/publishedAt/asset.rights vẫn null.

@@ -35,3 +35,11 @@ Phạm vi chính xác là 29 ID/revision/contentHash/revisionHash và 29 SVG tro
 Nếu nguồn/dossier/metadata/SVG thay đổi ở đợt khác, phải tính lại hash và xác định phạm vi cần xác nhận lại; không kế thừa chỉ bằng slug. Chỉ sửa khi có lỗi thực chất và chỉ thị riêng. Không tự làm r2 cho 29 bài.
 
 **Trạng thái:** nội dung được chủ dự án chấp thuận; hồ sơ F0 chưa đầy đủ; đủ điều kiện chuyển sang P2 vẫn **BLOCKED**. Dừng tại Draft PR P1C.
+
+## Bổ sung mục đích học thuật và bảo vệ sản phẩm — 27/10/2026
+
+Theo chỉ thị bổ sung của chủ dự án cho chính PR #28: sản phẩm phục vụ bài tiểu luận cá nhân môn Tham vấn học đường, phi thương mại, không bán dịch vụ/thu phí/quảng cáo hoặc tham vấn/trị liệu trực tuyến. Website phải giữ đủ chức năng thực tế và 29 bài/hình; không hạ chuẩn ổn định, accessibility, an toàn tâm lý hay bảo vệ dữ liệu.
+
+Chủ dự án yêu cầu bảo vệ kho nguồn/tài sản/lịch sử, một link ổn định không cần người đọc đăng nhập/nhập thông tin cá nhân và không chủ động lập chỉ mục/quảng bá. Các yêu cầu này được ghi trong [ACADEMIC-SCOPE](ACADEMIC-SCOPE.md), [PRODUCT-PROTECTION](PRODUCT-PROTECTION.md), [so sánh A/B/C](HOSTING-ACCESS.md) và [checklist/quyết định riêng](PRE-RELEASE-CHECKLIST.md). B được đề xuất nhưng chưa chọn hoặc triển khai thay chủ dự án.
+
+Giữ nguyên chấp thuận nội dung29/29 và toàn bộ revision/hash. Phi thương mại không tự cấp quyền tài sản; không tạo expert/learner/readerQA/rights/authorization, không nới F0, không kiểm toán nguồn AI lại. Chỉ bổ sung tài liệu trong Draft PR; không đổi visibility, tạo hosting, chỉnhCI/UI hoặc triển khai P2/W2/Q1, không merge/deploy/publish.

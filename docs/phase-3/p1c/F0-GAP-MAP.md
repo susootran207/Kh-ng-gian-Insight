@@ -36,3 +36,7 @@ F0 chỉ kiểm consistency/integrity; người có thẩm quyền phải xác m
 - AUTH-01: **BLOCKED**, gồm record editorial chưa hoàn thiện và các gate còn thiếu; quyết định nội dung không tự đóng toàn bộ AUTH-01.
 
 Không có waiver hoặc phương án tắt guard được đề xuất. Chủ dự án có thể tự xác nhận phần mình có thẩm quyền và dữ kiện thật; phần mình chưa làm/chưa biết cần người phù hợp hoặc giữ BLOCKED. Không xác nhận khống để rút ngắn thủ tục.
+
+## Bổ sung học thuật/phi thương mại không thay gate
+
+Mục đích học thuật được ghi nhận trong [ACADEMIC-SCOPE](ACADEMIC-SCOPE.md), không tự đáp ứng một record chuyên môn/quyền. Kiểm quyền tương xứng với tài sản thực dùng và phạm vi web được chọn, không yêu cầu giả giấy phép hoặc cho rằng phi thương mại là miễn trừ. [Checklist mới](PRE-RELEASE-CHECKLIST.md) chỉ rõ bằng chứng còn thiếu, người có thẩm quyền và quyết định riêng trước thao tác. Các trạng thái trong bảng29 bài và manifest giữ nguyên; không nới guard để gửi site cho giảng viên.

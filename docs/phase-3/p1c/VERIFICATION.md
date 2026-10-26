@@ -19,3 +19,13 @@ PublicView test kiểm tập dữ liệu build-side, **không phải build/scann
 Không chạy lại kiểm toán nguồn AI/P1B.1, không retry119URL học thuật, không thực hiện chuyên môn độc lập/quyền/thử đọc/ReaderQA mới. UNVERIFIED/BLOCKED của các phần còn thiếu giữ nguyên; các mẫu không phải kết quả thực. Không kiểm mới native zoom 200%, screen reader, Safari/Firefox hoặc thiết bị thật. Không chụp ảnh mới vì không đổi UI.
 
 Validator và F0 chỉ chứng minh nhất quán/phạm vi/toàn vẹn kỹ thuật, không xác minh người có thật/chuyên môn/quyền pháp lý hoặc chữ ký. Quyết định chấp thuận nội dung là chỉ thị thật của chủ dự án, nhưng chưa có bộ năm record/proof và assetRights hoàn chỉnh. P2 vẫn BLOCKED; không tạo trạng thái published hoặc cấp quyền ngầm.
+
+## Bổ sung học thuật, bảo vệ và hosting — 27/10/2026
+
+Chỉ cập nhật tài liệu P1C trên nhánh/PR #28 hiện hữu. Trước sửa đã xác minh PR mở, Draft, chưa merge, head `90f463f2c5edfb449a11a0beffa7dbfc5f2f189d`; main vẫn `16965ff8972124762ba712196ac211d769b09388`. GitHub API repository báo `private=false`, `visibility=public`, `has_pages=false`, `license=null`. Metadata license không thay kiểm giấy phép từng thành phần; gói GitHub/hosting/account/domain chưa được xác minh.
+
+Đã đọc `prototype/vite.config.ts` (base tương đối, sourcemap false), Router/HashRouter, THIRD_PARTY_NOTICES, privacy copy liên quan và workflow CI. Đã tra tài liệu chính thức GitHub/Cloudflare/Google/WIPO được dẫn tại [HOSTING-ACCESS](HOSTING-ACCESS.md) và [PRODUCT-PROTECTION](PRODUCT-PROTECTION.md); không retry nguồn khoa học 29bài hoặc làm P1B.1. Những đề xuất hosting/quyền là kế hoạch, chưa kiểm tài khoản/gói cụ thể và chưa chạy HTTP/access/noindex trên host thật.
+
+Chạy lại validator P1C cho bộ tài liệu bổ sung: PASS về 29ID/revision/hash, 203tệp nguồn và 808blob nền giữ nguyên, liên kết tài liệu hợp lệ,0 bundle F0 tạo mới. Kiểm diff với head P1C trước bổ sung chỉ có Markdown dưới docs/phase-3/p1c; INVENTORY/INTEGRITY, bảng 29bài, template evidence và validator giữ nguyên. Không chạy build/browser/F0 local mới cho thay đổi thuần tài liệu; kết quả 22/22 ở trên thuộc lượt P1C trước, không báo như lượt chạy mới. CI tại head cập nhật được kiểm riêng và dẫn trong mô tả PR.
+
+Không có thay đổi visibility, Pages, hosting/DNS/App/token, source/asset quyền, workflow hoặc ứng dụng. Không tạo project/link public mới. Repo public hiện tại và bản nháp trong lịch sử không được làm riêng tư bởi tài liệu kế hoạch này; chỉ thao tác private có phép sau này mới thay ranh giới truy cập kho. CI/scanner PASS cũng không xác minh license, tác giả hoặc độc lập chuyên môn. Các gate F0 còn thiếu vẫn BLOCKED.
