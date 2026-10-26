@@ -24,7 +24,9 @@
     "test:n1:browser": "playwright test -c playwright.n1.config.ts",
     "dev:flow-fixture": "vite --config vite.d1.config.ts --host 127.0.0.1",
     "test:d1": "tsc -p tsconfig.d1.json && node --experimental-strip-types --test --test-isolation=none tests/flow.test.mts",
-    "test:d1:browser": "playwright test -c playwright.d1.config.ts"
+    "test:d1:browser": "playwright test -c playwright.d1.config.ts",
+    "test:g1": "tsc -p tsconfig.g1.json && node --experimental-strip-types --test --test-isolation=none tests/lantern-lifetime.test.mts",
+    "test:g1:browser": "playwright test -c playwright.g1.config.ts"
   },
   "dependencies": {
     "@fontsource/be-vietnam-pro": "^5.2.8",

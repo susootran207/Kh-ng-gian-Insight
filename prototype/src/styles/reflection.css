@@ -1,0 +1,2 @@
+/* Three actions must wrap at 320px; retain all approved color/type/motion rules. */
+.reflection .reflection-actions { flex-wrap: wrap; }

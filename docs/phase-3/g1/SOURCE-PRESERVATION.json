@@ -1,0 +1,23 @@
+{
+  "baseCommit": "e2e3cfe21025a9e2543dafd405e2fcc1e20acfbb",
+  "baseTree": "1a0de4dfd744ad795f0990ad90d87724704f856a",
+  "baselineBlobs": 712,
+  "unchangedBlobs": 703,
+  "changedBaselinePaths": [
+    ".github/workflows/ci.yml",
+    "prototype/.gitignore",
+    "prototype/package.json",
+    "prototype/playwright.config.ts",
+    "prototype/src/App.tsx",
+    "prototype/src/components/LanternGarden.tsx",
+    "prototype/src/reading/FoundationPage.tsx",
+    "prototype/tests/homepage.spec.ts",
+    "prototype/tests/production.spec.ts"
+  ],
+  "draftFilesChecked": 203,
+  "draftMismatches": [],
+  "manifestCatalogueWeeklyPublicationRecordsChanged": false,
+  "N1Change": "Privacy paragraph only, no CSS or other content",
+  "guardOrPublicationLogicChanged": false,
+  "dependencyVersionsOrLockfileChanged": false
+}

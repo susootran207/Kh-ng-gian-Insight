@@ -80,3 +80,17 @@ for(const width of [320,390,768,1440])test('D1 production empty, direct/reload, 
   for(const path of ['tests/flow-harness/index.html','tests/fixtures/flow/create.ts','@id/__x00__virtual:d1-fixture:virtual:editorial'])expect((await request.get('./'+path)).status()).toBe(404)
   await page.goto('./#/bai-viet/d1-fixture-1?preview=true');await expect(page.locator('h1')).toHaveText('Lối này chưa có trang.')
 })
+
+test('G1 production: canary never transmits/persists; clear/release/skip and N1 consistency',async({page,context})=>{
+ await page.setViewportSize({width:390,height:1000});await page.emulateMedia({reducedMotion:'reduce'})
+ await page.goto('./#/#tam-tinh');await page.evaluate(()=>document.fonts.ready);await page.evaluate(()=>Promise.all([...document.images].map(image=>image.decode().catch(()=>{}))))
+ const network:string[]=[],messages:string[]=[],canary='G1_PRODUCTION_CANARY_Đ_🧪';page.on('request',r=>network.push(JSON.stringify({url:r.url(),headers:r.headers(),body:r.postData()})));page.on('console',m=>messages.push(m.text()));page.on('pageerror',e=>messages.push(e.message))
+ const input=page.getByLabel('Điều bạn muốn gửi theo ánh đèn'),release=page.getByRole('button',{name:'Thả một ngọn đèn',exact:true})
+ await expect(page.locator('#tam-tinh')).toContainText('Không có người nhận, đọc hoặc phản hồi lời viết.')
+ await input.fill(canary);await page.getByRole('button',{name:'Xóa lời viết',exact:true}).click();await expect(input).toHaveValue('')
+ await input.fill(canary);await release.click();await expect(input).toHaveValue('');await expect(release).toBeDisabled();await expect(page.locator('.released-lantern')).toHaveCount(1)
+ expect(await page.content()).not.toContain(canary);expect(network).toEqual([]);expect(messages.join()).not.toContain(canary)
+ expect(await page.evaluate(async()=>({local:localStorage.length,session:sessionStorage.length,databases:(await indexedDB.databases()).length,caches:(await caches.keys()).length}))).toEqual({local:0,session:0,databases:0,caches:0});expect(await context.cookies()).toEqual([]);expect(page.url()).not.toContain(canary)
+ await page.getByRole('link',{name:'Bỏ qua, ghé thư viện',exact:true}).click();await expect(page.locator('.library-entry')).toHaveCount(0);await page.goBack();await expect(input).toHaveValue('')
+ await page.goto('./#/nen-tang#rieng-tu-trong-khu-vuon');await expect(page.locator('#rieng-tu-trong-khu-vuon')).toContainText('quay lại không khôi phục lời')
+})

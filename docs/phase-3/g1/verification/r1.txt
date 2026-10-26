@@ -1,0 +1,29 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:r1
+> tsc -p tsconfig.r1.json && node --experimental-strip-types --test --test-isolation=none tests/reader-document.test.mts
+
+✔ READ01: standard GFM AST has stable Vietnamese/duplicate anchors, nested h3 and long DOI links (39.597751ms)
+✔ DATA03: every parsed node has exact source range/hash and semantic receipts; none silently dropped (61.527924ms)
+✔ READ02/READ05/READ06: lists/blockquote/table/APA/emphasis and full activity/feedback remain (1.099956ms)
+✔ READ03/READ04: image groups exact caption and equivalent text; SVG is pinned (0.66295ms)
+✔ SAFE01: raw HTML/MDX and JavaScript/data/protocol-relative/credential URLs fail closed (24.071946ms)
+✔ SAFE01: code stays inert text; unsupported GFM nodes/headings reject explicitly (9.669866ms)
+✔ SAFE01: traversal/remote/unlisted images, missing alt/caption and inline images reject (256.312394ms)
+✔ SAFE01: SVG active/external content and stale hashes reject using F0 (4.314149ms)
+✔ READ01/SAFE01: heading anchors/reference definitions resolve, unknown or duplicate references fail (2.298351ms)
+✔ DATA03: changed source changes provenance; stable heading/source IDs on identical input (21.388227ms)
+✔ PUB04/PUB05: F0 scanner catches compiled fixture/escaped canary/SVG; public remains empty (895.171379ms)
+✔ PUB05: fixture module IDs are rejected even without a canary in emitted text (1439.640853ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3452.181735
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

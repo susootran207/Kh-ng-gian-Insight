@@ -1,0 +1,37 @@
+{
+  "width": 320,
+  "wrap": {
+    "rowWidth": 280,
+    "rowHeight": 85.5,
+    "scrollWidth": 280,
+    "buttons": [
+      {
+        "width": 180.8125,
+        "height": 53,
+        "labelLines": 1
+      },
+      {
+        "width": 78.578125,
+        "height": 44,
+        "labelLines": 1
+      }
+    ]
+  },
+  "nowrap": {
+    "rowWidth": 280,
+    "rowHeight": 72,
+    "scrollWidth": 280,
+    "buttons": [
+      {
+        "width": 152.515625,
+        "height": 72,
+        "labelLines": 2
+      },
+      {
+        "width": 65.5625,
+        "height": 60,
+        "labelLines": 2
+      }
+    ]
+  }
+}

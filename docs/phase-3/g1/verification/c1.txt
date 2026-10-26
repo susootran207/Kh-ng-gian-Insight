@@ -1,0 +1,51 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:c1
+> tsc -p tsconfig.c1.json && node --experimental-strip-types --test --test-isolation=none tests/content-preview.test.mts
+
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C01 (164.403412ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C02 (85.80926ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C03 (62.559958ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C04 (61.390929ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C05 (80.425333ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C06 (33.782229ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C07 (75.852314ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C08 (18.839191ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C09 (26.443653ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C10 (63.374244ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C11 (27.163856ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C12 (57.452495ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C13 (29.613862ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C14 (72.752797ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C15 (94.068831ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C16 (48.427609ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C17 (147.813942ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C18 (34.392818ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C19 (30.224225ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C20 (67.74562ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C21 (73.248319ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C22 (30.030037ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C23 (71.479067ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C24 (28.851948ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-E01 (60.268567ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-E02 (53.057209ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-E03 (147.647484ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-E04 (195.102814ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-E05 (130.592465ms)
+✔ DATA01/DATA04: unique 29 routes, four correct r2, no legacy duplicate/title (0.667757ms)
+✔ SAFE01: C1 preserves R1 rejection, only first source H1 and declared dossier mapping (12.128103ms)
+✔ PUB01/PUB04/PUB05: F0 remains empty and catches real compiled source/SVG/escaped canary (1687.727916ms)
+✔ PUB05: clean-code preview modules rejected before emitting production (718.886462ms)
+✔ PUB06/PUB08: F0 denies non-loopback; preview config denies build and host override (700.169702ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6557.165453
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

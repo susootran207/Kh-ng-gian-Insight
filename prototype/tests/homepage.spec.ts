@@ -64,7 +64,7 @@ test('quote, weekly, timeline, all three previews and privacy disclosure work',a
     await expect(opener).toBeFocused()
   }
   await page.getByText('Quyền riêng tư',{exact:true}).click()
-  await expect(page.locator('.privacy-details')).toHaveAttribute('open','')
+  await expect(page.locator('footer .privacy-details')).toHaveAttribute('open','')
   expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([])
 })
 
