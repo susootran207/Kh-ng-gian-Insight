@@ -1,0 +1,24 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:r1
+> tsc -p tsconfig.r1.json && node --experimental-strip-types --test --test-isolation=none tests/reader-document.test.mts
+
+✔ READ01: standard GFM AST has stable Vietnamese/duplicate anchors, nested h3 and long DOI links (40.966738ms)
+✔ DATA03: every parsed node has exact source range/hash and semantic receipts; none silently dropped (38.395871ms)
+✔ READ02/READ05/READ06: lists/blockquote/table/APA/emphasis and full activity/feedback remain (0.885183ms)
+✔ READ03/READ04: image groups exact caption and equivalent text; SVG is pinned (0.402912ms)
+✔ SAFE01: raw HTML/MDX and JavaScript/data/protocol-relative/credential URLs fail closed (8.294437ms)
+✔ SAFE01: code stays inert text; unsupported GFM nodes/headings reject explicitly (2.666793ms)
+✔ SAFE01: traversal/remote/unlisted images, missing alt/caption and inline images reject (91.804049ms)
+✔ SAFE01: SVG active/external content and stale hashes reject using F0 (1.650561ms)
+✔ READ01/SAFE01: heading anchors/reference definitions resolve, unknown or duplicate references fail (1.434533ms)
+✔ DATA03: changed source changes provenance; stable heading/source IDs on identical input (13.969689ms)
+✔ PUB04/PUB05: F0 scanner catches compiled fixture/escaped canary/SVG; public remains empty (426.902435ms)
+✔ PUB05: fixture module IDs are rejected even without a canary in emitted text (1271.82107ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2250.521502

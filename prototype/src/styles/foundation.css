@@ -1,0 +1,6 @@
+/* N1: reading surface only; incumbent type, palette and motion remain shared. */
+.foundation-page .article-title h1 { text-wrap: balance; }
+.foundation-page .article-prose { min-width: 0; overflow-wrap: anywhere; }
+.foundation-page .table-of-contents a { display: inline-block; padding-block: 8px; }
+.foundation-page .foundation-next { padding-top: 12px; border-top: 1px solid var(--sage-middle); }
+.foundation-home-links { display: flex; flex-wrap: wrap; gap: 8px 24px; }

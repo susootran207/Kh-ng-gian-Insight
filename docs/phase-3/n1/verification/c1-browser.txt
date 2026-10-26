@@ -1,0 +1,63 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:c1:browser
+> playwright test -c playwright.c1.config.ts
+
+[WebServer] (node:39558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:39571) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:39595) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 320 (1.5m)
+  ✓  2 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 390 (1.1m)
+  ✓  3 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 768 (1.4m)
+  ✘  4 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 1440 (23.1s)
+(node:42307) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 tests/c1-preview.spec.ts:58:1 › library 29 routes, Vietnamese search, stages/topics/group, history and return through related (29.6s)
+  ✓  6 tests/c1-preview.spec.ts:93:1 › C01/C05/E02 figure keyboard, reduced motion, skip, and emulated 200% reflow (41.2s)
+  ✓  7 tests/c1-preview.spec.ts:108:1 › loopback HTTP boundary, all asset hashes, unknown/query/traversal and raw dossier rejection (2.7s)
+  ✓  8 tests/c1-preview.spec.ts:116:1 › library responsive, keyboard menu and Axe at four widths (18.6s)
+
+
+  1) tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 1440 › KGNT-C04 c04-draft-r1 
+
+    Error: apiRequestContext.get: read ECONNRESET
+    Call log:
+      - → GET http://127.0.0.1:4191/__c1_assets/kgnt-c04/c791406552e81c6e29325ca276cd288252d3b1642dec55f06abf876fa3e92d18/pause-and-choose.svg
+        - user-agent: Playwright/1.64.1 (x64; debian 13) node/24.19
+        - accept: */*
+        - accept-encoding: gzip,deflate,br
+
+
+      32 |       await expect(image).toHaveAttribute('alt', original.alt)
+      33 |       await expect.poll(() => image.evaluate((el: HTMLImageElement) => el.complete && el.naturalWidth > 0)).toBeTruthy()
+    > 34 |       const svg = await request.get(a.document.assets[0].src)
+         |                                 ^
+      35 |       expect(svg.status()).toBe(200); expect(sha256(await svg.body())).toBe(original.sha256)
+      36 |       expect(sha256(readReference(root, original))).toBe(original.sha256)
+      37 |       for (const link of await page.locator('.markdown-reader a[href^="https:"]').all()) { await expect(link).toHaveAttribute('target','_blank'); await expect(link).toHaveAttribute('rel','noopener noreferrer') }
+        at /workspace/work/n1/qa/repo/prototype/tests/c1-preview.spec.ts:34:33
+        at /workspace/work/n1/qa/repo/prototype/tests/c1-preview.spec.ts:19:5
+
+    Error Context: test-results-c1/c1-preview-29-29-source→AS-33264--responsive-and-Axe-at-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-c1/c1-preview-29-29-source→AS-33264--responsive-and-Axe-at-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results-c1/c1-preview-29-29-source→AS-33264--responsive-and-Axe-at-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 1440 ──
+  7 passed (6.1m)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

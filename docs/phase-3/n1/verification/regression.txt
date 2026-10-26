@@ -1,0 +1,50 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:e2e
+> playwright test
+
+[WebServer] (node:43607) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:43620) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 30 tests using 1 worker
+
+(node:43640) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/atmosphere.spec.ts:10:1 › bounded petal field, top garland and frosted surfaces preserve hero (2.9s)
+  ✓   2 tests/atmosphere.spec.ts:42:1 › companion visits safe padding, rests, retreats during interaction and never duplicates hero (2.4s)
+  ✓   3 tests/atmosphere.spec.ts:82:1 › mobile companion waits longer and uses no run behavior (1.6s)
+  ✓   4 tests/atmosphere.spec.ts:100:1 › OS and manual reduction stop new spontaneous activity but preserve requested interaction (2.1s)
+  ✓   5 tests/atmosphere.spec.ts:119:1 › reading journey keeps a constant lightweight effect budget without long main-thread tasks (2.1s)
+  ✓   6 tests/atmosphere.spec.ts:141:1 › all four ambient actions use the shared character and bounded CSS motion (4.9s)
+  ✓   7 tests/canopy.spec.ts:28:3 › approved B at 1440px preserves UI and has flowers across its span (2.2s)
+  ✓   8 tests/canopy.spec.ts:28:3 › approved B at 768px preserves UI and has flowers across its span (2.1s)
+  ✓   9 tests/canopy.spec.ts:28:3 › approved B at 390px preserves UI and has flowers across its span (1.9s)
+  ✓  10 tests/canopy.spec.ts:62:1 › approved B is fixed: old A/C preview URLs cannot change decoration or page geometry (6.3s)
+  ✓  11 tests/canopy.spec.ts:77:1 › legacy preview parameters cannot change approved B on mobile or disrupt controls (4.6s)
+  ✓  12 tests/canopy.spec.ts:92:1 › trellis pauses for OS/manual reduction, tab hiding and offscreen; menu mask adapts (2.1s)
+  ✓  13 tests/homepage.spec.ts:6:3 › layout, fonts and accessibility at 320px (3.9s)
+  ✓  14 tests/homepage.spec.ts:6:3 › layout, fonts and accessibility at 390px (3.4s)
+  ✓  15 tests/homepage.spec.ts:6:3 › layout, fonts and accessibility at 768px (3.8s)
+  ✓  16 tests/homepage.spec.ts:6:3 › layout, fonts and accessibility at 1440px (5.0s)
+  ✓  17 tests/homepage.spec.ts:30:1 › mobile menu supports keyboard, Escape and section links (2.4s)
+  ✓  18 tests/homepage.spec.ts:44:1 › quote, weekly, timeline, all three previews and privacy disclosure work (5.8s)
+  ✓  19 tests/homepage.spec.ts:71:1 › cat expressions, bounded mouse dragging, keyboard and reset (5.0s)
+  ✓  20 tests/homepage.spec.ts:99:1 › touch drag moves cat and vertical swipes outside cat still scroll (2.6s)
+  ✓  21 tests/homepage.spec.ts:119:1 › lantern never transmits or persists text, clears on release and pagehide (2.8s)
+  ✓  22 tests/homepage.spec.ts:144:1 › OS reduced motion and manual toggle preserve visible content and feedback (2.1s)
+  ✓  23 tests/reading.spec.ts:6:39 › reading pages responsive, keyboard focus and axe at 320 (6.8s)
+  ✓  24 tests/reading.spec.ts:6:39 › reading pages responsive, keyboard focus and axe at 390 (7.8s)
+  ✓  25 tests/reading.spec.ts:6:39 › reading pages responsive, keyboard focus and axe at 768 (7.0s)
+  ✓  26 tests/reading.spec.ts:6:39 › reading pages responsive, keyboard focus and axe at 1440 (8.5s)
+  ✓  27 tests/reading.spec.ts:21:1 › Vietnamese title, description and keyword search, filters, query history and reset (2.4s)
+  ✓  28 tests/reading.spec.ts:36:1 › real article links, reload, TOC, references, related reading and return filters (2.4s)
+  ✓  29 tests/reading.spec.ts:51:1 › topic index, detail, every article link, missing article and recovery (2.7s)
+  ✓  30 tests/reading.spec.ts:58:1 › new mobile menu, homepage sections, reduced motion, reflection cleanup on route leave (2.3s)
+
+  30 passed (1.9m)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
