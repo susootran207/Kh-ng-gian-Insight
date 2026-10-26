@@ -1,5 +1,8 @@
 import {test,expect} from '@playwright/test'
 import {readFileSync} from 'node:fs'
+import {createContentPreview} from '../build/content-preview.ts'
+import {loadManifest} from '../build/content-contract.ts'
+import {resolve} from 'node:path'
 const catalogue=JSON.parse(readFileSync(new URL('../editorial/catalogue.json',import.meta.url),'utf8'))
 for(const width of [320,390,768,1440])test(`production repository path, local assets, reload and draft exclusion ${width}`,async({page})=>{
   await page.setViewportSize({width,height:900})
@@ -24,4 +27,18 @@ test('R1 fixture route, query, harness and raw assets stay excluded from product
   await expect(page.locator('.library-entry')).toHaveCount(0)
   await expect(page.locator('body')).not.toContainText('F0_FIXTURE_ONLY_R1_READER')
   for(const path of ['tests/reader-harness/index.html','tests/fixtures/reader/article.md','tests/fixtures/reader/reader-long-figure.svg','__r1_assets/reader-long-figure.svg']) expect((await request.get('./'+path)).status()).toBe(404)
+})
+
+test('C1: all 29 direct routes, preview/raw drafts/dossiers/SVG and query stay excluded', async({page,request})=>{
+  const root=resolve('..'),manifest=loadManifest(root),view=createContentPreview(root,'127.0.0.1')
+  for(const a of view.articles){
+    await page.goto('./#/bai-viet/'+a.slug+'?preview=true&c1=true')
+    await expect(page.locator('h1')).toHaveText('Lối này chưa có trang.')
+    expect((await request.get('./'+a.document.assets[0].src.slice(1))).status()).toBe(404)
+  }
+  for(const a of manifest.articles)for(const f of [a.source,...Object.values(a.dossiers),...a.assets])expect((await request.get('./'+f.path)).status()).toBe(404)
+  for(const path of ['preview/index.html','preview/main.tsx','editorial/source-manifest.json','@id/__x00__virtual:c1-preview'])expect((await request.get('./'+path)).status()).toBe(404)
+  await page.goto('./#/thu-vien?preview=true&c1=true&revision=r2')
+  await expect(page.locator('.library-entry')).toHaveCount(0)
+  await expect(page.locator('body')).not.toContainText('Bản nháp đã nghiệm thu nội bộ')
 })

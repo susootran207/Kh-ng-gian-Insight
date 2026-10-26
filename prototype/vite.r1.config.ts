@@ -42,5 +42,6 @@ function fixturePlugin(): Plugin {
 }
 export default defineConfig(mergeConfig(normalConfig, {
   plugins: [fixturePlugin()],
+  optimizeDeps: { entries: ['tests/reader-harness/index.html'] },
   server: { host: '127.0.0.1', port: 4190, strictPort: true, fs: { allow: [root] } },
 }))

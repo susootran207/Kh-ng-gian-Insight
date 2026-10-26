@@ -1,0 +1,11 @@
+/* Local preview only; approved site styles remain authoritative. */
+.c1-identity, .c1-library-note { color: var(--sage-dark); line-height: 1.9; overflow-wrap: anywhere; }
+.c1-notice { margin-bottom: 2rem; }
+.c1-provenance { margin-top: 4rem; max-width: 68ch; overflow-wrap: anywhere; line-height: 1.9; }
+.c1-provenance h2 { font-size: clamp(2rem, 4vw, 2.6rem); }
+.c1-provenance dt { font-weight: 500; margin-top: 1rem; }
+.c1-provenance dd { margin-left: 0; }
+.c1-provenance li { margin-block: 1.5rem; scroll-margin-top: 8rem; }
+.c1-topic-links { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; margin-block: 1.5rem; }
+.c1-topic-links a { min-height: 44px; display: inline-flex; align-items: center; text-decoration: underline; text-underline-offset: .25em; }
+.c1-return { margin-top: 3rem; }
