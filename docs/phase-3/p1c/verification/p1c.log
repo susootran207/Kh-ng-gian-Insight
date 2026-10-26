@@ -1,0 +1,13 @@
+{
+  "result": "PASS documentation/integrity only",
+  "articles": 29,
+  "ownerContentDecisionsRecorded": 29,
+  "r2": 4,
+  "r1": 25,
+  "svg": 29,
+  "sourceFilesUnchanged": 203,
+  "baselineBlobsUnchanged": 808,
+  "localLinks": 57,
+  "f0BundlesCreated": 0,
+  "publicEligibility": "BLOCKED"
+}
