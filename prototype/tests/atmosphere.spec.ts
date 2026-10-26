@@ -140,11 +140,14 @@ test('reading journey keeps a constant lightweight effect budget without long ma
 
 test('all four ambient actions use the shared character and bounded CSS motion',async({page})=>{
   await page.setViewportSize({width:1440,height:1000})
-  await page.clock.install()
+  const epoch=new Date('2026-10-24T10:00:00Z')
+  await page.clock.install({time:epoch})
+  await page.clock.pauseAt(epoch)
   for(const [seed,action] of [[0,'wave'],[.3,'look'],[.6,'run'],[.9,'peek']] as const){
     await page.goto('/')
     await page.evaluate(()=>document.fonts.ready)
     await page.evaluate(value=>{Math.random=()=>value},seed)
+    await page.clock.runFor(100) // flush initial layout/ResizeObserver before the visit
     await dockAt(page,'nen-tang')
     await page.clock.runFor(7500)
     await expect(page.locator('.companion-character')).toHaveAttribute('data-action',action)

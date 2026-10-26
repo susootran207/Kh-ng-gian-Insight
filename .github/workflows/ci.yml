@@ -60,6 +60,10 @@ jobs:
         id: c1
         run: npm run test:c1
 
+      - name: Test W1 weekly contract, schedule and publication boundary
+        id: w1
+        run: npm run test:w1
+
       - name: Typecheck
         id: typecheck
         run: ./node_modules/.bin/tsc -b
@@ -85,6 +89,7 @@ jobs:
           F0: ${{ steps.f0.outcome }}
           R1: ${{ steps.r1.outcome }}
           C1: ${{ steps.c1.outcome }}
+          W1: ${{ steps.w1.outcome }}
           TYPECHECK: ${{ steps.typecheck.outcome }}
           BUILD: ${{ steps.build.outcome }}
           PUBLICATION: ${{ steps.publication.outcome }}
@@ -94,7 +99,7 @@ jobs:
             echo
             echo '| Check | Result |'
             echo '| --- | --- |'
-            for check in CHECKOUT NODE INSTALL MANIFEST F0 R1 C1 TYPECHECK BUILD PUBLICATION; do
+            for check in CHECKOUT NODE INSTALL MANIFEST F0 R1 C1 W1 TYPECHECK BUILD PUBLICATION; do
               outcome="${!check}"
               case "$outcome" in
                 success) result=PASS ;;

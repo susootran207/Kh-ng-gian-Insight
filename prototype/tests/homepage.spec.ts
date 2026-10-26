@@ -47,10 +47,9 @@ test('quote, weekly, timeline, all three previews and privacy disclosure work',a
   const first=await quote.textContent()
   await page.getByRole('button',{name:'Một lời nhắn khác'}).click()
   await expect(quote).not.toHaveText(first!)
-  await page.getByRole('button',{name:'Mở một trang đọc'}).click()
-  await expect(page.locator('#weekly-excerpt')).toBeVisible()
-  await page.getByRole('button',{name:'Khép lại chuyên đề'}).click()
-  await expect(page.locator('#weekly-excerpt')).toHaveCount(0)
+  await expect(page.locator('.weekly-copy')).toContainText('Chuyên đề sẽ mở khi nội dung được duyệt xuất bản.')
+  await expect(page.getByRole('button',{name:'Mở một trang đọc'})).toHaveCount(0)
+  await expect(page.getByRole('link',{name:'Ghé trang chuyên đề'})).toHaveAttribute('href','#/chuyen-de')
   for(const title of ['Giữa học kỳ','Mùa thi','Sau thi','Đầu năm']){
     await page.getByRole('button',{name:title,exact:true}).click()
     await expect(page.getByRole('region',{name:title,exact:true})).toBeVisible()

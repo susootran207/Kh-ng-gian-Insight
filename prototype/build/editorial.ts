@@ -3,32 +3,14 @@ import { fileURLToPath } from 'node:url'
 import { resolve } from 'node:path'
 import type { Plugin } from 'vite'
 import type { Catalogue } from '../editorial/schema.ts'
-import { assertLegacyPublication, loadManifest, requireThat } from './content-contract.ts'
+import { loadManifest, requireThat } from './content-contract.ts'
 import { assertArtifact, createBoundary, scanProduction } from './publication-scan.ts'
+
+import { selectContent as selectCatalogue } from './select-content.ts'
 
 export const repositoryRoot = fileURLToPath(new URL('../../', import.meta.url))
 // Publication is a code-reviewed build action. Legacy approval fields alone never grant it.
-export function selectContent(data: Catalogue, development: boolean, root = repositoryRoot): Catalogue {
-  const seen = new Set<string>()
-  for (const item of [...data.articles, ...data.topics]) {
-    requireThat(typeof item.slug === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug), 'invalid editorial slug')
-    const key = ('sections' in item ? 'article:' : 'topic:') + item.slug
-    requireThat(!seen.has(key), 'duplicate editorial slug'); seen.add(key)
-    requireThat(['draft','in_review','approved','published'].includes(item.status), 'invalid editorial status')
-    if (item.status === 'published') assertLegacyPublication(root, item)
-  }
-  const allSlugs = new Set(data.articles.map(a => a.slug))
-  for (const article of data.articles) {
-    const ids = article.sections.map(section => section.id)
-    requireThat(new Set(ids).size === ids.length && ids.every(id => /^[a-z0-9-]+$/.test(id)), 'invalid heading anchors')
-    requireThat(article.sources.every(source => { const url = new URL(source.url); return url.protocol === 'https:' && !url.username && !url.password }), 'references must use HTTPS')
-  }
-  for (const topic of data.topics) requireThat(topic.articleSlugs.every(slug => allSlugs.has(slug)) && new Set(topic.articleSlugs).size === topic.articleSlugs.length, 'invalid topic article references')
-  const articles = data.articles.filter(item => development || item.status === 'published')
-  const slugs = new Set(articles.map(item => item.slug))
-  const topics = data.topics.filter(item => development || item.status === 'published').map(item => ({ ...item, articleSlugs: item.articleSlugs.filter(slug => slugs.has(slug)) }))
-  return { articles, topics }
-}
+export function selectContent(data: Catalogue, development: boolean, root = repositoryRoot): Catalogue { return selectCatalogue(data, development, root) }
 export function editorial(): Plugin {
   let development = false, output = ''
   const source = new URL('../editorial/catalogue.json', import.meta.url)
@@ -59,7 +41,7 @@ export function editorial(): Plugin {
     generateBundle(_options, bundle) {
       const boundary = createBoundary(repositoryRoot, loadManifest(repositoryRoot), catalogue())
       for (const [name, item] of Object.entries(bundle)) {
-        if (item.type === 'chunk') requireThat(Object.keys(item.modules ?? {}).every(id => !/[/\\]tests[/\\](?:fixtures|reader-harness)[/\\]/.test(id) && !id.includes('virtual:r1-fixture') && !id.includes('virtual:c1-preview') && !/[/\\]preview[/\\]/.test(id)), 'test-only Reader module entered public graph')
+        if (item.type === 'chunk') requireThat(Object.keys(item.modules ?? {}).every(id => !/[/\\]tests[/\\](?:fixtures|reader-harness)[/\\]/.test(id) && !id.includes('virtual:r1-fixture') && !id.includes('virtual:c1-preview') && !id.includes('virtual:w1-fixture') && !/[/\\]editorial[/\\]weekly\.json(?:\?|$)/.test(id) && !/[/\\]tests[/\\]weekly-harness[/\\]/.test(id) && !/[/\\]preview[/\\]/.test(id)), 'test-only Reader module entered public graph')
         const value = item.type === 'chunk' ? item.code : item.source
         assertArtifact(Buffer.from(value), name, boundary)
       }

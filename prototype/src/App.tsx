@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { WeeklySection } from './reading/WeeklySection'
 import { useEffect, useRef, useState } from 'react'
 import { Arrow, LeafMark, SmallFlower } from './components/Icons'
 import { GardenAtmosphere } from './components/GardenAtmosphere'
@@ -13,7 +14,6 @@ function App(){
   const [quote,setQuote]=useState(()=>Math.floor(Math.random()*quotes.length))
   const [season,setSeason]=useState(0)
   const [sample,setSample]=useState<string|null>(null)
-  const [weekly,setWeekly]=useState(false)
   const menuButton=useRef<HTMLButtonElement>(null)
   const preview=useRef<HTMLDivElement>(null)
   const sampleTrigger=useRef<HTMLButtonElement|null>(null)
@@ -59,19 +59,7 @@ function App(){
         <div className="quote-content"><blockquote aria-live="polite">{quotes[quote]}</blockquote><p>Lời nhắn từ Không Gian Nội Tâm</p></div>
         <button className="round-button" aria-label="Một lời nhắn khác" onClick={()=>setQuote(i=>(i+1+Math.floor(Math.random()*(quotes.length-1)))%quotes.length)}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true"><path d="M19 8a8 8 0 1 0 1 8M19 3v5h-5"/></svg></button>
       </section>
-      <section id="chuyen-de" className="weekly section-anchor">
-        <div className="page-width weekly-grid">
-          <div className="weekly-art" aria-hidden="true"><div className="window-arch"><div className="window-moon"/><div className="window-hill"/><div className="window-hill second"/><div className="window-mullion"/></div><div className="book book-one"/><div className="book book-two"/><div className="teacup"><span/></div><div className="table-line"/></div>
-          <div className="weekly-copy">
-            <h2>Chuyên đề tuần này</h2>
-            {import.meta.env.DEV ? <><h3>Đêm dài,<br/>mình chưa ngủ.</h3>
-            <p>Khi người đã mệt mà tâm trí vẫn còn thức. Một lời mời tìm hiểu về những đêm trằn trọc giữa mùa bài vở.</p>
-            <div className="weekly-meta"><span className="draft-label">Bản nháp minh họa</span><span>Giấc ngủ & nghỉ ngơi</span></div>
-            <button className="text-link" aria-expanded={weekly} aria-controls="weekly-excerpt" onClick={()=>setWeekly(v=>!v)}>{weekly?'Khép lại chuyên đề':'Mở một trang đọc'}<Arrow/></button><Link className="text-link home-reading-route" to="/chuyen-de/dem-dai">Xem chuyên đề đầy đủ <Arrow/></Link></> : <><h3>Một trang mới,<br/>đang được vun trồng.</h3><p>Chuyên đề sẽ mở khi nội dung được duyệt xuất bản.</p><Link className="text-link" to="/chuyen-de">Ghé trang chuyên đề <Arrow/></Link></>}
-          </div>
-          {import.meta.env.DEV&&weekly&&<div className="weekly-excerpt" id="weekly-excerpt"><h3>Một khoảng dừng trước giấc ngủ</h3><p>Đôi khi bạn đã nằm xuống nhưng vẫn nghĩ về bài kiểm tra, một cuộc nói chuyện hoặc việc chưa xong. Bạn có thể thử ghi điều đang bận lòng ra giấy, để dành một lúc khác nhìn lại.</p><p>Chọn một việc nhẹ nhàng trước khi ngủ và xem điều gì phù hợp với mình. Nếu khó ngủ thường xuyên hoặc ảnh hưởng đến sinh hoạt, hãy trao đổi với người lớn tin cậy hoặc người có chuyên môn.</p><p className="sample-notice">Đoạn mẫu để duyệt giao diện, chưa kiểm chứng nguồn hoặc được chuyên gia rà soát. Không dùng thay cho tư vấn cá nhân.</p></div>}
-        </div>
-      </section>
+      <WeeklySection/>
       <section id="nen-tang" className="about page-width section-anchor">
         <div className="about-heading"><LeafMark/><h2>Mỗi người<br/>một mùa nở hoa.</h2></div>
         <div className="about-copy"><p className="large-prose">Không Gian Nội Tâm bắt đầu từ một điều nhỏ: ai cũng cần một nơi để hiểu những gì đang diễn ra bên trong mình.</p><p>Ở đây, chuyện học hành, bạn bè, gia đình và những ngày khó gọi tên được kể bằng ngôn ngữ gần gũi. Không phán xét. Không bắt bạn phải “tích cực lên”.</p><p>Chúng mình hướng đến nội dung có nguồn, được rà soát cẩn thận và tôn trọng nhịp riêng của mỗi người. Những trang đọc hiện tại là bản nháp để xem trước, chưa được chuyên gia duyệt.</p><Link className="text-link" to="/#bai-viet">Tìm một trang dành cho bạn <Arrow/></Link></div>

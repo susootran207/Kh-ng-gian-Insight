@@ -1,0 +1,6 @@
+/* W1 controls only; the approved empty spread, artwork and global styles stay intact. */
+.weekly-copy > button + .home-reading-route { margin-inline-start: 24px; }
+.weekly-library-link { margin-inline-end: 24px; }
+@media (max-width: 600px) {
+  .weekly-copy > button + .home-reading-route { margin-inline-start: 0; display: flex; width: fit-content; }
+}
