@@ -1,3 +1,45 @@
+# QA phát hành V1.0 — Full Library at Launch
+
+Cập nhật 26/10/2026, Asia/Ho_Chi_Minh. Nền main `cbb88fd0b31b6745765b15c782857c07bdef2823`, N1 đã merge qua PR #23. Đây là kế hoạch QA, **không phải báo cáo test mới**. [Roadmap A](IMPLEMENTATION-ROADMAP.md) · [checklist P1](P1-PUBLICATION-CHECKLIST.md).
+
+## Quy tắc áp dụng mới
+
+Quyết định A yêu cầu 29/29 bài eligible + 29/29 SVG đúng quyền khi phát hành. Các case “public 0 bài”, “29 slug đều 404” trong kế hoạch nền bên dưới chỉ đúng trước khi có grant thật hoặc cho fixture bị giữ; **không còn là expected của release V1.0 đủ quyền**. Release phải mở cả 29 bài qua mọi lối đọc; bài/asset chưa đủ quyền trong ca âm vẫn bị chặn. Không giảm scanner/guard để đổi số đếm.
+
+Báo cáo F0/R1/C1/W1/N1 có kết quả lịch sử theo SHA, gồm build/scanner/browser sau khi môi trường đã hoạt động. Các lỗi dependency/build ngày 25/10 ở phần nền không phải kết luận main hiện tại. Phiên tài liệu chỉ đọc GitHub/kiểm diff/liên kết; không chạy build/browser, không kiểm khoa học/quyền và không dùng kết quả cũ làm QA release mới.
+
+## Ma trận chặn phát hành
+
+| Case | Giai đoạn | Bằng chứng/expected bắt buộc |
+|---|---|---|
+| REL01 | P1 | 29 phiếu đủ editorialApproval/expertReview/readerQA/learnerReview/publicationAuthorization + 29 assetRights; contentHash/revisionHash/proofHash/assetHash đúng; người có thẩm quyền xác minh người và quyền thật |
+| REL02 | P1/Q1 | Nguồn khoa học, an toàn tâm lý, thử đọc, giới hạn công cụ, a11y và credit từng bài/hình được xử lý; pending không tự thành approved |
+| REL03 | P2/Q1 | Set ID/slug đúng đủ 29, không duplicate legacy C03/C05/C09/C17; production Library mặc định có đủ 29, C03 đúng title ARTICLE/slug cũ; không summary/placeholder |
+| REL04 | P2/Q1 | Mỗi bài: source/AST/DOM fidelity và source-map toàn nguồn, đủ APA/citation/hoạt động/phản hồi/bảng, đúng SVG hash/alt/caption/mô tả/credit; xem từng bài hẹp/rộng |
+| REL05 | P2/Q1 | Crawl 29 route dưới /Kho-ng-gian-Insight/#/: direct/reload/history/TOC/related/return, không fallback che 404; search dấu/không dấu và AND filters; Dòng chảy đủ 4 chặng, mọi liên kết đúng tập eligible |
+| REL06 | P2/Q1 | Positive: 29 bài và 29 hình đủ quyền xuất trong production. Negative test-only: draft/in_review/approved, thiếu một review/rights, proof lệch hash/revision/date, thay source/dossier/metadata/SVG vẫn reject; không sửa dữ liệu thật để thử |
+| REL07 | P2/Q1 | Clean production graph + toàn artifact + CLI/canary đạt; không raw ARTICLE/dossier/manifest/review records/registry/fixture/maps/preview module hoặc bytes chưa đủ quyền; shared slug hợp quyền không bị blacklist vĩnh viễn |
+| REL08 | P2/Q1 | Preview trước rồi production sạch riêng; query/localStorage/client toggle không mở nháp; preview endpoint/raw nguồn/fixture vẫn HTTP404 ở production. 29 route đủ quyền là positive; route nháp tổng hợp/unknown là negative |
+| REL09 | W2/Q1 | Registry có lịch thật đã duyệt, topic proof riêng đúng title/order/interval hash; mọi member thuộc library public, không FEATURED/T01–T09 ngầm; homepage/index/detail/library filter cùng snapshot và thứ tự |
+| REL10 | W2/Q1 | Asia/Ho_Chi_Minh +07:00: trước/đúng/sau start/end (start inclusive/end exclusive), reject overlap/calendar sai, future không lộ, gap fallback có nhãn, quyền rút/topic rỗng fail closed; lịch không cấp quyền |
+| REL11 | W2/Q1 | Build hai snapshot kề mốc: chuyên đề đổi đúng, tập 29 bài/29 hình và direct links giữ nguyên; đổi tuần không loại bài khỏi Library/search/stage. Build tĩnh cũ không tự đổi theo client clock |
+| REL12 | W2/Q1 | Kịch bản GitHub Pages được review: rebuild/deploy thủ công có người phụ trách, kiểm SHA/artifact/clock và mốc không phát trước giờ, smoke test/rollback; chưa chạy deploy trong phiên kế hoạch hoặc PR tích hợp |
+| REL13 | D1/G1/Q1 | NAV/READ/SAFE/PRIV/motion/thiết kế ở ma trận nền: keyboard/focus, 320/390/768/1440, 200% native, screen reader thực, Safari/Firefox/thiết bị thật theo phạm vi bắt buộc; ghi tổ hợp/version và bằng chứng, U không là PASS |
+| REL14 | Q1 | Fresh production build + suites F0/R1/C1/W1 và test tích hợp P2/W2 theo PR tương lai, N1/D1/G1/hồi quy/privacy/a11y/performance; đúng SHA/lockfile/output, không ghi đè baseline lịch sử |
+| REL15 | Q1 | Recheck 29/29 eligibility, 29/29 quyền hình, không proof hết hiệu lực/thu hồi, lịch có dữ liệu và toàn route hoạt động; report SHA + artifact digest + lệnh/kết quả + issue/giới hạn + người quyết định release |
+
+Test mới cho P2/W2 chỉ được thêm trong giai đoạn đã được cấp quyền; phiên này không sửa test/CI. Fixture synthetic không phải giấy duyệt thật. Không thay 5 review bắt buộc bằng một kết quả test kỹ thuật.
+
+## Release decision
+
+PASS release gate chỉ khi toàn bộ tiêu chí bắt buộc đạt. Thiếu một bài, một quyền SVG, proof đúng revision/hash, lịch thật hoặc production QA: **release BLOCKED**. Không phát hành thiếu bài/tóm tắt/placeholder, không tự sửa quyền, không bỏ test hoặc nới F0. Thiếu nhân lực/công cụ QA ghi BLOCKED/U và bố trí xử lý; không tự chấp nhận thay chủ dự án. Giới hạn không chặn chỉ được ghi nhận với người có thẩm quyền, không được miễn gate 29/29/chuyên môn/quyền/F0.
+
+Q1 đóng release candidate có thể kiểm local artifact dự kiến GitHub Pages; smoke test URL production thật thực hiện sau chỉ thị deploy riêng. Nếu smoke test thất bại thì dừng/rollback theo kế hoạch đã duyệt, không tuyên bố release thành công. Phiên này dừng Draft PR tài liệu.
+
+---
+
+## Ma trận nền 25/10/2026 — tham khảo lịch sử, áp dụng override V1.0 ở trên
+
 # Kế hoạch QA và bằng chứng
 
 Ngày 25/10/2026, Asia/Saigon. Xem [hiện trạng](CURRENT-STATE-AUDIT.md), [contract](CONTENT-INTEGRATION.md), [roadmap](IMPLEMENTATION-ROADMAP.md). Chỉ mục 1 ghi kết quả phiên này; các mục sau là kế hoạch cho PR được cấp quyền.
