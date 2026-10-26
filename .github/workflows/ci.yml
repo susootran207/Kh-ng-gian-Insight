@@ -1,0 +1,100 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Verify prototype
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: prototype
+        shell: bash
+    env:
+      CI: 'true'
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        id: node
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
+        with:
+          node-version: '24.19.0'
+          cache: npm
+          cache-dependency-path: prototype/package-lock.json
+
+      - name: Install locked dependencies
+        id: install
+        run: npm ci --no-audit --no-fund
+
+      - name: Check source manifest (29-article baseline)
+        id: manifest
+        run: npm run content:manifest -- --check
+
+      - name: Test F0 contract and publication guard
+        id: f0
+        run: npm run test:f0
+
+      - name: Typecheck
+        id: typecheck
+        run: ./node_modules/.bin/tsc -b
+
+      - name: Build fresh production output (includes publication guard)
+        id: build
+        run: |
+          rm -rf dist
+          npm run build
+
+      - name: Scan fresh production output
+        id: publication
+        run: npm run test:content
+
+      - name: Report PASS / FAIL / BLOCKED
+        if: ${{ always() }}
+        working-directory: .
+        env:
+          CHECKOUT: ${{ steps.checkout.outcome }}
+          NODE: ${{ steps.node.outcome }}
+          INSTALL: ${{ steps.install.outcome }}
+          MANIFEST: ${{ steps.manifest.outcome }}
+          F0: ${{ steps.f0.outcome }}
+          TYPECHECK: ${{ steps.typecheck.outcome }}
+          BUILD: ${{ steps.build.outcome }}
+          PUBLICATION: ${{ steps.publication.outcome }}
+        run: |
+          {
+            echo '## CI verification'
+            echo
+            echo '| Check | Result |'
+            echo '| --- | --- |'
+            for check in CHECKOUT NODE INSTALL MANIFEST F0 TYPECHECK BUILD PUBLICATION; do
+              outcome="${!check}"
+              case "$outcome" in
+                success) result=PASS ;;
+                failure) result=FAIL ;;
+                *) result=BLOCKED ;;
+              esac
+              echo "| $check | $result ($outcome) |"
+            done
+            echo
+            echo 'PUBLICATION PASS means the F0 scanner accepted this fresh output, including its negative canary.'
+            echo 'Skipped/cancelled checks are BLOCKED, never PASS. Inspect failing step logs for the cause.'
+            echo 'No deployment or build artifact upload is performed.'
+          } >> "$GITHUB_STEP_SUMMARY"
