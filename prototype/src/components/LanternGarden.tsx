@@ -1,43 +1,58 @@
 import { useEffect, useRef, useState, type CSSProperties, type FormEvent } from 'react'
 import { Arrow } from './Icons'
 import { MotionRegion } from './MotionRegion'
+import { Link } from 'react-router-dom'
+import { createLanternLifetime } from './lanternLifetime'
+import '../styles/reflection.css'
 
 type Lantern = {id:number; x:number; drift:number; duration:number}
 export function LanternGarden() {
   const [text,setText]=useState('')
   const [lanterns,setLanterns]=useState<Lantern[]>([])
-  const [sent,setSent]=useState(false)
+  const [notice,setNotice]=useState('')
   const input=useRef<HTMLTextAreaElement>(null)
   const nextId=useRef(0)
-  const timers=useRef<ReturnType<typeof setTimeout>[]>([])
+  const timers=useRef<ReturnType<typeof createLanternLifetime>|null>(null)
+  if(!timers.current)timers.current=createLanternLifetime(id=>setLanterns(items=>items.filter(item=>item.id!==id)))
+  const lifetime=timers.current
+  const clearWriting=()=>{setText('');if(input.current)input.current.value=''}
   useEffect(()=>{
-    const clear=()=>{setText('');if(input.current)input.current.value=''}
-    window.addEventListener('pagehide',clear)
-    return()=>{window.removeEventListener('pagehide',clear);timers.current.forEach(clearTimeout)}
+    const reset=()=>{clearWriting();setNotice('');lifetime.clear();setLanterns([])}
+    const restore=(event:PageTransitionEvent)=>{if(event.persisted)reset()}
+    window.addEventListener('pagehide',reset)
+    window.addEventListener('pageshow',restore)
+    return()=>{
+      window.removeEventListener('pagehide',reset);window.removeEventListener('pageshow',restore)
+      lifetime.clear()
+      if(input.current)input.current.value=''
+    }
   },[])
   const release=(e:FormEvent)=>{
     e.preventDefault()
-    if(!text.trim()){input.current?.focus();return}
+    if(!input.current?.value.trim()){input.current?.focus();return}
     // Never copy the message into animation data, DOM attributes, URL or storage.
-    setText('')
-    if(input.current)input.current.value=''
-    setSent(true)
+    clearWriting()
+    setNotice('Bạn vừa dành một khoảng dừng cho mình. Có thể ngồi lại đây thêm một chút.')
     const id=++nextId.current
     setLanterns(previous=>[...previous.slice(-3),{id,x:25+Math.random()*50,drift:(Math.random()-.5)*90,duration:7+Math.random()*2}])
-    timers.current.push(setTimeout(()=>setLanterns(items=>items.filter(item=>item.id!==id)),9500))
+    lifetime.add(id)
   }
   return <section id="tam-tinh" className="reflection section-anchor">
     <div className="reflection-copy">
       <h2>Góc tâm tình</h2>
       <p className="reflection-lead">Có một điều<br/>bạn muốn buông xuống?</p>
       <p>Không cần viết hay. Không cần kể hết.<br className="desktop-break"/> Chỉ một điều bạn muốn đặt xuống lúc này.</p>
+      <p>Viết và thả đèn là một hoạt động tự nguyện, mang tính biểu tượng. Không có người nhận, đọc hoặc phản hồi lời viết.</p>
       <form onSubmit={release} autoComplete="off">
         <label htmlFor="reflection">Điều bạn muốn gửi theo ánh đèn</label>
-        <textarea ref={input} id="reflection" name="reflection" value={text} onChange={e=>{setText(e.target.value);setSent(false)}} rows={3} maxLength={500} placeholder="Ở đây, bạn có thể viết cho riêng mình…" aria-describedby="reflection-privacy" spellCheck={false} autoComplete="off"/>
-        <div className="reflection-actions"><button type="submit" className="button gold-button" disabled={!text.trim()}>Thả một ngọn đèn <Arrow/></button><span className="character-count" aria-hidden="true">{text.length}/500</span></div>
+        <textarea ref={input} id="reflection" name="reflection" value={text} onChange={e=>{setText(e.target.value);setNotice('')}} rows={3} maxLength={500} placeholder="Ở đây, bạn có thể viết cho riêng mình…" aria-describedby="reflection-privacy reflection-lifecycle" spellCheck={false} autoComplete="off"/>
+        <div className="reflection-actions"><button type="submit" className="button gold-button" disabled={!text.trim()}>Thả một ngọn đèn <Arrow/></button><button type="button" className="text-link" disabled={!text.length} onClick={()=>{clearWriting();setNotice('Đã xóa lời viết khỏi ô nhập.');input.current?.focus()}}>Xóa lời viết</button><span className="character-count" aria-hidden="true">{text.length}/500</span></div>
       </form>
-      <p id="reflection-privacy" className="privacy-note">Chỉ ở trong phiên này. Không gửi cho ai, không lưu lại. Nội dung được xóa khi bạn thả đèn hoặc rời trang.</p>
-      <p className="release-status" role="status">{sent?'Bạn vừa dành một khoảng dừng cho mình. Có thể ngồi lại đây thêm một chút.':''}</p>
+      <p id="reflection-privacy" className="privacy-note">Lời viết chỉ ở tạm trong giao diện, không gửi đến máy chủ hoặc lưu thành hồ sơ. Thả đèn hoặc xóa sẽ làm trống ô nhập ngay, không cần chờ hiệu ứng. Bạn không cần nhập tên, thông tin liên hệ hay chi tiết nhạy cảm.</p>
+      <details className="privacy-details" id="reflection-lifecycle"><summary>Lời viết khi chuyển trang</summary><p>Chuyển mục ngay trên trang chủ hoặc dùng Back/Forward giữa các mục giữ lời đang gõ. Rời trang chủ để mở trang khác, tải lại hoặc rời trang web sẽ bỏ lời viết; quay lại không khôi phục lời. Đèn chưa kết thúc cũng được dừng khi rời trang. Chỉ đổi tab không có nghĩa là rời trang.</p><p>Ô nhập có giới hạn 500 theo bộ đếm của trình duyệt; một số emoji có thể được tính nhiều hơn một ký tự. Đây không phải cam kết bảo mật tuyệt đối hoặc xóa vật lý dữ liệu khỏi bộ nhớ thiết bị.</p></details>
+      <p className="privacy-note">Thả đèn không bảo đảm giải quyết điều đang làm bạn khó chịu. Nếu cảm thấy không an toàn, hãy tìm người lớn đáng tin cậy ở gần hoặc sự hỗ trợ trực tiếp; đừng chờ phản hồi từ website.</p>
+      <Link className="text-link" to="/thu-vien">Bỏ qua, ghé thư viện <Arrow/></Link>
+      <p className="release-status" role="status">{notice}</p>
     </div>
     <MotionRegion className="lantern-sky">
       <div className="moon" aria-hidden="true"/>

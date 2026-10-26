@@ -60,7 +60,7 @@ export const sections: Section[] = [
   ]},
   {id:'rieng-tu-trong-khu-vuon',title:'Riêng tư trong khu vườn',paragraphs:[
     'Website hiện không có tài khoản, hộp thư tư vấn hay chức năng lưu câu trả lời hoạt động. Bạn có thể đọc mà không viết điều gì về bản thân.',
-    'Ở Góc tâm tình, lời đang gõ chỉ tồn tại tạm trong giao diện trình duyệt. Thao tác thả đèn không gửi lời viết đến máy chủ, không lưu thành hồ sơ và không có người nhận. Lời viết được xóa khỏi ô nhập và trạng thái giao diện khi thả đèn, khi rời trang chủ sang một trang khác; chuyển giữa các mục ngay trên trang chủ không đồng nghĩa với việc xóa.',
+    'Ở Góc tâm tình, lời đang gõ chỉ tồn tại tạm trong giao diện trình duyệt. Thao tác thả đèn không gửi lời viết đến máy chủ, không lưu thành hồ sơ và không có người nhận. Lời viết được xóa khỏi ô nhập và trạng thái giao diện khi thả đèn hoặc chọn xóa, khi tải lại hoặc rời trang chủ sang một trang khác; quay lại không khôi phục lời. Chuyển giữa các mục ngay trên trang chủ giữ lời đang gõ. Đèn chưa kết thúc được dừng khi rời trang.',
     'Đó là mô tả chức năng hiện hành, không phải cam kết bảo mật tuyệt đối cho thiết bị, tiện ích trình duyệt hay hạ tầng lưu trữ website. Website cũng không bảo đảm xóa vật lý dữ liệu khỏi bộ nhớ thiết bị. Bạn không cần nhập tên, thông tin liên hệ hoặc chi tiết riêng tư để sử dụng khu vườn.'
   ]}
 ]

@@ -1,0 +1,12 @@
+[
+  {
+    "state": "before",
+    "lanterns": 2,
+    "textareaEmpty": true
+  },
+  {
+    "state": "after",
+    "lanterns": 1,
+    "textareaEmpty": true
+  }
+]

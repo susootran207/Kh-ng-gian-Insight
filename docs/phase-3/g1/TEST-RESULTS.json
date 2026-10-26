@@ -1,0 +1,302 @@
+{
+  "environment": {
+    "node": "24.19.0",
+    "npm": "11.9.0",
+    "chromium": "154.0.8037.57",
+    "platform": "Linux headless"
+  },
+  "checks": [
+    {
+      "command": "npm run test:f0",
+      "status": "PASS",
+      "passed": 22,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:r1",
+      "status": "PASS",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:c1",
+      "status": "PASS",
+      "passed": 34,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:w1",
+      "status": "PASS",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:d1",
+      "status": "PASS",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:g1",
+      "status": "PASS",
+      "passed": 2,
+      "failed": 0
+    },
+    {
+      "suite": "g1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T12:25:36.802Z",
+        "duration": 49194.537,
+        "expected": 9,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "c1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T12:11:08.891Z",
+        "duration": 265102.035,
+        "expected": 8,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "r1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T12:16:18.331Z",
+        "duration": 30353.281,
+        "expected": 8,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "w1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T12:16:49.904Z",
+        "duration": 41568.270000000004,
+        "expected": 7,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "n1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T12:17:32.647Z",
+        "duration": 29165.926,
+        "expected": 5,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "d1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T12:18:02.944Z",
+        "duration": 39888.328,
+        "expected": 6,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "production",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T12:27:26.489Z",
+        "duration": 32705.436,
+        "expected": 13,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "regression",
+      "status": "PASS after targeted rerun",
+      "uniqueCasesPassed": 30,
+      "initialPassed": 29,
+      "initialFailed": 1,
+      "initialError": "atmosphere: clock.pauseAt(epoch) after install(epoch): Cannot fast-forward to the past, before app load",
+      "rerunStats": {
+        "startTime": "2026-10-26T12:21:49.793Z",
+        "duration": 8419.039,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "testOrApplicationChangedForRerun": false,
+      "openLimitation": "Existing clock setup can be flaky; not silently retried or fixed outside G1"
+    },
+    {
+      "command": "npm run build + scanner",
+      "status": "PASS",
+      "files": 29,
+      "withheldArticles": 29,
+      "markerCount": 4335,
+      "publicSourceArticles": 0,
+      "publicLegacyArticles": 0,
+      "publicWeeklyTopics": 0,
+      "publicWeeklyArticles": 0,
+      "canary": "detected"
+    }
+  ],
+  "C1RegressionCoverage": [
+    {
+      "width": 320,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0
+    },
+    {
+      "width": 768,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0
+    }
+  ],
+  "privacyEvidence": {
+    "canary": "synthetic technical strings only",
+    "normalAndReducedMotion": true,
+    "HTTPRequestsOnEditClearRelease": 0,
+    "localStorage": 0,
+    "sessionStorage": 0,
+    "IndexedDBDatabases": 0,
+    "CacheStorage": 0,
+    "cookies": 0,
+    "canaryInURLHistoryConsoleErrorOrWebSocketFrames": false,
+    "maxTimerHandles": 4,
+    "timerStressReleases": 1000,
+    "nativeBFCacheVerified": false,
+    "initialPageshowKeepsEarlyInput": true,
+    "persistedPageshowClearsInput": true
+  },
+  "logs": [
+    {
+      "path": "verification/manifest.txt",
+      "sha256": "18f478b42091fe941bc6c519b20781bf0d5956f33db48881578b7546e9dc9e98"
+    },
+    {
+      "path": "verification/f0.txt",
+      "sha256": "715987fa272020ea52b024cfbc6a04b62f6a84e06f59dc00c2a76a431110d407"
+    },
+    {
+      "path": "verification/r1.txt",
+      "sha256": "816b820dae6f0bf3d72d82ae6fe7c1ab5be109d5d7e960ce863ff382d8ee7e85"
+    },
+    {
+      "path": "verification/c1.txt",
+      "sha256": "c0265f52e01c788dc02827bcfbb96b8cbd927fed79bd7cf3b446c3767837055b"
+    },
+    {
+      "path": "verification/w1.txt",
+      "sha256": "878cf20bf6862b377e756e65883261a9f6f0ee1303d1f78663aaaa688ea1a57e"
+    },
+    {
+      "path": "verification/d1.txt",
+      "sha256": "4dea06b15c98380d2ce4f2ca9ceb0b8ad89c1f3122647ae65f5fbe4d1bb07f34"
+    },
+    {
+      "path": "verification/g1.txt",
+      "sha256": "6cc962fd6c5bcf93788d14173af9841a152e322fb100fb629edfbcea3179d516"
+    },
+    {
+      "path": "verification/g1-browser.txt",
+      "sha256": "d811d0840c0a5aace8359cca3d46b4557923b158a8a73e2fa83084a07eca5ce3"
+    },
+    {
+      "path": "verification/g1-browser-initial.txt",
+      "sha256": "8cf1d29b32badeecb67b023f641bb8bd3bf029e9b10b2ecf1518818c5b27b132"
+    },
+    {
+      "path": "verification/c1-browser.txt",
+      "sha256": "3f16eda06782177d7430fe337c2a80942c88b447281879dde94291828de43723"
+    },
+    {
+      "path": "verification/r1-browser.txt",
+      "sha256": "487e247e77e317e0fd822d17d800d6450c8638d609e46935c64bc421f93cb4a0"
+    },
+    {
+      "path": "verification/w1-browser.txt",
+      "sha256": "baacc62470d2d3a4ddf79bea85d29dc2fb916d0381af241119e5004ba1304a55"
+    },
+    {
+      "path": "verification/n1-browser.txt",
+      "sha256": "3cfd83fb7f10fa4052e1faeab31697621c351a031590a82dc5b91db1cbfe083c"
+    },
+    {
+      "path": "verification/d1-browser.txt",
+      "sha256": "dedc6c0f94d15ed0a3577990f578611ebba414ce4faa4c6ce165ad70c71da3da"
+    },
+    {
+      "path": "verification/regression-initial.txt",
+      "sha256": "49f4f9dda5aadf960c92c0ca46b2204761b1269565fe9f529ac1f5e1d7b7d474"
+    },
+    {
+      "path": "verification/regression-ambient-rerun.txt",
+      "sha256": "74f24575ecda6ca24ad4db5200efacf003b40a6a4211691cc81f73ef370be57d"
+    },
+    {
+      "path": "verification/production.txt",
+      "sha256": "ee3e87528373582e2b5d7d59c8f64d06aecdd5a3d05d99b95719c5d21a34e8f9"
+    },
+    {
+      "path": "verification/build.txt",
+      "sha256": "6e3d3dd2d2d604935afdc08a697f3b1bd69126532bb722cae89b4861b35c8715"
+    },
+    {
+      "path": "verification/build-qa.txt",
+      "sha256": "56f75676e0c053d4962c1fbca35e75c147e200ab8947578d372c01e854526f5c"
+    }
+  ],
+  "unverified": [
+    "native browser zoom 200%",
+    "screen reader",
+    "Safari/Firefox/Edge",
+    "physical devices",
+    "native BFCache/session restore on all browsers",
+    "third-party extensions/autofill/hosting logging",
+    "independent professional/learner review"
+  ],
+  "ci": "See Draft PR CI section for exact-head run/job and per-step outcomes; browser tests are local"
+}

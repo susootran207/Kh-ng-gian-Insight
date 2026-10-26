@@ -1,0 +1,60 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:g1:browser
+> playwright test -c playwright.g1.config.ts
+
+[WebServer] (node:61103) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:61117) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 9 tests using 1 worker
+
+(node:61138) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/reflection.spec.ts:17:57 › G1 private canary, edit/clear/release and HTTP/storage/URL/console reduce (2.9s)
+  ✓  2 tests/reflection.spec.ts:17:57 › G1 private canary, edit/clear/release and HTTP/storage/URL/console no-preference (3.8s)
+  ✘  3 tests/reflection.spec.ts:33:1 › G1 same-tick submit, Unicode limit, bounded timers, pagehide/pageshow and unmount (4.8s)
+(node:61361) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  4 tests/reflection.spec.ts:48:1 › G1 anchors/history retain draft; route/reload discard; visibility alone retains (7.3s)
+  ✓  5 tests/reflection.spec.ts:56:39 › G1 keyboard, skip, copy, Axe and responsive 320 (6.4s)
+  ✓  6 tests/reflection.spec.ts:56:39 › G1 keyboard, skip, copy, Axe and responsive 390 (5.6s)
+  ✓  7 tests/reflection.spec.ts:56:39 › G1 keyboard, skip, copy, Axe and responsive 768 (5.3s)
+  ✓  8 tests/reflection.spec.ts:56:39 › G1 keyboard, skip, copy, Axe and responsive 1440 (5.2s)
+  ✓  9 tests/reflection.spec.ts:68:1 › G1 reduced motion and 200%-equivalent reflow (not native zoom) (2.0s)
+
+
+  1) tests/reflection.spec.ts:33:1 › G1 same-tick submit, Unicode limit, bounded timers, pagehide/pageshow and unmount 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 1
+    Received: 0
+
+      35 |  await field(page).focus();await page.keyboard.insertText('🧪'.repeat(300));expect(await field(page).inputValue()).toHaveLength(500);await expect(page.locator('.character-count')).toHaveText('500/500')
+      36 |  await field(page).fill(canary);await page.locator('#tam-tinh form').evaluate(form=>{form.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));form.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}))})
+    > 37 |  await expect(page.locator('.released-lantern')).toHaveCount(1);expect(await pending(page)).toBe(1)
+         |                                                                                             ^
+      38 |  for(let i=0;i<12;i++){await field(page).fill(canary);await release(page).click();expect(await pending(page)).toBeLessThanOrEqual(4)}
+      39 |  await expect(page.locator('.released-lantern')).toHaveCount(4);expect(await pending(page)).toBe(4)
+      40 |  await page.clock.fastForward(9500);await expect(page.locator('.released-lantern')).toHaveCount(0);expect(await pending(page)).toBe(0)
+        at /workspace/work/g1/repo/prototype/tests/reflection.spec.ts:37:93
+
+    Error Context: test-results-g1/reflection-G1-same-tick-su-a7e18-gehide-pageshow-and-unmount/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-g1/reflection-G1-same-tick-su-a7e18-gehide-pageshow-and-unmount/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results-g1/reflection-G1-same-tick-su-a7e18-gehide-pageshow-and-unmount/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/reflection.spec.ts:33:1 › G1 same-tick submit, Unicode limit, bounded timers, pagehide/pageshow and unmount 
+  8 passed (50.5s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
