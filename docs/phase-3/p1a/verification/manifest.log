@@ -1,0 +1,5 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 content:manifest
+> node --experimental-strip-types scripts/generate-manifest.mts --check
+
+Source manifest: 29 records; unchanged; no publication grants.
