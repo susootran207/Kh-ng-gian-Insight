@@ -1,54 +1,39 @@
-# Quyết định cần chủ dự án chọn
+# Quyết định phát hành V1.0
 
-Ngày 25/10/2026, Asia/Saigon. Draft PR này chỉ gồm [kiểm toán](CURRENT-STATE-AUDIT.md), [hợp đồng tích hợp](CONTENT-INTEGRATION.md), [roadmap](IMPLEMENTATION-ROADMAP.md), [QA](QA-PLAN.md) và tài liệu này. Chưa triển khai.
+Cập nhật 26/10/2026, Asia/Ho_Chi_Minh. Main `cbb88fd0b31b6745765b15c782857c07bdef2823`; PR #23/N1 đã merge lúc 18:05:24 +07:00. [Roadmap](IMPLEMENTATION-ROADMAP.md) · [P1 checklist](P1-PUBLICATION-CHECKLIST.md).
 
-## Đã chốt, không hỏi lại
+## Đã chốt — không hỏi lại
 
-- 29/29 bản nháp được nghiệm thu nội bộ: bốn mẫu r2 và 25 bài B01–B05 r1. Chỉ sửa khi có lỗi thực chất.
-- Giữ Mây, tử đằng B, palette, font, artwork, bố cục và chức năng tốt.
-- Nghiệm thu bản nháp khác phê duyệt chuyên môn, nội dung cuối, quyền tài sản và quyền xuất bản.
-- Không backend, đăng nhập, lưu tâm tình, trắc nghiệm hoặc đưa 29 bài vào production catalogue/published.
-- PR #16 đã merge; main là 29510528e0cf465b8d709aed3190d9d5e8608de9.
-- Chỉ cho phép Draft PR năm tài liệu; không tự merge, deploy, publish hoặc bắt đầu PR chức năng.
+- **A — Full Library at Launch:** 29 bài đủ phê duyệt và đúng 29 hình có sẵn khi V1.0 ra mắt; được đọc bất kỳ bài qua Thư viện/search/filter/Dòng chảy/direct link. Weekly chỉ giới thiệu, không mở khóa và không xóa bài khi chuyển tuần.
+- Nghiệm thu nội bộ 29 bản nháp khác 29 phê duyệt đầy đủ và 29 công khai. A không thay thế review chuyên môn, quyền tài sản hoặc bằng chứng xuất bản đúng revision/hash.
+- Thiếu một bài/quyền hình/bằng chứng bắt buộc: **release BLOCKED**; không 28/29, placeholder, tóm tắt, tự gán license hoặc nới F0.
+- Giữ D1/G1 và thiết kế Mây/tử đằng B/font/palette/artwork; không backend/login/trắc nghiệm/lưu tâm tình.
+- F0/R1/C1/W1/N1 đã tích hợp; C1 là preview, W1 chưa có lịch thật. N1 đã merge, không cần chủ dự án merge lại #23.
+- Lần này chỉ nhánh kế hoạch và Draft PR. Không triển khai D1/G1/P1/P2/W2/Q1, sửa dữ liệu/status/CI/UI hoặc merge/deploy/publish.
 
-Các tài liệu nền và báo cáo lô có mô tả quyền/trạng thái lịch sử. Giữ nguyên chúng; chỉ thị hiện tại xác nhận nghiệm thu nội bộ, không tự mở quyền triển khai.
+## Cần chủ dự án quyết định trước khi phát hành
 
-## Các lựa chọn cho bước sau
-
-| Mã | Cần chọn | Khuyến nghị / tác động | Khi cần |
+| Mã | Quyết định còn mở | Bằng chứng/kết quả cần có | Hạn cần |
 |---|---|---|---|
-| D01 | Phạm vi đợt đầu | **F0 contract và guard** riêng; sau đó R1 Reader với fixture, C1 preview 29 bài. Có thể cấp cả ba trong một chỉ thị nhưng mỗi PR vẫn nghiệm thu riêng | Trước sửa code |
-| D02 | Nguồn dữ liệu | Giữ ARTICLE là nguồn prose; manifest sinh và pin revision/hash. Title từ h1, metadata từ nguồn được chốt. Một season chính, nhiều topicIds; không migration đa giai đoạn đợt đầu | F0 |
-| D03 | Preview | Entry/output riêng, chỉ loopback 127.0.0.1, banner/revision rõ. Nếu muốn xem từ xa cần chọn kênh/access riêng; URL ẩn/noindex không là quyền truy cập. Repo hiện công khai | F0/R1, trước C1 |
-| D04 | Nền tảng và Dòng chảy | Thêm /nen-tang và /dong-chay bằng ReadingShell; giữ section và anchor cũ. Không đổi toàn bộ navigation hoặc composition | N1/D1 |
-| D05 | Góc tâm tình | Giữ section /#tam-tinh, thêm quyền bỏ qua và hướng dẫn đúng thực tế; không thêm route/inbox. Chỉ sửa timer bookkeeping khi có kiểm cụ thể | G1 |
-| D06 | Reader | GFM AST, không MDX/HTML thô; giữ APA, hoạt động/phản hồi, hình/alt/caption/mô tả. Xem hình lớn để giữ SVG nguồn. Dossier dùng cho provenance preview, không public raw dossier | F0/R1 |
-| D07 | Chuyên đề tuần | Chủ dự án chọn tên/lời dẫn/thứ tự/lịch T01–T09. Lịch +07:00, start inclusive/end exclusive, fallback gần nhất hợp quyền. Khuyến nghị chọn ở build time; không tự rebuild/deploy. Khi chưa chọn dữ liệu, chỉ làm logic fixture/empty state | W1 |
-| D08 | Môi trường và QA | Cài đúng lockfile, chạy lại build/browser khi kết nối hoạt động; bố trí người/công cụ screen reader và thiết bị iOS/Android/tablet trước tổng kiểm. Không giả nhân lực hoặc deadline | Mỗi PR/Q1 |
+| V01 | Người chịu trách nhiệm chuyên môn, an toàn tâm lý và biên tập từng bài | Người thật/năng lực/phạm vi/giới hạn, cách xác minh và quyền hiển thị tên; đủ 5 review F0 theo từng revision/hash | Đóng P1 |
+| V02 | Kế hoạch thử đọc, readerQA và assistive/thiết bị | Người/công cụ/tổ hợp browser–screen reader, bảo vệ dữ liệu người học, tiêu chí hiểu/khả dụng và xử lý blocker; không coi Axe là toàn bộ a11y | P1 và Q1 |
+| V03 | Chủ quyền và điều kiện công bố từng SVG cùng tài sản dùng chung | Giấy phép/chấp thuận, credit, phạm vi web/repo, thời hạn/thu hồi; phương án proof tối thiểu công khai tương thích F0 mà không lộ hợp đồng/dữ liệu nhạy cảm | P1, kiểm lại Q1 |
+| V04 | Bộ revision/hash cuối và người có thẩm quyền ký xuất bản | 29 phiếu READY, bằng chứng thật cho từng bài/hình, phạm vi và publishedAt hợp lệ; sửa nguồn chỉ khi có lỗi thực chất và được cấp riêng | P1 trước P2 |
+| V05 | Phạm vi triển khai từng mốc | Cho phép riêng D1/G1/P1/P2/W2/Q1, PR review và nghiệm thu theo roadmap; quyết định A không phải lệnh triển khai tất cả | Trước mốc tương ứng |
+| V06 | Lịch biên tập thật | Topic ID/slug/tên/lời dẫn/thứ tự bài từ library public, khoảng giờ +07:00, proof topic riêng; T01–T09/FEATURED không tự là lịch duyệt | W2 |
+| V07 | Vận hành GitHub Pages và chuyển tuần | Chốt người rebuild/deploy thủ công, người thay thế, mốc chuyển/độ trễ chấp nhận, smoke test/rollback; nếu muốn cron phải cấp phạm vi thiết kế riêng | W2 trước release |
+| V08 | Nghiệm thu release candidate và chỉ thị deploy/publish | SHA/artifact/QA/bằng chứng còn hiệu lực; ghi rõ giới hạn còn lại và quyết định xử lý; mọi blocker nguồn/quyền/29 bài bắt buộc phải đóng | Q1 rồi chỉ thị phát hành riêng |
 
-Đây là khuyến nghị để review, chưa phải quyền thực thi. Chủ dự án có thể chọn một gói phạm vi; không cần trả lời tám câu để hoàn tất Draft PR tài liệu. Chưa chọn lịch tuần không cản N1/G1 độc lập hoặc buộc viết lại bài.
+Ngày phát hành cụ thể chưa chốt; không đặt deadline giả. Có thể chốt người/phạm vi khi cấp từng giai đoạn, không cần trả lời các mục này để tạo Draft PR kế hoạch.
 
-## Những gate trước công bố vẫn riêng biệt
+## Giới hạn còn mở
 
-| Gate | Bằng chứng cần có | Hiện trạng |
-|---|---|---|
-| Chuyên môn độc lập | Người thật, năng lực phù hợp bài/risk/tuổi/công cụ; phạm vi, ngày, revision/hash, giới hạn và đồng ý hiển thị tên nếu có | Chưa ghi nhận reviewer thật cho 29 bài; không tự điền |
-| Thử đọc | THCS–THPT trong điều kiện khác nhau; kiểm hiểu/khả dụng của hoạt động, không thu dữ liệu tâm lý vào repo công khai | Chưa thực hiện |
-| Reader/assistive/thiết bị | QA đúng revision: không mất nội dung, bảng/hình/nguồn/focus/zoom/screen reader; sửa lỗi thực chất | Chưa có Reader 29 bài |
-| Nguồn và cập nhật | Claim đúng phạm vi, ghi đúng nguồn trực tiếp/thứ cấp/Abstract; kiểm phiên bản/đính chính/rút bài sát công bố khi liên quan | Không nghiên cứu lại trong kiểm toán này; pending trong dossier giữ nguyên |
-| Quyền tài sản | Quyền công bố, credit cuối cho từng SVG/tài nguyên/phông và bằng chứng đúng revision | Quyền review nháp không là giấy phép công bố; không tự gán CC |
-| Duyệt nội dung cuối | Chủ dự án/chủ thể được chỉ định chọn đúng revision/hash sau sửa cần thiết | Nghiệm thu nội bộ không thay gate này |
-| Quyền xuất bản | Chọn bài, revision, ngày, phạm vi, bằng chứng quyết định rõ | Chưa cấp; không published/catalogue production |
-| Deploy/publish website | Chỉ thị thực hiện riêng với artifact và selection đã kiểm | Ngoài Draft PR và roadmap engineering này |
+Kỹ thuật: P2 public adapter chưa có; W1 legacy slug boundary cần nối nguồn public đúng proof; build-time selector không tự đổi trên GitHub Pages; rebuild/deploy có độ trễ, cần rollback và xử lý thu hồi quyền. Báo cáo Chromium cũ chưa xác minh native zoom/screen reader/Safari/Firefox/thiết bị thật; Q1 phải có bằng chứng mới đúng artifact.
 
-Không cần đợi chuyên môn xong mới tạo engineering preview được cấp quyền. Nhưng preview không thay gate công bố. Pending không tự là lý do rewrite bài.
+Học thuật: chưa xác nhận toàn bộ nguồn/claim/cập nhật/đính chính và năng lực reviewer; chưa có thử đọc độc lập đủ phạm vi. Không dùng kết quả parser/fidelity để chứng minh tính đúng khoa học hoặc hiệu quả Bloom.
 
-## Nghiệm thu kế hoạch và điểm dừng
+Bản quyền: quyền duyệt bản nháp không phải quyền công bố; 29 SVG và tài sản dùng chung phải có chứng cứ phù hợp. F0 kiểm toàn vẹn/nhất quán, không xác minh pháp lý. Repo GitHub công khai; guard bảo vệ website, không làm source đã công khai thành riêng tư.
 
-1. Chỉ thêm năm tệp đã yêu cầu dưới docs/phase-3/integration-plan/.
-2. Base là main mới nêu trên; giữ nguyên toàn bộ 534 blob có sẵn, gồm 29 bài và mã ứng dụng/catalogue/schema/router/guard/package.
-3. Phân biệt kiểm source, đã chạy, lịch sử và chưa xác minh; ghi rõ build bị chặn bởi môi trường.
-4. Có đủ ID/slug/revision/link, contract, preview, phạm vi/phụ thuộc/tiêu chí mỗi PR và vùng thiết kế phải giữ.
-5. Draft=true; không ready/merge/deploy/publish hoặc bắt đầu F0.
+## Điểm dừng
 
-Bước tiếp theo khuyến nghị sau nghiệm thu: **“Cho phép F0 theo roadmap; dừng tại PR F0 để nghiệm thu.”** Đây là ví dụ chỉ thị để chủ dự án chọn, không phải quyền đã được cấp. Nếu chỉ duyệt tài liệu, vẫn dừng tại đây.
+Chỉ Draft PR tài liệu. Không ghi tên/ngày/phê duyệt giả, không sửa quyền hoặc “tự đóng” quyết định còn mở. Chủ dự án nghiệm thu kế hoạch trước khi cấp giai đoạn tiếp theo.

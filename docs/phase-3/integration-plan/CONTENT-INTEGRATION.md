@@ -1,3 +1,23 @@
+# Cập nhật V1.0 — Full Library at Launch (quyết định A)
+
+Ngày 26/10/2026, Asia/Ho_Chi_Minh. Nền main `cbb88fd0b31b6745765b15c782857c07bdef2823`, PR #23/N1 đã merge. Phần này là kế hoạch hiện hành, thay các khuyến nghị “chỉ preview/chưa có lộ trình xuất bản” của bản 25/10 bên dưới; không thay contract F0 hoặc bằng chứng lịch sử.
+
+**Đã chốt:** V1.0 ra mắt đủ 29 bài được phê duyệt, đúng toàn văn và 29 hình tương ứng. Thư viện/search/filter/Dòng chảy/direct link cho phép đọc bất kỳ bài nào. Weekly là lựa chọn nổi bật từ thư viện đã công bố; đổi tuần không rút bài khỏi thư viện. Không placeholder/tóm tắt, không tự cấp quyền, không nới F0; thiếu một bài thì release BLOCKED.
+
+Ba mức riêng biệt: **29 đã biên soạn/nghiệm thu nội bộ → 29 được phê duyệt đúng revision/hash → 29 công khai qua artifact production đã kiểm/deploy có phép**. Không được suy mức sau từ mức trước. Đọc manifest tại SHA nền: 29 draft, publication/publishedAt null và 29 assetRights null; weekly registry topics=[]; không cấp quyền trong phiên này.
+
+Xem [roadmap hiện hành](IMPLEMENTATION-ROADMAP.md) cho D1 → G1 → P1 → P2 → W2 → Q1 và [checklist P1](P1-PUBLICATION-CHECKLIST.md) cho từng bài/hình. Bảng 29 ID/slug/revision/SVG bên dưới vẫn là inventory nguồn hợp lệ; revision cuối chỉ chốt sau review thật. F0-CONTRACT, R1, C1 và W1 là nền đã triển khai, các mô tả “dự kiến/chưa có” ở phần lịch sử không phải hiện trạng main mới.
+
+P1 cần đủ 5 review F0 từng bài + assetRights từng SVG và proof thật đúng contentHash/revisionHash/asset hash; chuyên môn/an toàn/thử đọc/a11y/quyền hình phải có người xác minh. P2 chọn F0 PublicView ở build trước serialize, dùng chung compiler/Reader C1/R1 mà không import preview graph, không chép prose thành 29 JSON. Duy nhất một ARTICLE cho mỗi slug, xử lý 4 slug legacy không kế thừa giấy duyệt mẫu; mọi bề mặt dùng cùng tập eligible. Raw dossier/manifest/proof/fixture/maps vẫn không vào artifact.
+
+W1 hiện dùng catalogue legacy: P2 cần adapter nguồn public có kiểm F0 source evidence trước W2, không đổi tên nguồn thành legacy để né hash. W2 duyệt topic/lịch riêng +07:00, cùng snapshot build; website tĩnh phải rebuild/deploy mới chuyển chuyên đề. Đề xuất GitHub Pages thủ công có kiểm soát, chưa sửa workflow/hosting hoặc tạo lịch thật. Weekly subset không được cắt toàn library.
+
+**Phiên này chỉ tài liệu:** không sửa nguồn, manifest, catalogue, publication status, CI hoặc UI; không triển khai các mốc, merge/deploy/publish.
+
+---
+
+## Bản kế hoạch nền 25/10/2026 — giữ để đối chiếu lịch sử
+
 # Tích hợp 29 bài — đề xuất hợp đồng, chưa nhập runtime
 
 Căn cứ main29510528e0cf465b8d709aed3190d9d5e8608de9; kiểm ngày25/10/2026, Asia/Saigon. [Kiểm toán](CURRENT-STATE-AUDIT.md) ghi phương pháp đồng bộ và giới hạn runtime. **Không thêm29 bài vào prototype/editorial/catalogue.json, không đổi published.**
