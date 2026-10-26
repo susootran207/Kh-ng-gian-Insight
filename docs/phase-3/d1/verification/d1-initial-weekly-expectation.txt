@@ -1,0 +1,39 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:d1
+> tsc -p tsconfig.d1.json && node --experimental-strip-types --test --test-isolation=none tests/flow.test.mts
+
+✔ D1 mapping: exact F0 stage values and old query values, not topicIds (2.901088ms)
+✔ D1 F0 public empty: no source/legacy draft gains access through stages (207.785539ms)
+✖ D1 A: synthetic F0-approved 29 stay in Library across stages and weekly change; extensible 30+ (58.458842ms)
+✔ D1 fixture sentinel and module-only leaks are rejected by F0 production guard (1781.340664ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 3
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2202.416515
+
+✖ failing tests:
+
+test at tests/flow.test.mts:23:1
+✖ D1 A: synthetic F0-approved 29 stay in Library across stages and weekly change; extensible 30+ (58.458842ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  5 !== 3
+  
+      at TestContext.<anonymous> (file:///workspace/work/d1/repo/prototype/tests/flow.test.mts:30:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 5,
+    expected: 3,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

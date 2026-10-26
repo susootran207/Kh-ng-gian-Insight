@@ -1,0 +1,249 @@
+{
+  "environment": {
+    "node": "24.19.0",
+    "npm": "11.9.0",
+    "chromium": "154.0.8037.57",
+    "platform": "Linux headless"
+  },
+  "checks": [
+    {
+      "command": "npm run test:f0",
+      "status": "PASS",
+      "passed": 22,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:r1",
+      "status": "PASS",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:c1",
+      "status": "PASS",
+      "passed": 34,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:w1",
+      "status": "PASS",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:d1",
+      "status": "PASS",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "suite": "d1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T11:35:54.706Z",
+        "duration": 40791.377,
+        "expected": 6,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "c1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T11:29:42.099Z",
+        "duration": 258667.276,
+        "expected": 8,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "r1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T11:36:36.507Z",
+        "duration": 23325.805999999997,
+        "expected": 8,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "w1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T11:37:00.994Z",
+        "duration": 29242.407,
+        "expected": 7,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "n1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T11:37:31.155Z",
+        "duration": 21225.199,
+        "expected": 5,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "regression",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T11:37:53.301Z",
+        "duration": 99098.708,
+        "expected": 30,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "production",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T11:39:40.374Z",
+        "duration": 24097.646,
+        "expected": 12,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "command": "npm run build + scanner",
+      "status": "PASS",
+      "files": 29,
+      "withheldArticles": 29,
+      "markerCount": 4335,
+      "publicSourceArticles": 0,
+      "publicLegacyArticles": 0,
+      "publicWeeklyTopics": 0,
+      "publicWeeklyArticles": 0,
+      "canary": "detected"
+    }
+  ],
+  "C1RegressionCoverage": [
+    {
+      "width": 320,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0
+    },
+    {
+      "width": 768,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0
+    }
+  ],
+  "logs": [
+    {
+      "path": "verification/manifest.txt",
+      "sha256": "18f478b42091fe941bc6c519b20781bf0d5956f33db48881578b7546e9dc9e98"
+    },
+    {
+      "path": "verification/f0.txt",
+      "sha256": "166114c201fa0223fd3453e83b889ed0b31b3b97ca1c57fe88eb244c28bcd321"
+    },
+    {
+      "path": "verification/r1.txt",
+      "sha256": "e0cdd5652cd62aa42c1713326f17be54fd01734e9781cc12ac7fe81d031e5ec4"
+    },
+    {
+      "path": "verification/c1.txt",
+      "sha256": "27d0e17944a2d4afa7050fb6cb730adffbd21255030a568ab7997c9444d7f4d0"
+    },
+    {
+      "path": "verification/w1.txt",
+      "sha256": "5f68cb07fdb95e9e5e285674c03a73787748830b9c734655e054879127ee58e3"
+    },
+    {
+      "path": "verification/d1.txt",
+      "sha256": "dac4c85e6a921a413a3b6c92c7ee412e705ed09b01c0b0f96d3ac03843a71310"
+    },
+    {
+      "path": "verification/d1-initial-weekly-expectation.txt",
+      "sha256": "ba26a5fe6e6ab2e8bb36444f27a800b05af35c37d8df5685141b325795c5672b"
+    },
+    {
+      "path": "verification/d1-browser.txt",
+      "sha256": "edefee911cba21e6f93bd8aa9dfc859dca60dd29a9d368fddf7ddb930e3d6d61"
+    },
+    {
+      "path": "verification/c1-browser.txt",
+      "sha256": "412d7a931275143a2d174ce401d90335b547fab281c300069a6cd583f850a42f"
+    },
+    {
+      "path": "verification/r1-browser.txt",
+      "sha256": "66cca6f86f2ee5ede21b5cc45d8f52ca7f88e3ff3078a7aa9f63f9f8dda02102"
+    },
+    {
+      "path": "verification/w1-browser.txt",
+      "sha256": "e9e19c4fe5716129b4dbf8e9332fc4d2f8a47cbee21c4378884ad0cfa24316eb"
+    },
+    {
+      "path": "verification/n1-browser.txt",
+      "sha256": "90cf2a83cb9c12a1236324b06cc9e215b8034b4de56353398be204ebe3f96056"
+    },
+    {
+      "path": "verification/regression.txt",
+      "sha256": "4ad1d7a59bdf05c5b4edc842f5eab352f912dbd61be7ea0e076b868bbbac375e"
+    },
+    {
+      "path": "verification/production.txt",
+      "sha256": "d00f13e53d27de3b5f96a824d62796608ad4bf8331ad232c96967eb0ba2963a0"
+    },
+    {
+      "path": "verification/build.txt",
+      "sha256": "1b8ebcce4dc0646cd8a4c5d13250e8d24e34410158fe80cc4b172452c8a5540c"
+    },
+    {
+      "path": "verification/build-qa.txt",
+      "sha256": "d664a14d95c84d7dff5ada35f5cd6dd8174ebbd537aeb2acca170ed849e88816"
+    }
+  ],
+  "initialTestDevelopmentIssue": "WeeklyView.articles expectation corrected to archive union; W1 selector unchanged. Final D1 4/4.",
+  "unverified": [
+    "native browser zoom 200%",
+    "screen reader",
+    "Safari/Firefox/Edge",
+    "physical devices",
+    "independent professional/learner review"
+  ],
+  "ci": "See Draft PR CI section for exact-head run/job and per-step outcomes; browser suites are local, not CI"
+}

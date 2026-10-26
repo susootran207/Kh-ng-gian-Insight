@@ -1,0 +1,29 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:w1
+> tsc -p tsconfig.w1.json && node --experimental-strip-types --test --test-isolation=none tests/weekly.test.mts
+
+✔ WEEK01: +07:00 strict calendar; epoch agrees with UTC day boundary (2.538902ms)
+✔ WEEK01/02: start inclusive, end exclusive, before and after each schedule boundary (31.292801ms)
+✔ WEEK03: gap falls back to latest started eligible; future is absent even at direct slug (5.910652ms)
+✔ WEEK04: overlap rejected, adjacency accepted, bad range rejected before publication (3.745655ms)
+✔ WEEK05/PUB03: ordered links preserve only F0 eligible articles (2.316996ms)
+✔ WEEK05: withdrawn article permission excludes it; current empty falls back, all empty is honest (5.423024ms)
+✔ PUB01/02: draft, in_review, approved topic and legacy approval alone never publish (4.337326ms)
+✔ PUB02/07: topic title, order, interval or record revision/hash changes invalidate F0 proof (10.298603ms)
+✔ DATA01: ID/slug/references uniqueness, unknown field/version/status and clock reject (11.402237ms)
+✔ WEEK06: input order cannot change current/list/member order; stable snapshot is pure (5.739531ms)
+✔ PUB01/DATA02: real weekly registry is empty, catalogue/29-source publication not inherited by slug (96.447127ms)
+✔ PUB04/05: scanner detects withheld weekly text, escaped prose, raw registry and fixture modules (934.896836ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1214.397452
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test'
+export default defineConfig({testDir:'./tests',testMatch:'flow.spec.ts',workers:1,timeout:45000,outputDir:'test-results-d1',reporter:[['list'],['json',{outputFile:'test-results-d1/report.json'}]],use:{baseURL:'http://127.0.0.1:4194',launchOptions:{executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']},trace:'retain-on-failure'},webServer:{command:'npm run dev:flow-fixture',url:'http://127.0.0.1:4194/tests/flow-harness/index.html',reuseExistingServer:false}})
