@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { resolve } from 'node:path'
 import type { Plugin } from 'vite'
-import { selectWeekly } from './weekly.ts'
+import { selectPublicWeekly } from './weekly.ts'
 import { requireThat, loadManifest } from './content-contract.ts'
 
 const root = fileURLToPath(new URL('../../', import.meta.url))
@@ -17,7 +17,7 @@ export function weekly(): Plugin {
     load(id) {
       if(id !== '\0virtual:weekly') return
       requireThat(snapshot > 0,'weekly snapshot not initialized')
-      const view = selectWeekly(JSON.parse(readFileSync(registry,'utf8')),JSON.parse(readFileSync(catalogue,'utf8')),root,snapshot)
+      const view = selectPublicWeekly(JSON.parse(readFileSync(registry,'utf8')),JSON.parse(readFileSync(catalogue,'utf8')),root,snapshot)
       // No registry, excluded topic prose or review records are sent to the client.
       const articles = view.articles.map(({publication:_publication,approval:_approval,...article}) => article)
       return 'export default '+JSON.stringify({...view,articles})

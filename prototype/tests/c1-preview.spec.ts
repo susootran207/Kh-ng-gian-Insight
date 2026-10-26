@@ -61,7 +61,7 @@ test('library 29 routes, Vietnamese search, stages/topics/group, history and ret
   await expect(page.locator('h2').filter({hasText:'Một sai sót không kể hết về bạn'})).toHaveCount(1)
   await expect(page.locator('body')).not.toContainText('Học cách đứng về phía mình')
   const search = page.getByRole('searchbox')
-  for (const q of ['MÙA THI','mua thi','  mùa   thi ']) { await search.fill(q); await expect(page.locator('.library-entry')).toHaveCount(view.articles.filter(a => ['mua','thi'].every(word => (a.card.title+' '+a.card.description+' '+a.card.keywords.join(' ')).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d').toLowerCase().includes(word))).length) }
+  for (const q of ['MÙA THI','mua thi','  mùa   thi ']) { await search.fill(q); await expect(page.locator('.library-entry')).toHaveCount(view.articles.filter(a => ['mua','thi'].every(word => (a.card.title+' '+a.card.description+' '+a.card.topic+' '+a.card.keywords.join(' ')).normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d').toLowerCase().includes(word))).length) }
   await search.fill(''); await expect(page).not.toHaveURL(/[?&]q=/); const stage = page.getByLabel('Giai đoạn năm học')
   for (const season of ['Đầu năm','Giữa học kỳ','Mùa thi','Sau thi']) { await stage.selectOption(season); await expect(page.locator('.library-entry')).toHaveCount(view.articles.filter(a=>a.metadata.season===season).length) }
   // Deliberately no intermediate navigation wait: edits must compose against the latest URL.

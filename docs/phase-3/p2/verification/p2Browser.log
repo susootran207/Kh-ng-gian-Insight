@@ -1,0 +1,25 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:p2:browser
+> playwright test -c playwright.p2.config.ts
+
+[WebServer] (node:19356) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:19380) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 5 tests using 1 worker
+
+(node:19412) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/p2-library.spec.ts:8:39 › P2 full site: 29 complete Readers, library/flow at 320 (21.8s)
+  ✓  2 tests/p2-library.spec.ts:8:39 › P2 full site: 29 complete Readers, library/flow at 390 (22.2s)
+  ✓  3 tests/p2-library.spec.ts:8:39 › P2 full site: 29 complete Readers, library/flow at 768 (23.8s)
+  ✓  4 tests/p2-library.spec.ts:8:39 › P2 full site: 29 complete Readers, library/flow at 1440 (28.1s)
+  ✓  5 tests/p2-library.spec.ts:36:1 › P2 filters/history/reader return/keyboard/figure/local-only boundary (12.2s)
+
+  5 passed (1.9m)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

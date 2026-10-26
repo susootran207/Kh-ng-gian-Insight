@@ -72,6 +72,10 @@ jobs:
         id: g1
         run: npm run test:g1
 
+      - name: Test P2 full-library adapter and production boundary
+        id: p2
+        run: npm run test:p2
+
       - name: Typecheck
         id: typecheck
         run: ./node_modules/.bin/tsc -b
@@ -100,6 +104,7 @@ jobs:
           W1: ${{ steps.w1.outcome }}
           D1: ${{ steps.d1.outcome }}
           G1: ${{ steps.g1.outcome }}
+          P2: ${{ steps.p2.outcome }}
           TYPECHECK: ${{ steps.typecheck.outcome }}
           BUILD: ${{ steps.build.outcome }}
           PUBLICATION: ${{ steps.publication.outcome }}
@@ -109,7 +114,7 @@ jobs:
             echo
             echo '| Check | Result |'
             echo '| --- | --- |'
-            for check in CHECKOUT NODE INSTALL MANIFEST F0 R1 C1 W1 D1 G1 TYPECHECK BUILD PUBLICATION; do
+            for check in CHECKOUT NODE INSTALL MANIFEST F0 R1 C1 W1 D1 G1 P2 TYPECHECK BUILD PUBLICATION; do
               outcome="${!check}"
               case "$outcome" in
                 success) result=PASS ;;

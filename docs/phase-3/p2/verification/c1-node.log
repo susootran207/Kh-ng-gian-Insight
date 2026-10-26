@@ -1,0 +1,46 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:c1
+> tsc -p tsconfig.c1.json && node --experimental-strip-types --test --test-isolation=none tests/content-preview.test.mts
+
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C01 (95.12046ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C02 (89.045415ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C03 (37.800923ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C04 (70.39087ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C05 (28.297034ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C06 (11.320598ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C07 (50.50643ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C08 (10.744011ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C09 (25.418254ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C10 (73.874477ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C11 (90.277536ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C12 (18.36439ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C13 (69.211756ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C14 (54.184968ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C15 (80.11901ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C16 (67.582104ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C17 (23.514054ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C18 (26.140049ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C19 (211.368673ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C20 (94.85135ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C21 (186.056831ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C22 (117.876288ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C23 (75.961249ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-C24 (79.946518ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-E01 (28.523982ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-E02 (68.421336ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-E03 (86.850216ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-E04 (41.871714ms)
+✔ DATA01–04/READ03/05/06: exact source/AST/metadata/assets KGNT-E05 (94.293066ms)
+✔ DATA01/DATA04: unique 29 routes, four correct r2, no legacy duplicate/title (0.483981ms)
+✔ SAFE01: C1 preserves R1 rejection, only first source H1 and declared dossier mapping (8.333856ms)
+✔ PUB01/PUB04/PUB05: F0 remains empty and catches real compiled source/SVG/escaped canary (2091.308895ms)
+✔ PUB05: clean-code preview modules rejected before emitting production (992.764233ms)
+✔ PUB06/PUB08: F0 denies non-loopback; preview config denies build and host override (1123.828816ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8430.770967

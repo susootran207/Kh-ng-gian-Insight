@@ -1,0 +1,24 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:w1
+> tsc -p tsconfig.w1.json && node --experimental-strip-types --test --test-isolation=none tests/weekly.test.mts
+
+✔ WEEK01: +07:00 strict calendar; epoch agrees with UTC day boundary (5.724167ms)
+✔ WEEK01/02: start inclusive, end exclusive, before and after each schedule boundary (96.318882ms)
+✔ WEEK03: gap falls back to latest started eligible; future is absent even at direct slug (9.209747ms)
+✔ WEEK04: overlap rejected, adjacency accepted, bad range rejected before publication (8.019789ms)
+✔ WEEK05/PUB03: ordered links preserve only F0 eligible articles (4.287502ms)
+✔ WEEK05: withdrawn article permission excludes it; current empty falls back, all empty is honest (8.005658ms)
+✔ PUB01/02: draft, in_review, approved topic and legacy approval alone never publish (3.728982ms)
+✔ PUB02/07: topic title, order, interval or record revision/hash changes invalidate F0 proof (40.569511ms)
+✔ DATA01: ID/slug/references uniqueness, unknown field/version/status and clock reject (25.626938ms)
+✔ WEEK06: input order cannot change current/list/member order; stable snapshot is pure (9.653017ms)
+✔ PUB01/DATA02: real weekly registry is empty, catalogue/29-source publication not inherited by slug (416.523998ms)
+✔ PUB04/05: scanner detects withheld weekly text, escaped prose, raw registry and fixture modules (3156.097957ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4605.4988

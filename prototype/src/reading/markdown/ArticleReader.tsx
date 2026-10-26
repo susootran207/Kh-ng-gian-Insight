@@ -5,6 +5,10 @@ import { Arrow } from '../../components/Icons'
 import { plainText, safeAssetSource, safeLink, type ReaderAsset, type ReaderDocument, type ReaderNode } from './model'
 import '../../styles/markdown-reader.css'
 
+function assetSource(src: string) {
+  const safe = safeAssetSource(src)
+  return safe.startsWith('/assets/articles/') ? new URL('.'+safe, new URL(import.meta.env.BASE_URL, window.location.href)).pathname : safe
+}
 interface FigureView { image: ReaderNode; asset: ReaderAsset; caption: ReaderNode; description: ReaderNode; opener: HTMLButtonElement }
 function FigureViewer({ figure, onDismiss }: { figure: FigureView; onDismiss(): void }) {
   const dialog = useRef<HTMLDialogElement>(null), [scale, setScale] = useState(1)
@@ -29,12 +33,12 @@ function FigureViewer({ figure, onDismiss }: { figure: FigureView; onDismiss(): 
     <div className="reader-viewer-controls"><h2 id="reader-figure-dialog-title">Xem hình lớn</h2><button className="text-link" onClick={() => dialog.current?.close()}>Đóng hình</button></div>
     <div className="reader-zoom-controls"><button onClick={() => setScale(s => Math.min(3, s + .5))} disabled={scale >= 3}>Phóng to</button><button onClick={() => setScale(s => Math.max(1, s - .5))} disabled={scale <= 1}>Thu nhỏ</button><span role="status">{Math.round(scale * 100)}%</span></div>
     <p className="reader-pan-hint">Có thể dùng phím mũi tên để cuộn hình. Nhấn Escape để đóng.</p>
-    <div className="reader-image-viewport" tabIndex={0} role="region" aria-label="Hình phóng lớn, dùng phím mũi tên để cuộn"><img src={safeAssetSource(figure.asset.src)} alt={figure.image.alt!} style={{ width: Math.max(640, figure.asset.width) * scale }} /></div>
+    <div className="reader-image-viewport" tabIndex={0} role="region" aria-label="Hình phóng lớn, dùng phím mũi tên để cuộn"><img src={assetSource(figure.asset.src)} alt={figure.image.alt!} style={{ width: Math.max(640, figure.asset.width) * scale }} /></div>
     <p className="reader-viewer-caption">{plainText(figure.caption)}</p>
     <p>{plainText(figure.description)}</p>
   </dialog>
 }
-export function ArticleReader({ document: doc, title, description }: { document: ReaderDocument; title: string; description?: string }) {
+export function ArticleReader({ document: doc, title, description, publicationLabel }: { document: ReaderDocument; title: string; description?: string; publicationLabel?: string }) {
   const location = useLocation(), [figure, setFigure] = useState<FigureView | null>(null)
   const anchors = [...doc.toc.map(item => item.id), ...(doc.localLinks ?? []).map(l => l.target.slice(1))]
   const back = typeof location.state?.from === 'string' && /^\/thu-vien(?:\?|$)/.test(location.state.from) ? location.state.from : '/thu-vien'
@@ -60,7 +64,7 @@ export function ArticleReader({ document: doc, title, description }: { document:
       const asset = doc.assets.find(a => a.key === image.url)
       if (!asset) throw new Error('Reader: asset is not allowlisted')
       return <figure {...attrs} className="reader-figure">
-        <div data-source-id={image.id} data-source-start={image.range.start} data-source-end={image.range.end}><img src={safeAssetSource(asset.src)} alt={image.alt!} width={asset.width} height={asset.height} aria-describedby={description.id} />
+        <div data-source-id={image.id} data-source-start={image.range.start} data-source-end={image.range.end}><img src={assetSource(asset.src)} alt={image.alt!} width={asset.width} height={asset.height} aria-describedby={description.id} />
           <button className="text-link reader-enlarge" onClick={e => setFigure({ image, asset, caption, description, opener: e.currentTarget })}>Xem hình lớn <Arrow diagonal /></button></div>
         <figcaption data-source-id={caption.id} data-source-start={caption.range.start} data-source-end={caption.range.end}>{caption.children?.map(child => <Fragment key={child.id}>{render(child)}</Fragment>)}</figcaption>
         <p id={description.id} data-source-id={description.id} data-source-start={description.range.start} data-source-end={description.range.end} className="reader-equivalent">{description.children?.map(child => <Fragment key={child.id}>{render(child)}</Fragment>)}</p>
@@ -97,9 +101,9 @@ export function ArticleReader({ document: doc, title, description }: { document:
   const rootAttrs = { 'data-source-id': doc.root.id, 'data-source-start': doc.root.range.start, 'data-source-end': doc.root.range.end }
   return <article className="markdown-reader" {...(titleNode ? rootAttrs : {})}>
     <Breadcrumb title={title} />
-    <header className="article-title"><h1 {...(titleNode ? { 'data-source-id': titleNode.id, 'data-source-start': titleNode.range.start, 'data-source-end': titleNode.range.end } : {})}>{titleNode ? titleNode.children?.map(child => <Fragment key={child.id}>{render(child)}</Fragment>) : title}</h1>{description && <p className="article-deck">{description}</p>}</header>
+    <header className="article-title"><h1 {...(titleNode ? { 'data-source-id': titleNode.id, 'data-source-start': titleNode.range.start, 'data-source-end': titleNode.range.end } : {})}>{titleNode ? titleNode.children?.map(child => <Fragment key={child.id}>{render(child)}</Fragment>) : title}</h1>{description && <p className="article-deck">{description}</p>}{publicationLabel&&<p className="article-metadata">{publicationLabel}</p>}</header>
     <div className="reader-layout"><nav className="table-of-contents" aria-label="Mục lục"><h2>Trong trang này</h2><ol>{tocGroups.map(({ parent, children }) => <li key={parent.id}>{tocLink(parent)}{children.length > 0 && <ol>{children.map(item => <li key={item.id}>{tocLink(item)}</li>)}</ol>}</li>)}</ol></nav>
-      <div className="article-prose" {...(!titleNode ? rootAttrs : {})}>{doc.root.children?.filter(node => !grouped.has(node.id) && node.id !== doc.titleNodeId).map(node => <Fragment key={node.id}>{render(node)}</Fragment>)}<Link className="text-link" to={back}>Quay lại thư viện <Arrow /></Link></div>
+      <div className="article-prose" {...(!titleNode ? rootAttrs : {})}>{doc.root.children?.filter(node => !grouped.has(node.id) && node.id !== doc.titleNodeId).map(node => <Fragment key={node.id}>{render(node)}</Fragment>)}{doc.localLinks?.some(l=>l.target==='#publication-information')&&<aside id="publication-information" tabIndex={-1} className="editorial-note"><h2>Thông tin về hồ sơ bài viết</h2><p>Các nhãn liên kết hồ sơ trong nội dung gốc được giữ để đối chiếu. Hồ sơ biên soạn nội bộ không được cung cấp trên website đọc bài.</p></aside>}<Link className="text-link" to={back}>Quay lại thư viện <Arrow /></Link></div>
     </div>
     {figure && <FigureViewer key={figure.image.id} figure={figure} onDismiss={() => setFigure(null)} />}
   </article>

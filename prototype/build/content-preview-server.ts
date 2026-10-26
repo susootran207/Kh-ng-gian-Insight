@@ -5,12 +5,12 @@ import { createContentPreview, previewAssetUrl } from './content-preview.ts'
 import { loadManifest, readReference, requireThat } from './content-contract.ts'
 import { loadReaderAsset } from './reader-document.ts'
 const root = fileURLToPath(new URL('../', import.meta.url)), repo = resolve(root, '..')
-export function contentPreviewPlugin(): Plugin {
+export function contentPreviewPlugin(port = 4191): Plugin {
   return {
     name: 'c1-loopback-preview-only',
     configResolved(config) {
       requireThat(config.command === 'serve' && config.server.host === '127.0.0.1', 'C1 preview is serve-only on literal 127.0.0.1')
-      requireThat(config.server.port === 4191 && !config.server.https, 'C1 preview requires loopback port 4191')
+      requireThat(config.server.port === port && !config.server.https, 'C1 preview requires loopback port 4191')
     },
     resolveId(id) { if (id === 'virtual:c1-preview') return '\0virtual:c1-preview' },
     load(id) {
@@ -29,7 +29,7 @@ export function contentPreviewPlugin(): Plugin {
         res.setHeader('Cache-Control', 'no-store')
         res.setHeader('X-Content-Type-Options', 'nosniff')
         const origin = req.headers.origin
-        if (req.headers.host !== '127.0.0.1:4191' || (origin && origin !== 'http://127.0.0.1:4191')) { res.statusCode = 403; res.end('Loopback preview only'); return }
+        if (req.headers.host !== '127.0.0.1:'+port || (origin && origin !== 'http://127.0.0.1:'+port)) { res.statusCode = 403; res.end('Loopback preview only'); return }
         // Reject raw Markdown/JSON even when a client normalizes a traversal URL.
         if (/\.(?:md|json)(?:$|\?)/i.test(req.url ?? '')) { res.statusCode = 404; res.end(); return }
         // Raw drafts/dossiers are never HTTP resources. Only compiled AST and exact SVG paths.
