@@ -21,7 +21,10 @@
     "dev:weekly-fixture": "vite --config vite.w1.config.ts --host 127.0.0.1",
     "test:w1": "tsc -p tsconfig.w1.json && node --experimental-strip-types --test --test-isolation=none tests/weekly.test.mts",
     "test:w1:browser": "playwright test -c playwright.w1.config.ts",
-    "test:n1:browser": "playwright test -c playwright.n1.config.ts"
+    "test:n1:browser": "playwright test -c playwright.n1.config.ts",
+    "dev:flow-fixture": "vite --config vite.d1.config.ts --host 127.0.0.1",
+    "test:d1": "tsc -p tsconfig.d1.json && node --experimental-strip-types --test --test-isolation=none tests/flow.test.mts",
+    "test:d1:browser": "playwright test -c playwright.d1.config.ts"
   },
   "dependencies": {
     "@fontsource/be-vietnam-pro": "^5.2.8",

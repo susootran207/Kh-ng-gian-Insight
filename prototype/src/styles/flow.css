@@ -1,0 +1,8 @@
+/* D1: reuse the existing reading surface and homepage timeline. */
+.flow-page .flow-opening { margin-top: 32px; }
+.flow-page .flow-stages { min-width: 0; }
+.flow-page .flow-stage { margin-bottom: 56px; scroll-margin-top: 32px; overflow-wrap: anywhere; }
+.flow-page .flow-empty { color: var(--muted); margin-block: 22px 12px; }
+.flow-page .library-list { grid-template-columns: 1fr; }
+.flow-page .table-of-contents a { padding-block: 8px; }
+.flow-home-links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 16px; }

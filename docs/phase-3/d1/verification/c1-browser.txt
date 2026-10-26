@@ -1,0 +1,28 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:c1:browser
+> playwright test -c playwright.c1.config.ts
+
+[WebServer] (node:52372) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:52385) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:52410) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 320 (45.8s)
+  ✓  2 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 390 (56.4s)
+  ✓  3 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 768 (48.7s)
+  ✓  4 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 1440 (58.8s)
+  ✓  5 tests/c1-preview.spec.ts:58:1 › library 29 routes, Vietnamese search, stages/topics/group, history and return through related (11.5s)
+  ✓  6 tests/c1-preview.spec.ts:93:1 › C01/C05/E02 figure keyboard, reduced motion, skip, and emulated 200% reflow (20.9s)
+  ✓  7 tests/c1-preview.spec.ts:108:1 › loopback HTTP boundary, all asset hashes, unknown/query/traversal and raw dossier rejection (975ms)
+  ✓  8 tests/c1-preview.spec.ts:116:1 › library responsive, keyboard menu and Axe at four widths (9.7s)
+
+  8 passed (4.3m)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

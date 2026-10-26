@@ -1,0 +1,22 @@
+{
+  "baseCommit": "40c6d342fe19ed2ff876c19fee8513fce4b432a0",
+  "baseTree": "9894a98e8ecd51b8de1f24a554977f64f7d61ef3",
+  "baselineBlobs": 663,
+  "unchangedBlobs": 654,
+  "changedBaselinePaths": [
+    ".github/workflows/ci.yml",
+    "prototype/.gitignore",
+    "prototype/build/editorial.ts",
+    "prototype/package.json",
+    "prototype/playwright.config.ts",
+    "prototype/src/App.tsx",
+    "prototype/src/content.ts",
+    "prototype/src/reading/Router.tsx",
+    "prototype/tests/production.spec.ts"
+  ],
+  "draftFilesChecked": 203,
+  "draftMismatches": [],
+  "manifestCatalogueWeeklyAndProofsChanged": false,
+  "N1CopyAndStylesChanged": false,
+  "dependencyVersionsOrLockfileChanged": false
+}

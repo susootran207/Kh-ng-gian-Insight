@@ -1,0 +1,1 @@
+{"extends":"./tsconfig.w1.json","include":["src","build","vite*.config.ts","editorial","tests/flow.test.mts","tests/flow.spec.ts","tests/fixtures/flow","playwright.d1.config.ts"]}

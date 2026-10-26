@@ -1,3 +1,4 @@
+import { stageLibraryLink } from './reading/stages'
 import { Link } from 'react-router-dom'
 import { WeeklySection } from './reading/WeeklySection'
 import { useEffect, useRef, useState } from 'react'
@@ -66,8 +67,8 @@ function App(){
       </section>
       <section id="dong-chay" className="timeline-section section-anchor">
         <div className="page-width"><div className="section-intro"><h2>Một năm học,<br/>nhiều mùa tâm trạng.</h2><p>Có những điều đến theo mùa.<br/>Chọn một chặng để ngồi lại cùng mình.</p></div>
-          <ol className="timeline">{seasons.map((item,i)=><li key={item.title}><button aria-expanded={season===i} aria-controls={`season-${i}`} className={season===i?'season-button selected':'season-button'} onClick={()=>setSeason(i)}><span className="timeline-node" aria-hidden="true"><SmallFlower/></span><span>{item.title}</span></button></li>)}</ol>
-          <div className={`season-panel season-${season}`} id={`season-${season}`} role="region" aria-label={seasons[season].title}><div><span className="season-title">{seasons[season].title}</span><h3>{seasons[season].subtitle}</h3></div><div><p>{seasons[season].text}</p><p className="season-note">{seasons[season].note}</p></div></div>
+          <ol className="timeline">{seasons.map((item,i)=><li key={item.title}><button aria-expanded={season===i} aria-controls="season-panel" className={season===i?'season-button selected':'season-button'} onClick={()=>setSeason(i)}><span className="timeline-node" aria-hidden="true"><SmallFlower/></span><span>{item.title}</span></button></li>)}</ol>
+          <div className={`season-panel season-${season}`} id="season-panel" role="region" aria-label={seasons[season].title}><div><span className="season-title">{seasons[season].title}</span><h3>{seasons[season].subtitle}</h3></div><div><p>{seasons[season].text}</p><p className="season-note">{seasons[season].note}</p><div className="flow-home-links"><Link className="text-link" to={stageLibraryLink(seasons[season].key)}>Đọc theo chặng này <Arrow/></Link><Link className="text-link" to="/dong-chay">Khám phá Dòng chảy <Arrow/></Link></div></div></div>
         </div>
       </section>
       <section id="bai-viet" className="reading page-width section-anchor"><div className="section-intro"><h2>Những trang nhỏ,<br/>để hiểu mình hơn.</h2><p>{import.meta.env.DEV?<>Ba bản nháp minh họa.<br/>Bạn có thể mở và đọc thử ngay tại đây.</>:<>Một khoảng đọc chậm.<br/>Các trang mới sẽ đến khi được duyệt.</>}</p></div>

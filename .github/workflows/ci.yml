@@ -64,6 +64,10 @@ jobs:
         id: w1
         run: npm run test:w1
 
+      - name: Test D1 stage mapping and full-library boundary
+        id: d1
+        run: npm run test:d1
+
       - name: Typecheck
         id: typecheck
         run: ./node_modules/.bin/tsc -b
@@ -90,6 +94,7 @@ jobs:
           R1: ${{ steps.r1.outcome }}
           C1: ${{ steps.c1.outcome }}
           W1: ${{ steps.w1.outcome }}
+          D1: ${{ steps.d1.outcome }}
           TYPECHECK: ${{ steps.typecheck.outcome }}
           BUILD: ${{ steps.build.outcome }}
           PUBLICATION: ${{ steps.publication.outcome }}
@@ -99,7 +104,7 @@ jobs:
             echo
             echo '| Check | Result |'
             echo '| --- | --- |'
-            for check in CHECKOUT NODE INSTALL MANIFEST F0 R1 C1 W1 TYPECHECK BUILD PUBLICATION; do
+            for check in CHECKOUT NODE INSTALL MANIFEST F0 R1 C1 W1 D1 TYPECHECK BUILD PUBLICATION; do
               outcome="${!check}"
               case "$outcome" in
                 success) result=PASS ;;

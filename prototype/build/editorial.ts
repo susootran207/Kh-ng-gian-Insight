@@ -41,7 +41,7 @@ export function editorial(): Plugin {
     generateBundle(_options, bundle) {
       const boundary = createBoundary(repositoryRoot, loadManifest(repositoryRoot), catalogue())
       for (const [name, item] of Object.entries(bundle)) {
-        if (item.type === 'chunk') requireThat(Object.keys(item.modules ?? {}).every(id => !/[/\\]tests[/\\](?:fixtures|reader-harness)[/\\]/.test(id) && !id.includes('virtual:r1-fixture') && !id.includes('virtual:c1-preview') && !id.includes('virtual:w1-fixture') && !/[/\\]editorial[/\\]weekly\.json(?:\?|$)/.test(id) && !/[/\\]tests[/\\]weekly-harness[/\\]/.test(id) && !/[/\\]preview[/\\]/.test(id)), 'test-only Reader module entered public graph')
+        if (item.type === 'chunk') requireThat(Object.keys(item.modules ?? {}).every(id => !/[/\\]tests[/\\](?:fixtures|reader-harness)[/\\]/.test(id) && !id.includes('virtual:r1-fixture') && !id.includes('virtual:c1-preview') && !id.includes('virtual:w1-fixture') && !id.includes('virtual:d1-fixture') && !/[/\\]editorial[/\\]weekly\.json(?:\?|$)/.test(id) && !/[/\\]tests[/\\](?:weekly|flow)-harness[/\\]/.test(id) && !/[/\\]preview[/\\]/.test(id)), 'test-only Reader module entered public graph')
         const value = item.type === 'chunk' ? item.code : item.source
         assertArtifact(Buffer.from(value), name, boundary)
       }

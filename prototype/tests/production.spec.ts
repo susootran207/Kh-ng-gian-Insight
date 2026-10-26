@@ -1,3 +1,4 @@
+import AxeBuilder from '@axe-core/playwright'
 import {test,expect} from '@playwright/test'
 import {readFileSync} from 'node:fs'
 import {createContentPreview} from '../build/content-preview.ts'
@@ -66,4 +67,16 @@ test('N1 foundation direct repository URL, reload, anchors and safe destinations
   await page.getByRole('link',{name:'Đến thư viện',exact:true}).click();await expect(page.locator('.library-entry')).toHaveCount(0)
   await page.goto('./#/#nen-tang');await expect(page.locator('#nen-tang')).toBeFocused()
   await page.getByRole('link',{name:'Tìm hiểu nền tảng',exact:true}).click();await expect(page.locator('h1')).toContainText('Nền tảng của')
+})
+
+for(const width of [320,390,768,1440])test('D1 production empty, direct/reload, all stage filters and fixture exclusion '+width,async({page,request})=>{
+  await page.setViewportSize({width,height:1000});await page.emulateMedia({reducedMotion:'reduce'})
+  await page.goto('./#/dong-chay?preview=true');await page.reload();await page.evaluate(()=>document.fonts.ready)
+  await expect(page).toHaveTitle('Dòng chảy · Không Gian Nội Tâm');await expect(page.locator('.flow-empty')).toHaveCount(4);await expect(page.locator('.library-entry')).toHaveCount(0)
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy()
+  for(const key of ['Đầu năm','Giữa học kỳ','Mùa thi','Sau thi']){await page.getByRole('link',{name:'Lọc thư viện: '+key,exact:true}).click();await expect(page.getByLabel('Giai đoạn năm học')).toHaveValue(key);await expect(page.locator('.library-entry')).toHaveCount(0);await page.goBack()}
+  expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([])
+  await page.screenshot({path:`test-results-d1-evidence/flow-empty-${width}.jpg`,type:'jpeg',quality:85})
+  for(const path of ['tests/flow-harness/index.html','tests/fixtures/flow/create.ts','@id/__x00__virtual:d1-fixture:virtual:editorial'])expect((await request.get('./'+path)).status()).toBe(404)
+  await page.goto('./#/bai-viet/d1-fixture-1?preview=true');await expect(page.locator('h1')).toHaveText('Lối này chưa có trang.')
 })

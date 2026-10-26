@@ -1,0 +1,16 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:d1
+> tsc -p tsconfig.d1.json && node --experimental-strip-types --test --test-isolation=none tests/flow.test.mts
+
+✔ D1 mapping: exact F0 stage values and old query values, not topicIds (2.919623ms)
+✔ D1 F0 public empty: no source/legacy draft gains access through stages (203.728731ms)
+✔ D1 A: synthetic F0-approved 29 stay in Library across stages and weekly change; extensible 30+ (125.562909ms)
+✔ D1 fixture sentinel and module-only leaks are rejected by F0 production guard (1737.61827ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2227.610837

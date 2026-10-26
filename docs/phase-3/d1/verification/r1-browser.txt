@@ -1,0 +1,34 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:r1:browser
+> playwright test -c playwright.r1.config.ts
+
+[WebServer] (node:55576) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:55589) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:55614) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 320 (3.4s)
+  ✓  2 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 390 (2.8s)
+  ✓  3 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 768 (2.8s)
+  ✓  4 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 1440 (3.0s)
+  ✓  5 tests/r1-reader.spec.ts:53:1 › TOC/hash/reload, source anchors, skip link, and return to the actual legacy library with filters (2.9s)
+  ✓  6 tests/r1-reader.spec.ts:74:1 › long figure: keyboard open, zoom, scroll, focus trap, Escape and return focus under reduced motion (2.8s)
+  ✓  7 tests/r1-reader.spec.ts:100:1 › 200%-equivalent desktop reflow: 720 CSS px at DPR2, no clipped text or controls (1.4s)
+[WebServer] The request id "/workspace/work/d1/qa/repo/docs/phase-3/drafts/C01/ARTICLE.md" is outside of Vite serving allow list.
+[WebServer] 
+[WebServer] - /workspace/work/d1/qa/repo/prototype
+[WebServer] 
+[WebServer] Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+[WebServer] 
+  ✓  8 tests/r1-reader.spec.ts:113:1 › fixture asset allowlist and direct source access do not open real drafts (56ms)
+
+  8 passed (23.3s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
