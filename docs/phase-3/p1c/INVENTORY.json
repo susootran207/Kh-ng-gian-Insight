@@ -1572,5 +1572,7 @@
       },
       "publicEligibility": "BLOCKED"
     }
-  ]
+  ],
+  "handoffContinuedAt": "2026-10-27T04:43:49+07:00",
+  "handoffContinuedAtMeaning": "Actual documentation continuation timestamp; not a reviewer signature, test occurrence, or F0 approval timestamp"
 }

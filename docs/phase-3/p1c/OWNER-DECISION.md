@@ -8,6 +8,10 @@
 - Main đối chiếu: `16965ff8972124762ba712196ac211d769b09388`; PR [#27](https://github.com/susootran207/Kho-ng-gian-Insight/pull/27) đã merge lúc **20:46:57+07:00 ngày 26/10/2026**.
 - Nguồn quyết định: chỉ thị của người dùng có tiêu đề “KHÔNG GIAN NỘI TÂM — P1C: GHI NHẬN PHÊ DUYỆT CHỦ DỰ ÁN VÀ CHUẨN BỊ P2”. Không bịa URL công khai của hội thoại, tên pháp lý, tài khoản ký hoặc chữ ký. Vai trò chủ dự án được ghi theo xác nhận của người dùng; không tuyên bố đã xác minh danh tính bằng cơ chế độc lập.
 
+## Tiếp tục bàn giao ngày 27/10/2026
+
+Chủ dự án nhắc lại cùng quyết định và yêu cầu tiếp tục P1C trong hội thoại. Main, 29 revision/hash và 29 SVG không đổi. Thời điểm tiếp tục lập hồ sơ: **2026-10-27T04:43:49+07:00**. Giữ nguyên thời điểm ghi nhận ban đầu ở trên; không gán cả hai timestamp thành ngày review hoặc chữ ký của người dùng. Không mở lại kiểm toán nguồn AI hoặc tạo thêm quyền.
+
 ## Nội dung quyết định được ghi lại
 
 > Tôi là chủ dự án và xác nhận đã đọc, nghiệm thu, chấp thuận nội dung hiện tại của toàn bộ 29 bài C01–C24 và E01–E05 để chuẩn bị phát hành V1.0 theo phương án A.
