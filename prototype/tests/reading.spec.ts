@@ -49,8 +49,9 @@ test('real article links, reload, TOC, references, related reading and return fi
   await page.getByRole('link',{name:'Quay lại thư viện'}).click();await expect(page.getByRole('searchbox')).toHaveValue('mua thi')
 })
 test('topic index, detail, every article link, missing article and recovery',async({page})=>{
-  await page.goto('/#/chuyen-de');await page.getByRole('link',{name:'Bước vào chuyên đề'}).click()
-  await expect(page).toHaveURL(/#\/chuyen-de\/dem-dai$/);await page.reload();await expect(page.locator('.library-entry')).toHaveCount(2)
+  await page.goto('/#/chuyen-de');await expect(page.getByText('Chuyên đề đang được vun trồng.')).toBeVisible()
+  await expect(page.getByRole('link',{name:'Bước vào chuyên đề'})).toHaveCount(0)
+  await page.goto('/#/chuyen-de/dem-dai');await page.reload();await expect(page.locator('h1')).toHaveText('Lối này chưa có trang.')
   for(const slug of ['dem-dai-minh-chua-ngu','khi-mua-thi-den-gan','o-giua-lop','dung-ve-phia-minh']){await page.goto('/#/bai-viet/'+slug);await expect(page.locator('.article-prose')).toBeVisible()}
   for(const route of ['/bai-viet/khong-co','/chuyen-de/khong-co','/khong-co']){await page.goto('/#'+route);await expect(page.locator('h1')).toHaveText('Lối này chưa có trang.');await page.getByRole('link',{name:'Về thư viện',exact:true}).click();await expect(page.getByRole('searchbox')).toBeVisible()}
 })

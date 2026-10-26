@@ -1,0 +1,250 @@
+[
+  {
+    "width": 390,
+    "state": "before",
+    "geometry": [
+      {
+        "key": "hero page-width",
+        "x": 24,
+        "y": 92,
+        "width": 342,
+        "height": 845.03125
+      },
+      {
+        "key": "quote-section page-width",
+        "x": 24,
+        "y": 1018.03125,
+        "width": 342,
+        "height": 200
+      },
+      {
+        "key": "chuyen-de",
+        "x": 0,
+        "y": 1275.03125,
+        "width": 390,
+        "height": 740.40625
+      },
+      {
+        "key": "nen-tang",
+        "x": 24,
+        "y": 2015.4375,
+        "width": 342,
+        "height": 751.125
+      },
+      {
+        "key": "dong-chay",
+        "x": 0,
+        "y": 2766.5625,
+        "width": 390,
+        "height": 687.890625
+      },
+      {
+        "key": "bai-viet",
+        "x": 24,
+        "y": 3454.453125,
+        "width": 342,
+        "height": 379.3125
+      },
+      {
+        "key": "tam-tinh",
+        "x": 0,
+        "y": 3833.765625,
+        "width": 390,
+        "height": 1066.5625
+      },
+      {
+        "key": "site-footer page-width",
+        "x": 24,
+        "y": 4900.328125,
+        "width": 342,
+        "height": 325.21875
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "state": "after",
+    "geometry": [
+      {
+        "key": "hero page-width",
+        "x": 24,
+        "y": 92,
+        "width": 342,
+        "height": 845.03125
+      },
+      {
+        "key": "quote-section page-width",
+        "x": 24,
+        "y": 1018.03125,
+        "width": 342,
+        "height": 200
+      },
+      {
+        "key": "chuyen-de",
+        "x": 0,
+        "y": 1275.03125,
+        "width": 390,
+        "height": 740.40625
+      },
+      {
+        "key": "nen-tang",
+        "x": 24,
+        "y": 2015.4375,
+        "width": 342,
+        "height": 751.125
+      },
+      {
+        "key": "dong-chay",
+        "x": 0,
+        "y": 2766.5625,
+        "width": 390,
+        "height": 687.890625
+      },
+      {
+        "key": "bai-viet",
+        "x": 24,
+        "y": 3454.453125,
+        "width": 342,
+        "height": 379.3125
+      },
+      {
+        "key": "tam-tinh",
+        "x": 0,
+        "y": 3833.765625,
+        "width": 390,
+        "height": 1066.5625
+      },
+      {
+        "key": "site-footer page-width",
+        "x": 24,
+        "y": 4900.328125,
+        "width": 342,
+        "height": 325.21875
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "state": "before",
+    "geometry": [
+      {
+        "key": "hero page-width",
+        "x": 92,
+        "y": 116,
+        "width": 1256,
+        "height": 650
+      },
+      {
+        "key": "quote-section page-width",
+        "x": 92,
+        "y": 873,
+        "width": 1256,
+        "height": 173
+      },
+      {
+        "key": "chuyen-de",
+        "x": 0,
+        "y": 1146,
+        "width": 1440,
+        "height": 556
+      },
+      {
+        "key": "nen-tang",
+        "x": 92,
+        "y": 1702,
+        "width": 1256,
+        "height": 630.765625
+      },
+      {
+        "key": "dong-chay",
+        "x": 0,
+        "y": 2332.765625,
+        "width": 1440,
+        "height": 648.59375
+      },
+      {
+        "key": "bai-viet",
+        "x": 92,
+        "y": 2981.359375,
+        "width": 1256,
+        "height": 457.59375
+      },
+      {
+        "key": "tam-tinh",
+        "x": 0,
+        "y": 3438.953125,
+        "width": 1440,
+        "height": 716.53125
+      },
+      {
+        "key": "site-footer page-width",
+        "x": 92,
+        "y": 4155.484375,
+        "width": 1256,
+        "height": 255.5
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "state": "after",
+    "geometry": [
+      {
+        "key": "hero page-width",
+        "x": 92,
+        "y": 116,
+        "width": 1256,
+        "height": 650
+      },
+      {
+        "key": "quote-section page-width",
+        "x": 92,
+        "y": 873,
+        "width": 1256,
+        "height": 173
+      },
+      {
+        "key": "chuyen-de",
+        "x": 0,
+        "y": 1146,
+        "width": 1440,
+        "height": 556
+      },
+      {
+        "key": "nen-tang",
+        "x": 92,
+        "y": 1702,
+        "width": 1256,
+        "height": 630.765625
+      },
+      {
+        "key": "dong-chay",
+        "x": 0,
+        "y": 2332.765625,
+        "width": 1440,
+        "height": 648.59375
+      },
+      {
+        "key": "bai-viet",
+        "x": 92,
+        "y": 2981.359375,
+        "width": 1256,
+        "height": 457.59375
+      },
+      {
+        "key": "tam-tinh",
+        "x": 0,
+        "y": 3438.953125,
+        "width": 1440,
+        "height": 716.53125
+      },
+      {
+        "key": "site-footer page-width",
+        "x": 92,
+        "y": 4155.484375,
+        "width": 1256,
+        "height": 255.5
+      }
+    ]
+  }
+]

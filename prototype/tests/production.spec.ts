@@ -42,3 +42,15 @@ test('C1: all 29 direct routes, preview/raw drafts/dossiers/SVG and query stay e
   await expect(page.locator('.library-entry')).toHaveCount(0)
   await expect(page.locator('body')).not.toContainText('Bản nháp đã nghiệm thu nội bộ')
 })
+
+test('W1 real empty state, direct topic/query and fixture/registry exclusion',async({page,request})=>{
+  await page.goto('./#/#chuyen-de')
+  await expect(page.locator('.weekly-copy')).toContainText('Chuyên đề sẽ mở khi nội dung được duyệt xuất bản.')
+  await expect(page.locator('.weekly-copy')).not.toContainText('F0_FIXTURE_ONLY')
+  await page.getByRole('link',{name:'Ghé trang chuyên đề'}).click()
+  await expect(page.getByText('Chuyên đề đang được vun trồng.')).toBeVisible()
+  for(const slug of ['dem-dai','w1-fixture-current','w1-fixture-future']){await page.goto('./#/chuyen-de/'+slug+'?preview=true&now=2026-10-21');await expect(page.locator('h1')).toHaveText('Lối này chưa có trang.')}
+  await page.goto('./#/thu-vien?chuyen-de=w1-fixture-current&preview=true')
+  await expect(page.locator('.library-entry')).toHaveCount(0)
+  for(const path of ['editorial/weekly.json','tests/fixtures/weekly/create.ts','tests/weekly-harness/index.html','@id/__x00__virtual:w1-fixture:virtual:weekly'])expect((await request.get('./'+path)).status()).toBe(404)
+})

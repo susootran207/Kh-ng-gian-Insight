@@ -1,9 +1,12 @@
-import { readFileSync, readdirSync, lstatSync } from 'node:fs'
+import { readFileSync, readdirSync, lstatSync, existsSync } from 'node:fs'
 import { basename, extname, join, relative, resolve } from 'node:path'
 import { gunzipSync, brotliDecompressSync } from 'node:zlib'
 import type { Catalogue } from '../editorial/schema.ts'
 import type { SourceManifest } from '../editorial/source-contract.ts'
-import { assertLegacyPublication, canonical, readReference, requireThat, sha256, validateManifest } from './content-contract.ts'
+import { assertLegacyPublication, canonical, readReference, requireThat, sha256, validateManifest, safeFile } from './content-contract.ts'
+
+import { selectWeekly } from './weekly.ts'
+import type { WeeklyRegistry } from '../editorial/weekly-contract.ts'
 
 export const FIXTURE_SENTINEL = 'F0_FIXTURE_ONLY_'
 type Boundary = { markers: string[]; withheldHashes: Set<string>; allowedAssets: Set<string> }
@@ -36,7 +39,17 @@ export function createBoundary(root: string, manifest: SourceManifest, catalogue
   for (const item of [...catalogue.articles, ...catalogue.topics]) if (item.status === 'published') assertLegacyPublication(root, item)
   const authorizedText: string[] = [], publicAssetHashes = new Set<string>()
   for (const item of [...catalogue.articles, ...catalogue.topics]) if (item.status === 'published') authorizedText.push(normalize(JSON.stringify(item)))
-  const markers = [FIXTURE_SENTINEL], withheldHashes = new Set<string>(), allowedAssets = new Set<string>()
+  const weeklyMarkers: string[] = []
+  // Real repository builds require the registry. Old F0 fixtures pass a catalogue
+  // in memory and do not represent a website checkout.
+  if (existsSync(resolve(root, 'prototype/editorial/catalogue.json'))) {
+    const registry: WeeklyRegistry = JSON.parse(readFileSync(safeFile(root, 'prototype/editorial/weekly.json'), 'utf8'))
+    const weekly = selectWeekly(registry, catalogue, root)
+    const visible = new Set(weekly.topics.map(t => t.id))
+    authorizedText.push(...weekly.topics.map(t => normalize(JSON.stringify(t))))
+    for (const t of registry.topics.filter(t => !visible.has(t.id))) weeklyMarkers.push(t.id, t.slug, t.title, t.description)
+  }
+  const markers = [FIXTURE_SENTINEL, ...weeklyMarkers], withheldHashes = new Set<string>(), allowedAssets = new Set<string>()
   for (const a of manifest.articles) {
     const withheld = a.status !== 'published'
     if (!withheld) authorizedText.push(normalize(readReference(root, a.source).toString('utf8') + canonical(a.metadata) + a.slug + a.id + a.revision))
