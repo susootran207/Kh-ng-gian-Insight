@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.r1.json",
+  "include": ["src", "build", "vite*.config.ts", "playwright.c1.config.ts", "tests/content-preview.test.mts", "tests/c1-preview.spec.ts", "preview"]
+}

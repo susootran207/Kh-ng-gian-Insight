@@ -34,9 +34,9 @@ function FigureViewer({ figure, onDismiss }: { figure: FigureView; onDismiss(): 
     <p>{plainText(figure.description)}</p>
   </dialog>
 }
-export function ArticleReader({ document: doc, title, description }: { document: ReaderDocument; title: string; description: string }) {
+export function ArticleReader({ document: doc, title, description }: { document: ReaderDocument; title: string; description?: string }) {
   const location = useLocation(), [figure, setFigure] = useState<FigureView | null>(null)
-  const anchors = doc.toc.map(item => item.id)
+  const anchors = [...doc.toc.map(item => item.id), ...(doc.localLinks ?? []).map(l => l.target.slice(1))]
   const back = typeof location.state?.from === 'string' && /^\/thu-vien(?:\?|$)/.test(location.state.from) ? location.state.from : '/thu-vien'
   const index = new Map<string, ReaderNode>()
   function collect(node: ReaderNode) { index.set(node.id, node); node.children?.forEach(collect) }
@@ -79,7 +79,7 @@ export function ArticleReader({ document: doc, title, description }: { document:
       case 'listItem': return <li {...attrs}>{typeof node.checked === 'boolean' && <input type="checkbox" checked={node.checked} disabled aria-label="Dấu chọn có sẵn trong tài liệu, không tương tác" />}{children()}</li>
       case 'link':
       case 'linkReference': {
-        const url = safeLink(node.url!, anchors)
+        const url = safeLink(doc.localLinks?.find(l => l.source === node.url)?.target ?? node.url!, anchors)
         return url.startsWith('#') ? <Link {...attrs} to={{ pathname: location.pathname, search: location.search, hash: url }} state={location.state}>{children()}</Link> : <a {...attrs} href={url} title={node.title ?? undefined} target="_blank" rel="noopener noreferrer">{children()}<span className="reader-sr-only"> (mở tab mới)</span></a>
       }
       case 'definition': return <span {...attrs} data-reference-url={node.url} hidden />
@@ -93,11 +93,13 @@ export function ArticleReader({ document: doc, title, description }: { document:
     }
   }
   if (doc.format !== 'gfm-mdast-v1') throw new Error('Reader: unsupported document format')
-  return <article className="markdown-reader">
+  const titleNode = doc.titleNodeId ? index.get(doc.titleNodeId) : undefined
+  const rootAttrs = { 'data-source-id': doc.root.id, 'data-source-start': doc.root.range.start, 'data-source-end': doc.root.range.end }
+  return <article className="markdown-reader" {...(titleNode ? rootAttrs : {})}>
     <Breadcrumb title={title} />
-    <header className="article-title"><h1>{title}</h1><p className="article-deck">{description}</p></header>
+    <header className="article-title"><h1 {...(titleNode ? { 'data-source-id': titleNode.id, 'data-source-start': titleNode.range.start, 'data-source-end': titleNode.range.end } : {})}>{titleNode ? titleNode.children?.map(child => <Fragment key={child.id}>{render(child)}</Fragment>) : title}</h1>{description && <p className="article-deck">{description}</p>}</header>
     <div className="reader-layout"><nav className="table-of-contents" aria-label="Mục lục"><h2>Trong trang này</h2><ol>{tocGroups.map(({ parent, children }) => <li key={parent.id}>{tocLink(parent)}{children.length > 0 && <ol>{children.map(item => <li key={item.id}>{tocLink(item)}</li>)}</ol>}</li>)}</ol></nav>
-      <div className="article-prose" data-source-id={doc.root.id} data-source-start={doc.root.range.start} data-source-end={doc.root.range.end}>{doc.root.children?.filter(node => !grouped.has(node.id)).map(node => <Fragment key={node.id}>{render(node)}</Fragment>)}<Link className="text-link" to={back}>Quay lại thư viện <Arrow /></Link></div>
+      <div className="article-prose" {...(!titleNode ? rootAttrs : {})}>{doc.root.children?.filter(node => !grouped.has(node.id) && node.id !== doc.titleNodeId).map(node => <Fragment key={node.id}>{render(node)}</Fragment>)}<Link className="text-link" to={back}>Quay lại thư viện <Arrow /></Link></div>
     </div>
     {figure && <FigureViewer key={figure.image.id} figure={figure} onDismiss={() => setFigure(null)} />}
   </article>

@@ -30,6 +30,8 @@ export interface ReaderDocument {
   format: 'gfm-mdast-v1'
   offsetEncoding: 'utf16'
   sourceHash: string
+  titleNodeId?: string
+  localLinks?: { source: string; target: string }[]
   root: ReaderNode
   toc: { id: string; depth: number; title: string }[]
   assets: ReaderAsset[]

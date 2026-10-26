@@ -19,11 +19,20 @@ export function loadReaderAsset(root: string, file: FileReference, key: string, 
 export function parseGfm(source: string): Root {
   return fromMarkdown(source, { extensions: [gfm()], mdastExtensions: [gfmFromMarkdown()] })
 }
-export function compileReaderDocument(source: string, assets: ReaderAsset[]): ReaderDocument {
+export interface ReaderCompileOptions {
+  titleInHeader?: boolean
+  localLinks?: { source: string; target: string }[]
+}
+export function compileReaderDocument(source: string, assets: ReaderAsset[], options: ReaderCompileOptions = {}): ReaderDocument {
+  const localLinks = options.localLinks ?? []
+  requireThat(new Set(localLinks.map(l => l.source)).size === localLinks.length, 'duplicate local link mapping')
+  localLinks.forEach(l => requireThat(/^[A-Z-]+\.md$/.test(l.source) && /^#provenance-[a-z-]+$/.test(l.target), 'invalid provenance link mapping'))
   requireThat(new Set(assets.map(a => a.key)).size === assets.length, 'duplicate reader asset key')
   assets.forEach(a => { safeAssetSource(a.src); requireThat(/^[a-f0-9]{64}$/.test(a.sha256) && a.width > 0 && a.height > 0, 'invalid reader asset') })
   const ast = parseGfm(source), trace: ReaderDocument['trace'] = [], toc: ReaderDocument['toc'] = []
-  const used = new Set(['reading-main', 'reader-figure-dialog-title'])
+  const used = new Set(['reading-main', 'reader-figure-dialog-title', ...localLinks.map(l => l.target.slice(1))])
+  const titleInput = options.titleInHeader ? ast.children[0] : undefined
+  if (options.titleInHeader) requireThat(titleInput?.type === 'heading' && titleInput.depth === 1, 'source must start with H1')
   function convert(input: Nodes | Root): ReaderNode {
     requireThat(supported.has(input.type), 'unsupported/unsafe GFM node: ' + input.type)
     const p = input.position
@@ -38,13 +47,13 @@ export function compileReaderDocument(source: string, assets: ReaderAsset[]): Re
     }
     trace.push({ id, type: input.type, range, rawHash: sha256(source.slice(range.start, range.end)), ...('value' in input ? { value: input.value } : {}) })
     if (input.type === 'heading') {
-      requireThat(input.depth === 2 || input.depth === 3, 'reader body headings must be h2/h3')
+      requireThat((input === titleInput && input.depth === 1) || input.depth === 2 || input.depth === 3, 'reader body headings must be h2/h3')
       const text = plainText(node)
       const base = text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[đĐ]/g, 'd').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'muc'
       let anchor = base, suffix = 2
       while (used.has(anchor)) anchor = base + '-' + suffix++
       used.add(anchor); node.anchor = anchor
-      toc.push({ id: anchor, depth: input.depth, title: text })
+      if (input.depth !== 1) toc.push({ id: anchor, depth: input.depth, title: text })
     }
     return node
   }
@@ -67,7 +76,7 @@ export function compileReaderDocument(source: string, assets: ReaderAsset[]): Re
       // A definition used exclusively by an image may use the allowlisted asset key.
       const imageDefinition = node.type === 'definition' && nodes.some(n => n.type === 'imageReference' && n.identifier === node.identifier)
       if (imageDefinition) requireThat(assets.some(a => a.key === node.url), 'unknown image definition')
-      else safeLink(node.url!, anchors)
+      else if (!localLinks.some(l => l.source === node.url)) safeLink(node.url!, anchors)
     }
     if (node.type === 'image' || node.type === 'imageReference') {
       requireThat(node.alt?.trim() && assets.some(a => a.key === node.url), 'missing alt or unlisted reader asset')
@@ -85,5 +94,5 @@ export function compileReaderDocument(source: string, assets: ReaderAsset[]): Re
   }
   requireThat(nodes.filter(n => ['image', 'imageReference'].includes(n.type)).every(n => figures.some(f => f.image === n.id)), 'images must be standalone figures with caption/description')
   requireThat(new Set(trace.map(t => t.id)).size === trace.length, 'ambiguous source node IDs')
-  return { format: 'gfm-mdast-v1', offsetEncoding: 'utf16', sourceHash: sha256(source), root, toc, assets, figures, trace }
+  return { format: 'gfm-mdast-v1', offsetEncoding: 'utf16', sourceHash: sha256(source), root, toc, assets, figures, trace, ...(titleInput ? { titleNodeId: root.children![0].id } : {}), ...(localLinks.length ? { localLinks } : {}) }
 }

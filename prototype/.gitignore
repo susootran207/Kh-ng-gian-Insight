@@ -4,3 +4,6 @@ test-results/
 playwright-report/
 *.tsbuildinfo
 test-results-production/
+test-results-r1/
+test-results-c1/
+test-results-c1-evidence/
