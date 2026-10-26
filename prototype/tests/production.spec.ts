@@ -54,3 +54,16 @@ test('W1 real empty state, direct topic/query and fixture/registry exclusion',as
   await expect(page.locator('.library-entry')).toHaveCount(0)
   for(const path of ['editorial/weekly.json','tests/fixtures/weekly/create.ts','tests/weekly-harness/index.html','@id/__x00__virtual:w1-fixture:virtual:weekly'])expect((await request.get('./'+path)).status()).toBe(404)
 })
+
+test('N1 foundation direct repository URL, reload, anchors and safe destinations',async({page})=>{
+  await page.goto('./#/nen-tang');await page.reload()
+  await expect(page).toHaveTitle('Nền tảng · Không Gian Nội Tâm')
+  await expect(page.locator('h1')).toContainText('Nền tảng của')
+  await expect(page.locator('.preview-notice')).toHaveCount(0)
+  await page.getByRole('link',{name:'Bản nháp và quyền công bố',exact:true}).click()
+  await expect(page.locator('#trang-thai-va-quyen-cong-bo')).toBeFocused()
+  await page.reload();await expect(page.locator('#trang-thai-va-quyen-cong-bo')).toBeFocused()
+  await page.getByRole('link',{name:'Đến thư viện',exact:true}).click();await expect(page.locator('.library-entry')).toHaveCount(0)
+  await page.goto('./#/#nen-tang');await expect(page.locator('#nen-tang')).toBeFocused()
+  await page.getByRole('link',{name:'Tìm hiểu nền tảng',exact:true}).click();await expect(page.locator('h1')).toContainText('Nền tảng của')
+})

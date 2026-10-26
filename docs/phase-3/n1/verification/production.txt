@@ -1,0 +1,26 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:production
+> playwright test -c playwright.production.config.ts
+
+[WebServer] (node:41574) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:41588) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/production.spec.ts:7:39 › production repository path, local assets, reload and draft exclusion 320 (4.1s)
+  ✓  2 tests/production.spec.ts:7:39 › production repository path, local assets, reload and draft exclusion 390 (3.8s)
+  ✓  3 tests/production.spec.ts:7:39 › production repository path, local assets, reload and draft exclusion 768 (5.3s)
+  ✓  4 tests/production.spec.ts:7:39 › production repository path, local assets, reload and draft exclusion 1440 (5.9s)
+  ✓  5 tests/production.spec.ts:23:1 › R1 fixture route, query, harness and raw assets stay excluded from production (1.6s)
+  ✓  6 tests/production.spec.ts:32:1 › C1: all 29 direct routes, preview/raw drafts/dossiers/SVG and query stay excluded (5.8s)
+  ✓  7 tests/production.spec.ts:46:1 › W1 real empty state, direct topic/query and fixture/registry exclusion (2.2s)
+  ✓  8 tests/production.spec.ts:58:1 › N1 foundation direct repository URL, reload, anchors and safe destinations (2.6s)
+
+  8 passed (34.8s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

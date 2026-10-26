@@ -1,0 +1,2 @@
+import { defineConfig } from '@playwright/test'
+export default defineConfig({testDir:'./tests',testMatch:'foundation.spec.ts',outputDir:'test-results-n1',workers:1,timeout:45000,reporter:[['list'],['json',{outputFile:'test-results-n1/report.json'}]],use:{baseURL:'http://127.0.0.1:4193',launchOptions:{executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']},trace:'retain-on-failure'},webServer:{command:'npm run dev -- --host 127.0.0.1 --port 4193',url:'http://127.0.0.1:4193',reuseExistingServer:false}})

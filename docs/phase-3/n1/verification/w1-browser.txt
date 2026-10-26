@@ -1,0 +1,33 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:w1:browser
+> playwright test -c playwright.w1.config.ts
+
+[WebServer] (node:42855) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:42870) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:42891) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/weekly.spec.ts:8:39 › W1 fixture consistency, keyboard and responsive 320 (16.9s)
+  ✓  2 tests/weekly.spec.ts:8:39 › W1 fixture consistency, keyboard and responsive 390 (11.8s)
+  ✓  3 tests/weekly.spec.ts:8:39 › W1 fixture consistency, keyboard and responsive 768 (10.5s)
+  ✓  4 tests/weekly.spec.ts:8:39 › W1 fixture consistency, keyboard and responsive 1440 (6.4s)
+  ✓  5 tests/weekly.spec.ts:42:1 › W1 detail/library stage+query filter, direct URL, history and reader return (4.2s)
+[WebServer] The request id "/workspace/work/n1/qa/repo/docs/phase-3/drafts/C01/ARTICLE.md" is outside of Vite serving allow list.
+[WebServer] 
+[WebServer] - /workspace/work/n1/qa/repo/prototype
+[WebServer] 
+[WebServer] Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+[WebServer] 
+  ✓  6 tests/weekly.spec.ts:59:1 › W1 fixture no-store, loopback Host/Origin and raw real ARTICLE remain closed (58ms)
+  ✓  7 tests/weekly.spec.ts:66:1 › W1 200%-equivalent reflow, library filters and direct detail (1.4s)
+
+  7 passed (57.8s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

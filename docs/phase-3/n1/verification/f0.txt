@@ -1,0 +1,34 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:f0
+> node --experimental-strip-types --test --test-isolation=none tests/content-contract.test.mts
+
+✔ DATA01: real baseline has 29 unique IDs/slugs, four r2 and 25 r1; no prose in manifest (195.754665ms)
+✔ DATA01: real 29-source structure accepts a synthetic 30th article (235.64033ms)
+✔ DATA02: all 203 accepted source/dossier/SVG hashes match before and after tests (14.902207ms)
+✔ contract rejects duplicate IDs/slugs and unknown/asymmetric relations (207.023456ms)
+✔ contract rejects invalid revision, digest, stage, audience, metadata extras, URL and asset reference (63.301413ms)
+✔ path traversal, encoded paths, absolute paths, backslashes, symlinks and missing files are rejected (22.461586ms)
+✔ source/asset/dossier/metadata changes invalidate old hashes, without changing accepted sources (88.726345ms)
+✔ PUB01: real PublicView is empty, legacy public empty, and all three withheld statuses stay excluded (291.347534ms)
+✔ PreviewView contract only accepts literal 127.0.0.1; no query or host alias grants access (397.215279ms)
+✔ PUB02: synthetic approved release is selected only with every matching proof and asset right (17.466239ms)
+✔ PUB02/PUB07: missing reviews, wrong revision/hash/scope/proof/date/rights all fail closed (116.843845ms)
+✔ PUB02: changing proof bytes or a correctly rehashed contradictory proof is rejected (6.633999ms)
+✔ PUB03: topic/related/stage/homepage placements use one eligible set and reject unknown IDs (6.000741ms)
+✔ legacy catalogue rejects old approval-only, stale payloads, missing topic proof and invalid links (4.713677ms)
+✔ PUB04/PUB05: scanner catches real article prose, revision, renamed SVG bytes, raw JSON/MD/map and fixtures (398.752527ms)
+✔ PUB04: scanner detects JSON/JS/HTML escaped text and gzip/brotli artifacts (361.213033ms)
+✔ PUB05/PUB08: full-tree scan rejects a stale preview asset, symlink, and unapproved raster (1132.341745ms)
+✔ DATA02 final: accepted source bytes and all 29 publication statuses remain unchanged (234.873853ms)
+✔ PUB05/PUB06/PUB08: actual Vite hooks serialize only the public catalogue and reject contaminated bundles/output (2475.372361ms)
+✔ PUB07: rehashing changed source/dossier/asset/metadata cannot reuse an old release approval (16.89752ms)
+✔ PUB04: a shared legacy slug is not blacklisted forever after a source revision has valid publication evidence (25.645298ms)
+✔ PUB04/PUB05: copying a draft fragment or metadata into public/ does not turn it into an allowed asset (5.0659ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6628.099868

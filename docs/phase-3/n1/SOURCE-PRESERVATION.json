@@ -1,0 +1,19 @@
+{
+  "baseCommit": "23d922582064d3e6a0dd48f6e53f9b8ec05a0a96",
+  "baseTree": "be581bb9a2515639e0525ed98da7107386ca2219",
+  "baselineBlobs": 626,
+  "unchangedBaselineBlobs": 619,
+  "changedBaselinePaths": [
+    "prototype/.gitignore",
+    "prototype/package.json",
+    "prototype/playwright.config.ts",
+    "prototype/src/App.tsx",
+    "prototype/src/reading/ReadingShell.tsx",
+    "prototype/src/reading/Router.tsx",
+    "prototype/tests/production.spec.ts"
+  ],
+  "draftFilesChecked": 203,
+  "draftMismatches": [],
+  "manifestCatalogueWeeklyRegistryChanged": false,
+  "dependenciesOrLockfileChanged": false
+}

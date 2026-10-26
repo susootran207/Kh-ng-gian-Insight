@@ -1,0 +1,45 @@
+import {test,expect} from '@playwright/test'
+import AxeBuilder from '@axe-core/playwright'
+import {mkdirSync} from 'node:fs'
+import {resolve} from 'node:path'
+const output=resolve('test-results-n1-evidence');mkdirSync(output,{recursive:true})
+for(const width of [320,390,768,1440])test('N1 reading, navigation, keyboard, Axe and reflow '+width,async({page})=>{
+  await page.setViewportSize({width,height:1000});await page.emulateMedia({reducedMotion:'reduce'})
+  const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message))
+  await page.goto('/#/nen-tang');await page.evaluate(()=>document.fonts.ready)
+  await expect(page).toHaveTitle('Nền tảng · Không Gian Nội Tâm')
+  await expect(page.locator('h1')).toContainText('Nền tảng của')
+  await expect(page.locator('.breadcrumbs a')).toHaveCount(1)
+  await expect(page.locator('.breadcrumbs [aria-current="page"]')).toHaveText('Nền tảng')
+  await expect(page.locator('.article-prose section')).toHaveCount(9)
+  await expect(page.locator('input,textarea,form')).toHaveCount(0)
+  await expect(page.locator('main')).toContainText('Thư viện công khai hiện chưa có bài được cấp quyền xuất bản.')
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy()
+  expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([])
+  await page.screenshot({path:output+'/foundation-'+width+'.jpg',type:'jpeg',quality:85})
+  if(width===390||width===1440)await page.screenshot({path:output+'/foundation-full-'+width+'.jpg',type:'jpeg',quality:80,fullPage:true})
+  await page.keyboard.press('Tab');await page.keyboard.press('Enter');await expect(page.locator('main')).toBeFocused()
+  const target=page.locator('#ba-muc-bloom');await page.getByRole('link',{name:'Ba cách học cùng một bài viết',exact:true}).focus();await page.keyboard.press('Enter')
+  await expect(target).toBeFocused();await expect(page).toHaveURL(/#\/nen-tang#ba-muc-bloom$/)
+  await page.reload();await expect(target).toBeFocused()
+  await page.getByRole('link',{name:'Giới hạn của thông tin giáo dục',exact:true}).click();await expect(page.locator('#gioi-han-cua-website')).toBeFocused()
+  await page.goBack();await expect(target).toBeFocused();await page.goForward();await expect(page.locator('#gioi-han-cua-website')).toBeFocused()
+  await page.locator('#rieng-tu-trong-khu-vuon').scrollIntoViewIfNeeded();await page.screenshot({path:output+'/foundation-privacy-'+width+'.jpg',type:'jpeg',quality:85})
+  await page.getByRole('link',{name:'Đến thư viện',exact:true}).click();await expect(page.locator('main')).toBeFocused();await expect(page.getByRole('searchbox')).toBeVisible()
+  await page.goBack();await page.getByRole('link',{name:'Ghé chuyên đề tuần',exact:true}).click();await expect(page.locator('h1')).toContainText('Mỗi tuần')
+  await page.goBack();await page.getByRole('link',{name:'Ghé Góc tâm tình',exact:true}).click();await expect(page.locator('#tam-tinh')).toBeFocused()
+  await page.goto('/#/#nen-tang');await expect(page.locator('#nen-tang')).toBeFocused()
+  await expect(page.locator('#nen-tang h2')).toContainText('Mỗi người')
+  await expect(page.locator('.top-garland')).toHaveAttribute('data-variant','B')
+  await expect(page.getByRole('button',{name:/Mây, chú mèo/})).toBeVisible()
+  await expect(page.getByRole('link',{name:'Tìm một trang dành cho bạn'})).toHaveAttribute('href','#/#bai-viet')
+  await page.screenshot({path:output+'/home-foundation-'+width+'.jpg',type:'jpeg',quality:85})
+  await page.getByRole('link',{name:'Tìm hiểu nền tảng',exact:true}).click();await expect(page.locator('main')).toBeFocused()
+  if(width<1100){const menu=page.getByRole('button',{name:'Menu',exact:true});await menu.click();await page.keyboard.press('Escape');await expect(menu).toBeFocused();await expect(menu).toHaveAttribute('aria-expanded','false')}
+  await page.locator('.breadcrumbs a').click();await expect(page.locator('h1')).toContainText('Một khoảng vườn')
+  expect(errors).toEqual([])
+})
+test('N1 200%-equivalent reflow (not native browser zoom)',async({browser})=>{
+  const context=await browser.newContext({viewport:{width:720,height:500},deviceScaleFactor:2,reducedMotion:'reduce'})
+  try{const page=await context.newPage();await page.goto('http://127.0.0.1:4193/#/nen-tang');await expect(page.locator('h1')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy();await page.screenshot({path:output+'/foundation-reflow-720-dpr2.jpg',type:'jpeg',quality:85})}finally{await context.close()}
+})

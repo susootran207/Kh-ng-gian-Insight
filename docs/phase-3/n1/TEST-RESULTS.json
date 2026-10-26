@@ -1,0 +1,244 @@
+{
+  "environment": {
+    "node": "24.19.0",
+    "npm": "11.9.0",
+    "chromium": "154.0.8037.57",
+    "platform": "Linux headless"
+  },
+  "checks": [
+    {
+      "command": "npm run test:f0",
+      "status": "PASS",
+      "passed": 22,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:r1",
+      "status": "PASS",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:c1",
+      "status": "PASS",
+      "passed": 34,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:w1",
+      "status": "PASS",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "suite": "n1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T03:03:27.745Z",
+        "duration": 26766.771999999997,
+        "expected": 5,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "r1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T03:08:39.876Z",
+        "duration": 60011.867,
+        "expected": 8,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "w1-browser",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T03:09:41.867Z",
+        "duration": 57825.129,
+        "expected": 7,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "regression",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T03:10:40.627Z",
+        "duration": 116085.754,
+        "expected": 30,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "production",
+      "status": "PASS",
+      "stats": {
+        "startTime": "2026-10-26T03:08:03.197Z",
+        "duration": 34758.829,
+        "expected": 8,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "suite": "c1-browser",
+      "status": "PASS after targeted rerun",
+      "uniqueCasesPassed": 8,
+      "initialStats": {
+        "startTime": "2026-10-26T03:04:19.718Z",
+        "duration": 366225.741,
+        "expected": 7,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "rerun1440Stats": {
+        "startTime": "2026-10-26T03:13:00.117Z",
+        "duration": 53983.855,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "initialFailure": "KGNT-C04 at 1440: apiRequestContext.get read ECONNRESET on local SVG request; tests/source unchanged; full 29-article 1440 case passed on isolated rerun"
+    },
+    {
+      "command": "npm run build + npm run test:content",
+      "status": "PASS",
+      "scanner": {
+        "files": 29,
+        "withheldArticles": 29,
+        "markerCount": 4335,
+        "publicSourceArticles": 0,
+        "publicLegacyArticles": 0,
+        "publicLegacyTopics": 0,
+        "publicWeeklyTopics": 0,
+        "publicWeeklyArticles": 0,
+        "currentWeeklyId": null,
+        "canary": "detected"
+      }
+    }
+  ],
+  "contentRegressionCoverage": [
+    {
+      "width": 320,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0,
+      "r2": 4,
+      "r1": 25
+    },
+    {
+      "width": 390,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0,
+      "r2": 4,
+      "r1": 25
+    },
+    {
+      "width": 768,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0,
+      "r2": 4,
+      "r1": 25
+    },
+    {
+      "width": 1440,
+      "articles": 29,
+      "astNodes": 4716,
+      "domNodes": 4716,
+      "svgHashes": 29,
+      "tables": 25,
+      "axeViolations": 0,
+      "r2": 4,
+      "r1": 25
+    }
+  ],
+  "logs": [
+    {
+      "path": "verification/manifest.txt",
+      "sha256": "c4aa05390fd22daf154383c38b279ab05b244ff77ac8a810c09bc0fef1866250"
+    },
+    {
+      "path": "verification/f0.txt",
+      "sha256": "1d94d0f717d040bc730f5837e57bad19489f808a3215b2ce49b9549a965fb428"
+    },
+    {
+      "path": "verification/r1.txt",
+      "sha256": "56a38c61dd5d4cf560f3bf83136061be86ab6ade7b8f579f6c4523b7516afa34"
+    },
+    {
+      "path": "verification/c1.txt",
+      "sha256": "829cb1027d1865ec818122976053728c9eb72f91f599d43aca3060ebf400c4aa"
+    },
+    {
+      "path": "verification/w1.txt",
+      "sha256": "c824c0cd7cbfa39fe3e2e67f7cc7e546c64eb4860334feeca92d9fad6539b0bd"
+    },
+    {
+      "path": "verification/n1-browser.txt",
+      "sha256": "a8ecfb85a1b05d8574f1bb26d90502b96cca97698663e9e3ba98e045518a5c93"
+    },
+    {
+      "path": "verification/c1-browser.txt",
+      "sha256": "45264b060154d134aafad23c4b39e14f9a1936b9d1db9ead2ed94d12a4dea90f"
+    },
+    {
+      "path": "verification/c1-browser-1440-rerun.txt",
+      "sha256": "5f1dc2f8b56f29a50c3303e0d912882c9c6dda664692cbc91502765a17c462b7"
+    },
+    {
+      "path": "verification/r1-browser.txt",
+      "sha256": "167ec7da4e96d5c08fc6b3b538e61e142ca98ea1f6383ec37e029327c37747a2"
+    },
+    {
+      "path": "verification/w1-browser.txt",
+      "sha256": "2ba19f237f6b67fafca52b52fee61ccc036e7a6eadb2b62bfdc07252295b8172"
+    },
+    {
+      "path": "verification/regression.txt",
+      "sha256": "15146b5e857b0e8d22294c7dee3cc010a007938d700f06638ef3c6ae87f68358"
+    },
+    {
+      "path": "verification/production.txt",
+      "sha256": "737dcd430027410778a5270614993813c5dea7f1c568e09b9d44b3812b724eaf"
+    },
+    {
+      "path": "verification/build.txt",
+      "sha256": "01cd87bff1934bf2b1d2619b039bb3c1e8f47f000874afbdc22002ebdc633e4a"
+    },
+    {
+      "path": "verification/build-qa.txt",
+      "sha256": "ba1b1f103121e10c7b15792df0f0b5c5106f8c1335bd44230959db8c4f8ef3a2"
+    }
+  ],
+  "unverified": [
+    "native 200% browser zoom",
+    "screen reader",
+    "Safari/Firefox/Edge",
+    "physical devices",
+    "independent professional or learner review"
+  ],
+  "ci": "See Draft PR CI section for exact-head run/job links; CI does not run browser suites"
+}
