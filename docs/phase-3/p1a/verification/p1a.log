@@ -1,0 +1,13 @@
+{
+  "result": "PASS documentation/integrity only",
+  "articles": 29,
+  "r2": 4,
+  "r1": 25,
+  "sourceFilesUnchanged": 203,
+  "baselineBlobsUnchanged": 756,
+  "localLinks": 221,
+  "pinnedLineLinks": 1065,
+  "externalAttempts": 119,
+  "externalVerified": 0,
+  "publicationGrantsCreated": 0
+}

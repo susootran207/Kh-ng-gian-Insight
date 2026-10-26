@@ -1,0 +1,48 @@
+{
+  "articles": [
+    {
+      "id": "C06",
+      "revision": "c06-draft-r1",
+      "structural": "PASS",
+      "sources": 4,
+      "abstractOnly": 0
+    },
+    {
+      "id": "C07",
+      "revision": "c07-draft-r1",
+      "structural": "PASS",
+      "sources": 3,
+      "abstractOnly": 1
+    },
+    {
+      "id": "C08",
+      "revision": "c08-draft-r1",
+      "structural": "PASS",
+      "sources": 2,
+      "abstractOnly": 0
+    },
+    {
+      "id": "C14",
+      "revision": "c14-draft-r1",
+      "structural": "PASS",
+      "sources": 4,
+      "abstractOnly": 0
+    },
+    {
+      "id": "C18",
+      "revision": "c18-draft-r1",
+      "structural": "PASS",
+      "sources": 3,
+      "abstractOnly": 0
+    }
+  ],
+  "internalLinks": 98,
+  "textContrast": {
+    "#fffdf7": 11.01,
+    "#dce3d2": 8.51,
+    "#e9e2ee": 8.84
+  },
+  "sourceUses": 16,
+  "uniqueContentSources": 14,
+  "scope": "structural only; manual source/semantic/render review separate"
+}

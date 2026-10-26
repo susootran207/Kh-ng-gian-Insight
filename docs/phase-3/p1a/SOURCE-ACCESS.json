@@ -1,0 +1,1574 @@
+[
+  {
+    "url": "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+    "articleIds": [
+      "KGNT-C01",
+      "KGNT-C02",
+      "KGNT-C03",
+      "KGNT-C04",
+      "KGNT-C05",
+      "KGNT-C06",
+      "KGNT-C09",
+      "KGNT-C14",
+      "KGNT-C15",
+      "KGNT-C16",
+      "KGNT-C18",
+      "KGNT-C20"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.553824+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.3389/fpsyg.2021.700298",
+    "articleIds": [
+      "KGNT-C01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.554937+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1177/0539018405058216",
+    "articleIds": [
+      "KGNT-C01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.555522+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.unige.ch/cisa/application/files/6914/6720/3988/2005_Scherer_SSI.pdf",
+    "articleIds": [
+      "KGNT-C01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.556541+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.700298/full",
+    "articleIds": [
+      "KGNT-C01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.563220+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/",
+    "articleIds": [
+      "KGNT-C02",
+      "KGNT-C19"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.567222+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-in-children/",
+    "articleIds": [
+      "KGNT-C02"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.582413+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1007/s12671-017-0850-7",
+    "articleIds": [
+      "KGNT-C03"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.586074+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1080/15298860309032",
+    "articleIds": [
+      "KGNT-C03"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.589583+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s12671-017-0850-7",
+    "articleIds": [
+      "KGNT-C03"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.592761+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://self-compassion.org/wp-content/uploads/publications/SCtheoryarticle.pdf",
+    "articleIds": [
+      "KGNT-C03"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.597471+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1037/bul0000110",
+    "articleIds": [
+      "KGNT-C04"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.600748+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/",
+    "articleIds": [
+      "KGNT-C04"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.603877+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://cdn.vanderbilt.edu/vu-my/wp-content/uploads/sites/2804/2019/04/14195744/Compas-et-al-2017-Psych-Bulletin.pdf",
+    "articleIds": [
+      "KGNT-C04"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.606802+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1177/1529100612453266",
+    "articleIds": [
+      "KGNT-C05",
+      "KGNT-C07",
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.609902+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1007/s10578-024-01667-5",
+    "articleIds": [
+      "KGNT-C05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.613189+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.5664/jcsm.5866",
+    "articleIds": [
+      "KGNT-C05",
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.616886+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s10578-024-01667-5",
+    "articleIds": [
+      "KGNT-C05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.620895+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://acs.ist.psu.edu/ist521/dunloskyRMNW13.pdf",
+    "articleIds": [
+      "KGNT-C05",
+      "KGNT-C07",
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.624693+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://aasm.org/wp-content/uploads/2017/04/Pediatricsleepdurationconsensus.pdf",
+    "articleIds": [
+      "KGNT-C05",
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.627872+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.cci.health.wa.gov.au/~/media/CCI/Mental-Health-Professionals/Procrastination/Procrastination---Information-Sheets/Procrastination-Information-Sheet---04---Practical-Strategies-to-Stop-Procrastinating.pdf",
+    "articleIds": [
+      "KGNT-C06"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.630905+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.3390/children10061016",
+    "articleIds": [
+      "KGNT-C06"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.634025+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1037/0033-2909.133.1.65",
+    "articleIds": [
+      "KGNT-C06"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.637283+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://mdpi-res.com/d_attachment/children/children-10-01016/article_deploy/children-10-01016-v2.pdf?version=1686035181",
+    "articleIds": [
+      "KGNT-C06"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.640955+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.researchgate.net/profile/Piers-Steel/publication/6598646_The_Nature_of_Procrastination_A_Meta-Analytic_and_Theoretical_Review_of_Quintessential_Self-Regulatory_Failure/links/0046352704d88f37a3000000/The-Nature-of-Procrastination-A-Meta-Analytic-and-Theoretical-Review-of-Quintessential-Self-Regulatory-Failure.pdf",
+    "articleIds": [
+      "KGNT-C06"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.643798+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1007/s10648-021-09595-9",
+    "articleIds": [
+      "KGNT-C07"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.646796+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1037/a0021782",
+    "articleIds": [
+      "KGNT-C07"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.650172+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s10648-021-09595-9",
+    "articleIds": [
+      "KGNT-C07"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.653219+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://pdf.poojaagarwal.com/McDaniel_Agarwal_etal_2011_JEP.pdf",
+    "articleIds": [
+      "KGNT-C07"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.656283+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.3102/003465430298487",
+    "articleIds": [
+      "KGNT-C08"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.659666+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.3389/fpsyg.2019.03087",
+    "articleIds": [
+      "KGNT-C08"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.662733+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://educacion.udd.cl/files/2018/04/The-Power-of-Feedback.pdf",
+    "articleIds": [
+      "KGNT-C08"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.665929+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full",
+    "articleIds": [
+      "KGNT-C08"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.685449+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.cdc.gov/youth-behavior/school-connectedness/index.html",
+    "articleIds": [
+      "KGNT-C09"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.689000+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1016/j.jaac.2020.05.009",
+    "articleIds": [
+      "KGNT-C09"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.692228+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://research-information.bris.ac.uk/ws/files/239095275/JAACAP_revision_3_28.5.2020_complete.pdf",
+    "articleIds": [
+      "KGNT-C09"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.695980+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/friendship-problems/",
+    "articleIds": [
+      "KGNT-C10",
+      "KGNT-C16"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.700347+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.stopbullying.gov/prevention/on-the-spot",
+    "articleIds": [
+      "KGNT-C10",
+      "KGNT-C11"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.702273+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.stopbullying.gov/bullying/what-is-bullying",
+    "articleIds": [
+      "KGNT-C10",
+      "KGNT-C11"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.705728+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.5498/wjp.v7.i1.60",
+    "articleIds": [
+      "KGNT-C11"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.708788+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.stopbullying.gov/kids/what-you-can-do",
+    "articleIds": [
+      "KGNT-C11"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.711754+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.wjgnet.com/2220-3206/full/v7/i1/60.htm",
+    "articleIds": [
+      "KGNT-C11"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.715047+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.childline.org.uk/info-advice/your-feelings/feelings-emotions/being-assertive/",
+    "articleIds": [
+      "KGNT-C12"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.720716+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/peer-pressure/",
+    "articleIds": [
+      "KGNT-C12"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.724288+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.mind.org.uk/for-young-people/feelings-and-experiences/exam-stress/",
+    "articleIds": [
+      "KGNT-C13"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.728077+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1016/j.jad.2023.07.028",
+    "articleIds": [
+      "KGNT-C13"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.730966+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.youngminds.org.uk/young-person/coping-with-life/family/",
+    "articleIds": [
+      "KGNT-C13"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.734534+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10174035/1/1-s2.0-S0165032723008510-main.pdf",
+    "articleIds": [
+      "KGNT-C13"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.737665+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.cdc.gov/healthy-youth/connecting-conversations/index.html",
+    "articleIds": [
+      "KGNT-C14"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.740499+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1186/1471-244X-10-113",
+    "articleIds": [
+      "KGNT-C14",
+      "KGNT-C15"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.743446+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.nami.org/kids-teens-and-young-adults/teens/how-to-talk-to-my-parents-or-guardian/",
+    "articleIds": [
+      "KGNT-C14"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.746988+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://link.springer.com/article/10.1186/1471-244X-10-113",
+    "articleIds": [
+      "KGNT-C14",
+      "KGNT-C15"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.749780+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.mind.org.uk/for-young-people/how-to-get-help-and-support/where-to-look-for-mental-health-support/",
+    "articleIds": [
+      "KGNT-C15"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.752857+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.youngminds.org.uk/young-person/supporting-a-friend-with-their-mental-health/",
+    "articleIds": [
+      "KGNT-C16"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.784025+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.nhlbi.nih.gov/health/insomnia/diagnosis",
+    "articleIds": [
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.786614+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+    "articleIds": [
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.789399+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/body-clock",
+    "articleIds": [
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.792589+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.nhlbi.nih.gov/health/insomnia",
+    "articleIds": [
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.795978+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1016/j.pcl.2011.03.003",
+    "articleIds": [
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.804181+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21600346/",
+    "articleIds": [
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.811372+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3130594/",
+    "articleIds": [
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.815147+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://contentmanager.med.uvm.edu/docs/carskadon_2011_sleep_in_adolescents_the_perfect_storm/ahec-documents/carskadon_2011_sleep_in_adolescents_the_perfect_storm.pdf?sfvrsn=5fd7051c_2",
+    "articleIds": [
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.818328+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://digital.library.adelaide.edu.au/items/b6f8ec57-2ebe-4215-bc0d-ab55221d1a76",
+    "articleIds": [
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.824545+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://europepmc.org/articles/PMC3130594",
+    "articleIds": [
+      "KGNT-C17"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.828305+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1371/journal.pone.0272460",
+    "articleIds": [
+      "KGNT-C18"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.831771+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.unicef.org/child-rights-convention/convention-text",
+    "articleIds": [
+      "KGNT-C18"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.835016+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460",
+    "articleIds": [
+      "KGNT-C18"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.837893+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.schn.health.nsw.gov.au/factsheets/abdominal-pain-and-stomach-ache",
+    "articleIds": [
+      "KGNT-C19"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.841078+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/",
+    "articleIds": [
+      "KGNT-C20"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.849981+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "articleIds": [
+      "KGNT-C20"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.852933+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1177/001872675400700202",
+    "articleIds": [
+      "KGNT-C21"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.855979+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1016/j.copsyc.2021.08.017",
+    "articleIds": [
+      "KGNT-C21"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.859239+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.youngminds.org.uk/young-person/coping-with-life/social-media-and-mental-health/",
+    "articleIds": [
+      "KGNT-C21",
+      "KGNT-C22"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.862135+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.decodedscience.org/files/docs/festinger%20(1954)%20a%20theory%20of%20social%20comparison%20processes.pdf",
+    "articleIds": [
+      "KGNT-C21"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.885541+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www2.psych.ubc.ca/~schaller/528Readings/Festinger1954.pdf",
+    "articleIds": [
+      "KGNT-C21"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.889189+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.project-awesome.nl/images/PDFs/Publications/Valkenburg_et_al._An_umbrella_review_COiP_2022.pdf",
+    "articleIds": [
+      "KGNT-C21"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.891936+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1016/S1364-6613(03",
+    "articleIds": [
+      "KGNT-C22"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.895346+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1016/S1364-6613(03)00028-7",
+    "articleIds": [
+      "KGNT-C22"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.898454+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.psychfiles.net/experimental/Monsell_2003.pdf",
+    "articleIds": [
+      "KGNT-C22"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.901315+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1002/rev3.3197",
+    "articleIds": [
+      "KGNT-C23"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.904483+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.youngminds.org.uk/young-person/coping-with-life/problems-at-school/",
+    "articleIds": [
+      "KGNT-C23"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.907908+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/rev3.3197",
+    "articleIds": [
+      "KGNT-C23"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.910864+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://nationalcareers.service.gov.uk/careers-advice/career-choices-at-16",
+    "articleIds": [
+      "KGNT-C24"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.913854+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.oecd.org/en/publications/teenage-career-uncertainty_e89c3da9-en.html",
+    "articleIds": [
+      "KGNT-C24"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.916779+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/teenage-career-uncertainty_63c29ae4/e89c3da9-en.pdf",
+    "articleIds": [
+      "KGNT-C24"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.919724+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf",
+    "articleIds": [
+      "KGNT-E01",
+      "KGNT-E04"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.922679+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1002/jcad.70006",
+    "articleIds": [
+      "KGNT-E01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.926131+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.themyersbriggs.com/en-US/Support/MBTI-Facts",
+    "articleIds": [
+      "KGNT-E01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.929444+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.16personalities.com/articles/our-theory",
+    "articleIds": [
+      "KGNT-E01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.933243+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1111/spc3.12434",
+    "articleIds": [
+      "KGNT-E01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.936314+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/jcad.70006",
+    "articleIds": [
+      "KGNT-E01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.939849+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.swanpsych.com/publications/SteinSwanMBTITheory_2019.pdf",
+    "articleIds": [
+      "KGNT-E01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.942879+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/spc3.12434",
+    "articleIds": [
+      "KGNT-E01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.945792+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.themyersbriggs.com/en-US/Support/Copyright-and-Permissions",
+    "articleIds": [
+      "KGNT-E01"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.948488+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.ocf.berkeley.edu/~johnlab/bfi.html",
+    "articleIds": [
+      "KGNT-E02"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.951699+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.colby.edu/wp-content/uploads/2019/06/John_et_al_2008.pdf",
+    "articleIds": [
+      "KGNT-E02"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.983089+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1037/0022-3514.94.4.718",
+    "articleIds": [
+      "KGNT-E02"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.983541+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1111/sjop.13110",
+    "articleIds": [
+      "KGNT-E02"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.986388+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.colby.edu/wp-content/uploads/2013/08/Soto_et_al_2008.pdf",
+    "articleIds": [
+      "KGNT-E02"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.990851+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/sjop.13110",
+    "articleIds": [
+      "KGNT-E02"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.993753+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.onetcenter.org/license_tools.html",
+    "articleIds": [
+      "KGNT-E03"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.997190+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.onetcenter.org/dl_files/IP_Manual.pdf",
+    "articleIds": [
+      "KGNT-E03"
+    ],
+    "attemptedAt": "2026-10-26T12:55:57.999909+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.onetcenter.org/reports/IP_Manual.html",
+    "articleIds": [
+      "KGNT-E03"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.004592+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.cmu.edu/common-cold-project/measures-by-study/psychological-and-social-constructs/stress-measures/perceived-stress.html",
+    "articleIds": [
+      "KGNT-E04"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.007756+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1186/s12888-017-1221-6",
+    "articleIds": [
+      "KGNT-E04"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.010988+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/",
+    "articleIds": [
+      "KGNT-E04"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.013949+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://medlineplus.gov/lab-tests/mental-health-screening/",
+    "articleIds": [
+      "KGNT-E04"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.017264+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+    "articleIds": [
+      "KGNT-E04"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.020279+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://link.springer.com/article/10.1186/s12888-017-1221-6",
+    "articleIds": [
+      "KGNT-E04"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.023509+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.3389/fpsyg.2018.01538",
+    "articleIds": [
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.026921+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.3389/fpsyg.2024.1428732",
+    "articleIds": [
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.031272+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1111/j.1539-6053.2009.01038.x",
+    "articleIds": [
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.038322+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://people.uncw.edu/kozloffm/nolearningstylespdf.pdf",
+    "articleIds": [
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.045236+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01538/full",
+    "articleIds": [
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.051817+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1428732/full",
+    "articleIds": [
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.055012+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://doi.org/10.1037/hop0000240",
+    "articleIds": [
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.057955+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37471036/",
+    "articleIds": [
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.061090+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://www.apa.org/pubs/highlights/spotlight/issue-277",
+    "articleIds": [
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.084581+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  },
+  {
+    "url": "https://psycnet.apa.org/doi/10.1037/hop0000240",
+    "articleIds": [
+      "KGNT-E05"
+    ],
+    "attemptedAt": "2026-10-26T12:55:58.087951+00:00",
+    "method": "GET via inherited proxy; TLS verification enabled",
+    "access": "UNVERIFIED",
+    "errorType": "URLError",
+    "reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "httpStatus": null,
+    "proxyTunnelStatus": 403
+  }
+]

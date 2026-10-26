@@ -1,0 +1,85 @@
+{
+  "result": "PASS_structural_only",
+  "articles": [
+    {
+      "id": "KGNT-C01",
+      "revision": "c01-draft-r2",
+      "slug": "hom-nay-minh-cam-thay-gi",
+      "references": 3,
+      "questions": 3,
+      "feedback": 3,
+      "inkContrastRange": [
+        8.51,
+        11.01
+      ],
+      "svgTextPxAt320": [
+        11.0,
+        12.0,
+        14.0,
+        15.0
+      ]
+    },
+    {
+      "id": "KGNT-C05",
+      "revision": "c05-draft-r2",
+      "slug": "khi-mua-thi-den-gan",
+      "references": 4,
+      "questions": 3,
+      "feedback": 3,
+      "inkContrastRange": [
+        8.51,
+        11.01
+      ],
+      "svgTextPxAt320": [
+        12.0,
+        13.0,
+        14.0,
+        15.0
+      ]
+    },
+    {
+      "id": "KGNT-C17",
+      "revision": "c17-draft-r2",
+      "slug": "dem-dai-minh-chua-ngu",
+      "references": 4,
+      "questions": 3,
+      "feedback": 3,
+      "inkContrastRange": [
+        8.51,
+        11.01
+      ],
+      "svgTextPxAt320": [
+        14.0,
+        15.0,
+        16.0,
+        17.0,
+        21.0
+      ]
+    },
+    {
+      "id": "KGNT-E05",
+      "revision": "e05-draft-r2",
+      "slug": "phong-cach-hoc-tap",
+      "references": 4,
+      "questions": 3,
+      "feedback": 3,
+      "inkContrastRange": [
+        8.51,
+        11.01
+      ],
+      "svgTextPxAt320": [
+        15.0,
+        16.0,
+        17.0,
+        21.0
+      ]
+    }
+  ],
+  "referenceUses": 15,
+  "uniqueReferenceURLs": 12,
+  "localLinksChecked": 119,
+  "runtimeTextFilesScanned": 46,
+  "publishedArticles": 0,
+  "publishedTopics": 0
+}
+NOT TESTED: external HTTP/DOI resolution, scientific truth, full APA semantics, independent review, learner outcomes, browser/reader/screen reader, production bundle/deploy.

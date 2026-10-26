@@ -1,0 +1,3663 @@
+{
+  "auditBase": "d7a6fa5bb978504df4e318df6049660a23fabd72",
+  "note": "Extracted historical fields, not new verification; includes excluded/background leads. Read source heading and article notes.",
+  "blocks": [
+    {
+      "articleId": "KGNT-C01",
+      "heading": "S01 — dùng trong bài",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.1177/0539018405058216",
+        "https://www.unige.ch/cisa/application/files/6914/6720/3988/2005_Scherer_SSI.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại: bài lý thuyết; không thử nghiệm trên mẫu học sinh."
+        },
+        {
+          "line": 11,
+          "text": "- Chỉ dùng định nghĩa theo một khung, giới hạn phân loại và phân biệt biểu hiện/xu hướng/kinh nghiệm."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C01",
+      "heading": "S02 — dùng trong bài",
+      "referencesLine": 15,
+      "urls": [
+        "https://doi.org/10.3389/fpsyg.2021.700298",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.700298/full"
+      ],
+      "historicalFields": [
+        {
+          "line": 19,
+          "text": "- Loại: tổng quan tường thuật về phát triển và sức khỏe tinh thần, có đối chiếu người lớn; không một mẫu tuổi duy nhất."
+        },
+        {
+          "line": 20,
+          "text": "- Đã đối chiếu “Carving the Subject Matter” và đoạn giới hạn trong Introduction."
+        },
+        {
+          "line": 21,
+          "text": "- Dùng định nghĩa hẹp của emotion differentiation và giới hạn suy luận; không dùng kết quả theo tuổi hoặc hứa điều trị."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C01",
+      "heading": "C01-S04 — nguồn bổ sung, dùng cho đoạn tìm hỗ trợ",
+      "referencesLine": 24,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 27,
+          "text": "- Loại: hướng dẫn chính thức, revised 2024 và số xuất bản kiểm trực tiếp cuối trang."
+        },
+        {
+          "line": 29,
+          "text": "- Đối tượng: cha mẹ/người chăm sóc trẻ em và trẻ lớn; không một mẫu can thiệp hay khoảng tuổi tuyển mẫu."
+        },
+        {
+          "line": 30,
+          "text": "- Hỗ trợ tiêu chí mở lời khi khổ sở/ảnh hưởng hoạt động; không chuyển thành bài test."
+        },
+        {
+          "line": 31,
+          "text": "- Giới hạn: bối cảnh Hoa Kỳ; không dùng số điện thoại, pháp luật, IEP hoặc mô tả dịch vụ như có sẵn tại Việt Nam. Lựa chọn người lớn khác là biên tập thực hành, không hiệu quả can thiệp được nghiên cứu ở đây."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C02",
+      "heading": "NHS26",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-in-children/"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Hướng dẫn chính thức; HTML hiện hành, ngày last reviewed"
+        },
+        {
+          "line": 10,
+          "text": "- Bản thực đọc: https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-in-children/"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng/tuổi: Trẻ/người trẻ; hướng dẫn cho người chăm sóc tại Anh, không mẫu thực nghiệm"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí đối chiếu: What makes children anxious?; When is anxiety a problem for children?; How to help an anxious child; When should we get help?"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực: Lo trước thay đổi/kiểm tra có thể gặp; chú ý ảnh hưởng đời sống; lắng nghe, cùng giải quyết, không ép khi chưa trao đổi."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không hiệu quả thử nghiệm; không xác nhận lựa chọn cụ thể của Hạnh hoặc dịch vụ Việt Nam."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Không có ngoại lệ metadata đã phát hiện."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C02",
+      "heading": "NHS23A",
+      "referencesLine": 18,
+      "urls": [
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/"
+      ],
+      "historicalFields": [
+        {
+          "line": 22,
+          "text": "- Loại/phiên bản: Hướng dẫn chính thức; HTML, ngày last reviewed"
+        },
+        {
+          "line": 23,
+          "text": "- Bản thực đọc: https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/"
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Trẻ/người trẻ, không mẫu hoặc khoảng tuổi nghiên cứu cụ thể"
+        },
+        {
+          "line": 25,
+          "text": "- Vị trí đối chiếu: Introduction; Symptoms of anxiety in children and young people; Where to get help for anxiety"
+        },
+        {
+          "line": 26,
+          "text": "- Hỗ trợ thực: Các biểu hiện lo nghĩ, khó tập trung, khó chịu bụng có thể gặp; cần xét đời sống khi tìm đánh giá."
+        },
+        {
+          "line": 27,
+          "text": "- Giới hạn: Danh sách không phải tiêu chuẩn tự chẩn đoán; không xác định nguyên nhân triệu chứng; không dùng nội dung thuốc/CBT trong bài."
+        },
+        {
+          "line": 28,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 29,
+          "text": "- Ghi chú: Không có ngoại lệ metadata đã phát hiện."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C02",
+      "heading": "NIMH24",
+      "referencesLine": 31,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 35,
+          "text": "- Loại/phiên bản: Hướng dẫn cơ quan chuyên môn Mỹ; NIH Publication No. 24-MH-8085, revised 2024"
+        },
+        {
+          "line": 36,
+          "text": "- Bản thực đọc: https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+        },
+        {
+          "line": 37,
+          "text": "- Đối tượng/tuổi: Trẻ/người trẻ, hướng dẫn cho gia đình; không nghiên cứu một mẫu"
+        },
+        {
+          "line": 38,
+          "text": "- Vị trí đối chiếu: When should I seek help for my child’s mental health?; How is children’s mental health assessed?; Where can I get help?"
+        },
+        {
+          "line": 39,
+          "text": "- Hỗ trợ thực: Khổ sở, ảnh hưởng chức năng, khó khăn kéo dài là lý do tìm hỗ trợ; đánh giá đa nguồn thông tin."
+        },
+        {
+          "line": 40,
+          "text": "- Giới hạn: Không áp dịch vụ, luật hoặc đường dây Mỹ vào Việt Nam; không yêu cầu chờ đủ số tuần mới hỏi giúp."
+        },
+        {
+          "line": 41,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 42,
+          "text": "- Ghi chú: Không có ngoại lệ metadata đã phát hiện."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C03",
+      "heading": "MARSH18",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.1007/s12671-017-0850-7",
+        "https://link.springer.com/article/10.1007/s12671-017-0850-7"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Phân tích gộp; toàn văn HTML open access"
+        },
+        {
+          "line": 10,
+          "text": "- Bản thực đọc: https://link.springer.com/article/10.1007/s12671-017-0850-7"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng/tuổi: Thanh thiếu niên 10–19 tuổi; 19 nghiên cứu trong tổng hợp"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí đối chiếu: Abstract; Discussion; Limitations"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực: Liên hệ nghịch giữa tự trắc ẩn và khó khăn tâm lý."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Phần lớn tương quan/cắt ngang; dị biệt cao, nguy cơ sai lệch; không chứng minh bài viết lại có hiệu quả."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Đăng online 2017; APA dùng năm tập 9 (2018), không nhầm năm trong DOI."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C03",
+      "heading": "NEFF03",
+      "referencesLine": 18,
+      "urls": [
+        "https://doi.org/10.1080/15298860309032",
+        "https://self-compassion.org/wp-content/uploads/publications/SCtheoryarticle.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 22,
+          "text": "- Loại/phiên bản: Bài khái niệm gốc; PDF tác giả, 17 trang, trang in 85–101"
+        },
+        {
+          "line": 23,
+          "text": "- Bản thực đọc: https://self-compassion.org/wp-content/uploads/publications/SCtheoryarticle.pdf"
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Không mẫu can thiệp; không bằng chứng hiệu quả riêng ở THCS–THPT"
+        },
+        {
+          "line": 25,
+          "text": "- Vị trí đối chiếu: Abstract tr.85; What Is Self-Compassion? tr.86–89; tr.87 về không nuông chiều/phủ nhận điều cần sửa"
+        },
+        {
+          "line": 26,
+          "text": "- Hỗ trợ thực: Cách khái niệm hóa ba mặt: self-kindness, common humanity, mindfulness; không đồng nghĩa bỏ trách nhiệm."
+        },
+        {
+          "line": 27,
+          "text": "- Giới hạn: Không thử nghiệm mẫu câu của bài; không nhận tác giả là nguồn gốc đầu tiên của lòng trắc ẩn."
+        },
+        {
+          "line": 28,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 29,
+          "text": "- Ghi chú: PDF in DOI 10.1080/15298860390129863; metadata nhà xuất bản được lập chỉ mục cho đúng tác giả/tên/2(2)/85–101 dùng 10.1080/15298860309032. DOI trong APA theo metadata đó; resolver trả 403, không suy nguyên nhân chênh lệch hoặc nhận đã đối chiếu toàn văn nhà xuất bản. Trước công bố nên xác nhận lại khác biệt metadata. Không nhầm bài thang đo có DOI khác."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C03",
+      "heading": "NIMH24",
+      "referencesLine": 31,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 35,
+          "text": "- Loại/phiên bản: Hướng dẫn cơ quan chuyên môn Mỹ; NIH Publication No. 24-MH-8085, revised 2024"
+        },
+        {
+          "line": 36,
+          "text": "- Bản thực đọc: https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+        },
+        {
+          "line": 37,
+          "text": "- Đối tượng/tuổi: Trẻ/người trẻ, hướng dẫn cho gia đình; không nghiên cứu một mẫu"
+        },
+        {
+          "line": 38,
+          "text": "- Vị trí đối chiếu: When should I seek help for my child’s mental health?; How is children’s mental health assessed?; Where can I get help?"
+        },
+        {
+          "line": 39,
+          "text": "- Hỗ trợ thực: Khổ sở, ảnh hưởng chức năng, khó khăn kéo dài là lý do tìm hỗ trợ; đánh giá đa nguồn thông tin."
+        },
+        {
+          "line": 40,
+          "text": "- Giới hạn: Không áp dịch vụ, luật hoặc đường dây Mỹ vào Việt Nam; không yêu cầu chờ đủ số tuần mới hỏi giúp."
+        },
+        {
+          "line": 41,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 42,
+          "text": "- Ghi chú: Không có ngoại lệ metadata đã phát hiện."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C04",
+      "heading": "COMPAS17",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.1037/bul0000110",
+        "https://cdn.vanderbilt.edu/vu-my/wp-content/uploads/sites/2804/2019/04/14195744/Compas-et-al-2017-Psych-Bulletin.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Phân tích gộp và tổng quan tường thuật; PDF đại học, 53 trang"
+        },
+        {
+          "line": 10,
+          "text": "- Bản thực đọc: https://cdn.vanderbilt.edu/vu-my/wp-content/uploads/sites/2804/2019/04/14195744/Compas-et-al-2017-Psych-Bulletin.pdf"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng/tuổi: Trẻ và vị thành niên; độ tuổi, đo lường, bối cảnh khác nhau giữa nghiên cứu; không đại diện riêng học sinh Việt Nam"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí đối chiếu: Abstract tr.939; định nghĩa và Table 1 tr.940–941; Discussion tr.970–972"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực: Điều tiết cảm xúc có nhiều cách định nghĩa/chiến lược; không chỉ che giấu cảm xúc; bằng chứng chủ yếu cắt ngang."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Tương quan không chứng minh hiệu quả tạm dừng trong tình huống Dũng; các định nghĩa trước đó được đọc qua tổng quan, không giả đã đọc công trình gốc."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Không dùng Gross (1998) làm nguồn đã đọc; bản thử truy cập chỉ trả trang robot."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C04",
+      "heading": "NHS23G",
+      "referencesLine": 18,
+      "urls": [
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/"
+      ],
+      "historicalFields": [
+        {
+          "line": 22,
+          "text": "- Loại/phiên bản: Hướng dẫn thực hành NHS; HTML"
+        },
+        {
+          "line": 23,
+          "text": "- Bản thực đọc: https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/"
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Trẻ/người trẻ; hướng dẫn cha mẹ, không mẫu thử nghiệm"
+        },
+        {
+          "line": 25,
+          "text": "- Vị trí đối chiếu: Help your child spot the signs of anger; Anger tips for your child; When to get help"
+        },
+        {
+          "line": 26,
+          "text": "- Hỗ trợ thực: Tín hiệu có thể nhận thấy; cùng tìm cách ứng phó, tạm rời và nói với người đáng tin."
+        },
+        {
+          "line": 27,
+          "text": "- Giới hạn: Không chẩn đoán từ tín hiệu; không liều thời gian hoặc kỹ thuật đảm bảo hết giận."
+        },
+        {
+          "line": 28,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 29,
+          "text": "- Ghi chú: Last reviewed 24/4/2023; trang ghi next review due 24/4/2026, đã qua ngày dự kiến vào lúc kiểm. Không gọi là đã cập nhật 2026; cần rà lại trước xuất bản."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C04",
+      "heading": "NIMH24",
+      "referencesLine": 31,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 35,
+          "text": "- Loại/phiên bản: Hướng dẫn cơ quan chuyên môn Mỹ; NIH Publication No. 24-MH-8085, revised 2024"
+        },
+        {
+          "line": 36,
+          "text": "- Bản thực đọc: https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+        },
+        {
+          "line": 37,
+          "text": "- Đối tượng/tuổi: Trẻ/người trẻ, hướng dẫn cho gia đình; không nghiên cứu một mẫu"
+        },
+        {
+          "line": 38,
+          "text": "- Vị trí đối chiếu: When should I seek help for my child’s mental health?; How is children’s mental health assessed?; Where can I get help?"
+        },
+        {
+          "line": 39,
+          "text": "- Hỗ trợ thực: Khổ sở, ảnh hưởng chức năng, khó khăn kéo dài là lý do tìm hỗ trợ; đánh giá đa nguồn thông tin."
+        },
+        {
+          "line": 40,
+          "text": "- Giới hạn: Không áp dịch vụ, luật hoặc đường dây Mỹ vào Việt Nam; không yêu cầu chờ đủ số tuần mới hỏi giúp."
+        },
+        {
+          "line": 41,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 42,
+          "text": "- Ghi chú: Không có ngoại lệ metadata đã phát hiện."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C05",
+      "heading": "S04 — Jagiello và cộng sự",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.1007/s10578-024-01667-5",
+        "https://link.springer.com/article/10.1007/s10578-024-01667-5"
+      ],
+      "historicalFields": [
+        {
+          "line": 10,
+          "text": "- Loại: tổng quan hệ thống, học sinh trung học; tiêu chí gồm từ lớp 7, tuổi cụ thể khác theo nghiên cứu, không mẫu Việt Nam riêng."
+        },
+        {
+          "line": 11,
+          "text": "- Dùng cho định nghĩa làm việc và giới hạn của bằng chứng chương trình hỗ trợ. Không gán nguồn gốc khái niệm cho nhóm tổng quan."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C05",
+      "heading": "S05 — Dunlosky và cộng sự",
+      "referencesLine": 14,
+      "urls": [
+        "https://doi.org/10.1177/1529100612453266",
+        "https://acs.ist.psu.edu/ist521/dunloskyRMNW13.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 17,
+          "text": "- Đọc PDF tại https://acs.ist.psu.edu/ist521/dunloskyRMNW13.pdf."
+        },
+        {
+          "line": 19,
+          "text": "- Loại: tổng quan chuyên khảo, nhiều tuổi/bối cảnh, không một mẫu THCS–THPT duy nhất. Không dùng số hiệu quả từ thử nghiệm người lớn cho Minh."
+        },
+        {
+          "line": 20,
+          "text": "- Dùng định nghĩa kỹ thuật và giới hạn. Ví dụ bài Toán/lịch quay lại là biên tập, không protocol thử nghiệm."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C05",
+      "heading": "S06 — Paruthi và cộng sự",
+      "referencesLine": 23,
+      "urls": [
+        "https://doi.org/10.5664/jcsm.5866",
+        "https://aasm.org/wp-content/uploads/2017/04/Pediatricsleepdurationconsensus.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 26,
+          "text": "- PMC trả captcha; đọc PDF chính thức AASM: https://aasm.org/wp-content/uploads/2017/04/Pediatricsleepdurationconsensus.pdf."
+        },
+        {
+          "line": 28,
+          "text": "- Loại: đồng thuận chuyên môn, nhóm 0–18; dùng 6–12 và 13–18. Không tự áp nhóm này cho người 19+ hoặc trẻ có nhu cầu y tế riêng."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C05",
+      "heading": "C05-S07 — NIMH, bổ sung cho tìm hỗ trợ",
+      "referencesLine": 31,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 35,
+          "text": "- Hướng dẫn công chúng cho người chăm sóc trẻ, không một mẫu thử nghiệm/tuổi cụ thể."
+        },
+        {
+          "line": 36,
+          "text": "- Chỉ hỗ trợ lời mời tìm trợ giúp khi khổ sở/ảnh hưởng sinh hoạt; không chuyển thành test."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C06",
+      "heading": "C06-CCI",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.cci.health.wa.gov.au/~/media/CCI/Mental-Health-Professionals/Procrastination/Procrastination---Information-Sheets/Procrastination-Information-Sheet---04---Practical-Strategies-to-Stop-Procrastinating.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Bản thực tế đọc: https://www.cci.health.wa.gov.au/~/media/CCI/Mental-Health-Professionals/Procrastination/Procrastination---Information-Sheets/Procrastination-Information-Sheet---04---Practical-Strategies-to-Stop-Procrastinating.pdf"
+        },
+        {
+          "line": 10,
+          "text": "- Loại/xuất bản: Tờ hướng dẫn công chúng thuộc dịch vụ chuyên môn y tế Western Australia; không phải nghiên cứu bình duyệt. Phiên bản/trang/mục: Một trang, “What Do I Need To Do?” và “How Can I Do It?”; chân trang giới hạn mục đích thông tin."
+        },
+        {
+          "line": 11,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 12,
+          "text": "- Đối tượng/tuổi: Không nêu mẫu hoặc khoảng tuổi trong tờ này; không xác minh riêng THCS–THPT."
+        },
+        {
+          "line": 13,
+          "text": "- Thực sự hỗ trợ: Gợi ý làm rõ việc và chia thành các phần nhỏ; cần xét tình huống."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không dùng các lịch 5/30 phút, kỹ thuật thở, hiệu quả hoặc cách thưởng trong tài liệu. Không sao chép phiếu. Tờ không có ngày hiển thị: n.d., không suy năm từ ngày crawler."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C06",
+      "heading": "C06-YOUTH",
+      "referencesLine": 17,
+      "urls": [
+        "https://doi.org/10.3390/children10061016",
+        "https://mdpi-res.com/d_attachment/children/children-10-01016/article_deploy/children-10-01016-v2.pdf?version=1686035181"
+      ],
+      "historicalFields": [
+        {
+          "line": 21,
+          "text": "- Bản thực tế đọc: https://mdpi-res.com/d_attachment/children/children-10-01016/article_deploy/children-10-01016-v2.pdf?version=1686035181"
+        },
+        {
+          "line": 22,
+          "text": "- Loại/xuất bản: Tổng quan phạm vi bình duyệt; MDPI, Children. Phiên bản/trang/mục: PDF v2: Introduction tr. 1–2; coding tr. 5; mục 3.2.2–3.2.3 tr. 8–10; Appendix B về bối cảnh."
+        },
+        {
+          "line": 23,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Tiểu học khoảng 6–12, trung học khoảng 12–18; nhiều nước; không gán số tuổi chính xác cho mọi mẫu."
+        },
+        {
+          "line": 25,
+          "text": "- Thực sự hỗ trợ: Khoảng trống theo tuổi, khác biệt đo lường và ưu thế thiết kế ex post facto/tương quan."
+        },
+        {
+          "line": 26,
+          "text": "- Giới hạn: Lập bản đồ lĩnh vực, không phân tích hiệu quả thẻ ba câu hỏi. Bản trích xuất có đoạn trùng lớp hình ở tr. 2; chỉ dùng phần văn đã xác định."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C06",
+      "heading": "C06-NIMH",
+      "referencesLine": 29,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 33,
+          "text": "- Bản thực tế đọc: https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+        },
+        {
+          "line": 34,
+          "text": "- Loại/xuất bản: Hướng dẫn công chúng; NIMH/NIH. Phiên bản/trang/mục: “What are the signs of mental health conditions in children?”, “Where should I start if I’m concerned about my child’s mental health?”, “How is children’s mental health assessed?”; Revised 2024."
+        },
+        {
+          "line": 35,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 36,
+          "text": "- Đối tượng/tuổi: Trẻ em và thiếu niên, viết cho người chăm sóc trong hệ thống Hoa Kỳ; không nghiên cứu có mẫu riêng."
+        },
+        {
+          "line": 37,
+          "text": "- Thực sự hỗ trợ: Khổ sở/ảnh hưởng chức năng là lý do tìm giúp; đánh giá cần nhiều thông tin, không từ một dấu hiệu."
+        },
+        {
+          "line": 38,
+          "text": "- Giới hạn: Không mang dịch vụ 988/911, luật hoặc chương trình trường Mỹ sang Việt Nam. Không lập ngưỡng chờ đợi; các câu không cần chẩn đoán/chọn người khác là hướng biên tập an toàn, không kết quả thử nghiệm."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C06",
+      "heading": "C06-STEEL",
+      "referencesLine": 41,
+      "urls": [
+        "https://doi.org/10.1037/0033-2909.133.1.65",
+        "https://www.researchgate.net/profile/Piers-Steel/publication/6598646_The_Nature_of_Procrastination_A_Meta-Analytic_and_Theoretical_Review_of_Quintessential_Self-Regulatory_Failure/links/0046352704d88f37a3000000/The-Nature-of-Procrastination-A-Meta-Analytic-and-Theoretical-Review-of-Quintessential-Self-Regulatory-Failure.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 45,
+          "text": "- Bản thực tế đọc: https://www.researchgate.net/profile/Piers-Steel/publication/6598646_The_Nature_of_Procrastination_A_Meta-Analytic_and_Theoretical_Review_of_Quintessential_Self-Regulatory_Failure/links/0046352704d88f37a3000000/The-Nature-of-Procrastination-A-Meta-Analytic-and-Theoretical-Review-of-Quintessential-Self-Regulatory-Failure.pdf"
+        },
+        {
+          "line": 46,
+          "text": "- Loại/xuất bản: Tổng quan lý thuyết và phân tích gộp bình duyệt; APA. Phiên bản/trang/mục: tr. 65–66, đặc biệt “Definition of Procrastination” tr. 66."
+        },
+        {
+          "line": 47,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 48,
+          "text": "- Đối tượng/tuổi: Nhiều mẫu, nổi bật sinh viên và người lớn; không mẫu đại diện THCS–THPT Việt Nam."
+        },
+        {
+          "line": 49,
+          "text": "- Thực sự hỗ trợ: Định nghĩa có ý định, trì chậm và bất lợi dự kiến; tổng hợp các định nghĩa trước, không người khai sinh."
+        },
+        {
+          "line": 50,
+          "text": "- Giới hạn: Chỉ dùng định nghĩa; không lấy tương quan làm nguyên nhân hoặc trích tỷ lệ phổ biến cho học sinh. Không gọi hành vi là chẩn đoán."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C07",
+      "heading": "C07-AGARWAL",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.1007/s10648-021-09595-9",
+        "https://link.springer.com/article/10.1007/s10648-021-09595-9"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Bản thực tế đọc: https://link.springer.com/article/10.1007/s10648-021-09595-9"
+        },
+        {
+          "line": 10,
+          "text": "- Loại/xuất bản: Tổng quan hệ thống bình duyệt; Springer Nature. Phiên bản/trang/mục: Abstract và metadata nhà xuất bản, published 14 March 2021; thân bài subscription preview."
+        },
+        {
+          "line": 11,
+          "text": "- Truy cập: **abstract_only**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 12,
+          "text": "- Đối tượng/tuổi: Nhiều bậc giáo dục, không chỉ phổ thông; Abstract mô tả ít nghiên cứu ngoài WEIRD; chưa kiểm bảng tuổi toàn văn."
+        },
+        {
+          "line": 13,
+          "text": "- Thực sự hỗ trợ: Lợi ích ở nhiều bối cảnh và hạn chế địa lý/văn hóa đều nêu trực tiếp trong Abstract."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Chỉ dùng hai nhận xét cấp Abstract, không thuật lại phương pháp hoặc hiệu quả nhóm tuổi; muốn mở rộng phải đọc toàn văn. Không coi Abstract là kiểm toàn nguồn."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C07",
+      "heading": "C07-DUNLOSKY",
+      "referencesLine": 17,
+      "urls": [
+        "https://doi.org/10.1177/1529100612453266",
+        "https://acs.ist.psu.edu/ist521/dunloskyRMNW13.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 21,
+          "text": "- Bản thực tế đọc: https://acs.ist.psu.edu/ist521/dunloskyRMNW13.pdf"
+        },
+        {
+          "line": 22,
+          "text": "- Loại/xuất bản: Tổng quan chuyên khảo bình duyệt; SAGE/APS. Phiên bản/trang/mục: Bảng 1 tr. 6; mục 8 tr. 29–35, đặc biệt 8.4–8.5; mục 9 tr. 35–39, 9.2a tr. 36–37 và 9.4–9.5."
+        },
+        {
+          "line": 23,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Nhiều lứa tuổi; nhiều nghiên cứu sinh viên, có nghiên cứu phổ thông; vật liệu và nhiệm vụ không đồng nhất."
+        },
+        {
+          "line": 25,
+          "text": "- Thực sự hỗ trợ: Định nghĩa luyện tự kiểm tra/phân bố luyện tập, phản hồi, xếp hữu ích cao và giới hạn lịch theo retention interval."
+        },
+        {
+          "line": 26,
+          "text": "- Giới hạn: Không lịch ngày chung, không khẳng định đọc lại vô ích, không chứng minh sơ đồ hoặc kế hoạch Duy. Không tự nhận đây là nguồn gốc lịch sử duy nhất."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C07",
+      "heading": "C07-MCDANIEL",
+      "referencesLine": 29,
+      "urls": [
+        "https://doi.org/10.1037/a0021782",
+        "https://pdf.poojaagarwal.com/McDaniel_Agarwal_etal_2011_JEP.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 33,
+          "text": "- Bản thực tế đọc: https://pdf.poojaagarwal.com/McDaniel_Agarwal_etal_2011_JEP.pdf"
+        },
+        {
+          "line": 34,
+          "text": "- Loại/xuất bản: Nghiên cứu thực nghiệm lớp học bình duyệt; APA, bản PDF trang tác giả. Phiên bản/trang/mục: tr. 399–400 định nghĩa/bối cảnh; Experiment 1 Method/Results tr. 401–402; đọc Abstract để kiểm phạm vi kết luận các thí nghiệm còn lại."
+        },
+        {
+          "line": 35,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 36,
+          "text": "- Đối tượng/tuổi: Lớp 8 khoa học tại một trường công ngoại ô Midwest, Hoa Kỳ; Exp.1 tuyển 139, phân tích chính 92 sau loại các trường hợp được mô tả."
+        },
+        {
+          "line": 37,
+          "text": "- Thực sự hỗ trợ: Nội dung hỏi luyện có phản hồi tốt hơn nội dung không hỏi luyện trong phân tích đã đọc; retrieval là thao tác gọi lại."
+        },
+        {
+          "line": 38,
+          "text": "- Giới hạn: Không trích % tiến bộ; item lặp trong phép kiểm, có giảng dạy, có phần điểm thấp cho quiz; không chuyển thành hiệu quả tự học ở Việt Nam hay mọi kỹ năng. Không gọi đã đọc hết ba thí nghiệm."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C08",
+      "heading": "C08-HATTIE",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.3102/003465430298487",
+        "https://educacion.udd.cl/files/2018/04/The-Power-of-Feedback.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Bản thực tế đọc: https://educacion.udd.cl/files/2018/04/The-Power-of-Feedback.pdf"
+        },
+        {
+          "line": 10,
+          "text": "- Loại/xuất bản: Phân tích khái niệm/tổng quan bình duyệt; SAGE/AERA; PDF tại đại học UDD. Phiên bản/trang/mục: “The Meaning of Feedback” tr. 81–82; “A Model of Feedback” tr. 86–88."
+        },
+        {
+          "line": 11,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 12,
+          "text": "- Đối tượng/tuổi: Tổng hợp nhiều bậc/loại nhiệm vụ; không một mẫu học sinh với tuổi chung."
+        },
+        {
+          "line": 13,
+          "text": "- Thực sự hỗ trợ: Feedback là thông tin về performance/understanding; gắn nhiệm vụ, phân biệt nhận xét con người."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không giới thiệu mô hình bốn mức/ba câu hỏi như nội dung giảng dạy riêng; không gán nguồn gốc thuật ngữ cho hai tác giả. Phiếu ba vùng C08 là mới, không hình nguồn."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C08",
+      "heading": "C08-WISNIEWSKI",
+      "referencesLine": 17,
+      "urls": [
+        "https://doi.org/10.3389/fpsyg.2019.03087",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full"
+      ],
+      "historicalFields": [
+        {
+          "line": 21,
+          "text": "- Bản thực tế đọc: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full"
+        },
+        {
+          "line": 22,
+          "text": "- Loại/xuất bản: Phân tích gộp bình duyệt; Frontiers. Phiên bản/trang/mục: Metadata 22 January 2020; Results: General Impact, Bias and Heterogeneity, Moderator Analysis/Tables 2–3; Discussion, Effects of Different Forms of Feedback."
+        },
+        {
+          "line": 23,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Nhiều tuổi và nhiệm vụ từ mầm non đến đại học và hơn; không hiệu quả riêng cho THCS–THPT Việt Nam."
+        },
+        {
+          "line": 25,
+          "text": "- Thực sự hỗ trợ: Hiệu quả biến thiên, loại thông tin và thiết kế/bối cảnh cần phân biệt."
+        },
+        {
+          "line": 26,
+          "text": "- Giới hạn: Không lấy trung bình làm hứa hẹn; không cần trích số d/I². DOI có 2019 và volume10 nhưng ngày công bố là 2020: dùng 2020 nhất quán."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C09",
+      "heading": "CDC24",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.cdc.gov/youth-behavior/school-connectedness/index.html"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Hướng dẫn/tổng hợp của cơ quan y tế; HTML"
+        },
+        {
+          "line": 10,
+          "text": "- Bản thực đọc: https://www.cdc.gov/youth-behavior/school-connectedness/index.html"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng/tuổi: Học sinh trong bối cảnh trường học Mỹ; không một mẫu thực nghiệm"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí đối chiếu: What to know; Why it’s important; What schools can do"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực: School connectedness gồm cảm nhận người lớn/bạn quan tâm, hỗ trợ, tôn trọng và thuộc về; vai trò nhà trường."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không dùng phát biểu kết quả sức khỏe trong trang để khẳng định nhân quả; không chỉ số lượng bạn hoặc trách nhiệm riêng học sinh."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Không có ngoại lệ metadata đã phát hiện."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C09",
+      "heading": "LOADES20",
+      "referencesLine": 18,
+      "urls": [
+        "https://doi.org/10.1016/j.jaac.2020.05.009",
+        "https://research-information.bris.ac.uk/ws/files/239095275/JAACAP_revision_3_28.5.2020_complete.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 22,
+          "text": "- Loại/phiên bản: Tổng quan hệ thống nhanh; accepted author manuscript, 39 trang PDF gồm bìa kho đại học"
+        },
+        {
+          "line": 23,
+          "text": "- Bản thực đọc: https://research-information.bris.ac.uk/ws/files/239095275/JAACAP_revision_3_28.5.2020_complete.pdf"
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Trẻ/người trẻ, tiêu chí tuổi trung bình <21 nên có mẫu người trẻ lớn hơn tuổi trung học; không đại diện riêng THCS–THPT"
+        },
+        {
+          "line": 25,
+          "text": "- Vị trí đối chiếu: Introduction PDF tr.5 (trang bản thảo 4); Discussion PDF tr.8; Strengths and limitations PDF tr.9; Implications PDF tr.10"
+        },
+        {
+          "line": 26,
+          "text": "- Hỗ trợ thực: Cô đơn là khoảng cách cảm nhận giữa kết nối mong muốn và thực tế; ở riêng không nhất thiết cô đơn; chủ yếu bằng chứng quan sát."
+        },
+        {
+          "line": 27,
+          "text": "- Giới hạn: Bối cảnh COVID-19; nhiều nghiên cứu trước đại dịch; tự báo cáo, yếu tố nhiễu và chiều quan hệ; không hứa tăng tiếp xúc hết cô đơn."
+        },
+        {
+          "line": 28,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 29,
+          "text": "- Ghi chú: PMC/nhà xuất bản có hạn chế truy cập; đọc bản AAM Bristol thật. AAM ghi CC BY-NC-ND; chỉ diễn giải có dẫn, không sao chép hình/toàn văn hoặc dịch phát hành nguồn. APA theo bài xuất bản cuối."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C09",
+      "heading": "NIMH24",
+      "referencesLine": 31,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 35,
+          "text": "- Loại/phiên bản: Hướng dẫn cơ quan chuyên môn Mỹ; NIH Publication No. 24-MH-8085, revised 2024"
+        },
+        {
+          "line": 36,
+          "text": "- Bản thực đọc: https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+        },
+        {
+          "line": 37,
+          "text": "- Đối tượng/tuổi: Trẻ/người trẻ, hướng dẫn cho gia đình; không nghiên cứu một mẫu"
+        },
+        {
+          "line": 38,
+          "text": "- Vị trí đối chiếu: When should I seek help for my child’s mental health?; How is children’s mental health assessed?; Where can I get help?"
+        },
+        {
+          "line": 39,
+          "text": "- Hỗ trợ thực: Khổ sở, ảnh hưởng chức năng, khó khăn kéo dài là lý do tìm hỗ trợ; đánh giá đa nguồn thông tin."
+        },
+        {
+          "line": 40,
+          "text": "- Giới hạn: Không áp dịch vụ, luật hoặc đường dây Mỹ vào Việt Nam; không yêu cầu chờ đủ số tuần mới hỏi giúp."
+        },
+        {
+          "line": 41,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 42,
+          "text": "- Ghi chú: Không có ngoại lệ metadata đã phát hiện."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C10",
+      "heading": "C10-S01 / canonical CLF",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/friendship-problems/"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Hướng dẫn người trẻ của dịch vụ NSPCC; HTML không xác định năm"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng và tuổi: Người trẻ Anh; không mẫu nghiên cứu"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí: Falling out with friends > Think about how your friend is feeling; Saying sorry to a friend; Worrying about a friend"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực dùng: Bất đồng không nhất thiết kết thúc tình bạn; nghe góc nhìn không phải chấp nhận bị hại; xin lỗi không tự sửa tất cả; báo người lớn khi bạn không an toàn."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không hứa bảo toàn quan hệ hoặc khuyến nghị hòa giải bắt nạt; không dùng dịch vụ/số Anh cho Việt Nam. Nguồn hướng dẫn không phải nghiên cứu thực nghiệm."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Không xác minh năm nếu nguồn không ghi; không có ngoại lệ metadata khác được phát hiện."
+        },
+        {
+          "line": 17,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C10",
+      "heading": "C10-S02 / canonical SB21",
+      "referencesLine": 19,
+      "urls": [
+        "https://www.stopbullying.gov/prevention/on-the-spot"
+      ],
+      "historicalFields": [
+        {
+          "line": 23,
+          "text": "- Loại/phiên bản: Hướng dẫn người lớn; HTML, Date Last Reviewed 17/11/2021"
+        },
+        {
+          "line": 25,
+          "text": "- Đối tượng và tuổi: Trẻ tuổi đi học trong bối cảnh Mỹ; không mẫu thử nghiệm"
+        },
+        {
+          "line": 26,
+          "text": "- Vị trí: Stop Bullying on the Spot (Do/Avoid these common mistakes); Find Out What Happened; Determine if it’s Bullying"
+        },
+        {
+          "line": 27,
+          "text": "- Hỗ trợ thực dùng: Vai trò bảo vệ của người lớn; nghe riêng và nhiều nguồn, không ép xin lỗi/làm hòa tại chỗ."
+        },
+        {
+          "line": 28,
+          "text": "- Giới hạn: Không chuyển trách nhiệm can thiệp/điều tra sang học sinh; không dùng lời dẫn về hiệu quả như bằng chứng riêng cho thẻ."
+        },
+        {
+          "line": 29,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 30,
+          "text": "- Ghi chú: URL /respond/on-the-spot chuyển sang /prevention/on-the-spot; APA dùng đích thật đã đọc. Không áp luật/dịch vụ Mỹ."
+        },
+        {
+          "line": 31,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C10",
+      "heading": "C10-S03 / canonical SB24",
+      "referencesLine": 33,
+      "urls": [
+        "https://www.stopbullying.gov/bullying/what-is-bullying"
+      ],
+      "historicalFields": [
+        {
+          "line": 37,
+          "text": "- Loại/phiên bản: Định nghĩa/hướng dẫn liên bang Mỹ; HTML, Date Last Reviewed 7/10/2024"
+        },
+        {
+          "line": 39,
+          "text": "- Đối tượng và tuổi: Trẻ tuổi đi học, không mẫu nghiên cứu"
+        },
+        {
+          "line": 40,
+          "text": "- Vị trí: Phần mở đầu; hai bullet Imbalance of Power/Repetition; Types of Bullying"
+        },
+        {
+          "line": 41,
+          "text": "- Hỗ trợ thực dùng: Định nghĩa gây hấn không mong muốn + chênh quyền lực + lặp lại/khả năng lặp lại."
+        },
+        {
+          "line": 42,
+          "text": "- Giới hạn: Định nghĩa thực hành Mỹ, không kết luận điều tra hoặc chuẩn pháp lý Việt Nam; không lấy số liệu Mỹ trong trang áp cho Việt Nam. Không nguồn khai sinh thuật ngữ."
+        },
+        {
+          "line": 43,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 44,
+          "text": "- Ghi chú: Không xác minh năm nếu nguồn không ghi; không có ngoại lệ metadata khác được phát hiện."
+        },
+        {
+          "line": 45,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C11",
+      "heading": "C11-S01 / canonical MOORE17",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.5498/wjp.v7.i1.60",
+        "https://www.wjgnet.com/2220-3206/full/v7/i1/60.htm"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Tổng quan hệ thống/phân tích gộp nghiên cứu quan sát; toàn văn HTML nhà xuất bản"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng và tuổi: Phơi nhiễm bắt nạt trong thời thơ ấu/vị thành niên; một số kết quả theo dõi đến trưởng thành, không toàn bộ kết quả ngay thời trung học"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí: Abstract; Materials and methods > Inclusion and exclusion criteria; Discussion > Assessment of causality; Limitations"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực dùng: Liên hệ nhiều kết quả sức khỏe; tác giả đánh giá nhân quả với mức khác nhau theo kết quả, có giới hạn đo lường/nhiễu/dị biệt."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không làm nhẹ kết luận nguồn thành tất cả chỉ tương quan, nhưng không dự đoán/chẩn đoán cá nhân; không thử nghiệm thẻ hỗ trợ hoặc diễn giải odds ratio như xác suất một người."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: HTML metadata xác nhận 22/3/2017,7(1),60–76,DOI. CC BY-NC4.0: không sao hình/toàn văn; hình bài là mới. Không khẳng định đã đọc tất cả165 nghiên cứu gốc."
+        },
+        {
+          "line": 17,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C11",
+      "heading": "C11-S02 / canonical SB21",
+      "referencesLine": 19,
+      "urls": [
+        "https://www.stopbullying.gov/prevention/on-the-spot"
+      ],
+      "historicalFields": [
+        {
+          "line": 23,
+          "text": "- Loại/phiên bản: Hướng dẫn người lớn; HTML, Date Last Reviewed 17/11/2021"
+        },
+        {
+          "line": 25,
+          "text": "- Đối tượng và tuổi: Trẻ tuổi đi học trong bối cảnh Mỹ; không mẫu thử nghiệm"
+        },
+        {
+          "line": 26,
+          "text": "- Vị trí: Stop Bullying on the Spot (Do/Avoid these common mistakes); Find Out What Happened; Determine if it’s Bullying"
+        },
+        {
+          "line": 27,
+          "text": "- Hỗ trợ thực dùng: Vai trò bảo vệ của người lớn; nghe riêng và nhiều nguồn, không ép xin lỗi/làm hòa tại chỗ."
+        },
+        {
+          "line": 28,
+          "text": "- Giới hạn: Không chuyển trách nhiệm can thiệp/điều tra sang học sinh; không dùng lời dẫn về hiệu quả như bằng chứng riêng cho thẻ."
+        },
+        {
+          "line": 29,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 30,
+          "text": "- Ghi chú: URL /respond/on-the-spot chuyển sang /prevention/on-the-spot; APA dùng đích thật đã đọc. Không áp luật/dịch vụ Mỹ."
+        },
+        {
+          "line": 31,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C11",
+      "heading": "C11-S03 / canonical SB22",
+      "referencesLine": 33,
+      "urls": [
+        "https://www.stopbullying.gov/kids/what-you-can-do"
+      ],
+      "historicalFields": [
+        {
+          "line": 37,
+          "text": "- Loại/phiên bản: Hướng dẫn cho trẻ/người trẻ; HTML, reviewed 8/3/2022"
+        },
+        {
+          "line": 39,
+          "text": "- Đối tượng và tuổi: Người trẻ tuổi đi học Mỹ; không thử nghiệm mẫu câu"
+        },
+        {
+          "line": 40,
+          "text": "- Vị trí: What to Do If You’re Bullied; Stand Up for Others"
+        },
+        {
+          "line": 41,
+          "text": "- Hỗ trợ thực dùng: Khi đối đáp không an toàn có thể tránh đối đầu và tìm người lớn; người chứng kiến có thể báo người lớn/quan tâm bạn."
+        },
+        {
+          "line": 42,
+          "text": "- Giới hạn: Không nhận mọi gợi ý nguồn an toàn cho mọi hoàn cảnh; không dùng lời cười cho qua, chia sẻ mật khẩu hay các lời hứa hiệu quả trong trang."
+        },
+        {
+          "line": 43,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 44,
+          "text": "- Ghi chú: Không xác minh năm nếu nguồn không ghi; không có ngoại lệ metadata khác được phát hiện."
+        },
+        {
+          "line": 45,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C11",
+      "heading": "C11-S04 / canonical SB24",
+      "referencesLine": 47,
+      "urls": [
+        "https://www.stopbullying.gov/bullying/what-is-bullying"
+      ],
+      "historicalFields": [
+        {
+          "line": 51,
+          "text": "- Loại/phiên bản: Định nghĩa/hướng dẫn liên bang Mỹ; HTML, Date Last Reviewed 7/10/2024"
+        },
+        {
+          "line": 53,
+          "text": "- Đối tượng và tuổi: Trẻ tuổi đi học, không mẫu nghiên cứu"
+        },
+        {
+          "line": 54,
+          "text": "- Vị trí: Phần mở đầu; hai bullet Imbalance of Power/Repetition; Types of Bullying"
+        },
+        {
+          "line": 55,
+          "text": "- Hỗ trợ thực dùng: Định nghĩa gây hấn không mong muốn + chênh quyền lực + lặp lại/khả năng lặp lại."
+        },
+        {
+          "line": 56,
+          "text": "- Giới hạn: Định nghĩa thực hành Mỹ, không kết luận điều tra hoặc chuẩn pháp lý Việt Nam; không lấy số liệu Mỹ trong trang áp cho Việt Nam. Không nguồn khai sinh thuật ngữ."
+        },
+        {
+          "line": 57,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 58,
+          "text": "- Ghi chú: Không xác minh năm nếu nguồn không ghi; không có ngoại lệ metadata khác được phát hiện."
+        },
+        {
+          "line": 59,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C12",
+      "heading": "C12-S01 / canonical CLA",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.childline.org.uk/info-advice/your-feelings/feelings-emotions/being-assertive/"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Định nghĩa kỹ năng/hướng dẫn người trẻ NSPCC; HTML không xác định năm"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng và tuổi: Người trẻ Anh; không mẫu thực nghiệm"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí: What does it mean to be assertive?; When to be assertive (đoạn giữ an toàn)"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực dùng: Nói rõ nhu cầu mà không đe dọa/ép người khác; khi có đe dọa có thể tìm người lớn thay tự đối đầu."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không dùng tư thế/eye contact như điều kiện, không áp kỹ thuật fogging/broken record; không lấy hướng dẫn làm bằng chứng hiệu quả câu từ chối."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: n.d.-a vì cùng Childline không ngày với Peer pressure ở C12; sắp tên Being trước Peer. Không phải năm/phiên bản khác."
+        },
+        {
+          "line": 17,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C12",
+      "heading": "C12-S02 / canonical CLP",
+      "referencesLine": 19,
+      "urls": [
+        "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/peer-pressure/"
+      ],
+      "historicalFields": [
+        {
+          "line": 23,
+          "text": "- Loại/phiên bản: Giải thích thực hành và hướng dẫn NSPCC; HTML không xác định năm"
+        },
+        {
+          "line": 25,
+          "text": "- Đối tượng và tuổi: Người trẻ Anh; không mẫu nghiên cứu"
+        },
+        {
+          "line": 26,
+          "text": "- Vị trí: what peer pressure means; Ways to say no"
+        },
+        {
+          "line": 27,
+          "text": "- Hỗ trợ thực dùng: Cảm giác phải làm vì người khác muốn/mong đợi; ảnh hưởng không luôn tiêu cực; có lựa chọn từ chối/rời khi phù hợp và không bảo đảm người khác tôn trọng."
+        },
+        {
+          "line": 28,
+          "text": "- Giới hạn: Không dùng trang này làm định nghĩa bắt nạt (rộng hơn nguồn SB24) hoặc bằng chứng nhân quả sức khỏe; không dùng ví dụ tình dục/chất gây nghiện/luật trong bài."
+        },
+        {
+          "line": 29,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 30,
+          "text": "- Ghi chú: n.d.-b dùng riêng C12 cùng nguồn Childline Being assertive; tên theo tiêu đề trang được lập chỉ mục, không tự tạo lý thuyết."
+        },
+        {
+          "line": 31,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C13",
+      "heading": "C13-S01 / canonical MIND25",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.mind.org.uk/for-young-people/feelings-and-experiences/exam-stress/"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Hướng dẫn tổ chức chuyên môn; HTML ghi Published March 2025, next review March 2028"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng và tuổi: Trang cho 11–18 tuổi tại Anh; không mẫu thực nghiệm"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí: What causes exam stress?; Feeling under pressure"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực dùng: Nguồn áp lực đa dạng; xem áp lực từ đâu, cần người khác giúp gì."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không dùng định nghĩa burnout hoặc quyền điều chỉnh/dịch vụ Anh chưa đối chiếu. Không kết luận mong đợi cha mẹ gây bệnh."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Không xác minh năm nếu nguồn không ghi; không có ngoại lệ metadata khác được phát hiện."
+        },
+        {
+          "line": 17,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C13",
+      "heading": "C13-S02 / canonical STEARE23",
+      "referencesLine": 19,
+      "urls": [
+        "https://doi.org/10.1016/j.jad.2023.07.028",
+        "https://discovery.ucl.ac.uk/id/eprint/10174035/1/1-s2.0-S0165032723008510-main.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 23,
+          "text": "- Loại/phiên bản: Tổng quan hệ thống bình duyệt, tổng hợp tường thuật (không phân tích gộp); bản xuất bản PDF UCL,16 trang"
+        },
+        {
+          "line": 25,
+          "text": "- Đối tượng và tuổi: Tiêu chí tuổi trung bình mẫu <18, trường học; nghiên cứu chủ yếu trung học, tuổi trung bình báo cáo 11,5–16,8, không giới hạn mọi cá nhân cùng tuổi"
+        },
+        {
+          "line": 26,
+          "text": "- Vị trí: Abstract tr.302; Methods Participants/Exposures tr.303; Results/Table1 tr.304–306; Discussion tr.314–315"
+        },
+        {
+          "line": 27,
+          "text": "- Hỗ trợ thực dùng: Áp lực bao gồm lo kỳ vọng người chăm sóc trong phạm vi đa mặt; đa số nghiên cứu thấy liên hệ, không kết luận chiều nhân quả từ đa số cắt ngang."
+        },
+        {
+          "line": 28,
+          "text": "- Giới hạn: 39/52 nghiên cứu cắt ngang; cách đo khác, nhiễu chưa điều chỉnh đủ, ít bối cảnh thu nhập thấp; không phán một gia đình, không bằng chứng hiệu quả câu trao đổi."
+        },
+        {
+          "line": 29,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 30,
+          "text": "- Ghi chú: Bản xuất bản online 10/7/2023, tập339 trang302–317; DOI in ngay PDF. CC BY4.0, nhưng không tái bản bảng/hình/test; chỉ diễn giải ngắn có dẫn. Không dùng bản medRxiv thay bài bình duyệt."
+        },
+        {
+          "line": 31,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C13",
+      "heading": "C13-S03 / canonical YMF",
+      "referencesLine": 33,
+      "urls": [
+        "https://www.youngminds.org.uk/young-person/coping-with-life/family/"
+      ],
+      "historicalFields": [
+        {
+          "line": 37,
+          "text": "- Loại/phiên bản: Hướng dẫn thực hành tổ chức sức khỏe tâm thần người trẻ; HTML không năm xác minh"
+        },
+        {
+          "line": 39,
+          "text": "- Đối tượng và tuổi: Người trẻ Anh, không thử nghiệm trên gia đình Việt Nam"
+        },
+        {
+          "line": 40,
+          "text": "- Vị trí: Talking to your family about how you’re feeling; If your family don’t understand; Getting support with family issues; If you don’t feel safe in your own home"
+        },
+        {
+          "line": 41,
+          "text": "- Hỗ trợ thực dùng: Chuẩn bị/chọn lúc/nói phần sẵn sàng khi phù hợp; hỗ trợ ngoài nhà khi gia đình không an toàn."
+        },
+        {
+          "line": 42,
+          "text": "- Giới hạn: Không nhận mọi gia đình rồi sẽ hiểu; không lấy lời chứng cá nhân làm nghiên cứu; không sao số khẩn cấp Anh hoặc gán luật địa phương."
+        },
+        {
+          "line": 43,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 44,
+          "text": "- Ghi chú: Không xác minh năm nếu nguồn không ghi; không có ngoại lệ metadata khác được phát hiện."
+        },
+        {
+          "line": 45,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C14",
+      "heading": "C14-CDC",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.cdc.gov/healthy-youth/connecting-conversations/index.html"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Bản thực tế đọc: https://www.cdc.gov/healthy-youth/connecting-conversations/index.html"
+        },
+        {
+          "line": 10,
+          "text": "- Loại/xuất bản: Hướng dẫn người lớn; CDC, Adolescent and School Health. Phiên bản/trang/mục: Preparing for the conversation; Engage in active listening; Be the person they trust and want to come to when they need an adult."
+        },
+        {
+          "line": 11,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 12,
+          "text": "- Đối tượng/tuổi: Người chăm sóc trẻ em/thiếu niên; không mẫu nghiên cứu ở trang này."
+        },
+        {
+          "line": 13,
+          "text": "- Thực sự hỗ trợ: Người lớn có vai trò lắng nghe không ngắt lời, kiểm lại hiểu và tạo an toàn."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không suy câu nói của trẻ quyết định phản ứng người lớn; không dùng claim giảm nguy cơ bệnh hoặc dịch vụ địa phương."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C14",
+      "heading": "C14-GULLIVER",
+      "referencesLine": 17,
+      "urls": [
+        "https://doi.org/10.1186/1471-244X-10-113",
+        "https://link.springer.com/article/10.1186/1471-244X-10-113"
+      ],
+      "historicalFields": [
+        {
+          "line": 21,
+          "text": "- Bản thực tế đọc: https://link.springer.com/article/10.1186/1471-244X-10-113"
+        },
+        {
+          "line": 22,
+          "text": "- Loại/xuất bản: Tổng quan hệ thống định tính/định lượng bình duyệt; BMC/Springer. Phiên bản/trang/mục: Aims and scope; Study Selection; Results: Study characteristics và Perceived barriers; Discussion: Confidentiality and trust, Limitations."
+        },
+        {
+          "line": 23,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Mục tiêu 12–25, một số mẫu có tuổi ngoài dải; lớp7–12/đại học/cộng đồng, chủ yếu Úc/Mỹ; tìm đến 2009."
+        },
+        {
+          "line": 25,
+          "text": "- Thực sự hỗ trợ: Ngại kỳ thị/đánh giá, lo riêng tư/lòng tin là rào cản được báo cáo; không mặc định ai cũng dễ mở lời."
+        },
+        {
+          "line": 26,
+          "text": "- Giới hạn: Không thử hiệu quả câu thoại hoặc trò chuyện việc nhóm; kết quả tự báo cáo, giới hạn mã hóa/chất lượng và tuổi/văn hóa; không suy nhân quả."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C14",
+      "heading": "C14-NAMI",
+      "referencesLine": 29,
+      "urls": [
+        "https://www.nami.org/kids-teens-and-young-adults/teens/how-to-talk-to-my-parents-or-guardian/"
+      ],
+      "historicalFields": [
+        {
+          "line": 33,
+          "text": "- Bản thực tế đọc: https://www.nami.org/kids-teens-and-young-adults/teens/how-to-talk-to-my-parents-or-guardian/"
+        },
+        {
+          "line": 34,
+          "text": "- Loại/xuất bản: Hướng dẫn công chúng của tổ chức chuyên môn vận động/hỗ trợ sức khỏe tinh thần; không bài bình duyệt. Phiên bản/trang/mục: Plan What You Want to Say; Find a Private Space to Talk; Discuss Possible Next Steps; Talk to Someone Else in Your Family or Network."
+        },
+        {
+          "line": 35,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 36,
+          "text": "- Đối tượng/tuổi: Trang dành cho teens, bối cảnh Hoa Kỳ; không mẫu/tuổi cụ thể."
+        },
+        {
+          "line": 37,
+          "text": "- Thực sự hỗ trợ: Chuẩn bị ghi chú, thời điểm riêng và lựa chọn người khác khi thiếu hỗ trợ."
+        },
+        {
+          "line": 38,
+          "text": "- Giới hạn: Không chuyển toàn hướng dẫn: bài KHÔNG dùng câu nguồn khuyên không rời cuộc nói chuyện, không khuyên kiềm cảm xúc để được giúp; ưu tiên an toàn. Không sao dịch vụ Mỹ hoặc khẳng định bảo mật. Không có ngày hiện: n.d."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C14",
+      "heading": "C14-NIMH",
+      "referencesLine": 41,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 45,
+          "text": "- Bản thực tế đọc: https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+        },
+        {
+          "line": 46,
+          "text": "- Loại/xuất bản: Hướng dẫn công chúng; NIMH/NIH. Phiên bản/trang/mục: “What are the signs of mental health conditions in children?”, “Where should I start if I’m concerned about my child’s mental health?”, “How is children’s mental health assessed?”; Revised 2024."
+        },
+        {
+          "line": 47,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 48,
+          "text": "- Đối tượng/tuổi: Trẻ em và thiếu niên, viết cho người chăm sóc trong hệ thống Hoa Kỳ; không nghiên cứu có mẫu riêng."
+        },
+        {
+          "line": 49,
+          "text": "- Thực sự hỗ trợ: Khổ sở/ảnh hưởng chức năng là lý do tìm giúp; đánh giá cần nhiều thông tin, không từ một dấu hiệu."
+        },
+        {
+          "line": 50,
+          "text": "- Giới hạn: Không mang dịch vụ 988/911, luật hoặc chương trình trường Mỹ sang Việt Nam. Không lập ngưỡng chờ đợi; các câu không cần chẩn đoán/chọn người khác là hướng biên tập an toàn, không kết quả thử nghiệm."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C15",
+      "heading": "C15-S01 / canonical GULLIVER10",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.1186/1471-244X-10-113",
+        "https://link.springer.com/article/10.1186/1471-244X-10-113"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Tổng quan hệ thống bình duyệt, toàn văn HTML nhà xuất bản; thematic synthesis, không phân tích gộp hiệu quả"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng/tuổi/bối cảnh: Tập trung12–25 tuổi, có cả thiếu niên/người trẻ trưởng thành, chủ yếu Australia/Mỹ; không riêng THCS–THPT Việt Nam"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí hỗ trợ: Aims and scope; Methods > Study Selection; Results > characteristics; Discussion > Confidentiality and trust/Lack of accessibility; Limitations"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực: Rào cản người trẻ tự thuật: lo bị đánh giá, riêng tư/lòng tin, khó tiếp cận; không đơn giản ý chí."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Bằng chứng đến2009/nguồn cũ; ít cơ sở suy nhân quả/hiệu quả lời mở. Một người mã hóa chủ đề, đếm chủ đề không nhất thiết độ quan trọng; chỉ rào cản người tham gia nhận thức."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: URL BMC chuyển Springer; đọc bản hiện hành. Không lấy số tỉ lệ hoặc nghiên cứu người lớn được dẫn trong Background áp cho học sinh."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C15",
+      "heading": "C15-S02 / canonical MIND26",
+      "referencesLine": 19,
+      "urls": [
+        "https://www.mind.org.uk/for-young-people/how-to-get-help-and-support/where-to-look-for-mental-health-support/"
+      ],
+      "historicalFields": [
+        {
+          "line": 23,
+          "text": "- Loại/phiên bản: Hướng dẫn cho người trẻ, HTML; Published January2026, next review January2029"
+        },
+        {
+          "line": 25,
+          "text": "- Đối tượng/tuổi/bối cảnh: Trang cho11–18 tuổi ở Anh/Wales; không mẫu thử nghiệm"
+        },
+        {
+          "line": 26,
+          "text": "- Vị trí hỗ trợ: How can I get support for mental health?; Support from people you know and trust; Support from your doctor; Support from school or college; glossary Counsellor"
+        },
+        {
+          "line": 27,
+          "text": "- Hỗ trợ thực: Có thể hỏi khi chưa biết cần gì; người đáng tin giúp thực tế, có lựa chọn người khác; phân biệt công việc ở trường/bác sĩ/người tham vấn."
+        },
+        {
+          "line": 28,
+          "text": "- Giới hạn: Không khái quát nhân sự/giấy phép/chẩn đoán/kê thuốc/luật bảo mật/tiếp cận độc lập ở Việt Nam. Bảng vai trò biên tập có điều kiện, không phân tuyến bắt buộc."
+        },
+        {
+          "line": 29,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 30,
+          "text": "- Ghi chú: Ngày ở nội dung footer publication, không dùng copyright2026 để suy năm. Không sao dịch vụ/số Anh hoặc hứa trường có MHST/CAMHS."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C15",
+      "heading": "C15-S03 / canonical NIMH24",
+      "referencesLine": 33,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 37,
+          "text": "- Loại/phiên bản: Hướng dẫn chuyên môn NIMH, HTML, revised2024"
+        },
+        {
+          "line": 39,
+          "text": "- Đối tượng/tuổi/bối cảnh: Trẻ/người trẻ; chủ yếu hướng dẫn người chăm sóc tại Mỹ, không mẫu nghiên cứu"
+        },
+        {
+          "line": 40,
+          "text": "- Vị trí hỗ trợ: What are the signs of mental health conditions in children?; Where should I start…?; How is children’s mental health assessed?; How are childhood mental health disorders treated?"
+        },
+        {
+          "line": 41,
+          "text": "- Hỗ trợ thực: Khổ sở/ảnh hưởng chức năng có thể cần giúp; đánh giá đa thông tin/chuyên môn, nguy hiểm cần giúp ngay."
+        },
+        {
+          "line": 42,
+          "text": "- Giới hạn: Không checklist/ngưỡng tự chẩn đoán, không yêu cầu chờ đủ ngày; không luật/dịch vụ Mỹ. Hoạt động vận động của bài không được nguồn thử nghiệm."
+        },
+        {
+          "line": 43,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 44,
+          "text": "- Ghi chú: Không ngoại lệ metadata đã phát hiện; không suy có DOI/trang/tập nếu hướng dẫn HTML không có."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C16",
+      "heading": "C16-S01 / canonical CLF",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/friendship-problems/"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Hướng dẫn người trẻ của dịch vụ NSPCC; HTML không xác định năm"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng và tuổi: Người trẻ Anh; không mẫu nghiên cứu"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí: Falling out with friends > Think about how your friend is feeling; Saying sorry to a friend; Worrying about a friend"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực dùng: Bất đồng không nhất thiết kết thúc tình bạn; nghe góc nhìn không phải chấp nhận bị hại; xin lỗi không tự sửa tất cả; báo người lớn khi bạn không an toàn."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không hứa bảo toàn quan hệ hoặc khuyến nghị hòa giải bắt nạt; không dùng dịch vụ/số Anh cho Việt Nam. Nguồn hướng dẫn không phải nghiên cứu thực nghiệm."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Không xác minh năm nếu nguồn không ghi; không có ngoại lệ metadata khác được phát hiện."
+        },
+        {
+          "line": 17,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C16",
+      "heading": "C16-S02 / canonical NIMH24",
+      "referencesLine": 19,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 23,
+          "text": "- Loại/phiên bản: Hướng dẫn chính thức NIMH; revised2024; HTML"
+        },
+        {
+          "line": 25,
+          "text": "- Đối tượng và tuổi: Trẻ/người trẻ, chủ yếu hướng dẫn người chăm sóc Mỹ, không một mẫu nghiên cứu"
+        },
+        {
+          "line": 26,
+          "text": "- Vị trí: What are the signs of mental health conditions in children?; Where should I start…?; How is children’s mental health assessed?"
+        },
+        {
+          "line": 27,
+          "text": "- Hỗ trợ thực dùng: Đánh giá đa nguồn/chuyên môn; khó khăn gây khổ sở/ảnh hưởng đời sống là lý do tìm hỗ trợ; nguy hiểm cần giúp ngay."
+        },
+        {
+          "line": 28,
+          "text": "- Giới hạn: Không danh sách tự chẩn đoán; không số ngày chờ trước hỏi giúp; không chuyển hotline/law/dịch vụ Mỹ vào Việt Nam."
+        },
+        {
+          "line": 29,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 30,
+          "text": "- Ghi chú: Không xác minh năm nếu nguồn không ghi; không có ngoại lệ metadata khác được phát hiện."
+        },
+        {
+          "line": 31,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C16",
+      "heading": "C16-S03 / canonical YMS",
+      "referencesLine": 33,
+      "urls": [
+        "https://www.youngminds.org.uk/young-person/supporting-a-friend-with-their-mental-health/"
+      ],
+      "historicalFields": [
+        {
+          "line": 37,
+          "text": "- Loại/phiên bản: Hướng dẫn thực hành người trẻ; HTML không xác minh năm"
+        },
+        {
+          "line": 39,
+          "text": "- Đối tượng và tuổi: Người trẻ Anh, không một mẫu thử nghiệm hoặc khóa đào tạo peer counsellor"
+        },
+        {
+          "line": 40,
+          "text": "- Vị trí: How to talk to a friend who’s struggling; Should I tell someone what my friend said?; Looking after yourself; How to respond in a crisis (chỉ ranh giới cần giúp ngay)"
+        },
+        {
+          "line": 41,
+          "text": "- Hỗ trợ thực dùng: Nghe/không ép kể/không chẩn đoán; giới hạn trách nhiệm; an toàn trước bí mật và nhờ người lớn."
+        },
+        {
+          "line": 42,
+          "text": "- Giới hạn: Không biến người nghe thành therapist/đánh giá nguy cơ. Không chuyển các thao tác xử trí, thu giữ vật dụng hoặc dịch vụ/số Anh trong nguồn vào bài."
+        },
+        {
+          "line": 43,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections` — đọc các phần liên quan từ toàn văn, không chỉ kết quả tìm kiếm; không khẳng định đọc từng dòng/phụ lục/công trình được dẫn."
+        },
+        {
+          "line": 44,
+          "text": "- Ghi chú: Hai đường dẫn suy từ tên /supporting-a-friend/ và /your-guide-to-support/supporting-a-friend/ không truy cập được. Tìm thấy URL chính xác rồi mở và đọc thực tế; không dùng lỗi truy cập đó như bằng chứng nguồn đã đọc."
+        },
+        {
+          "line": 45,
+          "text": "- Đối chiếu: trợ lý AI, claim-scoped partial; vị trí và mức khớp ở CLAIM-AUDIT. Chưa rà độc lập/kiểm hệ thống riêng đính chính hoặc rút bài, cần kiểm lại sát xuất bản. Tập/số/trang/DOI không áp dụng với hướng dẫn HTML không có trường này."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C17",
+      "heading": "S06 — Paruthi và cộng sự (2016), dùng",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.5664/jcsm.5866",
+        "https://aasm.org/wp-content/uploads/2017/04/Pediatricsleepdurationconsensus.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 8,
+          "text": "- Loại: tuyên bố đồng thuận chuyên môn AASM, phương pháp RAND điều chỉnh. Không phải thử nghiệm một lịch ngủ hay khảo sát Việt Nam."
+        },
+        {
+          "line": 10,
+          "text": "- Phạm vi tuổi: khuyến nghị nhi khoa; bài dùng riêng nhóm 6–12 và 13–18. Không áp cho 19+."
+        },
+        {
+          "line": 11,
+          "text": "- Hỗ trợ: Q1/Q2 trong CLAIM-AUDIT. Các khoảng, đơn vị và giới hạn được đọc trực tiếp; không lấy số giờ làm test. Không kiểm từng nghiên cứu nền hoặc toàn bộ cập nhật sau 2016."
+        },
+        {
+          "line": 12,
+          "text": "- Mức truy cập: fulltext_sections, đối chiếu có phạm vi. Thời điểm đăng tài liệu trên thư mục URL 2017 không đổi năm công bố 2016."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C17",
+      "heading": "S09 — NHLBI (2022b), dùng",
+      "referencesLine": 14,
+      "urls": [
+        "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits"
+      ],
+      "historicalFields": [
+        {
+          "line": 18,
+          "text": "- Loại: hướng dẫn công chúng, có câu dành cho trẻ em; không mẫu thử nghiệm hay hướng dẫn nhi khoa cá thể hóa."
+        },
+        {
+          "line": 19,
+          "text": "- Vị trí: đoạn mở đầu và danh sách “To improve your sleep habits”; chỉ dùng các ý về điều kiện ngủ, sinh hoạt, ánh sáng/tiếng ồn/caffeine. Không lấy phần ngủ trưa người lớn hoặc “Strategies for shift workers”."
+        },
+        {
+          "line": 20,
+          "text": "- Hỗ trợ Q4. Ví dụ chia sẻ đèn/việc nhà là biên tập, không can thiệp đã được thử nghiệm. Không đưa số phút/giờ bắt buộc từ hướng dẫn thành lịch cho Lan."
+        },
+        {
+          "line": 21,
+          "text": "- Mức truy cập: đọc nội dung chính liên quan trên trang đầy đủ; không tuyên bố rà soát mọi tài liệu được trang liên kết."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C17",
+      "heading": "C17-S10 — NHLBI (2022c), bổ sung thay thế phần cơ chế hẹp",
+      "referencesLine": 23,
+      "urls": [
+        "https://www.nhlbi.nih.gov/health/sleep-deprivation/body-clock"
+      ],
+      "historicalFields": [
+        {
+          "line": 26,
+          "text": "- URL thật từ liên kết “What Makes You Sleep?” của S09: https://www.nhlbi.nih.gov/health/sleep-deprivation/body-clock. URL đoán theo tiêu đề `/what-makes-you-sleep` không truy cập được; không dùng URL ấy làm nguồn."
+        },
+        {
+          "line": 27,
+          "text": "- Đã đọc các mục “Your body clock”, “Hormones”, “Changes in body clock with aging”. Bài chỉ dùng hai mục đầu/tuổi theo phạm vi Q3; không đưa diễn giải hormone chi tiết hoặc liệu pháp."
+        },
+        {
+          "line": 28,
+          "text": "- Loại: thông tin chính thức cho công chúng, không tổng quan hệ thống, không công trình gốc lịch sử mô hình; trang có thông tin riêng cho thiếu niên nhưng không giới hạn tuổi số cụ thể hay mẫu Việt Nam."
+        },
+        {
+          "line": 29,
+          "text": "- Hỗ trợ giải thích căn bản nhịp sinh học/áp lực ngủ và xu hướng chung tuổi thiếu niên. **Không thay thế Carskadon cho các kết quả thực nghiệm phát triển hoặc nguồn gốc mô hình.** Không suy ra nhịp riêng, thời điểm hormone hay nguyên nhân ở Lan."
+        },
+        {
+          "line": 30,
+          "text": "- Mức truy cập: fulltext_sections. Không dùng sự đơn giản hóa của trang để nói hai quá trình là cùng một khái niệm."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C17",
+      "heading": "C17-S11 — NHLBI (2022a), bổ sung dùng cho giới hạn đánh giá/hỗ trợ",
+      "referencesLine": 32,
+      "urls": [
+        "https://www.nhlbi.nih.gov/health/insomnia/diagnosis"
+      ],
+      "historicalFields": [
+        {
+          "line": 36,
+          "text": "- Vị trí: mở đầu; “Medical history and physical exam”. Đã thấy các mục tests nhưng không dùng để hướng dẫn tự kiểm. Không chuyển tiêu chí thời gian hoặc nhật ký của trang thành nhiệm vụ học sinh."
+        },
+        {
+          "line": 37,
+          "text": "- Loại/tuổi: hướng dẫn công chúng, không chuyên biệt THCS–THPT; không nghiên cứu có mẫu tuổi xác định."
+        },
+        {
+          "line": 38,
+          "text": "- Hỗ trợ Q5/Q6: đánh giá xem nhiều thông tin; trao đổi với bác sĩ khi thiếu ngủ ảnh hưởng sinh hoạt. Lựa chọn người lớn đáng tin/giáo viên là cầu nối biên tập, không dịch vụ địa phương đã xác minh."
+        },
+        {
+          "line": 39,
+          "text": "- Mức truy cập: fulltext_sections; ngôn ngữ dành vị thành niên và thích ứng Việt Nam còn cần người chuyên môn rà soát."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C17",
+      "heading": "S08 — Đã kiểm lại nhưng không dùng làm mục thư mục bài",
+      "referencesLine": 41,
+      "urls": [
+        "https://www.nhlbi.nih.gov/health/insomnia"
+      ],
+      "historicalFields": [],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C17",
+      "heading": "Báo cáo riêng S07 — Carskadon (2011): chưa gỡ được toàn văn",
+      "referencesLine": 47,
+      "urls": [
+        "https://doi.org/10.1016/j.pcl.2011.03.003",
+        "https://pubmed.ncbi.nlm.nih.gov/21600346/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3130594/",
+        "https://contentmanager.med.uvm.edu/docs/carskadon_2011_sleep_in_adolescents_the_perfect_storm/ahec-documents/carskadon_2011_sleep_in_adolescents_the_perfect_storm.pdf?sfvrsn=5fd7051c_2",
+        "https://digital.library.adelaide.edu.au/items/b6f8ec57-2ebe-4215-bc0d-ab55221d1a76",
+        "https://europepmc.org/articles/PMC3130594"
+      ],
+      "historicalFields": [
+        {
+          "line": 55,
+          "text": "- University of Vermont: kết quả tìm kiếm lập chỉ mục PDF “NIH Public Access Author Manuscript”, có đoạn Abstract/trang đầu. URL: https://contentmanager.med.uvm.edu/docs/carskadon_2011_sleep_in_adolescents_the_perfect_storm/ahec-documents/carskadon_2011_sleep_in_adolescents_the_perfect_storm.pdf?sfvrsn=5fd7051c_2 — mở PDF có tham số bị timeout; bản không tham số không truy cập được. Biến thể host `www.med.uvm.edu` cũng không truy cập được. **Không đọc được phần cơ chế trong PDF.**"
+        },
+        {
+          "line": 64,
+          "text": "- Không xác định được tuổi từng nghiên cứu trong thân bài; không lấy mô tả khoảng tuổi từ tóm tắt/kết quả tìm kiếm làm bằng chứng thực nghiệm cho Lan 14 tuổi."
+        },
+        {
+          "line": 65,
+          "text": "- Thay bằng **C17-S10 cho giải thích chung, giới hạn hẹp**, không gọi đây là xác minh Carskadon hoặc tổng quan tương đương. Không sản xuất sơ đồ cơ chế sinh học."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C18",
+      "heading": "C18-ALBULESCU",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.1371/journal.pone.0272460",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Bản thực tế đọc: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460"
+        },
+        {
+          "line": 10,
+          "text": "- Loại/xuất bản: Tổng quan hệ thống/phân tích gộp bình duyệt; PLOS. Phiên bản/trang/mục: Abstract; Results: Description of included studies, Table 3/main results; Discussion và limitations."
+        },
+        {
+          "line": 11,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 12,
+          "text": "- Đối tượng/tuổi: 22 mẫu từ19 công bố, tổng2335, tuổi trung bình31,2; sinh viên/nhân viên/tình nguyện, không bộ mẫu trường THCS–THPT."
+        },
+        {
+          "line": 13,
+          "text": "- Thực sự hỗ trợ: Lợi ích trung bình nhỏ về vigor/fatigue, hiệu suất tổng thể không có ý nghĩa thống kê; giới hạn tự báo cáo, khác biệt nhiệm vụ."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không áp tuổi người lớn thành lịch nghỉ học sinh, không d hoặc p chưa cần dùng, không coi ngưỡng chọn nghiên cứu là chỉ định cá nhân. Một số số liệu khác nhau giữa Abstract/main/sensitivity nên bài chỉ dùng kết luận định tính ổn định."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C18",
+      "heading": "C18-NIMH",
+      "referencesLine": 17,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 21,
+          "text": "- Bản thực tế đọc: https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+        },
+        {
+          "line": 22,
+          "text": "- Loại/xuất bản: Hướng dẫn công chúng; NIMH/NIH. Phiên bản/trang/mục: “What are the signs of mental health conditions in children?”, “Where should I start if I’m concerned about my child’s mental health?”, “How is children’s mental health assessed?”; Revised 2024."
+        },
+        {
+          "line": 23,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Trẻ em và thiếu niên, viết cho người chăm sóc trong hệ thống Hoa Kỳ; không nghiên cứu có mẫu riêng."
+        },
+        {
+          "line": 25,
+          "text": "- Thực sự hỗ trợ: Khổ sở/ảnh hưởng chức năng là lý do tìm giúp; đánh giá cần nhiều thông tin, không từ một dấu hiệu."
+        },
+        {
+          "line": 26,
+          "text": "- Giới hạn: Không mang dịch vụ 988/911, luật hoặc chương trình trường Mỹ sang Việt Nam. Không lập ngưỡng chờ đợi; các câu không cần chẩn đoán/chọn người khác là hướng biên tập an toàn, không kết quả thử nghiệm."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C18",
+      "heading": "C18-UN",
+      "referencesLine": 29,
+      "urls": [
+        "https://www.unicef.org/child-rights-convention/convention-text"
+      ],
+      "historicalFields": [
+        {
+          "line": 33,
+          "text": "- Bản thực tế đọc: https://www.unicef.org/child-rights-convention/convention-text"
+        },
+        {
+          "line": 34,
+          "text": "- Loại/xuất bản: Văn kiện quốc tế gốc được UNICEF đăng lại; căn cứ chuẩn tắc, không nghiên cứu hiệu quả. Phiên bản/trang/mục: Dòng adopted resolution44/25 ngày20/11/1989; Article1 và Article31(1)–(2)."
+        },
+        {
+          "line": 35,
+          "text": "- Truy cập: **fulltext_sections**, 25/10/2026; đối chiếu nội dung chỉ định, không chỉ kiểm link."
+        },
+        {
+          "line": 36,
+          "text": "- Đối tượng/tuổi: Văn kiện nói về trẻ em theo Article1, thông thường dưới18; không áp như kết luận pháp lý cá nhân ở Việt Nam."
+        },
+        {
+          "line": 37,
+          "text": "- Thực sự hỗ trợ: Quyền rest/leisure/play; không phải phần thưởng theo năng suất."
+        },
+        {
+          "line": 38,
+          "text": "- Giới hạn: Không giải thích luật, thời hạn nghỉ hay dịch vụ Việt Nam. Không dùng văn kiện thay bằng chứng thực nghiệm."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C19",
+      "heading": "C19-S01 / canonical NHS23",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Hướng dẫn NHS, HTML, last reviewed15/12/2023, due15/12/2026"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng/tuổi/bối cảnh: Trẻ/người trẻ, hướng dẫn người chăm sóc Anh; không mẫu thử nghiệm"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí hỗ trợ: Symptoms of anxiety in children and young people"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực: Căng người/bụng khó chịu có thể đi cùng lo âu."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không đặc hiệu, không xác định nguyên nhân một triệu chứng; không lấy danh sách thành tiêu chuẩn tự chẩn đoán hoặc dùng phần thuốc/di truyền/CBT."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Không ngoại lệ metadata đã phát hiện; không suy có DOI/trang/tập nếu hướng dẫn HTML không có."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C19",
+      "heading": "C19-S02 / canonical SCHN26",
+      "referencesLine": 19,
+      "urls": [
+        "https://www.schn.health.nsw.gov.au/factsheets/abdominal-pain-and-stomach-ache"
+      ],
+      "historicalFields": [
+        {
+          "line": 23,
+          "text": "- Loại/phiên bản: Hướng dẫn bệnh viện trẻ em thuộc NSW Government, HTML; Last updated10/6/2026"
+        },
+        {
+          "line": 25,
+          "text": "- Đối tượng/tuổi/bối cảnh: Trẻ em và gia đình ở Australia; không thử nghiệm mẫu nghỉ hay một nhóm học sinh cụ thể"
+        },
+        {
+          "line": 26,
+          "text": "- Vị trí hỗ trợ: Introduction; Signs and symptoms; Diagnosis; Disclaimer"
+        },
+        {
+          "line": 27,
+          "text": "- Hỗ trợ thực: Đau bụng có nhiều nguyên nhân; đau nặng/tăng/không hết cần bác sĩ xem; khám và xét nghiệm khi cần để tìm nguyên nhân."
+        },
+        {
+          "line": 28,
+          "text": "- Giới hạn: Không bài tự phân loại cấp cứu, không chẩn đoán từ triệu chứng; không dùng mục thuốc/chườm/điều trị ở nhà hoặc mang dịch vụ Australia vào Việt Nam."
+        },
+        {
+          "line": 29,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 30,
+          "text": "- Ghi chú: Chọn trang cập nhật2026 này cho claim; RCH Abdominal pain đã đọc nhưng ghi Reviewed May2018/awaiting routine review (footer updated2025) nên không dùng làm nguồn chính."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C20",
+      "heading": "C20-S01 / canonical NHSPA24",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Hướng dẫn NHS, HTML, last reviewed23/10/2024, due23/10/2027"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng/tuổi/bối cảnh: 5–18 tuổi; có đoạn khuyến nghị riêng người trẻ sống với khuyết tật, không một mẫu nghiên cứu"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí hỗ trợ: Phần mở đầu/khuyến nghị5–18; What counts as moderate activity?; Exercising safely"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực: Nhiều loại vận động, ngắt khoảng lâu không vận động; hợp tuổi/khả năng/kinh nghiệm, bắt đầu mới từ từ, hỏi y tế khi có tình trạng sức khỏe."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không tái tạo các lượng phút khác nhau thành một chỉ định chung; không áp5–18 cho người19+; không hướng dẫn dụng cụ/tập sức mạnh/phục hồi tự làm."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Bài không đưa các con số khuyến nghị hoặc ghép với WHO2020. Đoạn disability có lượng riêng; không xem khả năng di chuyển là đồng nhất hoặc cho một bài tập thay thế mọi khuyết tật."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C20",
+      "heading": "C20-S02 / canonical NIMH24",
+      "referencesLine": 19,
+      "urls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "historicalFields": [
+        {
+          "line": 23,
+          "text": "- Loại/phiên bản: Hướng dẫn chuyên môn NIMH, HTML, revised2024"
+        },
+        {
+          "line": 25,
+          "text": "- Đối tượng/tuổi/bối cảnh: Trẻ/người trẻ; chủ yếu hướng dẫn người chăm sóc tại Mỹ, không mẫu nghiên cứu"
+        },
+        {
+          "line": 26,
+          "text": "- Vị trí hỗ trợ: What are the signs of mental health conditions in children?; Where should I start…?; How is children’s mental health assessed?; How are childhood mental health disorders treated?"
+        },
+        {
+          "line": 27,
+          "text": "- Hỗ trợ thực: Khổ sở/ảnh hưởng chức năng có thể cần giúp; đánh giá đa thông tin/chuyên môn, nguy hiểm cần giúp ngay."
+        },
+        {
+          "line": 28,
+          "text": "- Giới hạn: Không checklist/ngưỡng tự chẩn đoán, không yêu cầu chờ đủ ngày; không luật/dịch vụ Mỹ. Hoạt động vận động của bài không được nguồn thử nghiệm."
+        },
+        {
+          "line": 29,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 30,
+          "text": "- Ghi chú: Không ngoại lệ metadata đã phát hiện; không suy có DOI/trang/tập nếu hướng dẫn HTML không có."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C20",
+      "heading": "C20-S03 / canonical WHO24",
+      "referencesLine": 33,
+      "urls": [
+        "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      ],
+      "historicalFields": [
+        {
+          "line": 37,
+          "text": "- Loại/phiên bản: Tài liệu tổng hợp/hướng dẫn WHO, HTML,26/6/2024"
+        },
+        {
+          "line": 39,
+          "text": "- Đối tượng/tuổi/bối cảnh: Tách trẻ/vị thành niên, người lớn, các nhóm khác; chỉ dùng đoạn trẻ và nghĩa khái niệm/bối cảnh cơ hội chung"
+        },
+        {
+          "line": 40,
+          "text": "- Vị trí hỗ trợ: Overview; Benefits of physical activity and risks of sedentary behaviour and inactivity; How much physical activity is recommended?; Levels of physical inactivity globally (đoạn yếu tố tiếp cận)"
+        },
+        {
+          "line": 41,
+          "text": "- Hỗ trợ thực: Định nghĩa hoạt động thể chất; lợi ích sức khỏe ở trẻ/người trẻ; cơ hội phụ thuộc yếu tố môi trường/xã hội."
+        },
+        {
+          "line": 42,
+          "text": "- Giới hạn: Không lấy giảm triệu chứng ở đoạn người lớn cho học sinh, không hứa một lần ngắn chữa bệnh; không dùng số liệu tử vong/cân nặng hoặc kê lịch phút cho cá nhân."
+        },
+        {
+          "line": 43,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 44,
+          "text": "- Ghi chú: Các lần thử full guideline2020/summary qua IRIS timeout, Bookshelf captcha; không nhận đã đọc hướng dẫn đầy đủ2020 hoặc web annex. Nguồn dùng là factsheet2024 đọc thật, khác ISBN2020."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C21",
+      "heading": "C21-S01 / canonical FEST54",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.1177/001872675400700202",
+        "https://www.decodedscience.org/files/docs/festinger%20(1954)%20a%20theory%20of%20social%20comparison%20processes.pdf",
+        "https://www2.psych.ubc.ca/~schaller/528Readings/Festinger1954.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Công trình lý thuyết gốc đọc qua bản chép/dàn lại văn bản16 trang; không bản nhà xuất bản được đọc trực tiếp"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng/tuổi/bối cảnh: Lý thuyết đánh giá ý kiến/khả năng, không mẫu người dùng mạng xã hội hiện đại hay xác nhận ở HS Việt Nam"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí hỗ trợ: Hypotheses I–II, PDF bản dàn lại tr.1–2; không gán số trang PDF ấy thành số trang in gốc"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực: Đánh giá ý kiến/khả năng bằng so với người khác, nhất là khi thiếu căn cứ khách quan không mang tính xã hội."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Bản chép có thể có lỗi định dạng/OCR; chỉ dùng luận điểm hẹp, không trích nguyên văn hoặc chứng nhận toàn bản; không nói so sánh luôn xấu/gây bệnh."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập ngày25/10/2026: `reproduced_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Metadata tác giả1954/7(2)/117–140/DOI đối chiếu hồ sơ SAGE và bìa PDF UBC https://www2.psych.ubc.ca/~schaller/528Readings/Festinger1954.pdf . Bản UBC chủ yếu scan, parser chỉ cho bìa/footer; screenshot tool chỉ trả placeholder, chưa xem được trang scan. Nhà xuất bản timeout. Đọc nội dung Hypotheses I–II ở bản chép DecodedScience thật; cần đối chiếu bản ghi gốc trước công bố, không giả đã xem scan hoặc toàn văn SAGE. Không tái bản PDF/bản dịch toàn bài."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C21",
+      "heading": "C21-S02 / canonical VAL22",
+      "referencesLine": 19,
+      "urls": [
+        "https://doi.org/10.1016/j.copsyc.2021.08.017",
+        "https://www.project-awesome.nl/images/PDFs/Publications/Valkenburg_et_al._An_umbrella_review_COiP_2022.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 23,
+          "text": "- Loại/phiên bản: Umbrella review bình duyệt, PDF bản xuất bản trên trang dự án của nhóm nghiên cứu,11 trang"
+        },
+        {
+          "line": 25,
+          "text": "- Đối tượng/tuổi/bối cảnh: Tập trung thanh thiếu niên, tổng hợp các review2019–giữa2021; một số meta có tuổi làm moderator, không mọi nghiên cứu chỉ cùng một nhóm tuổi"
+        },
+        {
+          "line": 26,
+          "text": "- Vị trí hỗ trợ: Abstract/Methods tr.58–59; Main findings/Identified gaps tr.59–60; Discussion"
+        },
+        {
+          "line": 27,
+          "text": "- Hỗ trợ thực: Phần lớn review diễn giải liên hệ yếu/không nhất quán; khác định nghĩa/cách đo, chủ yếu cắt ngang và tự báo cáo; không kết luận nhân quả đơn giản."
+        },
+        {
+          "line": 28,
+          "text": "- Giới hạn: Không riêng self-esteem: nguồn nêu self-esteem bị loại khỏi phạm vi chỉ tiêu chính; không dùng để khẳng định so sánh gây giảm tự trọng. Không đồng nhất tổng thời gian màn hình với SMU hoặc kết quả giữa người thành thay đổi cá nhân."
+        },
+        {
+          "line": 29,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 30,
+          "text": "- Ghi chú: Online2021 nhưng năm tập2022,44:58–68, DOI thật trên PDF. CC BY4.0; không sao bảng/hình. Không gọi đây là bằng chứng cập nhật đến2026 hoặc đọc toàn25 review gốc."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C21",
+      "heading": "C21-S03 / canonical YMSOC",
+      "referencesLine": 33,
+      "urls": [
+        "https://www.youngminds.org.uk/young-person/coping-with-life/social-media-and-mental-health/"
+      ],
+      "historicalFields": [
+        {
+          "line": 37,
+          "text": "- Loại/phiên bản: Hướng dẫn người trẻ, HTML không xác minh năm; không thử nghiệm hiệu quả hoạt động"
+        },
+        {
+          "line": 39,
+          "text": "- Đối tượng/tuổi/bối cảnh: Người trẻ ở Anh; không mẫu nghiên cứu hoặc kết quả cho từng HS Việt Nam"
+        },
+        {
+          "line": 40,
+          "text": "- Vị trí hỗ trợ: The negative impacts… > Comparing yourself to others; Tips for having a positive time online > Take regular breaks/Mute notifications/Unfollow or mute accounts"
+        },
+        {
+          "line": 41,
+          "text": "- Hỗ trợ thực: Nội dung có thể chọn phần nổi bật/chỉnh sửa; lựa chọn nghỉ/giảm thông báo/đổi nguồn xem."
+        },
+        {
+          "line": 42,
+          "text": "- Giới hạn: Không kết luận mọi bài giả/mọi người bị hại; không áp phút ví dụ, blue-light filter, nội dung luật/dịch vụ hoặc tuyên bố thuật toán/cơ chế não chưa đối chiếu. Giữ tính gợi ý, không hiệu quả điều trị."
+        },
+        {
+          "line": 43,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 44,
+          "text": "- Ghi chú: C21 dùng về nội dung/lựa chọn; C22 chỉ mục thông báo. Đối chiếu claim từng bài, không lấy nguồn dùng chung thay xem ngữ nghĩa riêng."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C22",
+      "heading": "C22-S01 / canonical MONSELL03",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.1016/S1364-6613(03)00028-7",
+        "https://www.psychfiles.net/experimental/Monsell_2003.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Tổng quan bình duyệt; PDF bản xuất bản7 trang từ mirror, không trang tác giả/nhà xuất bản"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng/tuổi/bối cảnh: Thí nghiệm nhiệm vụ đơn giản, chủ yếu người lớn; không thử điện thoại ở lớp THCS–THPT"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí hỗ trợ: Tr.134–135 mở đầu/Task switching: basic phenomena; Fig1 caption tr.136 nói young adults; All of the above?/Issues for further research tr.137"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực: Khái niệm đổi nhiệm vụ và switch cost trong phòng thí nghiệm; nhiều cách giải thích/giới hạn."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không suy con số tác động, phút hồi phục, tổn thương não, điểm học hoặc rối loạn chú ý ở HS. Không nhận Monsell là người khai sinh; chưa đọc mọi công trình gốc trong review."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Tác giả/tên/tập7(3)/134–140/DOI in PDF khớp PubMed12639695 đã tra. Nguồn mirror được ghi rõ, không khẳng định chứng nhận quyền tái bản; chỉ diễn giải ngắn, không chép đồ thị/toàn văn. Rosen2013 tìm được đầu mối nhưng full publisher403/author PDF redirect/UVa robot, không dùng."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C22",
+      "heading": "C22-S02 / canonical YMSOC",
+      "referencesLine": 19,
+      "urls": [
+        "https://www.youngminds.org.uk/young-person/coping-with-life/social-media-and-mental-health/"
+      ],
+      "historicalFields": [
+        {
+          "line": 23,
+          "text": "- Loại/phiên bản: Hướng dẫn người trẻ, HTML không xác minh năm; không thử nghiệm hiệu quả hoạt động"
+        },
+        {
+          "line": 25,
+          "text": "- Đối tượng/tuổi/bối cảnh: Người trẻ ở Anh; không mẫu nghiên cứu hoặc kết quả cho từng HS Việt Nam"
+        },
+        {
+          "line": 26,
+          "text": "- Vị trí hỗ trợ: The negative impacts… > Comparing yourself to others; Tips for having a positive time online > Take regular breaks/Mute notifications/Unfollow or mute accounts"
+        },
+        {
+          "line": 27,
+          "text": "- Hỗ trợ thực: Nội dung có thể chọn phần nổi bật/chỉnh sửa; lựa chọn nghỉ/giảm thông báo/đổi nguồn xem."
+        },
+        {
+          "line": 28,
+          "text": "- Giới hạn: Không kết luận mọi bài giả/mọi người bị hại; không áp phút ví dụ, blue-light filter, nội dung luật/dịch vụ hoặc tuyên bố thuật toán/cơ chế não chưa đối chiếu. Giữ tính gợi ý, không hiệu quả điều trị."
+        },
+        {
+          "line": 29,
+          "text": "- Truy cập ngày25/10/2026: `full_text_relevant_sections`. Chỉ các phần được ghi, không nhận đã đọc từng dòng/phụ lục/mọi công trình được dẫn."
+        },
+        {
+          "line": 30,
+          "text": "- Ghi chú: C21 dùng về nội dung/lựa chọn; C22 chỉ mục thông báo. Đối chiếu claim từng bài, không lấy nguồn dùng chung thay xem ngữ nghĩa riêng."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C23",
+      "heading": "JINDAL20",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.1002/rev3.3197",
+        "https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/rev3.3197"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại/phiên bản: Tổng quan hệ thống; chỉ abstract và metadata nhà xuất bản"
+        },
+        {
+          "line": 10,
+          "text": "- Bản thực đọc: https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/rev3.3197"
+        },
+        {
+          "line": 11,
+          "text": "- Đối tượng/tuổi: Chuyển tiểu học lên trung học ở nghiên cứu quốc tế; không suy tuổi cụ thể ngoài abstract hoặc khái quát mọi lần chuyển THPT"
+        },
+        {
+          "line": 12,
+          "text": "- Vị trí đối chiếu: Abstract (không số trang toàn văn đã kiểm)"
+        },
+        {
+          "line": 13,
+          "text": "- Hỗ trợ thực: Quan hệ với giáo viên/bạn là trọng tâm trải nghiệm; chưa kết luận chắc nguyên nhân hoặc duy trì tác động theo thời gian."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Chưa đọc phương pháp/kết quả toàn văn. Chỉ dùng hai nhận xét hẹp có ngay trong Abstract; mở rộng cần truy cập thêm."
+        },
+        {
+          "line": 15,
+          "text": "- Truy cập: `abstract_only`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 16,
+          "text": "- Ghi chú: Đường /doi/full chuyển sang /doi/abs; không gọi toàn văn hoặc quality appraisal hoàn chỉnh. 96 nghiên cứu giai đoạn 2008–2018 trong abstract, không đưa con số vào bài để tạo thẩm quyền."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C23",
+      "heading": "YOUNG",
+      "referencesLine": 18,
+      "urls": [
+        "https://www.youngminds.org.uk/young-person/coping-with-life/problems-at-school/"
+      ],
+      "historicalFields": [
+        {
+          "line": 22,
+          "text": "- Loại/phiên bản: Hướng dẫn thực hành tổ chức sức khỏe tâm thần người trẻ; HTML, không xác minh năm"
+        },
+        {
+          "line": 23,
+          "text": "- Bản thực đọc: https://www.youngminds.org.uk/young-person/coping-with-life/problems-at-school/"
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Người trẻ ở Anh; không mẫu nghiên cứu hoặc thử nghiệm"
+        },
+        {
+          "line": 25,
+          "text": "- Vị trí đối chiếu: Coping with school transitions > Moving to a new school or secondary school"
+        },
+        {
+          "line": 26,
+          "text": "- Hỗ trợ thực: Làm quen đường đi, quy định, quan hệ; chuẩn bị thông tin và hỏi hỗ trợ; dành thời gian cho tình bạn."
+        },
+        {
+          "line": 27,
+          "text": "- Giới hạn: Không bằng chứng hiệu quả mẫu câu; không mặc định mọi trường có buddy, dịch vụ hoặc quy định Anh."
+        },
+        {
+          "line": 28,
+          "text": "- Truy cập: `full_text_relevant_sections`; kiểm ngày 2026-10-25. Trạng thái là đọc các phần liên quan, không chứng nhận toàn văn/nguồn hoàn hảo."
+        },
+        {
+          "line": 29,
+          "text": "- Ghi chú: Không có ngoại lệ metadata đã phát hiện."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C24",
+      "heading": "C24-S01 — NCS",
+      "referencesLine": 5,
+      "urls": [
+        "https://nationalcareers.service.gov.uk/careers-advice/career-choices-at-16"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại: Hướng dẫn công chúng chính thức, HTML không xác minh ngày riêng."
+        },
+        {
+          "line": 10,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://nationalcareers.service.gov.uk/careers-advice/career-choices-at-16); kiểm2026-10-25."
+        },
+        {
+          "line": 11,
+          "text": "- Vị trí/phiên bản: Things to consider; Rethinking your options."
+        },
+        {
+          "line": 12,
+          "text": "- Đối tượng/tuổi: Người trẻ chọn hướng sau year11 ở Anh; không nghiên cứu can thiệp."
+        },
+        {
+          "line": 13,
+          "text": "- Thực hỗ trợ: Tìm thông tin và người hỗ trợ, có lựa chọn dự phòng khi kế hoạch thay đổi."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không mang luật độ tuổi/học nghề/bằng cấp/trợ cấp Anh vào Việt Nam, không chứng minh phiếu tự tạo hiệu quả."
+        },
+        {
+          "line": 15,
+          "text": "- Ngoại lệ/xuất xứ: Không dùng liên kết skills assessment để yêu cầu làm test; chọn gợi ý thông tin, không gán trách nhiệm vượt nguồn."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-C24",
+      "heading": "C24-S02 — OECD24",
+      "referencesLine": 17,
+      "urls": [
+        "https://www.oecd.org/en/publications/teenage-career-uncertainty_e89c3da9-en.html",
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/teenage-career-uncertainty_63c29ae4/e89c3da9-en.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 21,
+          "text": "- Loại: Báo cáo tổng hợp chính sách/nghiên cứu, PDF chính thức14 trang."
+        },
+        {
+          "line": 22,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/teenage-career-uncertainty_63c29ae4/e89c3da9-en.pdf); kiểm2026-10-25."
+        },
+        {
+          "line": 23,
+          "text": "- Vị trí/phiên bản: Tr.2–3: định nghĩa khảo sát và liên hệ cohort; tr.10–11: khám phá/kế hoạch thay đổi, thời điểm quyết định và giới hạn uncertainty."
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: PISA15–16 tuổi; tổng hợp cohort vị thành niên theo dõi đến trưởng thành ở nhiều nước; không thử phiếu C24 ở Việt Nam."
+        },
+        {
+          "line": 25,
+          "text": "- Thực hỗ trợ: Kế hoạch tuổi đi học có thể đổi, khám phá cần hỗ trợ/thông tin; không rõ hướng có liên hệ bất lợi trong một số nghiên cứu."
+        },
+        {
+          "line": 26,
+          "text": "- Giới hạn: Liên hệ có kiểm soát không nhân quả hay tiên đoán cá nhân; không mọi uncertainty tốt, không ép tên nghề để chữa khó khăn; chưa đọc mọi cohort gốc."
+        },
+        {
+          "line": 27,
+          "text": "- Ngoại lệ/xuất xứ: Trang HTML nhiều navigation; đọc nội dung PDF thật. DOI không đưa khi chưa cần, URL chính thức đã đối chiếu. Không sao bảng/phần trăm hoặc khái quát tỷ lệ OECD cho Việt Nam."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E01",
+      "heading": "E01-S01 — AERA14",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại: Chuẩn chuyên môn, bản2014 chính thức PDF240 trang mở truy cập."
+        },
+        {
+          "line": 10,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf); kiểm2026-10-25."
+        },
+        {
+          "line": 11,
+          "text": "- Vị trí/phiên bản: Tr.11: cách diễn giải/mục đích; Standard1.0–1.1 tr.23; reliability/precision tr.33–35 (PDF42–44 theo số0-based tương ứng)."
+        },
+        {
+          "line": 12,
+          "text": "- Đối tượng/tuổi: Chuẩn đo lường giáo dục/tâm lý, không mẫu nghiên cứu hoặc cấp quyền hành nghề ở Việt Nam."
+        },
+        {
+          "line": 13,
+          "text": "- Thực hỗ trợ: Độ tin cậy/nhất quán của điểm khác căn cứ cho cách diễn giải/sử dụng; cần đối tượng, bối cảnh và mục đích."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không mọi test đòi mọi loại chứng cứ giống nhau; chuẩn không tự kiểm định MBTI/PSS hoặc cấp quyền bộ test. Không nhận đọc trọn240 trang."
+        },
+        {
+          "line": 15,
+          "text": "- Ngoại lệ/xuất xứ: Đã đọc các đoạn liên quan và metadata, không tái bản bảng/định nghĩa nguyên văn; không gọi true score của lý thuyết đo là true type MBTI."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E01",
+      "heading": "E01-S02 — ERFORD25",
+      "referencesLine": 17,
+      "urls": [
+        "https://doi.org/10.1002/jcad.70006",
+        "https://onlinelibrary.wiley.com/doi/10.1002/jcad.70006"
+      ],
+      "historicalFields": [
+        {
+          "line": 21,
+          "text": "- Loại: Tổng hợp tâm trắc bình duyệt, HTML toàn văn khả dụng ở các mục đã đọc; nhiều lần URL/full403."
+        },
+        {
+          "line": 22,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://onlinelibrary.wiley.com/doi/10.1002/jcad.70006); kiểm2026-10-25."
+        },
+        {
+          "line": 23,
+          "text": "- Vị trí/phiên bản: Abstract; Introduction/History; Discussion §4 (nhất quán, đo lặp/cấu trúc ngoài manual), §4.1 và §4.2 Study Limitations; Conclusion."
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Tập193 công trình1999–2024, bản tiếng Anh Form M; nhiều mẫu khác nhau, chuẩn manual3009 người lớn; không hiệu lực riêng HS Việt Nam."
+        },
+        {
+          "line": 25,
+          "text": "- Thực hỗ trợ: Nhất quán nội tại/hội tụ được ghi nhận nhưng thiếu nghiên cứu đo lặp/structure ngoài manual trong tập tìm; version/language/phạm vi mẫu giới hạn diễn giải."
+        },
+        {
+          "line": 26,
+          "text": "- Giới hạn: Không nói chưa từng có nghiên cứu đo lặp: manual có, phải tách ngoài manual. Không lấy kết luận authors về screening personality thành công cụ sàng lọc bệnh hoặc phân vai trẻ. Chưa đọc toàn193 công trình."
+        },
+        {
+          "line": 27,
+          "text": "- Ngoại lệ/xuất xứ: Tác giả26 người đối chiếu publisher, APA7 ghi19 người đầu + . . . + người cuối, không & trước người cuối. Hai Huang,X. là Xinlei và Xinran khác người. Không dùng số hệ số/phần trăm trong ARTICLE. Một số lần đọc bị403 nhưng các mục nêu trên đã đọc thật, không gọi403 là kiểm link thành công."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E01",
+      "heading": "E01-S03 — MBTIFACT",
+      "referencesLine": 29,
+      "urls": [
+        "https://www.themyersbriggs.com/en-US/Support/MBTI-Facts"
+      ],
+      "historicalFields": [
+        {
+          "line": 33,
+          "text": "- Loại: Thông tin lịch sử/công cụ của đơn vị phát triển/xuất bản, HTML; có lợi ích thương mại."
+        },
+        {
+          "line": 34,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.themyersbriggs.com/en-US/Support/MBTI-Facts); kiểm2026-10-25."
+        },
+        {
+          "line": 35,
+          "text": "- Vị trí/phiên bản: Mục1–3: người phát triển,1943/1962/lịch sử form, mục đích/không phân vai/chẩn đoán; mục6–8: bốn cặp/khuynh hướng không năng lực; mục15–17: các loại reliability/whole type/validity."
+        },
+        {
+          "line": 36,
+          "text": "- Đối tượng/tuổi: MBTI nhiều phiên bản/mẫu, không xác nhận hiệu lực mọi học sinh Việt Nam."
+        },
+        {
+          "line": 37,
+          "text": "- Thực hỗ trợ: Briggs/Myers phát triển dựa Jung; bốn cặp/16 tổ hợp; không công cụ chẩn đoán hoặc phân vai sẵn. Phân biệt điểm thang với whole type."
+        },
+        {
+          "line": 38,
+          "text": "- Giới hạn: Nguồn có lợi ích thương mại; không lấy tuyên bố quảng bá thay kiểm độc lập hoặc số ổn định ở một version áp mọi version. Không đọc manual gốc."
+        },
+        {
+          "line": 39,
+          "text": "- Ngoại lệ/xuất xứ: Không dùng các phần trăm retest hay bảng norm trong ARTICLE; số của Global/Form M khác nhau không gộp. Lịch sử là thông tin đơn vị phát triển, không tự thành bằng chứng hiệu quả."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E01",
+      "heading": "E01-S04 — NERIS",
+      "referencesLine": 41,
+      "urls": [
+        "https://www.16personalities.com/articles/our-theory"
+      ],
+      "historicalFields": [
+        {
+          "line": 45,
+          "text": "- Loại: Tự mô tả của nhà cung cấp, HTML; footer NERIS Analytics Limited."
+        },
+        {
+          "line": 46,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.16personalities.com/articles/our-theory); kiểm2026-10-25."
+        },
+        {
+          "line": 47,
+          "text": "- Vị trí/phiên bản: Introduction/Historical detour; Our Approach; Reliability and Validity (đọc để phân biệt tự quảng bá với kiểm độc lập); footer."
+        },
+        {
+          "line": 48,
+          "text": "- Đối tượng/tuổi: Người dùng công cụ NERIS; không nghiên cứu độc lập cho HS Việt Nam."
+        },
+        {
+          "line": 49,
+          "text": "- Thực hỗ trợ: NERIS Type Explorer dùng định dạng chữ tương tự nhưng khung năm khía cạnh, không dùng Jungian cognitive functions như MBTI."
+        },
+        {
+          "line": 50,
+          "text": "- Giới hạn: Không suy NERIS bằng mọi Big Five, không dùng số lượt test/cảm giác đúng/free làm bằng chứng; không xác minh tâm trắc bản Việt hoặc độ tuổi."
+        },
+        {
+          "line": 51,
+          "text": "- Ngoại lệ/xuất xứ: Không sao mô tả16 kiểu, bảng/câu hỏi/logo/ảnh; chỉ diễn giải ngắn nhận diện công cụ, không giới thiệu nút làm test."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E01",
+      "heading": "E01-S05 — STEIN19",
+      "referencesLine": 53,
+      "urls": [
+        "https://doi.org/10.1111/spc3.12434",
+        "https://www.swanpsych.com/publications/SteinSwanMBTITheory_2019.pdf",
+        "https://compass.onlinelibrary.wiley.com/doi/10.1111/spc3.12434"
+      ],
+      "historicalFields": [
+        {
+          "line": 57,
+          "text": "- Loại: Bài phân tích lý thuyết bình duyệt, PDF xuất bản trên trang đồng tác giả11 trang."
+        },
+        {
+          "line": 58,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.swanpsych.com/publications/SteinSwanMBTITheory_2019.pdf); kiểm2026-10-25."
+        },
+        {
+          "line": 59,
+          "text": "- Vị trí/phiên bản: PDF tr.1–3: Abstract/§2–4.1/Table1 (chỉ đọc nội dung, không sao bảng)."
+        },
+        {
+          "line": 60,
+          "text": "- Đối tượng/tuổi: Không mẫu can thiệp hoặc đo hiệu quả ở học sinh; phê bình khung true type Jungian."
+        },
+        {
+          "line": 61,
+          "text": "- Thực hỗ trợ: Phân tích phê bình giả định true type, cặp rời, tính kiểm chứng/nhất quán; khác câu hỏi tâm trắc Form M."
+        },
+        {
+          "line": 62,
+          "text": "- Giới hạn: Không phải meta mọi phiên bản, không từ phê bình suy mọi phép đo random hoặc mọi người dùng bị hại. Không kiểm nghiệm hoạt động của bài."
+        },
+        {
+          "line": 63,
+          "text": "- Ngoại lệ/xuất xứ: Đối chiếu publisher https://compass.onlinelibrary.wiley.com/doi/10.1111/spc3.12434 :13(2),e12434,25/1/2019. Search dễ lẫn e12441: đó là Teaching and Learning Guide13(3), không DOI bài PDF được đọc. Đã phân biệt trước biên soạn."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E01",
+      "heading": "Tài liệu quyền phụ trợ — MBTIPERM, không trích trong ARTICLE",
+      "referencesLine": 65,
+      "urls": [
+        "https://www.themyersbriggs.com/en-US/Support/Copyright-and-Permissions"
+      ],
+      "historicalFields": [],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E02",
+      "heading": "E02-S01 — BPL",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.ocf.berkeley.edu/~johnlab/bfi.html"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại: Trang nhóm phát triển/chủ quyền, HTML; phần lịch sử BFI/BFI-2 xen nhau."
+        },
+        {
+          "line": 10,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.ocf.berkeley.edu/~johnlab/bfi.html); kiểm2026-10-25."
+        },
+        {
+          "line": 11,
+          "text": "- Vị trí/phiên bản: Mở đầu BFI-2; Downloading > availability/copyright; reference; phần về languages/translation đọc nhưng không làm hướng dẫn tự dịch."
+        },
+        {
+          "line": 12,
+          "text": "- Đối tượng/tuổi: BFI-2 công cụ tự báo cáo, không chứng nhận mọi tuổi/ngôn ngữ."
+        },
+        {
+          "line": 13,
+          "text": "- Thực hỗ trợ: BFI-2 do Soto/John, nhãn Negative Emotionality/Open-Mindedness; họ giữ bản quyền, nghiên cứu phi thương mại có điều kiện."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không tự mở rộng free research sang tái bản công khai/thương mại; không dùng FAQ cũ11-item như thông số hiện hành BFI-2 hoặc nhầm BFI con/cha mẹ thành BFI-2 đã xác minh."
+        },
+        {
+          "line": 15,
+          "text": "- Ngoại lệ/xuất xứ: Không tải/fill survey, chép items hoặc scoring, không dùng online-feedback link. Publication site/module chưa được cấp quyền triển khai công cụ."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E02",
+      "heading": "E02-S02 — JOHN08",
+      "referencesLine": 17,
+      "urls": [
+        "https://www.colby.edu/wp-content/uploads/2019/06/John_et_al_2008.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 21,
+          "text": "- Loại: Chương chuyên khảo học thuật, bản thảo tác giả March4,2008 trên trường đồng tác giả;83 trang, không bản dàn xuất bản."
+        },
+        {
+          "line": 22,
+          "text": "- Truy cập: `author_draft_selected_sections`; [đường thực đọc](https://www.colby.edu/wp-content/uploads/2019/06/John_et_al_2008.pdf); kiểm2026-10-25."
+        },
+        {
+          "line": 23,
+          "text": "- Vị trí/phiên bản: PDF tr.1–8: lịch sử/taxonomy nhiều nhóm; PDF tr.30–31: nhãn và Preliminary Definitions; khác số trang chương xuất bản114–158."
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Tổng quan lịch sử/khái niệm và phép đo nhiều nhóm; không norm HS Việt Nam."
+        },
+        {
+          "line": 25,
+          "text": "- Thực hỗ trợ: Big Five nhiều nhánh phát triển; năm chiều rộng gom các nét nhỏ, nghĩa năm chiều, trait khác trạng thái thoáng qua."
+        },
+        {
+          "line": 26,
+          "text": "- Giới hạn: Không một cha đẻ hoặc năm loại người; không nhân cách chỉ có năm nét, không suy nguyên nhân hành vi/cảm xúc hoặc đánh giá đạo đức. Không coi bản thảo là bản xuất bản đã kiểm trang."
+        },
+        {
+          "line": 27,
+          "text": "- Ngoại lệ/xuất xứ: Đọc phần được nêu, không toàn83 trang; không sao AppendixA câu hỏi/scoring hoặc Table4.2. Thư mục xuất bản đối chiếu cover draft và trang BPL. Số trang PDF chỉ ghi như PDF, không gán thành trang sách."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E02",
+      "heading": "E02-S03 — SOTO08",
+      "referencesLine": 29,
+      "urls": [
+        "https://doi.org/10.1037/0022-3514.94.4.718",
+        "https://www.colby.edu/wp-content/uploads/2013/08/Soto_et_al_2008.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 33,
+          "text": "- Loại: Nghiên cứu thực nghiệm quan sát/cắt ngang nhiều nhóm tuổi, PDF bản xuất bản trên trường tác giả20 trang."
+        },
+        {
+          "line": 34,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.colby.edu/wp-content/uploads/2013/08/Soto_et_al_2008.pdf); kiểm2026-10-25."
+        },
+        {
+          "line": 35,
+          "text": "- Vị trí/phiên bản: Abstract tr.718; Method/Sample/Procedure/Measurement tr.722–723; phần khác biệt coherence/differentiation tr.729 (PDFp11)."
+        },
+        {
+          "line": 36,
+          "text": "- Đối tượng/tuổi: Tình nguyện Internet10–20 tuổi, Mỹ90%/Canada10%;230047 ban đầu, loại một phần trường hợp trước phân tích; không đại diện VN."
+        },
+        {
+          "line": 37,
+          "text": "- Thực hỗ trợ: Chất lượng đo BFI tự báo cáo có khác biệt theo tuổi/chiều; cần kiểm dụng cụ/đối tượng."
+        },
+        {
+          "line": 38,
+          "text": "- Giới hạn: BFI44, không BFI-2; không theo dõi cùng người lớn lên, không định mốc trưởng thành, không hiệu lực bản Việt hóa hoặc bắt HS làm test. Không dùng mọi số mẫu như mẫu cuối."
+        },
+        {
+          "line": 39,
+          "text": "- Ngoại lệ/xuất xứ: Không lấy quy trình thu dữ liệu/waiver của nghiên cứu làm chuẩn quyền cho website; không sao câu hỏi hoặc chuẩn. Chỉ dùng nhận định hẹp về đo lường theo tuổi."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E02",
+      "heading": "E02-S04 — VIC25",
+      "referencesLine": 41,
+      "urls": [
+        "https://doi.org/10.1111/sjop.13110",
+        "https://onlinelibrary.wiley.com/doi/10.1111/sjop.13110"
+      ],
+      "historicalFields": [
+        {
+          "line": 45,
+          "text": "- Loại: Tổng quan hệ thống bình duyệt, HTML publisher và PMC; các phần tiếp cận được xen403/captcha."
+        },
+        {
+          "line": 46,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://onlinelibrary.wiley.com/doi/10.1111/sjop.13110); kiểm2026-10-25."
+        },
+        {
+          "line": 47,
+          "text": "- Vị trí/phiên bản: Abstract; Introduction §1.1; Conclusion §5, dòng ngay trước về thiếu kiểm đo lặp; không nhận đã đọc mọi bảng/COSMIN scoring/supplement."
+        },
+        {
+          "line": 48,
+          "text": "- Đối tượng/tuổi: 10 bảng hỏi, chủ yếu7–18 tuổi (một ngoại lệ),24 bài; không kết luận mọi bản dịch VN."
+        },
+        {
+          "line": 49,
+          "text": "- Thực hỗ trợ: Công cụ theo tuổi/ngôn ngữ khác nhau, bằng chứng cấu trúc/nhất quán không đồng đều; không nhãn Big Five bảo đảm mọi bảng hỏi."
+        },
+        {
+          "line": 50,
+          "text": "- Giới hạn: Kết luận scoped theo review, không định mức hiệu lực từng thang/bản Việt. Chỉ đọc các phần nêu, không so toàn bộ10 thang hoặc phát biểu phù hợp nhất."
+        },
+        {
+          "line": 51,
+          "text": "- Ngoại lệ/xuất xứ: PMC12423744 đọc metadata/Abstract một lượt rồicaptcha; publisher đọcIntro/Conclusion thực tế. Không báo Abstract-only là toàn văn; ở đây có các đoạn thân bài cụ thể nhưng không tuyên bố đọc toàn bài."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E03",
+      "heading": "E03-S01 — ONETLIC",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.onetcenter.org/license_tools.html"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại: Điều kiện quyền chính thức, HTML; không nghiên cứu khoa học."
+        },
+        {
+          "line": 10,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.onetcenter.org/license_tools.html); kiểm2026-10-25."
+        },
+        {
+          "line": 11,
+          "text": "- Vị trí/phiên bản: Options1–2: CC BY-ND4.0 nguyên trạng; Developer License chỉnh sửa có attribution/link/validation; trademark notice."
+        },
+        {
+          "line": 12,
+          "text": "- Đối tượng/tuổi: Công cụ O\\*NET Career Exploration Tools, không mọi bảng hỏi mang tên Holland."
+        },
+        {
+          "line": 13,
+          "text": "- Thực hỗ trợ: Quyền sử dụng phụ thuộc hình thức; sao nguyên trạng khác sửa/dịch/phát triển, không tự cấp quyền mọi test."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không tiến hành xin phép hoặc dùng license để tự tạo test; không tự gán CC BY-ND cho hình bài tự thiết kế. Không khẳng định chỉ ghi nguồn là được dịch công cụ."
+        },
+        {
+          "line": 15,
+          "text": "- Ngoại lệ/xuất xứ: Chủ quyền/nhãn O\\*NET là USDOL/ETA, National Center là bên phát triển. Bài chỉ diễn giải khái niệm không nhập nội dung Tools hoặc logo."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E03",
+      "heading": "E03-S02 — ONET21",
+      "referencesLine": 17,
+      "urls": [
+        "https://www.onetcenter.org/dl_files/IP_Manual.pdf",
+        "https://www.onetcenter.org/reports/IP_Manual.html"
+      ],
+      "historicalFields": [
+        {
+          "line": 21,
+          "text": "- Loại: Cẩm nang kỹ thuật chuyên môn của nhóm phát triển cho USDOL/ETA, PDF139 trang; dùng lịch sử Holland qua nguồn này."
+        },
+        {
+          "line": 22,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.onetcenter.org/dl_files/IP_Manual.pdf); kiểm2026-10-25."
+        },
+        {
+          "line": 23,
+          "text": "- Vị trí/phiên bản: Ch1 tr.5–10: khái niệm/sáu hướng/cân nhắc; Ch3 tr.30–31 tuổi; Ch5 Table2 tr.66 có mẫu HS và đại học; Ch6 tr.77–81 cấu trúc/hội tụ/mẫu theo form."
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Ch1 nhiều tuổi; Ch3 thận trọng14 trở xuống; nghiên cứu nhiều form/mẫu phần lớn Mỹ, có HS/người lớn chứ không norm VN."
+        },
+        {
+          "line": 25,
+          "text": "- Thực hỗ trợ: Sáu RIASEC, sở thích khác phép đo năng lực/định nghề; công cụ nhiều form, có bằng chứng theo mẫu; tuổi/khả năng đọc/hiểu việc cần tính."
+        },
+        {
+          "line": 26,
+          "text": "- Giới hạn: Không nói thích là năng lực hoặc mã quyết nghề; không lấy người lớn/Mỹ áp HS Việt. Lịch sử1959/1997 là trích dẫn thứ cấp từ cẩm nang, không giả đọc trực tiếp Holland. Không kiểm toàn bộ139 trang."
+        },
+        {
+          "line": 27,
+          "text": "- Ngoại lệ/xuất xứ: Metadata manual Version1.0 March2021 và editors cover/list; trang báo cáo https://www.onetcenter.org/reports/IP_Manual.html . Không sao item/scoring/hexagon/logo/norm hoặc triển khai Interest Profiler. Chương do nhiều tác giả, không gán editors phát minh mô hình."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E04",
+      "heading": "E04-S01 — AERA14",
+      "referencesLine": 5,
+      "urls": [
+        "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 9,
+          "text": "- Loại: Chuẩn chuyên môn, bản2014 chính thức PDF240 trang mở truy cập."
+        },
+        {
+          "line": 10,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf); kiểm2026-10-25."
+        },
+        {
+          "line": 11,
+          "text": "- Vị trí/phiên bản: Tr.11: cách diễn giải/mục đích; Standard1.0–1.1 tr.23; reliability/precision tr.33–35 (PDF42–44 theo số0-based tương ứng)."
+        },
+        {
+          "line": 12,
+          "text": "- Đối tượng/tuổi: Chuẩn đo lường giáo dục/tâm lý, không mẫu nghiên cứu hoặc cấp quyền hành nghề ở Việt Nam."
+        },
+        {
+          "line": 13,
+          "text": "- Thực hỗ trợ: Độ tin cậy/nhất quán của điểm khác căn cứ cho cách diễn giải/sử dụng; cần đối tượng, bối cảnh và mục đích."
+        },
+        {
+          "line": 14,
+          "text": "- Giới hạn: Không mọi test đòi mọi loại chứng cứ giống nhau; chuẩn không tự kiểm định MBTI/PSS hoặc cấp quyền bộ test. Không nhận đọc trọn240 trang."
+        },
+        {
+          "line": 15,
+          "text": "- Ngoại lệ/xuất xứ: Đã đọc các đoạn liên quan và metadata, không tái bản bảng/định nghĩa nguyên văn; không gọi true score của lý thuyết đo là true type MBTI."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E04",
+      "heading": "E04-S02 — CMUCOLD",
+      "referencesLine": 17,
+      "urls": [
+        "https://www.cmu.edu/common-cold-project/measures-by-study/psychological-and-social-constructs/stress-measures/perceived-stress.html"
+      ],
+      "historicalFields": [
+        {
+          "line": 21,
+          "text": "- Loại: Trang nghiên cứu CMU giới thiệu thang và nguồn gốc, HTML."
+        },
+        {
+          "line": 22,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.cmu.edu/common-cold-project/measures-by-study/psychological-and-social-constructs/stress-measures/perceived-stress.html); kiểm2026-10-25."
+        },
+        {
+          "line": 23,
+          "text": "- Vị trí/phiên bản: Primary References (Cohen/Kamarck/Mermelstein1983); Purpose; Description; Copyright Information."
+        },
+        {
+          "line": 24,
+          "text": "- Đối tượng/tuổi: Các nghiên cứu Common Cold Project, không xác nhận phiên bản cho HS Việt Nam."
+        },
+        {
+          "line": 25,
+          "text": "- Thực hỗ trợ: PSS đo perceived stress, cảm nhận khó đoán/khó kiểm soát/quá tải, có khoảng thời gian; giới thiệu nguồn gốc1983."
+        },
+        {
+          "line": 26,
+          "text": "- Giới hạn: Nguồn thứ cấp về bài1983, không giả đọc bản scan. Không suy mầm bệnh/stress gây bệnh hoặc kết quả người lớn áp HS; không chép items/scaling."
+        },
+        {
+          "line": 27,
+          "text": "- Ngoại lệ/xuất xứ: CMU originalPDF13trang/Stanfordmirror parser0lines, KiltHub403, PubMed chỉfooter: chưa đọc được nguyên bản. Lịch sử công cụ dẫn rõ qua trang dự án, không dùng Abstract từ snippet như đã đọc."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E04",
+      "heading": "E04-S03 — DAO17",
+      "referencesLine": 29,
+      "urls": [
+        "https://doi.org/10.1186/s12888-017-1221-6",
+        "https://link.springer.com/article/10.1186/s12888-017-1221-6"
+      ],
+      "historicalFields": [
+        {
+          "line": 33,
+          "text": "- Loại: Nghiên cứu dịch/kiểm tâm trắc, toàn văn HTML publisher."
+        },
+        {
+          "line": 34,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://link.springer.com/article/10.1186/s12888-017-1221-6); kiểm2026-10-25."
+        },
+        {
+          "line": 35,
+          "text": "- Vị trí/phiên bản: Abstract; Methods > Translation/Psychometric evaluation/Participants/Procedure; Conclusion; đối chiếu giới hạn mẫu."
+        },
+        {
+          "line": 36,
+          "text": "- Đối tượng/tuổi: 473 phụ nữ60+ tại16 khu vực nông thôn/đô thị VN; phỏng vấn riêng do khác trình độ/nhìn; không HS."
+        },
+        {
+          "line": 37,
+          "text": "- Thực hỗ trợ: Có nghiên cứu V-PSS-10 ở người lớn tuổi, nhưng không tự xác nhận độ phù hợp cho HS THCS–THPT."
+        },
+        {
+          "line": 38,
+          "text": "- Giới hạn: Không claim mọi bản dịch hợp lệ hoặc không có nghiên cứu trẻ; không nói valid cho HS, không dùng alpha/retest/norm/ngưỡng trong ARTICLE hoặc chép bản dịch."
+        },
+        {
+          "line": 39,
+          "text": "- Ngoại lệ/xuất xứ: Reference13 trong bài có tên Kamarck bị ghi khác; lịch sử tác giả dùng CMU để đối chiếu không chép lỗi thư mục thứ cấp. Nguồn không chứng minh hoạt động E04 hiệu quả."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E04",
+      "heading": "E04-S04 — CMUSCALE",
+      "referencesLine": 41,
+      "urls": [
+        "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/"
+      ],
+      "historicalFields": [
+        {
+          "line": 45,
+          "text": "- Loại: Trang phòng nghiên cứu tác giả, HTML."
+        },
+        {
+          "line": 46,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/); kiểm2026-10-25."
+        },
+        {
+          "line": 47,
+          "text": "- Vị trí/phiên bản: PERMISSION FOR USE; PSS PLEASE NOTE; PSS TRANSLATIONS."
+        },
+        {
+          "line": 48,
+          "text": "- Đối tượng/tuổi: PSS và các phiên bản/bản dịch, không mặc định norm HS Việt Nam."
+        },
+        {
+          "line": 49,
+          "text": "- Thực hỗ trợ: PSS không chẩn đoán/không cut-off; yêu cầu quyền qua ePROVIDE, bản dịch có quyền người dịch."
+        },
+        {
+          "line": 50,
+          "text": "- Giới hạn: Không biến không-cutoff của PSS thành không-cutoff mọi thang sàng lọc; không sao questions/scoring/translation từ link. Không coi requestfree là licensefree."
+        },
+        {
+          "line": 51,
+          "text": "- Ngoại lệ/xuất xứ: Một số nguồn tổng hợp cũ nói tự do academic, nhưng dùng hướng dẫn trực tiếp hiện đọc về yêu cầu quyền. Chưa xin/có phép cho bất kỳ bản PSS nào, không triển khai test."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E04",
+      "heading": "E04-S05 — NLM26",
+      "referencesLine": 53,
+      "urls": [
+        "https://medlineplus.gov/lab-tests/mental-health-screening/"
+      ],
+      "historicalFields": [
+        {
+          "line": 57,
+          "text": "- Loại: Hướng dẫn công chúng NLM/MedlinePlus, HTML lastupdated20/7/2026."
+        },
+        {
+          "line": 58,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://medlineplus.gov/lab-tests/mental-health-screening/); kiểm2026-10-25."
+        },
+        {
+          "line": 59,
+          "text": "- Vị trí/phiên bản: What is a mental health screening?; What is it used for?; What happens…? đoạn tuổi/khả năng; What do the results mean?; phần cần giúp ngay."
+        },
+        {
+          "line": 60,
+          "text": "- Đối tượng/tuổi: Công chúng có đoạn riêng trẻ/vị thành niên, dịch vụ/chức danh trong bối cảnh Mỹ."
+        },
+        {
+          "line": 61,
+          "text": "- Thực hỗ trợ: Sàng lọc thường bước đầu có thể cần đánh giá tiếp; đánh giá có nhiều thông tin, tuổi/khả năng cần phù hợp; nguy hiểm không chờ điểm."
+        },
+        {
+          "line": 62,
+          "text": "- Giới hạn: Không chuyển chức danh/quyền kê thuốc/số911/988/luật Mỹ vào VN; không sao checklist/khuyến nghị thuốc hoặc hứa không có rủi ro tâm lý/riêng tư chỉ vì trang nói no risk questionnaire."
+        },
+        {
+          "line": 63,
+          "text": "- Ngoại lệ/xuất xứ: Ngày cập nhật riêng ở cuối trang đã đọc, không suy từ copyright hoặc ngày tài liệu tham khảo. Chỉ dùng đoạn chức năng sàng lọc/đánh giá và an toàn, không hướng dẫn crisis-response."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E04",
+      "heading": "E04-S06 — WHO26",
+      "referencesLine": 65,
+      "urls": [
+        "https://www.who.int/news-room/questions-and-answers/item/stress"
+      ],
+      "historicalFields": [
+        {
+          "line": 69,
+          "text": "- Loại: Hỏi đáp sức khỏe công chúng, HTML ngày30/3/2026."
+        },
+        {
+          "line": 70,
+          "text": "- Truy cập: `full_text_selected_sections`; [đường thực đọc](https://www.who.int/news-room/questions-and-answers/item/stress); kiểm2026-10-25."
+        },
+        {
+          "line": 71,
+          "text": "- Vị trí/phiên bản: What is stress?; Does everyone respond…?; I am feeling stressed, does that mean I cannot work?."
+        },
+        {
+          "line": 72,
+          "text": "- Đối tượng/tuổi: Công chúng, có ví dụ school exams; không mẫu can thiệp/phép đo HS."
+        },
+        {
+          "line": 73,
+          "text": "- Thực hỗ trợ: Định nghĩa stress đời thường có căn cứ, khác đáp ứng cá nhân; có thể tìm người đáng tin/y tế khi khó đối phó."
+        },
+        {
+          "line": 74,
+          "text": "- Giới hạn: Không dùng dấu hiệu để tự chẩn đoán, khẳng định cơ thể do stress, hứa techniques chữa bệnh hoặc lịch ngủ chung; không dùng mục management như điều trị."
+        },
+        {
+          "line": 75,
+          "text": "- Ngoại lệ/xuất xứ: Ngày hiển thị2026 khác các trích dẫn cũ2023 của trang, đã ghi theo bản thực đọc."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E05",
+      "heading": "S10 — Pashler và cộng sự (2008), dùng",
+      "referencesLine": 5,
+      "urls": [
+        "https://doi.org/10.1111/j.1539-6053.2009.01038.x",
+        "https://people.uncw.edu/kozloffm/nolearningstylespdf.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 8,
+          "text": "- Loại/vai trò: tổng quan khái niệm và bằng chứng, tiêu chuẩn kiểm định; không phải người phát minh duy nhất của VAK hoặc mọi học thuyết phong cách học."
+        },
+        {
+          "line": 9,
+          "text": "- Đọc PDF lưu tại đại học: https://people.uncw.edu/kozloffm/nolearningstylespdf.pdf. Mục “Existence of Study Preferences”, “The Learning-Styles Hypothesis”, tr. 108; “Interactions as the Key Test…”, tr. 109–110; đoạn phân biệt preference/aptitude tr. 111; “Conclusions and Recommendations”, “Points of Clarification”, tr. 116. Đối chiếu tiêu chuẩn phân nhóm, phân ngẫu nhiên cách dạy, phép kiểm chung, lợi thế khác theo nhóm; không sao chép hình 1/2."
+        },
+        {
+          "line": 10,
+          "text": "- Năm: số báo December 2008; PDF/DOI có dấu năm 2009. Giữ năm số báo 2008, không đổi năm chỉ từ chuỗi DOI."
+        },
+        {
+          "line": 11,
+          "text": "- Tuổi/bối cảnh: tổng quan nhiều lứa tuổi/nhiệm vụ, có nghiên cứu học sinh và sinh viên, không mẫu tuyển riêng hoặc một khoảng tuổi chung. Chưa kiểm mọi mẫu gốc; không coi bằng chứng là riêng THCS–THPT Việt Nam."
+        },
+        {
+          "line": 12,
+          "text": "- Hỗ trợ: Q1/Q2/Q3/Q6 trong CLAIM-AUDIT; khác biệt nhiệm vụ và người học không đồng nghĩa kiểm định được phân loại kiểu."
+        },
+        {
+          "line": 13,
+          "text": "- Giới hạn: kết luận theo bằng chứng tại thời điểm tổng quan; đọc cùng 2018/2024, không dùng để phủ định mọi cá nhân hóa hoặc khẳng định mọi nghiên cứu về sau đều âm."
+        },
+        {
+          "line": 14,
+          "text": "- Truy cập: fulltext_sections; không báo đọc toàn bộ bài hoặc toàn bộ tài liệu nền."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E05",
+      "heading": "S11 — Aslaksen & Lorås (2018), dùng",
+      "referencesLine": 16,
+      "urls": [
+        "https://doi.org/10.3389/fpsyg.2018.01538",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01538/full"
+      ],
+      "historicalFields": [
+        {
+          "line": 20,
+          "text": "- Loại: mini-review có tổng hợp định lượng; vai trò định nghĩa phạm vi phương thức và kết quả của tập nghiên cứu đủ tiêu chí, không một thử nghiệm mới."
+        },
+        {
+          "line": 21,
+          "text": "- Vị trí: Introduction; “Scope of the Mini-Review: Selection Criteria for Reporting of Evidence”; “Tailoring Instruction for Modality-Specific Preferences: No Statistical Evidence for the Meshing Hypothesis”; “Concluding Remarks”. Tìm kiếm đến January 2018; 10 công bố/13 thí nghiệm, trích được số liệu tính hiệu ứng cho 11. Đây là các đơn vị khác nhau, không gọi chung 13 nghiên cứu độc lập."
+        },
+        {
+          "line": 22,
+          "text": "- Tuổi/bối cảnh: nhiều mẫu/nhiệm vụ của các nghiên cứu được tổng quan; không một khoảng tuổi tuyển mẫu. Chưa trích xuất tuổi từng thử nghiệm/Table 1; bài không dùng hiệu quả cá thể hoặc số liệu riêng vị thành niên. Nội dung định lượng tập trung nhìn/nghe, không chứng minh mọi dạng kinesthetic."
+        },
+        {
+          "line": 23,
+          "text": "- Hỗ trợ: Q1/Q3/Q4. Các hiệu ứng gộp nhỏ, không có ý nghĩa thống kê trong phân tích này; tác giả kết luận chưa có hỗ trợ thống kê lặp lại cho lợi ích ghép phương thức. Không dịch “không có ý nghĩa thống kê” thành chứng minh hiệu ứng đúng bằng không."
+        },
+        {
+          "line": 24,
+          "text": "- Truy cập: fulltext_sections. Không tái phân tích hoặc đánh giá lại toàn bộ thử nghiệm gốc; chưa rà soát hệ thống đính chính của mọi tài liệu nền."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E05",
+      "heading": "S12 — Clinton-Lisell & Litzinger (2024), dùng có giới hạn",
+      "referencesLine": 26,
+      "urls": [
+        "https://doi.org/10.3389/fpsyg.2024.1428732",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1428732/full"
+      ],
+      "historicalFields": [
+        {
+          "line": 30,
+          "text": "- Vị trí: Abstract; Results và Table 3; “Crossover interactions”; Discussion; “Implications”; “Limitations and future directions”; Conclusion. Đọc thêm “The current study” và “Inclusion criteria” cùng các phần trên theo phạm vi; không kiểm mọi phụ lục hoặc mọi hàng dữ liệu. Đường PDF chính thức `/pdf` đã thử nhưng timeout; không báo đã đọc PDF."
+        },
+        {
+          "line": 31,
+          "text": "- Loại: tổng quan hệ thống/phân tích gộp, 21 nghiên cứu và 101 hiệu ứng được gộp; không 101 nghiên cứu độc lập. Có các nghiên cứu khác thiếu số liệu được xét riêng cho dấu hiệu tương tác; không cộng lẫn vào tập phân tích gộp."
+        },
+        {
+          "line": 32,
+          "text": "- Tuổi/bối cảnh: nhiều cấp học/nhóm, Discussion nêu học sinh tiểu học, sinh viên trẻ và người học lái máy bay trong nhóm có mẫu tương tác. Không một khoảng tuổi duy nhất, chưa trích tuổi mọi mẫu hoặc có kết luận riêng học sinh Việt Nam."
+        },
+        {
+          "line": 33,
+          "text": "- Hỗ trợ Q4/Q7: hiệu ứng trung bình nhỏ, dương; mẫu tương tác không xuất hiện ở đa số phép đo; nghiên cứu chỉ một phiên, kết quả khác biệt lớn, cách phân loại/phép đo thay đổi. Chất lượng thường bị hạn chế do thiếu báo cáo độ tin cậy, không đồng nghĩa đã chứng minh mọi công cụ không tin cậy. Không coi dấu dương là đủ cho áp dụng rộng rãi hoặc lợi ích lâu dài."
+        },
+        {
+          "line": 34,
+          "text": "- “Implications” hỗ trợ ranh giới tiếp cận nội dung cho người có khuyết tật giác quan. Không dùng như bằng chứng cho một phương án hỗ trợ cá nhân cụ thể hoặc lời khuyên y tế."
+        },
+        {
+          "line": 35,
+          "text": "- Truy cập: fulltext_sections; đối chiếu nhận định định tính có phạm vi, **không xác nhận số g cuối cùng**."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E05",
+      "heading": "S05 — Dunlosky và cộng sự (2013), dùng",
+      "referencesLine": 48,
+      "urls": [
+        "https://doi.org/10.1177/1529100612453266",
+        "https://acs.ist.psu.edu/ist521/dunloskyRMNW13.pdf"
+      ],
+      "historicalFields": [
+        {
+          "line": 52,
+          "text": "- Loại: tổng quan chuyên khảo kỹ thuật học, không nghiên cứu riêng Huy. Phạm vi nhiều lứa tuổi/nhiệm vụ, không một mẫu THCS–THPT hoặc Việt Nam duy nhất."
+        },
+        {
+          "line": 53,
+          "text": "- Vị trí đối chiếu: mục 8 “Practice testing”, nhất là 8.4–8.5 tr. 34–35; mục 9/9.1, tr. 35–36; Table 4 và “Closing Remarks”, tr. 44–47. Tự trả lời/đối chiếu, học lại cùng nội dung qua buổi khác là ví dụ biên tập vận dụng, không lịch tối ưu hoặc bảo đảm điểm."
+        },
+        {
+          "line": 54,
+          "text": "- Hỗ trợ Q5; không dùng kết quả truy hồi để chứng minh mọi ví dụ phát âm/bản đồ trong bài hoặc hiệu quả cả phiếu."
+        },
+        {
+          "line": 55,
+          "text": "- Truy cập: fulltext_sections; không đọc lại toàn bộ 55 trang/nghiên cứu nền hoặc cập nhật toàn bộ lĩnh vực sau 2013."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    },
+    {
+      "articleId": "KGNT-E05",
+      "heading": "Báo cáo S13 — Fallace (2023): chưa có toàn văn để dùng lịch sử",
+      "referencesLine": 57,
+      "urls": [
+        "https://doi.org/10.1037/hop0000240",
+        "https://pubmed.ncbi.nlm.nih.gov/37471036/",
+        "https://www.apa.org/pubs/highlights/spotlight/issue-277",
+        "https://psycnet.apa.org/doi/10.1037/hop0000240"
+      ],
+      "historicalFields": [
+        {
+          "line": 62,
+          "text": "- Đã ưu tiên thử DOI/PsycNet: https://psycnet.apa.org/doi/10.1037/hop0000240 trả robots denial; đường `/fulltext/2023-91441-001.html` và PDF chính thức `/psycarticles/2023-91441-001.pdf` không truy cập được qua công cụ."
+        },
+        {
+          "line": 64,
+          "text": "- Loại/đối tượng: nghiên cứu lịch sử, không mẫu thử nghiệm/tuổi tuyển học sinh; chưa đọc chứng từ lịch sử hoặc toàn bộ lập luận gốc."
+        },
+        {
+          "line": 66,
+          "text": "- **Loại khỏi ARTICLE** niên biểu 1921–2001, người/năm sáng lập, câu chuyện chuyển từ giáo dục đặc biệt sang mọi môn hoặc mọi lập luận lịch sử chi tiết. Không dùng Fallace trong thư mục nguồn thực dùng. Tên VAK/ba phương thức được giải thích bằng S11 đã đọc, không dựa vào lịch sử pending."
+        }
+      ],
+      "currentVerification": "UNVERIFIED",
+      "reason": "P1A: proxy CONNECT 403; không lấy được nguồn. Các trường lịch sử không phải xác minh mới."
+    }
+  ]
+}
