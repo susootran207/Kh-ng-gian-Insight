@@ -1,36 +1,17 @@
-import { useEffect, useRef, useState, type ReactNode } from 'react'
-import { HashRouter, Link, NavLink, Route, Routes, useLocation, useSearchParams, useParams } from 'react-router-dom'
+import { useEffect } from 'react'
+import { HashRouter, Link, Route, Routes, useLocation, useSearchParams, useParams } from 'react-router-dom'
 import Home from '../App'
 import { Arrow, LeafMark } from '../components/Icons'
 import { articles, topics, normalizeVietnamese, statusLabel, type Article } from './content'
-import '../styles/reading.css'
+import { Breadcrumb, ReadingShell, RoutePosition } from './ReadingShell'
 
-function RoutePosition() {
-  const location=useLocation(), previous=useRef(location.pathname)
-  useEffect(()=>{
-    const frame=requestAnimationFrame(()=>{
-      if(location.hash){const target=document.getElementById(location.hash.slice(1).replace(/%[0-9a-f]{2}(?:%[0-9a-f]{2})*/gi,value=>{try{return decodeURIComponent(value)}catch{return value}}));target?.scrollIntoView({behavior:'instant',block:'start'});target?.setAttribute('tabindex','-1');target?.focus({preventScroll:true})}
-      else if(previous.current!==location.pathname){window.scrollTo({top:0,behavior:'instant'});document.querySelector<HTMLElement>('main')?.focus({preventScroll:true})}
-      previous.current=location.pathname
-    })
-    return ()=>cancelAnimationFrame(frame)
-  },[location.pathname,location.hash])
-  return null
-}
-function ReadingHeader(){
-  const [open,setOpen]=useState(false),button=useRef<HTMLButtonElement>(null),location=useLocation()
-  useEffect(()=>setOpen(false),[location])
-  useEffect(()=>{const resize=()=>{if(innerWidth>=1100)setOpen(false)};window.addEventListener('resize',resize);return()=>window.removeEventListener('resize',resize)},[])
-  return <header className="site-header" onKeyDown={e=>{if(e.key==='Escape'){setOpen(false);button.current?.focus()}}}><div className="header-inner"><Link className="brand" to="/" aria-label="Không Gian Nội Tâm — trang chủ"><LeafMark/><span>Không Gian<br/>Nội Tâm<span className="brand-period">.</span></span></Link><button ref={button} className="menu-button" aria-controls="reading-navigation" aria-expanded={open} onClick={()=>setOpen(v=>!v)}>{open?'Đóng':'Menu'}<Arrow/></button><nav id="reading-navigation" className={open?'navigation open':'navigation'} aria-label="Điều hướng chính"><NavLink to="/chuyen-de">Chuyên đề tuần</NavLink><Link to="/#nen-tang">Về khu vườn</Link><Link to="/#dong-chay">Dòng chảy</Link><NavLink to="/thu-vien">Góc đọc</NavLink><Link className="nav-reflection" to="/#tam-tinh">Góc tâm tình <Arrow diagonal/></Link></nav></div></header>
-}
 function PreviewNotice(){return import.meta.env.DEV?<aside className="preview-notice">Chế độ xem trước nội bộ · Nội dung minh họa chưa xuất bản, chưa được chuyên gia duyệt.</aside>:null}
-function Breadcrumb({title,library=true}:{title:string;library?:boolean}){return <nav className="breadcrumbs" aria-label="Đường dẫn"><Link to="/">Trang chủ</Link><span aria-hidden="true">/</span><Link to={library?'/thu-vien':'/chuyen-de'}>{library?'Thư viện':'Chuyên đề'}</Link><span aria-hidden="true">/</span><span aria-current="page">{title}</span></nav>}
 function ArticleCard({article}:{article:Article}){
   const location=useLocation(),from=location.pathname==='/thu-vien'?location.pathname+location.search:'/thu-vien'
   return <article className="library-entry"><div className="entry-meta"><span>{article.topic}</span><span>{article.season} · {article.readingMinutes} phút đọc</span></div><h2><Link to={`/bai-viet/${article.slug}`} state={{from}}>{article.title}</Link></h2><p>{article.description}</p><div className="entry-bottom"><span className="draft-label">{statusLabel[article.status]}</span><Link className="text-link" to={`/bai-viet/${article.slug}`} state={{from}} aria-label={`Đọc bài: ${article.title}`}>Mở trang đọc <Arrow/></Link></div></article>
 }
 function EmptyCatalogue({topic=false}:{topic?:boolean}){return <div className="empty-garden"><LeafMark/><h2>{topic?'Chuyên đề đang được vun trồng.':'Những trang đọc đang được chăm chút.'}</h2><p>{topic?'Chuyên đề đầu tiên sẽ xuất hiện sau khi nội dung được duyệt xuất bản.':'Chưa có bài viết được duyệt xuất bản. Bạn vẫn có thể ghé trang chủ, chọn một lời nhắn và ngồi lại cùng Mây.'}</p><Link className="text-link" to="/">Ghé lại khu vườn <Arrow/></Link></div>}
-function Library(){
+export function Library(){
   const [params,setParams]=useSearchParams(),q=params.get('q')||'',topic=params.get('chu-de')||'',season=params.get('giai-doan')||''
   const update=(key:string,value:string)=>{const next=new URLSearchParams(params);if(value)next.set(key,value);else next.delete(key);setParams(next)}
   const words=normalizeVietnamese(q).split(/\s+/).filter(Boolean)
@@ -53,6 +34,5 @@ function TopicPage(){
   return <><Breadcrumb title={topic.title} library={false}/><div className="reading-intro"><h1>{topic.title}</h1><p>{topic.description}</p></div><PreviewNotice/><div className="topic-opening"><LeafMark/><p>Bắt đầu từ một trang gần với bạn nhất. Không cần đọc hết trong một lần; khu vườn vẫn ở đây khi bạn quay lại.</p></div><section className="related-reading"><h2>Những trang trong chuyên đề</h2>{entries.length?<div className="library-list">{entries.map(a=><ArticleCard article={a} key={a.slug}/>)}</div>:<p>Các bài liên quan đang chờ duyệt xuất bản.</p>}</section><Link className="text-link" to="/chuyen-de">Tất cả chuyên đề <Arrow/></Link></>
 }
 function NotFound(){return <div className="empty-garden"><LeafMark/><h1>Lối này chưa có trang.</h1><p>Trang bạn tìm có thể đã đổi địa chỉ hoặc chưa được xuất bản.</p><div className="recovery-links"><Link className="button primary-button" to="/thu-vien">Về thư viện <Arrow/></Link><Link className="text-link" to="/">Về trang chủ <Arrow/></Link></div></div>}
-function ReadingShell({children}:{children:ReactNode}){return <div className="reading-site"><a className="skip-link" href="#reading-main" onClick={e=>{e.preventDefault();document.getElementById('reading-main')?.focus()}}>Đến nội dung chính</a><ReadingHeader/><main id="reading-main" tabIndex={-1} className="page-width reading-main">{children}</main><footer className="site-footer page-width"><div className="footer-top"><Link className="brand" to="/"><LeafMark/><span>Không Gian<br/>Nội Tâm.</span></Link><p>Một nơi để đọc, để thở, để là mình.</p><Link className="text-link" to="/thu-vien">Thư viện bài viết <Arrow/></Link></div><p className="support-note">Nội dung không thay thế tư vấn cá nhân, chẩn đoán hoặc điều trị. Không có tài khoản, theo dõi hay hộp thư nhận tin nhắn.</p></footer></div>}
 function PageTitle(){const location=useLocation();useEffect(()=>{const title=location.pathname.startsWith('/bai-viet/')?articles.find(a=>location.pathname.endsWith('/'+a.slug))?.title:location.pathname.startsWith('/chuyen-de/')?topics.find(t=>location.pathname.endsWith('/'+t.slug))?.title:location.pathname==='/thu-vien'?'Thư viện bài viết':location.pathname==='/chuyen-de'?'Chuyên đề tuần':location.pathname==='/'?'Một khoảng vườn cho riêng bạn':'Không tìm thấy trang';document.title=`${title||'Không tìm thấy trang'} · Không Gian Nội Tâm`},[location.pathname]);return null}
 export default function Router(){return <HashRouter><RoutePosition/><PageTitle/><Routes><Route path="/" element={<Home/>}/><Route path="/thu-vien" element={<ReadingShell><Library/></ReadingShell>}/><Route path="/bai-viet/:slug" element={<ReadingShell><ArticlePage/></ReadingShell>}/><Route path="/chuyen-de" element={<ReadingShell><Topics/></ReadingShell>}/><Route path="/chuyen-de/:slug" element={<ReadingShell><TopicPage/></ReadingShell>}/><Route path="*" element={<ReadingShell><NotFound/></ReadingShell>}/></Routes></HashRouter>}

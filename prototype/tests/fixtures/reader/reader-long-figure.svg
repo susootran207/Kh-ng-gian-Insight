@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 1040" width="320" height="1040" role="img" aria-labelledby="title desc">
+<title id="title">F0_FIXTURE_ONLY_R1_SVG — hình đọc thử</title>
+<desc id="desc">Ba vùng chữ giả lập dành cho kiểm thử Reader, không có số liệu hoặc điểm tâm lý.</desc>
+<rect width="320" height="1040" fill="#fffdf7"/>
+<g fill="#333e32" font-family="sans-serif">
+<text x="24" y="56" font-size="24">Một hình để đọc thử</text>
+<rect x="16" y="100" width="288" height="230" fill="#dce3d2"/>
+<text x="32" y="142" font-size="20">DỮ KIỆN</text>
+<text x="32" y="190" font-size="18">Nhóm có hai lựa chọn giờ.</text>
+<text x="32" y="224" font-size="18">Đây là điều được kể</text>
+<text x="32" y="258" font-size="18">trong tình huống giả lập.</text>
+<rect x="16" y="380" width="288" height="230" fill="#e9e2ee"/>
+<text x="32" y="422" font-size="20">ĐIỀU CHƯA BIẾT</text>
+<text x="32" y="470" font-size="18">Chưa biết giờ phù hợp</text>
+<text x="32" y="504" font-size="18">với từng thành viên.</text>
+<text x="32" y="538" font-size="18">Không tự điền cảm xúc.</text>
+<rect x="16" y="660" width="288" height="230" fill="#dce3d2"/>
+<text x="32" y="702" font-size="20">BƯỚC ĐỌC TIẾP</text>
+<text x="32" y="750" font-size="18">Hỏi thêm thông tin</text>
+<text x="32" y="784" font-size="18">còn thiếu trong ví dụ.</text>
+<text x="32" y="818" font-size="18">Có thể chọn cách khác.</text>
+<text x="24" y="960" font-size="16">Hình kiểm thử, không phải thang đo.</text>
+<text x="24" y="994" font-size="16">Mô tả bằng chữ nằm ngoài hình.</text>
+</g></svg>
