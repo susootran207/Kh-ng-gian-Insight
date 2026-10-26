@@ -15,3 +15,7 @@ Runtime: React, React DOM and React Router (MIT), Fontsource font packages (OFL-
 
 ## Expanded roof
 The three canopy artwork atlases/panoramas and their small variants (`public/canopy-*.webp`) are additional custom OpenAI-generated botanical illustrations made on 24 October 2026. Original generation files are retained outside the repository. See `../docs/prototype/ARTWORK.md` for dimensions, purpose and provenance. Applicable OpenAI output terms govern use; no exclusive copyright or third-party artist attribution is claimed. Their generated alpha is preserved in optimized local WebP assets.
+
+## R1 Markdown tooling (build/test only)
+
+mdast-util-from-markdown 2.0.2, mdast-util-gfm 3.1.0 and micromark-extension-gfm 3.0.0 are MIT-licensed syntax-tree/micromark tooling by Titus Wormer and contributors. Their dependencies retain their own notices in the npm packages and lockfile. These parsers execute only in build/test tooling; they are not part of the production browser graph in R1. No upstream source is vendored or copied into public assets.

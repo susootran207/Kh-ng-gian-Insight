@@ -16,3 +16,12 @@ for(const width of [320,390,768,1440])test(`production repository path, local as
   await page.screenshot({path:`../docs/phase-2/screenshots/production-home-${width}.png`})
   expect(failures).toEqual([])
 })
+
+test('R1 fixture route, query, harness and raw assets stay excluded from production', async({page,request})=>{
+  await page.goto('./#/r1/fixture?preview=true')
+  await expect(page.locator('h1')).toHaveText('Lối này chưa có trang.')
+  await page.goto('./#/thu-vien?preview=true&r1=true')
+  await expect(page.locator('.library-entry')).toHaveCount(0)
+  await expect(page.locator('body')).not.toContainText('F0_FIXTURE_ONLY_R1_READER')
+  for(const path of ['tests/reader-harness/index.html','tests/fixtures/reader/article.md','tests/fixtures/reader/reader-long-figure.svg','__r1_assets/reader-long-figure.svg']) expect((await request.get('./'+path)).status()).toBe(404)
+})

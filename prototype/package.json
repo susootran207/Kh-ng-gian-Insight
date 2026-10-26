@@ -11,7 +11,10 @@
     "test:production": "playwright test -c playwright.production.config.ts",
     "test:content": "node --experimental-strip-types scripts/check-publication.mts",
     "test:f0": "node --experimental-strip-types --test --test-isolation=none tests/content-contract.test.mts",
-    "content:manifest": "node --experimental-strip-types scripts/generate-manifest.mts"
+    "content:manifest": "node --experimental-strip-types scripts/generate-manifest.mts",
+    "dev:reader-fixture": "vite --config vite.r1.config.ts --host 127.0.0.1",
+    "test:r1": "tsc -p tsconfig.r1.json && node --experimental-strip-types --test --test-isolation=none tests/reader-document.test.mts",
+    "test:r1:browser": "playwright test -c playwright.r1.config.ts"
   },
   "dependencies": {
     "@fontsource/be-vietnam-pro": "^5.2.8",
@@ -27,6 +30,9 @@
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.1.0",
+    "mdast-util-from-markdown": "2.0.2",
+    "mdast-util-gfm": "3.1.0",
+    "micromark-extension-gfm": "3.0.0",
     "typescript": "~5.9.3",
     "vite": "^7.2.0"
   }

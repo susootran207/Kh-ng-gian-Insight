@@ -110,6 +110,12 @@ function validateMetadata(m: SourceMetadata) {
   exactKeys(m.bloom, ['remember', 'understand', 'apply'], 'Bloom metadata')
   for (const key of ['remember', 'understand', 'apply'] as const) text(m.bloom[key], key)
 }
+export function assertSafeSvg(svg: string) {
+  requireThat(!/\bstyle\s*=|\s[\w:.-]+\s*=\s*["'][^"']*(?:\\|&#)[^"']*["']/i.test(svg), 'SVG style/attribute escapes are not supported')
+  const tags = [...svg.matchAll(/<\/?\s*([a-z][\w:-]*)\b/gi)].map(m => m[1])
+  requireThat(tags.every(tag => ['svg', 'title', 'desc', 'g', 'path', 'rect', 'text'].includes(tag)), 'unsupported SVG element')
+  requireThat(/<svg\s/.test(svg) && !/<!|<\?(?!xml\s)|<\s*(?:script|foreignObject|image|use|a|style)\b|\bon[a-z]+\s*=|\bhref\s*=|url\s*\(/i.test(svg), 'active/external SVG is not allowed')
+}
 function assetReferences(root: string, directory: string, article: string): SourceArticle['assets'] {
   const matches = [...article.matchAll(/!\[([^\]]+)\]\(([^)]+)\)/g)]
   requireThat(matches.length > 0, 'missing figure reference')
@@ -118,9 +124,7 @@ function assetReferences(root: string, directory: string, article: string): Sour
     requireThat(/^[a-z0-9]+(?:-[a-z0-9]+)*\.svg$/.test(name), 'invalid asset reference')
     const file = ref(root, directory + '/' + name)
     const svg = readFileSync(safeFile(root, file.path), 'utf8')
-    const tags = [...svg.matchAll(/<\/?\s*([a-z][\w:-]*)\b/gi)].map(m => m[1])
-    requireThat(tags.every(tag => ['svg', 'title', 'desc', 'g', 'path', 'rect', 'text'].includes(tag)), 'unsupported SVG element')
-    requireThat(/<svg\s/.test(svg) && !/<!|<\?(?!xml\s)|<\s*(?:script|foreignObject|image|use|a|style)\b|\bon[a-z]+\s*=|\bhref\s*=|url\s*\(/i.test(svg), 'active/external SVG is not allowed')
+    assertSafeSvg(svg)
     return { ...file, id: directory.split('/').at(-1)! + '-V' + (index + 1), revision: file.sha256, alt: match[1], rights: null }
   })
 }
