@@ -2,7 +2,7 @@ import {test} from 'node:test'
 import assert from 'node:assert/strict'
 import {readFileSync,writeFileSync,mkdirSync,cpSync} from 'node:fs'
 import {resolve} from 'node:path'
-import {selectWeekly,weeklyTime} from '../build/weekly.ts'
+import {selectWeekly,selectPublicWeekly,weeklyTime} from '../build/weekly.ts'
 import {createWeeklyFixture,fixtureNow} from './fixtures/weekly/create.ts'
 import {loadManifest} from '../build/content-contract.ts'
 import {createBoundary,assertArtifact} from '../build/publication-scan.ts'
@@ -81,10 +81,10 @@ test('WEEK06: input order cannot change current/list/member order; stable snapsh
   assert.deepEqual(expected,selectWeekly(x.registry,x.catalogue,x.root,fixtureNow));assert.equal(before,JSON.stringify(x.registry))
   x.registry.topics.reverse();assert.deepEqual(expected,selectWeekly(x.registry,x.catalogue,x.root,fixtureNow))
 }))
-test('PUB01/DATA02: real weekly registry is empty, catalogue/29-source publication not inherited by slug',()=>{
+test('PUB01/DATA02: real weekly registry stays draft-only, catalogue/29-source publication not inherited by slug',()=>{
   const root=resolve('..'),data=JSON.parse(readFileSync('editorial/weekly.json','utf8')),catalogue=JSON.parse(readFileSync('editorial/catalogue.json','utf8'))
-  assert.deepEqual(data,{schemaVersion:1,topics:[]});assert.equal(loadManifest(root).articles.filter(a=>a.status==='published').length,0)
-  assert.equal(selectWeekly(data,catalogue,root).currentId,null)
+  assert.equal(data.topics.length,10);assert(data.topics.every((t:{status:string;publication?:unknown})=>t.status==='draft'&&!t.publication));assert.equal(loadManifest(root).articles.filter(a=>a.status==='published').length,0)
+  assert.equal(selectPublicWeekly(data,catalogue,root).currentId,null)
   const topic={id:'KGNT-W999',slug:'withheld-test',title:'Withheld topic',description:'Withheld topic description',articleSlugs:['khi-mua-thi-den-gan'],startsAt:'2026-10-01T00:00:00+07:00',endsAt:'2026-11-01T00:00:00+07:00',status:'approved'}
   assert.deepEqual(selectWeekly({schemaVersion:1,topics:[topic]},catalogue,root).topics,[])
 })

@@ -1,0 +1,292 @@
+[
+  {
+    "id": "KGNT-C01",
+    "revision": "c01-draft-r2",
+    "sourceHash": "a14e18424db35df95ab0a298b2b2f8a8f1ff742e8af5bbed8ec8bbb70cee678d",
+    "ast": 223,
+    "dom": 223,
+    "svgHash": "df8ea0dad05108c648d3d2e6e597fcf492a0907f85628b7c1494c4e1e9429c05",
+    "tables": 2,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C02",
+    "revision": "c02-draft-r1",
+    "sourceHash": "3399bad2299b5d5ed261849185bfc4e42a3ee8909c4618b7c1206cd38c4b918d",
+    "ast": 136,
+    "dom": 136,
+    "svgHash": "3389ca4eaa3486db671b5933ef986433fba42372c5d99db56450d0c2c8f96f0b",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C03",
+    "revision": "c03-draft-r1",
+    "sourceHash": "2769bc80ca129b6287eae9e3057d124c550dccce148b75f551136d7a8f1b05d4",
+    "ast": 124,
+    "dom": 124,
+    "svgHash": "70625513e9a7c236a3ce72f2da2ba59066ca7f07bd772441eca7330a86d68b83",
+    "tables": 0,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C04",
+    "revision": "c04-draft-r1",
+    "sourceHash": "c3c8be4f142560f11d47270bc7827f53007d9cafa84db83bcf06bf96e62d93d1",
+    "ast": 112,
+    "dom": 112,
+    "svgHash": "c791406552e81c6e29325ca276cd288252d3b1642dec55f06abf876fa3e92d18",
+    "tables": 0,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C05",
+    "revision": "c05-draft-r2",
+    "sourceHash": "57ef7f42eb24b03d0f85156478d224096979e6140f75ab15c2361af699642df5",
+    "ast": 246,
+    "dom": 246,
+    "svgHash": "cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111",
+    "tables": 2,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C06",
+    "revision": "c06-draft-r1",
+    "sourceHash": "a58b7799153919ea38c7c338494a1e9e11e62cb1ad18b4b218ff5d74b6c2b215",
+    "ast": 137,
+    "dom": 137,
+    "svgHash": "59d6a0aeb6dffdb5c710a377e43511980abeea5e9e85e05117992a8bbbee7a10",
+    "tables": 0,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C07",
+    "revision": "c07-draft-r1",
+    "sourceHash": "857b9a3fc8ef3604a6c23972637ca5a4ee9448d7e6a11d08ad191ae52b78b13d",
+    "ast": 161,
+    "dom": 161,
+    "svgHash": "a5357fccaebd3231aaafac967c7dcbd04bd64f2e90e2b6a1c970f6d78b12f74e",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C08",
+    "revision": "c08-draft-r1",
+    "sourceHash": "878fbd0696b9527af4d997e31b6aa4d4f6891792f96a9f7573701b237f0d1564",
+    "ast": 140,
+    "dom": 140,
+    "svgHash": "277fff7ceef0864618bf94c88e00fd05c7e945a1b80b77cf4192b2056bf7840d",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C09",
+    "revision": "c09-draft-r1",
+    "sourceHash": "510d641ebe2a87514c1a569d537fe42d0c9c77c39d39309047a51d5058243066",
+    "ast": 117,
+    "dom": 117,
+    "svgHash": "18f4f7ec60d4792d7ac5a3045ac41d5a07ed011c873e7d0f72601fc26ca09ce3",
+    "tables": 0,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C10",
+    "revision": "c10-draft-r1",
+    "sourceHash": "bcfcbc476f540e86c6c4b3dab0686c0fa20c69de4fb3c1eda91a35f84c5bb575",
+    "ast": 135,
+    "dom": 135,
+    "svgHash": "60e1fae6ab9742ad70082f689d72e93fa12dcf9b830b417e88c78321adb74cbc",
+    "tables": 0,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C11",
+    "revision": "c11-draft-r1",
+    "sourceHash": "19b0e55583d1178adb21b3bb6a80940addd095d27d2d8ddf2e7c48d630a3f791",
+    "ast": 142,
+    "dom": 142,
+    "svgHash": "3c026ab2dc30150dd44de3eea0feef9190bf6b31b14acd022460a5918cbd44f0",
+    "tables": 0,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C12",
+    "revision": "c12-draft-r1",
+    "sourceHash": "6ec025c6d242df2c9ff087432485251aa16e1729d1d70b588fa18ba4c36a7563",
+    "ast": 125,
+    "dom": 125,
+    "svgHash": "008bc7a3944b760bb93f25da704471d8184a9989ab758d229b9196fe4e503ed3",
+    "tables": 0,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C13",
+    "revision": "c13-draft-r1",
+    "sourceHash": "5516d7c552c6f3a591f08cfd189d0258523d2e2dfd799d86d48781d267ba67cc",
+    "ast": 147,
+    "dom": 147,
+    "svgHash": "12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C14",
+    "revision": "c14-draft-r1",
+    "sourceHash": "0e31f9cf194036babdccf73d365634c00d69564f92ae31effaeb4224dbf34473",
+    "ast": 158,
+    "dom": 158,
+    "svgHash": "924e4506dcea4f59be7b40cde89aa7d8bcb9fbf619977b9403b906832126390a",
+    "tables": 0,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C15",
+    "revision": "c15-draft-r1",
+    "sourceHash": "5575cbd91d5e09b4821e6c6a74d3f16d3739e3747badaf13df37b0ed647c6fc0",
+    "ast": 161,
+    "dom": 161,
+    "svgHash": "73c3be6d10161bb7135fcff9fba351af5490b1cc600591634a7fdbe36151917d",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C16",
+    "revision": "c16-draft-r1",
+    "sourceHash": "8d7c50c2c151c20f1c64a009388ce4297bdb3a2ff44e0e41dec1490008b18c1c",
+    "ast": 144,
+    "dom": 144,
+    "svgHash": "081f04abcb7fa576e7a57777ea0753ed3a8b675facdaeff33f210d1eee145065",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C17",
+    "revision": "c17-draft-r2",
+    "sourceHash": "5a88cc2c70529bc40b9fca966c0b5de1064fc3a8ef05612746d63c1aaf89467d",
+    "ast": 228,
+    "dom": 228,
+    "svgHash": "2279965d4b3799dcd60e420fe09c63d6c572164e70e5c6425a647b9eeef37fae",
+    "tables": 3,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C18",
+    "revision": "c18-draft-r1",
+    "sourceHash": "4a1b67d8b606c0053918672b0c57228a79c975ad172a9775c23fc83f8ff0b5c1",
+    "ast": 149,
+    "dom": 149,
+    "svgHash": "1ecd2045c183634d7686f8558509a1ce3608df86071f042cfdd5db43ee0ba00f",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C19",
+    "revision": "c19-draft-r1",
+    "sourceHash": "6b8e18e86fbf79848f1bf4795541c93c184501ffa824a31e09569e22057f2c2a",
+    "ast": 128,
+    "dom": 128,
+    "svgHash": "69ba2f099e4bdf975ba1e3a6472990f44ffc5d0c13c231b73f1113735136c4ea",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C20",
+    "revision": "c20-draft-r1",
+    "sourceHash": "f138411a49208cd26385a298ae794ea64e5d0b3c919f1620913294b145c6a0e4",
+    "ast": 139,
+    "dom": 139,
+    "svgHash": "bb79d29921e713c431b629e7ec457a6b813656da41bbc47943f51b037a3d025a",
+    "tables": 0,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C21",
+    "revision": "c21-draft-r1",
+    "sourceHash": "cc19dc5686263516974c33b898a54467858c5ef0df2c500a3a18d50905c84328",
+    "ast": 150,
+    "dom": 150,
+    "svgHash": "0361e599cdba6037aa9e8d8089ca44a2f89c0ce924759c81882a88f2b081cf7e",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C22",
+    "revision": "c22-draft-r1",
+    "sourceHash": "e8e5d5bb695fb26fc3dde8703f0a5a0e36090767a758b302b0517195c9491b53",
+    "ast": 147,
+    "dom": 147,
+    "svgHash": "100ea5f1a412777c1bfed69c1126adcde3569fb4ccd86a8924c10d7771e94cde",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C23",
+    "revision": "c23-draft-r1",
+    "sourceHash": "5bcb2df38bc4cafb1f886162c933385260928c73db1ca9c12845f0632e4639b6",
+    "ast": 125,
+    "dom": 125,
+    "svgHash": "c2086d1ffa0a5fedb503f3e024b9c9332b0cf9d0713480c54d3c8c070ee94905",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-C24",
+    "revision": "c24-draft-r1",
+    "sourceHash": "3ecbaf4b33427577bf591cf87001b15fa46e901578779f3de7f8f950e59a0f0c",
+    "ast": 171,
+    "dom": 171,
+    "svgHash": "fd3ffdf2f8c4a3e722377c69bd68806886c21a3f24e5134e8ca100e289e944d9",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-E01",
+    "revision": "e01-draft-r1",
+    "sourceHash": "dee659a32ce1d4dc5c998c2495814773077c7a1159f3092978cdf900145cd1be",
+    "ast": 194,
+    "dom": 194,
+    "svgHash": "27ba1e4dd5442cd8103d5dbd8b02fd8128aa566c6bd3db390f848179921d3d1e",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-E02",
+    "revision": "e02-draft-r1",
+    "sourceHash": "ffe397b0bc53d8cb2a4588e6db48332a48f8c95f540b650243a05f1052ddc4c9",
+    "ast": 193,
+    "dom": 193,
+    "svgHash": "5619b9549b3671c64f205674867c746493b80e27b9eb5792b3238173fa0b6721",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-E03",
+    "revision": "e03-draft-r1",
+    "sourceHash": "fa856be71c83416bbc8fd71781d6377f04ea6282d56da5c4555e6ffb51a38405",
+    "ast": 194,
+    "dom": 194,
+    "svgHash": "418ef31a22f48d6667a5141cf4ad0bb1555022358a6d44430b26b5af008a2632",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-E04",
+    "revision": "e04-draft-r1",
+    "sourceHash": "47c9f116ee1372032688356f2a3c2cec78128639ee61688212a121c14a489c51",
+    "ast": 198,
+    "dom": 198,
+    "svgHash": "8ff5995d17c89d9d171fd31458db6be85f38786606fbb50d4128f1e7b8fc9c00",
+    "tables": 1,
+    "axeViolations": 0
+  },
+  {
+    "id": "KGNT-E05",
+    "revision": "e05-draft-r2",
+    "sourceHash": "4ac983b803e6741fcc63f88cbe88cd4abcf7d2f576d53ac0157da0ee42d8409e",
+    "ast": 292,
+    "dom": 292,
+    "svgHash": "674ada70eeba61995bdc7df14fc1ca0deea51ee8fed949774dee44846aac9d7c",
+    "tables": 2,
+    "axeViolations": 0
+  }
+]

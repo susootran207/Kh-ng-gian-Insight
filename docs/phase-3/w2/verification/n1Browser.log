@@ -1,0 +1,25 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:n1:browser
+> playwright test -c playwright.n1.config.ts
+
+[WebServer] (node:49635) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:49649) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 5 tests using 1 worker
+
+(node:49691) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/foundation.spec.ts:6:39 › N1 reading, navigation, keyboard, Axe and reflow 320 (12.0s)
+  ✓  2 tests/foundation.spec.ts:6:39 › N1 reading, navigation, keyboard, Axe and reflow 390 (11.8s)
+  ✓  3 tests/foundation.spec.ts:6:39 › N1 reading, navigation, keyboard, Axe and reflow 768 (12.2s)
+  ✓  4 tests/foundation.spec.ts:6:39 › N1 reading, navigation, keyboard, Axe and reflow 1440 (11.9s)
+  ✓  5 tests/foundation.spec.ts:42:1 › N1 200%-equivalent reflow (not native browser zoom) (3.2s)
+
+  5 passed (57.8s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

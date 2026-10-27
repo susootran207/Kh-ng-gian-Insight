@@ -1,0 +1,9 @@
+error during build:
+Error: Content contract: P2 preview is serve-only on 127.0.0.1:4198
+    at requireThat (file:///workspace/work/w2/repo/prototype/node_modules/.vite-temp/vite.w2.config.ts.timestamp-1793081801201-90959d851c43e.mjs:29:18)
+    at BasicMinimalPluginContext.configResolved (file:///workspace/work/w2/repo/prototype/node_modules/.vite-temp/vite.w2.config.ts.timestamp-1793081801201-90959d851c43e.mjs:869:9)
+    at file:///workspace/work/w2/repo/prototype/node_modules/vite/dist/node/chunks/config.js:35933:87
+    at Array.map (<anonymous>)
+    at resolveConfig (file:///workspace/work/w2/repo/prototype/node_modules/vite/dist/node/chunks/config.js:35933:68)
+    at async createBuilder (file:///workspace/work/w2/repo/prototype/node_modules/vite/dist/node/chunks/config.js:34126:19)
+    at async CAC.<anonymous> (file:///workspace/work/w2/repo/prototype/node_modules/vite/dist/node/cli.js:629:10)

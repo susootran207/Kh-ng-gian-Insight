@@ -1,4 +1,146 @@
 {
   "schemaVersion": 1,
-  "topics": []
+  "topics": [
+    {
+      "id": "KGNT-W001",
+      "slug": "bat-dau-o-mot-noi-moi",
+      "title": "Bắt đầu ở một nơi mới",
+      "description": "Nhận ra điều đang mới, tìm một kết nối vừa sức và biết người có thể hỏi khi cần.",
+      "articleSlugs": [
+        "lop-moi-truong-moi",
+        "o-giua-lop",
+        "tro-chuyen-voi-nguoi-lon"
+      ],
+      "startsAt": "2027-01-11T00:00:00+07:00",
+      "endsAt": "2027-01-25T00:00:00+07:00",
+      "status": "draft"
+    },
+    {
+      "id": "KGNT-W002",
+      "slug": "goi-ten-dieu-dang-den",
+      "title": "Gọi tên điều đang đến",
+      "description": "Phân biệt cảm xúc, điều đang nghĩ và tín hiệu cơ thể; giữ chỗ cho điều mình chưa biết.",
+      "articleSlugs": [
+        "hom-nay-minh-cam-thay-gi",
+        "lo-lang-truoc-gio-hoc",
+        "tin-hieu-co-the"
+      ],
+      "startsAt": "2027-01-25T00:00:00+07:00",
+      "endsAt": "2027-02-08T00:00:00+07:00",
+      "status": "draft"
+    },
+    {
+      "id": "KGNT-W003",
+      "slug": "gan-nhau-va-co-ranh-gioi",
+      "title": "Gần nhau và có ranh giới",
+      "description": "Nhìn rõ bất đồng, tập nói điều không muốn và nhận ra lúc cần người lớn hỗ trợ để an toàn.",
+      "articleSlugs": [
+        "bat-dong-tinh-ban",
+        "noi-khong-ton-trong",
+        "treu-choc-va-bat-nat"
+      ],
+      "startsAt": "2027-02-08T00:00:00+07:00",
+      "endsAt": "2027-02-22T00:00:00+07:00",
+      "status": "draft"
+    },
+    {
+      "id": "KGNT-W004",
+      "slug": "khi-ban-can-mot-nguoi-nghe",
+      "title": "Khi bạn cần một người nghe",
+      "description": "Tìm hiểu cách lắng nghe trong giới hạn của bạn bè và mở lời với người có thể hỗ trợ.",
+      "articleSlugs": [
+        "khi-ban-rat-buon",
+        "tim-them-su-giup-do",
+        "tro-chuyen-voi-nguoi-lon"
+      ],
+      "startsAt": "2027-02-22T00:00:00+07:00",
+      "endsAt": "2027-03-08T00:00:00+07:00",
+      "status": "draft"
+    },
+    {
+      "id": "KGNT-W005",
+      "slug": "giu-nhip-cho-ngay-hoc",
+      "title": "Giữ nhịp cho ngày học",
+      "description": "Nhìn hoàn cảnh ngủ, nghỉ và vận động để chọn điều chỉnh phù hợp, không chấm điểm lối sống.",
+      "articleSlugs": [
+        "dem-dai-minh-chua-ngu",
+        "nghi-mot-chut",
+        "van-dong-giua-ngay-hoc"
+      ],
+      "startsAt": "2027-03-08T00:00:00+07:00",
+      "endsAt": "2027-03-22T00:00:00+07:00",
+      "status": "draft"
+    },
+    {
+      "id": "KGNT-W006",
+      "slug": "hoc-theo-viec-can-lam",
+      "title": "Học theo việc cần làm",
+      "description": "Chọn một điểm bắt đầu và cách ôn theo nhiệm vụ; phân biệt sở thích học với bằng chứng.",
+      "articleSlugs": [
+        "chua-bat-dau-hoc",
+        "hoc-va-nho-lau",
+        "phong-cach-hoc-tap"
+      ],
+      "startsAt": "2027-03-22T00:00:00+07:00",
+      "endsAt": "2027-04-05T00:00:00+07:00",
+      "status": "draft"
+    },
+    {
+      "id": "KGNT-W007",
+      "slug": "mang-dien-thoai-va-su-chu-y",
+      "title": "Mạng, điện thoại và sự chú ý",
+      "description": "Nhận ra bối cảnh so sánh và xao nhãng để thử một ranh giới số vẫn giữ liên lạc cần thiết.",
+      "articleSlugs": [
+        "so-sanh-tren-mang",
+        "dien-thoai-va-chu-y",
+        "noi-khong-ton-trong"
+      ],
+      "startsAt": "2027-04-05T00:00:00+07:00",
+      "endsAt": "2027-04-19T00:00:00+07:00",
+      "status": "draft"
+    },
+    {
+      "id": "KGNT-W008",
+      "slug": "truoc-mua-kiem-tra",
+      "title": "Trước mùa kiểm tra",
+      "description": "Chuẩn bị việc học, trao đổi về kỳ vọng khi an toàn và hiểu giới hạn của một con số sàng lọc.",
+      "articleSlugs": [
+        "khi-mua-thi-den-gan",
+        "ky-vong-o-nha",
+        "stress-va-cong-cu-sang-loc"
+      ],
+      "startsAt": "2027-04-19T00:00:00+07:00",
+      "endsAt": "2027-04-26T00:00:00+07:00",
+      "status": "draft"
+    },
+    {
+      "id": "KGNT-W009",
+      "slug": "sau-diem-so-minh-di-tiep",
+      "title": "Sau điểm số, mình đi tiếp",
+      "description": "Đọc phản hồi theo việc có thể sửa, không đồng nhất sai sót với bản thân và chọn cách ứng xử an toàn.",
+      "articleSlugs": [
+        "sau-bai-kiem-tra",
+        "dung-ve-phia-minh",
+        "con-gian-truoc-loi-noi"
+      ],
+      "startsAt": "2027-04-26T00:00:00+07:00",
+      "endsAt": "2027-05-10T00:00:00+07:00",
+      "status": "draft"
+    },
+    {
+      "id": "KGNT-W010",
+      "slug": "tim-hieu-minh-mo-huong-di",
+      "title": "Tìm hiểu mình, mở hướng đi",
+      "description": "Khám phá sở thích, giá trị và cơ hội; đọc mô hình tính cách, hướng nghiệp mà không đóng khung mình.",
+      "articleSlugs": [
+        "kham-pha-tuong-lai",
+        "mbti-va-16-kieu-tinh-cach",
+        "big-five",
+        "holland-riasec"
+      ],
+      "startsAt": "2027-05-10T00:00:00+07:00",
+      "endsAt": "2027-05-17T00:00:00+07:00",
+      "status": "draft"
+    }
+  ]
 }

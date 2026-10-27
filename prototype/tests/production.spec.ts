@@ -94,3 +94,11 @@ test('G1 production: canary never transmits/persists; clear/release/skip and N1 
  await page.getByRole('link',{name:'Bỏ qua, ghé thư viện',exact:true}).click();await expect(page.locator('.library-entry')).toHaveCount(0);await page.goBack();await expect(input).toHaveValue('')
  await page.goto('./#/nen-tang#rieng-tu-trong-khu-vuon');await expect(page.locator('#rieng-tu-trong-khu-vuon')).toContainText('quay lại không khôi phục lời')
 })
+
+test('W2 drafts/future/clock controls never enter public routes or resources',async({page,request})=>{
+ const registry=JSON.parse(readFileSync(new URL('../editorial/weekly.json',import.meta.url),'utf8'))
+ await page.goto('./?w2-at=2027-05-10T00%3A00%3A00%2B07%3A00#/chuyen-de');await expect(page.locator('.topic-spread')).toHaveCount(0)
+ for(const t of registry.topics){await page.goto('./#/chuyen-de/'+t.slug);await expect(page.locator('h1')).toHaveText('Lối này chưa có trang.');await expect(page.locator('body')).not.toContainText(t.description)}
+ for(const path of ['weekly-preview/controls.tsx','@id/__x00__virtual:w2-preview','editorial/weekly.json'])expect((await request.get('./'+path)).status()).toBe(404)
+ await expect(page.getByRole('combobox',{name:'Thử thời điểm theo giờ Việt Nam'})).toHaveCount(0)
+})

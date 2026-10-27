@@ -1,0 +1,163 @@
+{
+  "recordedAt": "2026-10-27T13:20:24.408748+07:00",
+  "base": "d6d9b142e097ab3c24c31ed841d6e13d416fbfcd",
+  "runtime": {
+    "node": "24.19.0",
+    "npm": "11.9.0",
+    "chromium": "154.0.8037.57 Linux headless"
+  },
+  "checks": {
+    "f0Node": {
+      "status": "PASS",
+      "passed": 22,
+      "log": "verification/f0-node.log"
+    },
+    "r1Node": {
+      "status": "PASS",
+      "passed": 12,
+      "log": "verification/r1-node.log"
+    },
+    "c1Node": {
+      "status": "PASS",
+      "passed": 34,
+      "log": "verification/c1-node.log"
+    },
+    "w1Node": {
+      "status": "PASS",
+      "passed": 12,
+      "log": "verification/w1-node.log"
+    },
+    "d1Node": {
+      "status": "PASS",
+      "passed": 4,
+      "log": "verification/d1-node.log"
+    },
+    "g1Node": {
+      "status": "PASS",
+      "passed": 2,
+      "log": "verification/g1-node.log"
+    },
+    "p2Node": {
+      "status": "PASS",
+      "passed": 8,
+      "log": "verification/p2-node.log"
+    },
+    "w2Node": {
+      "status": "PASS",
+      "passed": 6,
+      "log": "verification/w2Node.log"
+    },
+    "w2Browser": {
+      "status": "PASS",
+      "passed": 7,
+      "log": "verification/w2Browser.log"
+    },
+    "r1Browser": {
+      "status": "PASS",
+      "passed": 8,
+      "log": "verification/r1Browser.log"
+    },
+    "w1Browser": {
+      "status": "PASS",
+      "passed": 7,
+      "log": "verification/w1Browser.log"
+    },
+    "n1Browser": {
+      "status": "PASS",
+      "passed": 5,
+      "log": "verification/n1Browser.log"
+    },
+    "d1Browser": {
+      "status": "PASS",
+      "passed": 6,
+      "log": "verification/d1Browser.log"
+    },
+    "g1Browser": {
+      "status": "PASS",
+      "passed": 9,
+      "log": "verification/g1Browser.log"
+    },
+    "p2Browser": {
+      "status": "PASS",
+      "passed": 5,
+      "log": "verification/p2Browser.log"
+    },
+    "regression": {
+      "status": "PASS",
+      "passed": 30,
+      "log": "verification/regression.log"
+    },
+    "productionBrowser": {
+      "status": "PASS",
+      "passed": 14,
+      "log": "verification/productionBrowser.log"
+    },
+    "c1Browser": {
+      "status": "PASS_WITH_RECHECK",
+      "firstRun": {
+        "passed": 7,
+        "failed": 1
+      },
+      "unchangedCaseRecheck": {
+        "passed": 1,
+        "failed": 0
+      },
+      "limitation": "A keyboard pan assertion returned0 once; root cause unconfirmed, original case passed when rerun unchanged. Not a single8/8 run.",
+      "logs": [
+        "verification/c1-browser-first.log",
+        "verification/c1-browser-recheck.log"
+      ]
+    },
+    "buildTypecheckScanner": {
+      "status": "PASS",
+      "result": {
+        "files": 29,
+        "withheldArticles": 29,
+        "markerCount": 4375,
+        "sourceView": "public",
+        "publicSourceArticles": 0,
+        "publicLegacyArticles": 0,
+        "publicLegacyTopics": 0,
+        "publicWeeklyTopics": 0,
+        "publicWeeklyArticles": 0,
+        "currentWeeklyId": null,
+        "canary": "detected"
+      },
+      "log": "verification/build.log"
+    },
+    "manifest": {
+      "status": "PASS",
+      "log": "verification/manifest.log"
+    },
+    "previewBuildGuard": {
+      "status": "PASS",
+      "expectedExit": 1,
+      "log": "verification/preview-build-denied.log"
+    }
+  },
+  "scope": {
+    "draftTopics": 10,
+    "uniqueSourceArticles": 29,
+    "placements": 31,
+    "sampleWeeks": 18,
+    "viewports": [
+      320,
+      390,
+      768,
+      1440
+    ]
+  },
+  "unverified": [
+    "native zoom200%",
+    "screen reader",
+    "Safari/Firefox/Edge",
+    "physical devices",
+    "new learner review",
+    "academic/asset-rights approval",
+    "hosting/rollback",
+    "preview empty-registry UI (contract/clock tested in Node)"
+  ],
+  "ci": {
+    "evidenceLocation": "Draft PR body: exact final head/run/step results; not inferred from local tests"
+  }
+}

@@ -6,10 +6,10 @@ import { createContentPreview } from './build/content-preview.ts'
 import { contentPreviewPlugin } from './build/content-preview-server.ts'
 import { requireThat } from './build/content-contract.ts'
 import type { Article } from './editorial/schema.ts'
-export default defineConfig(mergeConfig(normal, {
+export function fullLibraryPreview(port = 4197) { return mergeConfig(normal, {
   plugins:[{
     name:'p2-preview-only',enforce:'pre',
-    configResolved(config:import('vite').ResolvedConfig){requireThat(config.command==='serve'&&config.server.host==='127.0.0.1'&&config.server.port===4197,'P2 preview is serve-only on 127.0.0.1:4197')},
+    configResolved(config:import('vite').ResolvedConfig){requireThat(config.command==='serve'&&config.server.host==='127.0.0.1'&&config.server.port===port,'P2 preview is serve-only on 127.0.0.1:'+port)},
     resolveId(id:string){if(id==='virtual:editorial')return '\0virtual:p2-fixture'},
     load(id:string){
       if(id!=='\0virtual:p2-fixture')return
@@ -19,6 +19,7 @@ export default defineConfig(mergeConfig(normal, {
       return 'export default '+JSON.stringify({articles,topics:[]})
     },
     transformIndexHtml(){return [{tag:'aside',attrs:{class:'preview-notice',role:'note'},children:'P2 · Xem nội bộ trên 127.0.0.1 · 29 bản nháp đã được chủ dự án chấp thuận nội dung; chưa được cấp quyền xuất bản F0.',injectTo:'body-prepend'}]},
-  },contentPreviewPlugin(4197)],
-  server:{host:'127.0.0.1',port:4197,strictPort:true,cors:false,fs:{allow:[repositoryRoot+'/prototype']}},
-}))
+  },contentPreviewPlugin(port)],
+  server:{host:'127.0.0.1',port,strictPort:true,cors:false,fs:{allow:[repositoryRoot+'/prototype']}},
+}) }
+export default defineConfig(fullLibraryPreview())

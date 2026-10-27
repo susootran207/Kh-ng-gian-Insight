@@ -1,0 +1,62 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:c1:browser
+> playwright test -c playwright.c1.config.ts
+
+[WebServer] (node:47298) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:47311) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:47421) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 320 (2.7m)
+  ✓  2 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 390 (2.1m)
+  ✓  3 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 768 (1.7m)
+  ✓  4 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 1440 (1.1m)
+  ✓  5 tests/c1-preview.spec.ts:58:1 › library 29 routes, Vietnamese search, stages/topics/group, history and return through related (17.4s)
+  ✘  6 tests/c1-preview.spec.ts:93:1 › C01/C05/E02 figure keyboard, reduced motion, skip, and emulated 200% reflow (13.6s)
+(node:54448) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  7 tests/c1-preview.spec.ts:108:1 › loopback HTTP boundary, all asset hashes, unknown/query/traversal and raw dossier rejection (991ms)
+  ✓  8 tests/c1-preview.spec.ts:116:1 › library responsive, keyboard menu and Axe at four widths (14.5s)
+
+
+  1) tests/c1-preview.spec.ts:93:1 › C01/C05/E02 figure keyboard, reduced motion, skip, and emulated 200% reflow
+
+    Error: expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   0
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      100 |     await expect(close).toBeFocused(); await page.keyboard.press('Tab'); await page.keyboard.press('Enter'); await expect(dialog.getByRole('status')).toHaveText('150%')
+      101 |     expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([])
+    > 102 |     const pan=dialog.getByRole('region'); await pan.focus(); await page.keyboard.press('ArrowRight'); await expect.poll(()=>pan.evaluate(el=>el.scrollLeft)).toBeGreaterThan(0); await page.keyboard.press('ArrowDown'); await expect.poll(()=>pan.evaluate(el=>el.scrollTop)).toBeGreaterThan(0); await page.screenshot({path:output+'/'+id+'-modal-390.jpg',type:'jpeg',quality:80})
+          |                                                                                                                                                                                                                                                                                ^
+      103 |     await page.keyboard.press('Tab'); await expect(close).toBeFocused(); await page.keyboard.press('Escape'); await expect(opener).toBeFocused()
+      104 |   }
+      105 |   const context=await browser.newContext({viewport:{width:720,height:500},deviceScaleFactor:2,reducedMotion:'reduce'})
+        at /workspace/work/w2/qa-content/prototype/tests/c1-preview.spec.ts:102:272
+
+    Error Context: test-results-c1/c1-preview-C01-C05-E02-fig-880de-kip-and-emulated-200-reflow/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-c1/c1-preview-C01-C05-E02-fig-880de-kip-and-emulated-200-reflow/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results-c1/c1-preview-C01-C05-E02-fig-880de-kip-and-emulated-200-reflow/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/c1-preview.spec.ts:93:1 › C01/C05/E02 figure keyboard, reduced motion, skip, and emulated 200% reflow
+  7 passed (8.7m)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

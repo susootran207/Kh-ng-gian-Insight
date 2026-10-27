@@ -1,0 +1,14 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:g1
+> tsc -p tsconfig.g1.json && node --experimental-strip-types --test --test-isolation=none tests/lantern-lifetime.test.mts
+
+✔ G1: 1,000 rapid releases retain at most four timer handles and expire independently of CSS (4.723209ms)
+✔ G1: page exit/unmount clear all pending work, idempotent, and reusable after StrictMode cleanup (1.163727ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 170.328193

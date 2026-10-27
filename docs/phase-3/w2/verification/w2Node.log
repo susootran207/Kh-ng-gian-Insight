@@ -1,0 +1,18 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:w2
+> tsc -p tsconfig.w2.json && node --experimental-strip-types --test --test-isolation=none tests/weekly-editorial.test.mts
+
+✔ W2: 10 unique draft proposals, contiguous18-week sample,29 known articles; no fabricated grants (1.945047ms)
+✔ W2: preview all starts/ends,29 unchanged Library articles, future details and deterministic rollback (3.713762ms)
+✔ W2: invalid ID/slug/reference, overlap/calendar/UTC offset reject; gaps and empty are explicit (1.029879ms)
+✔ W2: all real draft titles/prose stay withheld even in the sample semester; graph/canary active (956.499329ms)
+✔ W2: synthetic public weekly clock, future exclusion, rollback and full29 Library (1056.82885ms)
+✔ W2: preview clocks are input-order independent and empty registry has a safe clock (0.404239ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3287.597877

@@ -34,9 +34,9 @@ function chunks(text: string): string[] {
     return [p, plain, ...p.split('\n').filter(l => l.length >= 60)]
   })
 }
-export function createBoundary(root: string, manifest: SourceManifest, catalogue: Catalogue): Boundary {
-  validateManifest(manifest, root)
-  for (const item of [...catalogue.articles, ...catalogue.topics]) if (item.status === 'published') assertLegacyPublication(root, item)
+export function createBoundary(root: string, manifest: SourceManifest, catalogue: Catalogue, now = Date.now()): Boundary {
+  validateManifest(manifest, root, now)
+  for (const item of [...catalogue.articles, ...catalogue.topics]) if (item.status === 'published') assertLegacyPublication(root, item, now)
   const authorizedText: string[] = [], publicAssetHashes = new Set<string>()
   const reserved = new Set(manifest.articles.map(a=>a.slug))
   for (const item of [...catalogue.articles, ...catalogue.topics]) if (item.status === 'published' && !('sections' in item && reserved.has(item.slug))) authorizedText.push(normalize(JSON.stringify(item)))
@@ -45,7 +45,7 @@ export function createBoundary(root: string, manifest: SourceManifest, catalogue
   // in memory and do not represent a website checkout.
   if (existsSync(resolve(root, 'prototype/editorial/catalogue.json'))) {
     const registry: WeeklyRegistry = JSON.parse(readFileSync(safeFile(root, 'prototype/editorial/weekly.json'), 'utf8'))
-    const weekly = selectPublicWeekly(registry, catalogue, root, Date.now(), manifest)
+    const weekly = selectPublicWeekly(registry, catalogue, root, now, manifest)
     const visible = new Set(weekly.topics.map(t => t.id))
     authorizedText.push(...weekly.topics.map(t => normalize(JSON.stringify(t))))
     for (const t of registry.topics.filter(t => !visible.has(t.id))) weeklyMarkers.push(t.id, t.slug, t.title, t.description)
@@ -111,8 +111,8 @@ export function assertArtifact(bytes: Buffer, filename: string, boundary: Bounda
   for (const marker of boundary.markers) requireThat(!text.includes(marker) && !name.includes(marker), 'unpublished content leaked into ' + filename)
   if (!['.js', '.css', '.html'].includes(extension)) requireThat(boundary.allowedAssets.has(sha256(bytes)), 'unapproved static artifact: ' + filename)
 }
-export function scanProduction(root: string, output: string, manifest: SourceManifest, catalogue: Catalogue) {
-  const boundary = createBoundary(root, manifest, catalogue), paths = files(output)
+export function scanProduction(root: string, output: string, manifest: SourceManifest, catalogue: Catalogue, now = Date.now()) {
+  const boundary = createBoundary(root, manifest, catalogue, now), paths = files(output)
   requireThat(paths.some(path => relative(output, path) === 'index.html'), 'missing production index')
   for (const file of paths) assertArtifact(readFileSync(file), relative(output, file), boundary)
   return { files: paths.length, withheldArticles: manifest.articles.filter(a => a.status !== 'published').length, markerCount: boundary.markers.length }
