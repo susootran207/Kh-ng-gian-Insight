@@ -1,0 +1,68 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:c1:browser
+> playwright test -c playwright.c1.config.ts
+
+[WebServer] (node:10257) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:10270) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:10288) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 320 (33.5s)
+  ✓  2 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 390 (42.9s)
+  ✓  3 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 768 (40.2s)
+  ✓  4 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 1440 (39.7s)
+  ✘  5 tests/c1-preview.spec.ts:58:1 › library 29 routes, Vietnamese search, stages/topics/group, history and return through related (14.2s)
+(node:12379) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  6 tests/c1-preview.spec.ts:93:1 › C01/C05/E02 figure keyboard, reduced motion, skip, and emulated 200% reflow (15.1s)
+  ✓  7 tests/c1-preview.spec.ts:108:1 › loopback HTTP boundary, all asset hashes, unknown/query/traversal and raw dossier rejection (488ms)
+  ✓  8 tests/c1-preview.spec.ts:116:1 › library responsive, keyboard menu and Axe at four widths (8.1s)
+
+
+  1) tests/c1-preview.spec.ts:58:1 › library 29 routes, Vietnamese search, stages/topics/group, history and return through related 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.library-entry')
+    Expected: 3
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('.library-entry') with timeout 5000ms
+      - waiting for locator('.library-entry')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      88 |   await expect(page.locator('.library-entry')).toHaveCount(view.articles.filter(a=>a.metadata.topic===first.metadata.topic).length)
+      89 |   const group = first.metadata.topicIds[0]
+    > 90 |   await page.goto(entry+'#/thu-vien?nhom='+group); await expect(page.locator('.library-entry')).toHaveCount(view.articles.filter(a=>a.metadata.topicIds.includes(group)).length)
+         |                                                                                                 ^
+      91 |   await search.fill('no-such-keyword'); await expect(page.getByRole('heading',{name:'Chưa tìm thấy trang phù hợp.'})).toBeVisible()
+      92 | })
+      93 | test('C01/C05/E02 figure keyboard, reduced motion, skip, and emulated 200% reflow', async ({ page, browser }) => {
+        at /workspace/work/p2/qa/prototype/tests/c1-preview.spec.ts:90:97
+
+    Error Context: test-results-c1/c1-preview-library-29-rout-55ead--and-return-through-related/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-c1/c1-preview-library-29-rout-55ead--and-return-through-related/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results-c1/c1-preview-library-29-rout-55ead--and-return-through-related/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/c1-preview.spec.ts:58:1 › library 29 routes, Vietnamese search, stages/topics/group, history and return through related 
+  7 passed (3.4m)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

@@ -1,0 +1,471 @@
+{
+  "kind": "internal-preview",
+  "articles": 29,
+  "totalAstNodes": 4716,
+  "rows": [
+    {
+      "id": "KGNT-C01",
+      "slug": "hom-nay-minh-cam-thay-gi",
+      "revision": "c01-draft-r2",
+      "contentHash": "a14e18424db35df95ab0a298b2b2f8a8f1ff742e8af5bbed8ec8bbb70cee678d",
+      "revisionHash": "4c03a922cde860f86a21766d68a2fb88a38d174c3e0e0db3213b3076f9ea361e",
+      "astNodes": 223,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "experience-map.svg",
+          "sha256": "df8ea0dad05108c648d3d2e6e597fcf492a0907f85628b7c1494c4e1e9429c05"
+        }
+      ],
+      "tables": 2
+    },
+    {
+      "id": "KGNT-C02",
+      "slug": "lo-lang-truoc-gio-hoc",
+      "revision": "c02-draft-r1",
+      "contentHash": "3399bad2299b5d5ed261849185bfc4e42a3ee8909c4618b7c1206cd38c4b918d",
+      "revisionHash": "4079348b8d2520e5ee75d99ef4055a2101e8227e954875a7a873b5282b75d650",
+      "astNodes": 136,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "before-class-options.svg",
+          "sha256": "3389ca4eaa3486db671b5933ef986433fba42372c5d99db56450d0c2c8f96f0b"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-C03",
+      "slug": "dung-ve-phia-minh",
+      "revision": "c03-draft-r1",
+      "contentHash": "2769bc80ca129b6287eae9e3057d124c550dccce148b75f551136d7a8f1b05d4",
+      "revisionHash": "98a9437c23659f7b8473b9906d216ec9b6d75abb72c8d8d30a493e201b09f813",
+      "astNodes": 124,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "mistake-and-response.svg",
+          "sha256": "70625513e9a7c236a3ce72f2da2ba59066ca7f07bd772441eca7330a86d68b83"
+        }
+      ],
+      "tables": 0
+    },
+    {
+      "id": "KGNT-C04",
+      "slug": "con-gian-truoc-loi-noi",
+      "revision": "c04-draft-r1",
+      "contentHash": "c3c8be4f142560f11d47270bc7827f53007d9cafa84db83bcf06bf96e62d93d1",
+      "revisionHash": "c992e0d5fab91b5d85e671a6b54fd7581ba0fce09f87c4d1e1d29085af76ff54",
+      "astNodes": 112,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "pause-and-choose.svg",
+          "sha256": "c791406552e81c6e29325ca276cd288252d3b1642dec55f06abf876fa3e92d18"
+        }
+      ],
+      "tables": 0
+    },
+    {
+      "id": "KGNT-C05",
+      "slug": "khi-mua-thi-den-gan",
+      "revision": "c05-draft-r2",
+      "contentHash": "57ef7f42eb24b03d0f85156478d224096979e6140f75ab15c2361af699642df5",
+      "revisionHash": "159424c05d6fffc62634e0efcc198721109f4e49959c21d78c5caff8faa51f86",
+      "astNodes": 246,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "study-plan.svg",
+          "sha256": "cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111"
+        }
+      ],
+      "tables": 2
+    },
+    {
+      "id": "KGNT-C06",
+      "slug": "chua-bat-dau-hoc",
+      "revision": "c06-draft-r1",
+      "contentHash": "a58b7799153919ea38c7c338494a1e9e11e62cb1ad18b4b218ff5d74b6c2b215",
+      "revisionHash": "724a18216702f8bf556849691aa78743afeea9a5d3d9424f0e5718c64466312c",
+      "astNodes": 137,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "first-step.svg",
+          "sha256": "59d6a0aeb6dffdb5c710a377e43511980abeea5e9e85e05117992a8bbbee7a10"
+        }
+      ],
+      "tables": 0
+    },
+    {
+      "id": "KGNT-C07",
+      "slug": "hoc-va-nho-lau",
+      "revision": "c07-draft-r1",
+      "contentHash": "857b9a3fc8ef3604a6c23972637ca5a4ee9448d7e6a11d08ad191ae52b78b13d",
+      "revisionHash": "e3ba72cf8e468a9954012637684cfaf45b88431e3d7e65a999f9cefbc3185e3c",
+      "astNodes": 161,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "return-to-learn.svg",
+          "sha256": "a5357fccaebd3231aaafac967c7dcbd04bd64f2e90e2b6a1c970f6d78b12f74e"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-C08",
+      "slug": "sau-bai-kiem-tra",
+      "revision": "c08-draft-r1",
+      "contentHash": "878fbd0696b9527af4d997e31b6aa4d4f6891792f96a9f7573701b237f0d1564",
+      "revisionHash": "97755985f88e3d36374ea1e98f4d4b023fdd0ec36b7d5d0169f2a1ea74fc0626",
+      "astNodes": 140,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "read-feedback.svg",
+          "sha256": "277fff7ceef0864618bf94c88e00fd05c7e945a1b80b77cf4192b2056bf7840d"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-C09",
+      "slug": "o-giua-lop",
+      "revision": "c09-draft-r1",
+      "contentHash": "510d641ebe2a87514c1a569d537fe42d0c9c77c39d39309047a51d5058243066",
+      "revisionHash": "a82b96d0cf7809fa8371dd418759f0bde4a659fb9912cf77a5cf6fc128e2f521",
+      "astNodes": 117,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "connection-options.svg",
+          "sha256": "18f4f7ec60d4792d7ac5a3045ac41d5a07ed011c873e7d0f72601fc26ca09ce3"
+        }
+      ],
+      "tables": 0
+    },
+    {
+      "id": "KGNT-C10",
+      "slug": "bat-dong-tinh-ban",
+      "revision": "c10-draft-r1",
+      "contentHash": "bcfcbc476f540e86c6c4b3dab0686c0fa20c69de4fb3c1eda91a35f84c5bb575",
+      "revisionHash": "fb89aa258c5961ef11fa55ee4e3aca15f6c31de11f43f82946479be0fa2dd9be",
+      "astNodes": 135,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "disagreement-dialogue.svg",
+          "sha256": "60e1fae6ab9742ad70082f689d72e93fa12dcf9b830b417e88c78321adb74cbc"
+        }
+      ],
+      "tables": 0
+    },
+    {
+      "id": "KGNT-C11",
+      "slug": "treu-choc-va-bat-nat",
+      "revision": "c11-draft-r1",
+      "contentHash": "19b0e55583d1178adb21b3bb6a80940addd095d27d2d8ddf2e7c48d630a3f791",
+      "revisionHash": "627915a0021fe1266431e253be3c8ecacbcea5459d2d942d747ba41b83b0835e",
+      "astNodes": 142,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "support-without-confronting.svg",
+          "sha256": "3c026ab2dc30150dd44de3eea0feef9190bf6b31b14acd022460a5918cbd44f0"
+        }
+      ],
+      "tables": 0
+    },
+    {
+      "id": "KGNT-C12",
+      "slug": "noi-khong-ton-trong",
+      "revision": "c12-draft-r1",
+      "contentHash": "6ec025c6d242df2c9ff087432485251aa16e1729d1d70b588fa18ba4c36a7563",
+      "revisionHash": "baefe26220127f564560fae6cf8c5d5b32ef9235bbfa2bb82cfec8be9f9a1dd5",
+      "astNodes": 125,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "no-with-an-exit.svg",
+          "sha256": "008bc7a3944b760bb93f25da704471d8184a9989ab758d229b9196fe4e503ed3"
+        }
+      ],
+      "tables": 0
+    },
+    {
+      "id": "KGNT-C13",
+      "slug": "ky-vong-o-nha",
+      "revision": "c13-draft-r1",
+      "contentHash": "5516d7c552c6f3a591f08cfd189d0258523d2e2dfd799d86d48781d267ba67cc",
+      "revisionHash": "e63edcf10dbf6f82835dbc868599b3b00b533f24816aa7fd8bb0f592b29fcee2",
+      "astNodes": 147,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "expectations-and-support.svg",
+          "sha256": "12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-C14",
+      "slug": "tro-chuyen-voi-nguoi-lon",
+      "revision": "c14-draft-r1",
+      "contentHash": "0e31f9cf194036babdccf73d365634c00d69564f92ae31effaeb4224dbf34473",
+      "revisionHash": "47d85f121165df5aae3d9d5501dd8a873b67d39b041e9b0310f70ece48e8c4e4",
+      "astNodes": 158,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "conversation-options.svg",
+          "sha256": "924e4506dcea4f59be7b40cde89aa7d8bcb9fbf619977b9403b906832126390a"
+        }
+      ],
+      "tables": 0
+    },
+    {
+      "id": "KGNT-C15",
+      "slug": "tim-them-su-giup-do",
+      "revision": "c15-draft-r1",
+      "contentHash": "5575cbd91d5e09b4821e6c6a74d3f16d3739e3747badaf13df37b0ed647c6fc0",
+      "revisionHash": "f9725256f952c53039fbf61f92b6c19f639624affdd8a6456d0edfe2a16fa9f9",
+      "astNodes": 161,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "support-role-map.svg",
+          "sha256": "73c3be6d10161bb7135fcff9fba351af5490b1cc600591634a7fdbe36151917d"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-C16",
+      "slug": "khi-ban-rat-buon",
+      "revision": "c16-draft-r1",
+      "contentHash": "8d7c50c2c151c20f1c64a009388ce4297bdb3a2ff44e0e41dec1490008b18c1c",
+      "revisionHash": "0239041c9e6cb8bc1884d2512959318ffc25880add1b4f34f47e9b2d4ede66e8",
+      "astNodes": 144,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "listen-and-share-support.svg",
+          "sha256": "081f04abcb7fa576e7a57777ea0753ed3a8b675facdaeff33f210d1eee145065"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-C17",
+      "slug": "dem-dai-minh-chua-ngu",
+      "revision": "c17-draft-r2",
+      "contentHash": "5a88cc2c70529bc40b9fca966c0b5de1064fc3a8ef05612746d63c1aaf89467d",
+      "revisionHash": "0b0c53022a5c4645f364cc97b9f9dc04faf25707e6016638a8b82dab4dd9baaf",
+      "astNodes": 228,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "sleep-context.svg",
+          "sha256": "2279965d4b3799dcd60e420fe09c63d6c572164e70e5c6425a647b9eeef37fae"
+        }
+      ],
+      "tables": 3
+    },
+    {
+      "id": "KGNT-C18",
+      "slug": "nghi-mot-chut",
+      "revision": "c18-draft-r1",
+      "contentHash": "4a1b67d8b606c0053918672b0c57228a79c975ad172a9775c23fc83f8ff0b5c1",
+      "revisionHash": "32fbffc0cd5a5f83515af2375338e89cb1f9de7223d692d5a003709ebf44bcfc",
+      "astNodes": 149,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "rest-options.svg",
+          "sha256": "1ecd2045c183634d7686f8558509a1ce3608df86071f042cfdd5db43ee0ba00f"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-C19",
+      "slug": "tin-hieu-co-the",
+      "revision": "c19-draft-r1",
+      "contentHash": "6b8e18e86fbf79848f1bf4795541c93c184501ffa824a31e09569e22057f2c2a",
+      "revisionHash": "79005088eee77ab6564de62e95652d292802c906d5d12a565e5128a6e64b7c45",
+      "astNodes": 128,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "body-signal-context.svg",
+          "sha256": "69ba2f099e4bdf975ba1e3a6472990f44ffc5d0c13c231b73f1113735136c4ea"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-C20",
+      "slug": "van-dong-giua-ngay-hoc",
+      "revision": "c20-draft-r1",
+      "contentHash": "f138411a49208cd26385a298ae794ea64e5d0b3c919f1620913294b145c6a0e4",
+      "revisionHash": "5c2dbc51a33c096f9a009bcef4dfc782ceda6ca3585f1f56155ee85b02c187fa",
+      "astNodes": 139,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "movement-options.svg",
+          "sha256": "bb79d29921e713c431b629e7ec457a6b813656da41bbc47943f51b037a3d025a"
+        }
+      ],
+      "tables": 0
+    },
+    {
+      "id": "KGNT-C21",
+      "slug": "so-sanh-tren-mang",
+      "revision": "c21-draft-r1",
+      "contentHash": "cc19dc5686263516974c33b898a54467858c5ef0df2c500a3a18d50905c84328",
+      "revisionHash": "fd7d13059deeb0935792499ed533c6ed31d646e2e72ddb11a18b875d29ddb0dc",
+      "astNodes": 150,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "post-and-missing-context.svg",
+          "sha256": "0361e599cdba6037aa9e8d8089ca44a2f89c0ce924759c81882a88f2b081cf7e"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-C22",
+      "slug": "dien-thoai-va-chu-y",
+      "revision": "c22-draft-r1",
+      "contentHash": "e8e5d5bb695fb26fc3dde8703f0a5a0e36090767a758b302b0517195c9491b53",
+      "revisionHash": "d5b834746974f5cda059b93bf1b107dace65be4752141cda8836079c98d4690d",
+      "astNodes": 147,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "study-and-contact.svg",
+          "sha256": "100ea5f1a412777c1bfed69c1126adcde3569fb4ccd86a8924c10d7771e94cde"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-C23",
+      "slug": "lop-moi-truong-moi",
+      "revision": "c23-draft-r1",
+      "contentHash": "5bcb2df38bc4cafb1f886162c933385260928c73db1ca9c12845f0632e4639b6",
+      "revisionHash": "b9aeceac67f57240fc29ed41391f57a50d40d1b401825c0731402c4784ca8f04",
+      "astNodes": 125,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "new-school-map.svg",
+          "sha256": "c2086d1ffa0a5fedb503f3e024b9c9332b0cf9d0713480c54d3c8c070ee94905"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-C24",
+      "slug": "kham-pha-tuong-lai",
+      "revision": "c24-draft-r1",
+      "contentHash": "3ecbaf4b33427577bf591cf87001b15fa46e901578779f3de7f8f950e59a0f0c",
+      "revisionHash": "351e7f001b333c43c540bd13125c37932fa47cb0dabd44b47f3a796a5f2ba900",
+      "astNodes": 171,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "exploration-and-reflection.svg",
+          "sha256": "fd3ffdf2f8c4a3e722377c69bd68806886c21a3f24e5134e8ca100e289e944d9"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-E01",
+      "slug": "mbti-va-16-kieu-tinh-cach",
+      "revision": "e01-draft-r1",
+      "contentHash": "dee659a32ce1d4dc5c998c2495814773077c7a1159f3092978cdf900145cd1be",
+      "revisionHash": "f1382641d1c0ce3d7ad6d3aadfebb9babccd5443ec412a4168dc32b5cb9b2123",
+      "astNodes": 194,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "tool-result-conclusion.svg",
+          "sha256": "27ba1e4dd5442cd8103d5dbd8b02fd8128aa566c6bd3db390f848179921d3d1e"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-E02",
+      "slug": "big-five",
+      "revision": "e02-draft-r1",
+      "contentHash": "ffe397b0bc53d8cb2a4588e6db48332a48f8c95f540b650243a05f1052ddc4c9",
+      "revisionHash": "a93518dc6c5dde8a4520310bb19dedc633a2eb3dcca0876c133a559af663b542",
+      "astNodes": 193,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "five-dimensions.svg",
+          "sha256": "5619b9549b3671c64f205674867c746493b80e27b9eb5792b3238173fa0b6721"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-E03",
+      "slug": "holland-riasec",
+      "revision": "e03-draft-r1",
+      "contentHash": "fa856be71c83416bbc8fd71781d6377f04ea6282d56da5c4555e6ffb51a38405",
+      "revisionHash": "2107bb2ed11cacb5522ad2c8170b5ace2bae7b7a8c366ed9dcbab2bde39cd302",
+      "astNodes": 194,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "six-interest-directions.svg",
+          "sha256": "418ef31a22f48d6667a5141cf4ad0bb1555022358a6d44430b26b5af008a2632"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-E04",
+      "slug": "stress-va-cong-cu-sang-loc",
+      "revision": "e04-draft-r1",
+      "contentHash": "47c9f116ee1372032688356f2a3c2cec78128639ee61688212a121c14a489c51",
+      "revisionHash": "aa82fa985aab5c1958c65b2d11892c406f490bcd1f44965653342e4e81b72666",
+      "astNodes": 198,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "score-context-support.svg",
+          "sha256": "8ff5995d17c89d9d171fd31458db6be85f38786606fbb50d4128f1e7b8fc9c00"
+        }
+      ],
+      "tables": 1
+    },
+    {
+      "id": "KGNT-E05",
+      "slug": "phong-cach-hoc-tap",
+      "revision": "e05-draft-r2",
+      "contentHash": "4ac983b803e6741fcc63f88cbe88cd4abcf7d2f576d53ac0157da0ee42d8409e",
+      "revisionHash": "6e00062e6890f9d2dd9d32d2b48474826381e4164a192fcd0ac36cfad6378b9d",
+      "astNodes": 292,
+      "figures": 1,
+      "svg": [
+        {
+          "key": "claim-to-practice.svg",
+          "sha256": "674ada70eeba61995bdc7df14fc1ca0deea51ee8fed949774dee44846aac9d7c"
+        }
+      ],
+      "tables": 2
+    }
+  ]
+}

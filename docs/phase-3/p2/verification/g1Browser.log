@@ -1,0 +1,29 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:g1:browser
+> playwright test -c playwright.g1.config.ts
+
+[WebServer] (node:18972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:18985) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 9 tests using 1 worker
+
+(node:19004) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/reflection.spec.ts:17:57 › G1 private canary, edit/clear/release and HTTP/storage/URL/console reduce (1.8s)
+  ✓  2 tests/reflection.spec.ts:17:57 › G1 private canary, edit/clear/release and HTTP/storage/URL/console no-preference (2.3s)
+  ✓  3 tests/reflection.spec.ts:34:1 › G1 same-tick submit, Unicode limit, bounded timers, pagehide/pageshow and unmount (13.3s)
+  ✓  4 tests/reflection.spec.ts:49:1 › G1 anchors/history retain draft; route/reload discard; visibility alone retains (4.8s)
+  ✓  5 tests/reflection.spec.ts:57:39 › G1 keyboard, skip, copy, Axe and responsive 320 (7.6s)
+  ✓  6 tests/reflection.spec.ts:57:39 › G1 keyboard, skip, copy, Axe and responsive 390 (7.0s)
+  ✓  7 tests/reflection.spec.ts:57:39 › G1 keyboard, skip, copy, Axe and responsive 768 (7.1s)
+  ✓  8 tests/reflection.spec.ts:57:39 › G1 keyboard, skip, copy, Axe and responsive 1440 (6.8s)
+  ✓  9 tests/reflection.spec.ts:69:1 › G1 reduced motion and 200%-equivalent reflow (not native zoom) (3.0s)
+
+  9 passed (56.4s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

@@ -1,6 +1,11 @@
 import type { EditorialStatus, LegacyPublication } from './source-contract'
 export type Status = EditorialStatus
 export interface Article {
+  id?: string
+  revision?: string
+  collection?: string
+  relatedSlugs?: string[]
+  document?: import('../src/reading/markdown/model.ts').ReaderDocument
   slug: string; title: string; description: string; topic: string; season: string;
   keywords: string[]; status: Status; updated: string; readingMinutes: number;
   sections: {id: string; heading: string; paragraphs: string[]; note?: string}[];

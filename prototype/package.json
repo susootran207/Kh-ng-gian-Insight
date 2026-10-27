@@ -26,7 +26,10 @@
     "test:d1": "tsc -p tsconfig.d1.json && node --experimental-strip-types --test --test-isolation=none tests/flow.test.mts",
     "test:d1:browser": "playwright test -c playwright.d1.config.ts",
     "test:g1": "tsc -p tsconfig.g1.json && node --experimental-strip-types --test --test-isolation=none tests/lantern-lifetime.test.mts",
-    "test:g1:browser": "playwright test -c playwright.g1.config.ts"
+    "test:g1:browser": "playwright test -c playwright.g1.config.ts",
+    "dev:full-library-preview": "vite --config vite.p2.config.ts --host 127.0.0.1",
+    "test:p2": "tsc -p tsconfig.p2.json && node --experimental-strip-types --test --test-isolation=none tests/public-library.test.mts",
+    "test:p2:browser": "playwright test -c playwright.p2.config.ts"
   },
   "dependencies": {
     "@fontsource/be-vietnam-pro": "^5.2.8",

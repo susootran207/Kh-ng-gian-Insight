@@ -5,7 +5,7 @@ import type { Catalogue } from '../editorial/schema.ts'
 import type { SourceManifest } from '../editorial/source-contract.ts'
 import { assertLegacyPublication, canonical, readReference, requireThat, sha256, validateManifest, safeFile } from './content-contract.ts'
 
-import { selectWeekly } from './weekly.ts'
+import { selectPublicWeekly } from './weekly.ts'
 import type { WeeklyRegistry } from '../editorial/weekly-contract.ts'
 
 export const FIXTURE_SENTINEL = 'F0_FIXTURE_ONLY_'
@@ -38,13 +38,14 @@ export function createBoundary(root: string, manifest: SourceManifest, catalogue
   validateManifest(manifest, root)
   for (const item of [...catalogue.articles, ...catalogue.topics]) if (item.status === 'published') assertLegacyPublication(root, item)
   const authorizedText: string[] = [], publicAssetHashes = new Set<string>()
-  for (const item of [...catalogue.articles, ...catalogue.topics]) if (item.status === 'published') authorizedText.push(normalize(JSON.stringify(item)))
+  const reserved = new Set(manifest.articles.map(a=>a.slug))
+  for (const item of [...catalogue.articles, ...catalogue.topics]) if (item.status === 'published' && !('sections' in item && reserved.has(item.slug))) authorizedText.push(normalize(JSON.stringify(item)))
   const weeklyMarkers: string[] = []
   // Real repository builds require the registry. Old F0 fixtures pass a catalogue
   // in memory and do not represent a website checkout.
   if (existsSync(resolve(root, 'prototype/editorial/catalogue.json'))) {
     const registry: WeeklyRegistry = JSON.parse(readFileSync(safeFile(root, 'prototype/editorial/weekly.json'), 'utf8'))
-    const weekly = selectWeekly(registry, catalogue, root)
+    const weekly = selectPublicWeekly(registry, catalogue, root, Date.now(), manifest)
     const visible = new Set(weekly.topics.map(t => t.id))
     authorizedText.push(...weekly.topics.map(t => normalize(JSON.stringify(t))))
     for (const t of registry.topics.filter(t => !visible.has(t.id))) weeklyMarkers.push(t.id, t.slug, t.title, t.description)
@@ -70,7 +71,7 @@ export function createBoundary(root: string, manifest: SourceManifest, catalogue
       } else { allowedAssets.add(asset.sha256); publicAssetHashes.add(asset.sha256) }
     }
   }
-  for (const a of catalogue.articles.filter(a => a.status !== 'published')) markers.push(a.slug, a.title, a.description, ...a.keywords.filter(k => k.length > 10), ...a.sections.flatMap(s => [s.heading, ...s.paragraphs, ...(s.note ? [s.note] : [])]))
+  for (const a of catalogue.articles.filter(a => a.status !== 'published' || reserved.has(a.slug))) markers.push(a.slug, a.title, a.description, ...a.keywords.filter(k => k.length > 10), ...a.sections.flatMap(s => [s.heading, ...s.paragraphs, ...(s.note ? [s.note] : [])]))
   for (const t of catalogue.topics.filter(t => t.status !== 'published')) markers.push(t.slug, t.title, t.description)
   const legacy = readFileSync(resolve(root, 'prototype/src/reading/homepageContent.ts'), 'utf8')
   for (const match of legacy.matchAll(/'([^'\n]{30,})'/g)) markers.push(match[1])
