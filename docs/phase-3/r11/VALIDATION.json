@@ -1,0 +1,176 @@
+{
+  "baseSHA": "4d434cc25848f2e3e1f381a7361a1afa1180cf6c",
+  "evidenceStatus": "Real activities reported by owner; scoped findings/time/version not yet provided",
+  "existingRecordsValidatedAndUnchanged": 68,
+  "sourceFilesUnchanged": 203,
+  "newF0ReviewRecordsCreated": 0,
+  "newPublicationAuthorizationCreated": 0,
+  "manifest": "PASS unchanged",
+  "typecheckBuild": "PASS actual npm run build, exit0",
+  "scanner": {
+    "files": 29,
+    "withheldArticles": 29,
+    "markerCount": 4375,
+    "sourceView": "public",
+    "publicSourceArticles": 0,
+    "publicLegacyArticles": 0,
+    "publicLegacyTopics": 0,
+    "publicWeeklyTopics": 0,
+    "publicWeeklyArticles": 0,
+    "currentWeeklyId": null,
+    "canary": "detected"
+  },
+  "release": "RELEASE BLOCKED pending scoped human evidence and separate publication decision",
+  "artifactPurpose": "boundary verification only; not complete29 release",
+  "artifactFileListDigestSHA256": "5b488190639d8f08f753314264d7b1be5e4683e7372482cea43fc8224aca67c1",
+  "artifactFiles": [
+    {
+      "path": "assets/be-vietnam-pro-latin-400-normal-PpnXBOrz.woff2",
+      "bytes": 21168,
+      "sha256": "03d1b589cff172e1a670b3573e731d3380bc326f80cf83b0d3504e3188e2e074"
+    },
+    {
+      "path": "assets/be-vietnam-pro-latin-400-normal-bXgqVju9.woff",
+      "bytes": 16432,
+      "sha256": "c0190200223755a3c52bb47b9cf6c3604f19288599cfbbe5026904d5d439f7d7"
+    },
+    {
+      "path": "assets/be-vietnam-pro-latin-500-normal-B6LVzGNe.woff2",
+      "bytes": 21892,
+      "sha256": "b621f77d35f777023aa11ca524462d511b4b28a813adbc0e9d15a10fc61dfe4e"
+    },
+    {
+      "path": "assets/be-vietnam-pro-latin-500-normal-BJkVuMHw.woff",
+      "bytes": 16996,
+      "sha256": "0a905f6bc6f1120d20ad3dde690989db3149a98227026f2de47dca6aef71edab"
+    },
+    {
+      "path": "assets/be-vietnam-pro-vietnamese-400-normal-BuGn0gnm.woff",
+      "bytes": 6568,
+      "sha256": "4d50c7991ca377aef28fb1fb24d4ce7ea64d69f6bd2661e7e74fb9d9fef11dc0"
+    },
+    {
+      "path": "assets/be-vietnam-pro-vietnamese-400-normal-CRcqvyg1.woff2",
+      "bytes": 11532,
+      "sha256": "dc085e2fba3414e5c5bf1e6172f921a9f81c5859946a4ed3d63c1e470d96a9e2"
+    },
+    {
+      "path": "assets/be-vietnam-pro-vietnamese-500-normal-CfdwVo8-.woff",
+      "bytes": 6884,
+      "sha256": "6b81283a46623b9a99bc7a1800f936549ead1f871d1dfcd803ddcd18c433a7d8"
+    },
+    {
+      "path": "assets/be-vietnam-pro-vietnamese-500-normal-DREgrEoJ.woff2",
+      "bytes": 12172,
+      "sha256": "86341610cbe907eecf461c9159c168d5efb52bb1a33963813a08f520555d8e66"
+    },
+    {
+      "path": "assets/cormorant-garamond-latin-400-normal-B-1hWBU7.woff2",
+      "bytes": 22876,
+      "sha256": "8048ac209bec741e1c29cd0cfac5aac1c0c2ba8c3ddbd4a58fa9bd92ef5c63c2"
+    },
+    {
+      "path": "assets/cormorant-garamond-latin-400-normal-B7YtguxJ.woff",
+      "bytes": 30980,
+      "sha256": "b926f33f9d3d5cb64e639b8fe9ad5380560a63f3e7a29d212f2b80a2d22ec051"
+    },
+    {
+      "path": "assets/cormorant-garamond-latin-500-normal-BsRWmXhO.woff2",
+      "bytes": 23312,
+      "sha256": "8197bf53615ddc8c423f444c7f0eec63b7fa0ba093fcfbec60dfdd28429b0fc8"
+    },
+    {
+      "path": "assets/cormorant-garamond-latin-500-normal-zIXX3Q-H.woff",
+      "bytes": 31372,
+      "sha256": "314ee3edd5ddcdef5cf2374c1126b8be9f7f1ebd6c5c66a23c237f3b836a3ec1"
+    },
+    {
+      "path": "assets/cormorant-garamond-vietnamese-400-normal-4uxlocMh.woff",
+      "bytes": 9316,
+      "sha256": "d2eac685abd3003ac60c4a208fe1d2febceba397964db73df656b1d2d62e2b24"
+    },
+    {
+      "path": "assets/cormorant-garamond-vietnamese-400-normal-6K-YXo6g.woff2",
+      "bytes": 6744,
+      "sha256": "eddcd28ffd8e111c669789b2978019359bb67b2e2696e566364fd37133c20a3b"
+    },
+    {
+      "path": "assets/cormorant-garamond-vietnamese-500-normal-BZGLGj12.woff2",
+      "bytes": 6756,
+      "sha256": "f245c41ee20c58be0acd85ac9e3060f8ff9a2dba455892ff37c1e11b9133eda0"
+    },
+    {
+      "path": "assets/cormorant-garamond-vietnamese-500-normal-DqXqCC0q.woff",
+      "bytes": 9332,
+      "sha256": "b981d0af206e554e32a75cd806da1c266576843e6696d5df8d32f43e26935848"
+    },
+    {
+      "path": "assets/index-Bm2K5ivj.css",
+      "bytes": 46721,
+      "sha256": "47c9d093b64fe135eb5d24cc26c316fcc253c03ad4e7116bd1fbd626862764e9"
+    },
+    {
+      "path": "assets/index-DWDQlE_Q.js",
+      "bytes": 337765,
+      "sha256": "9f4304dde482a5673fcde6c689e8b5b719dc5b247b725a5a4a651460fa86c541"
+    },
+    {
+      "path": "canopy-blooms-small.webp",
+      "bytes": 156904,
+      "sha256": "467968d204d68ca56f6d855194ed0b8d2c52c0af96accd506dffed898b0d6826"
+    },
+    {
+      "path": "canopy-blooms.webp",
+      "bytes": 557870,
+      "sha256": "9c88e0118f1b8291e5e8057f04082e735798923ebe36bc4e543abf9e3eb62f1c"
+    },
+    {
+      "path": "canopy-foreground-small.webp",
+      "bytes": 176208,
+      "sha256": "354bd3e244ba445e7652fb11b3a2c73fd5d5fc50fa382aafe105c4a28ff6dcf2"
+    },
+    {
+      "path": "canopy-foreground.webp",
+      "bytes": 669424,
+      "sha256": "90b30b914f07897c9d4611c96b681c225916c8828b7bea4333b281681a967fc5"
+    },
+    {
+      "path": "canopy-roof-small.webp",
+      "bytes": 148676,
+      "sha256": "e3c0265be5a6661d828092dcb48403e4aea33474da1d65670853d5051196b578"
+    },
+    {
+      "path": "canopy-roof.webp",
+      "bytes": 596702,
+      "sha256": "e9c72a0a778b242d3adfb1d0121d41768ebe117191c57cf5fa54b8d91cb29e54"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 288,
+      "sha256": "c16a606a406b2e2108455005aade9730523a83a3fcb508576fcb69c5fef397fc"
+    },
+    {
+      "path": "garden.webp",
+      "bytes": 377232,
+      "sha256": "7ffbfbe38e2825f6ad5ccc77bb2af68166b4c1a332e25a5c0f7570b935472e41"
+    },
+    {
+      "path": "index.html",
+      "bytes": 937,
+      "sha256": "1bfcf710a599fa254d4258a22270e6f2c5aa89e1b20d863cc37e351f2ebb1186"
+    },
+    {
+      "path": "licenses/Be-Vietnam-Pro-OFL.txt",
+      "bytes": 6476,
+      "sha256": "0bd4db1cda123af9d91794b0f98324b7d7d81aef0fcaf78c433160153f2c6f25"
+    },
+    {
+      "path": "licenses/Cormorant-Garamond-OFL.txt",
+      "bytes": 4504,
+      "sha256": "732f37009943e7f4378cf37113c9bcc4716af002a8583511aa91ed5d37683e73"
+    }
+  ],
+  "q1": "Reused by source/asset hashes; no new human result inferred",
+  "CI": "F0–W2 status linked in Draft PR after actual verification",
+  "deployment": "NOT PERFORMED"
+}
