@@ -1,0 +1,21 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:c1:browser
+> playwright test -c playwright.c1.config.ts
+
+
+Running 8 tests using 1 worker
+
+  ✓  1 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 320 (35.5s)
+  ✓  2 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 390 (37.8s)
+  ✓  3 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 768 (38.4s)
+  ✓  4 tests/c1-preview.spec.ts:13:41 › 29/29 source→AST→DOM, SVG, links, responsive and Axe at 1440 (43.4s)
+  ✓  5 tests/c1-preview.spec.ts:58:1 › library 29 routes, Vietnamese search, stages/topics/group, history and return through related (9.2s)
+  ✓  6 tests/c1-preview.spec.ts:93:1 › C01/C05/E02 figure keyboard, reduced motion, skip, and emulated 200% reflow (17.2s)
+  ✓  7 tests/c1-preview.spec.ts:108:1 › loopback HTTP boundary, all asset hashes, unknown/query/traversal and raw dossier rejection (662ms)
+  ✓  8 tests/c1-preview.spec.ts:116:1 › library responsive, keyboard menu and Axe at four widths (8.0s)
+
+  8 passed (3.2m)
+[WebServer] (node:2268) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+(node:2290) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

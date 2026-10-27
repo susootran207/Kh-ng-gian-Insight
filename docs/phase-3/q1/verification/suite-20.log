@@ -1,0 +1,27 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:production
+> playwright test -c playwright.production.config.ts
+
+
+Running 14 tests using 1 worker
+
+  ✓   1 tests/production.spec.ts:8:39 › production repository path, local assets, reload and draft exclusion 320 (1.6s)
+  ✓   2 tests/production.spec.ts:8:39 › production repository path, local assets, reload and draft exclusion 390 (1.5s)
+  ✓   3 tests/production.spec.ts:8:39 › production repository path, local assets, reload and draft exclusion 768 (1.7s)
+  ✓   4 tests/production.spec.ts:8:39 › production repository path, local assets, reload and draft exclusion 1440 (2.0s)
+  ✓   5 tests/production.spec.ts:24:1 › R1 fixture route, query, harness and raw assets stay excluded from production (678ms)
+  ✓   6 tests/production.spec.ts:33:1 › C1: all 29 direct routes, preview/raw drafts/dossiers/SVG and query stay excluded (2.1s)
+  ✓   7 tests/production.spec.ts:47:1 › W1 real empty state, direct topic/query and fixture/registry exclusion (948ms)
+  ✓   8 tests/production.spec.ts:59:1 › N1 foundation direct repository URL, reload, anchors and safe destinations (1.2s)
+  ✓   9 tests/production.spec.ts:72:39 › D1 production empty, direct/reload, all stage filters and fixture exclusion 320 (1.7s)
+  ✓  10 tests/production.spec.ts:72:39 › D1 production empty, direct/reload, all stage filters and fixture exclusion 390 (1.7s)
+  ✓  11 tests/production.spec.ts:72:39 › D1 production empty, direct/reload, all stage filters and fixture exclusion 768 (1.8s)
+  ✓  12 tests/production.spec.ts:72:39 › D1 production empty, direct/reload, all stage filters and fixture exclusion 1440 (1.7s)
+  ✓  13 tests/production.spec.ts:84:1 › G1 production: canary never transmits/persists; clear/release/skip and N1 consistency (1.0s)
+  ✓  14 tests/production.spec.ts:98:1 › W2 drafts/future/clock controls never enter public routes or resources (940ms)
+
+  14 passed (22.1s)
+[WebServer] (node:9360) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+(node:9372) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

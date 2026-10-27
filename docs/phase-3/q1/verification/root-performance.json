@@ -1,0 +1,416 @@
+[
+  {
+    "navigation": {
+      "name": "http://127.0.0.1:4181/#/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 168.40000000002328,
+      "navigationId": 2868,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.0",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5999999999767169,
+      "domainLookupStart": 0.5999999999767169,
+      "domainLookupEnd": 0.5999999999767169,
+      "connectStart": 0.5999999999767169,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5999999999767169,
+      "requestStart": 1.5,
+      "responseStart": 3.199999999953434,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 3.199999999953434,
+      "responseEnd": 3.599999999976717,
+      "transferSize": 1237,
+      "encodedBodySize": 937,
+      "decodedBodySize": 937,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 57.90000000002328,
+      "domContentLoadedEventStart": 168.19999999995343,
+      "domContentLoadedEventEnd": 168.30000000004657,
+      "domComplete": 168.40000000002328,
+      "loadEventStart": 168.40000000002328,
+      "loadEventEnd": 168.40000000002328,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:4181/assets/index-Cf2XVLlF.js",
+        "transferSize": 338065,
+        "duration": 27.199999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/index-Bm2K5ivj.css",
+        "transferSize": 47021,
+        "duration": 23
+      },
+      {
+        "name": "http://127.0.0.1:4181/canopy-roof-small.webp",
+        "transferSize": 148976,
+        "duration": 2.799999999930151
+      },
+      {
+        "name": "http://127.0.0.1:4181/canopy-blooms-small.webp",
+        "transferSize": 157204,
+        "duration": 8.699999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4181/canopy-foreground-small.webp",
+        "transferSize": 176508,
+        "duration": 14.600000000093132
+      },
+      {
+        "name": "http://127.0.0.1:4181/garden.webp",
+        "transferSize": 377532,
+        "duration": 13.900000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-vietnamese-500-normal-BZGLGj12.woff2",
+        "transferSize": 7056,
+        "duration": 151.69999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-vietnamese-400-normal-CRcqvyg1.woff2",
+        "transferSize": 11832,
+        "duration": 151.09999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-vietnamese-500-normal-DREgrEoJ.woff2",
+        "transferSize": 12472,
+        "duration": 151.30000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-vietnamese-400-normal-6K-YXo6g.woff2",
+        "transferSize": 7044,
+        "duration": 151.5
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-latin-500-normal-BsRWmXhO.woff2",
+        "transferSize": 23612,
+        "duration": 55.09999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-latin-400-normal-PpnXBOrz.woff2",
+        "transferSize": 21468,
+        "duration": 55.699999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-latin-400-normal-B-1hWBU7.woff2",
+        "transferSize": 23176,
+        "duration": 57.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-latin-500-normal-B6LVzGNe.woff2",
+        "transferSize": 22192,
+        "duration": 56.5
+      },
+      {
+        "name": "http://127.0.0.1:4181/favicon.svg",
+        "transferSize": 588,
+        "duration": 3.400000000023283
+      }
+    ],
+    "long": [
+      215
+    ],
+    "shifts": [
+      0.000355593690645774
+    ]
+  },
+  {
+    "navigation": {
+      "name": "http://127.0.0.1:4181/#/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 138.29999999993015,
+      "navigationId": 4189,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.0",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.8999999999068677,
+      "domainLookupStart": 0.8999999999068677,
+      "domainLookupEnd": 0.8999999999068677,
+      "connectStart": 0.8999999999068677,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.8999999999068677,
+      "requestStart": 1.7999999999301508,
+      "responseStart": 3.199999999953434,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 3.199999999953434,
+      "responseEnd": 5,
+      "transferSize": 1237,
+      "encodedBodySize": 937,
+      "decodedBodySize": 937,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 24.699999999953434,
+      "domContentLoadedEventStart": 138.19999999995343,
+      "domContentLoadedEventEnd": 138.29999999993015,
+      "domComplete": 138.29999999993015,
+      "loadEventStart": 138.29999999993015,
+      "loadEventEnd": 138.29999999993015,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:4181/assets/index-Cf2XVLlF.js",
+        "transferSize": 338065,
+        "duration": 54.89999999990687
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/index-Bm2K5ivj.css",
+        "transferSize": 47021,
+        "duration": 50.699999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4181/canopy-roof-small.webp",
+        "transferSize": 148976,
+        "duration": 8.599999999976717
+      },
+      {
+        "name": "http://127.0.0.1:4181/canopy-blooms-small.webp",
+        "transferSize": 157204,
+        "duration": 7.099999999976717
+      },
+      {
+        "name": "http://127.0.0.1:4181/canopy-foreground-small.webp",
+        "transferSize": 176508,
+        "duration": 13.5
+      },
+      {
+        "name": "http://127.0.0.1:4181/garden.webp",
+        "transferSize": 377532,
+        "duration": 12.199999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-vietnamese-500-normal-BZGLGj12.woff2",
+        "transferSize": 7056,
+        "duration": 135.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-vietnamese-400-normal-CRcqvyg1.woff2",
+        "transferSize": 11832,
+        "duration": 136.70000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-vietnamese-500-normal-DREgrEoJ.woff2",
+        "transferSize": 12472,
+        "duration": 137.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-vietnamese-400-normal-6K-YXo6g.woff2",
+        "transferSize": 7044,
+        "duration": 138.80000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-latin-500-normal-BsRWmXhO.woff2",
+        "transferSize": 23612,
+        "duration": 61.800000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-latin-400-normal-PpnXBOrz.woff2",
+        "transferSize": 21468,
+        "duration": 61
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-latin-400-normal-B-1hWBU7.woff2",
+        "transferSize": 23176,
+        "duration": 60
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-latin-500-normal-B6LVzGNe.woff2",
+        "transferSize": 22192,
+        "duration": 58.09999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4181/favicon.svg",
+        "transferSize": 588,
+        "duration": 5.900000000023283
+      }
+    ],
+    "long": [
+      248
+    ],
+    "shifts": [
+      0.000355593690645774
+    ]
+  },
+  {
+    "navigation": {
+      "name": "http://127.0.0.1:4181/#/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 135.20000000006985,
+      "navigationId": 472,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.0",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.8000000000465661,
+      "domainLookupStart": 0.8000000000465661,
+      "domainLookupEnd": 0.8000000000465661,
+      "connectStart": 0.8000000000465661,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.8000000000465661,
+      "requestStart": 2,
+      "responseStart": 3.700000000069849,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 3.700000000069849,
+      "responseEnd": 4,
+      "transferSize": 1237,
+      "encodedBodySize": 937,
+      "decodedBodySize": 937,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 66.30000000004657,
+      "domContentLoadedEventStart": 134.09999999997672,
+      "domContentLoadedEventEnd": 134.09999999997672,
+      "domComplete": 135.20000000006985,
+      "loadEventStart": 135.20000000006985,
+      "loadEventEnd": 135.20000000006985,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:4181/assets/index-Cf2XVLlF.js",
+        "transferSize": 338065,
+        "duration": 55
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/index-Bm2K5ivj.css",
+        "transferSize": 47021,
+        "duration": 43.09999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4181/canopy-roof-small.webp",
+        "transferSize": 148976,
+        "duration": 5.400000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4181/canopy-blooms-small.webp",
+        "transferSize": 157204,
+        "duration": 7.700000000069849
+      },
+      {
+        "name": "http://127.0.0.1:4181/canopy-foreground-small.webp",
+        "transferSize": 176508,
+        "duration": 8
+      },
+      {
+        "name": "http://127.0.0.1:4181/garden.webp",
+        "transferSize": 377532,
+        "duration": 7.400000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-vietnamese-500-normal-BZGLGj12.woff2",
+        "transferSize": 7056,
+        "duration": 119.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-vietnamese-400-normal-CRcqvyg1.woff2",
+        "transferSize": 11832,
+        "duration": 123.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-vietnamese-500-normal-DREgrEoJ.woff2",
+        "transferSize": 12472,
+        "duration": 126.69999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-vietnamese-400-normal-6K-YXo6g.woff2",
+        "transferSize": 7044,
+        "duration": 128.20000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-latin-500-normal-BsRWmXhO.woff2",
+        "transferSize": 23612,
+        "duration": 70.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-latin-400-normal-PpnXBOrz.woff2",
+        "transferSize": 21468,
+        "duration": 57.89999999990687
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/cormorant-garamond-latin-400-normal-B-1hWBU7.woff2",
+        "transferSize": 23176,
+        "duration": 63.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4181/assets/be-vietnam-pro-latin-500-normal-B6LVzGNe.woff2",
+        "transferSize": 22192,
+        "duration": 65.20000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4181/favicon.svg",
+        "transferSize": 588,
+        "duration": 30.5
+      }
+    ],
+    "long": [
+      233
+    ],
+    "shifts": [
+      0.0004025599477682811
+    ]
+  }
+]

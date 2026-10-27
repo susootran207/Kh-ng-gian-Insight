@@ -1,0 +1,18 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:p2:browser
+> playwright test -c playwright.p2.config.ts
+
+
+Running 5 tests using 1 worker
+
+  ✓  1 tests/p2-library.spec.ts:8:39 › P2 full site: 29 complete Readers, library/flow at 320 (13.1s)
+  ✓  2 tests/p2-library.spec.ts:8:39 › P2 full site: 29 complete Readers, library/flow at 390 (13.6s)
+  ✓  3 tests/p2-library.spec.ts:8:39 › P2 full site: 29 complete Readers, library/flow at 768 (13.8s)
+  ✓  4 tests/p2-library.spec.ts:8:39 › P2 full site: 29 complete Readers, library/flow at 1440 (16.3s)
+  ✓  5 tests/p2-library.spec.ts:36:1 › P2 filters/history/reader return/keyboard/figure/local-only boundary (7.2s)
+
+  5 passed (1.1m)
+[WebServer] (node:6516) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+(node:6537) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

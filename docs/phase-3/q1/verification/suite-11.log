@@ -1,0 +1,27 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:r1:browser
+> playwright test -c playwright.r1.config.ts
+
+
+Running 8 tests using 1 worker
+
+  ✓  1 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 320 (2.7s)
+  ✓  2 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 390 (2.5s)
+  ✓  3 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 768 (2.1s)
+  ✓  4 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 1440 (2.3s)
+  ✓  5 tests/r1-reader.spec.ts:53:1 › TOC/hash/reload, source anchors, skip link, and return to the actual legacy library with filters (2.3s)
+  ✓  6 tests/r1-reader.spec.ts:74:1 › long figure: keyboard open, zoom, scroll, focus trap, Escape and return focus under reduced motion (2.4s)
+  ✓  7 tests/r1-reader.spec.ts:100:1 › 200%-equivalent desktop reflow: 720 CSS px at DPR2, no clipped text or controls (1.2s)
+  ✓  8 tests/r1-reader.spec.ts:113:1 › fixture asset allowlist and direct source access do not open real drafts (42ms)
+
+  8 passed (19.5s)
+[WebServer] (node:1759) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+(node:1782) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] The request id "/workspace/Kho-ng-gian-Insight/work/q1/docs/phase-3/drafts/C01/ARTICLE.md" is outside of Vite serving allow list.
+[WebServer] 
+[WebServer] - /workspace/Kho-ng-gian-Insight/work/q1/prototype
+[WebServer] 
+[WebServer] Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+[WebServer] 

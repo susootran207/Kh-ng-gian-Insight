@@ -1,0 +1,20 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:w2:browser
+> playwright test -c playwright.w2.config.ts
+
+
+Running 7 tests using 1 worker
+
+  ✓  1 tests/weekly-editorial.spec.ts:7:39 › W2 current/past/upcoming and shared29 Library 320 (5.3s)
+  ✓  2 tests/weekly-editorial.spec.ts:7:39 › W2 current/past/upcoming and shared29 Library 390 (4.3s)
+  ✓  3 tests/weekly-editorial.spec.ts:7:39 › W2 current/past/upcoming and shared29 Library 768 (4.7s)
+  ✓  4 tests/weekly-editorial.spec.ts:7:39 › W2 current/past/upcoming and shared29 Library 1440 (4.8s)
+  ✓  5 tests/weekly-editorial.spec.ts:29:1 › W2 switch all10 weeks, before/after, rollback, future detail and malformed clock (32.0s)
+  ✓  6 tests/weekly-editorial.spec.ts:41:1 › W2 loopback/no-store/raw registry and source boundaries (75ms)
+  ✓  7 tests/weekly-editorial.spec.ts:48:1 › W2 preview control keyboard and Axe (9.7s)
+
+  7 passed (1.1m)
+[WebServer] (node:7102) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+(node:7122) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

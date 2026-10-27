@@ -1,0 +1,9 @@
+error during build:
+Error: Content contract: P2 preview is serve-only on 127.0.0.1:4197
+    at requireThat (file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/.vite-temp/vite.p2.config.ts.timestamp-1793084162090-7182dd4bf2bfd.mjs:24:18)
+    at BasicMinimalPluginContext.configResolved (file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/.vite-temp/vite.p2.config.ts.timestamp-1793084162090-7182dd4bf2bfd.mjs:864:9)
+    at file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/vite/dist/node/chunks/config.js:35933:87
+    at Array.map (<anonymous>)
+    at resolveConfig (file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/vite/dist/node/chunks/config.js:35933:68)
+    at async createBuilder (file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/vite/dist/node/chunks/config.js:34126:19)
+    at async CAC.<anonymous> (file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/vite/dist/node/cli.js:629:10)

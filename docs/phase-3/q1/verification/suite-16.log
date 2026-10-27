@@ -1,0 +1,22 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:g1:browser
+> playwright test -c playwright.g1.config.ts
+
+
+Running 9 tests using 1 worker
+
+  ✓  1 tests/reflection.spec.ts:17:57 › G1 private canary, edit/clear/release and HTTP/storage/URL/console reduce (2.2s)
+  ✓  2 tests/reflection.spec.ts:17:57 › G1 private canary, edit/clear/release and HTTP/storage/URL/console no-preference (2.3s)
+  ✓  3 tests/reflection.spec.ts:34:1 › G1 same-tick submit, Unicode limit, bounded timers, pagehide/pageshow and unmount (10.2s)
+  ✓  4 tests/reflection.spec.ts:49:1 › G1 anchors/history retain draft; route/reload discard; visibility alone retains (2.9s)
+  ✓  5 tests/reflection.spec.ts:57:39 › G1 keyboard, skip, copy, Axe and responsive 320 (3.9s)
+  ✓  6 tests/reflection.spec.ts:57:39 › G1 keyboard, skip, copy, Axe and responsive 390 (4.0s)
+  ✓  7 tests/reflection.spec.ts:57:39 › G1 keyboard, skip, copy, Axe and responsive 768 (4.1s)
+  ✓  8 tests/reflection.spec.ts:57:39 › G1 keyboard, skip, copy, Axe and responsive 1440 (4.4s)
+  ✓  9 tests/reflection.spec.ts:69:1 › G1 reduced motion and 200%-equivalent reflow (not native zoom) (1.6s)
+
+  9 passed (38.2s)
+[WebServer] (node:5884) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+(node:5904) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

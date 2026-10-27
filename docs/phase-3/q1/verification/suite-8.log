@@ -1,0 +1,20 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:p2
+> tsc -p tsconfig.p2.json && node --experimental-strip-types --test --test-isolation=none tests/public-library.test.mts
+
+✔ P2: real production remains empty; all 203 pinned files stay intact (224.523881ms)
+✔ P2: 29 synthetic F0-eligible sources compile fully without a fixed limit (159.268128ms)
+✔ P2: 30 synthetic F0-eligible sources compile fully without a fixed limit (120.091344ms)
+✔ P2: withheld, missing rights/proof or stale approval never enter the adapter (4.724269ms)
+✔ P2: isolated production build carries 29 eligible synthetic Readers/SVGs and passes the real scanner (2417.922989ms)
+✔ P2: weekly is a highlighted subset; changing the week preserves the whole source Library (402.696033ms)
+✔ P2: a granted legacy collision cannot substitute for the withheld source revision (9.080852ms)
+✔ P2: an empty-content preview module is rejected by the production graph guard (212.246925ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3689.895058

@@ -1,0 +1,22 @@
+import {test,expect} from '@playwright/test'
+import AxeBuilder from '@axe-core/playwright'
+import {writeFileSync,mkdirSync} from 'node:fs'
+const out='test-results-q1-'+(process.env.Q1_TARGET||'preview')+'-evidence';mkdirSync(out,{recursive:true})
+test('large viewport, route recovery and repeated cross-system navigation',async({page})=>{
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message))
+ await page.setViewportSize({width:1920,height:1080});await page.emulateMedia({reducedMotion:'reduce'})
+ for(let i=0;i<3;i++)for(const route of ['/','/nen-tang','/thu-vien','/dong-chay','/chuyen-de','/missing-q1']){
+ await page.goto('./#'+route);await expect(page.locator('main')).toBeVisible();await page.evaluate(()=>document.fonts.ready)
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true)
+ if(i===0){expect((await new AxeBuilder({page}).include('main').withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);await page.screenshot({path:out+'/'+(route.replaceAll('/','')||'home')+'-1920.jpg',fullPage:true})}
+ await page.reload();await expect(page.locator('main')).toBeVisible()
+ }expect(errors).toEqual([])
+})
+test('local navigation performance observations, three cold contexts',async({browser})=>{
+ const samples=[];for(let i=0;i<3;i++){const context=await browser.newContext({viewport:{width:390,height:900},reducedMotion:'reduce'});const p=await context.newPage();await p.addInitScript(()=>{(window as any).q1={long:[],shifts:[]};new PerformanceObserver(list=>{for(const e of list.getEntries())(window as any).q1.long.push(e.duration)}).observe({type:'longtask',buffered:true});new PerformanceObserver(list=>{for(const e of list.getEntries())if(!(e as any).hadRecentInput)(window as any).q1.shifts.push((e as any).value)}).observe({type:'layout-shift',buffered:true})});await p.goto('./#/');await p.evaluate(()=>document.fonts.ready);await p.waitForTimeout(1500);samples.push(await p.evaluate(()=>({navigation:performance.getEntriesByType('navigation')[0].toJSON(),resources:performance.getEntriesByType('resource').map((x:any)=>({name:x.name,transferSize:x.transferSize,duration:x.duration})),...((window as any).q1)})));await context.close()}writeFileSync(out+'/performance.json',JSON.stringify(samples,null,2))
+})
+test('record local asset response MIME and cache headers',async({page,request})=>{
+ await page.goto('./#/');await page.evaluate(()=>document.fonts.ready)
+ const urls=await page.evaluate(()=>[location.href.split('#')[0],new URL('./favicon.svg',location.href.split('#')[0]).href,...performance.getEntriesByType('resource').map(x=>x.name)])
+ const records=[];for(const url of [...new Set(urls)]){const r=await request.get(url);expect(r.status()).toBe(200);records.push({url,status:r.status(),type:r.headers()['content-type'],cache:r.headers()['cache-control']||null})}writeFileSync(out+'/http-assets.json',JSON.stringify(records,null,2))
+})

@@ -1,0 +1,410 @@
+[
+  {
+    "url": "http://127.0.0.1:4198/",
+    "status": 200,
+    "type": "text/html",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/favicon.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/@vite/client",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/main.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/weekly-preview/controls.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/@react-refresh",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/vite/dist/client/env.mjs",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=59c643c3",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/.vite/deps/react.js?v=59c643c3",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/.vite/deps/react-dom_client.js?v=80bd0cd4",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/latin-400.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/vietnamese-400.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/latin-500.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/vietnamese-500.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/latin-400.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/vietnamese-400.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/latin-500.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/vietnamese-500.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/Router.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/styles/global.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/styles/atmosphere.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/weekly.ts",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/.vite/deps/chunk-MH747SHV.js?v=b3c1f6f8",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/.vite/deps/react-router-dom.js?v=457f16b7",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/App.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/FoundationPage.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/FlowPage.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/ArticleCard.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/markdown/ArticleReader.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/stages.ts",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/components/Icons.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/content.ts",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/ReadingShell.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/@id/__x00__virtual:w2-preview",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/WeeklySection.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/components/GardenAtmosphere.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/components/CatGarden.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/components/LanternGarden.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/content.ts",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/styles/foundation.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/styles/flow.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/markdown/model.ts",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/styles/markdown-reader.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/.vite/deps/chunk-ZWACZU4U.js?v=b3c1f6f8",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/@id/__x00__virtual:p2-fixture",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/styles/reading.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/components/MotionRegion.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/components/Wisteria.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/components/CatArt.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/styles/weekly.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/reading/homepageContent.ts",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/components/ScrollCompanion.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/components/TopCanopy.tsx",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/components/lanternLifetime.ts",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/styles/reflection.css",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/src/components/wisteriaDesign.ts",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-vietnamese-400-normal.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-latin-400-normal.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/canopy-roof.webp",
+    "status": 200,
+    "type": "image/webp",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/canopy-blooms.webp",
+    "status": 200,
+    "type": "image/webp",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/canopy-foreground.webp",
+    "status": 200,
+    "type": "image/webp",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/garden.webp",
+    "status": 200,
+    "type": "image/webp",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-vietnamese-500-normal.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-vietnamese-500-normal.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-vietnamese-400-normal.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-normal.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": "no-store"
+  },
+  {
+    "url": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-latin-500-normal.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": "no-store"
+  }
+]

@@ -1,0 +1,1206 @@
+[
+  {
+    "navigation": {
+      "name": "http://127.0.0.1:4198/#/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 1677.7999999999302,
+      "navigationId": 6544,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.39999999990686774,
+      "domainLookupStart": 0.39999999990686774,
+      "domainLookupEnd": 0.39999999990686774,
+      "connectStart": 0.39999999990686774,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.39999999990686774,
+      "requestStart": 2.199999999953434,
+      "responseStart": 41.59999999997672,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 41.59999999997672,
+      "responseEnd": 42.39999999990687,
+      "transferSize": 1717,
+      "encodedBodySize": 1417,
+      "decodedBodySize": 1417,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 87,
+      "domContentLoadedEventStart": 1207.1999999999534,
+      "domContentLoadedEventEnd": 1207.2999999999302,
+      "domComplete": 1676.3999999999069,
+      "loadEventStart": 1677.7999999999302,
+      "loadEventEnd": 1677.7999999999302,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:4198/@vite/client",
+        "transferSize": 179327,
+        "duration": 52.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/main.tsx",
+        "transferSize": 3776,
+        "duration": 51.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/weekly-preview/controls.tsx",
+        "transferSize": 12252,
+        "duration": 52.09999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/@react-refresh",
+        "transferSize": 112194,
+        "duration": 59.20000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=59c643c3",
+        "transferSize": 13013,
+        "duration": 17
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react.js?v=59c643c3",
+        "transferSize": 1024,
+        "duration": 16.699999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react-dom_client.js?v=80bd0cd4",
+        "transferSize": 1113568,
+        "duration": 50
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/latin-400.css",
+        "transferSize": 1233,
+        "duration": 37.199999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/vietnamese-400.css",
+        "transferSize": 1258,
+        "duration": 37.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/latin-500.css",
+        "transferSize": 1233,
+        "duration": 37.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/vietnamese-500.css",
+        "transferSize": 1258,
+        "duration": 37.70000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/latin-400.css",
+        "transferSize": 1265,
+        "duration": 37.70000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/vietnamese-400.css",
+        "transferSize": 1290,
+        "duration": 94.09999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/latin-500.css",
+        "transferSize": 1265,
+        "duration": 94.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/vietnamese-500.css",
+        "transferSize": 1290,
+        "duration": 94.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/Router.tsx",
+        "transferSize": 107599,
+        "duration": 102.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/global.css",
+        "transferSize": 28392,
+        "duration": 102.10000000009313
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/atmosphere.css",
+        "transferSize": 8389,
+        "duration": 119.70000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/weekly.ts",
+        "transferSize": 2962,
+        "duration": 117.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/vite/dist/client/env.mjs",
+        "transferSize": 3778,
+        "duration": 117.80000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/chunk-MH747SHV.js?v=b3c1f6f8",
+        "transferSize": 48917,
+        "duration": 98.30000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react-router-dom.js?v=457f16b7",
+        "transferSize": 434012,
+        "duration": 31.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/App.tsx",
+        "transferSize": 85872,
+        "duration": 35.800000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/FoundationPage.tsx",
+        "transferSize": 37142,
+        "duration": 40
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/FlowPage.tsx",
+        "transferSize": 19709,
+        "duration": 43.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/stages.ts",
+        "transferSize": 8258,
+        "duration": 39.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/ArticleCard.tsx",
+        "transferSize": 9730,
+        "duration": 43.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/markdown/ArticleReader.tsx",
+        "transferSize": 62569,
+        "duration": 46.09999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/content.ts",
+        "transferSize": 1924,
+        "duration": 81.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/Icons.tsx",
+        "transferSize": 8217,
+        "duration": 144.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/ReadingShell.tsx",
+        "transferSize": 26644,
+        "duration": 81.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/@id/__x00__virtual:w2-preview",
+        "transferSize": 1718343,
+        "duration": 162.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/WeeklySection.tsx",
+        "transferSize": 19996,
+        "duration": 54.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/GardenAtmosphere.tsx",
+        "transferSize": 17656,
+        "duration": 48.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/CatGarden.tsx",
+        "transferSize": 25581,
+        "duration": 52.20000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/LanternGarden.tsx",
+        "transferSize": 38090,
+        "duration": 51.70000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/content.ts",
+        "transferSize": 2139,
+        "duration": 85.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/foundation.css",
+        "transferSize": 1282,
+        "duration": 84.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/flow.css",
+        "transferSize": 1325,
+        "duration": 86.70000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/markdown/model.ts",
+        "transferSize": 4762,
+        "duration": 86.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/markdown-reader.css",
+        "transferSize": 4695,
+        "duration": 87.09999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/@id/__x00__virtual:p2-fixture",
+        "transferSize": 11705254,
+        "duration": 704.9000000000233
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/chunk-ZWACZU4U.js?v=b3c1f6f8",
+        "transferSize": 17150,
+        "duration": 72.69999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/reading.css",
+        "transferSize": 6917,
+        "duration": 76
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/ScrollCompanion.tsx",
+        "transferSize": 22316,
+        "duration": 463.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/TopCanopy.tsx",
+        "transferSize": 27403,
+        "duration": 463.0999999999767
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/MotionRegion.tsx",
+        "transferSize": 5917,
+        "duration": 463.30000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/Wisteria.tsx",
+        "transferSize": 11219,
+        "duration": 463.30000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/CatArt.tsx",
+        "transferSize": 14405,
+        "duration": 472.9000000000233
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/lanternLifetime.ts",
+        "transferSize": 2579,
+        "duration": 474.19999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/reflection.css",
+        "transferSize": 942,
+        "duration": 479.4000000000233
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/weekly.css",
+        "transferSize": 1542,
+        "duration": 479.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/homepageContent.ts",
+        "transferSize": 8128,
+        "duration": 487
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/wisteriaDesign.ts",
+        "transferSize": 3430,
+        "duration": 31.900000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-vietnamese-400-normal.woff2",
+        "transferSize": 11832,
+        "duration": 16.099999999976717
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-latin-400-normal.woff2",
+        "transferSize": 21468,
+        "duration": 13.400000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4198/canopy-roof-small.webp",
+        "transferSize": 148976,
+        "duration": 6
+      },
+      {
+        "name": "http://127.0.0.1:4198/canopy-blooms-small.webp",
+        "transferSize": 157204,
+        "duration": 7.200000000069849
+      },
+      {
+        "name": "http://127.0.0.1:4198/canopy-foreground-small.webp",
+        "transferSize": 176508,
+        "duration": 7.199999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4198/garden.webp",
+        "transferSize": 377532,
+        "duration": 10
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-vietnamese-500-normal.woff2",
+        "transferSize": 7056,
+        "duration": 134.10000000009313
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-vietnamese-500-normal.woff2",
+        "transferSize": 12472,
+        "duration": 136.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-vietnamese-400-normal.woff2",
+        "transferSize": 7044,
+        "duration": 136.69999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2",
+        "transferSize": 23612,
+        "duration": 14.70000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-normal.woff2",
+        "transferSize": 23176,
+        "duration": 14.599999999976717
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-latin-500-normal.woff2",
+        "transferSize": 22192,
+        "duration": 14.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/favicon.svg",
+        "transferSize": 588,
+        "duration": 6.099999999976717
+      }
+    ],
+    "long": [
+      65,
+      205,
+      59
+    ],
+    "shifts": [
+      0.004057891737891738,
+      0.2560222222222222
+    ]
+  },
+  {
+    "navigation": {
+      "name": "http://127.0.0.1:4198/#/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 2000.4000000000233,
+      "navigationId": 1344,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5999999999767169,
+      "domainLookupStart": 0.5999999999767169,
+      "domainLookupEnd": 0.5999999999767169,
+      "connectStart": 0.5999999999767169,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5999999999767169,
+      "requestStart": 5.400000000023283,
+      "responseStart": 96.09999999997672,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 96.09999999997672,
+      "responseEnd": 99.70000000006985,
+      "transferSize": 1717,
+      "encodedBodySize": 1417,
+      "decodedBodySize": 1417,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 198.59999999997672,
+      "domContentLoadedEventStart": 1378.3000000000466,
+      "domContentLoadedEventEnd": 1378.4000000000233,
+      "domComplete": 1999,
+      "loadEventStart": 2000.4000000000233,
+      "loadEventEnd": 2000.4000000000233,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:4198/@vite/client",
+        "transferSize": 179327,
+        "duration": 87.80000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/main.tsx",
+        "transferSize": 3776,
+        "duration": 104.60000000009313
+      },
+      {
+        "name": "http://127.0.0.1:4198/weekly-preview/controls.tsx",
+        "transferSize": 12252,
+        "duration": 127.09999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/@react-refresh",
+        "transferSize": 112194,
+        "duration": 115.70000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/vite/dist/client/env.mjs",
+        "transferSize": 3778,
+        "duration": 13.900000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=59c643c3",
+        "transferSize": 13013,
+        "duration": 37.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react.js?v=59c643c3",
+        "transferSize": 1024,
+        "duration": 37.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react-dom_client.js?v=80bd0cd4",
+        "transferSize": 1113568,
+        "duration": 80.80000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/vietnamese-400.css",
+        "transferSize": 1258,
+        "duration": 37.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/latin-400.css",
+        "transferSize": 1233,
+        "duration": 94.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/latin-500.css",
+        "transferSize": 1233,
+        "duration": 94.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/vietnamese-500.css",
+        "transferSize": 1258,
+        "duration": 94.09999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/latin-400.css",
+        "transferSize": 1265,
+        "duration": 94
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/vietnamese-400.css",
+        "transferSize": 1290,
+        "duration": 94
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/vietnamese-500.css",
+        "transferSize": 1290,
+        "duration": 95
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/latin-500.css",
+        "transferSize": 1265,
+        "duration": 94.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/Router.tsx",
+        "transferSize": 107599,
+        "duration": 112.69999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/global.css",
+        "transferSize": 28392,
+        "duration": 107.60000000009313
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/atmosphere.css",
+        "transferSize": 8389,
+        "duration": 106.80000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/weekly.ts",
+        "transferSize": 2962,
+        "duration": 87.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/chunk-MH747SHV.js?v=b3c1f6f8",
+        "transferSize": 48917,
+        "duration": 66.20000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react-router-dom.js?v=457f16b7",
+        "transferSize": 434012,
+        "duration": 22.399999999906868
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/App.tsx",
+        "transferSize": 85872,
+        "duration": 21.900000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/FoundationPage.tsx",
+        "transferSize": 37142,
+        "duration": 21.70000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/FlowPage.tsx",
+        "transferSize": 19709,
+        "duration": 21.600000000093132
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/ArticleCard.tsx",
+        "transferSize": 9730,
+        "duration": 54.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/markdown/ArticleReader.tsx",
+        "transferSize": 62569,
+        "duration": 56
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/stages.ts",
+        "transferSize": 8258,
+        "duration": 62.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/Icons.tsx",
+        "transferSize": 8217,
+        "duration": 62.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/content.ts",
+        "transferSize": 1924,
+        "duration": 61.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/ReadingShell.tsx",
+        "transferSize": 26644,
+        "duration": 187
+      },
+      {
+        "name": "http://127.0.0.1:4198/@id/__x00__virtual:w2-preview",
+        "transferSize": 1718343,
+        "duration": 210.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/chunk-ZWACZU4U.js?v=b3c1f6f8",
+        "transferSize": 17150,
+        "duration": 140.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/foundation.css",
+        "transferSize": 1282,
+        "duration": 122.69999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/flow.css",
+        "transferSize": 1325,
+        "duration": 117.30000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/WeeklySection.tsx",
+        "transferSize": 19996,
+        "duration": 121.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/GardenAtmosphere.tsx",
+        "transferSize": 17656,
+        "duration": 136.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/CatGarden.tsx",
+        "transferSize": 25581,
+        "duration": 136.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/LanternGarden.tsx",
+        "transferSize": 38090,
+        "duration": 137.19999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/content.ts",
+        "transferSize": 2139,
+        "duration": 135.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/markdown/model.ts",
+        "transferSize": 4762,
+        "duration": 137.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/markdown-reader.css",
+        "transferSize": 4695,
+        "duration": 140.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/@id/__x00__virtual:p2-fixture",
+        "transferSize": 11705254,
+        "duration": 723.1999999999534
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/weekly.css",
+        "transferSize": 1542,
+        "duration": 485.70000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/reading.css",
+        "transferSize": 6917,
+        "duration": 486.19999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/homepageContent.ts",
+        "transferSize": 8128,
+        "duration": 476.30000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/TopCanopy.tsx",
+        "transferSize": 27403,
+        "duration": 477.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/ScrollCompanion.tsx",
+        "transferSize": 22316,
+        "duration": 476.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/MotionRegion.tsx",
+        "transferSize": 5917,
+        "duration": 480.4000000000233
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/Wisteria.tsx",
+        "transferSize": 11219,
+        "duration": 483.20000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/CatArt.tsx",
+        "transferSize": 14405,
+        "duration": 483.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/lanternLifetime.ts",
+        "transferSize": 2579,
+        "duration": 482.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/reflection.css",
+        "transferSize": 942,
+        "duration": 486.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/wisteriaDesign.ts",
+        "transferSize": 3430,
+        "duration": 5.800000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-vietnamese-400-normal.woff2",
+        "transferSize": 11832,
+        "duration": 14.099999999976717
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-latin-400-normal.woff2",
+        "transferSize": 21468,
+        "duration": 8.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/canopy-roof-small.webp",
+        "transferSize": 148976,
+        "duration": 3.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/canopy-blooms-small.webp",
+        "transferSize": 157204,
+        "duration": 2.400000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4198/canopy-foreground-small.webp",
+        "transferSize": 176508,
+        "duration": 5.700000000069849
+      },
+      {
+        "name": "http://127.0.0.1:4198/garden.webp",
+        "transferSize": 377532,
+        "duration": 4.900000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-vietnamese-500-normal.woff2",
+        "transferSize": 7056,
+        "duration": 153.30000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-vietnamese-500-normal.woff2",
+        "transferSize": 12472,
+        "duration": 152.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-vietnamese-400-normal.woff2",
+        "transferSize": 7044,
+        "duration": 152.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2",
+        "transferSize": 23612,
+        "duration": 12.599999999976717
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-normal.woff2",
+        "transferSize": 23176,
+        "duration": 19
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-latin-500-normal.woff2",
+        "transferSize": 22192,
+        "duration": 18.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/favicon.svg",
+        "transferSize": 588,
+        "duration": 5
+      }
+    ],
+    "long": [
+      85,
+      293,
+      51,
+      57,
+      71
+    ],
+    "shifts": [
+      0.004057891737891738,
+      0.2560222222222222
+    ]
+  },
+  {
+    "navigation": {
+      "name": "http://127.0.0.1:4198/#/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 1708.3000000000466,
+      "navigationId": 3218,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.7000000000698492,
+      "domainLookupStart": 4.700000000069849,
+      "domainLookupEnd": 4.700000000069849,
+      "connectStart": 4.700000000069849,
+      "secureConnectionStart": 0,
+      "connectEnd": 5,
+      "requestStart": 5.100000000093132,
+      "responseStart": 37.60000000009313,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 37.60000000009313,
+      "responseEnd": 38,
+      "transferSize": 1717,
+      "encodedBodySize": 1417,
+      "decodedBodySize": 1417,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 102.60000000009313,
+      "domContentLoadedEventStart": 1273.7000000000698,
+      "domContentLoadedEventEnd": 1273.7000000000698,
+      "domComplete": 1706.5,
+      "loadEventStart": 1708.3000000000466,
+      "loadEventEnd": 1708.3000000000466,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:4198/@vite/client",
+        "transferSize": 179327,
+        "duration": 36.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/main.tsx",
+        "transferSize": 3776,
+        "duration": 39.199999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4198/weekly-preview/controls.tsx",
+        "transferSize": 12252,
+        "duration": 39.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/@react-refresh",
+        "transferSize": 112194,
+        "duration": 80.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/vite/dist/client/env.mjs",
+        "transferSize": 3778,
+        "duration": 54.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=59c643c3",
+        "transferSize": 13013,
+        "duration": 60.20000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react-dom_client.js?v=80bd0cd4",
+        "transferSize": 1113568,
+        "duration": 88.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/weekly.ts",
+        "transferSize": 2962,
+        "duration": 80.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react.js?v=59c643c3",
+        "transferSize": 1024,
+        "duration": 80.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/latin-400.css",
+        "transferSize": 1233,
+        "duration": 80.20000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/vietnamese-400.css",
+        "transferSize": 1258,
+        "duration": 79.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/latin-500.css",
+        "transferSize": 1233,
+        "duration": 79.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/vietnamese-500.css",
+        "transferSize": 1258,
+        "duration": 93.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/latin-400.css",
+        "transferSize": 1265,
+        "duration": 92.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/vietnamese-500.css",
+        "transferSize": 1290,
+        "duration": 83.70000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/vietnamese-400.css",
+        "transferSize": 1290,
+        "duration": 92.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/latin-500.css",
+        "transferSize": 1265,
+        "duration": 93
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/Router.tsx",
+        "transferSize": 107599,
+        "duration": 102
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/global.css",
+        "transferSize": 28392,
+        "duration": 137.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/atmosphere.css",
+        "transferSize": 8389,
+        "duration": 146.80000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/chunk-MH747SHV.js?v=b3c1f6f8",
+        "transferSize": 48917,
+        "duration": 77.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/@id/__x00__virtual:w2-preview",
+        "transferSize": 1718343,
+        "duration": 168.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/react-router-dom.js?v=457f16b7",
+        "transferSize": 434012,
+        "duration": 133.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/App.tsx",
+        "transferSize": 85872,
+        "duration": 133.10000000009313
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/FoundationPage.tsx",
+        "transferSize": 37142,
+        "duration": 137.69999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/FlowPage.tsx",
+        "transferSize": 19709,
+        "duration": 122.90000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/ArticleCard.tsx",
+        "transferSize": 9730,
+        "duration": 123
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/markdown/ArticleReader.tsx",
+        "transferSize": 62569,
+        "duration": 126.20000000006985
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/stages.ts",
+        "transferSize": 8258,
+        "duration": 137.5
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/Icons.tsx",
+        "transferSize": 8217,
+        "duration": 137.60000000009313
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/content.ts",
+        "transferSize": 1924,
+        "duration": 137.19999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/ReadingShell.tsx",
+        "transferSize": 26644,
+        "duration": 137.59999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/.vite/deps/chunk-ZWACZU4U.js?v=b3c1f6f8",
+        "transferSize": 17150,
+        "duration": 102.40000000002328
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/flow.css",
+        "transferSize": 1325,
+        "duration": 17.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/markdown/model.ts",
+        "transferSize": 4762,
+        "duration": 12.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/markdown-reader.css",
+        "transferSize": 4695,
+        "duration": 12.899999999906868
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/WeeklySection.tsx",
+        "transferSize": 19996,
+        "duration": 6.900000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/GardenAtmosphere.tsx",
+        "transferSize": 17656,
+        "duration": 7
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/CatGarden.tsx",
+        "transferSize": 25581,
+        "duration": 8.100000000093132
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/content.ts",
+        "transferSize": 2139,
+        "duration": 6.800000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/LanternGarden.tsx",
+        "transferSize": 38090,
+        "duration": 8.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/foundation.css",
+        "transferSize": 1282,
+        "duration": 1.900000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4198/@id/__x00__virtual:p2-fixture",
+        "transferSize": 11705254,
+        "duration": 718.9000000000233
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/reading.css",
+        "transferSize": 6917,
+        "duration": 549
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/weekly.css",
+        "transferSize": 1542,
+        "duration": 505
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/ScrollCompanion.tsx",
+        "transferSize": 22316,
+        "duration": 505.30000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/TopCanopy.tsx",
+        "transferSize": 27403,
+        "duration": 505.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/MotionRegion.tsx",
+        "transferSize": 5917,
+        "duration": 505.29999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/Wisteria.tsx",
+        "transferSize": 11219,
+        "duration": 525.6999999999534
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/reading/homepageContent.ts",
+        "transferSize": 8128,
+        "duration": 525.7999999999302
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/CatArt.tsx",
+        "transferSize": 14405,
+        "duration": 525.6999999999534
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/lanternLifetime.ts",
+        "transferSize": 2579,
+        "duration": 519
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/styles/reflection.css",
+        "transferSize": 942,
+        "duration": 519.0999999999767
+      },
+      {
+        "name": "http://127.0.0.1:4198/src/components/wisteriaDesign.ts",
+        "transferSize": 3430,
+        "duration": 16.900000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-vietnamese-400-normal.woff2",
+        "transferSize": 11832,
+        "duration": 11
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-latin-400-normal.woff2",
+        "transferSize": 21468,
+        "duration": 9.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/canopy-roof-small.webp",
+        "transferSize": 148976,
+        "duration": 5.699999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4198/canopy-blooms-small.webp",
+        "transferSize": 157204,
+        "duration": 8.199999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4198/canopy-foreground-small.webp",
+        "transferSize": 176508,
+        "duration": 8
+      },
+      {
+        "name": "http://127.0.0.1:4198/garden.webp",
+        "transferSize": 377532,
+        "duration": 7.400000000023283
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-vietnamese-500-normal.woff2",
+        "transferSize": 7056,
+        "duration": 92.19999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-vietnamese-500-normal.woff2",
+        "transferSize": 12472,
+        "duration": 92.09999999997672
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-vietnamese-400-normal.woff2",
+        "transferSize": 7044,
+        "duration": 91.79999999993015
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2",
+        "transferSize": 23612,
+        "duration": 15.800000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-normal.woff2",
+        "transferSize": 23176,
+        "duration": 15.199999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4198/node_modules/@fontsource/be-vietnam-pro/files/be-vietnam-pro-latin-500-normal.woff2",
+        "transferSize": 22192,
+        "duration": 14.899999999906868
+      },
+      {
+        "name": "http://127.0.0.1:4198/favicon.svg",
+        "transferSize": 588,
+        "duration": 2.5
+      }
+    ],
+    "long": [
+      58,
+      192
+    ],
+    "shifts": [
+      0.004057891737891738,
+      0.2560222222222222
+    ]
+  }
+]

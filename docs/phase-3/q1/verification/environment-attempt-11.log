@@ -1,0 +1,5 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:r1:browser
+> playwright test -c playwright.r1.config.ts
+
+error: unknown command 'test'

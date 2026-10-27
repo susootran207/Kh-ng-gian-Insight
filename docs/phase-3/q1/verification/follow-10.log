@@ -1,0 +1,12 @@
+
+Running 3 tests using 1 worker
+
+  ✓  1 tests/q1-extra.spec.ts:5:1 › large viewport, route recovery and repeated cross-system navigation (12.1s)
+  ✓  2 tests/q1-extra.spec.ts:15:1 › local navigation performance observations, three cold contexts (7.2s)
+  ✓  3 tests/q1-extra.spec.ts:18:1 › record local asset response MIME and cache headers (1.1s)
+
+  3 passed (21.5s)
+[WebServer] (node:11966) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+(node:11978) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

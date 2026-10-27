@@ -1,0 +1,418 @@
+[
+  {
+    "navigation": {
+      "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/#/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 152.60000000009313,
+      "navigationId": 6824,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.4000000001396984,
+      "domainLookupStart": 0.4000000001396984,
+      "domainLookupEnd": 0.4000000001396984,
+      "connectStart": 0.4000000001396984,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.4000000001396984,
+      "requestStart": 4.7000000001862645,
+      "responseStart": 6.600000000093132,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 6.600000000093132,
+      "responseEnd": 7,
+      "transferSize": 1237,
+      "encodedBodySize": 937,
+      "decodedBodySize": 937,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 47.10000000009313,
+      "domContentLoadedEventStart": 152.4000000001397,
+      "domContentLoadedEventEnd": 152.60000000009313,
+      "domComplete": 152.60000000009313,
+      "loadEventStart": 152.60000000009313,
+      "loadEventEnd": 152.60000000009313,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "high"
+      }
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/index-Cf2XVLlF.js",
+        "transferSize": 338065,
+        "duration": 51.800000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/index-Bm2K5ivj.css",
+        "transferSize": 47021,
+        "duration": 21.200000000186265
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-roof-small.webp",
+        "transferSize": 148976,
+        "duration": 28.800000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-blooms-small.webp",
+        "transferSize": 157204,
+        "duration": 2.6000000000931323
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-foreground-small.webp",
+        "transferSize": 176508,
+        "duration": 4
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/garden.webp",
+        "transferSize": 377532,
+        "duration": 5
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-vietnamese-500-normal-BZGLGj12.woff2",
+        "transferSize": 7056,
+        "duration": 134.70000000018626
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-vietnamese-400-normal-CRcqvyg1.woff2",
+        "transferSize": 11832,
+        "duration": 139.29999999981374
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-vietnamese-500-normal-DREgrEoJ.woff2",
+        "transferSize": 12472,
+        "duration": 138.89999999990687
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-vietnamese-400-normal-6K-YXo6g.woff2",
+        "transferSize": 7044,
+        "duration": 138.0999999998603
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-latin-500-normal-BsRWmXhO.woff2",
+        "transferSize": 23612,
+        "duration": 52.5
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-latin-400-normal-PpnXBOrz.woff2",
+        "transferSize": 21468,
+        "duration": 51.699999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-latin-400-normal-B-1hWBU7.woff2",
+        "transferSize": 23176,
+        "duration": 50.299999999813735
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-latin-500-normal-B6LVzGNe.woff2",
+        "transferSize": 22192,
+        "duration": 49.199999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/favicon.svg",
+        "transferSize": 588,
+        "duration": 2.7000000001862645
+      }
+    ],
+    "long": [
+      60,
+      227
+    ],
+    "shifts": [
+      0.000355593690645774
+    ]
+  },
+  {
+    "navigation": {
+      "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/#/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 175.9000000001397,
+      "navigationId": 6200,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 2.300000000046566,
+      "domainLookupStart": 2.300000000046566,
+      "domainLookupEnd": 2.300000000046566,
+      "connectStart": 2.300000000046566,
+      "secureConnectionStart": 0,
+      "connectEnd": 2.300000000046566,
+      "requestStart": 3.4000000001396984,
+      "responseStart": 38.9000000001397,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 38.9000000001397,
+      "responseEnd": 39.300000000046566,
+      "transferSize": 1237,
+      "encodedBodySize": 937,
+      "decodedBodySize": 937,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 69.70000000018626,
+      "domContentLoadedEventStart": 173.20000000018626,
+      "domContentLoadedEventEnd": 175.80000000004657,
+      "domComplete": 175.9000000001397,
+      "loadEventStart": 175.9000000001397,
+      "loadEventEnd": 175.9000000001397,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/index-Cf2XVLlF.js",
+        "transferSize": 338065,
+        "duration": 27.399999999906868
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/index-Bm2K5ivj.css",
+        "transferSize": 47021,
+        "duration": 23
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-roof-small.webp",
+        "transferSize": 148976,
+        "duration": 36.89999999990687
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-blooms-small.webp",
+        "transferSize": 157204,
+        "duration": 35.800000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-foreground-small.webp",
+        "transferSize": 176508,
+        "duration": 37.9000000001397
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/garden.webp",
+        "transferSize": 377532,
+        "duration": 39.5
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-vietnamese-500-normal-BZGLGj12.woff2",
+        "transferSize": 7056,
+        "duration": 125.19999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-vietnamese-400-normal-CRcqvyg1.woff2",
+        "transferSize": 11832,
+        "duration": 125.4000000001397
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-vietnamese-500-normal-DREgrEoJ.woff2",
+        "transferSize": 12472,
+        "duration": 125.30000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-vietnamese-400-normal-6K-YXo6g.woff2",
+        "transferSize": 7044,
+        "duration": 125.30000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-latin-500-normal-BsRWmXhO.woff2",
+        "transferSize": 23612,
+        "duration": 47.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-latin-400-normal-PpnXBOrz.woff2",
+        "transferSize": 21468,
+        "duration": 46.800000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-latin-400-normal-B-1hWBU7.woff2",
+        "transferSize": 23176,
+        "duration": 46.300000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-latin-500-normal-B6LVzGNe.woff2",
+        "transferSize": 22192,
+        "duration": 45.800000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/favicon.svg",
+        "transferSize": 588,
+        "duration": 2.800000000046566
+      }
+    ],
+    "long": [
+      133
+    ],
+    "shifts": [
+      0.0004025599477682811
+    ]
+  },
+  {
+    "navigation": {
+      "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/#/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 132.10000000009313,
+      "navigationId": 5122,
+      "initiatorType": "navigation",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "text/html",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0.5,
+      "domainLookupStart": 0.5,
+      "domainLookupEnd": 0.5,
+      "connectStart": 0.5,
+      "secureConnectionStart": 0,
+      "connectEnd": 0.5,
+      "requestStart": 3.7000000001862645,
+      "responseStart": 8.5,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 8.5,
+      "responseEnd": 8.800000000046566,
+      "transferSize": 1237,
+      "encodedBodySize": 937,
+      "decodedBodySize": 937,
+      "responseStatus": 200,
+      "serverTiming": [],
+      "unloadEventStart": 0,
+      "unloadEventEnd": 0,
+      "domInteractive": 30.4000000001397,
+      "domContentLoadedEventStart": 131.80000000004657,
+      "domContentLoadedEventEnd": 132,
+      "domComplete": 132,
+      "loadEventStart": 132.10000000009313,
+      "loadEventEnd": 132.10000000009313,
+      "type": "navigate",
+      "redirectCount": 0,
+      "activationStart": 0,
+      "criticalCHRestart": 0,
+      "notRestoredReasons": null,
+      "confidence": {
+        "randomizedTriggerRate": 0.4994798,
+        "value": "low"
+      }
+    },
+    "resources": [
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/index-Cf2XVLlF.js",
+        "transferSize": 338065,
+        "duration": 54.89999999990687
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/index-Bm2K5ivj.css",
+        "transferSize": 47021,
+        "duration": 54.199999999953434
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-roof-small.webp",
+        "transferSize": 148976,
+        "duration": 8.5
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-blooms-small.webp",
+        "transferSize": 157204,
+        "duration": 7.7999999998137355
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-foreground-small.webp",
+        "transferSize": 176508,
+        "duration": 7.600000000093132
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/garden.webp",
+        "transferSize": 377532,
+        "duration": 17
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-vietnamese-500-normal-BZGLGj12.woff2",
+        "transferSize": 7056,
+        "duration": 103.9000000001397
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-vietnamese-400-normal-CRcqvyg1.woff2",
+        "transferSize": 11832,
+        "duration": 104.19999999995343
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-vietnamese-500-normal-DREgrEoJ.woff2",
+        "transferSize": 12472,
+        "duration": 104.60000000009313
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-vietnamese-400-normal-6K-YXo6g.woff2",
+        "transferSize": 7044,
+        "duration": 104.80000000004657
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-latin-500-normal-BsRWmXhO.woff2",
+        "transferSize": 23612,
+        "duration": 52.5
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-latin-400-normal-PpnXBOrz.woff2",
+        "transferSize": 21468,
+        "duration": 52.60000000009313
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-latin-400-normal-B-1hWBU7.woff2",
+        "transferSize": 23176,
+        "duration": 52.800000000046566
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-latin-500-normal-B6LVzGNe.woff2",
+        "transferSize": 22192,
+        "duration": 56.299999999813735
+      },
+      {
+        "name": "http://127.0.0.1:4180/Kho-ng-gian-Insight/favicon.svg",
+        "transferSize": 588,
+        "duration": 6
+      }
+    ],
+    "long": [
+      144,
+      56
+    ],
+    "shifts": [
+      0.0004025599477682811
+    ]
+  }
+]
