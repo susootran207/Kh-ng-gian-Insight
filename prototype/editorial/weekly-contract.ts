@@ -12,6 +12,7 @@ export interface WeeklyTopicView {
   startsAt: string; endsAt: string; articleSlugs: string[]
 }
 export interface WeeklyView {
+  showcase?: true
   preview?: true
   upcoming?: WeeklyTopicView[]
   selectedAt: string
