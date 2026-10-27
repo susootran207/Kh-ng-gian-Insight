@@ -1,0 +1,339 @@
+{
+  "sourceSHA": "e5c777cf4dc057c8fe589360380fdb7a12762ca0",
+  "technical": "TECHNICAL PASS within tested scope",
+  "release": "RELEASE BLOCKED",
+  "C1KeyboardPan": "NOT REPRODUCED — unchanged case passed 5 isolated repetitions after full suite",
+  "environmentAttempt": "npm cache default unavailable; dependent errors, not app failures; see environment-attempt logs",
+  "suites": [
+    {
+      "command": "npm ci --ignore-scripts",
+      "start": "2026-10-27T06:42:39.658Z",
+      "end": "2026-10-27T06:42:42.904Z",
+      "exit": 0,
+      "log": "verification/suite-0.log",
+      "status": "PASS thực tế",
+      "summary": []
+    },
+    {
+      "command": "npm run content:manifest -- --check",
+      "start": "2026-10-27T06:42:42.907Z",
+      "end": "2026-10-27T06:42:43.184Z",
+      "exit": 0,
+      "log": "verification/suite-1.log",
+      "status": "PASS thực tế",
+      "summary": []
+    },
+    {
+      "command": "npm run test:f0",
+      "start": "2026-10-27T06:42:43.184Z",
+      "end": "2026-10-27T06:42:46.123Z",
+      "exit": 0,
+      "log": "verification/suite-2.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "ℹ tests 22"
+      ]
+    },
+    {
+      "command": "npm run test:r1",
+      "start": "2026-10-27T06:42:46.124Z",
+      "end": "2026-10-27T06:42:50.256Z",
+      "exit": 0,
+      "log": "verification/suite-3.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "ℹ tests 12"
+      ]
+    },
+    {
+      "command": "npm run test:c1",
+      "start": "2026-10-27T06:42:50.256Z",
+      "end": "2026-10-27T06:42:56.394Z",
+      "exit": 0,
+      "log": "verification/suite-4.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "ℹ tests 34"
+      ]
+    },
+    {
+      "command": "npm run test:w1",
+      "start": "2026-10-27T06:42:56.394Z",
+      "end": "2026-10-27T06:43:01.113Z",
+      "exit": 0,
+      "log": "verification/suite-5.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "ℹ tests 12"
+      ]
+    },
+    {
+      "command": "npm run test:d1",
+      "start": "2026-10-27T06:43:01.113Z",
+      "end": "2026-10-27T06:43:05.636Z",
+      "exit": 0,
+      "log": "verification/suite-6.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "ℹ tests 4"
+      ]
+    },
+    {
+      "command": "npm run test:g1",
+      "start": "2026-10-27T06:43:05.637Z",
+      "end": "2026-10-27T06:43:08.355Z",
+      "exit": 0,
+      "log": "verification/suite-7.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "ℹ tests 2"
+      ]
+    },
+    {
+      "command": "npm run test:p2",
+      "start": "2026-10-27T06:43:08.355Z",
+      "end": "2026-10-27T06:43:15.400Z",
+      "exit": 0,
+      "log": "verification/suite-8.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "ℹ tests 8"
+      ]
+    },
+    {
+      "command": "npm run test:w2",
+      "start": "2026-10-27T06:43:15.401Z",
+      "end": "2026-10-27T06:43:20.516Z",
+      "exit": 0,
+      "log": "verification/suite-9.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "ℹ tests 6"
+      ]
+    },
+    {
+      "command": "npm run build",
+      "start": "2026-10-27T06:43:20.517Z",
+      "end": "2026-10-27T06:43:27.031Z",
+      "exit": 0,
+      "log": "verification/suite-10.log",
+      "status": "PASS thực tế",
+      "summary": []
+    },
+    {
+      "command": "npm run test:r1:browser",
+      "start": "2026-10-27T06:43:27.031Z",
+      "end": "2026-10-27T06:43:47.178Z",
+      "exit": 0,
+      "log": "verification/suite-11.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "8 passed (19.5s)"
+      ]
+    },
+    {
+      "command": "npm run test:c1:browser",
+      "start": "2026-10-27T06:43:47.178Z",
+      "end": "2026-10-27T06:47:02.382Z",
+      "exit": 0,
+      "log": "verification/suite-12.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "8 passed (3.2m)"
+      ]
+    },
+    {
+      "command": "npm run test:w1:browser",
+      "start": "2026-10-27T06:47:02.383Z",
+      "end": "2026-10-27T06:47:29.018Z",
+      "exit": 0,
+      "log": "verification/suite-13.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "7 passed (26.0s)"
+      ]
+    },
+    {
+      "command": "npm run test:n1:browser",
+      "start": "2026-10-27T06:47:29.019Z",
+      "end": "2026-10-27T06:47:49.286Z",
+      "exit": 0,
+      "log": "verification/suite-14.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "5 passed (19.5s)"
+      ]
+    },
+    {
+      "command": "npm run test:d1:browser",
+      "start": "2026-10-27T06:47:49.286Z",
+      "end": "2026-10-27T06:48:17.601Z",
+      "exit": 0,
+      "log": "verification/suite-15.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "6 passed (27.6s)"
+      ]
+    },
+    {
+      "command": "npm run test:g1:browser",
+      "start": "2026-10-27T06:48:17.602Z",
+      "end": "2026-10-27T06:48:56.624Z",
+      "exit": 0,
+      "log": "verification/suite-16.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "9 passed (38.2s)"
+      ]
+    },
+    {
+      "command": "npm run test:p2:browser",
+      "start": "2026-10-27T06:48:56.625Z",
+      "end": "2026-10-27T06:50:05.620Z",
+      "exit": 0,
+      "log": "verification/suite-17.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "5 passed (1.1m)"
+      ]
+    },
+    {
+      "command": "npm run test:w2:browser",
+      "start": "2026-10-27T06:50:05.620Z",
+      "end": "2026-10-27T06:51:10.114Z",
+      "exit": 0,
+      "log": "verification/suite-18.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "7 passed (1.1m)"
+      ]
+    },
+    {
+      "command": "npm run test:e2e",
+      "start": "2026-10-27T06:51:10.114Z",
+      "end": "2026-10-27T06:52:44.121Z",
+      "exit": 0,
+      "log": "verification/suite-19.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "30 passed (1.6m)"
+      ]
+    },
+    {
+      "command": "npm run test:production",
+      "start": "2026-10-27T06:52:44.122Z",
+      "end": "2026-10-27T06:53:06.915Z",
+      "exit": 0,
+      "log": "verification/suite-20.log",
+      "status": "PASS thực tế",
+      "summary": [
+        "14 passed (22.1s)"
+      ]
+    }
+  ],
+  "followup": [
+    {
+      "command": "./node_modules/.bin/playwright test -c playwright.c1.config.ts -g 'C01/C05/E02 figure keyboard' --repeat-each=5",
+      "exit": 0,
+      "expected": 0,
+      "log": "verification/follow-0.log",
+      "status": "PASS thực tế"
+    },
+    {
+      "command": "mv q1-extra.spec.pending tests/q1-extra.spec.ts && ./node_modules/.bin/playwright test -c playwright.q1.config.ts",
+      "exit": 0,
+      "expected": 0,
+      "log": "verification/follow-1.log",
+      "status": "PASS thực tế"
+    },
+    {
+      "command": "./node_modules/.bin/vite build --config vite.r1.config.ts",
+      "exit": 1,
+      "expected": 1,
+      "log": "verification/follow-2.log",
+      "status": "PASS negative guard"
+    },
+    {
+      "command": "./node_modules/.bin/vite build --config vite.c1.config.ts",
+      "exit": 1,
+      "expected": 1,
+      "log": "verification/follow-3.log",
+      "status": "PASS negative guard"
+    },
+    {
+      "command": "./node_modules/.bin/vite build --config vite.w1.config.ts",
+      "exit": 1,
+      "expected": 1,
+      "log": "verification/follow-4.log",
+      "status": "PASS negative guard"
+    },
+    {
+      "command": "./node_modules/.bin/vite build --config vite.d1.config.ts",
+      "exit": 1,
+      "expected": 1,
+      "log": "verification/follow-5.log",
+      "status": "PASS negative guard"
+    },
+    {
+      "command": "./node_modules/.bin/vite build --config vite.p2.config.ts",
+      "exit": 1,
+      "expected": 1,
+      "log": "verification/follow-6.log",
+      "status": "PASS negative guard"
+    },
+    {
+      "command": "./node_modules/.bin/vite build --config vite.w2.config.ts",
+      "exit": 1,
+      "expected": 1,
+      "log": "verification/follow-7.log",
+      "status": "PASS negative guard"
+    },
+    {
+      "command": "npm run build",
+      "exit": 0,
+      "expected": 0,
+      "log": "verification/follow-8.log",
+      "status": "PASS thực tế"
+    },
+    {
+      "command": "npm run test:content",
+      "exit": 0,
+      "expected": 0,
+      "log": "verification/follow-9.log",
+      "status": "PASS thực tế"
+    },
+    {
+      "command": "Q1_TARGET=production ./node_modules/.bin/playwright test -c playwright.q1-production.config.ts",
+      "exit": 0,
+      "expected": 0,
+      "log": "verification/follow-10.log",
+      "status": "PASS thực tế"
+    },
+    {
+      "command": "Q1_TARGET=root ./node_modules/.bin/playwright test -c playwright.q1-root.config.ts",
+      "exit": 0,
+      "expected": 0,
+      "log": "verification/follow-11.log",
+      "status": "PASS thực tế"
+    }
+  ],
+  "notTested": [
+    "native browser zoom 200%",
+    "screen reader",
+    "physical devices",
+    "Safari Firefox Edge",
+    "human learner review",
+    "Cloudflare hosting response/rollback"
+  ],
+  "postFix": {
+    "change": "QA static server .svg MIME mapping only",
+    "helperSHA256": "16d9f2c7f8e9c8b5b7fc5300f620dbccdb0be3f3c6a1c9106d979d2ff30a2b28",
+    "productionBrowser": "14/14 PASS",
+    "q1Production": "3/3 PASS",
+    "svgMIME": "image/svg+xml",
+    "logs": [
+      "verification/production-after-mime.log",
+      "verification/q1-after-mime.log"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 build
+> tsc -b && vite build && npm run test:content
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 82 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                        0.94 kB │ gzip:   0.56 kB
+dist/assets/be-vietnam-pro-vietnamese-400-normal-BuGn0gnm.woff         6.57 kB
+dist/assets/cormorant-garamond-vietnamese-400-normal-6K-YXo6g.woff2    6.74 kB
+dist/assets/cormorant-garamond-vietnamese-500-normal-BZGLGj12.woff2    6.76 kB
+dist/assets/be-vietnam-pro-vietnamese-500-normal-CfdwVo8-.woff         6.88 kB
+dist/assets/cormorant-garamond-vietnamese-400-normal-4uxlocMh.woff     9.32 kB
+dist/assets/cormorant-garamond-vietnamese-500-normal-DqXqCC0q.woff     9.33 kB
+dist/assets/be-vietnam-pro-vietnamese-400-normal-CRcqvyg1.woff2       11.53 kB
+dist/assets/be-vietnam-pro-vietnamese-500-normal-DREgrEoJ.woff2       12.17 kB
+dist/assets/be-vietnam-pro-latin-400-normal-bXgqVju9.woff             16.43 kB
+dist/assets/be-vietnam-pro-latin-500-normal-BJkVuMHw.woff             17.00 kB
+dist/assets/be-vietnam-pro-latin-400-normal-PpnXBOrz.woff2            21.17 kB
+dist/assets/be-vietnam-pro-latin-500-normal-B6LVzGNe.woff2            21.89 kB
+dist/assets/cormorant-garamond-latin-400-normal-B-1hWBU7.woff2        22.88 kB
+dist/assets/cormorant-garamond-latin-500-normal-BsRWmXhO.woff2        23.31 kB
+dist/assets/cormorant-garamond-latin-400-normal-B7YtguxJ.woff         30.98 kB
+dist/assets/cormorant-garamond-latin-500-normal-zIXX3Q-H.woff         31.37 kB
+dist/assets/index-Bm2K5ivj.css                                        46.72 kB │ gzip:  10.78 kB
+dist/assets/index-Cf2XVLlF.js                                        337.77 kB │ gzip: 106.31 kB
+✓ built in 2.44s
+
+> khong-gian-noi-tam-prototype@0.1.0 test:content
+> node --experimental-strip-types scripts/check-publication.mts
+
+{"files":29,"withheldArticles":29,"markerCount":4375,"sourceView":"public","publicSourceArticles":0,"publicLegacyArticles":0,"publicLegacyTopics":0,"publicWeeklyTopics":0,"publicWeeklyArticles":0,"currentWeeklyId":null,"canary":"detected"}

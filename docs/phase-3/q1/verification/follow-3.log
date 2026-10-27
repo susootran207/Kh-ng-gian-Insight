@@ -1,0 +1,9 @@
+error during build:
+Error: Content contract: C1 preview is serve-only on literal 127.0.0.1
+    at requireThat (file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/.vite-temp/vite.c1.config.ts.timestamp-1793084161300-c9d009f1c0a418.mjs:25:18)
+    at BasicMinimalPluginContext.configResolved (file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/.vite-temp/vite.c1.config.ts.timestamp-1793084161300-c9d009f1c0a418.mjs:805:7)
+    at file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/vite/dist/node/chunks/config.js:35933:87
+    at Array.map (<anonymous>)
+    at resolveConfig (file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/vite/dist/node/chunks/config.js:35933:68)
+    at async createBuilder (file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/vite/dist/node/chunks/config.js:34126:19)
+    at async CAC.<anonymous> (file:///workspace/Kho-ng-gian-Insight/work/q1/prototype/node_modules/vite/dist/node/cli.js:629:10)

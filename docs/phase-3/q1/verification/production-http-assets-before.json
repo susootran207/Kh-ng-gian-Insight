@@ -1,0 +1,98 @@
+[
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/",
+    "status": 200,
+    "type": "text/html",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/favicon.svg",
+    "status": 200,
+    "type": "application/octet-stream",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/index-Cf2XVLlF.js",
+    "status": 200,
+    "type": "text/javascript",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/index-Bm2K5ivj.css",
+    "status": 200,
+    "type": "text/css",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-roof.webp",
+    "status": 200,
+    "type": "image/webp",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-blooms.webp",
+    "status": 200,
+    "type": "image/webp",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/canopy-foreground.webp",
+    "status": 200,
+    "type": "image/webp",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/garden.webp",
+    "status": 200,
+    "type": "image/webp",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-vietnamese-500-normal-BZGLGj12.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-vietnamese-400-normal-CRcqvyg1.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-vietnamese-500-normal-DREgrEoJ.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-vietnamese-400-normal-6K-YXo6g.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-latin-500-normal-BsRWmXhO.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-latin-400-normal-PpnXBOrz.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/cormorant-garamond-latin-400-normal-B-1hWBU7.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": null
+  },
+  {
+    "url": "http://127.0.0.1:4180/Kho-ng-gian-Insight/assets/be-vietnam-pro-latin-500-normal-B6LVzGNe.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "cache": null
+  }
+]

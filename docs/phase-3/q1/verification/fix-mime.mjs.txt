@@ -1,0 +1,2 @@
+import {spawnSync} from 'node:child_process';import {writeFileSync} from 'node:fs';
+for(const [name,cmd] of [['production-after-mime','npm run test:production'],['q1-after-mime','Q1_TARGET=production ./node_modules/.bin/playwright test -c playwright.q1-production.config.ts']]){const r=spawnSync('bash',['-lc',cmd],{cwd:process.cwd()+'/prototype',encoding:'utf8',maxBuffer:32*1024*1024});writeFileSync(name+'.log',(r.stdout||'')+(r.stderr||''));console.log(name,r.status);if(r.status!==0)process.exit(r.status||1)}

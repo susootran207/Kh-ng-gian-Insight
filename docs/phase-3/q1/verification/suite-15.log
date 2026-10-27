@@ -1,0 +1,25 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:d1:browser
+> playwright test -c playwright.d1.config.ts
+
+
+Running 6 tests using 1 worker
+
+  ✓  1 tests/flow.spec.ts:7:39 › D1 fixture: four stages, 29 articles, anchors, timeline ARIA, Axe 320 (5.2s)
+  ✓  2 tests/flow.spec.ts:7:39 › D1 fixture: four stages, 29 articles, anchors, timeline ARIA, Axe 390 (5.0s)
+  ✓  3 tests/flow.spec.ts:7:39 › D1 fixture: four stages, 29 articles, anchors, timeline ARIA, Axe 768 (5.3s)
+  ✓  4 tests/flow.spec.ts:7:39 › D1 fixture: four stages, 29 articles, anchors, timeline ARIA, Axe 1440 (5.4s)
+  ✓  5 tests/flow.spec.ts:29:1 › D1 stage → Library AND filters, query history/reload, article + related return and full Library (2.9s)
+  ✓  6 tests/flow.spec.ts:42:1 › D1 loopback fixture safety and 200%-equivalent reflow (not native zoom) (1.3s)
+
+  6 passed (27.6s)
+[WebServer] (node:5408) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+(node:5428) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] The request id "/workspace/Kho-ng-gian-Insight/work/q1/docs/phase-3/drafts/C01/ARTICLE.md" is outside of Vite serving allow list.
+[WebServer] 
+[WebServer] - /workspace/Kho-ng-gian-Insight/work/q1/prototype
+[WebServer] 
+[WebServer] Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+[WebServer] 

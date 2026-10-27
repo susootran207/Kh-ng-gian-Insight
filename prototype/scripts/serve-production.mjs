@@ -3,7 +3,7 @@ import { createServer } from 'node:http'
 import { readFile } from 'node:fs/promises'
 import { resolve, extname } from 'node:path'
 const root=resolve('dist'),prefix='/Kho-ng-gian-Insight/'
-const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.webp':'image/webp','.woff':'font/woff','.woff2':'font/woff2'}
+const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.webp':'image/webp','.woff':'font/woff','.woff2':'font/woff2'}
 createServer(async(req,res)=>{
   const url=new URL(req.url,'http://localhost')
   if(!url.pathname.startsWith(prefix)){res.writeHead(404).end();return}

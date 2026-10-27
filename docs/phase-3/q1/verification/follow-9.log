@@ -1,0 +1,5 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:content
+> node --experimental-strip-types scripts/check-publication.mts
+
+{"files":29,"withheldArticles":29,"markerCount":4375,"sourceView":"public","publicSourceArticles":0,"publicLegacyArticles":0,"publicLegacyTopics":0,"publicWeeklyTopics":0,"publicWeeklyArticles":0,"currentWeeklyId":null,"canary":"detected"}

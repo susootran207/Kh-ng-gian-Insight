@@ -1,0 +1,5 @@
+import {spawnSync} from 'node:child_process';
+import {writeFileSync,mkdirSync} from 'node:fs';
+const root=process.cwd();mkdirSync(root+'/logs',{recursive:true});
+const cmds=['npm ci --ignore-scripts','npm run content:manifest -- --check',...['f0','r1','c1','w1','d1','g1','p2','w2'].map(x=>'npm run test:'+x),'npm run build',...['r1','c1','w1','n1','d1','g1','p2','w2'].map(x=>'npm run test:'+x+':browser'),'npm run test:e2e','npm run test:production'];
+let results=[];for(let i=0;i<cmds.length;i++){const start=new Date().toISOString();const r=spawnSync('bash',['-lc',cmds[i]],{cwd:root+'/prototype',encoding:'utf8',maxBuffer:32*1024*1024});writeFileSync(root+'/logs/'+i+'.log',(r.stdout||'')+(r.stderr||''));results.push({command:cmds[i],start,end:new Date().toISOString(),exit:r.status,error:r.error?.message});writeFileSync(root+'/results.json',JSON.stringify(results,null,2));console.log(i,r.status,cmds[i]);}
