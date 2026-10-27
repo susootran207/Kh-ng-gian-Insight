@@ -1,0 +1,23 @@
+{
+  "kind": "publicationAuthorization",
+  "subjectId": "KGNT-E03",
+  "revision": "e03-draft-r1",
+  "contentHash": "fa856be71c83416bbc8fd71781d6377f04ea6282d56da5c4555e6ffb51a38405",
+  "revisionHash": "2107bb2ed11cacb5522ad2c8170b5ace2bae7b7a8c366ed9dcbab2bde39cd302",
+  "decision": "approved",
+  "by": "Chủ dự án Không Gian Nội Tâm",
+  "at": "2026-10-27T15:02:25+07:00",
+  "confirmation": {
+    "path": "docs/phase-3/r11/PUBLICATION-AUTHORIZATION.md",
+    "sha256": "06811f94fede7a7055c7291421259cbe28c580ab819e98f00ee8bf401b629878"
+  },
+  "basis": {
+    "source": "Explicit owner reply: cho phép tất cả, to the R1.1 authorization sample",
+    "conditions": [
+      "All mandatory genuine review records must be complete and match each scope before bundling/published status",
+      "No future topic exposure before W1 startsAt",
+      "No deployment, merge, hosting or repository visibility change authorized"
+    ],
+    "doesNotAssert": "Expert/reader/learner results, dates or per-subject coverage are not inferred"
+  }
+}

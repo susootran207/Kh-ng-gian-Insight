@@ -1,0 +1,1110 @@
+{
+  "status": "PASS intake/integrity checks; RELEASE BLOCKED pending scoped human evidence",
+  "base": "4d434cc25848f2e3e1f381a7361a1afa1180cf6c",
+  "existingRecordsValidated": 68,
+  "sourceFilesUnchanged": 203,
+  "newPublicationAuthorizationValidated": 39,
+  "publicArticles": 0,
+  "publicWeekly": 0,
+  "activityOccurrence": "three real activities confirmed by owner; per-subject coverage/conclusions unconfirmed",
+  "guardChanged": false,
+  "protectedFiles": [
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C01-editorial.json",
+      "sha256": "bb73902df745367bdfcffa2b2b1818dea296a9f5de2b3f11dbed7147c1a9001c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C01-asset-rights.json",
+      "sha256": "bd3569a171e8dbb088d10c70a11f815cfa1928354b0bd4ae5362eb8a65f924f2"
+    },
+    {
+      "path": "docs/phase-3/drafts/C01/ARTICLE.md",
+      "sha256": "a14e18424db35df95ab0a298b2b2f8a8f1ff742e8af5bbed8ec8bbb70cee678d"
+    },
+    {
+      "path": "docs/phase-3/drafts/C01/REFERENCES.md",
+      "sha256": "08c1a3065658090133e4e6ba41cf7d4139151633fa77ba5619149f93a8103c77"
+    },
+    {
+      "path": "docs/phase-3/drafts/C01/CLAIM-AUDIT.md",
+      "sha256": "cf4920f65ad8785a381bc6a0724284a7ce9f7a7d7190993774f34d1c4be598b5"
+    },
+    {
+      "path": "docs/phase-3/drafts/C01/BLOOM-REVIEW.md",
+      "sha256": "41289bff64c145e9af553531223fa2f3a0996af615a3f9dd6d80331a0145e9ea"
+    },
+    {
+      "path": "docs/phase-3/drafts/C01/VISUAL-REVIEW.md",
+      "sha256": "d6c1c13502dfd602e64872417b2cfba6390f93391926f252a5b1002730d42173"
+    },
+    {
+      "path": "docs/phase-3/drafts/C01/EDITORIAL-REVIEW.md",
+      "sha256": "d3ffa063655dde06073229bd69901763dcffe715c08579ecefe6f10e7c9a6633"
+    },
+    {
+      "path": "docs/phase-3/drafts/C01/experience-map.svg",
+      "sha256": "df8ea0dad05108c648d3d2e6e597fcf492a0907f85628b7c1494c4e1e9429c05"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C02-editorial.json",
+      "sha256": "6ad97fceddc36a5d743d43368919b87d906eabb657994912ab780a1f527b7d31"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C02-asset-rights.json",
+      "sha256": "04032947ba21a3098fa9dbefdda9237ec8b5a002e78ea695ea36ec12129d6d0a"
+    },
+    {
+      "path": "docs/phase-3/drafts/C02/ARTICLE.md",
+      "sha256": "3399bad2299b5d5ed261849185bfc4e42a3ee8909c4618b7c1206cd38c4b918d"
+    },
+    {
+      "path": "docs/phase-3/drafts/C02/REFERENCES.md",
+      "sha256": "19f5699561813a128b591f2c8f6e48f098dbdf90c2f62fb4232092a6a26d9b8e"
+    },
+    {
+      "path": "docs/phase-3/drafts/C02/CLAIM-AUDIT.md",
+      "sha256": "1190a83606c034e78a643d19cdf4e601dabdcb5a5fac24695825fc1b78de2c25"
+    },
+    {
+      "path": "docs/phase-3/drafts/C02/BLOOM-REVIEW.md",
+      "sha256": "4a3c2e488a7af682c91e917551626ad28e493b5faf8690eb1ac7c65ea4d6071a"
+    },
+    {
+      "path": "docs/phase-3/drafts/C02/VISUAL-REVIEW.md",
+      "sha256": "dd4476e3a1b5921ac14c2854d9c1ac4dcf49a8e4f91291109eee8398dd9b2931"
+    },
+    {
+      "path": "docs/phase-3/drafts/C02/EDITORIAL-REVIEW.md",
+      "sha256": "ab245ff4ff96bb724f426858a07d8019fc32108466507a332b719f5f00648f46"
+    },
+    {
+      "path": "docs/phase-3/drafts/C02/before-class-options.svg",
+      "sha256": "3389ca4eaa3486db671b5933ef986433fba42372c5d99db56450d0c2c8f96f0b"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C03-editorial.json",
+      "sha256": "685ca17d8b76ab10262b863facfe565b8731b166037a0a5ca4cd506480b9f0de"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C03-asset-rights.json",
+      "sha256": "a982fe7678be5d7a950debd9897e9bde23c9fec37c2544decd1e8b53de94eca5"
+    },
+    {
+      "path": "docs/phase-3/drafts/C03/ARTICLE.md",
+      "sha256": "2769bc80ca129b6287eae9e3057d124c550dccce148b75f551136d7a8f1b05d4"
+    },
+    {
+      "path": "docs/phase-3/drafts/C03/REFERENCES.md",
+      "sha256": "b62760c374cd36473fcabbe8d6d9e42bb1e2aec29a26582f941eb76e8d0f57d3"
+    },
+    {
+      "path": "docs/phase-3/drafts/C03/CLAIM-AUDIT.md",
+      "sha256": "6a3d5628bbbc047296ed32c74825fca6a44a72def83b286c4d2bd30ad3e97282"
+    },
+    {
+      "path": "docs/phase-3/drafts/C03/BLOOM-REVIEW.md",
+      "sha256": "8ca09d6bf9ab523628368f9a416e85e97cc6f503c4bbb5eb8b03cd0a1df72200"
+    },
+    {
+      "path": "docs/phase-3/drafts/C03/VISUAL-REVIEW.md",
+      "sha256": "94ebdd3d7c6c92f9c3bd08be1499c43008a6bd45ab31d07a98e9034423034d2c"
+    },
+    {
+      "path": "docs/phase-3/drafts/C03/EDITORIAL-REVIEW.md",
+      "sha256": "29fac7266308f6a9e347c66ec2ad4edcd1bff8fd5d3cf73e12f21dcf40702153"
+    },
+    {
+      "path": "docs/phase-3/drafts/C03/mistake-and-response.svg",
+      "sha256": "70625513e9a7c236a3ce72f2da2ba59066ca7f07bd772441eca7330a86d68b83"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C04-editorial.json",
+      "sha256": "9466e33a7c9853d93779a1ba87162c90320a5d95901e18e1fba2a5c7ebd01071"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C04-asset-rights.json",
+      "sha256": "ae28e09a056ba859ca5242e0ddc76dc1a16a41f6df0b2ddff2776137e76f3cda"
+    },
+    {
+      "path": "docs/phase-3/drafts/C04/ARTICLE.md",
+      "sha256": "c3c8be4f142560f11d47270bc7827f53007d9cafa84db83bcf06bf96e62d93d1"
+    },
+    {
+      "path": "docs/phase-3/drafts/C04/REFERENCES.md",
+      "sha256": "2c9439c6a28303eca382d96b958e4d54f46ca607958470964228adc6933f66fc"
+    },
+    {
+      "path": "docs/phase-3/drafts/C04/CLAIM-AUDIT.md",
+      "sha256": "9b09a7bc744be7c15c13a57eb766c479a42ea49ccc4b0d9cb656950a58f39456"
+    },
+    {
+      "path": "docs/phase-3/drafts/C04/BLOOM-REVIEW.md",
+      "sha256": "1f6538a74128411e784e037d93d7f4a2174cde381f787d0baa4c398637fc2b42"
+    },
+    {
+      "path": "docs/phase-3/drafts/C04/VISUAL-REVIEW.md",
+      "sha256": "8b2952cc9604fb6433b0040a37729990f5a8b78b730d2f422966a4669a6be136"
+    },
+    {
+      "path": "docs/phase-3/drafts/C04/EDITORIAL-REVIEW.md",
+      "sha256": "e5d4ede19e7d920c672d9f60478470253e3b2aa5fbc8e73c21bcbd154e39cb03"
+    },
+    {
+      "path": "docs/phase-3/drafts/C04/pause-and-choose.svg",
+      "sha256": "c791406552e81c6e29325ca276cd288252d3b1642dec55f06abf876fa3e92d18"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C05-editorial.json",
+      "sha256": "9d3d47c4311883561659aca1043bcaccc753cc53e66ae0dc43bea6d4ebb195f9"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C05-asset-rights.json",
+      "sha256": "f50ce00697cd2614281851786d26dbef24bf15df9bbe7691d2979d65f92e7dff"
+    },
+    {
+      "path": "docs/phase-3/drafts/C05/ARTICLE.md",
+      "sha256": "57ef7f42eb24b03d0f85156478d224096979e6140f75ab15c2361af699642df5"
+    },
+    {
+      "path": "docs/phase-3/drafts/C05/REFERENCES.md",
+      "sha256": "b633ce724d4338cb654b68a31f782e58fd0433d998e0d8d87adbb29b74403e4e"
+    },
+    {
+      "path": "docs/phase-3/drafts/C05/CLAIM-AUDIT.md",
+      "sha256": "195a1b2677b5b433407bbda58615261d7f12bafcbd2727a774f6d1f4996d3d91"
+    },
+    {
+      "path": "docs/phase-3/drafts/C05/BLOOM-REVIEW.md",
+      "sha256": "c8248620dbbfd2d336dc7950e8e403590352c20b83f241adc7e024d6740678fd"
+    },
+    {
+      "path": "docs/phase-3/drafts/C05/VISUAL-REVIEW.md",
+      "sha256": "499135d98819949fb7a4741899b13fdb2d4ca96c985667d5eda34954a49c64d1"
+    },
+    {
+      "path": "docs/phase-3/drafts/C05/EDITORIAL-REVIEW.md",
+      "sha256": "af2404ed353ed8459be9c3d85d1a32efa401e4c0e0892956339b2a4a0cde1eb0"
+    },
+    {
+      "path": "docs/phase-3/drafts/C05/study-plan.svg",
+      "sha256": "cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C06-editorial.json",
+      "sha256": "51ab3485e2da2cae101e8ad6f76e1934e93deaf2115455c5e16c0577fc722b1d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C06-asset-rights.json",
+      "sha256": "bcf1e32e197b6ac15015c93add8188f20211767de7324d286ef8f1253fb9c2ef"
+    },
+    {
+      "path": "docs/phase-3/drafts/C06/ARTICLE.md",
+      "sha256": "a58b7799153919ea38c7c338494a1e9e11e62cb1ad18b4b218ff5d74b6c2b215"
+    },
+    {
+      "path": "docs/phase-3/drafts/C06/REFERENCES.md",
+      "sha256": "761c69979760d3fa5b2ef677954c1138608495026c83f78ed28e52fa56790193"
+    },
+    {
+      "path": "docs/phase-3/drafts/C06/CLAIM-AUDIT.md",
+      "sha256": "04f5496aeff7fb033408b1abaafa245616b059a4fff35936e8a39de141dbb53a"
+    },
+    {
+      "path": "docs/phase-3/drafts/C06/BLOOM-REVIEW.md",
+      "sha256": "211646e2918ac117e0bbefde00a4c707d4f5acb222ca978fe8ff74bbb4be615a"
+    },
+    {
+      "path": "docs/phase-3/drafts/C06/VISUAL-REVIEW.md",
+      "sha256": "94494b69b93861ff7b19b9f7e310013be8c550c075eb9194ff85ccd27cb8ef19"
+    },
+    {
+      "path": "docs/phase-3/drafts/C06/EDITORIAL-REVIEW.md",
+      "sha256": "dedbd0d02c45e5c0dd75aa0610e95599fe7b6b88ba9bdbfc25fbe3abe34aae9c"
+    },
+    {
+      "path": "docs/phase-3/drafts/C06/first-step.svg",
+      "sha256": "59d6a0aeb6dffdb5c710a377e43511980abeea5e9e85e05117992a8bbbee7a10"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C07-editorial.json",
+      "sha256": "29f3be5aa4f1d5eb8764db9939274615b36922c6fa0f5daaf393531800a79264"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C07-asset-rights.json",
+      "sha256": "47e7102716c52b010e6e99c71288b80b262180461488fb518af610794a5e7813"
+    },
+    {
+      "path": "docs/phase-3/drafts/C07/ARTICLE.md",
+      "sha256": "857b9a3fc8ef3604a6c23972637ca5a4ee9448d7e6a11d08ad191ae52b78b13d"
+    },
+    {
+      "path": "docs/phase-3/drafts/C07/REFERENCES.md",
+      "sha256": "5ad89b67cf90071be03ae8ed8c649af61a263a0f554b328166488a0954178b43"
+    },
+    {
+      "path": "docs/phase-3/drafts/C07/CLAIM-AUDIT.md",
+      "sha256": "974886a01f676be70facf5ce380685fafa90b90f35bbe4df4964ed0007f51b12"
+    },
+    {
+      "path": "docs/phase-3/drafts/C07/BLOOM-REVIEW.md",
+      "sha256": "c9434df20270b9bae3647c16c170bef821e239cb44a8ff4ebb8fce7c58703bcd"
+    },
+    {
+      "path": "docs/phase-3/drafts/C07/VISUAL-REVIEW.md",
+      "sha256": "2c677981727e09393c586a4dea6561a1f19fa187d3a0d9f2b6d53af8c2ccc407"
+    },
+    {
+      "path": "docs/phase-3/drafts/C07/EDITORIAL-REVIEW.md",
+      "sha256": "9a5d1aae0359cff09cc55b32dfa27d9a6aaec61e56d48175d342d47a107f0285"
+    },
+    {
+      "path": "docs/phase-3/drafts/C07/return-to-learn.svg",
+      "sha256": "a5357fccaebd3231aaafac967c7dcbd04bd64f2e90e2b6a1c970f6d78b12f74e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C08-editorial.json",
+      "sha256": "f764ac713f7cc2946db39ca06f8c33dd09d13d4588cdb7501836efec2ad233b7"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C08-asset-rights.json",
+      "sha256": "f7d88b58e7a7a5ab467a5702e4aa229a9778718d9387e4c59a5bd102d1630b5f"
+    },
+    {
+      "path": "docs/phase-3/drafts/C08/ARTICLE.md",
+      "sha256": "878fbd0696b9527af4d997e31b6aa4d4f6891792f96a9f7573701b237f0d1564"
+    },
+    {
+      "path": "docs/phase-3/drafts/C08/REFERENCES.md",
+      "sha256": "7bfff27fed8cc14cbeac532c62bbaf01d2430dc6b300567f99db687632225607"
+    },
+    {
+      "path": "docs/phase-3/drafts/C08/CLAIM-AUDIT.md",
+      "sha256": "288194718edf2ca3182b62ef50bfacbf8990119dc836fbb5ab2246cba3ac03b6"
+    },
+    {
+      "path": "docs/phase-3/drafts/C08/BLOOM-REVIEW.md",
+      "sha256": "d1b12429f5f9d8f45630e2e220c774067f00ff91cd8dfa08650fe56c8e4c038c"
+    },
+    {
+      "path": "docs/phase-3/drafts/C08/VISUAL-REVIEW.md",
+      "sha256": "b2cbade595f08b458d9447d932c3044a402a99222cd05ce58ee2a9d0c11285fb"
+    },
+    {
+      "path": "docs/phase-3/drafts/C08/EDITORIAL-REVIEW.md",
+      "sha256": "d1bec978555cb71f65ac02a97485e052f7b338b68d35bc7f07e89c55335457ba"
+    },
+    {
+      "path": "docs/phase-3/drafts/C08/read-feedback.svg",
+      "sha256": "277fff7ceef0864618bf94c88e00fd05c7e945a1b80b77cf4192b2056bf7840d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C09-editorial.json",
+      "sha256": "89a9cf72a66555415a5c87e4428615b384cd3666b61baa9130b11ae5a0c8c963"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C09-asset-rights.json",
+      "sha256": "f241a72d6da1a6288b6b17f75d1829b57de014ba7d53f84365d07b9a2ff0cf9a"
+    },
+    {
+      "path": "docs/phase-3/drafts/C09/ARTICLE.md",
+      "sha256": "510d641ebe2a87514c1a569d537fe42d0c9c77c39d39309047a51d5058243066"
+    },
+    {
+      "path": "docs/phase-3/drafts/C09/REFERENCES.md",
+      "sha256": "a28c1f9ad73cccb9ec7ccb6d8e8d5732deb4485760927d50123bcd2cce7a399c"
+    },
+    {
+      "path": "docs/phase-3/drafts/C09/CLAIM-AUDIT.md",
+      "sha256": "b2871f101bbc944d27cf8e339ec9936dedda5afad4af4c44d606073d82c7abcd"
+    },
+    {
+      "path": "docs/phase-3/drafts/C09/BLOOM-REVIEW.md",
+      "sha256": "3fff5db4d5a4ed97203c482f1fc18bea002d2a3e7a0426b8086c912651207e2d"
+    },
+    {
+      "path": "docs/phase-3/drafts/C09/VISUAL-REVIEW.md",
+      "sha256": "2f951c691eaf9023cd38bf99f36985a94d97a5d01ec4adb5be095537705e705d"
+    },
+    {
+      "path": "docs/phase-3/drafts/C09/EDITORIAL-REVIEW.md",
+      "sha256": "bb5fd3365ff05806b79be685bb20574f0fa86905f96d94b24fbdb9b9bd843e34"
+    },
+    {
+      "path": "docs/phase-3/drafts/C09/connection-options.svg",
+      "sha256": "18f4f7ec60d4792d7ac5a3045ac41d5a07ed011c873e7d0f72601fc26ca09ce3"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C10-editorial.json",
+      "sha256": "b7e06850077a984a22afdb94e56fae5020f4587c58415102ed3add31c0e824e4"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C10-asset-rights.json",
+      "sha256": "7c6829ded51272cd1907593452e5d8396b6a1c170a52a176765893fd3cfd174c"
+    },
+    {
+      "path": "docs/phase-3/drafts/C10/ARTICLE.md",
+      "sha256": "bcfcbc476f540e86c6c4b3dab0686c0fa20c69de4fb3c1eda91a35f84c5bb575"
+    },
+    {
+      "path": "docs/phase-3/drafts/C10/REFERENCES.md",
+      "sha256": "e177326c3b314967e03767cef11780c50ec2f7f8d589ffc40c652653ce4bebc0"
+    },
+    {
+      "path": "docs/phase-3/drafts/C10/CLAIM-AUDIT.md",
+      "sha256": "d32f628fccce8d7c9663e390faa33990c86cb97899087a522d43510e63b9ecf9"
+    },
+    {
+      "path": "docs/phase-3/drafts/C10/BLOOM-REVIEW.md",
+      "sha256": "ea89fbcf829e07dcd41a1a941d36dc2e42998e32a9c2c17a694c75fc5f873727"
+    },
+    {
+      "path": "docs/phase-3/drafts/C10/VISUAL-REVIEW.md",
+      "sha256": "d127004bfca5015cbd0cfa45336c30fccb3d4f521b183e38b516b7a4953bca0b"
+    },
+    {
+      "path": "docs/phase-3/drafts/C10/EDITORIAL-REVIEW.md",
+      "sha256": "878ef27b8f12b7693047997658b53d473c8af6e716f683ac0bd68a3b598e5c2a"
+    },
+    {
+      "path": "docs/phase-3/drafts/C10/disagreement-dialogue.svg",
+      "sha256": "60e1fae6ab9742ad70082f689d72e93fa12dcf9b830b417e88c78321adb74cbc"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C11-editorial.json",
+      "sha256": "a8c9b679ab77e4507f966e76d145bb4f614cefddcd81c19797064b760393eb9a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C11-asset-rights.json",
+      "sha256": "0e19a9711f9eef19970cb4f63e441d2ec75c956052a707459ceeefbe1a12d77e"
+    },
+    {
+      "path": "docs/phase-3/drafts/C11/ARTICLE.md",
+      "sha256": "19b0e55583d1178adb21b3bb6a80940addd095d27d2d8ddf2e7c48d630a3f791"
+    },
+    {
+      "path": "docs/phase-3/drafts/C11/REFERENCES.md",
+      "sha256": "f472a3f65109574915c8bf35ae3cf01910b01d4f81fce38be5d36a9c87347794"
+    },
+    {
+      "path": "docs/phase-3/drafts/C11/CLAIM-AUDIT.md",
+      "sha256": "fd3b592bfc5b70ae9952f156f2b3c78fd31eebf0b77b1b3deeef8a87747cb34c"
+    },
+    {
+      "path": "docs/phase-3/drafts/C11/BLOOM-REVIEW.md",
+      "sha256": "207af53162bafb22e70ec58f758bf21b256f9256203f6a72c3aecfed02615523"
+    },
+    {
+      "path": "docs/phase-3/drafts/C11/VISUAL-REVIEW.md",
+      "sha256": "7377685beed7f5a485a1fee600b3679b82cc52d59629f04e7db8e7cf5b7ffb71"
+    },
+    {
+      "path": "docs/phase-3/drafts/C11/EDITORIAL-REVIEW.md",
+      "sha256": "42d6da38bc2e65c2187da211d77c2b2e7a171cb7bff17ad6433946ed53ead9eb"
+    },
+    {
+      "path": "docs/phase-3/drafts/C11/support-without-confronting.svg",
+      "sha256": "3c026ab2dc30150dd44de3eea0feef9190bf6b31b14acd022460a5918cbd44f0"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C12-editorial.json",
+      "sha256": "836c125d69c9a5b7dff2220a393650c1b8e614e595007c32dd45eb45c711d68d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C12-asset-rights.json",
+      "sha256": "871a40cab2b9e4d0a94918cc0ac7200685d2d2bc81f3e044847dbfe2316dc355"
+    },
+    {
+      "path": "docs/phase-3/drafts/C12/ARTICLE.md",
+      "sha256": "6ec025c6d242df2c9ff087432485251aa16e1729d1d70b588fa18ba4c36a7563"
+    },
+    {
+      "path": "docs/phase-3/drafts/C12/REFERENCES.md",
+      "sha256": "dcbdc50282c7f327d08e8e349db9184fddb43bef4e59b2fea44d21f5e3e4fe50"
+    },
+    {
+      "path": "docs/phase-3/drafts/C12/CLAIM-AUDIT.md",
+      "sha256": "8f7379aadedbfc9766a1b117632b6b09671df2f1aa2e73b28545ca7849ebe154"
+    },
+    {
+      "path": "docs/phase-3/drafts/C12/BLOOM-REVIEW.md",
+      "sha256": "a1d742643077fd3497ee871b6bae564f46e2746727237600fab0f7b37e20797d"
+    },
+    {
+      "path": "docs/phase-3/drafts/C12/VISUAL-REVIEW.md",
+      "sha256": "8838892e7f6d83261cae14a41e2ad67cb5427d47a71fe887330083c995876bc0"
+    },
+    {
+      "path": "docs/phase-3/drafts/C12/EDITORIAL-REVIEW.md",
+      "sha256": "786cb8a6ab789cb701a37ff825d3a962f96877604e4231bb91c9b38eb75342b9"
+    },
+    {
+      "path": "docs/phase-3/drafts/C12/no-with-an-exit.svg",
+      "sha256": "008bc7a3944b760bb93f25da704471d8184a9989ab758d229b9196fe4e503ed3"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C13-editorial.json",
+      "sha256": "a7a6bc431d0f0732072e57e7872cb65fb282fc5a5881ab7e63ccbba3679e3f0e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C13-asset-rights.json",
+      "sha256": "a6651163e30563e49eafefd0dd9b9d7963af9cad8691cca51ee2d16eae8f8ef0"
+    },
+    {
+      "path": "docs/phase-3/drafts/C13/ARTICLE.md",
+      "sha256": "5516d7c552c6f3a591f08cfd189d0258523d2e2dfd799d86d48781d267ba67cc"
+    },
+    {
+      "path": "docs/phase-3/drafts/C13/REFERENCES.md",
+      "sha256": "d0d81eba4e0efc85125f07257146c7eac4f7e4576819f899559f3999d31c41ef"
+    },
+    {
+      "path": "docs/phase-3/drafts/C13/CLAIM-AUDIT.md",
+      "sha256": "21a95b19dd79b57bd7e344150fa00b91ce7a0429c970468220c71f75ab6ca84e"
+    },
+    {
+      "path": "docs/phase-3/drafts/C13/BLOOM-REVIEW.md",
+      "sha256": "0b4d8872d143e8cb841e1c0d84ae2bf27d6b97de4823e752721e4032da3dc987"
+    },
+    {
+      "path": "docs/phase-3/drafts/C13/VISUAL-REVIEW.md",
+      "sha256": "6e94e5a744348ee7d5ccaa42a2c727a96398cb8b9be48d9c3336b403e77aaf01"
+    },
+    {
+      "path": "docs/phase-3/drafts/C13/EDITORIAL-REVIEW.md",
+      "sha256": "679f27abd9e8326f7f62483b574bf817177b4e6386ffdaf8eb3f4edfc78c2333"
+    },
+    {
+      "path": "docs/phase-3/drafts/C13/expectations-and-support.svg",
+      "sha256": "12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C14-editorial.json",
+      "sha256": "39e1774913a85f2b873c779a44f67deccbcc62c40a1ecfc537b4e9a2c8a776ae"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C14-asset-rights.json",
+      "sha256": "e249b907697e882e101919b6f85cd5da1ad3458876c3543f29078d170c0a9e10"
+    },
+    {
+      "path": "docs/phase-3/drafts/C14/ARTICLE.md",
+      "sha256": "0e31f9cf194036babdccf73d365634c00d69564f92ae31effaeb4224dbf34473"
+    },
+    {
+      "path": "docs/phase-3/drafts/C14/REFERENCES.md",
+      "sha256": "37b268284065b9df491a3dfeed6faaa80767e23bf82894ca4d5ef57f162e1c88"
+    },
+    {
+      "path": "docs/phase-3/drafts/C14/CLAIM-AUDIT.md",
+      "sha256": "ab9cba05a922e386214a2971a4bfda240b7a4c1bcd1de30c734dd4f798c7e75f"
+    },
+    {
+      "path": "docs/phase-3/drafts/C14/BLOOM-REVIEW.md",
+      "sha256": "34ef271592edf4de55911971e24e822d05ec9f75c1206303f548766d40890ce3"
+    },
+    {
+      "path": "docs/phase-3/drafts/C14/VISUAL-REVIEW.md",
+      "sha256": "f98e3f0e343f7869db6bcb4f66e60f75d58feeddede3685e71515623c52253b5"
+    },
+    {
+      "path": "docs/phase-3/drafts/C14/EDITORIAL-REVIEW.md",
+      "sha256": "d67cc2aa0b41974640f0838779e33dd984fab40e7f22e45d3ae1a2fd8bc5df77"
+    },
+    {
+      "path": "docs/phase-3/drafts/C14/conversation-options.svg",
+      "sha256": "924e4506dcea4f59be7b40cde89aa7d8bcb9fbf619977b9403b906832126390a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C15-editorial.json",
+      "sha256": "394ca172ae399f7e83d203ce4f18fced07f5155758f9e5483b5d1a5de92311dc"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C15-asset-rights.json",
+      "sha256": "6f2458affee001ae295991649d788464bf8c3c0b9642ce803496d127ba66a269"
+    },
+    {
+      "path": "docs/phase-3/drafts/C15/ARTICLE.md",
+      "sha256": "5575cbd91d5e09b4821e6c6a74d3f16d3739e3747badaf13df37b0ed647c6fc0"
+    },
+    {
+      "path": "docs/phase-3/drafts/C15/REFERENCES.md",
+      "sha256": "068ed9a9811d0a5ba7eaddf6ad0cac0355524b447de68372f95eb51bd3d62a71"
+    },
+    {
+      "path": "docs/phase-3/drafts/C15/CLAIM-AUDIT.md",
+      "sha256": "9fd63ce6c7a321460f1fc97f8437e4b46ac739ec7a1b28d28165b19c3c4f7e88"
+    },
+    {
+      "path": "docs/phase-3/drafts/C15/BLOOM-REVIEW.md",
+      "sha256": "aac472e0812052ae019cd942ea58ed5e9e08451cb4f976f1336a7079fd0eed3d"
+    },
+    {
+      "path": "docs/phase-3/drafts/C15/VISUAL-REVIEW.md",
+      "sha256": "ecbb7ad763330b0df2582266ecdc33895bb6b4ecad88d6c40179e5c87e36a415"
+    },
+    {
+      "path": "docs/phase-3/drafts/C15/EDITORIAL-REVIEW.md",
+      "sha256": "d06d6907a5b5d78bd6059e25269e0f67af40adf79fd6ca73ea66e993b27e39ed"
+    },
+    {
+      "path": "docs/phase-3/drafts/C15/support-role-map.svg",
+      "sha256": "73c3be6d10161bb7135fcff9fba351af5490b1cc600591634a7fdbe36151917d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C16-editorial.json",
+      "sha256": "79d6918ef23065344b6edd0e6d0639f7ab3485a5ef1a126cb0931f556376ff70"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C16-asset-rights.json",
+      "sha256": "e7c8125ea417378d0e0135bde6d6f277d2ebfc1c8d3add1795adc76398ece177"
+    },
+    {
+      "path": "docs/phase-3/drafts/C16/ARTICLE.md",
+      "sha256": "8d7c50c2c151c20f1c64a009388ce4297bdb3a2ff44e0e41dec1490008b18c1c"
+    },
+    {
+      "path": "docs/phase-3/drafts/C16/REFERENCES.md",
+      "sha256": "09550d24bc8402c19b0e7c6dc029de03eebbc2b573abac98f08eef492a9d5ff5"
+    },
+    {
+      "path": "docs/phase-3/drafts/C16/CLAIM-AUDIT.md",
+      "sha256": "0aee8e603ee1fff3f8a2617c77cf91ce295585dc4a64493a008ced06e49a062a"
+    },
+    {
+      "path": "docs/phase-3/drafts/C16/BLOOM-REVIEW.md",
+      "sha256": "943ebff84e074c90064acd8cdbe39bc569db46d0d3f86baeda04acb2837a8eb8"
+    },
+    {
+      "path": "docs/phase-3/drafts/C16/VISUAL-REVIEW.md",
+      "sha256": "027efa618160455d16e1568dc3fa3c491fc90a1d51b2732c4db85462b30768ef"
+    },
+    {
+      "path": "docs/phase-3/drafts/C16/EDITORIAL-REVIEW.md",
+      "sha256": "4ab229f65630dca3d023abfdc56822cefdd0b359418013ea5ab4827082b99673"
+    },
+    {
+      "path": "docs/phase-3/drafts/C16/listen-and-share-support.svg",
+      "sha256": "081f04abcb7fa576e7a57777ea0753ed3a8b675facdaeff33f210d1eee145065"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C17-editorial.json",
+      "sha256": "510a23aeeebadf80be84a432df4673c21020583319ce379976ed7ad5cfbda17b"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C17-asset-rights.json",
+      "sha256": "b34b731558a9c5a487d83e15317367a25b45ced54a63c474b8d45a6833f5d4af"
+    },
+    {
+      "path": "docs/phase-3/drafts/C17/ARTICLE.md",
+      "sha256": "5a88cc2c70529bc40b9fca966c0b5de1064fc3a8ef05612746d63c1aaf89467d"
+    },
+    {
+      "path": "docs/phase-3/drafts/C17/REFERENCES.md",
+      "sha256": "fb19cb82b6f6caec9fc20daafd7555ea2afb78f0e6782fea5fc8a1f09f6e046f"
+    },
+    {
+      "path": "docs/phase-3/drafts/C17/CLAIM-AUDIT.md",
+      "sha256": "010f0afcf8b793f48df6fa5770f9e0f0627f21669beb7c0c0cec90c5e01ebff7"
+    },
+    {
+      "path": "docs/phase-3/drafts/C17/BLOOM-REVIEW.md",
+      "sha256": "a490a775cc382a2aa7ef45aa3b1b82701a932d558e45c6c57ab8d7b6143dfb93"
+    },
+    {
+      "path": "docs/phase-3/drafts/C17/VISUAL-REVIEW.md",
+      "sha256": "7ac2890303c2d64005214354a2c157031ee05eb287b515c8617638fcdde7bd24"
+    },
+    {
+      "path": "docs/phase-3/drafts/C17/EDITORIAL-REVIEW.md",
+      "sha256": "cad2232a2a26d6aeab511f5e85fa77499024d7d02aea3282b450820ef512214c"
+    },
+    {
+      "path": "docs/phase-3/drafts/C17/sleep-context.svg",
+      "sha256": "2279965d4b3799dcd60e420fe09c63d6c572164e70e5c6425a647b9eeef37fae"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C18-editorial.json",
+      "sha256": "eaf07909013c763de392762a984dc0875a199996647de5a97e70339c7e43fb45"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C18-asset-rights.json",
+      "sha256": "5f43f64d3c61910bdf1a9d1210938412b8fde3bebc1f5d77be7ff95c10e03f4c"
+    },
+    {
+      "path": "docs/phase-3/drafts/C18/ARTICLE.md",
+      "sha256": "4a1b67d8b606c0053918672b0c57228a79c975ad172a9775c23fc83f8ff0b5c1"
+    },
+    {
+      "path": "docs/phase-3/drafts/C18/REFERENCES.md",
+      "sha256": "56e64648492f16d31f66877a9e1837bc3aca28e2c2491957bc142a4e3befba19"
+    },
+    {
+      "path": "docs/phase-3/drafts/C18/CLAIM-AUDIT.md",
+      "sha256": "8d94e614eb592620abdb978db2104165c8c1b208d138acb450c9cad569032599"
+    },
+    {
+      "path": "docs/phase-3/drafts/C18/BLOOM-REVIEW.md",
+      "sha256": "7565c937c795a0bbf9364f3ffb7e20997f00ef4fb1d05cc8739503555674596f"
+    },
+    {
+      "path": "docs/phase-3/drafts/C18/VISUAL-REVIEW.md",
+      "sha256": "679c4cadc404fa1322dbac6a1450a9687132ad6a591718ab032e5b3fa3730876"
+    },
+    {
+      "path": "docs/phase-3/drafts/C18/EDITORIAL-REVIEW.md",
+      "sha256": "2a70df21c29b10eac4f2c3a7cd9693f9fdfe3138e71765eefbb7ddf794380925"
+    },
+    {
+      "path": "docs/phase-3/drafts/C18/rest-options.svg",
+      "sha256": "1ecd2045c183634d7686f8558509a1ce3608df86071f042cfdd5db43ee0ba00f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C19-editorial.json",
+      "sha256": "58e49af21b57975c083ae730e30f73131f504c60335db6b84cb8007f82ccfaf2"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C19-asset-rights.json",
+      "sha256": "1e617066826408497c35e23b5b826343cb6e2729feeb0cb4e1f6a41383c229cd"
+    },
+    {
+      "path": "docs/phase-3/drafts/C19/ARTICLE.md",
+      "sha256": "6b8e18e86fbf79848f1bf4795541c93c184501ffa824a31e09569e22057f2c2a"
+    },
+    {
+      "path": "docs/phase-3/drafts/C19/REFERENCES.md",
+      "sha256": "7c86ada24a54cb3907a95d78b4b3744bb73d993aa84b5b4b228be69ed8e3d7bd"
+    },
+    {
+      "path": "docs/phase-3/drafts/C19/CLAIM-AUDIT.md",
+      "sha256": "700c2ab1831abea672a585a1c107fd64d7f188e6e2050e72baf7d7ed8103187a"
+    },
+    {
+      "path": "docs/phase-3/drafts/C19/BLOOM-REVIEW.md",
+      "sha256": "b6f2a85af159eb8f0e740d7ac14be5ee340ccb143abca457c673db3b163d132a"
+    },
+    {
+      "path": "docs/phase-3/drafts/C19/VISUAL-REVIEW.md",
+      "sha256": "9a479eac1fbed337edb1e4a73e2494996d7b06d6289969535f3352dc7c6c5615"
+    },
+    {
+      "path": "docs/phase-3/drafts/C19/EDITORIAL-REVIEW.md",
+      "sha256": "7a389925271e03ea8d8f1823d574b63164161fcd5fc6398e7b5abb23045595a0"
+    },
+    {
+      "path": "docs/phase-3/drafts/C19/body-signal-context.svg",
+      "sha256": "69ba2f099e4bdf975ba1e3a6472990f44ffc5d0c13c231b73f1113735136c4ea"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C20-editorial.json",
+      "sha256": "4917924491b96223993555dfd6a89c18440421da7c87cf49de3b48624d49737f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C20-asset-rights.json",
+      "sha256": "d771358c4fb60a7f1c4fa24ea5bd0d8d07efd100dbaf9cee5833c7a57f78cdf7"
+    },
+    {
+      "path": "docs/phase-3/drafts/C20/ARTICLE.md",
+      "sha256": "f138411a49208cd26385a298ae794ea64e5d0b3c919f1620913294b145c6a0e4"
+    },
+    {
+      "path": "docs/phase-3/drafts/C20/REFERENCES.md",
+      "sha256": "d6c7e27c21256e36628e03a1dc6d004695bc75a0469cf27c510c49dfbc5fedd6"
+    },
+    {
+      "path": "docs/phase-3/drafts/C20/CLAIM-AUDIT.md",
+      "sha256": "1ef69635d4d76d817f05e9302f0ebb57e73a26accf393c1519e0bd1d4c6c6f64"
+    },
+    {
+      "path": "docs/phase-3/drafts/C20/BLOOM-REVIEW.md",
+      "sha256": "f35f263021e6c8545d420e99e12243b9575246e7fa8961f3d4a382d3eadf6ae8"
+    },
+    {
+      "path": "docs/phase-3/drafts/C20/VISUAL-REVIEW.md",
+      "sha256": "ee5e1fa6476c3c363140e5083497d9f2bdeacba523793f5c926d21d2ef500d12"
+    },
+    {
+      "path": "docs/phase-3/drafts/C20/EDITORIAL-REVIEW.md",
+      "sha256": "9ad8f8e08228ad93f048ce20def691fb74d65906725de0b32d44ed7af885bc20"
+    },
+    {
+      "path": "docs/phase-3/drafts/C20/movement-options.svg",
+      "sha256": "bb79d29921e713c431b629e7ec457a6b813656da41bbc47943f51b037a3d025a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C21-editorial.json",
+      "sha256": "2771972bb275f9c9f8fa04b0202a4a6bdaec04556ee3d118bcae5725ce27199a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C21-asset-rights.json",
+      "sha256": "06024eeee361c3e86cfe065390c5579d2d84197d466483f2db968468dd00fa87"
+    },
+    {
+      "path": "docs/phase-3/drafts/C21/ARTICLE.md",
+      "sha256": "cc19dc5686263516974c33b898a54467858c5ef0df2c500a3a18d50905c84328"
+    },
+    {
+      "path": "docs/phase-3/drafts/C21/REFERENCES.md",
+      "sha256": "e1e98e566e2cd4ff2d147a9c0fb3eeb43ec73bb86ed686b92261db0e82abfafc"
+    },
+    {
+      "path": "docs/phase-3/drafts/C21/CLAIM-AUDIT.md",
+      "sha256": "d6b621c5fb9a790e31d7d922d1eca640d8eee12de9ed5bb8001e12c7c81d4ea6"
+    },
+    {
+      "path": "docs/phase-3/drafts/C21/BLOOM-REVIEW.md",
+      "sha256": "1e2ced89d7bcefc66d48b613dcbbac10c00f3e1f34ecc7ed850b1533a9075ec0"
+    },
+    {
+      "path": "docs/phase-3/drafts/C21/VISUAL-REVIEW.md",
+      "sha256": "95d9ee125ed32df5b05fb7616199c4f95b1b199dc76156099ca5c25fca99c41d"
+    },
+    {
+      "path": "docs/phase-3/drafts/C21/EDITORIAL-REVIEW.md",
+      "sha256": "90e6f36c5a228b1a5368d8107c2bdddb1787b485ee020975b00396f2e124bc79"
+    },
+    {
+      "path": "docs/phase-3/drafts/C21/post-and-missing-context.svg",
+      "sha256": "0361e599cdba6037aa9e8d8089ca44a2f89c0ce924759c81882a88f2b081cf7e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C22-editorial.json",
+      "sha256": "9c4f46f6bbdb2fc62f3fba2bf95bb0888f9cde9e5c2cf9fb891287787d4fda15"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C22-asset-rights.json",
+      "sha256": "b568619a9258665bbea695fe53caad0846bd0e261ad91816ae1fd452656afb79"
+    },
+    {
+      "path": "docs/phase-3/drafts/C22/ARTICLE.md",
+      "sha256": "e8e5d5bb695fb26fc3dde8703f0a5a0e36090767a758b302b0517195c9491b53"
+    },
+    {
+      "path": "docs/phase-3/drafts/C22/REFERENCES.md",
+      "sha256": "fa6c4aabdfef49dff24ac885f926aba565113a4d11b2b94d014a6a3b499ee296"
+    },
+    {
+      "path": "docs/phase-3/drafts/C22/CLAIM-AUDIT.md",
+      "sha256": "578fd65f135ba7fe36e043631abb7ff9c384c620a53236b36bd4824e9b2292ed"
+    },
+    {
+      "path": "docs/phase-3/drafts/C22/BLOOM-REVIEW.md",
+      "sha256": "7da1a34a3b5c7a3410ad05400ace70686846b632c34351c4c84de3ef06d33e02"
+    },
+    {
+      "path": "docs/phase-3/drafts/C22/VISUAL-REVIEW.md",
+      "sha256": "5092b89afdd71ea2a79d3bed849b74eb63fdf27d8f8af534e5b175eb53b6b81f"
+    },
+    {
+      "path": "docs/phase-3/drafts/C22/EDITORIAL-REVIEW.md",
+      "sha256": "349f2832eef694161b42ba1a35018b38690d9c24672fb9871b46a10e0342a809"
+    },
+    {
+      "path": "docs/phase-3/drafts/C22/study-and-contact.svg",
+      "sha256": "100ea5f1a412777c1bfed69c1126adcde3569fb4ccd86a8924c10d7771e94cde"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C23-editorial.json",
+      "sha256": "346140edb4ebee971b0f653d0777249a60f04fe3f43847936c32e727e403768f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C23-asset-rights.json",
+      "sha256": "639e9600380e2d52a0cf99530af546230636fe50d50366e84d4107947c4a184d"
+    },
+    {
+      "path": "docs/phase-3/drafts/C23/ARTICLE.md",
+      "sha256": "5bcb2df38bc4cafb1f886162c933385260928c73db1ca9c12845f0632e4639b6"
+    },
+    {
+      "path": "docs/phase-3/drafts/C23/REFERENCES.md",
+      "sha256": "1939db5fd06c20c591fd391f364801eb9608bc8667e89dbb5721319ef35c08d1"
+    },
+    {
+      "path": "docs/phase-3/drafts/C23/CLAIM-AUDIT.md",
+      "sha256": "ed797c319258ef75d2ff6c6eab8bd1bbe7fb7b8c81ece1cafdc06b5add111b02"
+    },
+    {
+      "path": "docs/phase-3/drafts/C23/BLOOM-REVIEW.md",
+      "sha256": "955634124ece1bf2700a74fe27821ae2313d84b62b7beec18524ef826cd7d2c9"
+    },
+    {
+      "path": "docs/phase-3/drafts/C23/VISUAL-REVIEW.md",
+      "sha256": "1552c1411c364e0b183fd03051a235f89622bc75a7eac2c53dde503de8824720"
+    },
+    {
+      "path": "docs/phase-3/drafts/C23/EDITORIAL-REVIEW.md",
+      "sha256": "51dc278d61f894caf68907e5e20c75c8f1fe36c8c10b85a669c300e41e297388"
+    },
+    {
+      "path": "docs/phase-3/drafts/C23/new-school-map.svg",
+      "sha256": "c2086d1ffa0a5fedb503f3e024b9c9332b0cf9d0713480c54d3c8c070ee94905"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C24-editorial.json",
+      "sha256": "06ea7457c5c7f9ec4a0d8973534f2bb40c12cf6bb836efd2c7d398fc893898af"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C24-asset-rights.json",
+      "sha256": "b06d90ddd2c890b0ec043f53bb8df8e1fcd03bd01cbfe49a0f112140887d8d2d"
+    },
+    {
+      "path": "docs/phase-3/drafts/C24/ARTICLE.md",
+      "sha256": "3ecbaf4b33427577bf591cf87001b15fa46e901578779f3de7f8f950e59a0f0c"
+    },
+    {
+      "path": "docs/phase-3/drafts/C24/REFERENCES.md",
+      "sha256": "62f1ba8891c1bbbe935a38eacbce410c46afc8e8c5730827213283381a240c2f"
+    },
+    {
+      "path": "docs/phase-3/drafts/C24/CLAIM-AUDIT.md",
+      "sha256": "6e21e588f492d46ae65800d2f54f835d1184bb7c7537069e03d99ace2ebf7e6c"
+    },
+    {
+      "path": "docs/phase-3/drafts/C24/BLOOM-REVIEW.md",
+      "sha256": "8bd78735f9c28ab806d1600b0642571ecea86ad1f2433a3946662af6bb544387"
+    },
+    {
+      "path": "docs/phase-3/drafts/C24/VISUAL-REVIEW.md",
+      "sha256": "56348288d706ecf75ed711552d6dfb3acd08b129f267eaa028ce21c016ae1548"
+    },
+    {
+      "path": "docs/phase-3/drafts/C24/EDITORIAL-REVIEW.md",
+      "sha256": "a928e4a11e5be3d3a63b2f5b487cd338c41f2c23000cca0911848315042172ff"
+    },
+    {
+      "path": "docs/phase-3/drafts/C24/exploration-and-reflection.svg",
+      "sha256": "fd3ffdf2f8c4a3e722377c69bd68806886c21a3f24e5134e8ca100e289e944d9"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E01-editorial.json",
+      "sha256": "8fa89b4d5604decef115585457920b5702f48e41d19c2607981f873e1502859d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E01-asset-rights.json",
+      "sha256": "a6d99341e8a586b447675dc3c19f491a68a5322068c170ed8d3e4ec4f696f246"
+    },
+    {
+      "path": "docs/phase-3/drafts/E01/ARTICLE.md",
+      "sha256": "dee659a32ce1d4dc5c998c2495814773077c7a1159f3092978cdf900145cd1be"
+    },
+    {
+      "path": "docs/phase-3/drafts/E01/REFERENCES.md",
+      "sha256": "e8db1d4c39d87f044af5ce23d0b1052c65ac8a9f03ff422f762686224e3a954a"
+    },
+    {
+      "path": "docs/phase-3/drafts/E01/CLAIM-AUDIT.md",
+      "sha256": "2c472ed646102cf5d9f626ac105359164d9e01f13ddd16b31a44a776210043cc"
+    },
+    {
+      "path": "docs/phase-3/drafts/E01/BLOOM-REVIEW.md",
+      "sha256": "cfb69b60564f8cd8566f5959a54cd2c7f13a9734663e0ccb422b7f1045ae1950"
+    },
+    {
+      "path": "docs/phase-3/drafts/E01/VISUAL-REVIEW.md",
+      "sha256": "074f2f95719f8baa2370f4423a7c5e8ac1999df874568930cf05c6d895153e29"
+    },
+    {
+      "path": "docs/phase-3/drafts/E01/EDITORIAL-REVIEW.md",
+      "sha256": "9533cadf3063c28854a2f983fb6719b363d59ed191f525423b96d0915f00fa3d"
+    },
+    {
+      "path": "docs/phase-3/drafts/E01/tool-result-conclusion.svg",
+      "sha256": "27ba1e4dd5442cd8103d5dbd8b02fd8128aa566c6bd3db390f848179921d3d1e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E02-editorial.json",
+      "sha256": "4f0fc0d8b10cb7863fa15458f8ba43a595afa6207036636cf3931bac05314388"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E02-asset-rights.json",
+      "sha256": "dfbab9ca7b65725a0d968a4f260ba3034855d2e632931738bcff6e6c868cb60c"
+    },
+    {
+      "path": "docs/phase-3/drafts/E02/ARTICLE.md",
+      "sha256": "ffe397b0bc53d8cb2a4588e6db48332a48f8c95f540b650243a05f1052ddc4c9"
+    },
+    {
+      "path": "docs/phase-3/drafts/E02/REFERENCES.md",
+      "sha256": "1c0d801ea09c833fca9bf78703a84be568df81ceced39b92585882015508f2c4"
+    },
+    {
+      "path": "docs/phase-3/drafts/E02/CLAIM-AUDIT.md",
+      "sha256": "44ef99b4425461218ae282d2ff59bb497fb10d760d63bd989b4d7fe807725ab4"
+    },
+    {
+      "path": "docs/phase-3/drafts/E02/BLOOM-REVIEW.md",
+      "sha256": "355fe52cd1d0ed4941352299a92dfd11dce98e37cb1968bc36699e935f0b6d96"
+    },
+    {
+      "path": "docs/phase-3/drafts/E02/VISUAL-REVIEW.md",
+      "sha256": "f766e65271c599582abc8fb0a4d737097e2c2cadf09c90acb66f56faf2e011c2"
+    },
+    {
+      "path": "docs/phase-3/drafts/E02/EDITORIAL-REVIEW.md",
+      "sha256": "775add7c557ae57c7abece66568f5a7ef08fda999339f78bc429b3aa743e619b"
+    },
+    {
+      "path": "docs/phase-3/drafts/E02/five-dimensions.svg",
+      "sha256": "5619b9549b3671c64f205674867c746493b80e27b9eb5792b3238173fa0b6721"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E03-editorial.json",
+      "sha256": "bf3a4cf09d7803fe0a6d3573c9d6554967ffcfbbcc6d7dd41c6a01011813e748"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E03-asset-rights.json",
+      "sha256": "2d6a4a3deff5e14335480b318cdf58fc02e14f3a1065f293da79b2a485e9b486"
+    },
+    {
+      "path": "docs/phase-3/drafts/E03/ARTICLE.md",
+      "sha256": "fa856be71c83416bbc8fd71781d6377f04ea6282d56da5c4555e6ffb51a38405"
+    },
+    {
+      "path": "docs/phase-3/drafts/E03/REFERENCES.md",
+      "sha256": "c41565b0ac2a234ea632a4067152cf140eccbccf1c75e6159147801c256e77b7"
+    },
+    {
+      "path": "docs/phase-3/drafts/E03/CLAIM-AUDIT.md",
+      "sha256": "b85957c893bc9ad978729ebc6836ec9acdadc21745abffc31a2ea3b0778037a0"
+    },
+    {
+      "path": "docs/phase-3/drafts/E03/BLOOM-REVIEW.md",
+      "sha256": "bbe4b7a69d77cc49e2eb10f506ba32e8743f707229ed1c555a547d013f619404"
+    },
+    {
+      "path": "docs/phase-3/drafts/E03/VISUAL-REVIEW.md",
+      "sha256": "f9fef3114cede9242dd6a2378ca471fc6b41a1fc6b43fed327847549abebc7d1"
+    },
+    {
+      "path": "docs/phase-3/drafts/E03/EDITORIAL-REVIEW.md",
+      "sha256": "7a47aef4386a6ade0662a78d53d46b7c9cd7d3df391e1a3a8fa3b1e4981faa17"
+    },
+    {
+      "path": "docs/phase-3/drafts/E03/six-interest-directions.svg",
+      "sha256": "418ef31a22f48d6667a5141cf4ad0bb1555022358a6d44430b26b5af008a2632"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E04-editorial.json",
+      "sha256": "47f64401e008108d986ff4b14dd6a27ce6383d70fc826492309ee120dc052359"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E04-asset-rights.json",
+      "sha256": "3d26afd0b9d576dc5e375e3f14a2928e2ababedb0d4b781336814ec4f2daf474"
+    },
+    {
+      "path": "docs/phase-3/drafts/E04/ARTICLE.md",
+      "sha256": "47c9f116ee1372032688356f2a3c2cec78128639ee61688212a121c14a489c51"
+    },
+    {
+      "path": "docs/phase-3/drafts/E04/REFERENCES.md",
+      "sha256": "8eb8a5f0648e15ac1828d84f79b3e820a096b750a32e197c403f7576c05688c1"
+    },
+    {
+      "path": "docs/phase-3/drafts/E04/CLAIM-AUDIT.md",
+      "sha256": "41091d82ce1e5e7369bfdd7839c1a3044052225ff010bd774d8a31bc80bccf3e"
+    },
+    {
+      "path": "docs/phase-3/drafts/E04/BLOOM-REVIEW.md",
+      "sha256": "160bdffdb62a3345934aa4830e1dd79d5af9405d2a3e695ccc3b6e4ab44d689d"
+    },
+    {
+      "path": "docs/phase-3/drafts/E04/VISUAL-REVIEW.md",
+      "sha256": "7d35f01b1992566bde5a4c926e3acdad1df55a7b87b0c41523445ca41d037485"
+    },
+    {
+      "path": "docs/phase-3/drafts/E04/EDITORIAL-REVIEW.md",
+      "sha256": "eb97f7d87df6e236872be7dee14cd052be2cf9a0b393a8b5f04c98bcdf5e7605"
+    },
+    {
+      "path": "docs/phase-3/drafts/E04/score-context-support.svg",
+      "sha256": "8ff5995d17c89d9d171fd31458db6be85f38786606fbb50d4128f1e7b8fc9c00"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E05-editorial.json",
+      "sha256": "ec7b0299d2ab9b22f4755e06c0661c26a5e2ec74dbd6b7cb08022a4fc09ca5ec"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E05-asset-rights.json",
+      "sha256": "22d3f16ec03ce505580b608b2c78c6701d422f8b6c0082b06916b185870c694b"
+    },
+    {
+      "path": "docs/phase-3/drafts/E05/ARTICLE.md",
+      "sha256": "4ac983b803e6741fcc63f88cbe88cd4abcf7d2f576d53ac0157da0ee42d8409e"
+    },
+    {
+      "path": "docs/phase-3/drafts/E05/REFERENCES.md",
+      "sha256": "0177cf236a2ec9ff4b9e330153a24c84c46cbf1f02fe6583801ddf737d75fd48"
+    },
+    {
+      "path": "docs/phase-3/drafts/E05/CLAIM-AUDIT.md",
+      "sha256": "2ecc3df655f8161ed1e402606aee59b531b8b6d220f548a6eecfa633277ff391"
+    },
+    {
+      "path": "docs/phase-3/drafts/E05/BLOOM-REVIEW.md",
+      "sha256": "022c48be819767327c6dfda6ea4f1aeda6dd3f5d51098ad1ce3946eedececa9f"
+    },
+    {
+      "path": "docs/phase-3/drafts/E05/VISUAL-REVIEW.md",
+      "sha256": "f118d2fdebd68b51bc25bbdf4b4d931973bec684d4fd2cc2b4143acef8b075a7"
+    },
+    {
+      "path": "docs/phase-3/drafts/E05/EDITORIAL-REVIEW.md",
+      "sha256": "99c9a3bc98db676abb9c384a04d404e50d1de988f9abeb92c35003685c2c96d1"
+    },
+    {
+      "path": "docs/phase-3/drafts/E05/claim-to-practice.svg",
+      "sha256": "674ada70eeba61995bdc7df14fc1ca0deea51ee8fed949774dee44846aac9d7c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W001-editorial.json",
+      "sha256": "a2b1b8e1e140441273c6047cb5ca82bded25dfdb5fd63f8fd771c808b87e52bd"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W002-editorial.json",
+      "sha256": "2976446289276396c7ce2d317bd17796f5734ec5a2866583cc284fe9333de21e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W003-editorial.json",
+      "sha256": "1fe5b8bd1820ac17663394a05f2052ebedbdab01e66a4bbc1825679f8ffa9f01"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W004-editorial.json",
+      "sha256": "9cb83e6c851d711bf9b91cc1191a506c48d64cb183088999feb62327b436113f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W005-editorial.json",
+      "sha256": "97d9e34a92d3755deeffb68905bc95d321e0f261d67ec258f345b3d670689661"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W006-editorial.json",
+      "sha256": "999f9356e5c559da47992e766350a6c060dbcb24de068ffb337d3f045d0d3069"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W007-editorial.json",
+      "sha256": "f99675c5550ce6d0bac8709a9f1934e27cb1943839f49d0681782e28aaa69eb1"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W008-editorial.json",
+      "sha256": "b22d3359a05d12cd18f90ef441bf5e5ea15b120e114bb99f374c5863d0fad423"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W009-editorial.json",
+      "sha256": "c9a86617f5b8758217951009086468dff45103959682ab64ba80e4de26fe032e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W010-editorial.json",
+      "sha256": "bda1f5f5e6ceae1e63bde5cf5d35112acc70428ac1ad9cafab81048fac3ca527"
+    },
+    {
+      "path": "docs/phase-3/r10/CONFIRMATION.md",
+      "sha256": "19a142f9e5ed80ca8cec7da32f738cad7f7019e1d47e9f1dfec25ecadaad7a13"
+    },
+    {
+      "path": "prototype/editorial/source-manifest.json",
+      "sha256": "02dd5209a6de66a42988b5c1db2698a4a1234782c706ae98eb60a6b23ca78978"
+    },
+    {
+      "path": "prototype/editorial/weekly.json",
+      "sha256": "a6cb50fa370f62ceeaf41319136a5aee3c00e7fd22ce81cc2e4f718620fb99dc"
+    }
+  ],
+  "newHumanReviewRecordsCreated": 0
+}
