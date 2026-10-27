@@ -1,0 +1,11 @@
+{
+  "result": "PASS scoped evidence validation",
+  "articles": 29,
+  "svg": 29,
+  "weekly": 10,
+  "validatedDetachedRecords": 68,
+  "publicArticles": 0,
+  "incompleteBundleRejected": true,
+  "publicationGuardChanged": false,
+  "q1Evidence": "reused by matching full source/SVG hashes, no new human claim"
+}

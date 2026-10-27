@@ -1,0 +1,21 @@
+{
+  "kind": "editorialApproval",
+  "subjectId": "sau-diem-so-minh-di-tiep",
+  "revision": "r10-weekly-v1",
+  "contentHash": "2264129af6002563b417e355d112fd472c0668c771085dc1394b10c07bec17eb",
+  "revisionHash": "2264129af6002563b417e355d112fd472c0668c771085dc1394b10c07bec17eb",
+  "confirmation": {
+    "path": "docs/phase-3/r10/CONFIRMATION.md",
+    "sha256": "19a142f9e5ed80ca8cec7da32f738cad7f7019e1d47e9f1dfec25ecadaad7a13"
+  },
+  "decision": "approved",
+  "by": "Chủ dự án Không Gian Nội Tâm",
+  "at": "2026-10-27T14:34:11+07:00",
+  "basis": {
+    "source": "owner R1.0 instruction accepts W2 sample structure, reaffirmed in explicit editorial confirmation",
+    "registry": "prototype/editorial/weekly.json",
+    "scope": "exact existing payload including title/description/order/interval; sample schedule only",
+    "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+    "noPublicationAuthorization": true
+  }
+}

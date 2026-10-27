@@ -1,0 +1,20 @@
+{
+  "kind": "editorialApproval",
+  "subjectId": "KGNT-C20",
+  "revision": "c20-draft-r1",
+  "contentHash": "f138411a49208cd26385a298ae794ea64e5d0b3c919f1620913294b145c6a0e4",
+  "revisionHash": "5c2dbc51a33c096f9a009bcef4dfc782ceda6ca3585f1f56155ee85b02c187fa",
+  "confirmation": {
+    "path": "docs/phase-3/r10/CONFIRMATION.md",
+    "sha256": "19a142f9e5ed80ca8cec7da32f738cad7f7019e1d47e9f1dfec25ecadaad7a13"
+  },
+  "decision": "approved",
+  "by": "Chủ dự án Không Gian Nội Tâm",
+  "at": "2026-10-27T14:34:11+07:00",
+  "basis": {
+    "source": "owner P1C decision reaffirmed and explicitly confirmed in R1.0 conversation",
+    "decisionDocument": "docs/phase-3/p1c/OWNER-DECISION.md",
+    "permittedIdentifier": true,
+    "scope": "editorial acceptance only; no expert/learner/publication approval inferred"
+  }
+}

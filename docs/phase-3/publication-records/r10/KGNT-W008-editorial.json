@@ -1,0 +1,21 @@
+{
+  "kind": "editorialApproval",
+  "subjectId": "truoc-mua-kiem-tra",
+  "revision": "r10-weekly-v1",
+  "contentHash": "852e0f388c05713d3f4925172f30b91af872e135e47d4c477d509a8352e1c548",
+  "revisionHash": "852e0f388c05713d3f4925172f30b91af872e135e47d4c477d509a8352e1c548",
+  "confirmation": {
+    "path": "docs/phase-3/r10/CONFIRMATION.md",
+    "sha256": "19a142f9e5ed80ca8cec7da32f738cad7f7019e1d47e9f1dfec25ecadaad7a13"
+  },
+  "decision": "approved",
+  "by": "Chủ dự án Không Gian Nội Tâm",
+  "at": "2026-10-27T14:34:11+07:00",
+  "basis": {
+    "source": "owner R1.0 instruction accepts W2 sample structure, reaffirmed in explicit editorial confirmation",
+    "registry": "prototype/editorial/weekly.json",
+    "scope": "exact existing payload including title/description/order/interval; sample schedule only",
+    "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+    "noPublicationAuthorization": true
+  }
+}
