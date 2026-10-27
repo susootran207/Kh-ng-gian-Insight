@@ -1,0 +1,465 @@
+{
+  "result": "PASS scoped evidence/integrity and missing-time negative checks; RELEASE BLOCKED",
+  "base": "cf088fcac7f74eecade6d6840c75ff5d99735b4e",
+  "unchangedValidatedRecords": 107,
+  "sourceFilesUnchanged": 203,
+  "ownerReportedScopeBound": 39,
+  "expertConclusion": "cho phép (owner reported, not direct teacher signature)",
+  "device": "laptop (owner reported, browser/actions not inferred)",
+  "missingTimeRejected": [
+    {
+      "kind": "expertReview",
+      "at": null,
+      "rejected": true,
+      "error": "Content contract: date must be nonempty text"
+    },
+    {
+      "kind": "readerQA",
+      "at": null,
+      "rejected": true,
+      "error": "Content contract: date must be nonempty text"
+    },
+    {
+      "kind": "learnerReview",
+      "at": null,
+      "rejected": true,
+      "error": "Content contract: date must be nonempty text"
+    }
+  ],
+  "newExpertReaderLearnerRecordsCreated": 0,
+  "publicArticles": 0,
+  "weeklyWithAllPublicationProofs": 0,
+  "weeklyStartedByCalendar": 0,
+  "weeklyPublic": 0,
+  "guardUnchanged": true,
+  "originalProofHashes": [
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C01-editorial.json",
+      "sha256": "bb73902df745367bdfcffa2b2b1818dea296a9f5de2b3f11dbed7147c1a9001c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C01-asset-rights.json",
+      "sha256": "bd3569a171e8dbb088d10c70a11f815cfa1928354b0bd4ae5362eb8a65f924f2"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C01-publication-authorization.json",
+      "sha256": "bf86a44b8683f91b6e72cddd356fb7951af5d7444d85a3ef63371003d2db941c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C02-editorial.json",
+      "sha256": "6ad97fceddc36a5d743d43368919b87d906eabb657994912ab780a1f527b7d31"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C02-asset-rights.json",
+      "sha256": "04032947ba21a3098fa9dbefdda9237ec8b5a002e78ea695ea36ec12129d6d0a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C02-publication-authorization.json",
+      "sha256": "11d29f552b847da3879067c9f40344e788b243a61c17759f4d7c96e68f102961"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C03-editorial.json",
+      "sha256": "685ca17d8b76ab10262b863facfe565b8731b166037a0a5ca4cd506480b9f0de"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C03-asset-rights.json",
+      "sha256": "a982fe7678be5d7a950debd9897e9bde23c9fec37c2544decd1e8b53de94eca5"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C03-publication-authorization.json",
+      "sha256": "3b0d2d545825255408fc31f6ebd397cc11ad59b3007b77e7346818f4fd1c0e52"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C04-editorial.json",
+      "sha256": "9466e33a7c9853d93779a1ba87162c90320a5d95901e18e1fba2a5c7ebd01071"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C04-asset-rights.json",
+      "sha256": "ae28e09a056ba859ca5242e0ddc76dc1a16a41f6df0b2ddff2776137e76f3cda"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C04-publication-authorization.json",
+      "sha256": "8cf469cb6dc61bed89ac17739f3b156b92049200f2463c0a43a1ab3e997fb281"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C05-editorial.json",
+      "sha256": "9d3d47c4311883561659aca1043bcaccc753cc53e66ae0dc43bea6d4ebb195f9"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C05-asset-rights.json",
+      "sha256": "f50ce00697cd2614281851786d26dbef24bf15df9bbe7691d2979d65f92e7dff"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C05-publication-authorization.json",
+      "sha256": "29a934046f96f371a01c78f869ed3bf1c69f159103ace6aac22443b5401883ae"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C06-editorial.json",
+      "sha256": "51ab3485e2da2cae101e8ad6f76e1934e93deaf2115455c5e16c0577fc722b1d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C06-asset-rights.json",
+      "sha256": "bcf1e32e197b6ac15015c93add8188f20211767de7324d286ef8f1253fb9c2ef"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C06-publication-authorization.json",
+      "sha256": "cba97dfe4be4bbee9df681144911d7883eb59aa66a769f0894a640072c6aabbc"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C07-editorial.json",
+      "sha256": "29f3be5aa4f1d5eb8764db9939274615b36922c6fa0f5daaf393531800a79264"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C07-asset-rights.json",
+      "sha256": "47e7102716c52b010e6e99c71288b80b262180461488fb518af610794a5e7813"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C07-publication-authorization.json",
+      "sha256": "e2f045741ff1fb675530a5d5b7df053df6ea21fe1cf4586ea51ceddfbf6487f2"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C08-editorial.json",
+      "sha256": "f764ac713f7cc2946db39ca06f8c33dd09d13d4588cdb7501836efec2ad233b7"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C08-asset-rights.json",
+      "sha256": "f7d88b58e7a7a5ab467a5702e4aa229a9778718d9387e4c59a5bd102d1630b5f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C08-publication-authorization.json",
+      "sha256": "fd586580514d342605551fd37237c686eea84b037913b6344f91394b6efa9a5b"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C09-editorial.json",
+      "sha256": "89a9cf72a66555415a5c87e4428615b384cd3666b61baa9130b11ae5a0c8c963"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C09-asset-rights.json",
+      "sha256": "f241a72d6da1a6288b6b17f75d1829b57de014ba7d53f84365d07b9a2ff0cf9a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C09-publication-authorization.json",
+      "sha256": "db2ba1481a318a6e1d0f459903828c69b77c21fd24c5c040131d8aa3959ca77c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C10-editorial.json",
+      "sha256": "b7e06850077a984a22afdb94e56fae5020f4587c58415102ed3add31c0e824e4"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C10-asset-rights.json",
+      "sha256": "7c6829ded51272cd1907593452e5d8396b6a1c170a52a176765893fd3cfd174c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C10-publication-authorization.json",
+      "sha256": "9c522e31bc0344a97890a72f77e624e657ab4200116a1620e749f93ed4a0d452"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C11-editorial.json",
+      "sha256": "a8c9b679ab77e4507f966e76d145bb4f614cefddcd81c19797064b760393eb9a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C11-asset-rights.json",
+      "sha256": "0e19a9711f9eef19970cb4f63e441d2ec75c956052a707459ceeefbe1a12d77e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C11-publication-authorization.json",
+      "sha256": "16f8a2e78b9a495fca8b44ca7e9865bc32ee7bddfc8f738008ce95cf87e28fb2"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C12-editorial.json",
+      "sha256": "836c125d69c9a5b7dff2220a393650c1b8e614e595007c32dd45eb45c711d68d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C12-asset-rights.json",
+      "sha256": "871a40cab2b9e4d0a94918cc0ac7200685d2d2bc81f3e044847dbfe2316dc355"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C12-publication-authorization.json",
+      "sha256": "2015b49d016b3995ad6176ca4d795df0963758b7b7e06fbc28f81b1edb691fd6"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C13-editorial.json",
+      "sha256": "a7a6bc431d0f0732072e57e7872cb65fb282fc5a5881ab7e63ccbba3679e3f0e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C13-asset-rights.json",
+      "sha256": "a6651163e30563e49eafefd0dd9b9d7963af9cad8691cca51ee2d16eae8f8ef0"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C13-publication-authorization.json",
+      "sha256": "dc1e6adcdf920b688cfa563b425541b020f0f8d6841ef4a574d35148f358adf5"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C14-editorial.json",
+      "sha256": "39e1774913a85f2b873c779a44f67deccbcc62c40a1ecfc537b4e9a2c8a776ae"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C14-asset-rights.json",
+      "sha256": "e249b907697e882e101919b6f85cd5da1ad3458876c3543f29078d170c0a9e10"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C14-publication-authorization.json",
+      "sha256": "74354d0f60c586daa8ed40a1ead56c6f5c982a7fccaff87013adff09435ee8c7"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C15-editorial.json",
+      "sha256": "394ca172ae399f7e83d203ce4f18fced07f5155758f9e5483b5d1a5de92311dc"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C15-asset-rights.json",
+      "sha256": "6f2458affee001ae295991649d788464bf8c3c0b9642ce803496d127ba66a269"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C15-publication-authorization.json",
+      "sha256": "9c76115d358d460949fd93576f6e58a54f09e9783fb8a8b21f423d8545b86154"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C16-editorial.json",
+      "sha256": "79d6918ef23065344b6edd0e6d0639f7ab3485a5ef1a126cb0931f556376ff70"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C16-asset-rights.json",
+      "sha256": "e7c8125ea417378d0e0135bde6d6f277d2ebfc1c8d3add1795adc76398ece177"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C16-publication-authorization.json",
+      "sha256": "940177fa5033ca65e5dd95bd3c2cffee8ddf061a91c8ea647e1a44939a8bf0b5"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C17-editorial.json",
+      "sha256": "510a23aeeebadf80be84a432df4673c21020583319ce379976ed7ad5cfbda17b"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C17-asset-rights.json",
+      "sha256": "b34b731558a9c5a487d83e15317367a25b45ced54a63c474b8d45a6833f5d4af"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C17-publication-authorization.json",
+      "sha256": "38b76ec2edb05c086079cd7e18f91bd0d0f94aec5ba9a841b038241b2011c8b2"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C18-editorial.json",
+      "sha256": "eaf07909013c763de392762a984dc0875a199996647de5a97e70339c7e43fb45"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C18-asset-rights.json",
+      "sha256": "5f43f64d3c61910bdf1a9d1210938412b8fde3bebc1f5d77be7ff95c10e03f4c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C18-publication-authorization.json",
+      "sha256": "de14aab581130345eaeb9bed9a713d05ceb2ff9163434527e169628bd51acdd6"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C19-editorial.json",
+      "sha256": "58e49af21b57975c083ae730e30f73131f504c60335db6b84cb8007f82ccfaf2"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C19-asset-rights.json",
+      "sha256": "1e617066826408497c35e23b5b826343cb6e2729feeb0cb4e1f6a41383c229cd"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C19-publication-authorization.json",
+      "sha256": "0dc89dc26644324c247b46a4d8baa0f989ae9458606d353a42db4b62fed3cdcc"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C20-editorial.json",
+      "sha256": "4917924491b96223993555dfd6a89c18440421da7c87cf49de3b48624d49737f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C20-asset-rights.json",
+      "sha256": "d771358c4fb60a7f1c4fa24ea5bd0d8d07efd100dbaf9cee5833c7a57f78cdf7"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C20-publication-authorization.json",
+      "sha256": "5bd8aa868dd16a97f6b67d8c1f4d8628267d003adde7f8522808aa145a2a266c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C21-editorial.json",
+      "sha256": "2771972bb275f9c9f8fa04b0202a4a6bdaec04556ee3d118bcae5725ce27199a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C21-asset-rights.json",
+      "sha256": "06024eeee361c3e86cfe065390c5579d2d84197d466483f2db968468dd00fa87"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C21-publication-authorization.json",
+      "sha256": "f205e420d3f4cf4b760702266fa11e63ad1578470d72541e2c8064b918ce5f18"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C22-editorial.json",
+      "sha256": "9c4f46f6bbdb2fc62f3fba2bf95bb0888f9cde9e5c2cf9fb891287787d4fda15"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C22-asset-rights.json",
+      "sha256": "b568619a9258665bbea695fe53caad0846bd0e261ad91816ae1fd452656afb79"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C22-publication-authorization.json",
+      "sha256": "db33a885eb27e49b0469f7c7cca16f86f5e431a5040348983c1e2aa1fa497909"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C23-editorial.json",
+      "sha256": "346140edb4ebee971b0f653d0777249a60f04fe3f43847936c32e727e403768f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C23-asset-rights.json",
+      "sha256": "639e9600380e2d52a0cf99530af546230636fe50d50366e84d4107947c4a184d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C23-publication-authorization.json",
+      "sha256": "e17485cbe841135284536b1a45aaffecc73ac4239f42b0d738a863d034e1fb8e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C24-editorial.json",
+      "sha256": "06ea7457c5c7f9ec4a0d8973534f2bb40c12cf6bb836efd2c7d398fc893898af"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C24-asset-rights.json",
+      "sha256": "b06d90ddd2c890b0ec043f53bb8df8e1fcd03bd01cbfe49a0f112140887d8d2d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C24-publication-authorization.json",
+      "sha256": "978cea4ba32fb2721204db1ac467f142234f169d9c19412c5aca6cf88f6a4b10"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E01-editorial.json",
+      "sha256": "8fa89b4d5604decef115585457920b5702f48e41d19c2607981f873e1502859d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E01-asset-rights.json",
+      "sha256": "a6d99341e8a586b447675dc3c19f491a68a5322068c170ed8d3e4ec4f696f246"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-E01-publication-authorization.json",
+      "sha256": "7cb924ec41eb42d1da223c463baab0dc86acdc13718cb719f9e77ce931b14e6e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E02-editorial.json",
+      "sha256": "4f0fc0d8b10cb7863fa15458f8ba43a595afa6207036636cf3931bac05314388"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E02-asset-rights.json",
+      "sha256": "dfbab9ca7b65725a0d968a4f260ba3034855d2e632931738bcff6e6c868cb60c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-E02-publication-authorization.json",
+      "sha256": "38ef366455f247c0a036e521cf0abf0e6ab746e463c0f1c56c5f85e57ab3db6d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E03-editorial.json",
+      "sha256": "bf3a4cf09d7803fe0a6d3573c9d6554967ffcfbbcc6d7dd41c6a01011813e748"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E03-asset-rights.json",
+      "sha256": "2d6a4a3deff5e14335480b318cdf58fc02e14f3a1065f293da79b2a485e9b486"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-E03-publication-authorization.json",
+      "sha256": "3b20fe2a5123bafab49fd255fcbe6cacd9a39bfeba832afba4f4de9c006e2940"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E04-editorial.json",
+      "sha256": "47f64401e008108d986ff4b14dd6a27ce6383d70fc826492309ee120dc052359"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E04-asset-rights.json",
+      "sha256": "3d26afd0b9d576dc5e375e3f14a2928e2ababedb0d4b781336814ec4f2daf474"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-E04-publication-authorization.json",
+      "sha256": "0de46154fb773ef5adb4b26ad21f11cb4853292dd819c1c1b9ff1a32499ef4b0"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E05-editorial.json",
+      "sha256": "ec7b0299d2ab9b22f4755e06c0661c26a5e2ec74dbd6b7cb08022a4fc09ca5ec"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E05-asset-rights.json",
+      "sha256": "22d3f16ec03ce505580b608b2c78c6701d422f8b6c0082b06916b185870c694b"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-E05-publication-authorization.json",
+      "sha256": "f3439ac58c58e1815f30192dc053ce05bc7ab1932feb24f861b2456da7ef6637"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W001-editorial.json",
+      "sha256": "a2b1b8e1e140441273c6047cb5ca82bded25dfdb5fd63f8fd771c808b87e52bd"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W001-publication-authorization.json",
+      "sha256": "8a7fdf4f1c477ca9a04ec40c80436cdaccaa00dd2ef6f56cbf1bfcb511164bce"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W002-editorial.json",
+      "sha256": "2976446289276396c7ce2d317bd17796f5734ec5a2866583cc284fe9333de21e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W002-publication-authorization.json",
+      "sha256": "c1ee30fde70e17f6190fb019a6d8cbeca9c3393df82e0c1e5f81791cb201d37d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W003-editorial.json",
+      "sha256": "1fe5b8bd1820ac17663394a05f2052ebedbdab01e66a4bbc1825679f8ffa9f01"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W003-publication-authorization.json",
+      "sha256": "388974bdcdc289f948f72a7caf4df0962873af134b7e529d589aacff15d5fce9"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W004-editorial.json",
+      "sha256": "9cb83e6c851d711bf9b91cc1191a506c48d64cb183088999feb62327b436113f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W004-publication-authorization.json",
+      "sha256": "45a85e8ef277326bd0c634f284eb9119f41aa6d05bc7969ca787f22897034c6d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W005-editorial.json",
+      "sha256": "97d9e34a92d3755deeffb68905bc95d321e0f261d67ec258f345b3d670689661"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W005-publication-authorization.json",
+      "sha256": "a77ccb8d2dc7411bdeec7b4785691087bd9a42cee9b6ad1677ff8b4f98e5a81d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W006-editorial.json",
+      "sha256": "999f9356e5c559da47992e766350a6c060dbcb24de068ffb337d3f045d0d3069"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W006-publication-authorization.json",
+      "sha256": "9c116a7867706ace429b7bf5a9fc2bb4c73fa8aabea5edddb7f313b0881b13a6"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W007-editorial.json",
+      "sha256": "f99675c5550ce6d0bac8709a9f1934e27cb1943839f49d0681782e28aaa69eb1"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W007-publication-authorization.json",
+      "sha256": "c22fe298fa9b56a6f8a0eb8db7b9f729c4edc8c6e8ef0e7739b1bce09958fd97"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W008-editorial.json",
+      "sha256": "b22d3359a05d12cd18f90ef441bf5e5ea15b120e114bb99f374c5863d0fad423"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W008-publication-authorization.json",
+      "sha256": "11ddb7eab685ec77111fc5250fcec1f69f23c791c51d9f515eea64e9fbc2ffaf"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W009-editorial.json",
+      "sha256": "c9a86617f5b8758217951009086468dff45103959682ab64ba80e4de26fe032e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W009-publication-authorization.json",
+      "sha256": "8b9c9aac16cee50811c2a1ad3ae0f53726cccdb68040b01233b51c931e3f596f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W010-editorial.json",
+      "sha256": "bda1f5f5e6ceae1e63bde5cf5d35112acc70428ac1ad9cafab81048fac3ca527"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W010-publication-authorization.json",
+      "sha256": "b94658a5078bd92ad838bf676337c768190cfd21507d3f19326181959b7599cf"
+    }
+  ]
+}
