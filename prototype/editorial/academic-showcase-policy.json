@@ -816,6 +816,46 @@
       "sha256": "7ffbfbe38e2825f6ad5ccc77bb2af68166b4c1a332e25a5c0f7570b935472e41"
     },
     {
+      "path": "illustrations/garden-01.webp",
+      "sha256": "36622a74ebd1c796914a12775ec02b73a0ecde3940fec630b500899b83cd8d0c"
+    },
+    {
+      "path": "illustrations/garden-02.webp",
+      "sha256": "4cae3bad204ee60d8f5da9085980c9d9c5fd876063eb05b64359dd67242acaae"
+    },
+    {
+      "path": "illustrations/garden-03.webp",
+      "sha256": "2f63945f8d99a1770d71489bcae7b2592f4aa6efabe575cd2a47add993d94970"
+    },
+    {
+      "path": "illustrations/garden-04.webp",
+      "sha256": "4c81befac9e8e4f33aa69a0f20406a7d26ff0b8f509f2de66d93985760bac0d3"
+    },
+    {
+      "path": "illustrations/garden-05.webp",
+      "sha256": "9286e0ef9b2e019635af747fde8aa8b4ff0d0533e719dd20ac61db6f680bd1fe"
+    },
+    {
+      "path": "illustrations/garden-06.webp",
+      "sha256": "e6475d6f84f02144e9d4d94ed506292155ae712e7270ec8736b61acb0afc173c"
+    },
+    {
+      "path": "illustrations/garden-07.webp",
+      "sha256": "4ccb1846762dcb09ff60a33f923b3b42719285aa62fe0e89b58b3ae1f626ca2d"
+    },
+    {
+      "path": "illustrations/garden-08.webp",
+      "sha256": "d048b29c2039d6e1ba3db4ad502d5b54864faa3bc0224b274509a8d60a655618"
+    },
+    {
+      "path": "illustrations/garden-09.webp",
+      "sha256": "7fe4d4db7544f006ad2ff8a5175b94929275265c93dc280ee53b73611863d9f1"
+    },
+    {
+      "path": "illustrations/garden-10.webp",
+      "sha256": "2f05630b377f427a2daf005bce2ce38510ad36c4662fbff58300c6d7c2dbd201"
+    },
+    {
       "path": "licenses/Be-Vietnam-Pro-OFL.txt",
       "sha256": "0bd4db1cda123af9d91794b0f98324b7d7d81aef0fcaf78c433160153f2c6f25"
     },

@@ -1,11 +1,10 @@
 import { useEffect, useState, type CSSProperties } from 'react'
-import { ScrollCompanion } from './ScrollCompanion'
 import { TopCanopy } from './TopCanopy'
 
 // Bounded, deterministic distribution. Negative phases avoid a synchronized start;
 // no per-frame JS, particle creation loop, network request, or canvas.
-const petals = Array.from({ length: 16 }, (_, i) => ({
-  x: (i * 37 + 7) % 98,
+const petals = Array.from({ length: 10 }, (_, i) => ({
+  x: i%2 ? 96+(i%3) : 1+(i%3),
   size: 5 + (i * 7) % 8,
   duration: 23 + (i * 11) % 21,
   delay: -((i * 13 + 3) % 41),
@@ -17,6 +16,7 @@ const petals = Array.from({ length: 16 }, (_, i) => ({
 export function GardenAtmosphere({ motionOff }: { motionOff: boolean }) {
   const [available, setAvailable] = useState(false)
   const [quiet, setQuiet] = useState(false)
+  const [lowPower]=useState(()=>navigator.hardwareConcurrency<=4 || ((navigator as Navigator & {deviceMemory?:number;connection?:{saveData?:boolean}}).deviceMemory??8)<=4 || Boolean((navigator as Navigator & {connection?:{saveData?:boolean}}).connection?.saveData))
   const [withinJourney, setWithinJourney] = useState(true)
 
   useEffect(() => {
@@ -60,7 +60,7 @@ export function GardenAtmosphere({ motionOff }: { motionOff: boolean }) {
   },[])
 
   const enabled=available&&!motionOff
-  return <div className="garden-atmosphere" data-atmosphere-paused={!enabled} data-quiet={quiet} aria-hidden="true">
+  return <div className="garden-atmosphere" data-atmosphere-paused={!enabled} data-quiet={quiet} data-low-power={lowPower} aria-hidden="true">
     <div className="petal-field petal-field-back" data-journey={withinJourney}>
       {petals.map((petal,i)=><span key={i} className={`petal petal-${i}`} style={{left:`${petal.x}%`,'--petal-size':`${petal.size}px`,'--fall-time':`${petal.duration}s`,'--phase':`${petal.delay}s`,'--wind':`${petal.drift}px`,'--petal-opacity':petal.opacity} as CSSProperties}><i/></span>)}
     </div>
@@ -68,6 +68,5 @@ export function GardenAtmosphere({ motionOff }: { motionOff: boolean }) {
     <div className="petal-field petal-field-front" data-journey={withinJourney}>
       {petals.slice(0,4).map((petal,i)=><span key={i} className="petal" style={{left:i%2?'calc(100% - 12px)':'9px','--petal-size':`${petal.size*.8}px`,'--fall-time':`${petal.duration+7}s`,'--phase':`${petal.delay-8}s`,'--wind':i%2?'-3px':'3px','--petal-opacity':.22} as CSSProperties}><i/></span>)}
     </div>
-    <ScrollCompanion enabled={enabled&&!quiet}/>
   </div>
 }

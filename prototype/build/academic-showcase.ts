@@ -34,7 +34,7 @@ export function createAcademicShowcase(root:string) {
     document.trace=[]
     document.localLinks=document.localLinks?.map(l=>({source:l.source,target:'#publication-information'}))
     // Preserve original draft status; no synthetic publishedAt or review records.
-    return {...a.card,id:a.id,collection:a.metadata.collection,updated:'',sections:[],sources:[],document,relatedSlugs:a.metadata.relatedArticleIds.flatMap(id=>manifest.articles.filter(b=>b.id===id).map(b=>b.slug))}
+    return {...a.card,illustration:Math.max(0,registry.topics.findIndex(t=>t.articleSlugs.includes(a.slug))),id:a.id,collection:a.metadata.collection,updated:'',sections:[],sources:[],document,relatedSlugs:a.metadata.relatedArticleIds.flatMap(id=>manifest.articles.filter(b=>b.id===id).map(b=>b.slug))}
   })
   const selected=validateWeeklyRegistry(registry,new Set(articles.map(a=>a.slug)),root,Date.now())
   requireThat(selected.length===10 && accepted.topics.length===10,'showcase exact topic scope')

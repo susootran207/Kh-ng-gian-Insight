@@ -1,0 +1,87 @@
+import {test,expect} from '@playwright/test'
+import {readFileSync,writeFileSync} from 'node:fs'
+const manifest=JSON.parse(readFileSync('editorial/source-manifest.json','utf8'))
+const weekly=JSON.parse(readFileSync('editorial/weekly.json','utf8'))
+test('Garden: real movement, pointer depth, sticky navigation, flower, companion and lantern flight',async({page})=>{
+ await page.setViewportSize({width:1440,height:1000});await page.emulateMedia({reducedMotion:'no-preference'});await page.goto('./#/')
+ const flower=page.getByRole('button',{name:'Nở một lời nhắn khác'}),message=page.locator('#hero-message');await expect(message).toContainText('Không cần phải ổn mọi lúc.')
+ await flower.focus();await page.keyboard.press('Enter');await expect(message).not.toContainText('Không cần phải ổn mọi lúc.')
+ const oldQuote=await message.textContent();await flower.click();await expect(message).not.toHaveText(oldQuote!)
+ expect(await page.locator('.quote-section').count()).toBe(0)
+ const cat=page.locator('.cat');await cat.click();await expect(cat).toHaveAttribute('data-action',/wave|happy|stretch|look/)
+ // Releasing focus lets Mây take a finite walk, measured through actual matrices.
+ await page.locator('h1').click();await page.mouse.move(0,990)
+ const start=await cat.evaluate(el=>getComputedStyle(el).transform)
+ await expect.poll(()=>cat.getAttribute('data-action'),{timeout:30000}).toBe('walk')
+ await page.waitForTimeout(800);expect(await cat.evaluate(el=>getComputedStyle(el).transform)).not.toBe(start)
+ const cluster=page.locator('.flower-cluster').first();const pose=await cluster.evaluate(el=>getComputedStyle(el).transform);await page.waitForTimeout(250);expect(await cluster.evaluate(el=>getComputedStyle(el).transform)).not.toBe(pose)
+ await page.getByRole('link',{name:'Ghé vào khu vườn',exact:true}).click();await page.waitForTimeout(300)
+ expect(await page.locator('.home-header').evaluate(el=>el.getBoundingClientRect().top)).toBeGreaterThanOrEqual(-1)
+ const feature=page.locator('.weekly-feature');await feature.scrollIntoViewIfNeeded();const box=(await feature.boundingBox())!;await page.mouse.move(box.x+box.width*.8,Math.max(110,box.y+box.height*.35));await expect(feature).toHaveAttribute('data-tracking','true')
+ expect(await feature.evaluate(el=>getComputedStyle(el).transform)).not.toBe('none')
+ const light=await feature.evaluate(el=>(el as HTMLElement).style.getPropertyValue('--light-x'));expect(light).not.toBe('')
+ await page.mouse.move(0,110);await expect(feature).toHaveAttribute('data-tracking','false')
+ // At this wide viewport the fixed companion must find a safe gutter after hero.
+ await page.evaluate(()=>window.scrollTo(0,1900));await expect(page.locator('.floating-may')).toHaveAttribute('data-visible','true',{timeout:4000})
+ const companion=page.getByRole('button',{name:'Chào Mây, người bạn đồng hành'});const cbox=(await companion.boundingBox())!
+ const overlaps=await page.evaluate(({x,y,width,height})=>Array.from(document.querySelectorAll('h1,h2,h3,p,a,input,textarea,label,summary')).filter(el=>!el.closest('.floating-may')).some(el=>{const r=el.getBoundingClientRect();return r.width>0&&r.height>0&&x<r.right&&x+width>r.left&&y<r.bottom&&y+height>r.top}),cbox);expect(overlaps).toBe(false)
+ await companion.click();await expect(companion).toHaveAttribute('data-action','wave')
+ await page.goto('./#/#tam-tinh');const input=page.getByLabel('Điều bạn muốn gửi theo ánh đèn');await input.fill('PRIVATE_GARDEN_CANARY');await page.getByRole('button',{name:'Thả một ngọn đèn'}).click();await expect(input).toHaveValue('')
+ const lantern=page.locator('.released-lantern');await expect(lantern).toHaveCount(1)
+ const flight=await lantern.evaluate(el=>({transform:getComputedStyle(el).transform,animation:getComputedStyle(el).animationName}));expect(flight.animation).toBe('lantern-journey')
+ await page.waitForTimeout(1800);expect(await lantern.evaluate(el=>getComputedStyle(el).transform)).not.toBe(flight.transform)
+ expect(await page.locator('.released-lanterns').textContent()).not.toContain('PRIVATE_GARDEN_CANARY')
+ await expect(lantern).toHaveCount(0,{timeout:12000})
+ await page.screenshot({path:'test-results-academic/garden-lantern-desktop.png'})
+})
+test('Reader: chapters, active TOC, reading progress, quiet surface, back to top',async({page})=>{
+ await page.setViewportSize({width:1440,height:1000});await page.goto('./#/bai-viet/'+manifest.articles[0].slug)
+ await expect(page.locator('.reader-cover img')).toBeVisible();expect(await page.locator('.reader-chapter').count()).toBeGreaterThan(4)
+ await expect(page.locator('.floating-may,.petal-field')).toHaveCount(0)
+ const links=page.locator('.reader-toc>ol>li>a');const target=links.nth(2);await target.click();await expect(target).toHaveAttribute('aria-current','location')
+ await expect.poll(()=>page.locator('.reading-progress').getAttribute('aria-valuenow')).not.toBe('0')
+ await expect(page.getByRole('button',{name:'Về đầu trang',exact:true})).toBeVisible();await page.getByRole('button',{name:'Về đầu trang',exact:true}).click();await expect.poll(()=>page.evaluate(()=>scrollY)).toBe(0)
+})
+test('Reduced motion and manual switch remain consistent across routes',async({page})=>{
+ await page.emulateMedia({reducedMotion:'reduce'});await page.setViewportSize({width:390,height:844});await page.goto('./#/')
+ await expect(page.locator('html')).toHaveAttribute('data-motion','off');await page.getByRole('button',{name:'Nở một lời nhắn khác'}).click();await expect(page.locator('#hero-message')).not.toContainText('Không cần phải ổn mọi lúc.')
+ for(const selector of ['.cat-tail','.flower-cluster','.canopy-cluster'])expect(await page.locator(selector).first().evaluate(el=>getComputedStyle(el).animationName)).toBe('none')
+ await page.emulateMedia({reducedMotion:'no-preference'});await expect(page.locator('html')).toHaveAttribute('data-motion','on')
+ await page.getByRole('button',{name:'Giảm chuyển động',exact:true}).click();await expect(page.locator('html')).toHaveAttribute('data-motion','off')
+ await page.goto('./#/thu-vien');await expect(page.locator('html')).toHaveAttribute('data-motion','off')
+ const card=page.locator('.editorial-card').first();await card.scrollIntoViewIfNeeded();await card.hover();expect(await card.evaluate(el=>getComputedStyle(el).transform)).toBe('none')
+ await page.goto('./#/#tam-tinh');await page.getByLabel('Điều bạn muốn gửi theo ánh đèn').fill('private');await page.getByRole('button',{name:'Thả một ngọn đèn'}).click();await expect(page.locator('.released-lantern')).toHaveCount(1);expect(await page.locator('.released-lantern').evaluate(el=>getComputedStyle(el).animationName)).toBe('none')
+})
+test('Synthesized touch, keyboard focus, mobile TOC and illustration coverage',async({browser})=>{
+ const context=await browser.newContext({hasTouch:true,isMobile:true,viewport:{width:390,height:844},reducedMotion:'reduce'}),page=await context.newPage()
+ await page.goto('http://127.0.0.1:4181/#/');await page.getByRole('button',{name:'Nở một lời nhắn khác'}).tap();await expect(page.locator('#hero-message')).not.toContainText('Không cần phải ổn mọi lúc.')
+ const cat=page.locator('.cat');await cat.scrollIntoViewIfNeeded();const box=(await cat.boundingBox())!;const session=await context.newCDPSession(page)
+ const before=await cat.getAttribute('style');await session.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:box.x+box.width/2,y:box.y+box.height/2,id:1}]});await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:box.x+box.width/2-45,y:box.y+box.height/2-25,id:1}]});await session.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});expect(await cat.getAttribute('style')).not.toBe(before)
+ await page.getByRole('button',{name:'Di chuyển bằng phím'}).click();await expect(cat).toBeFocused();const at=await cat.getAttribute('style');await page.keyboard.press('ArrowLeft');expect(await cat.getAttribute('style')).not.toBe(at);await page.keyboard.press('Escape')
+ await page.goto('http://127.0.0.1:4181/#/bai-viet/'+manifest.articles[0].slug);const toggle=page.getByRole('button',{name:'Mục lục bài đọc'});await toggle.tap();await expect(toggle).toHaveAttribute('aria-expanded','true');await page.locator('.reader-toc a').first().click();await expect(toggle).toHaveAttribute('aria-expanded','false')
+ for(const t of weekly.topics){await page.goto('http://127.0.0.1:4181/#/chuyen-de/'+t.slug);const art=page.locator('.topic-detail-art img');await expect(art).toBeVisible();expect(await art.getAttribute('alt')).not.toBe('');await expect.poll(()=>art.evaluate((el:HTMLImageElement)=>el.complete&&el.naturalWidth>0)).toBeTruthy()}
+ await context.close()
+})
+test('Measured performance: local artifact navigation, resources, frame pacing and layout stability',async({page})=>{
+ await page.setViewportSize({width:390,height:844});await page.addInitScript(()=>{(window as any).__cls=0;new PerformanceObserver(list=>{for(const e of list.getEntries() as any)if(!e.hadRecentInput)(window as any).__cls+=e.value}).observe({type:'layout-shift',buffered:true})})
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('./#/');await page.evaluate(()=>document.fonts.ready)
+ const measurements=await page.evaluate(async()=>{const frames:number[]=[];let previous=performance.now();for(let i=0;i<60;i++)await new Promise<void>(r=>requestAnimationFrame(now=>{frames.push(now-previous);previous=now;r()}));const nav=performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming;return {domContentLoadedMs:nav.domContentLoadedEventEnd,cls:(window as any).__cls,initialResourceBytes:performance.getEntriesByType('resource').reduce((sum,e)=>sum+(e as PerformanceResourceTiming).encodedBodySize,0),medianFrameMs:frames.sort((a,b)=>a-b)[30],p95FrameMs:frames[57]}})
+ expect(errors).toEqual([]);expect(measurements.cls).toBeLessThan(.1);writeFileSync('test-results-academic/garden-performance.json',JSON.stringify({environment:'Local Chromium headless, 390px, no network/CPU throttling; not Lighthouse or physical-device evidence',...measurements},null,2))
+})
+
+test('Editorial visual review at five widths, image loading and basic accessibility',async({page})=>{
+ const {default:AxeBuilder}=await import('@axe-core/playwright')
+ for(const width of [320,390,768,1024,1440]){
+  await page.setViewportSize({width,height:1000});await page.emulateMedia({reducedMotion:'reduce'})
+  await page.goto('./#/');await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:`test-results-academic/garden-home-${width}.png`,fullPage:false})
+  await page.locator('#chuyen-de').scrollIntoViewIfNeeded();await page.screenshot({path:`test-results-academic/garden-topics-${width}.png`,fullPage:false})
+  const headerBottom=await page.locator('.home-header').evaluate(el=>el.getBoundingClientRect().bottom)
+  if(width<1100)await page.getByRole('button',{name:'Menu',exact:true}).click()
+  await page.getByRole('link',{name:'Về khu vườn',exact:true}).click();expect(await page.locator('#nen-tang').evaluate(el=>el.getBoundingClientRect().top)).toBeGreaterThanOrEqual(headerBottom-1)
+  await page.goto('./#/thu-vien');await page.locator('.library-entry').first().scrollIntoViewIfNeeded();await expect.poll(()=>page.locator('.library-entry img').first().evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth>0)).toBeTruthy();await page.screenshot({path:`test-results-academic/garden-library-${width}.png`,fullPage:false})
+  await page.goto('./#/chuyen-de/'+weekly.topics[0].slug);await page.screenshot({path:`test-results-academic/garden-topic-detail-${width}.png`,fullPage:false})
+  await page.goto('./#/bai-viet/'+manifest.articles[0].slug);await page.screenshot({path:`test-results-academic/garden-reader-${width}.png`,fullPage:false})
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy()
+  if(width===390||width===1440){const results=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();writeFileSync(`test-results-academic/garden-axe-reader-${width}.json`,JSON.stringify(results.violations,null,2));expect(results.violations).toEqual([])}
+ }
+})

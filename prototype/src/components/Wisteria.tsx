@@ -9,7 +9,7 @@ export function Wisteria() {
       <path d={`M${x} ${y}q12 ${l*.45} 0 ${l}`} stroke="#8f9d78" strokeWidth="1.1"/>
       {Array.from({length:Math.round(l/13)},(_,k)=>{
         const taper = 1-k/(l/13), yy=y+10+k*12
-        return <g key={k} opacity={.78+(i%3)*.1}>
+        return <g key={k} className="living-petals" style={{transformOrigin:`${x}px ${y}px`,'--petal-lag':`${-k*.73-i*.4}s`} as CSSProperties} opacity={.78+(i%3)*.1}>
           <ellipse cx={x-9*taper} cy={yy} rx={10*taper+1.5} ry={5.4*taper+1.8} fill={k%3===0?'#9e83b5':'#bba3d1'} transform={`rotate(-28 ${x-9*taper} ${yy})`}/>
           <ellipse cx={x+10*taper} cy={yy+5} rx={10*taper+1.3} ry={5.1*taper+1.6} fill={k%3===1?'#d6c6e3':'#c9b4da'} transform={`rotate(30 ${x+10*taper} ${yy+5})`}/>
         </g>

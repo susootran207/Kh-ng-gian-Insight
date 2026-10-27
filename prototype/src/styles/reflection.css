@@ -1,2 +1,15 @@
 /* Three actions must wrap at 320px; retain all approved color/type/motion rules. */
 .reflection .reflection-actions { flex-wrap: wrap; }
+/* Eight-second flight with a perceptible lift, wind arc, depth and final fade. */
+.reflection .released-lantern{animation:lantern-journey var(--flight) cubic-bezier(.36,.04,.56,1) forwards;bottom:9%;z-index:2}
+.reflection .released-lantern>svg{animation:lantern-light 2.1s ease-out both;filter:drop-shadow(0 5px 12px #e8bd7433)}
+@keyframes lantern-journey{
+  0%{transform:translate3d(0,35px,0) rotate(-3deg) scale(.92);opacity:0}
+  10%{transform:translate3d(-7px,0,0) rotate(1deg) scale(1.05);opacity:1}
+  34%{transform:translate3d(calc(var(--drift)*-.3),-100px,0) rotate(-4deg) scale(.94);opacity:1}
+  68%{transform:translate3d(var(--drift),-260px,0) rotate(3deg) scale(.65);opacity:.8}
+  100%{transform:translate3d(calc(var(--drift)*.65),-530px,0) rotate(-2deg) scale(.28);opacity:0}
+}
+@keyframes lantern-light{0%{filter:brightness(.75)}40%{filter:brightness(1.13)}100%{filter:brightness(1)}}
+[data-motion=off] .released-lantern{animation:none!important;bottom:50%;opacity:.85;transform:none}
+@media(prefers-reduced-motion:reduce){.released-lantern{animation:none!important;bottom:50%;opacity:.85}.released-lantern>svg{animation:none!important}}

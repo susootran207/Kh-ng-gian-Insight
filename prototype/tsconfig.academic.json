@@ -6,6 +6,7 @@
     "build/academic-showcase.ts",
     "build/academic-showcase-scan.ts",
     "tests/academic-showcase.spec.ts",
+    "tests/garden-interactions.spec.ts",
     "playwright.academic.config.ts"
   ]
 }

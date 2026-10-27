@@ -6,12 +6,12 @@ import { publicAssetUrl } from '../build/public-library'
 const root=resolve('..'),manifest=JSON.parse(readFileSync(resolve(root,'prototype/editorial/source-manifest.json'),'utf8'))
 const weekly=JSON.parse(readFileSync(resolve(root,'prototype/editorial/weekly.json'),'utf8'))
 const compiled=compileSourceArticles(root,manifest.articles,publicAssetUrl)
-for(const width of [320,390,768,1440])test('Built academic artifact: every route, Reader and responsive layout '+width,async({page,request})=>{
+for(const width of [320,390,768,1024,1440])test('Built academic artifact: every route, Reader and responsive layout '+width,async({page,request})=>{
  await page.setViewportSize({width,height:1000});await page.emulateMedia({reducedMotion:'reduce'})
  const failures:string[]=[],errors:string[]=[]
  page.on('response',r=>{if(r.url().startsWith('http://127.0.0.1:4181/')&&r.status()>=400)failures.push(r.status()+' '+r.url())})
  page.on('pageerror',e=>errors.push(e.message))
- async function fits(){await page.evaluate(()=>document.fonts.ready);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy()}
+ async function fits(){await page.evaluate(()=>document.fonts.ready);const overflow=await page.evaluate(()=>Array.from(document.querySelectorAll('main *')).filter(el=>{const r=el.getBoundingClientRect();return r.width>0&&(r.right>innerWidth+1||r.left< -1)}).slice(0,8).map(el=>({tag:el.tagName,cls:el.className,right:el.getBoundingClientRect().right})));expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),JSON.stringify(overflow)).toBeTruthy()}
  await page.goto('./#/thu-vien');await expect(page.locator('.library-entry')).toHaveCount(29);await expect(page.locator('.academic-notice')).toContainText('sản phẩm học tập cá nhân');await fits()
  await page.screenshot({path:`test-results-academic/library-${width}.png`,fullPage:false})
  let tables=0,nodes=0
@@ -49,7 +49,7 @@ test('Built artifact interactions: search, filters, history, Flow, TOC, related,
  await page.getByRole('button',{name:'Xóa bộ lọc'}).click();await page.getByLabel('Giai đoạn năm học').selectOption('Mùa thi')
  const count=manifest.articles.filter((a:any)=>a.metadata.season==='Mùa thi').length;await expect(page.locator('.library-entry')).toHaveCount(count)
  await page.locator('.library-entry .text-link').first().click();await expect(page.locator('.markdown-reader')).toBeVisible()
- const firstToc=page.locator('.table-of-contents a').first();await firstToc.click();await page.reload();await expect(page.locator('h1')).toBeVisible()
+ await page.getByRole('button',{name:'Mục lục bài đọc'}).click();const firstToc=page.locator('.table-of-contents a').first();await firstToc.click();await page.reload();await expect(page.locator('h1')).toBeVisible()
  await page.getByRole('button',{name:'Xem hình lớn'}).click();await expect(page.locator('dialog')).toBeVisible();await page.keyboard.press('Escape');await expect(page.locator('dialog')).not.toBeVisible()
  await page.getByRole('link',{name:'Quay lại thư viện'}).click();await expect(page.getByLabel('Giai đoạn năm học')).toHaveValue('Mùa thi')
  await page.goto('./#/bai-viet/'+manifest.articles[0].slug);const related=page.locator('.related-reading a').first();expect(await related.count()).toBe(1);await related.click();await expect(page.locator('.markdown-reader')).toBeVisible()

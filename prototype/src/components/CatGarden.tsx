@@ -1,3 +1,4 @@
+import { useGardenMotion } from './GardenMotion'
 import { useEffect, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react'
 import { MotionRegion } from './MotionRegion'
 import { Wisteria } from './Wisteria'
@@ -13,6 +14,10 @@ export function CatGarden() {
   const catButton = useRef<HTMLButtonElement>(null)
   const gesture = useRef<{id:number; start:Point; origin:Point; moved:boolean} | null>(null)
   const suppressClick = useRef(false)
+  const {allowed}=useGardenMotion()
+  const [inGarden,setInGarden]=useState(true)
+  const [action,setAction]=useState('rest')
+  const actionTimer=useRef<ReturnType<typeof setTimeout>|undefined>(undefined)
   const [point, setPoint] = useState<Point>({x:0,y:0})
   const [dragging, setDragging] = useState(false)
   const [moving, setMoving] = useState(false)
@@ -35,14 +40,39 @@ export function CatGarden() {
     if(boundary.current)resize.observe(boundary.current)
     return()=>resize.disconnect()
   },[])
+  useEffect(()=>{
+    const observer=new IntersectionObserver(([entry])=>setInGarden(entry.isIntersecting),{threshold:.2})
+    if(boundary.current)observer.observe(boundary.current)
+    return()=>observer.disconnect()
+  },[])
+  useEffect(()=>{
+    if(!allowed||!inGarden||dragging||moving){setAction('rest');return}
+    let timer:ReturnType<typeof setTimeout>,end:ReturnType<typeof setTimeout>
+    const wander=()=>{
+      const button=catButton.current,b=boundary.current
+      if(button&&b&&!button.matches(':hover,:focus')&&!gesture.current){
+        setAction('walk')
+        setPoint(p=>clamp({x:p.x>b.clientWidth*.45?b.clientWidth*.08:b.clientWidth-button.offsetWidth-14,y:Math.max(0,b.clientHeight-button.offsetHeight-(Math.random()*34+5))}))
+        end=setTimeout(()=>setAction(Math.random()>.5?'look':'stretch'),3000)
+      }
+      timer=setTimeout(wander,14000+Math.random()*9000)
+    }
+    timer=setTimeout(wander,5000)
+    return()=>{clearTimeout(timer);clearTimeout(end)}
+  },[allowed,inGarden,dragging,moving])
+  useEffect(()=>()=>clearTimeout(actionTimer.current),[])
   const greet=()=>{
     if(suppressClick.current){suppressClick.current=false;return}
+    clearTimeout(actionTimer.current)
+    setAction(['wave','happy','stretch','look'][expression%4])
+    actionTimer.current=setTimeout(()=>setAction('rest'),2100)
     setExpression(e=>(e+1)%expressions.length)
     setMessage(phrases[expression%phrases.length])
   }
   const down=(e:PointerEvent<HTMLButtonElement>)=>{
     if(!e.isPrimary || e.button!==0)return
     suppressClick.current=false
+    setAction('rest')
     e.currentTarget.focus({preventScroll:true})
     e.currentTarget.setPointerCapture(e.pointerId)
     gesture.current={id:e.pointerId,start:{x:e.clientX,y:e.clientY},origin:point,moved:false}
@@ -76,7 +106,7 @@ export function CatGarden() {
       <div className="botanical-art" role="img" aria-label="Giàn tử đằng tím trên lối vườn ngập nắng"/>
       <Wisteria/>
       <div ref={boundary} className="cat-boundary" aria-label="Khoảng vườn của Mây">
-        <button ref={catButton} className="cat" aria-label="Mây, chú mèo trong vườn. Chạm để đổi biểu cảm" aria-describedby="cat-help" style={{transform:`translate(${point.x}px, ${point.y}px)`}} onPointerDown={down} onPointerMove={move} onPointerUp={end} onPointerCancel={end} onLostPointerCapture={()=>{gesture.current=null;setDragging(false)}} onClick={greet} onKeyDown={key}>
+        <button ref={catButton} className="cat" data-action={action} data-dragging={dragging} data-keyboard={moving} aria-label="Mây, chú mèo trong vườn. Chạm để đổi biểu cảm" aria-describedby="cat-help" style={{transform:`translate(${point.x}px, ${point.y}px)`}} onPointerDown={down} onPointerMove={move} onPointerUp={end} onPointerCancel={end} onLostPointerCapture={()=>{gesture.current=null;setDragging(false)}} onClick={greet} onKeyDown={key}>
           <CatArt expression={expressions[expression]} dragging={dragging}/>
         </button>
       </div>
