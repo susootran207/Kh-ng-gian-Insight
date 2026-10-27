@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src",
+    "vite.academic.config.ts",
+    "build/academic-showcase.ts",
+    "build/academic-showcase-scan.ts",
+    "tests/academic-showcase.spec.ts",
+    "playwright.academic.config.ts"
+  ]
+}

@@ -94,6 +94,10 @@ jobs:
         id: publication
         run: npm run test:content
 
+      - name: Build and scan explicit academic showcase (29 articles, 29 SVG, 10 illustrative topics)
+        id: academic
+        run: npm run build:academic
+
       - name: Report PASS / FAIL / BLOCKED
         if: ${{ always() }}
         working-directory: .
@@ -113,13 +117,14 @@ jobs:
           TYPECHECK: ${{ steps.typecheck.outcome }}
           BUILD: ${{ steps.build.outcome }}
           PUBLICATION: ${{ steps.publication.outcome }}
+          ACADEMIC: ${{ steps.academic.outcome }}
         run: |
           {
             echo '## CI verification'
             echo
             echo '| Check | Result |'
             echo '| --- | --- |'
-            for check in CHECKOUT NODE INSTALL MANIFEST F0 R1 C1 W1 D1 G1 P2 W2 TYPECHECK BUILD PUBLICATION; do
+            for check in CHECKOUT NODE INSTALL MANIFEST F0 R1 C1 W1 D1 G1 P2 W2 TYPECHECK BUILD PUBLICATION ACADEMIC; do
               outcome="${!check}"
               case "$outcome" in
                 success) result=PASS ;;

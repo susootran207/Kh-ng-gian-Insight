@@ -32,7 +32,11 @@
     "test:p2:browser": "playwright test -c playwright.p2.config.ts",
     "dev:weekly-preview": "vite --config vite.w2.config.ts --host 127.0.0.1",
     "test:w2": "tsc -p tsconfig.w2.json && node --experimental-strip-types --test --test-isolation=none tests/weekly-editorial.test.mts",
-    "test:w2:browser": "playwright test -c playwright.w2.config.ts"
+    "test:w2:browser": "playwright test -c playwright.w2.config.ts",
+    "build:academic": "tsc -p tsconfig.academic.json && npm run test:academic && vite build --config vite.academic.config.ts && npm run scan:academic",
+    "test:academic": "node --experimental-strip-types --test --test-isolation=none tests/academic-showcase.test.mts",
+    "scan:academic": "node --experimental-strip-types scripts/check-academic.mts",
+    "test:academic:browser": "playwright test -c playwright.academic.config.ts"
   },
   "dependencies": {
     "@fontsource/be-vietnam-pro": "^5.2.8",

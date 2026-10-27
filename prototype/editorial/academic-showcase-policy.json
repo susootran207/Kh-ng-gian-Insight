@@ -1,0 +1,827 @@
+{
+  "mode": "academic-showcase",
+  "authorization": "Explicit project-owner instruction: non-commercial academic showcase; independent of STANDARD VERIFIED RELEASE. No expert/reader/learner approval inferred.",
+  "articles": [
+    {
+      "id": "KGNT-C01",
+      "slug": "hom-nay-minh-cam-thay-gi",
+      "revisionHash": "4c03a922cde860f86a21766d68a2fb88a38d174c3e0e0db3213b3076f9ea361e",
+      "contentHash": "a14e18424db35df95ab0a298b2b2f8a8f1ff742e8af5bbed8ec8bbb70cee678d",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C01/experience-map.svg",
+          "sha256": "df8ea0dad05108c648d3d2e6e597fcf492a0907f85628b7c1494c4e1e9429c05"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C02",
+      "slug": "lo-lang-truoc-gio-hoc",
+      "revisionHash": "4079348b8d2520e5ee75d99ef4055a2101e8227e954875a7a873b5282b75d650",
+      "contentHash": "3399bad2299b5d5ed261849185bfc4e42a3ee8909c4618b7c1206cd38c4b918d",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C02/before-class-options.svg",
+          "sha256": "3389ca4eaa3486db671b5933ef986433fba42372c5d99db56450d0c2c8f96f0b"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C03",
+      "slug": "dung-ve-phia-minh",
+      "revisionHash": "98a9437c23659f7b8473b9906d216ec9b6d75abb72c8d8d30a493e201b09f813",
+      "contentHash": "2769bc80ca129b6287eae9e3057d124c550dccce148b75f551136d7a8f1b05d4",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C03/mistake-and-response.svg",
+          "sha256": "70625513e9a7c236a3ce72f2da2ba59066ca7f07bd772441eca7330a86d68b83"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C04",
+      "slug": "con-gian-truoc-loi-noi",
+      "revisionHash": "c992e0d5fab91b5d85e671a6b54fd7581ba0fce09f87c4d1e1d29085af76ff54",
+      "contentHash": "c3c8be4f142560f11d47270bc7827f53007d9cafa84db83bcf06bf96e62d93d1",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C04/pause-and-choose.svg",
+          "sha256": "c791406552e81c6e29325ca276cd288252d3b1642dec55f06abf876fa3e92d18"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C05",
+      "slug": "khi-mua-thi-den-gan",
+      "revisionHash": "159424c05d6fffc62634e0efcc198721109f4e49959c21d78c5caff8faa51f86",
+      "contentHash": "57ef7f42eb24b03d0f85156478d224096979e6140f75ab15c2361af699642df5",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C05/study-plan.svg",
+          "sha256": "cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C06",
+      "slug": "chua-bat-dau-hoc",
+      "revisionHash": "724a18216702f8bf556849691aa78743afeea9a5d3d9424f0e5718c64466312c",
+      "contentHash": "a58b7799153919ea38c7c338494a1e9e11e62cb1ad18b4b218ff5d74b6c2b215",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C06/first-step.svg",
+          "sha256": "59d6a0aeb6dffdb5c710a377e43511980abeea5e9e85e05117992a8bbbee7a10"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C07",
+      "slug": "hoc-va-nho-lau",
+      "revisionHash": "e3ba72cf8e468a9954012637684cfaf45b88431e3d7e65a999f9cefbc3185e3c",
+      "contentHash": "857b9a3fc8ef3604a6c23972637ca5a4ee9448d7e6a11d08ad191ae52b78b13d",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C07/return-to-learn.svg",
+          "sha256": "a5357fccaebd3231aaafac967c7dcbd04bd64f2e90e2b6a1c970f6d78b12f74e"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C08",
+      "slug": "sau-bai-kiem-tra",
+      "revisionHash": "97755985f88e3d36374ea1e98f4d4b023fdd0ec36b7d5d0169f2a1ea74fc0626",
+      "contentHash": "878fbd0696b9527af4d997e31b6aa4d4f6891792f96a9f7573701b237f0d1564",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C08/read-feedback.svg",
+          "sha256": "277fff7ceef0864618bf94c88e00fd05c7e945a1b80b77cf4192b2056bf7840d"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C09",
+      "slug": "o-giua-lop",
+      "revisionHash": "a82b96d0cf7809fa8371dd418759f0bde4a659fb9912cf77a5cf6fc128e2f521",
+      "contentHash": "510d641ebe2a87514c1a569d537fe42d0c9c77c39d39309047a51d5058243066",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C09/connection-options.svg",
+          "sha256": "18f4f7ec60d4792d7ac5a3045ac41d5a07ed011c873e7d0f72601fc26ca09ce3"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C10",
+      "slug": "bat-dong-tinh-ban",
+      "revisionHash": "fb89aa258c5961ef11fa55ee4e3aca15f6c31de11f43f82946479be0fa2dd9be",
+      "contentHash": "bcfcbc476f540e86c6c4b3dab0686c0fa20c69de4fb3c1eda91a35f84c5bb575",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C10/disagreement-dialogue.svg",
+          "sha256": "60e1fae6ab9742ad70082f689d72e93fa12dcf9b830b417e88c78321adb74cbc"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C11",
+      "slug": "treu-choc-va-bat-nat",
+      "revisionHash": "627915a0021fe1266431e253be3c8ecacbcea5459d2d942d747ba41b83b0835e",
+      "contentHash": "19b0e55583d1178adb21b3bb6a80940addd095d27d2d8ddf2e7c48d630a3f791",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C11/support-without-confronting.svg",
+          "sha256": "3c026ab2dc30150dd44de3eea0feef9190bf6b31b14acd022460a5918cbd44f0"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C12",
+      "slug": "noi-khong-ton-trong",
+      "revisionHash": "baefe26220127f564560fae6cf8c5d5b32ef9235bbfa2bb82cfec8be9f9a1dd5",
+      "contentHash": "6ec025c6d242df2c9ff087432485251aa16e1729d1d70b588fa18ba4c36a7563",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C12/no-with-an-exit.svg",
+          "sha256": "008bc7a3944b760bb93f25da704471d8184a9989ab758d229b9196fe4e503ed3"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C13",
+      "slug": "ky-vong-o-nha",
+      "revisionHash": "e63edcf10dbf6f82835dbc868599b3b00b533f24816aa7fd8bb0f592b29fcee2",
+      "contentHash": "5516d7c552c6f3a591f08cfd189d0258523d2e2dfd799d86d48781d267ba67cc",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C13/expectations-and-support.svg",
+          "sha256": "12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C14",
+      "slug": "tro-chuyen-voi-nguoi-lon",
+      "revisionHash": "47d85f121165df5aae3d9d5501dd8a873b67d39b041e9b0310f70ece48e8c4e4",
+      "contentHash": "0e31f9cf194036babdccf73d365634c00d69564f92ae31effaeb4224dbf34473",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C14/conversation-options.svg",
+          "sha256": "924e4506dcea4f59be7b40cde89aa7d8bcb9fbf619977b9403b906832126390a"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C15",
+      "slug": "tim-them-su-giup-do",
+      "revisionHash": "f9725256f952c53039fbf61f92b6c19f639624affdd8a6456d0edfe2a16fa9f9",
+      "contentHash": "5575cbd91d5e09b4821e6c6a74d3f16d3739e3747badaf13df37b0ed647c6fc0",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C15/support-role-map.svg",
+          "sha256": "73c3be6d10161bb7135fcff9fba351af5490b1cc600591634a7fdbe36151917d"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C16",
+      "slug": "khi-ban-rat-buon",
+      "revisionHash": "0239041c9e6cb8bc1884d2512959318ffc25880add1b4f34f47e9b2d4ede66e8",
+      "contentHash": "8d7c50c2c151c20f1c64a009388ce4297bdb3a2ff44e0e41dec1490008b18c1c",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C16/listen-and-share-support.svg",
+          "sha256": "081f04abcb7fa576e7a57777ea0753ed3a8b675facdaeff33f210d1eee145065"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C17",
+      "slug": "dem-dai-minh-chua-ngu",
+      "revisionHash": "0b0c53022a5c4645f364cc97b9f9dc04faf25707e6016638a8b82dab4dd9baaf",
+      "contentHash": "5a88cc2c70529bc40b9fca966c0b5de1064fc3a8ef05612746d63c1aaf89467d",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C17/sleep-context.svg",
+          "sha256": "2279965d4b3799dcd60e420fe09c63d6c572164e70e5c6425a647b9eeef37fae"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C18",
+      "slug": "nghi-mot-chut",
+      "revisionHash": "32fbffc0cd5a5f83515af2375338e89cb1f9de7223d692d5a003709ebf44bcfc",
+      "contentHash": "4a1b67d8b606c0053918672b0c57228a79c975ad172a9775c23fc83f8ff0b5c1",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C18/rest-options.svg",
+          "sha256": "1ecd2045c183634d7686f8558509a1ce3608df86071f042cfdd5db43ee0ba00f"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C19",
+      "slug": "tin-hieu-co-the",
+      "revisionHash": "79005088eee77ab6564de62e95652d292802c906d5d12a565e5128a6e64b7c45",
+      "contentHash": "6b8e18e86fbf79848f1bf4795541c93c184501ffa824a31e09569e22057f2c2a",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C19/body-signal-context.svg",
+          "sha256": "69ba2f099e4bdf975ba1e3a6472990f44ffc5d0c13c231b73f1113735136c4ea"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C20",
+      "slug": "van-dong-giua-ngay-hoc",
+      "revisionHash": "5c2dbc51a33c096f9a009bcef4dfc782ceda6ca3585f1f56155ee85b02c187fa",
+      "contentHash": "f138411a49208cd26385a298ae794ea64e5d0b3c919f1620913294b145c6a0e4",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C20/movement-options.svg",
+          "sha256": "bb79d29921e713c431b629e7ec457a6b813656da41bbc47943f51b037a3d025a"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C21",
+      "slug": "so-sanh-tren-mang",
+      "revisionHash": "fd7d13059deeb0935792499ed533c6ed31d646e2e72ddb11a18b875d29ddb0dc",
+      "contentHash": "cc19dc5686263516974c33b898a54467858c5ef0df2c500a3a18d50905c84328",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C21/post-and-missing-context.svg",
+          "sha256": "0361e599cdba6037aa9e8d8089ca44a2f89c0ce924759c81882a88f2b081cf7e"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C22",
+      "slug": "dien-thoai-va-chu-y",
+      "revisionHash": "d5b834746974f5cda059b93bf1b107dace65be4752141cda8836079c98d4690d",
+      "contentHash": "e8e5d5bb695fb26fc3dde8703f0a5a0e36090767a758b302b0517195c9491b53",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C22/study-and-contact.svg",
+          "sha256": "100ea5f1a412777c1bfed69c1126adcde3569fb4ccd86a8924c10d7771e94cde"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C23",
+      "slug": "lop-moi-truong-moi",
+      "revisionHash": "b9aeceac67f57240fc29ed41391f57a50d40d1b401825c0731402c4784ca8f04",
+      "contentHash": "5bcb2df38bc4cafb1f886162c933385260928c73db1ca9c12845f0632e4639b6",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C23/new-school-map.svg",
+          "sha256": "c2086d1ffa0a5fedb503f3e024b9c9332b0cf9d0713480c54d3c8c070ee94905"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-C24",
+      "slug": "kham-pha-tuong-lai",
+      "revisionHash": "351e7f001b333c43c540bd13125c37932fa47cb0dabd44b47f3a796a5f2ba900",
+      "contentHash": "3ecbaf4b33427577bf591cf87001b15fa46e901578779f3de7f8f950e59a0f0c",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/C24/exploration-and-reflection.svg",
+          "sha256": "fd3ffdf2f8c4a3e722377c69bd68806886c21a3f24e5134e8ca100e289e944d9"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-E01",
+      "slug": "mbti-va-16-kieu-tinh-cach",
+      "revisionHash": "f1382641d1c0ce3d7ad6d3aadfebb9babccd5443ec412a4168dc32b5cb9b2123",
+      "contentHash": "dee659a32ce1d4dc5c998c2495814773077c7a1159f3092978cdf900145cd1be",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/E01/tool-result-conclusion.svg",
+          "sha256": "27ba1e4dd5442cd8103d5dbd8b02fd8128aa566c6bd3db390f848179921d3d1e"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-E02",
+      "slug": "big-five",
+      "revisionHash": "a93518dc6c5dde8a4520310bb19dedc633a2eb3dcca0876c133a559af663b542",
+      "contentHash": "ffe397b0bc53d8cb2a4588e6db48332a48f8c95f540b650243a05f1052ddc4c9",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/E02/five-dimensions.svg",
+          "sha256": "5619b9549b3671c64f205674867c746493b80e27b9eb5792b3238173fa0b6721"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-E03",
+      "slug": "holland-riasec",
+      "revisionHash": "2107bb2ed11cacb5522ad2c8170b5ace2bae7b7a8c366ed9dcbab2bde39cd302",
+      "contentHash": "fa856be71c83416bbc8fd71781d6377f04ea6282d56da5c4555e6ffb51a38405",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/E03/six-interest-directions.svg",
+          "sha256": "418ef31a22f48d6667a5141cf4ad0bb1555022358a6d44430b26b5af008a2632"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-E04",
+      "slug": "stress-va-cong-cu-sang-loc",
+      "revisionHash": "aa82fa985aab5c1958c65b2d11892c406f490bcd1f44965653342e4e81b72666",
+      "contentHash": "47c9f116ee1372032688356f2a3c2cec78128639ee61688212a121c14a489c51",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/E04/score-context-support.svg",
+          "sha256": "8ff5995d17c89d9d171fd31458db6be85f38786606fbb50d4128f1e7b8fc9c00"
+        }
+      ]
+    },
+    {
+      "id": "KGNT-E05",
+      "slug": "phong-cach-hoc-tap",
+      "revisionHash": "6e00062e6890f9d2dd9d32d2b48474826381e4164a192fcd0ac36cfad6378b9d",
+      "contentHash": "4ac983b803e6741fcc63f88cbe88cd4abcf7d2f576d53ac0157da0ee42d8409e",
+      "assets": [
+        {
+          "path": "docs/phase-3/drafts/E05/claim-to-practice.svg",
+          "sha256": "674ada70eeba61995bdc7df14fc1ca0deea51ee8fed949774dee44846aac9d7c"
+        }
+      ]
+    }
+  ],
+  "weeklySha256": "a6cb50fa370f62ceeaf41319136a5aee3c00e7fd22ce81cc2e4f718620fb99dc",
+  "protectedRecords": [
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C01-asset-rights.json",
+      "sha256": "bd3569a171e8dbb088d10c70a11f815cfa1928354b0bd4ae5362eb8a65f924f2"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C01-editorial.json",
+      "sha256": "bb73902df745367bdfcffa2b2b1818dea296a9f5de2b3f11dbed7147c1a9001c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C02-asset-rights.json",
+      "sha256": "04032947ba21a3098fa9dbefdda9237ec8b5a002e78ea695ea36ec12129d6d0a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C02-editorial.json",
+      "sha256": "6ad97fceddc36a5d743d43368919b87d906eabb657994912ab780a1f527b7d31"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C03-asset-rights.json",
+      "sha256": "a982fe7678be5d7a950debd9897e9bde23c9fec37c2544decd1e8b53de94eca5"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C03-editorial.json",
+      "sha256": "685ca17d8b76ab10262b863facfe565b8731b166037a0a5ca4cd506480b9f0de"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C04-asset-rights.json",
+      "sha256": "ae28e09a056ba859ca5242e0ddc76dc1a16a41f6df0b2ddff2776137e76f3cda"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C04-editorial.json",
+      "sha256": "9466e33a7c9853d93779a1ba87162c90320a5d95901e18e1fba2a5c7ebd01071"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C05-asset-rights.json",
+      "sha256": "f50ce00697cd2614281851786d26dbef24bf15df9bbe7691d2979d65f92e7dff"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C05-editorial.json",
+      "sha256": "9d3d47c4311883561659aca1043bcaccc753cc53e66ae0dc43bea6d4ebb195f9"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C06-asset-rights.json",
+      "sha256": "bcf1e32e197b6ac15015c93add8188f20211767de7324d286ef8f1253fb9c2ef"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C06-editorial.json",
+      "sha256": "51ab3485e2da2cae101e8ad6f76e1934e93deaf2115455c5e16c0577fc722b1d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C07-asset-rights.json",
+      "sha256": "47e7102716c52b010e6e99c71288b80b262180461488fb518af610794a5e7813"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C07-editorial.json",
+      "sha256": "29f3be5aa4f1d5eb8764db9939274615b36922c6fa0f5daaf393531800a79264"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C08-asset-rights.json",
+      "sha256": "f7d88b58e7a7a5ab467a5702e4aa229a9778718d9387e4c59a5bd102d1630b5f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C08-editorial.json",
+      "sha256": "f764ac713f7cc2946db39ca06f8c33dd09d13d4588cdb7501836efec2ad233b7"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C09-asset-rights.json",
+      "sha256": "f241a72d6da1a6288b6b17f75d1829b57de014ba7d53f84365d07b9a2ff0cf9a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C09-editorial.json",
+      "sha256": "89a9cf72a66555415a5c87e4428615b384cd3666b61baa9130b11ae5a0c8c963"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C10-asset-rights.json",
+      "sha256": "7c6829ded51272cd1907593452e5d8396b6a1c170a52a176765893fd3cfd174c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C10-editorial.json",
+      "sha256": "b7e06850077a984a22afdb94e56fae5020f4587c58415102ed3add31c0e824e4"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C11-asset-rights.json",
+      "sha256": "0e19a9711f9eef19970cb4f63e441d2ec75c956052a707459ceeefbe1a12d77e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C11-editorial.json",
+      "sha256": "a8c9b679ab77e4507f966e76d145bb4f614cefddcd81c19797064b760393eb9a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C12-asset-rights.json",
+      "sha256": "871a40cab2b9e4d0a94918cc0ac7200685d2d2bc81f3e044847dbfe2316dc355"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C12-editorial.json",
+      "sha256": "836c125d69c9a5b7dff2220a393650c1b8e614e595007c32dd45eb45c711d68d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C13-asset-rights.json",
+      "sha256": "a6651163e30563e49eafefd0dd9b9d7963af9cad8691cca51ee2d16eae8f8ef0"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C13-editorial.json",
+      "sha256": "a7a6bc431d0f0732072e57e7872cb65fb282fc5a5881ab7e63ccbba3679e3f0e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C14-asset-rights.json",
+      "sha256": "e249b907697e882e101919b6f85cd5da1ad3458876c3543f29078d170c0a9e10"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C14-editorial.json",
+      "sha256": "39e1774913a85f2b873c779a44f67deccbcc62c40a1ecfc537b4e9a2c8a776ae"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C15-asset-rights.json",
+      "sha256": "6f2458affee001ae295991649d788464bf8c3c0b9642ce803496d127ba66a269"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C15-editorial.json",
+      "sha256": "394ca172ae399f7e83d203ce4f18fced07f5155758f9e5483b5d1a5de92311dc"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C16-asset-rights.json",
+      "sha256": "e7c8125ea417378d0e0135bde6d6f277d2ebfc1c8d3add1795adc76398ece177"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C16-editorial.json",
+      "sha256": "79d6918ef23065344b6edd0e6d0639f7ab3485a5ef1a126cb0931f556376ff70"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C17-asset-rights.json",
+      "sha256": "b34b731558a9c5a487d83e15317367a25b45ced54a63c474b8d45a6833f5d4af"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C17-editorial.json",
+      "sha256": "510a23aeeebadf80be84a432df4673c21020583319ce379976ed7ad5cfbda17b"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C18-asset-rights.json",
+      "sha256": "5f43f64d3c61910bdf1a9d1210938412b8fde3bebc1f5d77be7ff95c10e03f4c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C18-editorial.json",
+      "sha256": "eaf07909013c763de392762a984dc0875a199996647de5a97e70339c7e43fb45"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C19-asset-rights.json",
+      "sha256": "1e617066826408497c35e23b5b826343cb6e2729feeb0cb4e1f6a41383c229cd"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C19-editorial.json",
+      "sha256": "58e49af21b57975c083ae730e30f73131f504c60335db6b84cb8007f82ccfaf2"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C20-asset-rights.json",
+      "sha256": "d771358c4fb60a7f1c4fa24ea5bd0d8d07efd100dbaf9cee5833c7a57f78cdf7"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C20-editorial.json",
+      "sha256": "4917924491b96223993555dfd6a89c18440421da7c87cf49de3b48624d49737f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C21-asset-rights.json",
+      "sha256": "06024eeee361c3e86cfe065390c5579d2d84197d466483f2db968468dd00fa87"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C21-editorial.json",
+      "sha256": "2771972bb275f9c9f8fa04b0202a4a6bdaec04556ee3d118bcae5725ce27199a"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C22-asset-rights.json",
+      "sha256": "b568619a9258665bbea695fe53caad0846bd0e261ad91816ae1fd452656afb79"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C22-editorial.json",
+      "sha256": "9c4f46f6bbdb2fc62f3fba2bf95bb0888f9cde9e5c2cf9fb891287787d4fda15"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C23-asset-rights.json",
+      "sha256": "639e9600380e2d52a0cf99530af546230636fe50d50366e84d4107947c4a184d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C23-editorial.json",
+      "sha256": "346140edb4ebee971b0f653d0777249a60f04fe3f43847936c32e727e403768f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C24-asset-rights.json",
+      "sha256": "b06d90ddd2c890b0ec043f53bb8df8e1fcd03bd01cbfe49a0f112140887d8d2d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-C24-editorial.json",
+      "sha256": "06ea7457c5c7f9ec4a0d8973534f2bb40c12cf6bb836efd2c7d398fc893898af"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E01-asset-rights.json",
+      "sha256": "a6d99341e8a586b447675dc3c19f491a68a5322068c170ed8d3e4ec4f696f246"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E01-editorial.json",
+      "sha256": "8fa89b4d5604decef115585457920b5702f48e41d19c2607981f873e1502859d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E02-asset-rights.json",
+      "sha256": "dfbab9ca7b65725a0d968a4f260ba3034855d2e632931738bcff6e6c868cb60c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E02-editorial.json",
+      "sha256": "4f0fc0d8b10cb7863fa15458f8ba43a595afa6207036636cf3931bac05314388"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E03-asset-rights.json",
+      "sha256": "2d6a4a3deff5e14335480b318cdf58fc02e14f3a1065f293da79b2a485e9b486"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E03-editorial.json",
+      "sha256": "bf3a4cf09d7803fe0a6d3573c9d6554967ffcfbbcc6d7dd41c6a01011813e748"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E04-asset-rights.json",
+      "sha256": "3d26afd0b9d576dc5e375e3f14a2928e2ababedb0d4b781336814ec4f2daf474"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E04-editorial.json",
+      "sha256": "47f64401e008108d986ff4b14dd6a27ce6383d70fc826492309ee120dc052359"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E05-asset-rights.json",
+      "sha256": "22d3f16ec03ce505580b608b2c78c6701d422f8b6c0082b06916b185870c694b"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-E05-editorial.json",
+      "sha256": "ec7b0299d2ab9b22f4755e06c0661c26a5e2ec74dbd6b7cb08022a4fc09ca5ec"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W001-editorial.json",
+      "sha256": "a2b1b8e1e140441273c6047cb5ca82bded25dfdb5fd63f8fd771c808b87e52bd"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W002-editorial.json",
+      "sha256": "2976446289276396c7ce2d317bd17796f5734ec5a2866583cc284fe9333de21e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W003-editorial.json",
+      "sha256": "1fe5b8bd1820ac17663394a05f2052ebedbdab01e66a4bbc1825679f8ffa9f01"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W004-editorial.json",
+      "sha256": "9cb83e6c851d711bf9b91cc1191a506c48d64cb183088999feb62327b436113f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W005-editorial.json",
+      "sha256": "97d9e34a92d3755deeffb68905bc95d321e0f261d67ec258f345b3d670689661"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W006-editorial.json",
+      "sha256": "999f9356e5c559da47992e766350a6c060dbcb24de068ffb337d3f045d0d3069"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W007-editorial.json",
+      "sha256": "f99675c5550ce6d0bac8709a9f1934e27cb1943839f49d0681782e28aaa69eb1"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W008-editorial.json",
+      "sha256": "b22d3359a05d12cd18f90ef441bf5e5ea15b120e114bb99f374c5863d0fad423"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W009-editorial.json",
+      "sha256": "c9a86617f5b8758217951009086468dff45103959682ab64ba80e4de26fe032e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r10/KGNT-W010-editorial.json",
+      "sha256": "bda1f5f5e6ceae1e63bde5cf5d35112acc70428ac1ad9cafab81048fac3ca527"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C01-publication-authorization.json",
+      "sha256": "bf86a44b8683f91b6e72cddd356fb7951af5d7444d85a3ef63371003d2db941c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C02-publication-authorization.json",
+      "sha256": "11d29f552b847da3879067c9f40344e788b243a61c17759f4d7c96e68f102961"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C03-publication-authorization.json",
+      "sha256": "3b0d2d545825255408fc31f6ebd397cc11ad59b3007b77e7346818f4fd1c0e52"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C04-publication-authorization.json",
+      "sha256": "8cf469cb6dc61bed89ac17739f3b156b92049200f2463c0a43a1ab3e997fb281"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C05-publication-authorization.json",
+      "sha256": "29a934046f96f371a01c78f869ed3bf1c69f159103ace6aac22443b5401883ae"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C06-publication-authorization.json",
+      "sha256": "cba97dfe4be4bbee9df681144911d7883eb59aa66a769f0894a640072c6aabbc"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C07-publication-authorization.json",
+      "sha256": "e2f045741ff1fb675530a5d5b7df053df6ea21fe1cf4586ea51ceddfbf6487f2"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C08-publication-authorization.json",
+      "sha256": "fd586580514d342605551fd37237c686eea84b037913b6344f91394b6efa9a5b"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C09-publication-authorization.json",
+      "sha256": "db2ba1481a318a6e1d0f459903828c69b77c21fd24c5c040131d8aa3959ca77c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C10-publication-authorization.json",
+      "sha256": "9c522e31bc0344a97890a72f77e624e657ab4200116a1620e749f93ed4a0d452"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C11-publication-authorization.json",
+      "sha256": "16f8a2e78b9a495fca8b44ca7e9865bc32ee7bddfc8f738008ce95cf87e28fb2"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C12-publication-authorization.json",
+      "sha256": "2015b49d016b3995ad6176ca4d795df0963758b7b7e06fbc28f81b1edb691fd6"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C13-publication-authorization.json",
+      "sha256": "dc1e6adcdf920b688cfa563b425541b020f0f8d6841ef4a574d35148f358adf5"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C14-publication-authorization.json",
+      "sha256": "74354d0f60c586daa8ed40a1ead56c6f5c982a7fccaff87013adff09435ee8c7"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C15-publication-authorization.json",
+      "sha256": "9c76115d358d460949fd93576f6e58a54f09e9783fb8a8b21f423d8545b86154"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C16-publication-authorization.json",
+      "sha256": "940177fa5033ca65e5dd95bd3c2cffee8ddf061a91c8ea647e1a44939a8bf0b5"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C17-publication-authorization.json",
+      "sha256": "38b76ec2edb05c086079cd7e18f91bd0d0f94aec5ba9a841b038241b2011c8b2"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C18-publication-authorization.json",
+      "sha256": "de14aab581130345eaeb9bed9a713d05ceb2ff9163434527e169628bd51acdd6"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C19-publication-authorization.json",
+      "sha256": "0dc89dc26644324c247b46a4d8baa0f989ae9458606d353a42db4b62fed3cdcc"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C20-publication-authorization.json",
+      "sha256": "5bd8aa868dd16a97f6b67d8c1f4d8628267d003adde7f8522808aa145a2a266c"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C21-publication-authorization.json",
+      "sha256": "f205e420d3f4cf4b760702266fa11e63ad1578470d72541e2c8064b918ce5f18"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C22-publication-authorization.json",
+      "sha256": "db33a885eb27e49b0469f7c7cca16f86f5e431a5040348983c1e2aa1fa497909"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C23-publication-authorization.json",
+      "sha256": "e17485cbe841135284536b1a45aaffecc73ac4239f42b0d738a863d034e1fb8e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-C24-publication-authorization.json",
+      "sha256": "978cea4ba32fb2721204db1ac467f142234f169d9c19412c5aca6cf88f6a4b10"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-E01-publication-authorization.json",
+      "sha256": "7cb924ec41eb42d1da223c463baab0dc86acdc13718cb719f9e77ce931b14e6e"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-E02-publication-authorization.json",
+      "sha256": "38ef366455f247c0a036e521cf0abf0e6ab746e463c0f1c56c5f85e57ab3db6d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-E03-publication-authorization.json",
+      "sha256": "3b20fe2a5123bafab49fd255fcbe6cacd9a39bfeba832afba4f4de9c006e2940"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-E04-publication-authorization.json",
+      "sha256": "0de46154fb773ef5adb4b26ad21f11cb4853292dd819c1c1b9ff1a32499ef4b0"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-E05-publication-authorization.json",
+      "sha256": "f3439ac58c58e1815f30192dc053ce05bc7ab1932feb24f861b2456da7ef6637"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W001-publication-authorization.json",
+      "sha256": "8a7fdf4f1c477ca9a04ec40c80436cdaccaa00dd2ef6f56cbf1bfcb511164bce"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W002-publication-authorization.json",
+      "sha256": "c1ee30fde70e17f6190fb019a6d8cbeca9c3393df82e0c1e5f81791cb201d37d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W003-publication-authorization.json",
+      "sha256": "388974bdcdc289f948f72a7caf4df0962873af134b7e529d589aacff15d5fce9"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W004-publication-authorization.json",
+      "sha256": "45a85e8ef277326bd0c634f284eb9119f41aa6d05bc7969ca787f22897034c6d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W005-publication-authorization.json",
+      "sha256": "a77ccb8d2dc7411bdeec7b4785691087bd9a42cee9b6ad1677ff8b4f98e5a81d"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W006-publication-authorization.json",
+      "sha256": "9c116a7867706ace429b7bf5a9fc2bb4c73fa8aabea5edddb7f313b0881b13a6"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W007-publication-authorization.json",
+      "sha256": "c22fe298fa9b56a6f8a0eb8db7b9f729c4edc8c6e8ef0e7739b1bce09958fd97"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W008-publication-authorization.json",
+      "sha256": "11ddb7eab685ec77111fc5250fcec1f69f23c791c51d9f515eea64e9fbc2ffaf"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W009-publication-authorization.json",
+      "sha256": "8b9c9aac16cee50811c2a1ad3ae0f53726cccdb68040b01233b51c931e3f596f"
+    },
+    {
+      "path": "docs/phase-3/publication-records/r11/KGNT-W010-publication-authorization.json",
+      "sha256": "b94658a5078bd92ad838bf676337c768190cfd21507d3f19326181959b7599cf"
+    }
+  ],
+  "publicAssets": [
+    {
+      "path": "canopy-blooms-small.webp",
+      "sha256": "467968d204d68ca56f6d855194ed0b8d2c52c0af96accd506dffed898b0d6826"
+    },
+    {
+      "path": "canopy-blooms.webp",
+      "sha256": "9c88e0118f1b8291e5e8057f04082e735798923ebe36bc4e543abf9e3eb62f1c"
+    },
+    {
+      "path": "canopy-foreground-small.webp",
+      "sha256": "354bd3e244ba445e7652fb11b3a2c73fd5d5fc50fa382aafe105c4a28ff6dcf2"
+    },
+    {
+      "path": "canopy-foreground.webp",
+      "sha256": "90b30b914f07897c9d4611c96b681c225916c8828b7bea4333b281681a967fc5"
+    },
+    {
+      "path": "canopy-roof-small.webp",
+      "sha256": "e3c0265be5a6661d828092dcb48403e4aea33474da1d65670853d5051196b578"
+    },
+    {
+      "path": "canopy-roof.webp",
+      "sha256": "e9c72a0a778b242d3adfb1d0121d41768ebe117191c57cf5fa54b8d91cb29e54"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "c16a606a406b2e2108455005aade9730523a83a3fcb508576fcb69c5fef397fc"
+    },
+    {
+      "path": "garden.webp",
+      "sha256": "7ffbfbe38e2825f6ad5ccc77bb2af68166b4c1a332e25a5c0f7570b935472e41"
+    },
+    {
+      "path": "licenses/Be-Vietnam-Pro-OFL.txt",
+      "sha256": "0bd4db1cda123af9d91794b0f98324b7d7d81aef0fcaf78c433160153f2c6f25"
+    },
+    {
+      "path": "licenses/Cormorant-Garamond-OFL.txt",
+      "sha256": "732f37009943e7f4378cf37113c9bcc4716af002a8583511aa91ed5d37683e73"
+    }
+  ]
+}

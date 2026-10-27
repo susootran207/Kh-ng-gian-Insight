@@ -1,3 +1,4 @@
+import { isAcademicShowcase } from './AcademicNotice'
 import { Link } from 'react-router-dom'
 import { Arrow } from '../components/Icons'
 import { Breadcrumb } from './ReadingShell'
@@ -45,7 +46,10 @@ export const sections: Section[] = [
     'Hình minh họa giúp nhìn mối liên hệ giữa các ý. Chú thích nói hình đang thể hiện điều gì; văn bản thay thế và mô tả tương đương bằng chữ giúp tiếp cận thông tin khi không nhìn hoặc không tải được hình.',
     'Khi đọc bài có hình, hãy đọc cả chú thích và mô tả. Trình đọc có chức năng xem hình lớn và điều khiển bằng bàn phím. Một sơ đồ chỉ minh họa ý trong bài, không dùng để tự chẩn đoán hoặc so sánh mức độ “bình thường” của bản thân.'
   ]},
-  {id:'trang-thai-va-quyen-cong-bo',title:'Bản nháp và quyền công bố',paragraphs:[
+  {id:'trang-thai-va-quyen-cong-bo',title:'Bản nháp và quyền công bố',paragraphs:isAcademicShowcase?[
+    'Bản trưng bày học thuật phi thương mại này được công bố theo phạm vi chủ dự án cho phép, với 29 bài đọc và 10 chuyên đề minh họa. Các mốc lịch mô phỏng không phải lịch hoạt động tại một trường học.',
+    'Bản trưng bày không mang nhãn đã được chuyên gia phê duyệt hoặc đã thẩm định toàn diện. Nhãn bản nháp trong nguyên bản được giữ như ghi chú giai đoạn biên soạn. Cơ chế phát hành có xác minh của dự án được duy trì riêng.'
+  ]:[
     'Nghiệm thu nội bộ bản nháp là việc chủ dự án chấp nhận bản biên tập để tiếp tục hoàn thiện website. Việc này khác với phê duyệt chuyên môn và khác với cấp quyền xuất bản.',
     'Phê duyệt chuyên môn cần bằng chứng rà soát phù hợp với đúng phiên bản nội dung. Quyền công bố là quyết định riêng; bài chỉ được đưa ra công khai khi đáp ứng đầy đủ điều kiện phê duyệt và quyền công bố của phiên bản đó. Việc có lịch chuyên đề hoặc kiểm thử kỹ thuật đạt không thay thế các điều kiện này.',
     'Thư viện công khai hiện chưa có bài được cấp quyền xuất bản. Các bài đã nghiệm thu nội bộ được xem trong môi trường xem trước cục bộ dành cho chủ dự án; xem trước không làm thay đổi trạng thái xuất bản. Website không dùng bài minh họa để lấp chỗ trống trong thư viện công khai.'
