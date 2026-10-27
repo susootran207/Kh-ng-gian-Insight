@@ -1,0 +1,25 @@
+{
+  "kind": "assetRights",
+  "subjectId": "C05-V1",
+  "revision": "cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111",
+  "contentHash": "cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111",
+  "revisionHash": "159424c05d6fffc62634e0efcc198721109f4e49959c21d78c5caff8faa51f86",
+  "confirmation": {
+    "path": "docs/phase-3/r10/CONFIRMATION.md",
+    "sha256": "19a142f9e5ed80ca8cec7da32f738cad7f7019e1d47e9f1dfec25ecadaad7a13"
+  },
+  "decision": "approved",
+  "by": "Chủ dự án Không Gian Nội Tâm",
+  "at": "2026-10-27T14:34:11+07:00",
+  "basis": {
+    "source": "owner explicitly confirmed authority and requested usage in R1.0 conversation",
+    "provenance": {
+      "path": "docs/phase-3/drafts/C05/VISUAL-REVIEW.md",
+      "sha256": "499135d98819949fb7a4741899b13fdb2d4ca96c985667d5eda34954a49c64d1"
+    },
+    "scope": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+    "terms": "Permission for the specified project use only, not an open licence; no exclusivity claim or third-party rights grant",
+    "credit": "Preserve existing ARTICLE caption/credit",
+    "identity": "owner-declared role, not independently authenticated legal identity"
+  }
+}

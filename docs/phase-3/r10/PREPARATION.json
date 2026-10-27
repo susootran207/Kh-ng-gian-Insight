@@ -1,0 +1,3160 @@
+{
+  "schema": "R10_RELEASE_PREPARATION_LEDGER_NOT_PUBLICATION_BUNDLE",
+  "base": "77092277eadeb1d9af169855e7b8a59096a17e87",
+  "warning": "Detached valid editorial/asset records are linked; missing expert/readerQA/learner/publicationAuthorization are not inferred. No runtime imports.",
+  "articles": [
+    {
+      "id": "KGNT-C01",
+      "slug": "hom-nay-minh-cam-thay-gi",
+      "title": "Hôm nay mình đang cảm thấy gì?",
+      "revision": "c01-draft-r2",
+      "contentHash": "a14e18424db35df95ab0a298b2b2f8a8f1ff742e8af5bbed8ec8bbb70cee678d",
+      "revisionHash": "4c03a922cde860f86a21766d68a2fb88a38d174c3e0e0db3213b3076f9ea361e",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C01",
+          "revision": "c01-draft-r2",
+          "contentHash": "a14e18424db35df95ab0a298b2b2f8a8f1ff742e8af5bbed8ec8bbb70cee678d",
+          "revisionHash": "4c03a922cde860f86a21766d68a2fb88a38d174c3e0e0db3213b3076f9ea361e",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C01-editorial.json",
+            "sha256": "bb73902df745367bdfcffa2b2b1818dea296a9f5de2b3f11dbed7147c1a9001c"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C01/experience-map.svg",
+        "sha256": "df8ea0dad05108c648d3d2e6e597fcf492a0907f85628b7c1494c4e1e9429c05",
+        "id": "C01-V1",
+        "revision": "df8ea0dad05108c648d3d2e6e597fcf492a0907f85628b7c1494c4e1e9429c05",
+        "alt": "Tình huống An liên hệ với bốn vùng: cảm xúc An tự nói, suy nghĩ, tín hiệu cơ thể và hành vi. Các đường nét đứt nối mỗi vùng với bối cảnh, không biểu thị trình tự hoặc quan hệ nhân quả.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C01/VISUAL-REVIEW.md",
+          "sha256": "d6c1c13502dfd602e64872417b2cfba6390f93391926f252a5b1002730d42173"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: tự biên soạn SVG bằng hình học và chữ, không lấy hình có sẵn, không ảnh AI, không chân dung, không chép Table 1.",
+          "- Người tạo: trợ lý biên soạn trong tác vụ C01. Không đưa ra bảo đảm quyền độc quyền hoặc tự quyết giấy phép thương mại thay chủ dự án.",
+          "- Thành phần bên ngoài: không ảnh/icon/phông nhúng; dùng tên font hệ thống và fallback. Việc phân phối font không diễn ra trong asset.",
+          "- Giấy phép: chưa gán giấy phép công bố cho asset; người dùng quyết định trước tái sử dụng/xuất bản. Không có giấy phép ảnh bên thứ ba cần giả lập.",
+          "- Kiểm tra r2: XML/title/desc hợp lệ, không script/foreignObject/image/href ngoài hoặc marker; render Inkscape 320/640px và xem cả hai không thấy cắt chữ. Tỷ lệ chữ–nền đo từ mã màu: 8,51–11,01:1; đường/border mẫu đo 4,50–6,29:1, không phải chứng nhận accessibility toàn website."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C01-V1",
+          "revision": "df8ea0dad05108c648d3d2e6e597fcf492a0907f85628b7c1494c4e1e9429c05",
+          "contentHash": "df8ea0dad05108c648d3d2e6e597fcf492a0907f85628b7c1494c4e1e9429c05",
+          "revisionHash": "4c03a922cde860f86a21766d68a2fb88a38d174c3e0e0db3213b3076f9ea361e",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C01-asset-rights.json",
+            "sha256": "bd3569a171e8dbb088d10c70a11f815cfa1928354b0bd4ae5362eb8a65f924f2"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C01",
+          "revision": "c01-draft-r2",
+          "sourceHash": "a14e18424db35df95ab0a298b2b2f8a8f1ff742e8af5bbed8ec8bbb70cee678d",
+          "ast": 223,
+          "dom": 223,
+          "svgHash": "df8ea0dad05108c648d3d2e6e597fcf492a0907f85628b7c1494c4e1e9429c05",
+          "tables": 2,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C02",
+      "slug": "lo-lang-truoc-gio-hoc",
+      "title": "Khi lo lắng ghé đến trước giờ học",
+      "revision": "c02-draft-r1",
+      "contentHash": "3399bad2299b5d5ed261849185bfc4e42a3ee8909c4618b7c1206cd38c4b918d",
+      "revisionHash": "4079348b8d2520e5ee75d99ef4055a2101e8227e954875a7a873b5282b75d650",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C02",
+          "revision": "c02-draft-r1",
+          "contentHash": "3399bad2299b5d5ed261849185bfc4e42a3ee8909c4618b7c1206cd38c4b918d",
+          "revisionHash": "4079348b8d2520e5ee75d99ef4055a2101e8227e954875a7a873b5282b75d650",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C02-editorial.json",
+            "sha256": "6ad97fceddc36a5d743d43368919b87d906eabb657994912ab780a1f527b7d31"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C02/before-class-options.svg",
+        "sha256": "3389ca4eaa3486db671b5933ef986433fba42372c5d99db56450d0c2c8f96f0b",
+        "id": "C02-V1",
+        "revision": "3389ca4eaa3486db671b5933ef986433fba42372c5d99db56450d0c2c8f96f0b",
+        "alt": "Thẻ trước giờ học tách điều nhân vật kể, điều còn chưa biết, một việc khả thi và người có thể hỗ trợ; không có điểm số hoặc ngưỡng chẩn đoán.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C02/VISUAL-REVIEW.md",
+          "sha256": "dd4476e3a1b5921ac14c2854d9c1ac4dcf49a8e4f91291109eee8398dd9b2931"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: SVG mới được trợ lý AI thiết kế cho dự án ngày 25/10/2026; hình học và chữ tự biên soạn, không sao chép hình nguồn hoặc ảnh Google/stock/watermark.",
+          "- Tác giả công cụ: trợ lý AI, không reviewer/người vẽ thật giả lập. Chủ thể quyết định quyền công bố: chủ dự án.",
+          "- Điều kiện: được dùng trong review bản nháp theo ủy quyền; giấy phép/credit xuất bản cuối **pending**, không tự nhận CC hoặc độc quyền. Không có tài sản bên thứ ba cần giấy phép tái sử dụng hình; tên font hệ thống không nhúng/tải tệp font."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C02-V1",
+          "revision": "3389ca4eaa3486db671b5933ef986433fba42372c5d99db56450d0c2c8f96f0b",
+          "contentHash": "3389ca4eaa3486db671b5933ef986433fba42372c5d99db56450d0c2c8f96f0b",
+          "revisionHash": "4079348b8d2520e5ee75d99ef4055a2101e8227e954875a7a873b5282b75d650",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C02-asset-rights.json",
+            "sha256": "04032947ba21a3098fa9dbefdda9237ec8b5a002e78ea695ea36ec12129d6d0a"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C02",
+          "revision": "c02-draft-r1",
+          "sourceHash": "3399bad2299b5d5ed261849185bfc4e42a3ee8909c4618b7c1206cd38c4b918d",
+          "ast": 136,
+          "dom": 136,
+          "svgHash": "3389ca4eaa3486db671b5933ef986433fba42372c5d99db56450d0c2c8f96f0b",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C03",
+      "slug": "dung-ve-phia-minh",
+      "title": "Một sai sót không kể hết về bạn",
+      "revision": "c03-draft-r1",
+      "contentHash": "2769bc80ca129b6287eae9e3057d124c550dccce148b75f551136d7a8f1b05d4",
+      "revisionHash": "98a9437c23659f7b8473b9906d216ec9b6d75abb72c8d8d30a493e201b09f813",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C03",
+          "revision": "c03-draft-r1",
+          "contentHash": "2769bc80ca129b6287eae9e3057d124c550dccce148b75f551136d7a8f1b05d4",
+          "revisionHash": "98a9437c23659f7b8473b9906d216ec9b6d75abb72c8d8d30a493e201b09f813",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C03-editorial.json",
+            "sha256": "685ca17d8b76ab10262b863facfe565b8731b166037a0a5ca4cd506480b9f0de"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C03/mistake-and-response.svg",
+        "sha256": "70625513e9a7c236a3ce72f2da2ba59066ca7f07bd772441eca7330a86d68b83",
+        "id": "C03-V1",
+        "revision": "70625513e9a7c236a3ce72f2da2ba59066ca7f07bd772441eca7330a86d68b83",
+        "alt": "Cùng một sai sót gửi nhầm tệp: giữ dữ kiện và trách nhiệm, nhận biết điều khó chịu, chọn việc sửa; tránh dùng sai sót để phán xét toàn bộ con người.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C03/VISUAL-REVIEW.md",
+          "sha256": "94ebdd3d7c6c92f9c3bd08be1499c43008a6bd45ab31d07a98e9034423034d2c"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: SVG mới được trợ lý AI thiết kế cho dự án ngày 25/10/2026; hình học và chữ tự biên soạn, không sao chép hình nguồn hoặc ảnh Google/stock/watermark.",
+          "- Tác giả công cụ: trợ lý AI, không reviewer/người vẽ thật giả lập. Chủ thể quyết định quyền công bố: chủ dự án.",
+          "- Điều kiện: được dùng trong review bản nháp theo ủy quyền; giấy phép/credit xuất bản cuối **pending**, không tự nhận CC hoặc độc quyền. Không có tài sản bên thứ ba cần giấy phép tái sử dụng hình; tên font hệ thống không nhúng/tải tệp font."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C03-V1",
+          "revision": "70625513e9a7c236a3ce72f2da2ba59066ca7f07bd772441eca7330a86d68b83",
+          "contentHash": "70625513e9a7c236a3ce72f2da2ba59066ca7f07bd772441eca7330a86d68b83",
+          "revisionHash": "98a9437c23659f7b8473b9906d216ec9b6d75abb72c8d8d30a493e201b09f813",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C03-asset-rights.json",
+            "sha256": "a982fe7678be5d7a950debd9897e9bde23c9fec37c2544decd1e8b53de94eca5"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C03",
+          "revision": "c03-draft-r1",
+          "sourceHash": "2769bc80ca129b6287eae9e3057d124c550dccce148b75f551136d7a8f1b05d4",
+          "ast": 124,
+          "dom": 124,
+          "svgHash": "70625513e9a7c236a3ce72f2da2ba59066ca7f07bd772441eca7330a86d68b83",
+          "tables": 0,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C04",
+      "slug": "con-gian-truoc-loi-noi",
+      "title": "Khi cơn giận đến trước lời nói",
+      "revision": "c04-draft-r1",
+      "contentHash": "c3c8be4f142560f11d47270bc7827f53007d9cafa84db83bcf06bf96e62d93d1",
+      "revisionHash": "c992e0d5fab91b5d85e671a6b54fd7581ba0fce09f87c4d1e1d29085af76ff54",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C04",
+          "revision": "c04-draft-r1",
+          "contentHash": "c3c8be4f142560f11d47270bc7827f53007d9cafa84db83bcf06bf96e62d93d1",
+          "revisionHash": "c992e0d5fab91b5d85e671a6b54fd7581ba0fce09f87c4d1e1d29085af76ff54",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C04-editorial.json",
+            "sha256": "9466e33a7c9853d93779a1ba87162c90320a5d95901e18e1fba2a5c7ebd01071"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C04/pause-and-choose.svg",
+        "sha256": "c791406552e81c6e29325ca276cd288252d3b1642dec55f06abf876fa3e92d18",
+        "id": "C04-V1",
+        "revision": "c791406552e81c6e29325ca276cd288252d3b1642dec55f06abf876fa3e92d18",
+        "alt": "Thẻ tình huống giận phân biệt tín hiệu được kể, tạm dừng tại nơi an toàn và chọn lời nói hoặc người hỗ trợ khi sẵn sàng; không yêu cầu hết giận trong một số phút.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C04/VISUAL-REVIEW.md",
+          "sha256": "8b2952cc9604fb6433b0040a37729990f5a8b78b730d2f422966a4669a6be136"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: SVG mới được trợ lý AI thiết kế cho dự án ngày 25/10/2026; hình học và chữ tự biên soạn, không sao chép hình nguồn hoặc ảnh Google/stock/watermark.",
+          "- Tác giả công cụ: trợ lý AI, không reviewer/người vẽ thật giả lập. Chủ thể quyết định quyền công bố: chủ dự án.",
+          "- Điều kiện: được dùng trong review bản nháp theo ủy quyền; giấy phép/credit xuất bản cuối **pending**, không tự nhận CC hoặc độc quyền. Không có tài sản bên thứ ba cần giấy phép tái sử dụng hình; tên font hệ thống không nhúng/tải tệp font."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C04-V1",
+          "revision": "c791406552e81c6e29325ca276cd288252d3b1642dec55f06abf876fa3e92d18",
+          "contentHash": "c791406552e81c6e29325ca276cd288252d3b1642dec55f06abf876fa3e92d18",
+          "revisionHash": "c992e0d5fab91b5d85e671a6b54fd7581ba0fce09f87c4d1e1d29085af76ff54",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C04-asset-rights.json",
+            "sha256": "ae28e09a056ba859ca5242e0ddc76dc1a16a41f6df0b2ddff2776137e76f3cda"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C04",
+          "revision": "c04-draft-r1",
+          "sourceHash": "c3c8be4f142560f11d47270bc7827f53007d9cafa84db83bcf06bf96e62d93d1",
+          "ast": 112,
+          "dom": 112,
+          "svgHash": "c791406552e81c6e29325ca276cd288252d3b1642dec55f06abf876fa3e92d18",
+          "tables": 0,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C05",
+      "slug": "khi-mua-thi-den-gan",
+      "title": "Khi mùa thi đến gần",
+      "revision": "c05-draft-r2",
+      "contentHash": "57ef7f42eb24b03d0f85156478d224096979e6140f75ab15c2361af699642df5",
+      "revisionHash": "159424c05d6fffc62634e0efcc198721109f4e49959c21d78c5caff8faa51f86",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C05",
+          "revision": "c05-draft-r2",
+          "contentHash": "57ef7f42eb24b03d0f85156478d224096979e6140f75ab15c2361af699642df5",
+          "revisionHash": "159424c05d6fffc62634e0efcc198721109f4e49959c21d78c5caff8faa51f86",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C05-editorial.json",
+            "sha256": "9d3d47c4311883561659aca1043bcaccc753cc53e66ae0dc43bea6d4ebb195f9"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C05/study-plan.svg",
+        "sha256": "cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111",
+        "id": "C05-V1",
+        "revision": "cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111",
+        "alt": "Phiếu một buổi học gồm yêu cầu, điều kiện và nguồn lực, việc ưu tiên, chỗ nghỉ và giấc ngủ, điều chỉnh cùng người hỗ trợ. Không có mốc phút bắt buộc.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C05/VISUAL-REVIEW.md",
+          "sha256": "499135d98819949fb7a4741899b13fdb2d4ca96c985667d5eda34954a49c64d1"
+        },
+        "provenanceQuotes": [
+          "- Người tạo: trợ lý trong tác vụ C05; hình học/chữ tự biên soạn. Không ảnh, icon, phông nhúng ngoài, không ảnh AI hoặc tải tài nguyên bên thứ ba.",
+          "- Quyền: chưa gán giấy phép xuất bản/khẳng định độc quyền thay chủ dự án. Không có hình nguồn được sao chép; cần người dùng chốt điều kiện sử dụng cuối."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C05-V1",
+          "revision": "cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111",
+          "contentHash": "cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111",
+          "revisionHash": "159424c05d6fffc62634e0efcc198721109f4e49959c21d78c5caff8faa51f86",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C05-asset-rights.json",
+            "sha256": "f50ce00697cd2614281851786d26dbef24bf15df9bbe7691d2979d65f92e7dff"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C05",
+          "revision": "c05-draft-r2",
+          "sourceHash": "57ef7f42eb24b03d0f85156478d224096979e6140f75ab15c2361af699642df5",
+          "ast": 246,
+          "dom": 246,
+          "svgHash": "cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111",
+          "tables": 2,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C06",
+      "slug": "chua-bat-dau-hoc",
+      "title": "Biết cần học, nhưng vẫn chưa bắt đầu",
+      "revision": "c06-draft-r1",
+      "contentHash": "a58b7799153919ea38c7c338494a1e9e11e62cb1ad18b4b218ff5d74b6c2b215",
+      "revisionHash": "724a18216702f8bf556849691aa78743afeea9a5d3d9424f0e5718c64466312c",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C06",
+          "revision": "c06-draft-r1",
+          "contentHash": "a58b7799153919ea38c7c338494a1e9e11e62cb1ad18b4b218ff5d74b6c2b215",
+          "revisionHash": "724a18216702f8bf556849691aa78743afeea9a5d3d9424f0e5718c64466312c",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C06-editorial.json",
+            "sha256": "51ab3485e2da2cae101e8ad6f76e1934e93deaf2115455c5e16c0577fc722b1d"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C06/first-step.svg",
+        "sha256": "59d6a0aeb6dffdb5c710a377e43511980abeea5e9e85e05117992a8bbbee7a10",
+        "id": "C06-V1",
+        "revision": "59d6a0aeb6dffdb5c710a377e43511980abeea5e9e85e05117992a8bbbee7a10",
+        "alt": "Thẻ bắt đầu gồm ba câu hỏi: việc cụ thể là gì; điều kiện đã đủ chưa; nếu vướng thì hỏi hoặc đổi gì. Có thể bổ sung điều kiện trước khi học.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C06/VISUAL-REVIEW.md",
+          "sha256": "94494b69b93861ff7b19b9f7e310013be8c550c075eb9194ff85ccd27cb8ef19"
+        },
+        "provenanceQuotes": [
+          "- Nguồn gốc: tệp SVG mới trong PR B01, do trợ lý AI biên soạn cho dự án ngày 25/10/2026 theo ủy quyền người dùng. Không sao chép bố cục/hình nguồn, bộ test hoặc tài sản bên thứ ba.",
+          "- Tác giả công cụ: trợ lý AI; không nhận là người vẽ/chuyên gia thật. Chủ thể quyết định quyền công bố: chủ dự án, chưa chốt điều kiện/giấy phép cuối; không tự ghi CC hoặc độc quyền.",
+          "- Giấy phép/điều kiện: dùng trong phạm vi review bản nháp được giao; quyền công bố cuối **pending**. Không URL stock/ảnh bên ngoài, không giấy phép bên thứ ba cần giả lập. Font ghi tên hệ thống, không nhúng/tải font; khi tích hợp cần kiểm môi trường font thực tế.",
+          "Kiểm XML, không script/foreignObject/image/use/href/tài nguyên ngoài/event handler; chỉ hình học, chữ, title/desc. ViewBox rộng 320, cỡ chữ 16–22px tại320; PNG640 tăng tỷ lệ 2 lần. Bố cục xếp dọc, không dùng màu một mình: mỗi khối có nhãn riêng. Chữ #333e32 trên #dce3d2/#e9e2ee/#fffdf7; kiểm tỷ lệ tương phản bằng công thức WCAG trong validator, đều trên 4,5:1. Điều này không xác nhận toàn diện accessibility."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C06-V1",
+          "revision": "59d6a0aeb6dffdb5c710a377e43511980abeea5e9e85e05117992a8bbbee7a10",
+          "contentHash": "59d6a0aeb6dffdb5c710a377e43511980abeea5e9e85e05117992a8bbbee7a10",
+          "revisionHash": "724a18216702f8bf556849691aa78743afeea9a5d3d9424f0e5718c64466312c",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C06-asset-rights.json",
+            "sha256": "bcf1e32e197b6ac15015c93add8188f20211767de7324d286ef8f1253fb9c2ef"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C06",
+          "revision": "c06-draft-r1",
+          "sourceHash": "a58b7799153919ea38c7c338494a1e9e11e62cb1ad18b4b218ff5d74b6c2b215",
+          "ast": 137,
+          "dom": 137,
+          "svgHash": "59d6a0aeb6dffdb5c710a377e43511980abeea5e9e85e05117992a8bbbee7a10",
+          "tables": 0,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C07",
+      "slug": "hoc-va-nho-lau",
+      "title": "Học nhiều chưa chắc đã nhớ lâu",
+      "revision": "c07-draft-r1",
+      "contentHash": "857b9a3fc8ef3604a6c23972637ca5a4ee9448d7e6a11d08ad191ae52b78b13d",
+      "revisionHash": "e3ba72cf8e468a9954012637684cfaf45b88431e3d7e65a999f9cefbc3185e3c",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C07",
+          "revision": "c07-draft-r1",
+          "contentHash": "857b9a3fc8ef3604a6c23972637ca5a4ee9448d7e6a11d08ad191ae52b78b13d",
+          "revisionHash": "e3ba72cf8e468a9954012637684cfaf45b88431e3d7e65a999f9cefbc3185e3c",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C07-editorial.json",
+            "sha256": "29f3be5aa4f1d5eb8764db9939274615b36922c6fa0f5daaf393531800a79264"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C07/return-to-learn.svg",
+        "sha256": "a5357fccaebd3231aaafac967c7dcbd04bd64f2e90e2b6a1c970f6d78b12f74e",
+        "id": "C07-V1",
+        "revision": "a5357fccaebd3231aaafac967c7dcbd04bd64f2e90e2b6a1c970f6d78b12f74e",
+        "alt": "Ba lần gặp cùng nhóm từ: học và thử ở buổi này; tự trả lời rồi kiểm ở buổi khác; quay lại phần còn vướng ở lần sau nếu có điều kiện. Không có số ngày hoặc đường cong ghi nhớ.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C07/VISUAL-REVIEW.md",
+          "sha256": "2c677981727e09393c586a4dea6561a1f19fa187d3a0d9f2b6d53af8c2ccc407"
+        },
+        "provenanceQuotes": [
+          "- Nguồn gốc: tệp SVG mới trong PR B01, do trợ lý AI biên soạn cho dự án ngày 25/10/2026 theo ủy quyền người dùng. Không sao chép bố cục/hình nguồn, bộ test hoặc tài sản bên thứ ba.",
+          "- Tác giả công cụ: trợ lý AI; không nhận là người vẽ/chuyên gia thật. Chủ thể quyết định quyền công bố: chủ dự án, chưa chốt điều kiện/giấy phép cuối; không tự ghi CC hoặc độc quyền.",
+          "- Giấy phép/điều kiện: dùng trong phạm vi review bản nháp được giao; quyền công bố cuối **pending**. Không URL stock/ảnh bên ngoài, không giấy phép bên thứ ba cần giả lập. Font ghi tên hệ thống, không nhúng/tải font; khi tích hợp cần kiểm môi trường font thực tế.",
+          "Kiểm XML, không script/foreignObject/image/use/href/tài nguyên ngoài/event handler; chỉ hình học, chữ, title/desc. ViewBox rộng 320, cỡ chữ 16–22px tại320; PNG640 tăng tỷ lệ 2 lần. Bố cục xếp dọc, không dùng màu một mình: mỗi khối có nhãn riêng. Chữ #333e32 trên #dce3d2/#e9e2ee/#fffdf7; kiểm tỷ lệ tương phản bằng công thức WCAG trong validator, đều trên 4,5:1. Điều này không xác nhận toàn diện accessibility."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C07-V1",
+          "revision": "a5357fccaebd3231aaafac967c7dcbd04bd64f2e90e2b6a1c970f6d78b12f74e",
+          "contentHash": "a5357fccaebd3231aaafac967c7dcbd04bd64f2e90e2b6a1c970f6d78b12f74e",
+          "revisionHash": "e3ba72cf8e468a9954012637684cfaf45b88431e3d7e65a999f9cefbc3185e3c",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C07-asset-rights.json",
+            "sha256": "47e7102716c52b010e6e99c71288b80b262180461488fb518af610794a5e7813"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C07",
+          "revision": "c07-draft-r1",
+          "sourceHash": "857b9a3fc8ef3604a6c23972637ca5a4ee9448d7e6a11d08ad191ae52b78b13d",
+          "ast": 161,
+          "dom": 161,
+          "svgHash": "a5357fccaebd3231aaafac967c7dcbd04bd64f2e90e2b6a1c970f6d78b12f74e",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C08",
+      "slug": "sau-bai-kiem-tra",
+      "title": "Sau một bài kiểm tra không như mong đợi",
+      "revision": "c08-draft-r1",
+      "contentHash": "878fbd0696b9527af4d997e31b6aa4d4f6891792f96a9f7573701b237f0d1564",
+      "revisionHash": "97755985f88e3d36374ea1e98f4d4b023fdd0ec36b7d5d0169f2a1ea74fc0626",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C08",
+          "revision": "c08-draft-r1",
+          "contentHash": "878fbd0696b9527af4d997e31b6aa4d4f6891792f96a9f7573701b237f0d1564",
+          "revisionHash": "97755985f88e3d36374ea1e98f4d4b023fdd0ec36b7d5d0169f2a1ea74fc0626",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C08-editorial.json",
+            "sha256": "f764ac713f7cc2946db39ca06f8c33dd09d13d4588cdb7501836efec2ad233b7"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C08/read-feedback.svg",
+        "sha256": "277fff7ceef0864618bf94c88e00fd05c7e945a1b80b77cf4192b2056bf7840d",
+        "id": "C08-V1",
+        "revision": "277fff7ceef0864618bf94c88e00fd05c7e945a1b80b77cf4192b2056bf7840d",
+        "alt": "Phiếu đọc phản hồi có ba vùng: yêu cầu của bài; thông tin tại một chỗ cụ thể; bước sửa hoặc câu hỏi cần làm rõ.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C08/VISUAL-REVIEW.md",
+          "sha256": "b2cbade595f08b458d9447d932c3044a402a99222cd05ce58ee2a9d0c11285fb"
+        },
+        "provenanceQuotes": [
+          "- Nguồn gốc: tệp SVG mới trong PR B01, do trợ lý AI biên soạn cho dự án ngày 25/10/2026 theo ủy quyền người dùng. Không sao chép bố cục/hình nguồn, bộ test hoặc tài sản bên thứ ba.",
+          "- Tác giả công cụ: trợ lý AI; không nhận là người vẽ/chuyên gia thật. Chủ thể quyết định quyền công bố: chủ dự án, chưa chốt điều kiện/giấy phép cuối; không tự ghi CC hoặc độc quyền.",
+          "- Giấy phép/điều kiện: dùng trong phạm vi review bản nháp được giao; quyền công bố cuối **pending**. Không URL stock/ảnh bên ngoài, không giấy phép bên thứ ba cần giả lập. Font ghi tên hệ thống, không nhúng/tải font; khi tích hợp cần kiểm môi trường font thực tế.",
+          "Kiểm XML, không script/foreignObject/image/use/href/tài nguyên ngoài/event handler; chỉ hình học, chữ, title/desc. ViewBox rộng 320, cỡ chữ 16–22px tại320; PNG640 tăng tỷ lệ 2 lần. Bố cục xếp dọc, không dùng màu một mình: mỗi khối có nhãn riêng. Chữ #333e32 trên #dce3d2/#e9e2ee/#fffdf7; kiểm tỷ lệ tương phản bằng công thức WCAG trong validator, đều trên 4,5:1. Điều này không xác nhận toàn diện accessibility."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C08-V1",
+          "revision": "277fff7ceef0864618bf94c88e00fd05c7e945a1b80b77cf4192b2056bf7840d",
+          "contentHash": "277fff7ceef0864618bf94c88e00fd05c7e945a1b80b77cf4192b2056bf7840d",
+          "revisionHash": "97755985f88e3d36374ea1e98f4d4b023fdd0ec36b7d5d0169f2a1ea74fc0626",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C08-asset-rights.json",
+            "sha256": "f7d88b58e7a7a5ab467a5702e4aa229a9778718d9387e4c59a5bd102d1630b5f"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C08",
+          "revision": "c08-draft-r1",
+          "sourceHash": "878fbd0696b9527af4d997e31b6aa4d4f6891792f96a9f7573701b237f0d1564",
+          "ast": 140,
+          "dom": 140,
+          "svgHash": "277fff7ceef0864618bf94c88e00fd05c7e945a1b80b77cf4192b2056bf7840d",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C09",
+      "slug": "o-giua-lop",
+      "title": "Ở giữa lớp, vẫn thấy một mình",
+      "revision": "c09-draft-r1",
+      "contentHash": "510d641ebe2a87514c1a569d537fe42d0c9c77c39d39309047a51d5058243066",
+      "revisionHash": "a82b96d0cf7809fa8371dd418759f0bde4a659fb9912cf77a5cf6fc128e2f521",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C09",
+          "revision": "c09-draft-r1",
+          "contentHash": "510d641ebe2a87514c1a569d537fe42d0c9c77c39d39309047a51d5058243066",
+          "revisionHash": "a82b96d0cf7809fa8371dd418759f0bde4a659fb9912cf77a5cf6fc128e2f521",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C09-editorial.json",
+            "sha256": "89a9cf72a66555415a5c87e4428615b384cd3666b61baa9130b11ae5a0c8c963"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C09/connection-options.svg",
+        "sha256": "18f4f7ec60d4792d7ac5a3045ac41d5a07ed011c873e7d0f72601fc26ca09ce3",
+        "id": "C09-V1",
+        "revision": "18f4f7ec60d4792d7ac5a3045ac41d5a07ed011c873e7d0f72601fc26ca09ce3",
+        "alt": "Hai tình huống ở cùng hay ngồi riêng không tự cho biết cô đơn; thẻ lựa chọn giữ lời nhân vật kể, một bước kết nối khả thi và người hỗ trợ nếu cần.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C09/VISUAL-REVIEW.md",
+          "sha256": "2f951c691eaf9023cd38bf99f36985a94d97a5d01ec4adb5be095537705e705d"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: SVG mới được trợ lý AI thiết kế cho dự án ngày 25/10/2026; hình học và chữ tự biên soạn, không sao chép hình nguồn hoặc ảnh Google/stock/watermark.",
+          "- Tác giả công cụ: trợ lý AI, không reviewer/người vẽ thật giả lập. Chủ thể quyết định quyền công bố: chủ dự án.",
+          "- Điều kiện: được dùng trong review bản nháp theo ủy quyền; giấy phép/credit xuất bản cuối **pending**, không tự nhận CC hoặc độc quyền. Không có tài sản bên thứ ba cần giấy phép tái sử dụng hình; tên font hệ thống không nhúng/tải tệp font."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C09-V1",
+          "revision": "18f4f7ec60d4792d7ac5a3045ac41d5a07ed011c873e7d0f72601fc26ca09ce3",
+          "contentHash": "18f4f7ec60d4792d7ac5a3045ac41d5a07ed011c873e7d0f72601fc26ca09ce3",
+          "revisionHash": "a82b96d0cf7809fa8371dd418759f0bde4a659fb9912cf77a5cf6fc128e2f521",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C09-asset-rights.json",
+            "sha256": "f241a72d6da1a6288b6b17f75d1829b57de014ba7d53f84365d07b9a2ff0cf9a"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C09",
+          "revision": "c09-draft-r1",
+          "sourceHash": "510d641ebe2a87514c1a569d537fe42d0c9c77c39d39309047a51d5058243066",
+          "ast": 117,
+          "dom": 117,
+          "svgHash": "18f4f7ec60d4792d7ac5a3045ac41d5a07ed011c873e7d0f72601fc26ca09ce3",
+          "tables": 0,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C10",
+      "slug": "bat-dong-tinh-ban",
+      "title": "Một bất đồng có làm mất tình bạn?",
+      "revision": "c10-draft-r1",
+      "contentHash": "bcfcbc476f540e86c6c4b3dab0686c0fa20c69de4fb3c1eda91a35f84c5bb575",
+      "revisionHash": "fb89aa258c5961ef11fa55ee4e3aca15f6c31de11f43f82946479be0fa2dd9be",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C10",
+          "revision": "c10-draft-r1",
+          "contentHash": "bcfcbc476f540e86c6c4b3dab0686c0fa20c69de4fb3c1eda91a35f84c5bb575",
+          "revisionHash": "fb89aa258c5961ef11fa55ee4e3aca15f6c31de11f43f82946479be0fa2dd9be",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C10-editorial.json",
+            "sha256": "b7e06850077a984a22afdb94e56fae5020f4587c58415102ed3add31c0e824e4"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C10/disagreement-dialogue.svg",
+        "sha256": "60e1fae6ab9742ad70082f689d72e93fa12dcf9b830b417e88c78321adb74cbc",
+        "id": "C10-V1",
+        "revision": "60e1fae6ab9742ad70082f689d72e93fa12dcf9b830b417e88c78321adb74cbc",
+        "alt": "Hội thoại báo tường phân biệt sự việc, điều muốn làm rõ và câu hỏi kiểm lại ý bạn; có lựa chọn tạm dừng hoặc tìm người lớn khi trao đổi không an toàn.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C10/VISUAL-REVIEW.md",
+          "sha256": "d127004bfca5015cbd0cfa45336c30fccb3d4f521b183e38b516b7a4953bca0b"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng là câu hỏi hoặc lựa chọn sư phạm, không mô hình nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C10-V1",
+          "revision": "60e1fae6ab9742ad70082f689d72e93fa12dcf9b830b417e88c78321adb74cbc",
+          "contentHash": "60e1fae6ab9742ad70082f689d72e93fa12dcf9b830b417e88c78321adb74cbc",
+          "revisionHash": "fb89aa258c5961ef11fa55ee4e3aca15f6c31de11f43f82946479be0fa2dd9be",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C10-asset-rights.json",
+            "sha256": "7c6829ded51272cd1907593452e5d8396b6a1c170a52a176765893fd3cfd174c"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C10",
+          "revision": "c10-draft-r1",
+          "sourceHash": "bcfcbc476f540e86c6c4b3dab0686c0fa20c69de4fb3c1eda91a35f84c5bb575",
+          "ast": 135,
+          "dom": 135,
+          "svgHash": "60e1fae6ab9742ad70082f689d72e93fa12dcf9b830b417e88c78321adb74cbc",
+          "tables": 0,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C11",
+      "slug": "treu-choc-va-bat-nat",
+      "title": "Khi lời trêu chọc không còn là đùa",
+      "revision": "c11-draft-r1",
+      "contentHash": "19b0e55583d1178adb21b3bb6a80940addd095d27d2d8ddf2e7c48d630a3f791",
+      "revisionHash": "627915a0021fe1266431e253be3c8ecacbcea5459d2d942d747ba41b83b0835e",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C11",
+          "revision": "c11-draft-r1",
+          "contentHash": "19b0e55583d1178adb21b3bb6a80940addd095d27d2d8ddf2e7c48d630a3f791",
+          "revisionHash": "627915a0021fe1266431e253be3c8ecacbcea5459d2d942d747ba41b83b0835e",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C11-editorial.json",
+            "sha256": "a8c9b679ab77e4507f966e76d145bb4f614cefddcd81c19797064b760393eb9a"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C11/support-without-confronting.svg",
+        "sha256": "3c026ab2dc30150dd44de3eea0feef9190bf6b31b14acd022460a5918cbd44f0",
+        "id": "C11-V1",
+        "revision": "3c026ab2dc30150dd44de3eea0feef9190bf6b31b14acd022460a5918cbd44f0",
+        "alt": "Thẻ hỗ trợ có phần kể việc đã xảy ra, người lớn có thể giúp và phương án nếu người đầu bỏ qua; riêng người chứng kiến có lựa chọn báo điều trực tiếp biết, không tự đối đầu.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C11/VISUAL-REVIEW.md",
+          "sha256": "7377685beed7f5a485a1fee600b3679b82cc52d59629f04e7db8e7cf5b7ffb71"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng là câu hỏi hoặc lựa chọn sư phạm, không mô hình nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C11-V1",
+          "revision": "3c026ab2dc30150dd44de3eea0feef9190bf6b31b14acd022460a5918cbd44f0",
+          "contentHash": "3c026ab2dc30150dd44de3eea0feef9190bf6b31b14acd022460a5918cbd44f0",
+          "revisionHash": "627915a0021fe1266431e253be3c8ecacbcea5459d2d942d747ba41b83b0835e",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C11-asset-rights.json",
+            "sha256": "0e19a9711f9eef19970cb4f63e441d2ec75c956052a707459ceeefbe1a12d77e"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C11",
+          "revision": "c11-draft-r1",
+          "sourceHash": "19b0e55583d1178adb21b3bb6a80940addd095d27d2d8ddf2e7c48d630a3f791",
+          "ast": 142,
+          "dom": 142,
+          "svgHash": "3c026ab2dc30150dd44de3eea0feef9190bf6b31b14acd022460a5918cbd44f0",
+          "tables": 0,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C12",
+      "slug": "noi-khong-ton-trong",
+      "title": "Nói “không” mà vẫn tôn trọng nhau",
+      "revision": "c12-draft-r1",
+      "contentHash": "6ec025c6d242df2c9ff087432485251aa16e1729d1d70b588fa18ba4c36a7563",
+      "revisionHash": "baefe26220127f564560fae6cf8c5d5b32ef9235bbfa2bb82cfec8be9f9a1dd5",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C12",
+          "revision": "c12-draft-r1",
+          "contentHash": "6ec025c6d242df2c9ff087432485251aa16e1729d1d70b588fa18ba4c36a7563",
+          "revisionHash": "baefe26220127f564560fae6cf8c5d5b32ef9235bbfa2bb82cfec8be9f9a1dd5",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C12-editorial.json",
+            "sha256": "836c125d69c9a5b7dff2220a393650c1b8e614e595007c32dd45eb45c711d68d"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C12/no-with-an-exit.svg",
+        "sha256": "008bc7a3944b760bb93f25da704471d8184a9989ab758d229b9196fe4e503ed3",
+        "id": "C12-V1",
+        "revision": "008bc7a3944b760bb93f25da704471d8184a9989ab758d229b9196fe4e503ed3",
+        "alt": "Thẻ từ chối gồm điều không muốn tham gia, một câu nói rõ, lựa chọn dừng hoặc rời đến nơi phù hợp khi an toàn và người có thể hỗ trợ; không bắt buộc giải thích chuyện riêng.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C12/VISUAL-REVIEW.md",
+          "sha256": "8838892e7f6d83261cae14a41e2ad67cb5427d47a71fe887330083c995876bc0"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng là câu hỏi hoặc lựa chọn sư phạm, không mô hình nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C12-V1",
+          "revision": "008bc7a3944b760bb93f25da704471d8184a9989ab758d229b9196fe4e503ed3",
+          "contentHash": "008bc7a3944b760bb93f25da704471d8184a9989ab758d229b9196fe4e503ed3",
+          "revisionHash": "baefe26220127f564560fae6cf8c5d5b32ef9235bbfa2bb82cfec8be9f9a1dd5",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C12-asset-rights.json",
+            "sha256": "871a40cab2b9e4d0a94918cc0ac7200685d2d2bc81f3e044847dbfe2316dc355"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C12",
+          "revision": "c12-draft-r1",
+          "sourceHash": "6ec025c6d242df2c9ff087432485251aa16e1729d1d70b588fa18ba4c36a7563",
+          "ast": 125,
+          "dom": 125,
+          "svgHash": "008bc7a3944b760bb93f25da704471d8184a9989ab758d229b9196fe4e503ed3",
+          "tables": 0,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C13",
+      "slug": "ky-vong-o-nha",
+      "title": "Khi kỳ vọng ở nhà làm mình thấy nặng",
+      "revision": "c13-draft-r1",
+      "contentHash": "5516d7c552c6f3a591f08cfd189d0258523d2e2dfd799d86d48781d267ba67cc",
+      "revisionHash": "e63edcf10dbf6f82835dbc868599b3b00b533f24816aa7fd8bb0f592b29fcee2",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C13",
+          "revision": "c13-draft-r1",
+          "contentHash": "5516d7c552c6f3a591f08cfd189d0258523d2e2dfd799d86d48781d267ba67cc",
+          "revisionHash": "e63edcf10dbf6f82835dbc868599b3b00b533f24816aa7fd8bb0f592b29fcee2",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C13-editorial.json",
+            "sha256": "a7a6bc431d0f0732072e57e7872cb65fb282fc5a5881ab7e63ccbba3679e3f0e"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C13/expectations-and-support.svg",
+        "sha256": "12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36",
+        "id": "C13-V1",
+        "revision": "12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36",
+        "alt": "Hai phương án cân nhắc: khi trao đổi an toàn thì chuẩn bị việc, nhu cầu và lời nhờ; khi không an toàn thì tìm người lớn khác, không phải thử thuyết phục trước.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C13/VISUAL-REVIEW.md",
+          "sha256": "6e94e5a744348ee7d5ccaa42a2c727a96398cb8b9be48d9c3336b403e77aaf01"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng là câu hỏi hoặc lựa chọn sư phạm, không mô hình nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C13-V1",
+          "revision": "12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36",
+          "contentHash": "12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36",
+          "revisionHash": "e63edcf10dbf6f82835dbc868599b3b00b533f24816aa7fd8bb0f592b29fcee2",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C13-asset-rights.json",
+            "sha256": "a6651163e30563e49eafefd0dd9b9d7963af9cad8691cca51ee2d16eae8f8ef0"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C13",
+          "revision": "c13-draft-r1",
+          "sourceHash": "5516d7c552c6f3a591f08cfd189d0258523d2e2dfd799d86d48781d267ba67cc",
+          "ast": 147,
+          "dom": 147,
+          "svgHash": "12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C14",
+      "slug": "tro-chuyen-voi-nguoi-lon",
+      "title": "Bắt đầu một cuộc trò chuyện khó với người lớn",
+      "revision": "c14-draft-r1",
+      "contentHash": "0e31f9cf194036babdccf73d365634c00d69564f92ae31effaeb4224dbf34473",
+      "revisionHash": "47d85f121165df5aae3d9d5501dd8a873b67d39b041e9b0310f70ece48e8c4e4",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C14",
+          "revision": "c14-draft-r1",
+          "contentHash": "0e31f9cf194036babdccf73d365634c00d69564f92ae31effaeb4224dbf34473",
+          "revisionHash": "47d85f121165df5aae3d9d5501dd8a873b67d39b041e9b0310f70ece48e8c4e4",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C14-editorial.json",
+            "sha256": "39e1774913a85f2b873c779a44f67deccbcc62c40a1ecfc537b4e9a2c8a776ae"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C14/conversation-options.svg",
+        "sha256": "924e4506dcea4f59be7b40cde89aa7d8bcb9fbf619977b9403b906832126390a",
+        "id": "C14-V1",
+        "revision": "924e4506dcea4f59be7b40cde89aa7d8bcb9fbf619977b9403b906832126390a",
+        "alt": "Thẻ trò chuyện có phần chuẩn bị người, lúc và việc muốn nhờ; ba phương án khi người lớn đang bận, hiểu khác ý, hoặc không phù hợp hay không an toàn.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C14/VISUAL-REVIEW.md",
+          "sha256": "f98e3f0e343f7869db6bcb4f66e60f75d58feeddede3685e71515623c52253b5"
+        },
+        "provenanceQuotes": [
+          "- Nguồn gốc: tệp SVG mới trong PR B01, do trợ lý AI biên soạn cho dự án ngày 25/10/2026 theo ủy quyền người dùng. Không sao chép bố cục/hình nguồn, bộ test hoặc tài sản bên thứ ba.",
+          "- Tác giả công cụ: trợ lý AI; không nhận là người vẽ/chuyên gia thật. Chủ thể quyết định quyền công bố: chủ dự án, chưa chốt điều kiện/giấy phép cuối; không tự ghi CC hoặc độc quyền.",
+          "- Giấy phép/điều kiện: dùng trong phạm vi review bản nháp được giao; quyền công bố cuối **pending**. Không URL stock/ảnh bên ngoài, không giấy phép bên thứ ba cần giả lập. Font ghi tên hệ thống, không nhúng/tải font; khi tích hợp cần kiểm môi trường font thực tế.",
+          "Kiểm XML, không script/foreignObject/image/use/href/tài nguyên ngoài/event handler; chỉ hình học, chữ, title/desc. ViewBox rộng 320, cỡ chữ 16–22px tại320; PNG640 tăng tỷ lệ 2 lần. Bố cục xếp dọc, không dùng màu một mình: mỗi khối có nhãn riêng. Chữ #333e32 trên #dce3d2/#e9e2ee/#fffdf7; kiểm tỷ lệ tương phản bằng công thức WCAG trong validator, đều trên 4,5:1. Điều này không xác nhận toàn diện accessibility."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C14-V1",
+          "revision": "924e4506dcea4f59be7b40cde89aa7d8bcb9fbf619977b9403b906832126390a",
+          "contentHash": "924e4506dcea4f59be7b40cde89aa7d8bcb9fbf619977b9403b906832126390a",
+          "revisionHash": "47d85f121165df5aae3d9d5501dd8a873b67d39b041e9b0310f70ece48e8c4e4",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C14-asset-rights.json",
+            "sha256": "e249b907697e882e101919b6f85cd5da1ad3458876c3543f29078d170c0a9e10"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C14",
+          "revision": "c14-draft-r1",
+          "sourceHash": "0e31f9cf194036babdccf73d365634c00d69564f92ae31effaeb4224dbf34473",
+          "ast": 158,
+          "dom": 158,
+          "svgHash": "924e4506dcea4f59be7b40cde89aa7d8bcb9fbf619977b9403b906832126390a",
+          "tables": 0,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C15",
+      "slug": "tim-them-su-giup-do",
+      "title": "Khi nào mình nên tìm thêm sự giúp đỡ?",
+      "revision": "c15-draft-r1",
+      "contentHash": "5575cbd91d5e09b4821e6c6a74d3f16d3739e3747badaf13df37b0ed647c6fc0",
+      "revisionHash": "f9725256f952c53039fbf61f92b6c19f639624affdd8a6456d0edfe2a16fa9f9",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C15",
+          "revision": "c15-draft-r1",
+          "contentHash": "5575cbd91d5e09b4821e6c6a74d3f16d3739e3747badaf13df37b0ed647c6fc0",
+          "revisionHash": "f9725256f952c53039fbf61f92b6c19f639624affdd8a6456d0edfe2a16fa9f9",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C15-editorial.json",
+            "sha256": "394ca172ae399f7e83d203ce4f18fced07f5155758f9e5483b5d1a5de92311dc"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C15/support-role-map.svg",
+        "sha256": "73c3be6d10161bb7135fcff9fba351af5490b1cc600591634a7fdbe36151917d",
+        "id": "C15-V1",
+        "revision": "73c3be6d10161bb7135fcff9fba351af5490b1cc600591634a7fdbe36151917d",
+        "alt": "Bản đồ ba vai trò hỗ trợ: giáo viên giúp việc học và tìm lựa chọn ở trường; người tham vấn có đào tạo giúp trao đổi trong phạm vi chuyên môn; nhân viên y tế đánh giá sức khỏe và phối hợp khi cần. Có thể tìm người khác, không phải đi theo thứ tự.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C15/VISUAL-REVIEW.md",
+          "sha256": "ecbb7ad763330b0df2582266ecdc33895bb6b4ecad88d6c40179e5c87e36a415"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng là câu hỏi hoặc lựa chọn sư phạm, không mô hình nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C15-V1",
+          "revision": "73c3be6d10161bb7135fcff9fba351af5490b1cc600591634a7fdbe36151917d",
+          "contentHash": "73c3be6d10161bb7135fcff9fba351af5490b1cc600591634a7fdbe36151917d",
+          "revisionHash": "f9725256f952c53039fbf61f92b6c19f639624affdd8a6456d0edfe2a16fa9f9",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C15-asset-rights.json",
+            "sha256": "6f2458affee001ae295991649d788464bf8c3c0b9642ce803496d127ba66a269"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C15",
+          "revision": "c15-draft-r1",
+          "sourceHash": "5575cbd91d5e09b4821e6c6a74d3f16d3739e3747badaf13df37b0ed647c6fc0",
+          "ast": 161,
+          "dom": 161,
+          "svgHash": "73c3be6d10161bb7135fcff9fba351af5490b1cc600591634a7fdbe36151917d",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C16",
+      "slug": "khi-ban-rat-buon",
+      "title": "Khi một người bạn nói rằng bạn ấy đang rất buồn",
+      "revision": "c16-draft-r1",
+      "contentHash": "8d7c50c2c151c20f1c64a009388ce4297bdb3a2ff44e0e41dec1490008b18c1c",
+      "revisionHash": "0239041c9e6cb8bc1884d2512959318ffc25880add1b4f34f47e9b2d4ede66e8",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C16",
+          "revision": "c16-draft-r1",
+          "contentHash": "8d7c50c2c151c20f1c64a009388ce4297bdb3a2ff44e0e41dec1490008b18c1c",
+          "revisionHash": "0239041c9e6cb8bc1884d2512959318ffc25880add1b4f34f47e9b2d4ede66e8",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C16-editorial.json",
+            "sha256": "79d6918ef23065344b6edd0e6d0639f7ab3485a5ef1a126cb0931f556376ff70"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C16/listen-and-share-support.svg",
+        "sha256": "081f04abcb7fa576e7a57777ea0753ed3a8b675facdaeff33f210d1eee145065",
+        "id": "C16-V1",
+        "revision": "081f04abcb7fa576e7a57777ea0753ed3a8b675facdaeff33f210d1eee145065",
+        "alt": "Thẻ hỗ trợ bạn có ba vùng: nghe và hỏi điều bạn muốn; nói giới hạn và nhờ người lớn khi cần; giữ riêng tư nhưng không hứa giữ kín khi có nguy cơ gây hại.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C16/VISUAL-REVIEW.md",
+          "sha256": "027efa618160455d16e1568dc3fa3c491fc90a1d51b2732c4db85462b30768ef"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng là câu hỏi hoặc lựa chọn sư phạm, không mô hình nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C16-V1",
+          "revision": "081f04abcb7fa576e7a57777ea0753ed3a8b675facdaeff33f210d1eee145065",
+          "contentHash": "081f04abcb7fa576e7a57777ea0753ed3a8b675facdaeff33f210d1eee145065",
+          "revisionHash": "0239041c9e6cb8bc1884d2512959318ffc25880add1b4f34f47e9b2d4ede66e8",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C16-asset-rights.json",
+            "sha256": "e7c8125ea417378d0e0135bde6d6f277d2ebfc1c8d3add1795adc76398ece177"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C16",
+          "revision": "c16-draft-r1",
+          "sourceHash": "8d7c50c2c151c20f1c64a009388ce4297bdb3a2ff44e0e41dec1490008b18c1c",
+          "ast": 144,
+          "dom": 144,
+          "svgHash": "081f04abcb7fa576e7a57777ea0753ed3a8b675facdaeff33f210d1eee145065",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C17",
+      "slug": "dem-dai-minh-chua-ngu",
+      "title": "Đêm dài, mình chưa ngủ",
+      "revision": "c17-draft-r2",
+      "contentHash": "5a88cc2c70529bc40b9fca966c0b5de1064fc3a8ef05612746d63c1aaf89467d",
+      "revisionHash": "0b0c53022a5c4645f364cc97b9f9dc04faf25707e6016638a8b82dab4dd9baaf",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C17",
+          "revision": "c17-draft-r2",
+          "contentHash": "5a88cc2c70529bc40b9fca966c0b5de1064fc3a8ef05612746d63c1aaf89467d",
+          "revisionHash": "0b0c53022a5c4645f364cc97b9f9dc04faf25707e6016638a8b82dab4dd9baaf",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C17-editorial.json",
+            "sha256": "510a23aeeebadf80be84a432df4673c21020583319ce379976ed7ad5cfbda17b"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C17/sleep-context.svg",
+        "sha256": "2279965d4b3799dcd60e420fe09c63d6c572164e70e5c6425a647b9eeef37fae",
+        "id": "C17-V1",
+        "revision": "2279965d4b3799dcd60e420fe09c63d6c572164e70e5c6425a647b9eeef37fae",
+        "alt": "Sơ đồ gồm nhóm A về bối cảnh ngủ của Lan: nhu cầu ngủ theo tuổi, lịch học và việc nhà, môi trường ngủ dùng chung; nhóm B về bài tập: tách dữ kiện với điều chưa biết, chọn thay đổi khả thi, xác định hỗ trợ hoặc điều chỉnh.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C17/VISUAL-REVIEW.md",
+          "sha256": "7ac2890303c2d64005214354a2c157031ee05eb287b515c8617638fcdde7bd24"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình/tác giả: trợ lý biên soạn SVG hình học và chữ mới cho tác vụ C17; không ảnh có sẵn, chân dung, ảnh AI hoặc sơ đồ sao chép. Không URL nguồn hình ngoài vì không dùng hình bên thứ ba.",
+          "- Thành phần: màu giấy/kem, xanh mực, sage và tím nhạt theo DESIGN; font hệ thống và fallback, không nhúng/tải font, ảnh/icon ngoài. Không đổi mỹ thuật website.",
+          "- Giấy phép/điều kiện sử dụng: chưa gán giấy phép công bố thay chủ dự án, không cam kết quyền độc quyền. Không có giấy phép ảnh bên thứ ba cần giả lập. Chủ dự án quyết định quyền sử dụng cuối trước xuất bản.",
+          "Nhóm A ghi nhu cầu ngủ theo tuổi, lịch học/việc nhà và môi trường ngủ chung. Nhóm B nêu tách dữ kiện, chọn thay đổi, hỗ trợ/điều chỉnh; lời trong mỗi khối giải thích điều chưa biết, điều kiện và phương án khi chưa làm được. Không thêm cơ chế, số liệu hoặc tài nguyên hình bên thứ ba.",
+          "Đồng bộ alt/desc/mô tả chữ với bố cục mới; caption và nguồn khoa học giữ nguyên vì không đổi phạm vi. Kết quả render và tương phản r2 nằm trong EDITORIAL-REVIEW; giấy phép công bố cuối vẫn pending."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C17-V1",
+          "revision": "2279965d4b3799dcd60e420fe09c63d6c572164e70e5c6425a647b9eeef37fae",
+          "contentHash": "2279965d4b3799dcd60e420fe09c63d6c572164e70e5c6425a647b9eeef37fae",
+          "revisionHash": "0b0c53022a5c4645f364cc97b9f9dc04faf25707e6016638a8b82dab4dd9baaf",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C17-asset-rights.json",
+            "sha256": "b34b731558a9c5a487d83e15317367a25b45ced54a63c474b8d45a6833f5d4af"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C17",
+          "revision": "c17-draft-r2",
+          "sourceHash": "5a88cc2c70529bc40b9fca966c0b5de1064fc3a8ef05612746d63c1aaf89467d",
+          "ast": 228,
+          "dom": 228,
+          "svgHash": "2279965d4b3799dcd60e420fe09c63d6c572164e70e5c6425a647b9eeef37fae",
+          "tables": 3,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C18",
+      "slug": "nghi-mot-chut",
+      "title": "Nghỉ một chút có phải là lười?",
+      "revision": "c18-draft-r1",
+      "contentHash": "4a1b67d8b606c0053918672b0c57228a79c975ad172a9775c23fc83f8ff0b5c1",
+      "revisionHash": "32fbffc0cd5a5f83515af2375338e89cb1f9de7223d692d5a003709ebf44bcfc",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C18",
+          "revision": "c18-draft-r1",
+          "contentHash": "4a1b67d8b606c0053918672b0c57228a79c975ad172a9775c23fc83f8ff0b5c1",
+          "revisionHash": "32fbffc0cd5a5f83515af2375338e89cb1f9de7223d692d5a003709ebf44bcfc",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C18-editorial.json",
+            "sha256": "eaf07909013c763de392762a984dc0875a199996647de5a97e70339c7e43fb45"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C18/rest-options.svg",
+        "sha256": "1ecd2045c183634d7686f8558509a1ce3608df86071f042cfdd5db43ee0ba00f",
+        "id": "C18-V1",
+        "revision": "1ecd2045c183634d7686f8558509a1ce3608df86071f042cfdd5db43ee0ba00f",
+        "alt": "Ba phần chọn khoảng nghỉ: tạm dừng một yêu cầu; chọn cách nghỉ khả thi; xem lại nhiệm vụ và hỗ trợ. Không cần chứng minh nghỉ giúp tăng năng suất.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C18/VISUAL-REVIEW.md",
+          "sha256": "679c4cadc404fa1322dbac6a1450a9687132ad6a591718ab032e5b3fa3730876"
+        },
+        "provenanceQuotes": [
+          "- Nguồn gốc: tệp SVG mới trong PR B01, do trợ lý AI biên soạn cho dự án ngày 25/10/2026 theo ủy quyền người dùng. Không sao chép bố cục/hình nguồn, bộ test hoặc tài sản bên thứ ba.",
+          "- Tác giả công cụ: trợ lý AI; không nhận là người vẽ/chuyên gia thật. Chủ thể quyết định quyền công bố: chủ dự án, chưa chốt điều kiện/giấy phép cuối; không tự ghi CC hoặc độc quyền.",
+          "- Giấy phép/điều kiện: dùng trong phạm vi review bản nháp được giao; quyền công bố cuối **pending**. Không URL stock/ảnh bên ngoài, không giấy phép bên thứ ba cần giả lập. Font ghi tên hệ thống, không nhúng/tải font; khi tích hợp cần kiểm môi trường font thực tế.",
+          "Kiểm XML, không script/foreignObject/image/use/href/tài nguyên ngoài/event handler; chỉ hình học, chữ, title/desc. ViewBox rộng 320, cỡ chữ 16–22px tại320; PNG640 tăng tỷ lệ 2 lần. Bố cục xếp dọc, không dùng màu một mình: mỗi khối có nhãn riêng. Chữ #333e32 trên #dce3d2/#e9e2ee/#fffdf7; kiểm tỷ lệ tương phản bằng công thức WCAG trong validator, đều trên 4,5:1. Điều này không xác nhận toàn diện accessibility."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C18-V1",
+          "revision": "1ecd2045c183634d7686f8558509a1ce3608df86071f042cfdd5db43ee0ba00f",
+          "contentHash": "1ecd2045c183634d7686f8558509a1ce3608df86071f042cfdd5db43ee0ba00f",
+          "revisionHash": "32fbffc0cd5a5f83515af2375338e89cb1f9de7223d692d5a003709ebf44bcfc",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C18-asset-rights.json",
+            "sha256": "5f43f64d3c61910bdf1a9d1210938412b8fde3bebc1f5d77be7ff95c10e03f4c"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C18",
+          "revision": "c18-draft-r1",
+          "sourceHash": "4a1b67d8b606c0053918672b0c57228a79c975ad172a9775c23fc83f8ff0b5c1",
+          "ast": 149,
+          "dom": 149,
+          "svgHash": "1ecd2045c183634d7686f8558509a1ce3608df86071f042cfdd5db43ee0ba00f",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C19",
+      "slug": "tin-hieu-co-the",
+      "title": "Cơ thể đang nhắc mình điều gì?",
+      "revision": "c19-draft-r1",
+      "contentHash": "6b8e18e86fbf79848f1bf4795541c93c184501ffa824a31e09569e22057f2c2a",
+      "revisionHash": "79005088eee77ab6564de62e95652d292802c906d5d12a565e5128a6e64b7c45",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C19",
+          "revision": "c19-draft-r1",
+          "contentHash": "6b8e18e86fbf79848f1bf4795541c93c184501ffa824a31e09569e22057f2c2a",
+          "revisionHash": "79005088eee77ab6564de62e95652d292802c906d5d12a565e5128a6e64b7c45",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C19-editorial.json",
+            "sha256": "58e49af21b57975c083ae730e30f73131f504c60335db6b84cb8007f82ccfaf2"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C19/body-signal-context.svg",
+        "sha256": "69ba2f099e4bdf975ba1e3a6472990f44ffc5d0c13c231b73f1113735136c4ea",
+        "id": "C19-V1",
+        "revision": "69ba2f099e4bdf975ba1e3a6472990f44ffc5d0c13c231b73f1113735136c4ea",
+        "alt": "Thẻ đọc tín hiệu cơ thể gồm điều nhân vật kể, nguyên nhân chưa xác định và người có thể hỗ trợ; một tín hiệu không trỏ duy nhất đến stress hoặc một bệnh.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C19/VISUAL-REVIEW.md",
+          "sha256": "9a479eac1fbed337edb1e4a73e2494996d7b06d6289969535f3352dc7c6c5615"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng là câu hỏi hoặc lựa chọn sư phạm, không mô hình nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C19-V1",
+          "revision": "69ba2f099e4bdf975ba1e3a6472990f44ffc5d0c13c231b73f1113735136c4ea",
+          "contentHash": "69ba2f099e4bdf975ba1e3a6472990f44ffc5d0c13c231b73f1113735136c4ea",
+          "revisionHash": "79005088eee77ab6564de62e95652d292802c906d5d12a565e5128a6e64b7c45",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C19-asset-rights.json",
+            "sha256": "1e617066826408497c35e23b5b826343cb6e2729feeb0cb4e1f6a41383c229cd"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C19",
+          "revision": "c19-draft-r1",
+          "sourceHash": "6b8e18e86fbf79848f1bf4795541c93c184501ffa824a31e09569e22057f2c2a",
+          "ast": 128,
+          "dom": 128,
+          "svgHash": "69ba2f099e4bdf975ba1e3a6472990f44ffc5d0c13c231b73f1113735136c4ea",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C20",
+      "slug": "van-dong-giua-ngay-hoc",
+      "title": "Một khoảng vận động giữa ngày học",
+      "revision": "c20-draft-r1",
+      "contentHash": "f138411a49208cd26385a298ae794ea64e5d0b3c919f1620913294b145c6a0e4",
+      "revisionHash": "5c2dbc51a33c096f9a009bcef4dfc782ceda6ca3585f1f56155ee85b02c187fa",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C20",
+          "revision": "c20-draft-r1",
+          "contentHash": "f138411a49208cd26385a298ae794ea64e5d0b3c919f1620913294b145c6a0e4",
+          "revisionHash": "5c2dbc51a33c096f9a009bcef4dfc782ceda6ca3585f1f56155ee85b02c187fa",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C20-editorial.json",
+            "sha256": "4917924491b96223993555dfd6a89c18440421da7c87cf49de3b48624d49737f"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C20/movement-options.svg",
+        "sha256": "bb79d29921e713c431b629e7ec457a6b813656da41bbc47943f51b037a3d025a",
+        "id": "C20-V1",
+        "revision": "bb79d29921e713c431b629e7ec457a6b813656da41bbc47943f51b037a3d025a",
+        "alt": "Thẻ lựa chọn vận động gồm người và điều kiện đang có, hoạt động quen thuộc phù hợp, cùng phương án đổi cách, nghỉ hoặc hỏi hỗ trợ; không có bài tập hoặc số phút bắt buộc.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C20/VISUAL-REVIEW.md",
+          "sha256": "ee5e1fa6476c3c363140e5083497d9f2bdeacba523793f5c926d21d2ef500d12"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng là câu hỏi hoặc lựa chọn sư phạm, không mô hình nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C20-V1",
+          "revision": "bb79d29921e713c431b629e7ec457a6b813656da41bbc47943f51b037a3d025a",
+          "contentHash": "bb79d29921e713c431b629e7ec457a6b813656da41bbc47943f51b037a3d025a",
+          "revisionHash": "5c2dbc51a33c096f9a009bcef4dfc782ceda6ca3585f1f56155ee85b02c187fa",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C20-asset-rights.json",
+            "sha256": "d771358c4fb60a7f1c4fa24ea5bd0d8d07efd100dbaf9cee5833c7a57f78cdf7"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C20",
+          "revision": "c20-draft-r1",
+          "sourceHash": "f138411a49208cd26385a298ae794ea64e5d0b3c919f1620913294b145c6a0e4",
+          "ast": 139,
+          "dom": 139,
+          "svgHash": "bb79d29921e713c431b629e7ec457a6b813656da41bbc47943f51b037a3d025a",
+          "tables": 0,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C21",
+      "slug": "so-sanh-tren-mang",
+      "title": "Lướt mạng rồi thấy mình kém hơn",
+      "revision": "c21-draft-r1",
+      "contentHash": "cc19dc5686263516974c33b898a54467858c5ef0df2c500a3a18d50905c84328",
+      "revisionHash": "fd7d13059deeb0935792499ed533c6ed31d646e2e72ddb11a18b875d29ddb0dc",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C21",
+          "revision": "c21-draft-r1",
+          "contentHash": "cc19dc5686263516974c33b898a54467858c5ef0df2c500a3a18d50905c84328",
+          "revisionHash": "fd7d13059deeb0935792499ed533c6ed31d646e2e72ddb11a18b875d29ddb0dc",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C21-editorial.json",
+            "sha256": "2771972bb275f9c9f8fa04b0202a4a6bdaec04556ee3d118bcae5725ce27199a"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C21/post-and-missing-context.svg",
+        "sha256": "0361e599cdba6037aa9e8d8089ca44a2f89c0ce924759c81882a88f2b081cf7e",
+        "id": "C21-V1",
+        "revision": "0361e599cdba6037aa9e8d8089ca44a2f89c0ce924759c81882a88f2b081cf7e",
+        "alt": "Sơ đồ tách bài đăng đã thấy, điều chưa biết ngoài khung hình, kết luận đang suy rộng và một lựa chọn sử dụng mạng phù hợp; không xếp hạng người đăng hoặc người xem.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C21/VISUAL-REVIEW.md",
+          "sha256": "95d9ee125ed32df5b05fb7616199c4f95b1b199dc76156099ca5c25fca99c41d"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng là câu hỏi hoặc lựa chọn sư phạm, không mô hình nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C21-V1",
+          "revision": "0361e599cdba6037aa9e8d8089ca44a2f89c0ce924759c81882a88f2b081cf7e",
+          "contentHash": "0361e599cdba6037aa9e8d8089ca44a2f89c0ce924759c81882a88f2b081cf7e",
+          "revisionHash": "fd7d13059deeb0935792499ed533c6ed31d646e2e72ddb11a18b875d29ddb0dc",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C21-asset-rights.json",
+            "sha256": "06024eeee361c3e86cfe065390c5579d2d84197d466483f2db968468dd00fa87"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C21",
+          "revision": "c21-draft-r1",
+          "sourceHash": "cc19dc5686263516974c33b898a54467858c5ef0df2c500a3a18d50905c84328",
+          "ast": 150,
+          "dom": 150,
+          "svgHash": "0361e599cdba6037aa9e8d8089ca44a2f89c0ce924759c81882a88f2b081cf7e",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C22",
+      "slug": "dien-thoai-va-chu-y",
+      "title": "Điện thoại cứ kéo mình ra khỏi trang vở",
+      "revision": "c22-draft-r1",
+      "contentHash": "e8e5d5bb695fb26fc3dde8703f0a5a0e36090767a758b302b0517195c9491b53",
+      "revisionHash": "d5b834746974f5cda059b93bf1b107dace65be4752141cda8836079c98d4690d",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C22",
+          "revision": "c22-draft-r1",
+          "contentHash": "e8e5d5bb695fb26fc3dde8703f0a5a0e36090767a758b302b0517195c9491b53",
+          "revisionHash": "d5b834746974f5cda059b93bf1b107dace65be4752141cda8836079c98d4690d",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C22-editorial.json",
+            "sha256": "9c4f46f6bbdb2fc62f3fba2bf95bb0888f9cde9e5c2cf9fb891287787d4fda15"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C22/study-and-contact.svg",
+        "sha256": "100ea5f1a412777c1bfed69c1126adcde3569fb4ccd86a8924c10d7771e94cde",
+        "id": "C22-V1",
+        "revision": "100ea5f1a412777c1bfed69c1126adcde3569fb4ccd86a8924c10d7771e94cde",
+        "alt": "Ba thẻ về ví dụ bị ngắt khi đọc, kế hoạch giảm phần không cần mà giữ liên lạc thiết yếu, cùng dấu quay lại và khoảng nghỉ; không có điểm số hoặc lịch phút tối ưu.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C22/VISUAL-REVIEW.md",
+          "sha256": "5092b89afdd71ea2a79d3bed849b74eb63fdf27d8f8af534e5b175eb53b6b81f"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng là câu hỏi hoặc lựa chọn sư phạm, không mô hình nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C22-V1",
+          "revision": "100ea5f1a412777c1bfed69c1126adcde3569fb4ccd86a8924c10d7771e94cde",
+          "contentHash": "100ea5f1a412777c1bfed69c1126adcde3569fb4ccd86a8924c10d7771e94cde",
+          "revisionHash": "d5b834746974f5cda059b93bf1b107dace65be4752141cda8836079c98d4690d",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C22-asset-rights.json",
+            "sha256": "b568619a9258665bbea695fe53caad0846bd0e261ad91816ae1fd452656afb79"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C22",
+          "revision": "c22-draft-r1",
+          "sourceHash": "e8e5d5bb695fb26fc3dde8703f0a5a0e36090767a758b302b0517195c9491b53",
+          "ast": 147,
+          "dom": 147,
+          "svgHash": "100ea5f1a412777c1bfed69c1126adcde3569fb4ccd86a8924c10d7771e94cde",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C23",
+      "slug": "lop-moi-truong-moi",
+      "title": "Lớp mới, trường mới, mình bắt đầu từ đâu?",
+      "revision": "c23-draft-r1",
+      "contentHash": "5bcb2df38bc4cafb1f886162c933385260928c73db1ca9c12845f0632e4639b6",
+      "revisionHash": "b9aeceac67f57240fc29ed41391f57a50d40d1b401825c0731402c4784ca8f04",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C23",
+          "revision": "c23-draft-r1",
+          "contentHash": "5bcb2df38bc4cafb1f886162c933385260928c73db1ca9c12845f0632e4639b6",
+          "revisionHash": "b9aeceac67f57240fc29ed41391f57a50d40d1b401825c0731402c4784ca8f04",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C23-editorial.json",
+            "sha256": "346140edb4ebee971b0f653d0777249a60f04fe3f43847936c32e727e403768f"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C23/new-school-map.svg",
+        "sha256": "c2086d1ffa0a5fedb503f3e024b9c9332b0cf9d0713480c54d3c8c070ee94905",
+        "id": "C23-V1",
+        "revision": "c2086d1ffa0a5fedb503f3e024b9c9332b0cf9d0713480c54d3c8c070ee94905",
+        "alt": "Ba câu hỏi làm quen: điều gì đang mới, hỏi ai về một việc cụ thể, và xác nhận hoặc tìm lựa chọn khác thế nào; không có hạn thích nghi.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C23/VISUAL-REVIEW.md",
+          "sha256": "1552c1411c364e0b183fd03051a235f89622bc75a7eac2c53dde503de8824720"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: SVG mới được trợ lý AI thiết kế cho dự án ngày 25/10/2026; hình học và chữ tự biên soạn, không sao chép hình nguồn hoặc ảnh Google/stock/watermark.",
+          "- Tác giả công cụ: trợ lý AI, không reviewer/người vẽ thật giả lập. Chủ thể quyết định quyền công bố: chủ dự án.",
+          "- Điều kiện: được dùng trong review bản nháp theo ủy quyền; giấy phép/credit xuất bản cuối **pending**, không tự nhận CC hoặc độc quyền. Không có tài sản bên thứ ba cần giấy phép tái sử dụng hình; tên font hệ thống không nhúng/tải tệp font.",
+          "- Mô tả tương đương ngoài hình: Bản đồ có ba vùng nơi/lịch, cách làm việc và người có thể hỏi. Một dải cuối nhắc chọn một việc, hỏi và xác nhận, có thể đổi người hoặc cách tiếp cận. Không có mốc ngày, giai đoạn tâm lý hoặc tuyến đường dùng ngoài đời."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C23-V1",
+          "revision": "c2086d1ffa0a5fedb503f3e024b9c9332b0cf9d0713480c54d3c8c070ee94905",
+          "contentHash": "c2086d1ffa0a5fedb503f3e024b9c9332b0cf9d0713480c54d3c8c070ee94905",
+          "revisionHash": "b9aeceac67f57240fc29ed41391f57a50d40d1b401825c0731402c4784ca8f04",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C23-asset-rights.json",
+            "sha256": "639e9600380e2d52a0cf99530af546230636fe50d50366e84d4107947c4a184d"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C23",
+          "revision": "c23-draft-r1",
+          "sourceHash": "5bcb2df38bc4cafb1f886162c933385260928c73db1ca9c12845f0632e4639b6",
+          "ast": 125,
+          "dom": 125,
+          "svgHash": "c2086d1ffa0a5fedb503f3e024b9c9332b0cf9d0713480c54d3c8c070ee94905",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-C24",
+      "slug": "kham-pha-tuong-lai",
+      "title": "Chưa biết mình muốn trở thành ai cũng được",
+      "revision": "c24-draft-r1",
+      "contentHash": "3ecbaf4b33427577bf591cf87001b15fa46e901578779f3de7f8f950e59a0f0c",
+      "revisionHash": "351e7f001b333c43c540bd13125c37932fa47cb0dabd44b47f3a796a5f2ba900",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-C24",
+          "revision": "c24-draft-r1",
+          "contentHash": "3ecbaf4b33427577bf591cf87001b15fa46e901578779f3de7f8f950e59a0f0c",
+          "revisionHash": "351e7f001b333c43c540bd13125c37932fa47cb0dabd44b47f3a796a5f2ba900",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C24-editorial.json",
+            "sha256": "06ea7457c5c7f9ec4a0d8973534f2bb40c12cf6bb836efd2c7d398fc893898af"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/C24/exploration-and-reflection.svg",
+        "sha256": "fd3ffdf2f8c4a3e722377c69bd68806886c21a3f24e5134e8ca100e289e944d9",
+        "id": "C24-V1",
+        "revision": "fd3ffdf2f8c4a3e722377c69bd68806886c21a3f24e5134e8ca100e289e944d9",
+        "alt": "Phiếu khám phá gồm câu hỏi muốn tìm hiểu, cách thử phù hợp điều kiện, điều nhận ra và bước tiếp; không có mũi tên tới một nghề định sẵn.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/C24/VISUAL-REVIEW.md",
+          "sha256": "56348288d706ecf75ed711552d6dfb3acd08b129f267eaa028ce21c016ae1548"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng/dải là công cụ diễn giải giáo dục, không bản tái hiện mô hình/biểu đồ điểm nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "C24-V1",
+          "revision": "fd3ffdf2f8c4a3e722377c69bd68806886c21a3f24e5134e8ca100e289e944d9",
+          "contentHash": "fd3ffdf2f8c4a3e722377c69bd68806886c21a3f24e5134e8ca100e289e944d9",
+          "revisionHash": "351e7f001b333c43c540bd13125c37932fa47cb0dabd44b47f3a796a5f2ba900",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-C24-asset-rights.json",
+            "sha256": "b06d90ddd2c890b0ec043f53bb8df8e1fcd03bd01cbfe49a0f112140887d8d2d"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-C24",
+          "revision": "c24-draft-r1",
+          "sourceHash": "3ecbaf4b33427577bf591cf87001b15fa46e901578779f3de7f8f950e59a0f0c",
+          "ast": 171,
+          "dom": 171,
+          "svgHash": "fd3ffdf2f8c4a3e722377c69bd68806886c21a3f24e5134e8ca100e289e944d9",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-E01",
+      "slug": "mbti-va-16-kieu-tinh-cach",
+      "title": "MBTI và 16 kiểu tính cách: hiểu và đọc kết quả thế nào?",
+      "revision": "e01-draft-r1",
+      "contentHash": "dee659a32ce1d4dc5c998c2495814773077c7a1159f3092978cdf900145cd1be",
+      "revisionHash": "f1382641d1c0ce3d7ad6d3aadfebb9babccd5443ec412a4168dc32b5cb9b2123",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-E01",
+          "revision": "e01-draft-r1",
+          "contentHash": "dee659a32ce1d4dc5c998c2495814773077c7a1159f3092978cdf900145cd1be",
+          "revisionHash": "f1382641d1c0ce3d7ad6d3aadfebb9babccd5443ec412a4168dc32b5cb9b2123",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-E01-editorial.json",
+            "sha256": "8fa89b4d5604decef115585457920b5702f48e41d19c2607981f873e1502859d"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/E01/tool-result-conclusion.svg",
+        "sha256": "27ba1e4dd5442cd8103d5dbd8b02fd8128aa566c6bd3db390f848179921d3d1e",
+        "id": "E01-V1",
+        "revision": "27ba1e4dd5442cd8103d5dbd8b02fd8128aa566c6bd3db390f848179921d3d1e",
+        "alt": "Ba vùng đọc kết quả: xác định công cụ và phiên bản, xem kết quả thực báo, kiểm kết luận định rút ra; không nối mã tính cách tới nghề hoặc năng lực cố định.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/E01/VISUAL-REVIEW.md",
+          "sha256": "074f2f95719f8baa2370f4423a7c5e8ac1999df874568930cf05c6d895153e29"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng/dải là công cụ diễn giải giáo dục, không bản tái hiện mô hình/biểu đồ điểm nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "E01-V1",
+          "revision": "27ba1e4dd5442cd8103d5dbd8b02fd8128aa566c6bd3db390f848179921d3d1e",
+          "contentHash": "27ba1e4dd5442cd8103d5dbd8b02fd8128aa566c6bd3db390f848179921d3d1e",
+          "revisionHash": "f1382641d1c0ce3d7ad6d3aadfebb9babccd5443ec412a4168dc32b5cb9b2123",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-E01-asset-rights.json",
+            "sha256": "a6d99341e8a586b447675dc3c19f491a68a5322068c170ed8d3e4ec4f696f246"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-E01",
+          "revision": "e01-draft-r1",
+          "sourceHash": "dee659a32ce1d4dc5c998c2495814773077c7a1159f3092978cdf900145cd1be",
+          "ast": 194,
+          "dom": 194,
+          "svgHash": "27ba1e4dd5442cd8103d5dbd8b02fd8128aa566c6bd3db390f848179921d3d1e",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-E02",
+      "slug": "big-five",
+      "title": "Big Five: hiểu đặc điểm nhân cách mà không đóng khung bản thân",
+      "revision": "e02-draft-r1",
+      "contentHash": "ffe397b0bc53d8cb2a4588e6db48332a48f8c95f540b650243a05f1052ddc4c9",
+      "revisionHash": "a93518dc6c5dde8a4520310bb19dedc633a2eb3dcca0876c133a559af663b542",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-E02",
+          "revision": "e02-draft-r1",
+          "contentHash": "ffe397b0bc53d8cb2a4588e6db48332a48f8c95f540b650243a05f1052ddc4c9",
+          "revisionHash": "a93518dc6c5dde8a4520310bb19dedc633a2eb3dcca0876c133a559af663b542",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-E02-editorial.json",
+            "sha256": "4f0fc0d8b10cb7863fa15458f8ba43a595afa6207036636cf3931bac05314388"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/E02/five-dimensions.svg",
+        "sha256": "5619b9549b3671c64f205674867c746493b80e27b9eb5792b3238173fa0b6721",
+        "id": "E02-V1",
+        "revision": "5619b9549b3671c64f205674867c746493b80e27b9eb5792b3238173fa0b6721",
+        "alt": "Năm dải liên tục có nhãn Big Five, không có điểm, vạch chuẩn hoặc vị trí cá nhân; mỗi chiều là một cách mô tả, không một nhóm người.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/E02/VISUAL-REVIEW.md",
+          "sha256": "f766e65271c599582abc8fb0a4d737097e2c2cadf09c90acb66f56faf2e011c2"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng/dải là công cụ diễn giải giáo dục, không bản tái hiện mô hình/biểu đồ điểm nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "E02-V1",
+          "revision": "5619b9549b3671c64f205674867c746493b80e27b9eb5792b3238173fa0b6721",
+          "contentHash": "5619b9549b3671c64f205674867c746493b80e27b9eb5792b3238173fa0b6721",
+          "revisionHash": "a93518dc6c5dde8a4520310bb19dedc633a2eb3dcca0876c133a559af663b542",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-E02-asset-rights.json",
+            "sha256": "dfbab9ca7b65725a0d968a4f260ba3034855d2e632931738bcff6e6c868cb60c"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-E02",
+          "revision": "e02-draft-r1",
+          "sourceHash": "ffe397b0bc53d8cb2a4588e6db48332a48f8c95f540b650243a05f1052ddc4c9",
+          "ast": 193,
+          "dom": 193,
+          "svgHash": "5619b9549b3671c64f205674867c746493b80e27b9eb5792b3238173fa0b6721",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-E03",
+      "slug": "holland-riasec",
+      "title": "Holland RIASEC: khám phá sở thích nghề nghiệp",
+      "revision": "e03-draft-r1",
+      "contentHash": "fa856be71c83416bbc8fd71781d6377f04ea6282d56da5c4555e6ffb51a38405",
+      "revisionHash": "2107bb2ed11cacb5522ad2c8170b5ace2bae7b7a8c366ed9dcbab2bde39cd302",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-E03",
+          "revision": "e03-draft-r1",
+          "contentHash": "fa856be71c83416bbc8fd71781d6377f04ea6282d56da5c4555e6ffb51a38405",
+          "revisionHash": "2107bb2ed11cacb5522ad2c8170b5ace2bae7b7a8c366ed9dcbab2bde39cd302",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-E03-editorial.json",
+            "sha256": "bf3a4cf09d7803fe0a6d3573c9d6554967ffcfbbcc6d7dd41c6a01011813e748"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/E03/six-interest-directions.svg",
+        "sha256": "418ef31a22f48d6667a5141cf4ad0bb1555022358a6d44430b26b5af008a2632",
+        "id": "E03-V1",
+        "revision": "418ef31a22f48d6667a5141cf4ad0bb1555022358a6d44430b26b5af008a2632",
+        "alt": "Sáu thẻ R, I, A, S, E, C diễn tả những hướng hoạt động để tìm hiểu, đi cùng vùng nhắc sở thích khác năng lực và nghề định sẵn; không có điểm hoặc mã cá nhân.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/E03/VISUAL-REVIEW.md",
+          "sha256": "f9fef3114cede9242dd6a2378ca471fc6b41a1fc6b43fed327847549abebc7d1"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng/dải là công cụ diễn giải giáo dục, không bản tái hiện mô hình/biểu đồ điểm nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "E03-V1",
+          "revision": "418ef31a22f48d6667a5141cf4ad0bb1555022358a6d44430b26b5af008a2632",
+          "contentHash": "418ef31a22f48d6667a5141cf4ad0bb1555022358a6d44430b26b5af008a2632",
+          "revisionHash": "2107bb2ed11cacb5522ad2c8170b5ace2bae7b7a8c366ed9dcbab2bde39cd302",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-E03-asset-rights.json",
+            "sha256": "2d6a4a3deff5e14335480b318cdf58fc02e14f3a1065f293da79b2a485e9b486"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-E03",
+          "revision": "e03-draft-r1",
+          "sourceHash": "fa856be71c83416bbc8fd71781d6377f04ea6282d56da5c4555e6ffb51a38405",
+          "ast": 194,
+          "dom": 194,
+          "svgHash": "418ef31a22f48d6667a5141cf4ad0bb1555022358a6d44430b26b5af008a2632",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-E04",
+      "slug": "stress-va-cong-cu-sang-loc",
+      "title": "Stress và công cụ sàng lọc: một con số nói được gì?",
+      "revision": "e04-draft-r1",
+      "contentHash": "47c9f116ee1372032688356f2a3c2cec78128639ee61688212a121c14a489c51",
+      "revisionHash": "aa82fa985aab5c1958c65b2d11892c406f490bcd1f44965653342e4e81b72666",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-E04",
+          "revision": "e04-draft-r1",
+          "contentHash": "47c9f116ee1372032688356f2a3c2cec78128639ee61688212a121c14a489c51",
+          "revisionHash": "aa82fa985aab5c1958c65b2d11892c406f490bcd1f44965653342e4e81b72666",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-E04-editorial.json",
+            "sha256": "47f64401e008108d986ff4b14dd6a27ce6383d70fc826492309ee120dc052359"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/E04/score-context-support.svg",
+        "sha256": "8ff5995d17c89d9d171fd31458db6be85f38786606fbb50d4128f1e7b8fc9c00",
+        "id": "E04-V1",
+        "revision": "8ff5995d17c89d9d171fd31458db6be85f38786606fbb50d4128f1e7b8fc9c00",
+        "alt": "Ba nhóm câu hỏi khi gặp một đầu ra tâm lý: tên và điều được đo, phiên bản/tuổi/ngôn ngữ/mục đích, người giải thích và cách giữ riêng tư; không có điểm hoặc nhánh chẩn đoán.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/E04/VISUAL-REVIEW.md",
+          "sha256": "7d35f01b1992566bde5a4c926e3acdad1df55a7b87b0c41523445ca41d037485"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: trợ lý AI tự thiết kế hình học và chữ cho dự án ngày25/10/2026 theo ủy quyền chủ dự án. Không URL ảnh bên ngoài, không chép hình/bố cục/test từ nguồn, không Google Images/watermark hoặc AI giả ảnh người thật.",
+          "- Tác giả công cụ: trợ lý AI, không giả người vẽ/reviewer thật. Chủ thể quyết định quyền công bố: chủ dự án; không xác nhận độc quyền hoặc tự gán CC.",
+          "- Điều kiện: dùng trong review bản nháp đã được cho phép; quyền công bố/giấy phép/credit cuối **pending**. Không tài sản bên thứ ba được nhập vào SVG; font chỉ gọi tên hệ thống, không nhúng/tải tệp font.",
+          "Các vùng/dải là công cụ diễn giải giáo dục, không bản tái hiện mô hình/biểu đồ điểm nguồn, mức độ nguy cơ hoặc bước bắt buộc phải đi hết. Không đường nối nhân quả, số liệu giả, thang điểm hoặc hứa kết quả. Thông tin không phụ thuộc màu: mỗi thẻ có nhãn và bản mô tả ngoài hình. Tín hiệu tìm hỗ trợ ngay không yêu cầu hoàn thành ô trước."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "E04-V1",
+          "revision": "8ff5995d17c89d9d171fd31458db6be85f38786606fbb50d4128f1e7b8fc9c00",
+          "contentHash": "8ff5995d17c89d9d171fd31458db6be85f38786606fbb50d4128f1e7b8fc9c00",
+          "revisionHash": "aa82fa985aab5c1958c65b2d11892c406f490bcd1f44965653342e4e81b72666",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-E04-asset-rights.json",
+            "sha256": "3d26afd0b9d576dc5e375e3f14a2928e2ababedb0d4b781336814ec4f2daf474"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-E04",
+          "revision": "e04-draft-r1",
+          "sourceHash": "47c9f116ee1372032688356f2a3c2cec78128639ee61688212a121c14a489c51",
+          "ast": 198,
+          "dom": 198,
+          "svgHash": "8ff5995d17c89d9d171fd31458db6be85f38786606fbb50d4128f1e7b8fc9c00",
+          "tables": 1,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    },
+    {
+      "id": "KGNT-E05",
+      "slug": "phong-cach-hoc-tap",
+      "title": "Phong cách học tập: phân biệt sở thích với bằng chứng khoa học",
+      "revision": "e05-draft-r2",
+      "contentHash": "4ac983b803e6741fcc63f88cbe88cd4abcf7d2f576d53ac0157da0ee42d8409e",
+      "revisionHash": "6e00062e6890f9d2dd9d32d2b48474826381e4164a192fcd0ac36cfad6378b9d",
+      "status": "draft",
+      "editorial": {
+        "decisionBasis": "docs/phase-3/p1c/OWNER-DECISION.md",
+        "acceptance": "RECORDED — reaffirmed by owner R1.0 instruction",
+        "record": {
+          "kind": "editorialApproval",
+          "subjectId": "KGNT-E05",
+          "revision": "e05-draft-r2",
+          "contentHash": "4ac983b803e6741fcc63f88cbe88cd4abcf7d2f576d53ac0157da0ee42d8409e",
+          "revisionHash": "6e00062e6890f9d2dd9d32d2b48474826381e4164a192fcd0ac36cfad6378b9d",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-E05-editorial.json",
+            "sha256": "ec7b0299d2ab9b22f4755e06c0661c26a5e2ec74dbd6b7cb08022a4fc09ca5ec"
+          }
+        }
+      },
+      "asset": {
+        "path": "docs/phase-3/drafts/E05/claim-to-practice.svg",
+        "sha256": "674ada70eeba61995bdc7df14fc1ca0deea51ee8fed949774dee44846aac9d7c",
+        "id": "E05-V1",
+        "revision": "674ada70eeba61995bdc7df14fc1ca0deea51ee8fed949774dee44846aac9d7c",
+        "alt": "Bốn phần đọc một lời khẳng định: Huy thích xem hình; cần so kết quả các cách dạy trong mỗi nhóm, không chỉ hỏi thích gì; sở thích chưa đủ kết luận; chọn cách thử theo nhiệm vụ và xem phản hồi.",
+        "rights": null,
+        "classification": "project-created geometry/text with AI assistance, according to existing provenance; no third-party image identified",
+        "provenance": {
+          "path": "docs/phase-3/drafts/E05/VISUAL-REVIEW.md",
+          "sha256": "f118d2fdebd68b51bc25bbdf4b4d931973bec684d4fd2cc2b4143acef8b075a7"
+        },
+        "provenanceQuotes": [
+          "- Nguồn hình: hình học/chữ tự biên soạn mới bằng SVG trong tác vụ E05; tác giả thực hiện là trợ lý biên soạn. Không ảnh, chân dung, sơ đồ tái bản, icon/phông nhúng ngoài hoặc ảnh AI. Không URL nguồn hình bên thứ ba vì không dùng hình bên thứ ba.",
+          "- Quyền/giấy phép: chưa gán giấy phép công bố asset thay chủ dự án; không cam kết quyền độc quyền. Quyền đọc bài khoa học không được dùng như quyền sao chép đồ thị; hình này không chép đồ thị nguồn. Quyền công bố cuối pending.",
+          "Alt/desc/mô tả tương đương cập nhật; mô tả chữ và phần chính giải thích rằng lợi thế phải đổi theo nhóm như dự đoán, không chỉ một cách tốt hơn cho tất cả. Caption giữ nguyên vì nguồn/phạm vi và bản chất sư phạm không đổi. Không thêm nguồn ảnh, biểu đồ giả hoặc tài nguyên ngoài."
+        ],
+        "scopeRequested": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+        "record": {
+          "kind": "assetRights",
+          "subjectId": "E05-V1",
+          "revision": "674ada70eeba61995bdc7df14fc1ca0deea51ee8fed949774dee44846aac9d7c",
+          "contentHash": "674ada70eeba61995bdc7df14fc1ca0deea51ee8fed949774dee44846aac9d7c",
+          "revisionHash": "6e00062e6890f9d2dd9d32d2b48474826381e4164a192fcd0ac36cfad6378b9d",
+          "decision": "approved",
+          "by": "Chủ dự án Không Gian Nội Tâm",
+          "at": "2026-10-27T14:34:11+07:00",
+          "evidence": {
+            "path": "docs/phase-3/publication-records/r10/KGNT-E05-asset-rights.json",
+            "sha256": "22d3f16ec03ce505580b608b2c78c6701d422f8b6c0082b06916b185870c694b"
+          }
+        }
+      },
+      "readerQA": {
+        "coverage": {
+          "id": "KGNT-E05",
+          "revision": "e05-draft-r2",
+          "sourceHash": "4ac983b803e6741fcc63f88cbe88cd4abcf7d2f576d53ac0157da0ee42d8409e",
+          "ast": 292,
+          "dom": 292,
+          "svgHash": "674ada70eeba61995bdc7df14fc1ca0deea51ee8fed949774dee44846aac9d7c",
+          "tables": 2,
+          "axeViolations": 0
+        },
+        "coverageFiles": [
+          "docs/phase-3/q1/verification/coverage-320.json",
+          "docs/phase-3/q1/verification/coverage-390.json",
+          "docs/phase-3/q1/verification/coverage-768.json",
+          "docs/phase-3/q1/verification/coverage-1440.json"
+        ],
+        "record": null,
+        "scope": "technical evidence reusable; no human/full accessibility approval inferred",
+        "notTested": [
+          "native zoom 200%",
+          "screen reader",
+          "physical devices",
+          "human learner review"
+        ]
+      },
+      "missing": [
+        "expertReview",
+        "readerQA accountable confirmation and remaining required scope",
+        "learnerReview",
+        "publicationAuthorization"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "KGNT-W001",
+      "slug": "bat-dau-o-mot-noi-moi",
+      "payload": {
+        "id": "KGNT-W001",
+        "slug": "bat-dau-o-mot-noi-moi",
+        "title": "Bắt đầu ở một nơi mới",
+        "description": "Nhận ra điều đang mới, tìm một kết nối vừa sức và biết người có thể hỏi khi cần.",
+        "articleSlugs": [
+          "lop-moi-truong-moi",
+          "o-giua-lop",
+          "tro-chuyen-voi-nguoi-lon"
+        ],
+        "startsAt": "2027-01-11T00:00:00+07:00",
+        "endsAt": "2027-01-25T00:00:00+07:00",
+        "status": "draft"
+      },
+      "contentHash": "38e5e7d2d58d67791c1e254ce323783c4f5d39188c829059a1a5e011642f0ab8",
+      "revisionHash": "38e5e7d2d58d67791c1e254ce323783c4f5d39188c829059a1a5e011642f0ab8",
+      "proposedPublicationRevision": "r10-weekly-v1",
+      "acceptance": "OWNER ACCEPTED W2 SAMPLE STRUCTURE — R1.0 instruction",
+      "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+      "missing": [
+        "expertReview",
+        "readerQA",
+        "learnerReview",
+        "publicationAuthorization"
+      ],
+      "publication": null,
+      "editorialRecord": {
+        "kind": "editorialApproval",
+        "subjectId": "bat-dau-o-mot-noi-moi",
+        "revision": "r10-weekly-v1",
+        "contentHash": "38e5e7d2d58d67791c1e254ce323783c4f5d39188c829059a1a5e011642f0ab8",
+        "revisionHash": "38e5e7d2d58d67791c1e254ce323783c4f5d39188c829059a1a5e011642f0ab8",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T14:34:11+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r10/KGNT-W001-editorial.json",
+          "sha256": "a2b1b8e1e140441273c6047cb5ca82bded25dfdb5fd63f8fd771c808b87e52bd"
+        }
+      }
+    },
+    {
+      "id": "KGNT-W002",
+      "slug": "goi-ten-dieu-dang-den",
+      "payload": {
+        "id": "KGNT-W002",
+        "slug": "goi-ten-dieu-dang-den",
+        "title": "Gọi tên điều đang đến",
+        "description": "Phân biệt cảm xúc, điều đang nghĩ và tín hiệu cơ thể; giữ chỗ cho điều mình chưa biết.",
+        "articleSlugs": [
+          "hom-nay-minh-cam-thay-gi",
+          "lo-lang-truoc-gio-hoc",
+          "tin-hieu-co-the"
+        ],
+        "startsAt": "2027-01-25T00:00:00+07:00",
+        "endsAt": "2027-02-08T00:00:00+07:00",
+        "status": "draft"
+      },
+      "contentHash": "2cd436c1dbd1ee7f57ae3b9a417f497c8c8fb81a3f4f49e1c5b22f3842b7da72",
+      "revisionHash": "2cd436c1dbd1ee7f57ae3b9a417f497c8c8fb81a3f4f49e1c5b22f3842b7da72",
+      "proposedPublicationRevision": "r10-weekly-v1",
+      "acceptance": "OWNER ACCEPTED W2 SAMPLE STRUCTURE — R1.0 instruction",
+      "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+      "missing": [
+        "expertReview",
+        "readerQA",
+        "learnerReview",
+        "publicationAuthorization"
+      ],
+      "publication": null,
+      "editorialRecord": {
+        "kind": "editorialApproval",
+        "subjectId": "goi-ten-dieu-dang-den",
+        "revision": "r10-weekly-v1",
+        "contentHash": "2cd436c1dbd1ee7f57ae3b9a417f497c8c8fb81a3f4f49e1c5b22f3842b7da72",
+        "revisionHash": "2cd436c1dbd1ee7f57ae3b9a417f497c8c8fb81a3f4f49e1c5b22f3842b7da72",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T14:34:11+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r10/KGNT-W002-editorial.json",
+          "sha256": "2976446289276396c7ce2d317bd17796f5734ec5a2866583cc284fe9333de21e"
+        }
+      }
+    },
+    {
+      "id": "KGNT-W003",
+      "slug": "gan-nhau-va-co-ranh-gioi",
+      "payload": {
+        "id": "KGNT-W003",
+        "slug": "gan-nhau-va-co-ranh-gioi",
+        "title": "Gần nhau và có ranh giới",
+        "description": "Nhìn rõ bất đồng, tập nói điều không muốn và nhận ra lúc cần người lớn hỗ trợ để an toàn.",
+        "articleSlugs": [
+          "bat-dong-tinh-ban",
+          "noi-khong-ton-trong",
+          "treu-choc-va-bat-nat"
+        ],
+        "startsAt": "2027-02-08T00:00:00+07:00",
+        "endsAt": "2027-02-22T00:00:00+07:00",
+        "status": "draft"
+      },
+      "contentHash": "b88f09d59c2f1e8dfb76339694545b24c8963b8c63af72ce7432c6bcf8dd9fc0",
+      "revisionHash": "b88f09d59c2f1e8dfb76339694545b24c8963b8c63af72ce7432c6bcf8dd9fc0",
+      "proposedPublicationRevision": "r10-weekly-v1",
+      "acceptance": "OWNER ACCEPTED W2 SAMPLE STRUCTURE — R1.0 instruction",
+      "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+      "missing": [
+        "expertReview",
+        "readerQA",
+        "learnerReview",
+        "publicationAuthorization"
+      ],
+      "publication": null,
+      "editorialRecord": {
+        "kind": "editorialApproval",
+        "subjectId": "gan-nhau-va-co-ranh-gioi",
+        "revision": "r10-weekly-v1",
+        "contentHash": "b88f09d59c2f1e8dfb76339694545b24c8963b8c63af72ce7432c6bcf8dd9fc0",
+        "revisionHash": "b88f09d59c2f1e8dfb76339694545b24c8963b8c63af72ce7432c6bcf8dd9fc0",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T14:34:11+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r10/KGNT-W003-editorial.json",
+          "sha256": "1fe5b8bd1820ac17663394a05f2052ebedbdab01e66a4bbc1825679f8ffa9f01"
+        }
+      }
+    },
+    {
+      "id": "KGNT-W004",
+      "slug": "khi-ban-can-mot-nguoi-nghe",
+      "payload": {
+        "id": "KGNT-W004",
+        "slug": "khi-ban-can-mot-nguoi-nghe",
+        "title": "Khi bạn cần một người nghe",
+        "description": "Tìm hiểu cách lắng nghe trong giới hạn của bạn bè và mở lời với người có thể hỗ trợ.",
+        "articleSlugs": [
+          "khi-ban-rat-buon",
+          "tim-them-su-giup-do",
+          "tro-chuyen-voi-nguoi-lon"
+        ],
+        "startsAt": "2027-02-22T00:00:00+07:00",
+        "endsAt": "2027-03-08T00:00:00+07:00",
+        "status": "draft"
+      },
+      "contentHash": "bd5ccbfe5e04c3cd7c8c1ad4174643e6e0c91ec025f8eb94dd1d1bb8f88ff392",
+      "revisionHash": "bd5ccbfe5e04c3cd7c8c1ad4174643e6e0c91ec025f8eb94dd1d1bb8f88ff392",
+      "proposedPublicationRevision": "r10-weekly-v1",
+      "acceptance": "OWNER ACCEPTED W2 SAMPLE STRUCTURE — R1.0 instruction",
+      "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+      "missing": [
+        "expertReview",
+        "readerQA",
+        "learnerReview",
+        "publicationAuthorization"
+      ],
+      "publication": null,
+      "editorialRecord": {
+        "kind": "editorialApproval",
+        "subjectId": "khi-ban-can-mot-nguoi-nghe",
+        "revision": "r10-weekly-v1",
+        "contentHash": "bd5ccbfe5e04c3cd7c8c1ad4174643e6e0c91ec025f8eb94dd1d1bb8f88ff392",
+        "revisionHash": "bd5ccbfe5e04c3cd7c8c1ad4174643e6e0c91ec025f8eb94dd1d1bb8f88ff392",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T14:34:11+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r10/KGNT-W004-editorial.json",
+          "sha256": "9cb83e6c851d711bf9b91cc1191a506c48d64cb183088999feb62327b436113f"
+        }
+      }
+    },
+    {
+      "id": "KGNT-W005",
+      "slug": "giu-nhip-cho-ngay-hoc",
+      "payload": {
+        "id": "KGNT-W005",
+        "slug": "giu-nhip-cho-ngay-hoc",
+        "title": "Giữ nhịp cho ngày học",
+        "description": "Nhìn hoàn cảnh ngủ, nghỉ và vận động để chọn điều chỉnh phù hợp, không chấm điểm lối sống.",
+        "articleSlugs": [
+          "dem-dai-minh-chua-ngu",
+          "nghi-mot-chut",
+          "van-dong-giua-ngay-hoc"
+        ],
+        "startsAt": "2027-03-08T00:00:00+07:00",
+        "endsAt": "2027-03-22T00:00:00+07:00",
+        "status": "draft"
+      },
+      "contentHash": "7e6a07d87557800becf3bfd23e44ad7d3f3d3950bd7c6e89af38c020c48377d7",
+      "revisionHash": "7e6a07d87557800becf3bfd23e44ad7d3f3d3950bd7c6e89af38c020c48377d7",
+      "proposedPublicationRevision": "r10-weekly-v1",
+      "acceptance": "OWNER ACCEPTED W2 SAMPLE STRUCTURE — R1.0 instruction",
+      "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+      "missing": [
+        "expertReview",
+        "readerQA",
+        "learnerReview",
+        "publicationAuthorization"
+      ],
+      "publication": null,
+      "editorialRecord": {
+        "kind": "editorialApproval",
+        "subjectId": "giu-nhip-cho-ngay-hoc",
+        "revision": "r10-weekly-v1",
+        "contentHash": "7e6a07d87557800becf3bfd23e44ad7d3f3d3950bd7c6e89af38c020c48377d7",
+        "revisionHash": "7e6a07d87557800becf3bfd23e44ad7d3f3d3950bd7c6e89af38c020c48377d7",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T14:34:11+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r10/KGNT-W005-editorial.json",
+          "sha256": "97d9e34a92d3755deeffb68905bc95d321e0f261d67ec258f345b3d670689661"
+        }
+      }
+    },
+    {
+      "id": "KGNT-W006",
+      "slug": "hoc-theo-viec-can-lam",
+      "payload": {
+        "id": "KGNT-W006",
+        "slug": "hoc-theo-viec-can-lam",
+        "title": "Học theo việc cần làm",
+        "description": "Chọn một điểm bắt đầu và cách ôn theo nhiệm vụ; phân biệt sở thích học với bằng chứng.",
+        "articleSlugs": [
+          "chua-bat-dau-hoc",
+          "hoc-va-nho-lau",
+          "phong-cach-hoc-tap"
+        ],
+        "startsAt": "2027-03-22T00:00:00+07:00",
+        "endsAt": "2027-04-05T00:00:00+07:00",
+        "status": "draft"
+      },
+      "contentHash": "16967db57ba377dd4124f504a957e43f0e2f6efd3724883188062f3453b54d32",
+      "revisionHash": "16967db57ba377dd4124f504a957e43f0e2f6efd3724883188062f3453b54d32",
+      "proposedPublicationRevision": "r10-weekly-v1",
+      "acceptance": "OWNER ACCEPTED W2 SAMPLE STRUCTURE — R1.0 instruction",
+      "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+      "missing": [
+        "expertReview",
+        "readerQA",
+        "learnerReview",
+        "publicationAuthorization"
+      ],
+      "publication": null,
+      "editorialRecord": {
+        "kind": "editorialApproval",
+        "subjectId": "hoc-theo-viec-can-lam",
+        "revision": "r10-weekly-v1",
+        "contentHash": "16967db57ba377dd4124f504a957e43f0e2f6efd3724883188062f3453b54d32",
+        "revisionHash": "16967db57ba377dd4124f504a957e43f0e2f6efd3724883188062f3453b54d32",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T14:34:11+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r10/KGNT-W006-editorial.json",
+          "sha256": "999f9356e5c559da47992e766350a6c060dbcb24de068ffb337d3f045d0d3069"
+        }
+      }
+    },
+    {
+      "id": "KGNT-W007",
+      "slug": "mang-dien-thoai-va-su-chu-y",
+      "payload": {
+        "id": "KGNT-W007",
+        "slug": "mang-dien-thoai-va-su-chu-y",
+        "title": "Mạng, điện thoại và sự chú ý",
+        "description": "Nhận ra bối cảnh so sánh và xao nhãng để thử một ranh giới số vẫn giữ liên lạc cần thiết.",
+        "articleSlugs": [
+          "so-sanh-tren-mang",
+          "dien-thoai-va-chu-y",
+          "noi-khong-ton-trong"
+        ],
+        "startsAt": "2027-04-05T00:00:00+07:00",
+        "endsAt": "2027-04-19T00:00:00+07:00",
+        "status": "draft"
+      },
+      "contentHash": "7edb0c1e6200ee8ade04f5155de11b071340e5606be385cea746074ecae1604a",
+      "revisionHash": "7edb0c1e6200ee8ade04f5155de11b071340e5606be385cea746074ecae1604a",
+      "proposedPublicationRevision": "r10-weekly-v1",
+      "acceptance": "OWNER ACCEPTED W2 SAMPLE STRUCTURE — R1.0 instruction",
+      "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+      "missing": [
+        "expertReview",
+        "readerQA",
+        "learnerReview",
+        "publicationAuthorization"
+      ],
+      "publication": null,
+      "editorialRecord": {
+        "kind": "editorialApproval",
+        "subjectId": "mang-dien-thoai-va-su-chu-y",
+        "revision": "r10-weekly-v1",
+        "contentHash": "7edb0c1e6200ee8ade04f5155de11b071340e5606be385cea746074ecae1604a",
+        "revisionHash": "7edb0c1e6200ee8ade04f5155de11b071340e5606be385cea746074ecae1604a",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T14:34:11+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r10/KGNT-W007-editorial.json",
+          "sha256": "f99675c5550ce6d0bac8709a9f1934e27cb1943839f49d0681782e28aaa69eb1"
+        }
+      }
+    },
+    {
+      "id": "KGNT-W008",
+      "slug": "truoc-mua-kiem-tra",
+      "payload": {
+        "id": "KGNT-W008",
+        "slug": "truoc-mua-kiem-tra",
+        "title": "Trước mùa kiểm tra",
+        "description": "Chuẩn bị việc học, trao đổi về kỳ vọng khi an toàn và hiểu giới hạn của một con số sàng lọc.",
+        "articleSlugs": [
+          "khi-mua-thi-den-gan",
+          "ky-vong-o-nha",
+          "stress-va-cong-cu-sang-loc"
+        ],
+        "startsAt": "2027-04-19T00:00:00+07:00",
+        "endsAt": "2027-04-26T00:00:00+07:00",
+        "status": "draft"
+      },
+      "contentHash": "852e0f388c05713d3f4925172f30b91af872e135e47d4c477d509a8352e1c548",
+      "revisionHash": "852e0f388c05713d3f4925172f30b91af872e135e47d4c477d509a8352e1c548",
+      "proposedPublicationRevision": "r10-weekly-v1",
+      "acceptance": "OWNER ACCEPTED W2 SAMPLE STRUCTURE — R1.0 instruction",
+      "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+      "missing": [
+        "expertReview",
+        "readerQA",
+        "learnerReview",
+        "publicationAuthorization"
+      ],
+      "publication": null,
+      "editorialRecord": {
+        "kind": "editorialApproval",
+        "subjectId": "truoc-mua-kiem-tra",
+        "revision": "r10-weekly-v1",
+        "contentHash": "852e0f388c05713d3f4925172f30b91af872e135e47d4c477d509a8352e1c548",
+        "revisionHash": "852e0f388c05713d3f4925172f30b91af872e135e47d4c477d509a8352e1c548",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T14:34:11+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r10/KGNT-W008-editorial.json",
+          "sha256": "b22d3359a05d12cd18f90ef441bf5e5ea15b120e114bb99f374c5863d0fad423"
+        }
+      }
+    },
+    {
+      "id": "KGNT-W009",
+      "slug": "sau-diem-so-minh-di-tiep",
+      "payload": {
+        "id": "KGNT-W009",
+        "slug": "sau-diem-so-minh-di-tiep",
+        "title": "Sau điểm số, mình đi tiếp",
+        "description": "Đọc phản hồi theo việc có thể sửa, không đồng nhất sai sót với bản thân và chọn cách ứng xử an toàn.",
+        "articleSlugs": [
+          "sau-bai-kiem-tra",
+          "dung-ve-phia-minh",
+          "con-gian-truoc-loi-noi"
+        ],
+        "startsAt": "2027-04-26T00:00:00+07:00",
+        "endsAt": "2027-05-10T00:00:00+07:00",
+        "status": "draft"
+      },
+      "contentHash": "2264129af6002563b417e355d112fd472c0668c771085dc1394b10c07bec17eb",
+      "revisionHash": "2264129af6002563b417e355d112fd472c0668c771085dc1394b10c07bec17eb",
+      "proposedPublicationRevision": "r10-weekly-v1",
+      "acceptance": "OWNER ACCEPTED W2 SAMPLE STRUCTURE — R1.0 instruction",
+      "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+      "missing": [
+        "expertReview",
+        "readerQA",
+        "learnerReview",
+        "publicationAuthorization"
+      ],
+      "publication": null,
+      "editorialRecord": {
+        "kind": "editorialApproval",
+        "subjectId": "sau-diem-so-minh-di-tiep",
+        "revision": "r10-weekly-v1",
+        "contentHash": "2264129af6002563b417e355d112fd472c0668c771085dc1394b10c07bec17eb",
+        "revisionHash": "2264129af6002563b417e355d112fd472c0668c771085dc1394b10c07bec17eb",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T14:34:11+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r10/KGNT-W009-editorial.json",
+          "sha256": "c9a86617f5b8758217951009086468dff45103959682ab64ba80e4de26fe032e"
+        }
+      }
+    },
+    {
+      "id": "KGNT-W010",
+      "slug": "tim-hieu-minh-mo-huong-di",
+      "payload": {
+        "id": "KGNT-W010",
+        "slug": "tim-hieu-minh-mo-huong-di",
+        "title": "Tìm hiểu mình, mở hướng đi",
+        "description": "Khám phá sở thích, giá trị và cơ hội; đọc mô hình tính cách, hướng nghiệp mà không đóng khung mình.",
+        "articleSlugs": [
+          "kham-pha-tuong-lai",
+          "mbti-va-16-kieu-tinh-cach",
+          "big-five",
+          "holland-riasec"
+        ],
+        "startsAt": "2027-05-10T00:00:00+07:00",
+        "endsAt": "2027-05-17T00:00:00+07:00",
+        "status": "draft"
+      },
+      "contentHash": "5da946b6cdb573df7e819e1fb2afe56e9ee25b9c3c2e9bc35c8ffa31c3ba7a0e",
+      "revisionHash": "5da946b6cdb573df7e819e1fb2afe56e9ee25b9c3c2e9bc35c8ffa31c3ba7a0e",
+      "proposedPublicationRevision": "r10-weekly-v1",
+      "acceptance": "OWNER ACCEPTED W2 SAMPLE STRUCTURE — R1.0 instruction",
+      "simulationNotice": "Lịch mô phỏng 18 tuần năm 2027 trong thiết kế sản phẩm tiểu luận; không khẳng định trường học đã triển khai.",
+      "missing": [
+        "expertReview",
+        "readerQA",
+        "learnerReview",
+        "publicationAuthorization"
+      ],
+      "publication": null,
+      "editorialRecord": {
+        "kind": "editorialApproval",
+        "subjectId": "tim-hieu-minh-mo-huong-di",
+        "revision": "r10-weekly-v1",
+        "contentHash": "5da946b6cdb573df7e819e1fb2afe56e9ee25b9c3c2e9bc35c8ffa31c3ba7a0e",
+        "revisionHash": "5da946b6cdb573df7e819e1fb2afe56e9ee25b9c3c2e9bc35c8ffa31c3ba7a0e",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T14:34:11+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r10/KGNT-W010-editorial.json",
+          "sha256": "bda1f5f5e6ceae1e63bde5cf5d35112acc70428ac1ad9cafab81048fac3ca527"
+        }
+      }
+    }
+  ],
+  "q1": {
+    "head": "230c815d2c5e0a1ac23ed13a10070aa87939a89a",
+    "reuse": "hash-bound source/DOM evidence; human/assistive/device gaps remain"
+  },
+  "counts": {
+    "articles": 29,
+    "svg": 29,
+    "weekly": 10,
+    "publicArticles": 0,
+    "publicWeekly": 0,
+    "approvedF0RecordsCreated": 68
+  },
+  "confirmation": {
+    "by": "Chủ dự án Không Gian Nội Tâm",
+    "at": "2026-10-27T14:34:11+07:00",
+    "source": "R1.0 explicit owner responses; no invented public chat URL or signature",
+    "recordStorage": "Detached valid records, not a complete publication bundle"
+  }
+}

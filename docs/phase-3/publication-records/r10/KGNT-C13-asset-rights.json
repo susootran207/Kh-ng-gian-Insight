@@ -1,0 +1,25 @@
+{
+  "kind": "assetRights",
+  "subjectId": "C13-V1",
+  "revision": "12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36",
+  "contentHash": "12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36",
+  "revisionHash": "e63edcf10dbf6f82835dbc868599b3b00b533f24816aa7fd8bb0f592b29fcee2",
+  "confirmation": {
+    "path": "docs/phase-3/r10/CONFIRMATION.md",
+    "sha256": "19a142f9e5ed80ca8cec7da32f738cad7f7019e1d47e9f1dfec25ecadaad7a13"
+  },
+  "decision": "approved",
+  "by": "Chủ dự án Không Gian Nội Tâm",
+  "at": "2026-10-27T14:34:11+07:00",
+  "basis": {
+    "source": "owner explicitly confirmed authority and requested usage in R1.0 conversation",
+    "provenance": {
+      "path": "docs/phase-3/drafts/C13/VISUAL-REVIEW.md",
+      "sha256": "6e94e5a744348ee7d5ccaa42a2c727a96398cb8b9be48d9c3336b403e77aaf01"
+    },
+    "scope": "public non-commercial academic website; preserve caption/credit; no open licence or exclusivity claim",
+    "terms": "Permission for the specified project use only, not an open licence; no exclusivity claim or third-party rights grant",
+    "credit": "Preserve existing ARTICLE caption/credit",
+    "identity": "owner-declared role, not independently authenticated legal identity"
+  }
+}
