@@ -44,8 +44,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C01",
+        "revision": "c01-draft-r2",
+        "contentHash": "a14e18424db35df95ab0a298b2b2f8a8f1ff742e8af5bbed8ec8bbb70cee678d",
+        "revisionHash": "4c03a922cde860f86a21766d68a2fb88a38d174c3e0e0db3213b3076f9ea361e",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C01-publication-authorization.json",
+          "sha256": "bf86a44b8683f91b6e72cddd356fb7951af5d7444d85a3ef63371003d2db941c"
+        }
+      }
     },
     {
       "id": "KGNT-C02",
@@ -59,8 +73,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C02",
+        "revision": "c02-draft-r1",
+        "contentHash": "3399bad2299b5d5ed261849185bfc4e42a3ee8909c4618b7c1206cd38c4b918d",
+        "revisionHash": "4079348b8d2520e5ee75d99ef4055a2101e8227e954875a7a873b5282b75d650",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C02-publication-authorization.json",
+          "sha256": "11d29f552b847da3879067c9f40344e788b243a61c17759f4d7c96e68f102961"
+        }
+      }
     },
     {
       "id": "KGNT-C03",
@@ -74,8 +102,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C03",
+        "revision": "c03-draft-r1",
+        "contentHash": "2769bc80ca129b6287eae9e3057d124c550dccce148b75f551136d7a8f1b05d4",
+        "revisionHash": "98a9437c23659f7b8473b9906d216ec9b6d75abb72c8d8d30a493e201b09f813",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C03-publication-authorization.json",
+          "sha256": "3b0d2d545825255408fc31f6ebd397cc11ad59b3007b77e7346818f4fd1c0e52"
+        }
+      }
     },
     {
       "id": "KGNT-C04",
@@ -89,8 +131,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C04",
+        "revision": "c04-draft-r1",
+        "contentHash": "c3c8be4f142560f11d47270bc7827f53007d9cafa84db83bcf06bf96e62d93d1",
+        "revisionHash": "c992e0d5fab91b5d85e671a6b54fd7581ba0fce09f87c4d1e1d29085af76ff54",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C04-publication-authorization.json",
+          "sha256": "8cf469cb6dc61bed89ac17739f3b156b92049200f2463c0a43a1ab3e997fb281"
+        }
+      }
     },
     {
       "id": "KGNT-C05",
@@ -104,8 +160,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C05",
+        "revision": "c05-draft-r2",
+        "contentHash": "57ef7f42eb24b03d0f85156478d224096979e6140f75ab15c2361af699642df5",
+        "revisionHash": "159424c05d6fffc62634e0efcc198721109f4e49959c21d78c5caff8faa51f86",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C05-publication-authorization.json",
+          "sha256": "29a934046f96f371a01c78f869ed3bf1c69f159103ace6aac22443b5401883ae"
+        }
+      }
     },
     {
       "id": "KGNT-C06",
@@ -119,8 +189,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C06",
+        "revision": "c06-draft-r1",
+        "contentHash": "a58b7799153919ea38c7c338494a1e9e11e62cb1ad18b4b218ff5d74b6c2b215",
+        "revisionHash": "724a18216702f8bf556849691aa78743afeea9a5d3d9424f0e5718c64466312c",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C06-publication-authorization.json",
+          "sha256": "cba97dfe4be4bbee9df681144911d7883eb59aa66a769f0894a640072c6aabbc"
+        }
+      }
     },
     {
       "id": "KGNT-C07",
@@ -134,8 +218,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C07",
+        "revision": "c07-draft-r1",
+        "contentHash": "857b9a3fc8ef3604a6c23972637ca5a4ee9448d7e6a11d08ad191ae52b78b13d",
+        "revisionHash": "e3ba72cf8e468a9954012637684cfaf45b88431e3d7e65a999f9cefbc3185e3c",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C07-publication-authorization.json",
+          "sha256": "e2f045741ff1fb675530a5d5b7df053df6ea21fe1cf4586ea51ceddfbf6487f2"
+        }
+      }
     },
     {
       "id": "KGNT-C08",
@@ -149,8 +247,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C08",
+        "revision": "c08-draft-r1",
+        "contentHash": "878fbd0696b9527af4d997e31b6aa4d4f6891792f96a9f7573701b237f0d1564",
+        "revisionHash": "97755985f88e3d36374ea1e98f4d4b023fdd0ec36b7d5d0169f2a1ea74fc0626",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C08-publication-authorization.json",
+          "sha256": "fd586580514d342605551fd37237c686eea84b037913b6344f91394b6efa9a5b"
+        }
+      }
     },
     {
       "id": "KGNT-C09",
@@ -164,8 +276,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C09",
+        "revision": "c09-draft-r1",
+        "contentHash": "510d641ebe2a87514c1a569d537fe42d0c9c77c39d39309047a51d5058243066",
+        "revisionHash": "a82b96d0cf7809fa8371dd418759f0bde4a659fb9912cf77a5cf6fc128e2f521",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C09-publication-authorization.json",
+          "sha256": "db2ba1481a318a6e1d0f459903828c69b77c21fd24c5c040131d8aa3959ca77c"
+        }
+      }
     },
     {
       "id": "KGNT-C10",
@@ -179,8 +305,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C10",
+        "revision": "c10-draft-r1",
+        "contentHash": "bcfcbc476f540e86c6c4b3dab0686c0fa20c69de4fb3c1eda91a35f84c5bb575",
+        "revisionHash": "fb89aa258c5961ef11fa55ee4e3aca15f6c31de11f43f82946479be0fa2dd9be",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C10-publication-authorization.json",
+          "sha256": "9c522e31bc0344a97890a72f77e624e657ab4200116a1620e749f93ed4a0d452"
+        }
+      }
     },
     {
       "id": "KGNT-C11",
@@ -194,8 +334,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C11",
+        "revision": "c11-draft-r1",
+        "contentHash": "19b0e55583d1178adb21b3bb6a80940addd095d27d2d8ddf2e7c48d630a3f791",
+        "revisionHash": "627915a0021fe1266431e253be3c8ecacbcea5459d2d942d747ba41b83b0835e",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C11-publication-authorization.json",
+          "sha256": "16f8a2e78b9a495fca8b44ca7e9865bc32ee7bddfc8f738008ce95cf87e28fb2"
+        }
+      }
     },
     {
       "id": "KGNT-C12",
@@ -209,8 +363,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C12",
+        "revision": "c12-draft-r1",
+        "contentHash": "6ec025c6d242df2c9ff087432485251aa16e1729d1d70b588fa18ba4c36a7563",
+        "revisionHash": "baefe26220127f564560fae6cf8c5d5b32ef9235bbfa2bb82cfec8be9f9a1dd5",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C12-publication-authorization.json",
+          "sha256": "2015b49d016b3995ad6176ca4d795df0963758b7b7e06fbc28f81b1edb691fd6"
+        }
+      }
     },
     {
       "id": "KGNT-C13",
@@ -224,8 +392,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C13",
+        "revision": "c13-draft-r1",
+        "contentHash": "5516d7c552c6f3a591f08cfd189d0258523d2e2dfd799d86d48781d267ba67cc",
+        "revisionHash": "e63edcf10dbf6f82835dbc868599b3b00b533f24816aa7fd8bb0f592b29fcee2",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C13-publication-authorization.json",
+          "sha256": "dc1e6adcdf920b688cfa563b425541b020f0f8d6841ef4a574d35148f358adf5"
+        }
+      }
     },
     {
       "id": "KGNT-C14",
@@ -239,8 +421,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C14",
+        "revision": "c14-draft-r1",
+        "contentHash": "0e31f9cf194036babdccf73d365634c00d69564f92ae31effaeb4224dbf34473",
+        "revisionHash": "47d85f121165df5aae3d9d5501dd8a873b67d39b041e9b0310f70ece48e8c4e4",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C14-publication-authorization.json",
+          "sha256": "74354d0f60c586daa8ed40a1ead56c6f5c982a7fccaff87013adff09435ee8c7"
+        }
+      }
     },
     {
       "id": "KGNT-C15",
@@ -254,8 +450,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C15",
+        "revision": "c15-draft-r1",
+        "contentHash": "5575cbd91d5e09b4821e6c6a74d3f16d3739e3747badaf13df37b0ed647c6fc0",
+        "revisionHash": "f9725256f952c53039fbf61f92b6c19f639624affdd8a6456d0edfe2a16fa9f9",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C15-publication-authorization.json",
+          "sha256": "9c76115d358d460949fd93576f6e58a54f09e9783fb8a8b21f423d8545b86154"
+        }
+      }
     },
     {
       "id": "KGNT-C16",
@@ -269,8 +479,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C16",
+        "revision": "c16-draft-r1",
+        "contentHash": "8d7c50c2c151c20f1c64a009388ce4297bdb3a2ff44e0e41dec1490008b18c1c",
+        "revisionHash": "0239041c9e6cb8bc1884d2512959318ffc25880add1b4f34f47e9b2d4ede66e8",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C16-publication-authorization.json",
+          "sha256": "940177fa5033ca65e5dd95bd3c2cffee8ddf061a91c8ea647e1a44939a8bf0b5"
+        }
+      }
     },
     {
       "id": "KGNT-C17",
@@ -284,8 +508,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C17",
+        "revision": "c17-draft-r2",
+        "contentHash": "5a88cc2c70529bc40b9fca966c0b5de1064fc3a8ef05612746d63c1aaf89467d",
+        "revisionHash": "0b0c53022a5c4645f364cc97b9f9dc04faf25707e6016638a8b82dab4dd9baaf",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C17-publication-authorization.json",
+          "sha256": "38b76ec2edb05c086079cd7e18f91bd0d0f94aec5ba9a841b038241b2011c8b2"
+        }
+      }
     },
     {
       "id": "KGNT-C18",
@@ -299,8 +537,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C18",
+        "revision": "c18-draft-r1",
+        "contentHash": "4a1b67d8b606c0053918672b0c57228a79c975ad172a9775c23fc83f8ff0b5c1",
+        "revisionHash": "32fbffc0cd5a5f83515af2375338e89cb1f9de7223d692d5a003709ebf44bcfc",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C18-publication-authorization.json",
+          "sha256": "de14aab581130345eaeb9bed9a713d05ceb2ff9163434527e169628bd51acdd6"
+        }
+      }
     },
     {
       "id": "KGNT-C19",
@@ -314,8 +566,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C19",
+        "revision": "c19-draft-r1",
+        "contentHash": "6b8e18e86fbf79848f1bf4795541c93c184501ffa824a31e09569e22057f2c2a",
+        "revisionHash": "79005088eee77ab6564de62e95652d292802c906d5d12a565e5128a6e64b7c45",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C19-publication-authorization.json",
+          "sha256": "0dc89dc26644324c247b46a4d8baa0f989ae9458606d353a42db4b62fed3cdcc"
+        }
+      }
     },
     {
       "id": "KGNT-C20",
@@ -329,8 +595,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C20",
+        "revision": "c20-draft-r1",
+        "contentHash": "f138411a49208cd26385a298ae794ea64e5d0b3c919f1620913294b145c6a0e4",
+        "revisionHash": "5c2dbc51a33c096f9a009bcef4dfc782ceda6ca3585f1f56155ee85b02c187fa",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C20-publication-authorization.json",
+          "sha256": "5bd8aa868dd16a97f6b67d8c1f4d8628267d003adde7f8522808aa145a2a266c"
+        }
+      }
     },
     {
       "id": "KGNT-C21",
@@ -344,8 +624,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C21",
+        "revision": "c21-draft-r1",
+        "contentHash": "cc19dc5686263516974c33b898a54467858c5ef0df2c500a3a18d50905c84328",
+        "revisionHash": "fd7d13059deeb0935792499ed533c6ed31d646e2e72ddb11a18b875d29ddb0dc",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C21-publication-authorization.json",
+          "sha256": "f205e420d3f4cf4b760702266fa11e63ad1578470d72541e2c8064b918ce5f18"
+        }
+      }
     },
     {
       "id": "KGNT-C22",
@@ -359,8 +653,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C22",
+        "revision": "c22-draft-r1",
+        "contentHash": "e8e5d5bb695fb26fc3dde8703f0a5a0e36090767a758b302b0517195c9491b53",
+        "revisionHash": "d5b834746974f5cda059b93bf1b107dace65be4752141cda8836079c98d4690d",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C22-publication-authorization.json",
+          "sha256": "db33a885eb27e49b0469f7c7cca16f86f5e431a5040348983c1e2aa1fa497909"
+        }
+      }
     },
     {
       "id": "KGNT-C23",
@@ -374,8 +682,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C23",
+        "revision": "c23-draft-r1",
+        "contentHash": "5bcb2df38bc4cafb1f886162c933385260928c73db1ca9c12845f0632e4639b6",
+        "revisionHash": "b9aeceac67f57240fc29ed41391f57a50d40d1b401825c0731402c4784ca8f04",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C23-publication-authorization.json",
+          "sha256": "e17485cbe841135284536b1a45aaffecc73ac4239f42b0d738a863d034e1fb8e"
+        }
+      }
     },
     {
       "id": "KGNT-C24",
@@ -389,8 +711,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-C24",
+        "revision": "c24-draft-r1",
+        "contentHash": "3ecbaf4b33427577bf591cf87001b15fa46e901578779f3de7f8f950e59a0f0c",
+        "revisionHash": "351e7f001b333c43c540bd13125c37932fa47cb0dabd44b47f3a796a5f2ba900",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-C24-publication-authorization.json",
+          "sha256": "978cea4ba32fb2721204db1ac467f142234f169d9c19412c5aca6cf88f6a4b10"
+        }
+      }
     },
     {
       "id": "KGNT-E01",
@@ -404,8 +740,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-E01",
+        "revision": "e01-draft-r1",
+        "contentHash": "dee659a32ce1d4dc5c998c2495814773077c7a1159f3092978cdf900145cd1be",
+        "revisionHash": "f1382641d1c0ce3d7ad6d3aadfebb9babccd5443ec412a4168dc32b5cb9b2123",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-E01-publication-authorization.json",
+          "sha256": "7cb924ec41eb42d1da223c463baab0dc86acdc13718cb719f9e77ce931b14e6e"
+        }
+      }
     },
     {
       "id": "KGNT-E02",
@@ -419,8 +769,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-E02",
+        "revision": "e02-draft-r1",
+        "contentHash": "ffe397b0bc53d8cb2a4588e6db48332a48f8c95f540b650243a05f1052ddc4c9",
+        "revisionHash": "a93518dc6c5dde8a4520310bb19dedc633a2eb3dcca0876c133a559af663b542",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-E02-publication-authorization.json",
+          "sha256": "38ef366455f247c0a036e521cf0abf0e6ab746e463c0f1c56c5f85e57ab3db6d"
+        }
+      }
     },
     {
       "id": "KGNT-E03",
@@ -434,8 +798,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-E03",
+        "revision": "e03-draft-r1",
+        "contentHash": "fa856be71c83416bbc8fd71781d6377f04ea6282d56da5c4555e6ffb51a38405",
+        "revisionHash": "2107bb2ed11cacb5522ad2c8170b5ace2bae7b7a8c366ed9dcbab2bde39cd302",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-E03-publication-authorization.json",
+          "sha256": "3b20fe2a5123bafab49fd255fcbe6cacd9a39bfeba832afba4f4de9c006e2940"
+        }
+      }
     },
     {
       "id": "KGNT-E04",
@@ -449,8 +827,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-E04",
+        "revision": "e04-draft-r1",
+        "contentHash": "47c9f116ee1372032688356f2a3c2cec78128639ee61688212a121c14a489c51",
+        "revisionHash": "aa82fa985aab5c1958c65b2d11892c406f490bcd1f44965653342e4e81b72666",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-E04-publication-authorization.json",
+          "sha256": "0de46154fb773ef5adb4b26ad21f11cb4853292dd819c1c1b9ff1a32499ef4b0"
+        }
+      }
     },
     {
       "id": "KGNT-E05",
@@ -464,8 +856,22 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_TECHNICAL_EVIDENCE_REUSABLE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
-      "runtime": "draft"
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
+      "runtime": "draft",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "KGNT-E05",
+        "revision": "e05-draft-r2",
+        "contentHash": "4ac983b803e6741fcc63f88cbe88cd4abcf7d2f576d53ac0157da0ee42d8409e",
+        "revisionHash": "6e00062e6890f9d2dd9d32d2b48474826381e4164a192fcd0ac36cfad6378b9d",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-E05-publication-authorization.json",
+          "sha256": "f3439ac58c58e1815f30192dc053ce05bc7ab1932feb24f861b2456da7ef6637"
+        }
+      }
     },
     {
       "id": "KGNT-W001",
@@ -479,10 +885,24 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_W2_TECHNICAL_EVIDENCE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
       "runtime": "draft",
       "startsAt": "2027-01-11T00:00:00+07:00",
-      "endsAt": "2027-01-25T00:00:00+07:00"
+      "endsAt": "2027-01-25T00:00:00+07:00",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "bat-dau-o-mot-noi-moi",
+        "revision": "r10-weekly-v1",
+        "contentHash": "38e5e7d2d58d67791c1e254ce323783c4f5d39188c829059a1a5e011642f0ab8",
+        "revisionHash": "38e5e7d2d58d67791c1e254ce323783c4f5d39188c829059a1a5e011642f0ab8",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-W001-publication-authorization.json",
+          "sha256": "8a7fdf4f1c477ca9a04ec40c80436cdaccaa00dd2ef6f56cbf1bfcb511164bce"
+        }
+      }
     },
     {
       "id": "KGNT-W002",
@@ -496,10 +916,24 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_W2_TECHNICAL_EVIDENCE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
       "runtime": "draft",
       "startsAt": "2027-01-25T00:00:00+07:00",
-      "endsAt": "2027-02-08T00:00:00+07:00"
+      "endsAt": "2027-02-08T00:00:00+07:00",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "goi-ten-dieu-dang-den",
+        "revision": "r10-weekly-v1",
+        "contentHash": "2cd436c1dbd1ee7f57ae3b9a417f497c8c8fb81a3f4f49e1c5b22f3842b7da72",
+        "revisionHash": "2cd436c1dbd1ee7f57ae3b9a417f497c8c8fb81a3f4f49e1c5b22f3842b7da72",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-W002-publication-authorization.json",
+          "sha256": "c1ee30fde70e17f6190fb019a6d8cbeca9c3393df82e0c1e5f81791cb201d37d"
+        }
+      }
     },
     {
       "id": "KGNT-W003",
@@ -513,10 +947,24 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_W2_TECHNICAL_EVIDENCE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
       "runtime": "draft",
       "startsAt": "2027-02-08T00:00:00+07:00",
-      "endsAt": "2027-02-22T00:00:00+07:00"
+      "endsAt": "2027-02-22T00:00:00+07:00",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "gan-nhau-va-co-ranh-gioi",
+        "revision": "r10-weekly-v1",
+        "contentHash": "b88f09d59c2f1e8dfb76339694545b24c8963b8c63af72ce7432c6bcf8dd9fc0",
+        "revisionHash": "b88f09d59c2f1e8dfb76339694545b24c8963b8c63af72ce7432c6bcf8dd9fc0",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-W003-publication-authorization.json",
+          "sha256": "388974bdcdc289f948f72a7caf4df0962873af134b7e529d589aacff15d5fce9"
+        }
+      }
     },
     {
       "id": "KGNT-W004",
@@ -530,10 +978,24 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_W2_TECHNICAL_EVIDENCE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
       "runtime": "draft",
       "startsAt": "2027-02-22T00:00:00+07:00",
-      "endsAt": "2027-03-08T00:00:00+07:00"
+      "endsAt": "2027-03-08T00:00:00+07:00",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "khi-ban-can-mot-nguoi-nghe",
+        "revision": "r10-weekly-v1",
+        "contentHash": "bd5ccbfe5e04c3cd7c8c1ad4174643e6e0c91ec025f8eb94dd1d1bb8f88ff392",
+        "revisionHash": "bd5ccbfe5e04c3cd7c8c1ad4174643e6e0c91ec025f8eb94dd1d1bb8f88ff392",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-W004-publication-authorization.json",
+          "sha256": "45a85e8ef277326bd0c634f284eb9119f41aa6d05bc7969ca787f22897034c6d"
+        }
+      }
     },
     {
       "id": "KGNT-W005",
@@ -547,10 +1009,24 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_W2_TECHNICAL_EVIDENCE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
       "runtime": "draft",
       "startsAt": "2027-03-08T00:00:00+07:00",
-      "endsAt": "2027-03-22T00:00:00+07:00"
+      "endsAt": "2027-03-22T00:00:00+07:00",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "giu-nhip-cho-ngay-hoc",
+        "revision": "r10-weekly-v1",
+        "contentHash": "7e6a07d87557800becf3bfd23e44ad7d3f3d3950bd7c6e89af38c020c48377d7",
+        "revisionHash": "7e6a07d87557800becf3bfd23e44ad7d3f3d3950bd7c6e89af38c020c48377d7",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-W005-publication-authorization.json",
+          "sha256": "a77ccb8d2dc7411bdeec7b4785691087bd9a42cee9b6ad1677ff8b4f98e5a81d"
+        }
+      }
     },
     {
       "id": "KGNT-W006",
@@ -564,10 +1040,24 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_W2_TECHNICAL_EVIDENCE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
       "runtime": "draft",
       "startsAt": "2027-03-22T00:00:00+07:00",
-      "endsAt": "2027-04-05T00:00:00+07:00"
+      "endsAt": "2027-04-05T00:00:00+07:00",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "hoc-theo-viec-can-lam",
+        "revision": "r10-weekly-v1",
+        "contentHash": "16967db57ba377dd4124f504a957e43f0e2f6efd3724883188062f3453b54d32",
+        "revisionHash": "16967db57ba377dd4124f504a957e43f0e2f6efd3724883188062f3453b54d32",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-W006-publication-authorization.json",
+          "sha256": "9c116a7867706ace429b7bf5a9fc2bb4c73fa8aabea5edddb7f313b0881b13a6"
+        }
+      }
     },
     {
       "id": "KGNT-W007",
@@ -581,10 +1071,24 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_W2_TECHNICAL_EVIDENCE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
       "runtime": "draft",
       "startsAt": "2027-04-05T00:00:00+07:00",
-      "endsAt": "2027-04-19T00:00:00+07:00"
+      "endsAt": "2027-04-19T00:00:00+07:00",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "mang-dien-thoai-va-su-chu-y",
+        "revision": "r10-weekly-v1",
+        "contentHash": "7edb0c1e6200ee8ade04f5155de11b071340e5606be385cea746074ecae1604a",
+        "revisionHash": "7edb0c1e6200ee8ade04f5155de11b071340e5606be385cea746074ecae1604a",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-W007-publication-authorization.json",
+          "sha256": "c22fe298fa9b56a6f8a0eb8db7b9f729c4edc8c6e8ef0e7739b1bce09958fd97"
+        }
+      }
     },
     {
       "id": "KGNT-W008",
@@ -598,10 +1102,24 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_W2_TECHNICAL_EVIDENCE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
       "runtime": "draft",
       "startsAt": "2027-04-19T00:00:00+07:00",
-      "endsAt": "2027-04-26T00:00:00+07:00"
+      "endsAt": "2027-04-26T00:00:00+07:00",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "truoc-mua-kiem-tra",
+        "revision": "r10-weekly-v1",
+        "contentHash": "852e0f388c05713d3f4925172f30b91af872e135e47d4c477d509a8352e1c548",
+        "revisionHash": "852e0f388c05713d3f4925172f30b91af872e135e47d4c477d509a8352e1c548",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-W008-publication-authorization.json",
+          "sha256": "11ddb7eab685ec77111fc5250fcec1f69f23c791c51d9f515eea64e9fbc2ffaf"
+        }
+      }
     },
     {
       "id": "KGNT-W009",
@@ -615,10 +1133,24 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_W2_TECHNICAL_EVIDENCE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
       "runtime": "draft",
       "startsAt": "2027-04-26T00:00:00+07:00",
-      "endsAt": "2027-05-10T00:00:00+07:00"
+      "endsAt": "2027-05-10T00:00:00+07:00",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "sau-diem-so-minh-di-tiep",
+        "revision": "r10-weekly-v1",
+        "contentHash": "2264129af6002563b417e355d112fd472c0668c771085dc1394b10c07bec17eb",
+        "revisionHash": "2264129af6002563b417e355d112fd472c0668c771085dc1394b10c07bec17eb",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-W009-publication-authorization.json",
+          "sha256": "8b9c9aac16cee50811c2a1ad3ae0f53726cccdb68040b01233b51c931e3f596f"
+        }
+      }
     },
     {
       "id": "KGNT-W010",
@@ -632,10 +1164,30 @@
       "expertReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
       "readerQA": "Q1_W2_TECHNICAL_EVIDENCE_HUMAN_SCOPE_UNMAPPED",
       "learnerReview": "ACTIVITY_REPORTED_SCOPE_UNMAPPED",
-      "publicationAuthorization": "PREPARED_NOT_CONFIRMED",
+      "publicationAuthorization": "VALID_R11_DETACHED_CONDITIONS_PENDING",
       "runtime": "draft",
       "startsAt": "2027-05-10T00:00:00+07:00",
-      "endsAt": "2027-05-17T00:00:00+07:00"
+      "endsAt": "2027-05-17T00:00:00+07:00",
+      "publicationAuthorizationRecord": {
+        "kind": "publicationAuthorization",
+        "subjectId": "tim-hieu-minh-mo-huong-di",
+        "revision": "r10-weekly-v1",
+        "contentHash": "5da946b6cdb573df7e819e1fb2afe56e9ee25b9c3c2e9bc35c8ffa31c3ba7a0e",
+        "revisionHash": "5da946b6cdb573df7e819e1fb2afe56e9ee25b9c3c2e9bc35c8ffa31c3ba7a0e",
+        "decision": "approved",
+        "by": "Chủ dự án Không Gian Nội Tâm",
+        "at": "2026-10-27T15:02:25+07:00",
+        "evidence": {
+          "path": "docs/phase-3/publication-records/r11/KGNT-W010-publication-authorization.json",
+          "sha256": "b94658a5078bd92ad838bf676337c768190cfd21507d3f19326181959b7599cf"
+        }
+      }
     }
-  ]
+  ],
+  "authorization": {
+    "ownerReply": "cho phép tất cả",
+    "receivedAt": "2026-10-27T15:02:25+07:00",
+    "scope": "accepted sample, no deployment, bundle conditional on all genuine evidence",
+    "index": "docs/phase-3/r11/AUTHORIZATIONS.json"
+  }
 }

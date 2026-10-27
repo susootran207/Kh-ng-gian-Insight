@@ -28,4 +28,8 @@ Không gọi các hoạt động này là “chưa thực hiện”. Hiện chư
 
 Một tài liệu gốc có thể mô tả một đợt đánh giá chung. F0 hiện đòi JSON proof có scope riêng trùng từng record: có thể dẫn cùng tài liệu gốc/hash từ nhiều proof theo subject, không dùng nguyên một proof có subject khác hoặc tự suy 29 lần đánh giá. Tài liệu gốc phải nêu tập bài/topic, phiên bản và kết luận tương ứng.
 
-Hồ sơ tiếp nhận không phải proof approved. Dữ kiện cần bổ sung chỉ tập trung tại [MISSING-INFO.md](MISSING-INFO.md); mẫu quyết định xuất bản tại [PUBLICATION-AUTHORIZATION.md](PUBLICATION-AUTHORIZATION.md).
+Hồ sơ tiếp nhận không phải proof approved. Dữ kiện cần bổ sung chỉ tập trung tại [MISSING-INFO.md](MISSING-INFO.md); quyết định xuất bản có điều kiện đã ghi nhận tại [PUBLICATION-AUTHORIZATION.md](PUBLICATION-AUTHORIZATION.md).
+
+## Bổ sung từ phản hồi chủ dự án
+
+Phản hồi “cho phép tất cả” đã được ghi nhận cho mẫu quyền xuất bản có điều kiện (thời điểm nhận 2026-10-27T15:02:25+07:00). Đã tạo 39 publicationAuthorization rời đúng subject/hash. Không dùng lời cho phép để tự điền chi tiết đánh giá hoặc kết luận cho ba hoạt động; các trường chưa biết vẫn null.

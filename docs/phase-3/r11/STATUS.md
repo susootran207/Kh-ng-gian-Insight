@@ -1,6 +1,6 @@
 # R1.1 — trạng thái 29 bài / 10 chuyên đề
 
-E = editorialApproval R1.0 hợp lệ; A = assetRights R1.0 hợp lệ; U = hoạt động thực tế đã được chủ dự án xác nhận chung nhưng chưa ràng buộc tập bài/topic và kết luận. Q = có bằng chứng kỹ thuật Q1, chưa đủ kết luận kiểm thực tế theo từng subject. P = mẫu quyền xuất bản, chưa xác nhận riêng. Record R1.0 đang lưu rời; U không nghĩa là hoạt động chưa diễn ra.
+E = editorialApproval R1.0 hợp lệ; A = assetRights R1.0 hợp lệ; U = hoạt động thực tế đã được chủ dự án xác nhận chung nhưng chưa ràng buộc tập bài/topic và kết luận. Q = có bằng chứng kỹ thuật Q1, chưa đủ kết luận kiểm thực tế theo từng subject. P = publicationAuthorization rời hợp lệ, có điều kiện chỉ tích hợp khi đủ bằng chứng, không bao gồm deploy. Record R1.0 đang lưu rời; U không nghĩa là hoạt động chưa diễn ra.
 
 | ID | Tên | Revision | Editorial | Asset | Expert | ReaderQA | Learner | Publication | Runtime |
 |---|---|---|---|---|---|---|---|---|---|
@@ -45,3 +45,5 @@ E = editorialApproval R1.0 hợp lệ; A = assetRights R1.0 hợp lệ; U = ho�
 | KGNT-W010 | Tìm hiểu mình, mở hướng đi | r10-weekly-v1 | E | N/A | U | Q/U | U | P | draft |
 
 Full contentHash/revisionHash/slug và lịch 2027 ở STATUS.json; không tạo bộ prose mới. Không tự phát topic future trước startsAt, không khóa Library theo tuần.
+
+Tổng 107 record rời: 68 R1.0 giữ nguyên + 39 publicationAuthorization R1.1. Còn ba loại review chưa đủ dữ kiện ràng buộc subject; không dùng quyền xuất bản thay kết luận chuyên môn/kiểm thực tế/thử đọc.

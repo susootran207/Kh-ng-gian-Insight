@@ -4,7 +4,7 @@
   "existingRecordsValidatedAndUnchanged": 68,
   "sourceFilesUnchanged": 203,
   "newF0ReviewRecordsCreated": 0,
-  "newPublicationAuthorizationCreated": 0,
+  "newPublicationAuthorizationCreated": 39,
   "manifest": "PASS unchanged",
   "typecheckBuild": "PASS actual npm run build, exit0",
   "scanner": {
@@ -20,7 +20,7 @@
     "currentWeeklyId": null,
     "canary": "detected"
   },
-  "release": "RELEASE BLOCKED pending scoped human evidence and separate publication decision",
+  "release": "RELEASE BLOCKED pending scoped expertReview, readerQA and learnerReview data; authorization already recorded",
   "artifactPurpose": "boundary verification only; not complete29 release",
   "artifactFileListDigestSHA256": "5b488190639d8f08f753314264d7b1be5e4683e7372482cea43fc8224aca67c1",
   "artifactFiles": [
@@ -172,5 +172,20 @@
   ],
   "q1": "Reused by source/asset hashes; no new human result inferred",
   "CI": "F0–W2 status linked in Draft PR after actual verification",
-  "deployment": "NOT PERFORMED"
+  "deployment": "NOT PERFORMED",
+  "totalDetachedRecordsValidated": 107,
+  "authorization": "Owner reply cho phép tất cả accepts the authorization sample; conditional on complete genuine review evidence; no deployment",
+  "scannerAfterAuthorization": {
+    "files": 29,
+    "withheldArticles": 29,
+    "markerCount": 4375,
+    "sourceView": "public",
+    "publicSourceArticles": 0,
+    "publicLegacyArticles": 0,
+    "publicLegacyTopics": 0,
+    "publicWeeklyTopics": 0,
+    "publicWeeklyArticles": 0,
+    "currentWeeklyId": null,
+    "canary": "detected"
+  }
 }
