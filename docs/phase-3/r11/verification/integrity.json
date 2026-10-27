@@ -3,7 +3,6 @@
   "base": "4d434cc25848f2e3e1f381a7361a1afa1180cf6c",
   "existingRecordsValidated": 68,
   "sourceFilesUnchanged": 203,
-  "newReviewRecordsCreated": 0,
   "newPublicationAuthorizationValidated": 39,
   "publicArticles": 0,
   "publicWeekly": 0,
@@ -1106,5 +1105,6 @@
       "path": "prototype/editorial/weekly.json",
       "sha256": "a6cb50fa370f62ceeaf41319136a5aee3c00e7fd22ce81cc2e4f718620fb99dc"
     }
-  ]
+  ],
+  "newHumanReviewRecordsCreated": 0
 }

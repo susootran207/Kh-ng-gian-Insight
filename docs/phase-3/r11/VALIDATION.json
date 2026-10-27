@@ -3,7 +3,6 @@
   "evidenceStatus": "Real activities reported by owner; scoped findings/time/version not yet provided",
   "existingRecordsValidatedAndUnchanged": 68,
   "sourceFilesUnchanged": 203,
-  "newF0ReviewRecordsCreated": 0,
   "newPublicationAuthorizationCreated": 39,
   "manifest": "PASS unchanged",
   "typecheckBuild": "PASS actual npm run build, exit0",
@@ -187,5 +186,7 @@
     "publicWeeklyArticles": 0,
     "currentWeeklyId": null,
     "canary": "detected"
-  }
+  },
+  "newExpertReaderLearnerRecordsCreated": 0,
+  "newF0RecordsCreated": 39
 }
