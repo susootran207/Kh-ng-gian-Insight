@@ -1,3 +1,8 @@
+import { ScrollCompanion } from './components/ScrollCompanion'
+import { HeroMessage } from './components/HeroMessage'
+import { DepthSurface } from './components/DepthSurface'
+import { GardenIllustration } from './components/GardenIllustration'
+import { useGardenMotion } from './components/GardenMotion'
 import { AcademicNotice, isAcademicShowcase } from './reading/AcademicNotice'
 import { stageLibraryLink } from './reading/stages'
 import { Link } from 'react-router-dom'
@@ -8,19 +13,17 @@ import { GardenAtmosphere } from './components/GardenAtmosphere'
 import { CatGarden } from './components/CatGarden'
 import { LanternGarden } from './components/LanternGarden'
 import { articles } from './reading/content'
-import { quotes, samples as legacySamples, seasons } from './content'
+import { samples as legacySamples, seasons } from './content'
 
 const navigation=[['chuyen-de',isAcademicShowcase?'Lịch minh họa':'Chuyên đề tuần'],['nen-tang','Về khu vườn'],['dong-chay','Dòng chảy'],['bai-viet','Góc đọc']] as const
 function App(){
   const [menu,setMenu]=useState(false)
-  const [motionOff,setMotionOff]=useState(false)
-  const [quote,setQuote]=useState(()=>Math.floor(Math.random()*quotes.length))
+  const {motionOff,toggle}=useGardenMotion()
   const [season,setSeason]=useState(0)
   const [sample,setSample]=useState<string|null>(null)
   const menuButton=useRef<HTMLButtonElement>(null)
   const preview=useRef<HTMLDivElement>(null)
   const sampleTrigger=useRef<HTMLButtonElement|null>(null)
-  useEffect(()=>{document.documentElement.dataset.motion=motionOff?'off':'on';return()=>{delete document.documentElement.dataset.motion}},[motionOff])
   useEffect(()=>{
     const clear=()=>{if(window.innerWidth>=1100)setMenu(false)}
     window.addEventListener('resize',clear)
@@ -35,9 +38,9 @@ function App(){
     requestAnimationFrame(()=>preview.current?.scrollIntoView({behavior:motionOff||matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'nearest'}))
   }
   return <>
-    <GardenAtmosphere motionOff={motionOff}/>
+    <GardenAtmosphere motionOff={motionOff}/><ScrollCompanion/>
     <Link className="skip-link" to="/#noi-dung">Đến nội dung chính</Link>
-    <header className="site-header" id="dau-trang" onKeyDown={e=>{if(e.key==='Escape' && menu){setMenu(false);menuButton.current?.focus()}}}>
+    <header className="site-header home-header" id="dau-trang" onKeyDown={e=>{if(e.key==='Escape' && menu){setMenu(false);menuButton.current?.focus()}}}>
       <div className="header-inner">
         <Link className="brand" to="/#dau-trang" aria-label="Không Gian Nội Tâm — về đầu trang"><LeafMark/><span>Không Gian<br/>Nội Tâm<span className="brand-period">.</span></span></Link>
         <button ref={menuButton} className="menu-button" aria-expanded={menu} aria-controls="main-navigation" onClick={()=>setMenu(value=>!value)}>{menu?'Đóng':'Menu'}<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d={menu?'m6 6 12 12M6 18 18 6':'M4 8h16M4 16h16'}/></svg></button>
@@ -53,35 +56,29 @@ function App(){
           <h1 id="hero-title">Một khoảng vườn<br/>cho riêng bạn.</h1>
           <p className="hero-description">Không gian tâm lý học đường để bạn dừng lại,<br className="desktop-break"/> hiểu mình hơn và lớn lên theo cách của mình.</p>
           <Link className="button primary-button" to="/#chuyen-de">Ghé vào khu vườn <Arrow/></Link>
-          <div className="hero-note"><SmallFlower/><p>Không cần phải ổn mọi lúc.<br/><span>Ở đây, cứ là bạn thôi.</span></p></div>
+          <HeroMessage/>
         </div>
         <CatGarden/>
       </section>
-      <div className="garden-bottom page-width"><span>Một nơi để đọc, để thở, để là mình.</span><button className="motion-button" aria-pressed={motionOff} onClick={()=>setMotionOff(v=>!v)}><span className="motion-icon" aria-hidden="true"/>{motionOff?'Bật chuyển động':'Giảm chuyển động'}</button></div>
-      <div className="page-width"><AcademicNotice/></div>
-      <section className="quote-section page-width" aria-label="Một lời nhắn cho bạn">
-        <span className="quote-mark" aria-hidden="true">“</span>
-        <div className="quote-content"><blockquote aria-live="polite">{quotes[quote]}</blockquote><p>Lời nhắn từ Không Gian Nội Tâm</p></div>
-        <button className="round-button" aria-label="Một lời nhắn khác" onClick={()=>setQuote(i=>(i+1+Math.floor(Math.random()*(quotes.length-1)))%quotes.length)}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true"><path d="M19 8a8 8 0 1 0 1 8M19 3v5h-5"/></svg></button>
-      </section>
+      <div className="garden-bottom page-width"><span>Một nơi để đọc, để thở, để là mình.</span><button className="motion-button" aria-pressed={motionOff} onClick={toggle}><span className="motion-icon" aria-hidden="true"/>{motionOff?'Bật chuyển động':'Giảm chuyển động'}</button></div>
       <WeeklySection/>
       <section id="nen-tang" className="about page-width section-anchor">
-        <div className="about-heading"><LeafMark/><h2>Mỗi người<br/>một mùa nở hoa.</h2></div>
+        <DepthSurface className="about-art" reveal><GardenIllustration index={3}/></DepthSurface><div className="about-heading"><LeafMark/><h2>Mỗi người<br/>một mùa nở hoa.</h2></div>
         <div className="about-copy"><p className="large-prose">Không Gian Nội Tâm bắt đầu từ một điều nhỏ: ai cũng cần một nơi để hiểu những gì đang diễn ra bên trong mình.</p><p>Ở đây, chuyện học hành, bạn bè, gia đình và những ngày khó gọi tên được kể bằng ngôn ngữ gần gũi. Không phán xét. Không bắt bạn phải “tích cực lên”.</p><p>Chúng mình hướng đến nội dung có nguồn, được rà soát cẩn thận và tôn trọng nhịp riêng của mỗi người. {isAcademicShowcase?'Đây là bản trưng bày học thuật phi thương mại; nội dung không mang chứng nhận chuyên môn.':'Những trang đọc hiện tại là bản nháp để xem trước, chưa được chuyên gia duyệt.'}</p><div className="foundation-home-links"><Link className="text-link" to="/#bai-viet">Tìm một trang dành cho bạn <Arrow/></Link><Link className="text-link" to="/nen-tang">Tìm hiểu nền tảng <Arrow/></Link></div></div>
       </section>
       <section id="dong-chay" className="timeline-section section-anchor">
         <div className="page-width"><div className="section-intro"><h2>Một năm học,<br/>nhiều mùa tâm trạng.</h2><p>Có những điều đến theo mùa.<br/>Chọn một chặng để ngồi lại cùng mình.</p></div>
           <ol className="timeline">{seasons.map((item,i)=><li key={item.title}><button aria-expanded={season===i} aria-controls="season-panel" className={season===i?'season-button selected':'season-button'} onClick={()=>setSeason(i)}><span className="timeline-node" aria-hidden="true"><SmallFlower/></span><span>{item.title}</span></button></li>)}</ol>
-          <div className={`season-panel season-${season}`} id="season-panel" role="region" aria-label={seasons[season].title}><div><span className="season-title">{seasons[season].title}</span><h3>{seasons[season].subtitle}</h3></div><div><p>{seasons[season].text}</p><p className="season-note">{seasons[season].note}</p><div className="flow-home-links"><Link className="text-link" to={stageLibraryLink(seasons[season].key)}>Đọc theo chặng này <Arrow/></Link><Link className="text-link" to="/dong-chay">Khám phá Dòng chảy <Arrow/></Link></div></div></div>
+          <div className={`season-panel season-${season}`} id="season-panel" role="region" aria-label={seasons[season].title}><DepthSurface key={season} className="season-art" reveal><GardenIllustration index={[0,4,7,8][season]}/></DepthSurface><div><span className="season-title">{seasons[season].title}</span><h3>{seasons[season].subtitle}</h3></div><div><p>{seasons[season].text}</p><p className="season-note">{seasons[season].note}</p><div className="flow-home-links"><Link className="text-link" to={stageLibraryLink(seasons[season].key)}>Đọc theo chặng này <Arrow/></Link><Link className="text-link" to="/dong-chay">Khám phá Dòng chảy <Arrow/></Link></div></div></div>
         </div>
       </section>
       <section id="bai-viet" className="reading page-width section-anchor"><div className="section-intro"><h2>Những trang nhỏ,<br/>để hiểu mình hơn.</h2><p>{articles.some(a=>a.document)?<>Một khoảng đọc chậm.<br/>Chọn một bài trong thư viện.</>:import.meta.env.DEV?<>Ba bản nháp minh họa.<br/>Bạn có thể mở và đọc thử ngay tại đây.</>:<>Một khoảng đọc chậm.<br/>Các trang mới sẽ đến khi được duyệt.</>}</p></div>
-        <Link className="text-link" to="/thu-vien">Khám phá thư viện bài viết <Arrow/></Link>{!articles.length&&<p>Các bài viết đang chờ duyệt xuất bản.</p>}<div className="reading-layout">{samples.map((item,i)=><article key={item.id} className={`reading-item reading-${item.theme}`}><div className={`article-art art-${i}`} aria-hidden="true">{i===0?<><div className="art-sun"/><div className="art-notebook"><i/><i/><i/></div><div className="art-pencil"/></>:i===1?<><div className="art-hill"/><div className="art-flower"><SmallFlower/></div><div className="art-flower second"><SmallFlower/></div></>:<><div className="art-orbit"/><div className="art-stem"><LeafMark/></div><div className="art-sun"/></>}</div><div className="article-copy"><span className="draft-label">{isAcademicShowcase?'Bài đọc học thuật':articles.find(a=>a.slug===item.id)?.status==='published'?'Đã xuất bản':'Bản nháp'}</span><h3>{item.title}</h3><p>{item.description}</p><div className="article-bottom"><span>{item.category}</span><button className="article-open" aria-label={`Đọc thử: ${item.title}`} aria-expanded={sample===item.id} aria-controls="sample-preview" onClick={e=>openSample(item.id,e.currentTarget)}><Arrow diagonal/></button></div></div></article>)}</div>
+        <Link className="text-link" to="/thu-vien">Khám phá thư viện bài viết <Arrow/></Link>{!articles.length&&<p>Các bài viết đang chờ duyệt xuất bản.</p>}<div className="reading-layout">{samples.map((item,i)=><article key={item.id} className={`reading-item reading-${item.theme}`}><DepthSurface className={`article-art art-${i}`}><GardenIllustration index={articles[i]?.illustration??i}/></DepthSurface><div className="article-copy"><span className="draft-label">{isAcademicShowcase?'Bài đọc học thuật':articles.find(a=>a.slug===item.id)?.status==='published'?'Đã xuất bản':'Bản nháp'}</span><h3>{item.title}</h3><p>{item.description}</p><div className="article-bottom"><span>{item.category}</span><button className="article-open" aria-label={`Đọc thử: ${item.title}`} aria-expanded={sample===item.id} aria-controls="sample-preview" onClick={e=>openSample(item.id,e.currentTarget)}><Arrow diagonal/></button></div></div></article>)}</div>
         {(import.meta.env.DEV||articles.some(a=>a.document))&&article&&<div id="sample-preview" ref={preview} className="sample-preview" tabIndex={-1}><div className="sample-toolbar"><span className="draft-label">{isAcademicShowcase?'Trích giới thiệu · Bài đọc học thuật':articles.find(a=>a.slug===article.id)?.status==='published'?'Trích giới thiệu · Bài đã xuất bản':'Bản nháp minh họa · Chưa duyệt'}</span><button className="text-button" onClick={()=>{setSample(null);sampleTrigger.current?.focus({preventScroll:true})}}>Đóng bản đọc <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.4"><path d="m5 5 10 10M5 15 15 5"/></svg></button></div><h3>{article.title}</h3><Link className="text-link" to={`/bai-viet/${articles.find(a=>a.slug===article.id)?.slug??(import.meta.env.DEV?({'thi-cu':'khi-mua-thi-den-gan','ban-be':'o-giua-lop','ban-than':'dung-ve-phia-minh'} as Record<string,string>)[article.id]:'')}`}>Đọc trang đầy đủ <Arrow/></Link>{article.paragraphs.map(p=><p key={p}>{p}</p>)}{!articles.find(a=>a.slug===article.id)?.document&&<p className="sample-notice">Nội dung mẫu để duyệt giao diện. Chưa kiểm chứng nguồn, chưa được chuyên gia rà soát và chưa phải bài viết xuất bản.</p>}</div>}
       </section>
       <LanternGarden/>
     </main>
-    <footer className="site-footer page-width"><div className="footer-top"><Link className="brand" to="/#dau-trang"><LeafMark/><span>Không Gian<br/>Nội Tâm.</span></Link><p>Mong bạn tìm được một khoảng bình yên,<br/>và một chút hiểu mình, trước khi rời vườn.</p><Link className="back-top text-link" to="/#dau-trang">Về đầu trang <Arrow diagonal/></Link></div><div className="footer-bottom"><p>{articles.some(a=>a.document)?'Sản phẩm học tập môn Tham vấn học đường · Phi thương mại.':'Prototype trang chủ · Nội dung minh họa, chưa duyệt.'}</p><details className="privacy-details"><summary>Quyền riêng tư</summary><p>Không có tài khoản, quảng cáo hay công cụ theo dõi. Nội dung bạn viết chỉ có trong bộ nhớ của phiên, không được gửi đến máy chủ hoặc lưu vào bộ nhớ bền vững. Thả đèn, xóa lời viết, tải lại hoặc rời trang chủ sang trang khác sẽ làm trống ô nhập; quay lại không khôi phục lời. Chuyển mục ngay trên trang chủ giữ lời đang gõ. Không có người nhận, đọc hoặc phản hồi lời viết. Việc này không bảo đảm xóa vật lý mọi bản sao trong bộ nhớ trình duyệt.</p></details></div><p className="support-note">Thông tin trên trang không thay thế chẩn đoán hoặc điều trị. Nếu bạn không an toàn, hãy tìm ngay một người lớn tin cậy ở gần hoặc dịch vụ cấp cứu tại nơi bạn sống.</p></footer>
+    <footer className="site-footer page-width"><div className="footer-top"><Link className="brand" to="/#dau-trang"><LeafMark/><span>Không Gian<br/>Nội Tâm.</span></Link><p>Mong bạn tìm được một khoảng bình yên,<br/>và một chút hiểu mình, trước khi rời vườn.</p><Link className="back-top text-link" to="/#dau-trang">Về đầu trang <Arrow diagonal/></Link></div><div className="footer-bottom"><p>{articles.some(a=>a.document)?'Sản phẩm học tập môn Tham vấn học đường · Phi thương mại.':'Prototype trang chủ · Nội dung minh họa, chưa duyệt.'}</p><details className="privacy-details"><summary>Quyền riêng tư</summary><p>Không có tài khoản, quảng cáo hay công cụ theo dõi. Nội dung bạn viết chỉ có trong bộ nhớ của phiên, không được gửi đến máy chủ hoặc lưu vào bộ nhớ bền vững. Thả đèn, xóa lời viết, tải lại hoặc rời trang chủ sang trang khác sẽ làm trống ô nhập; quay lại không khôi phục lời. Chuyển mục ngay trên trang chủ giữ lời đang gõ. Không có người nhận, đọc hoặc phản hồi lời viết. Việc này không bảo đảm xóa vật lý mọi bản sao trong bộ nhớ trình duyệt.</p></details></div><p className="support-note">Thông tin trên trang không thay thế chẩn đoán hoặc điều trị. Nếu bạn không an toàn, hãy tìm ngay một người lớn tin cậy ở gần hoặc dịch vụ cấp cứu tại nơi bạn sống.</p><AcademicNotice/></footer>
   </>
 }
 export default App

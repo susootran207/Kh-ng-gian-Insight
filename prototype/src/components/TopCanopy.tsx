@@ -38,10 +38,12 @@ export function TopCanopy() {
     const menu=document.querySelector('.navigation')
     const mutation=new MutationObserver(request)
     if(menu)mutation.observe(menu,{attributes:true,attributeFilter:['class']})
+    const scrollRequest=()=>{if(scrollY<240)request()}
+    window.addEventListener('scroll',scrollRequest,{passive:true})
     window.addEventListener('resize',request,{passive:true})
     document.fonts.ready.then(()=>{if(!disposed)request()})
     measure()
-    return()=>{disposed=true;cancelAnimationFrame(frame);resize.disconnect();mutation.disconnect();window.removeEventListener('resize',request)}
+    return()=>{disposed=true;cancelAnimationFrame(frame);resize.disconnect();mutation.disconnect();window.removeEventListener('resize',request);window.removeEventListener('scroll',scrollRequest)}
   },[])
 
   const renderSpray=(spray:BotanicalSpray,index:number,near=false)=>{
@@ -69,7 +71,7 @@ export function TopCanopy() {
         <path d="M0 0C-8-13-21-14-25-6-18 3-8 5 0 0M1 0C11-11 23-12 28-3 18 6 9 5 1 0" fill={i%3?'#a7b390':'#bdc3a8'}/><path d="m-20-5 21 5 21-2" stroke="#829574" strokeWidth=".6"/>
       </g>)}
     </svg>
-    <div className="canopy-layer trellis-blooms" data-depth="main">{composition.main.map((spray,i)=>renderSpray(spray,i))}</div>
+    <svg className="canopy-leaf-breath" viewBox={`0 0 ${width} 170`} aria-hidden="true">{composition.foliage.filter((_,i)=>i%2===0).map((x,i)=><g key={x} style={{transformOrigin:`${width*x/100}px 18px`,animationDelay:`${-i*2.1}s`}}><path d={`M${width*x/100} 18q-18 13-16 31 20-3 16-31m2 0q25 6 27 24-23 2-27-24`} fill="#a7b390" opacity=".42"/></g>)}</svg><div className="canopy-layer trellis-blooms" data-depth="main">{composition.main.map((spray,i)=>renderSpray(spray,i))}</div>
     <div className="canopy-layer trellis-near" data-depth="front">{composition.front.map((spray,i)=>renderSpray(spray,i,true))}</div>
   </div>
 }

@@ -1,3 +1,5 @@
+import { GardenIllustration } from '../../components/GardenIllustration'
+import { ReadingProgress } from './ReadingProgress'
 import { Fragment, useEffect, useRef, useState, type ReactNode } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Breadcrumb } from '../ReadingShell'
@@ -38,8 +40,9 @@ function FigureViewer({ figure, onDismiss }: { figure: FigureView; onDismiss(): 
     <p>{plainText(figure.description)}</p>
   </dialog>
 }
-export function ArticleReader({ document: doc, title, description, publicationLabel }: { document: ReaderDocument; title: string; description?: string; publicationLabel?: string }) {
-  const location = useLocation(), [figure, setFigure] = useState<FigureView | null>(null)
+export function ArticleReader({ document: doc, title, description, publicationLabel, metadata }: { document: ReaderDocument; title: string; description?: string; publicationLabel?: string;metadata?:{topic:string;season:string;readingMinutes:number;illustration?:number} }) {
+  const location = useLocation(), [figure, setFigure] = useState<FigureView | null>(null),[active,setActive]=useState(doc.toc[0]?.id??''),[tocOpen,setTocOpen]=useState(false)
+  useEffect(()=>{const targets=doc.toc.filter(t=>t.depth===2).map(t=>document.getElementById(t.id)).filter((e):e is HTMLElement=>e!==null);const observer=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting)setActive(entry.target.id)},{rootMargin:'-8% 0px -72% 0px',threshold:0});targets.forEach(el=>observer.observe(el));return()=>observer.disconnect()},[doc])
   const anchors = [...doc.toc.map(item => item.id), ...(doc.localLinks ?? []).map(l => l.target.slice(1))]
   const back = typeof location.state?.from === 'string' && /^\/thu-vien(?:\?|$)/.test(location.state.from) ? location.state.from : '/thu-vien'
   const index = new Map<string, ReaderNode>()
@@ -53,7 +56,7 @@ export function ArticleReader({ document: doc, title, description, publicationLa
     else tocGroups.push({ parent: item, children: [] })
   }
   function tocLink(item: ReaderDocument['toc'][number]) {
-    return <Link to={{ pathname: location.pathname, search: location.search, hash: '#' + item.id }} state={location.state}>{item.title}</Link>
+    return <Link to={{ pathname: location.pathname, search: location.search, hash: '#' + item.id }} state={location.state} aria-current={active===item.id?'location':undefined} onClick={()=>{setActive(item.id);setTocOpen(false)}}>{item.title}</Link>
   }
   function render(node: ReaderNode, context: { header?: boolean; align?: ReaderNode['align']; column?: number } = {}): ReactNode {
     const attrs = { 'data-source-id': node.id, 'data-source-start': node.range.start, 'data-source-end': node.range.end }
@@ -97,13 +100,18 @@ export function ArticleReader({ document: doc, title, description, publicationLa
     }
   }
   if (doc.format !== 'gfm-mdast-v1') throw new Error('Reader: unsupported document format')
+  const chapters:{key:string;heading?:string;nodes:ReaderNode[]}[]=[]
+  for(const node of doc.root.children?.filter(node=>!grouped.has(node.id)&&node.id!==doc.titleNodeId)??[]){
+    if(node.type==='heading'&&node.depth===2)chapters.push({key:node.id,heading:node.anchor,nodes:[node]})
+    else {if(!chapters.length)chapters.push({key:'opening',nodes:[]});chapters.at(-1)!.nodes.push(node)}
+  }
   const titleNode = doc.titleNodeId ? index.get(doc.titleNodeId) : undefined
   const rootAttrs = { 'data-source-id': doc.root.id, 'data-source-start': doc.root.range.start, 'data-source-end': doc.root.range.end }
   return <article className="markdown-reader" {...(titleNode ? rootAttrs : {})}>
-    <Breadcrumb title={title} />
-    <header className="article-title"><h1 {...(titleNode ? { 'data-source-id': titleNode.id, 'data-source-start': titleNode.range.start, 'data-source-end': titleNode.range.end } : {})}>{titleNode ? titleNode.children?.map(child => <Fragment key={child.id}>{render(child)}</Fragment>) : title}</h1>{description && <p className="article-deck">{description}</p>}{publicationLabel&&<p className="article-metadata">{publicationLabel}</p>}</header>
-    <div className="reader-layout"><nav className="table-of-contents" aria-label="Mục lục"><h2>Trong trang này</h2><ol>{tocGroups.map(({ parent, children }) => <li key={parent.id}>{tocLink(parent)}{children.length > 0 && <ol>{children.map(item => <li key={item.id}>{tocLink(item)}</li>)}</ol>}</li>)}</ol></nav>
-      <div className="article-prose" {...(!titleNode ? rootAttrs : {})}>{doc.root.children?.filter(node => !grouped.has(node.id) && node.id !== doc.titleNodeId).map(node => <Fragment key={node.id}>{render(node)}</Fragment>)}{doc.localLinks?.some(l=>l.target==='#publication-information')&&<aside id="publication-information" tabIndex={-1} className="editorial-note"><h2>Thông tin về hồ sơ bài viết</h2><p>Các nhãn liên kết hồ sơ trong nội dung gốc được giữ để đối chiếu. Hồ sơ biên soạn nội bộ không được cung cấp trên website đọc bài.</p></aside>}<Link className="text-link" to={back}>Quay lại thư viện <Arrow /></Link></div>
+    <ReadingProgress/><Breadcrumb title={title} />
+    <header className="article-title reader-editorial-hero">{metadata&&<div className="reader-cover"><GardenIllustration index={metadata.illustration??0} eager/><div className="reader-cover-meta"><span>{metadata.topic}</span><span>{metadata.readingMinutes} phút đọc · {metadata.season}</span></div></div>}<div className="reader-heading"><h1 {...(titleNode ? { 'data-source-id': titleNode.id, 'data-source-start': titleNode.range.start, 'data-source-end': titleNode.range.end } : {})}>{titleNode ? titleNode.children?.map(child => <Fragment key={child.id}>{render(child)}</Fragment>) : title}</h1>{description && <p className="article-deck">{description}</p>}{!description&&metadata&&<p className="article-deck">{plainText(doc.root.children?.find(n=>n.type==='paragraph')??doc.root)}</p>}{publicationLabel&&<p className="article-metadata">{publicationLabel}</p>}</div></header>
+    <div className="reader-layout"><nav className="table-of-contents reader-toc" aria-label="Mục lục" data-open={tocOpen}><h2>Trong trang này</h2><button className="reader-toc-toggle" aria-expanded={tocOpen} aria-controls="reader-chapter-links" onClick={()=>setTocOpen(o=>!o)}>Mục lục bài đọc <span aria-hidden="true">{tocOpen?'−':'+'}</span></button><ol id="reader-chapter-links">{tocGroups.map(({ parent, children }) => <li key={parent.id}>{tocLink(parent)}{children.length > 0 && <ol>{children.map(item => <li key={item.id}>{tocLink(item)}</li>)}</ol>}</li>)}</ol></nav>
+      <div className="article-prose" {...(!titleNode ? rootAttrs : {})}>{chapters.map(chapter=><section className="reader-chapter" key={chapter.key} aria-labelledby={chapter.heading}>{chapter.nodes.map(node=><Fragment key={node.id}>{render(node)}</Fragment>)}</section>)}{doc.localLinks?.some(l=>l.target==='#publication-information')&&<aside id="publication-information" tabIndex={-1} className="editorial-note"><h2>Thông tin về hồ sơ bài viết</h2><p>Các nhãn liên kết hồ sơ trong nội dung gốc được giữ để đối chiếu. Hồ sơ biên soạn nội bộ không được cung cấp trên website đọc bài.</p></aside>}<Link className="text-link" to={back}>Quay lại thư viện <Arrow /></Link></div>
     </div>
     {figure && <FigureViewer key={figure.image.id} figure={figure} onDismiss={() => setFigure(null)} />}
   </article>

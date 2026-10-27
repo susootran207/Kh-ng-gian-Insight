@@ -1,19 +1,15 @@
-import { useState } from 'react'
-import '../styles/weekly.css'
 import { Link } from 'react-router-dom'
 import { Arrow } from '../components/Icons'
+import { DepthSurface } from '../components/DepthSurface'
+import { GardenIllustration } from '../components/GardenIllustration'
+import { topicArt } from './articleArt'
+import '../styles/weekly.css'
 import { currentWeekly, weeklyView, weeklyPeriod } from './weekly'
-
-export function WeeklySection() {
-  const [open,setOpen]=useState(false), topic=currentWeekly
-  return <section id="chuyen-de" className="weekly section-anchor">
-    <div className="page-width weekly-grid">
-      <div className="weekly-art" aria-hidden="true"><div className="window-arch"><div className="window-moon"/><div className="window-hill"/><div className="window-hill second"/><div className="window-mullion"/></div><div className="book book-one"/><div className="book book-two"/><div className="teacup"><span/></div><div className="table-line"/></div>
-      <div className="weekly-copy">
-        <h2>{weeklyView.showcase?'Lịch chuyên đề minh họa':'Chuyên đề tuần này'}</h2>{weeklyView.showcase&&<p>Nội dung mô phỏng của bài tiểu luận, không phải lịch triển khai tại một trường học.</p>}
-        {topic ? <><h3>{topic.title}</h3><p>{topic.description}</p><p>{weeklyPeriod(topic)}</p><div className="weekly-meta"><span>{weeklyView.showcase?'Chuyên đề minh họa':weeklyView.reason === 'fallback' ? 'Đọc lại chuyên đề gần nhất' : 'Chuyên đề đang mở'}{weeklyView.preview?' · Bản nháp nội bộ':''}</span></div><button className="text-link" aria-expanded={open} aria-controls="weekly-excerpt" onClick={()=>setOpen(v=>!v)}>{open?'Khép lại chuyên đề':'Mở một trang đọc'}<Arrow/></button><Link className="text-link home-reading-route" to={'/chuyen-de/'+topic.slug}>Xem chuyên đề đầy đủ <Arrow/></Link></> : <><h3>Một trang mới,<br/>đang được vun trồng.</h3><p>Chuyên đề sẽ mở khi nội dung được duyệt xuất bản.</p><Link className="text-link" to="/chuyen-de">Ghé trang chuyên đề <Arrow/></Link></>}
-      </div>
-      {topic && open && <div className="weekly-excerpt" id="weekly-excerpt"><h3>{topic.title}</h3><p>{topic.description}</p><ol>{topic.articleSlugs.map(slug=>{const a=weeklyView.articles.find(a=>a.slug===slug)!;return <li key={slug}><Link to={'/bai-viet/'+slug} state={{from:'/thu-vien?chuyen-de='+topic.slug}}>{a.title}</Link></li>})}</ol></div>}
-    </div>
-  </section>
+export function WeeklySection(){
+ const topic=currentWeekly,others=weeklyView.topics.filter(t=>t.id!==topic?.id).slice(0,3)
+ return <section id="chuyen-de" className="weekly section-anchor editorial-weekly"><div className="page-width">
+  <div className="section-intro"><h2>{weeklyView.showcase?'Lịch chuyên đề minh họa':'Chuyên đề tuần này'}</h2><p>{weeklyView.showcase?'Những lối nhỏ để khám phá nhịp học đường. Lịch mô phỏng của bài tiểu luận, không phải lịch triển khai tại một trường học.':'Một lối đọc chậm qua những câu chuyện gần với nhịp học đường.'}</p></div>
+  {topic?<div className="weekly-editorial-grid"><DepthSurface className="weekly-feature" reveal><Link className="feature-link" to={'/chuyen-de/'+topic.slug}><GardenIllustration index={topicArt(topic.id)}/><div className="weekly-copy"><span className="weekly-feature-label">{weeklyView.showcase?'Chuyên đề minh họa':'Một lối đọc gợi ý'}</span><h3>{topic.title}</h3><p>{topic.description}</p><p className="weekly-period">{weeklyPeriod(topic)}</p><span className="text-link">Bước vào chuyên đề <Arrow/></span></div></Link></DepthSurface><div className="weekly-side-stories">{others.map(t=><DepthSurface key={t.id} className="weekly-story" reveal><Link to={'/chuyen-de/'+t.slug}><GardenIllustration index={topicArt(t.id)}/><div><h3>{t.title}</h3><p>{t.description}</p><span className="text-link">Khám phá <Arrow/></span></div></Link></DepthSurface>)}</div></div>:<div className="weekly-grid"><DepthSurface className="weekly-art" reveal><GardenIllustration index={0}/></DepthSurface><div className="weekly-copy"><h3>Một trang mới,<br/>đang được vun trồng.</h3><p>Chuyên đề sẽ mở khi nội dung được duyệt xuất bản.</p></div></div>}
+  <Link className="text-link weekly-all" to="/chuyen-de">{weeklyView.showcase?'Xem đủ 10 chuyên đề minh họa':'Ghé trang chuyên đề'} <Arrow/></Link>
+ </div></section>
 }

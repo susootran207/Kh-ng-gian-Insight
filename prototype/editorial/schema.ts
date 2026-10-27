@@ -1,6 +1,7 @@
 import type { EditorialStatus, LegacyPublication } from './source-contract'
 export type Status = EditorialStatus
 export interface Article {
+  illustration?: number
   id?: string
   revision?: string
   collection?: string

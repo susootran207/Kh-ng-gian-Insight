@@ -23,7 +23,7 @@ Scanner showcase kiểm artifact đủ 29/29/10, đúng bytes SVG, không source
 npm run test:academic:browser
 ```
 
-Dùng Chromium tại `CHROMIUM_PATH` hoặc `/usr/bin/chromium`; server chỉ phục vụ `dist-academic/` trên loopback, không phục vụ repository và không có SPA fallback. Kiểm tất cả 29 Reader, 10 chuyên đề và các route chính tại 320/390/768/1440px; đối chiếu node AST/DOM, 25 bảng, hình, anchor, tải font/JS/CSS/SVG, search/filter, Back/Forward/reload, Dòng chảy, hình phóng lớn và quyền riêng tư. Đây là kiểm Chromium headless với viewport mô phỏng; không phải kiểm thiết bị thật, screen reader hoặc review chuyên môn.
+Dùng Chromium tại `CHROMIUM_PATH` hoặc `/usr/bin/chromium`; server chỉ phục vụ `dist-academic/` trên loopback, không phục vụ repository và không có SPA fallback. Kiểm tất cả 29 Reader, 10 chuyên đề và các route chính tại 320/390/768/1024/1440px; đối chiếu node AST/DOM, 25 bảng, hình, anchor, tải font/JS/CSS/SVG, search/filter, Back/Forward/reload, Dòng chảy, hình phóng lớn và quyền riêng tư. Đây là kiểm Chromium headless với viewport mô phỏng; không phải kiểm thiết bị thật, screen reader hoặc review chuyên môn.
 
 ## Cloudflare Pages Direct Upload
 
@@ -33,3 +33,6 @@ Dùng Chromium tại `CHROMIUM_PATH` hoặc `/usr/bin/chromium`; server chỉ ph
 4. **Deploy site**, mở URL `https://<tên-dự-án>.pages.dev`, rồi vào `/#/thu-vien` để kiểm 29 bài và `/#/chuyen-de` để kiểm 10 chuyên đề.
 
 Artifact dùng HashRouter và asset tương đối, không cần rewrite, build trên Cloudflare hoặc token trong chat. Giữ `noindex, nofollow`; URL vẫn có thể chia sẻ. Không có dữ liệu tài khoản hay lời viết Góc tâm tình được lưu/gửi đi. Không dùng repository công khai làm nguồn deploy thay thế.
+
+
+Đợt nâng cấp Interactive Editorial Garden và cách kiểm hiệu ứng thực: [INTERACTIVE_GARDEN.md](INTERACTIVE_GARDEN.md). Bộ 10 minh họa editorial mới được gói cục bộ, tách riêng khỏi 29 SVG học thuật nguyên bản.
