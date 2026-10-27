@@ -230,13 +230,13 @@ export function validateSourceInventory(manifest: SourceManifest, root: string) 
   const directories = readdirSync(resolve(root, 'docs/phase-3/drafts'), { withFileTypes: true })
   requireThat(directories.every(d => d.isDirectory() && manifest.articles.some(a => a.id === 'KGNT-' + d.name)), 'unregistered draft directory')
 }
-export function loadManifest(root: string): SourceManifest {
+export function loadManifest(root: string, now = Date.now()): SourceManifest {
   const data: unknown = JSON.parse(readFileSync(safeFile(root, 'prototype/editorial/source-manifest.json'), 'utf8'))
-  validateManifest(data, root); validateSourceInventory(data, root)
+  validateManifest(data, root, now); validateSourceInventory(data, root)
   return data
 }
-export function selectSourceView(manifest: SourceManifest, root: string, target: { kind: 'preview'; host: string } | { kind: 'public' }): PreviewView | PublicView {
-  validateManifest(manifest, root)
+export function selectSourceView(manifest: SourceManifest, root: string, target: { kind: 'preview'; host: string } | { kind: 'public' }, now = Date.now()): PreviewView | PublicView {
+  validateManifest(manifest, root, now)
   if (target.kind === 'preview') {
     requireThat(target.host === '127.0.0.1', 'preview requires literal loopback 127.0.0.1')
     return { kind: 'preview', host: '127.0.0.1', articles: structuredClone(manifest.articles) }

@@ -4,3 +4,8 @@
 @media (max-width: 600px) {
   .weekly-copy > button + .home-reading-route { margin-inline-start: 0; display: flex; width: fit-content; }
 }
+
+/* W2 local preview controls and schedule metadata only. */
+.w2-preview-controls label { display: grid; gap: 8px; min-width: 0; }
+.w2-preview-controls select { max-width: 100%; min-width: 0; min-height: 44px; font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--sage-middle); padding: 10px; }
+.weekly-snapshot { max-width: 68ch; margin-block: 24px; }

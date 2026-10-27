@@ -1,0 +1,66 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:w2:browser
+> playwright test -c playwright.w2.config.ts
+
+[WebServer] (node:45897) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:45919) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:45952) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/weekly-editorial.spec.ts:7:39 › W2 current/past/upcoming and shared29 Library 320 (9.2s)
+  ✓  2 tests/weekly-editorial.spec.ts:7:39 › W2 current/past/upcoming and shared29 Library 390 (6.7s)
+  ✓  3 tests/weekly-editorial.spec.ts:7:39 › W2 current/past/upcoming and shared29 Library 768 (8.4s)
+  ✓  4 tests/weekly-editorial.spec.ts:7:39 › W2 current/past/upcoming and shared29 Library 1440 (8.4s)
+  ✘  5 tests/weekly-editorial.spec.ts:29:1 › W2 switch all10 weeks, before/after, rollback, future detail and malformed clock (11.7s)
+(node:46514) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  6 tests/weekly-editorial.spec.ts:40:1 › W2 loopback/no-store/raw registry and source boundaries (80ms)
+
+
+  1) tests/weekly-editorial.spec.ts:29:1 › W2 switch all10 weeks, before/after, rollback, future detail and malformed clock
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator: locator('.weekly-copy h3')
+    Expected: "Gọi tên điều đang đến"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveText" locator('.weekly-copy h3') with timeout 5000ms
+      - waiting for locator('.weekly-copy h3')
+        - waiting for navigation to finish...
+        - navigated to "http://127.0.0.1:4198/?w2-at=2027-01-25T00%3A00%3A00%2B07%3A00#/thu-vien"
+
+
+      29 | test('W2 switch all10 weeks, before/after, rollback, future detail and malformed clock',async({page})=>{
+      30 |  await page.goto('/#/');const control=page.getByRole('combobox',{name:'Thử thời điểm theo giờ Việt Nam'})
+    > 31 |  for(const t of plan){await control.selectOption(t.startsAt);await expect(page.locator('.weekly-copy h3')).toHaveText(t.title);await page.goto(at(t.startsAt,'/thu-vien'));await expect(page.locator('.library-entry')).toHaveCount(29)}
+         |                                                                                                            ^
+      32 |  await control.selectOption(plan.at(-1)!.endsAt);await page.goto(at(plan.at(-1)!.endsAt));await expect(page.locator('.weekly-meta')).toContainText('Đọc lại chuyên đề gần nhất')
+      33 |  const before='2027-01-10T23:59:59+07:00';await control.selectOption(before);await expect(page.locator('.weekly-copy')).toContainText('đang được vun trồng')
+      34 |  await page.goto(at(before,'/chuyen-de'));await expect(page.locator('#weekly-upcoming')).toBeVisible();await expect(page.locator('.topic-spread')).toHaveCount(10)
+        at /workspace/work/w2/repo/prototype/tests/weekly-editorial.spec.ts:31:108
+
+    Error Context: test-results-w2/weekly-editorial-W2-switch-d6e28--detail-and-malformed-clock/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-w2/weekly-editorial-W2-switch-d6e28--detail-and-malformed-clock/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results-w2/weekly-editorial-W2-switch-d6e28--detail-and-malformed-clock/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/weekly-editorial.spec.ts:29:1 › W2 switch all10 weeks, before/after, rollback, future detail and malformed clock
+  5 passed (51.3s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

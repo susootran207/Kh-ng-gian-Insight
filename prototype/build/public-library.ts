@@ -9,8 +9,8 @@ import { selectContent } from './select-content.ts'
 export function publicAssetUrl(_id: string, hash: string, key: string) {
   return '/assets/articles/' + hash + '/' + key
 }
-export function createPublicLibrary(root: string, legacy: Catalogue, manifest: SourceManifest = loadManifest(root)) {
-  const view = selectSourceView(manifest, root, { kind: 'public' }) as PublicView
+export function createPublicLibrary(root: string, legacy: Catalogue, manifest: SourceManifest = loadManifest(root), now = Date.now()) {
+  const view = selectSourceView(manifest, root, { kind: 'public' }, now) as PublicView
   const descriptors = new Map(view.articles.map(a => [a.id, a]))
   const selected = manifest.articles.filter(a => descriptors.has(a.id))
   const compiled = compileSourceArticles(root, selected, publicAssetUrl)
@@ -29,7 +29,7 @@ export function createPublicLibrary(root: string, legacy: Catalogue, manifest: S
   })
   // A legacy sample with the same slug never substitutes for a withheld ARTICLE.
   const reserved = new Set(manifest.articles.map(a => a.slug))
-  const old = selectContent(legacy, false, root)
+  const old = selectContent(legacy, false, root, now)
   const catalogue: Catalogue = { articles:[...articles,...old.articles.filter(a => !reserved.has(a.slug))], topics:[] }
   const assets = selected.flatMap(a => a.assets.map(asset => ({url:publicAssetUrl(a.id,asset.sha256,basename(asset.path)),bytes:readReference(root,asset)})))
   return { catalogue, assets }

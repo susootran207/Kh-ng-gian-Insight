@@ -1,0 +1,1 @@
+{"extends":"./tsconfig.p2.json","include":["src","build","vite*.config.ts","weekly-preview","tests/weekly-editorial.test.mts","tests/weekly-editorial.spec.ts","playwright.w2.config.ts"]}

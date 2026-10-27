@@ -12,6 +12,8 @@ export interface WeeklyTopicView {
   startsAt: string; endsAt: string; articleSlugs: string[]
 }
 export interface WeeklyView {
+  preview?: true
+  upcoming?: WeeklyTopicView[]
   selectedAt: string
   reason: 'scheduled' | 'fallback' | 'empty'
   currentId: string | null
