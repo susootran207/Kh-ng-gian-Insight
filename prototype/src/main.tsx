@@ -16,3 +16,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><
 import './styles/atmosphere.css'
 
 import './styles/editorial-garden.css'
+
+import './styles/living-garden.css'

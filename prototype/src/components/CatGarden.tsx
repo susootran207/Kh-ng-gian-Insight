@@ -1,3 +1,4 @@
+import { FlowerGust } from './FlowerGust'
 import { useGardenMotion } from './GardenMotion'
 import { useEffect, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react'
 import { MotionRegion } from './MotionRegion'
@@ -104,7 +105,7 @@ export function CatGarden() {
   return <div className="garden-wrap">
     <MotionRegion className="garden-art">
       <div className="botanical-art" role="img" aria-label="Giàn tử đằng tím trên lối vườn ngập nắng"/>
-      <Wisteria/>
+      <Wisteria/><FlowerGust/>
       <div ref={boundary} className="cat-boundary" aria-label="Khoảng vườn của Mây">
         <button ref={catButton} className="cat" data-action={action} data-dragging={dragging} data-keyboard={moving} aria-label="Mây, chú mèo trong vườn. Chạm để đổi biểu cảm" aria-describedby="cat-help" style={{transform:`translate(${point.x}px, ${point.y}px)`}} onPointerDown={down} onPointerMove={move} onPointerUp={end} onPointerCancel={end} onLostPointerCapture={()=>{gesture.current=null;setDragging(false)}} onClick={greet} onKeyDown={key}>
           <CatArt expression={expressions[expression]} dragging={dragging}/>

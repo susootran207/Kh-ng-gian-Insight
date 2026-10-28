@@ -25,7 +25,7 @@ test('Garden: real movement, pointer depth, sticky navigation, flower, companion
  await page.evaluate(()=>window.scrollTo(0,1900));await expect(page.locator('.floating-may')).toHaveAttribute('data-visible','true',{timeout:4000})
  const companion=page.getByRole('button',{name:'Chào Mây, người bạn đồng hành'});const cbox=(await companion.boundingBox())!
  const overlaps=await page.evaluate(({x,y,width,height})=>Array.from(document.querySelectorAll('h1,h2,h3,p,a,input,textarea,label,summary')).filter(el=>!el.closest('.floating-may')).some(el=>{const r=el.getBoundingClientRect();return r.width>0&&r.height>0&&x<r.right&&x+width>r.left&&y<r.bottom&&y+height>r.top}),cbox);expect(overlaps).toBe(false)
- await companion.click();await expect(companion).toHaveAttribute('data-action','wave')
+ await companion.click();await expect(companion).toHaveAttribute('data-action','happy')
  await page.goto('./#/#tam-tinh');const input=page.getByLabel('Điều bạn muốn gửi theo ánh đèn');await input.fill('PRIVATE_GARDEN_CANARY');await page.getByRole('button',{name:'Thả một ngọn đèn'}).click();await expect(input).toHaveValue('')
  const lantern=page.locator('.released-lantern');await expect(lantern).toHaveCount(1)
  const flight=await lantern.evaluate(el=>({transform:getComputedStyle(el).transform,animation:getComputedStyle(el).animationName}));expect(flight.animation).toBe('lantern-journey')
@@ -37,7 +37,7 @@ test('Garden: real movement, pointer depth, sticky navigation, flower, companion
 test('Reader: chapters, active TOC, reading progress, quiet surface, back to top',async({page})=>{
  await page.setViewportSize({width:1440,height:1000});await page.goto('./#/bai-viet/'+manifest.articles[0].slug)
  await expect(page.locator('.reader-cover img')).toBeVisible();expect(await page.locator('.reader-chapter').count()).toBeGreaterThan(4)
- await expect(page.locator('.floating-may,.petal-field')).toHaveCount(0)
+ await expect(page.locator('.petal-field')).toHaveCount(0);await expect(page.locator('.floating-may')).toHaveCount(1)
  const links=page.locator('.reader-toc>ol>li>a');const target=links.nth(2);await target.click();await expect(target).toHaveAttribute('aria-current','location')
  await expect.poll(()=>page.locator('.reading-progress').getAttribute('aria-valuenow')).not.toBe('0')
  await expect(page.getByRole('button',{name:'Về đầu trang',exact:true})).toBeVisible();await page.getByRole('button',{name:'Về đầu trang',exact:true}).click();await expect.poll(()=>page.evaluate(()=>scrollY)).toBe(0)

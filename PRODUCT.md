@@ -42,3 +42,7 @@ Library search normalizes Vietnamese accents and đ/Đ, matches every query word
 2. Approve reading flow, route behavior, and draft preview mechanism.
 3. Review complete features and each sourced article independently.
 4. Approve final checks and explicit publication selection.
+
+## Current task authorization — 28 October 2026
+
+The attached Living Garden master brief authorizes a substantial interaction upgrade across home, topics, library, Flow and Reader, preserving 29 articles, 29 academic SVGs, 10 topics, F0/107 records, privacy and academic meaning. Deliver one integrated review PR, visual evidence, an Academic Showcase ZIP and SHA-256 plus deployment instructions. Do not merge or deploy. This authorization supersedes the historical batch-only scope above for presentation/interaction work; it does not grant publication or professional review status to academic content.

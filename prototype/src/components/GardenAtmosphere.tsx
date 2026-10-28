@@ -3,13 +3,13 @@ import { TopCanopy } from './TopCanopy'
 
 // Bounded, deterministic distribution. Negative phases avoid a synchronized start;
 // no per-frame JS, particle creation loop, network request, or canvas.
-const petals = Array.from({ length: 10 }, (_, i) => ({
-  x: i%2 ? 96+(i%3) : 1+(i%3),
-  size: 5 + (i * 7) % 8,
-  duration: 23 + (i * 11) % 21,
+const petals = Array.from({ length: 18 }, (_, i) => ({
+  x: 4 + ((i * 37) % 92),
+  size: 7 + (i * 7) % 8,
+  duration: 12 + (i * 11) % 12,
   delay: -((i * 13 + 3) % 41),
   drift: (i % 2 ? -1 : 1) * (22 + (i * 17) % 68),
-  opacity: .14 + (i % 4) * .035,
+  opacity: .30 + (i % 4) * .055,
 }))
 
 
@@ -46,7 +46,7 @@ export function GardenAtmosphere({ motionOff }: { motionOff: boolean }) {
     document.addEventListener('visibilitychange',update)
     document.addEventListener('focusin',interrupt)
     document.addEventListener('focusout',focusOut)
-    document.addEventListener('pointerdown',interrupt,{passive:true})
+
     document.addEventListener('keydown',interrupt)
     return()=>{
       clearTimeout(rest);observer.disconnect();canopyObserver.disconnect()
@@ -54,19 +54,19 @@ export function GardenAtmosphere({ motionOff }: { motionOff: boolean }) {
       document.removeEventListener('visibilitychange',update)
       document.removeEventListener('focusin',interrupt)
       document.removeEventListener('focusout',focusOut)
-      document.removeEventListener('pointerdown',interrupt)
+
       document.removeEventListener('keydown',interrupt)
     }
   },[])
 
   const enabled=available&&!motionOff
-  return <div className="garden-atmosphere" data-atmosphere-paused={!enabled} data-quiet={quiet} data-low-power={lowPower} aria-hidden="true">
+  return <div className="garden-atmosphere" data-atmosphere-paused={!enabled} data-quiet={quiet && Boolean(document.activeElement?.matches('input,textarea'))} data-low-power={lowPower} aria-hidden="true">
     <div className="petal-field petal-field-back" data-journey={withinJourney}>
       {petals.map((petal,i)=><span key={i} className={`petal petal-${i}`} style={{left:`${petal.x}%`,'--petal-size':`${petal.size}px`,'--fall-time':`${petal.duration}s`,'--phase':`${petal.delay}s`,'--wind':`${petal.drift}px`,'--petal-opacity':petal.opacity} as CSSProperties}><i/></span>)}
     </div>
     <TopCanopy/>
     <div className="petal-field petal-field-front" data-journey={withinJourney}>
-      {petals.slice(0,4).map((petal,i)=><span key={i} className="petal" style={{left:i%2?'calc(100% - 12px)':'9px','--petal-size':`${petal.size*.8}px`,'--fall-time':`${petal.duration+7}s`,'--phase':`${petal.delay-8}s`,'--wind':i%2?'-3px':'3px','--petal-opacity':.22} as CSSProperties}><i/></span>)}
+      {petals.slice(0,4).map((petal,i)=><span key={i} className="petal" style={{left:`${18+i*23}%`,'--petal-size':`${petal.size*.8}px`,'--fall-time':`${petal.duration+7}s`,'--phase':`${petal.delay-8}s`,'--wind':i%2?'-80px':'80px','--petal-opacity':.34} as CSSProperties}><i/></span>)}
     </div>
   </div>
 }
