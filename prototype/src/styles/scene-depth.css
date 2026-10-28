@@ -1,0 +1,96 @@
+/* Transparent painted objects, separate scene content at independent depths. */
+.botanical-joint{transform:translateX(var(--hand-x,0px)) rotate(var(--hand-angle,0deg));transform-box:view-box}
+.canopy-hand{width:100%;height:100%;transform-origin:50% 8%;transform-box:border-box}
+.scene-stage{position:absolute;inset:0;container-type:size;overflow:hidden;background:#eee7d8}
+.scene-room{position:absolute;inset:0;transform-style:flat;--depth-intensity:1}
+.scene-backdrop{position:absolute;inset:-15%;background:radial-gradient(ellipse at 30% 10%,#fff9e8,#eee5d3 57%,#dddcc9);z-index:0;pointer-events:none}
+.scene-floor{position:absolute;left:-20%;right:-20%;top:63%;height:65%;background:linear-gradient(170deg,#e8dfc8,#d8ceb7);border-radius:50%;transform:scaleY(.82);z-index:2;pointer-events:none}
+.scene-part{position:absolute;transform-style:flat;--project-x:calc(var(--camera-x)*(var(--projection) - 1));--project-y:calc(var(--camera-y)*(var(--projection) - 1));transform:translate3d(calc(var(--project-x) + var(--scene-x)*var(--factor)*var(--depth-intensity)),calc(var(--project-y) + var(--scene-y)*var(--factor)*var(--depth-intensity)),0) scale(var(--projection));transition:transform .65s cubic-bezier(.16,1,.3,1);pointer-events:none}
+.prop-body{position:relative;transform-origin:50% 85%;transition:transform 1.5s cubic-bezier(.16,1,.3,1),filter 1.2s}
+.scene-part img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;pointer-events:none}
+.prop-shadow{position:absolute;z-index:-1;left:10%;right:10%;bottom:-2%;height:9%;border-radius:50%;background:radial-gradient(ellipse,#544d3933,transparent 70%);transform:rotateX(65deg);transition:opacity 1s,transform 1s}
+.part-branch .prop-body{transform-origin:80% 8%}
+[data-playing=true] .part-branch .prop-body{animation:prop-branch 7s ease-in-out var(--phase) infinite alternate}
+[data-playing=true] .part-foliage .prop-body{animation:prop-foliage 5s ease-in-out var(--phase) infinite alternate}
+[data-playing=true] .part-float .prop-body{animation:prop-float 4s ease-in-out var(--phase) infinite alternate}
+[data-playing=true] .part-petals .prop-body{animation:prop-petals 9s ease-in-out var(--phase) infinite alternate}
+[data-awake=true] .part-stone-a .prop-body{transform:translate(-8px,-15px) rotate(-7deg)}
+[data-awake=true] .part-stone-b .prop-body{transform:translate(10px,-7px) rotate(8deg)}
+[data-awake=true] .part-stone-c .prop-body{transform:translate(0,-19px) rotate(-4deg)}
+[data-awake=true] .part-cup .prop-body{transform:translateY(-12px) rotate(-5deg)}
+[data-awake=true] .part-saucer .prop-body{transform:translateX(7px) rotate(3deg)}
+[data-awake=true] .part-cushion .prop-body{transform:scaleY(.94) translateY(6px)}
+[data-awake=true] .part-moon .prop-body{transform:translateY(-10px) rotate(9deg)}
+[data-awake=true] .part-sprout .prop-body{transform:translateY(-15px) scale(1.15)}
+[data-awake=true] .part-new-leaf .prop-body{transform:rotate(-24deg) scale(1.28)}
+[data-awake=true] .part-pot .prop-body{transform:rotate(3deg)}
+.part-gate-left .prop-body{transform-origin:0 50%}.part-gate-right .prop-body{transform-origin:100% 50%}
+[data-awake=true] .part-gate-left .prop-body{transform:perspective(500px) rotateY(-28deg)}
+[data-awake=true] .part-gate-right .prop-body{transform:perspective(500px) rotateY(28deg)}
+[data-awake=true] .part-welcome .prop-body{transform:translateY(-10px) rotate(5deg)}
+[data-awake=true] .part-friend-left .prop-body{transform:translateX(9px) rotate(-5deg)}
+[data-awake=true] .part-friend-right .prop-body{transform:translateX(-8px) rotate(5deg)}
+[data-awake=true] .part-connect .prop-body{transform:translateY(-12px) scaleX(1.13)}
+[data-awake=true] .part-chair-left .prop-body{transform:rotate(-6deg) translateX(7px)}
+[data-awake=true] .part-chair-right .prop-body{transform:rotate(5deg) translateX(-7px)}
+[data-awake=true] .part-listen .prop-body{transform:translateY(-6px) rotate(-7deg)}
+[data-awake=true] .part-notebook .prop-body{transform:perspective(600px) rotateY(-9deg) rotateX(5deg)}
+[data-awake=true] .part-pencil .prop-body{transform:translate(-12px,12px) rotate(-12deg)}
+[data-awake=true] .part-notes .prop-body{transform:translate(18px,22px) rotate(12deg)}
+[data-awake=true] .part-phone .prop-body{transform:perspective(500px) rotateY(-14deg) rotateZ(8deg) translateY(8px)}
+[data-awake=true] .part-attention .prop-body{transform:translate(-20px,-30px) rotate(-24deg)}
+[data-awake=true] .part-hourglass .prop-body{transform:rotate(180deg)}
+[data-awake=true] .part-book .prop-body{transform:translate(-6px,-7px) rotate(-4deg)}
+[data-awake=true] .part-choice .prop-body{transform:rotate(12deg)}
+[data-awake=true] .part-path-b .prop-body{transform:translateY(-9px)}
+[data-awake=true] .part-path-c .prop-body{transform:translate(10px,-14px)}
+.water-surface{position:absolute;left:18%;top:42%;width:64%;height:22%;border-radius:50%;transform:translate3d(calc(var(--scene-x)*.4),calc(var(--scene-y)*.4),0);z-index:104;background:linear-gradient(150deg,#cee1d440,#fdf9d230);pointer-events:none}
+.water-surface .scene-ripple{position:absolute;inset:20%;border:1px solid #fff8dc;display:block;border-radius:50%;transform-origin:center}
+.water-surface .scene-ripple:nth-child(2){animation-delay:-.8s!important}.water-surface .scene-ripple:nth-child(3){animation-delay:-1.6s!important}
+[data-playing=true] .water-surface .scene-ripple{animation:depth-ripple 2.7s ease-out infinite}
+[data-awake=true] .water-surface .scene-ripple{border-width:2px}
+.tea-steam{position:absolute;left:31%;top:25%;width:23%;height:23%;z-index:142;pointer-events:none;opacity:.45;transition:opacity 1s}
+.tea-steam i{position:absolute;left:20%;width:15%;height:80%;border-left:4px solid #fffdf0;border-radius:50%;filter:blur(1px);opacity:0}
+.tea-steam i:nth-child(2){left:50%;animation-delay:-1s!important}.tea-steam i:nth-child(3){left:80%;animation-delay:-2s!important}
+[data-playing=true] .tea-steam i{animation:depth-steam 3.3s ease-in-out infinite}
+[data-awake=true] .tea-steam{opacity:1}
+.hourglass-stream{position:absolute;left:76%;top:39%;height:20%;width:2px;background:repeating-linear-gradient(to bottom,#b8985b 0 2px,transparent 2px 7px);z-index:138;opacity:0}
+[data-awake=true] .hourglass-stream{opacity:.8;animation:sand-grains .8s linear infinite}
+.scene-daylight{position:absolute;inset:-20%;background:linear-gradient(115deg,transparent 25%,#fff9d540 45%,transparent 65%);transform:translate3d(calc(var(--scene-x)*-1.6),0,0);z-index:180;pointer-events:none;transition:transform 1.1s,opacity 1.1s;opacity:.5}
+[data-awake=true] .scene-daylight{opacity:1}
+.scene-fork{position:absolute;left:26%;top:27%;width:52%;height:80%;clip-path:polygon(35% 100%,20% 75%,0 35%,10% 30%,46% 70%,70% 10%,80% 12%,65% 74%,80% 100%);background:#f9f0d1;z-index:70}
+[data-scene='4'] .scene-backdrop{background:radial-gradient(ellipse at 80% 10%,#eee1d6,#d6ced7 70%,#bfcbbf)}
+[data-scene='1'] .scene-floor{background:linear-gradient(160deg,#e4e5d3,#bfcfc4)}
+[data-context=reader] .scene-room{--depth-intensity:.32}
+[data-context=reader] .scene-part .prop-body{animation-duration:12s!important}
+[data-context=reader][data-awake=true] .prop-body{transition-duration:2s}
+[data-playing=false] .scene-stage *{animation-play-state:paused!important}
+[data-motion=off] .scene-part{transform:translate3d(var(--project-x),var(--project-y),0) scale(var(--projection))!important;transition:none!important}
+[data-motion=off] .scene-stage *{animation:none!important;transition:none!important}
+[data-motion=off] .prop-body,[data-motion=off] .botanical-joint{transform:none!important}
+@keyframes prop-branch{from{transform:rotate(-3deg)}to{transform:rotate(4deg)}}
+@keyframes prop-foliage{to{transform:rotate(5deg) translateY(-2px)}}
+@keyframes prop-float{to{transform:translate(7px,-11px) rotate(8deg)}}
+@keyframes prop-petals{to{transform:translate(-15px,21px) rotate(-14deg)}}
+@keyframes depth-ripple{from{transform:scale(.5);opacity:.9}to{transform:scale(2.1);opacity:0}}
+@keyframes depth-steam{0%{transform:translateY(8px) scaleX(.8);opacity:0}40%{opacity:.8}100%{transform:translateY(-30px) scaleX(1.4);opacity:0}}
+@keyframes sand-grains{to{background-position:0 14px}}
+@media(prefers-reduced-motion:reduce){.scene-stage *{animation:none!important;transition:none!important}.scene-part{transform:translate3d(var(--project-x),var(--project-y),0) scale(var(--projection))!important}.prop-body,.botanical-joint{transform:none!important}}
+.scene-fork{left:0;top:0;width:100%;height:100%;clip-path:none;background:none;filter:blur(.5px);pointer-events:none}
+.part-sprout .prop-body,.part-new-leaf .prop-body{transform-origin:50% 100%}
+[data-awake=true] .part-sprout .prop-body{transform:scale(1.15)}
+.scene-part[data-layer=background] .prop-shadow,.part-branch .prop-shadow,.part-petals .prop-shadow,.part-float .prop-shadow{display:none}
+/* Vertical pan/zoom stays native; horizontal brushing belongs to the foliage. */
+.garden-art,.site-header{touch-action:pan-y pinch-zoom}
+.prop-joint{transform-box:border-box;transform-origin:80% 8%}
+/* Horizontal garden gestures should not trigger browser history overscroll. */
+html{overscroll-behavior-x:none}
+
+[data-phase=interacting] .scene-part,[data-awake=true] .prop-body{will-change:transform}
+.hero-scene{position:absolute;inset:0;z-index:0;--scene-x:0px;--scene-y:0px}
+.garden-art:has([data-gust=true]) .scene-daylight{opacity:1}
+.garden-art:has([data-gust=true]) .part-branch .prop-body{animation-duration:1.4s}
+.garden-art:has([data-gust=true]) .part-gate-left .prop-body{transform:perspective(500px) rotateY(-24deg)}
+.garden-art:has([data-gust=true]) .part-gate-right .prop-body{transform:perspective(500px) rotateY(24deg)}
+/* Keep every projected plane below captions and controls. */
+.scene-stage{z-index:0;isolation:isolate}

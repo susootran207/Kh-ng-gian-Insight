@@ -18,3 +18,5 @@ import './styles/atmosphere.css'
 import './styles/editorial-garden.css'
 
 import './styles/living-garden.css'
+
+import './styles/scene-depth.css'

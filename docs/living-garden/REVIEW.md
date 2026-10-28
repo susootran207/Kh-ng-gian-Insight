@@ -1,3 +1,5 @@
+> **Cập nhật tiếp theo trên PR #37:** xem [hoa chạm tay và scene 2.5D nhiều lớp](depth-v2/README.md) cùng [bằng chứng/kiểm thử mới](depth-v2/VALIDATION.md). Tài liệu và GIF của lần đầu bên dưới được giữ để đối chiếu; ZIP và checksum trỏ tới bản mới nhất.
+
 # Living Garden — implementation and acceptance
 
 This revision follows the user's master brief of 28 October 2026. It supersedes the old companion contract (hidden during scroll, no free drag) and the old almost-invisible gutter-only petals. It does not authorize a merge or deployment.

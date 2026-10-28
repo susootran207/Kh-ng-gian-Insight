@@ -1,7 +1,8 @@
 {
   "artifact": "Academic-Showcase-Living-Garden.zip",
-  "sha256": "c302e30dc46b816e9983d389f7d2ceee7e2172c5ba2c8227dd345f6bc1343cf9",
-  "bytes": 3779799,
+  "revision": "PR #37 layered 2.5D follow-up",
+  "sha256": "47a2f4c52c7a11a79a3fcfff0d2957b119c337a30140ec1f67af2cb880b69393",
+  "bytes": 4753644,
   "articles": 29,
   "academicSvg": 29,
   "topics": 10,

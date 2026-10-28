@@ -1,0 +1,6 @@
+{
+  "engine": "System Chromium headless",
+  "sceneNativeScrollDelta": 0,
+  "plainHtmlNativeScrollDelta": 0,
+  "limitation": "Native synthetic panning unavailable even on plain HTML. Touch tap/drag verified; physical-device swipe remains unverified."
+}

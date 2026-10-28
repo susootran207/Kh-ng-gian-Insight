@@ -36,7 +36,7 @@ test('Garden: real movement, pointer depth, sticky navigation, flower, companion
 })
 test('Reader: chapters, active TOC, reading progress, quiet surface, back to top',async({page})=>{
  await page.setViewportSize({width:1440,height:1000});await page.goto('./#/bai-viet/'+manifest.articles[0].slug)
- await expect(page.locator('.reader-cover img')).toBeVisible();expect(await page.locator('.reader-chapter').count()).toBeGreaterThan(4)
+ await expect(page.locator('.reader-cover .scene-stage')).toBeVisible();expect(await page.locator('.reader-chapter').count()).toBeGreaterThan(4)
  await expect(page.locator('.petal-field')).toHaveCount(0);await expect(page.locator('.floating-may')).toHaveCount(1)
  const links=page.locator('.reader-toc>ol>li>a');const target=links.nth(2);await target.click();await expect(target).toHaveAttribute('aria-current','location')
  await expect.poll(()=>page.locator('.reading-progress').getAttribute('aria-valuenow')).not.toBe('0')
@@ -59,7 +59,7 @@ test('Synthesized touch, keyboard focus, mobile TOC and illustration coverage',a
  const before=await cat.getAttribute('style');await session.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:box.x+box.width/2,y:box.y+box.height/2,id:1}]});await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:box.x+box.width/2-45,y:box.y+box.height/2-25,id:1}]});await session.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});expect(await cat.getAttribute('style')).not.toBe(before)
  await page.getByRole('button',{name:'Di chuyển bằng phím'}).click();await expect(cat).toBeFocused();const at=await cat.getAttribute('style');await page.keyboard.press('ArrowLeft');expect(await cat.getAttribute('style')).not.toBe(at);await page.keyboard.press('Escape')
  await page.goto('http://127.0.0.1:4181/#/bai-viet/'+manifest.articles[0].slug);const toggle=page.getByRole('button',{name:'Mục lục bài đọc'});await toggle.tap();await expect(toggle).toHaveAttribute('aria-expanded','true');await page.locator('.reader-toc a').first().click();await expect(toggle).toHaveAttribute('aria-expanded','false')
- for(const t of weekly.topics){await page.goto('http://127.0.0.1:4181/#/chuyen-de/'+t.slug);const art=page.locator('.topic-detail-art img');await expect(art).toBeVisible();expect(await art.getAttribute('alt')).not.toBe('');await expect.poll(()=>art.evaluate((el:HTMLImageElement)=>el.complete&&el.naturalWidth>0)).toBeTruthy()}
+ for(const t of weekly.topics){await page.goto('http://127.0.0.1:4181/#/chuyen-de/'+t.slug);const art=page.locator('.topic-detail-art .scene-stage');await expect(art).toBeVisible();expect(await art.getAttribute('aria-label')).not.toBe('');await expect.poll(()=>art.locator('img').evaluateAll(es=>es.every(el=>(el as HTMLImageElement).complete&&(el as HTMLImageElement).naturalWidth>0))).toBeTruthy()}
  await context.close()
 })
 test('Measured performance: local artifact navigation, resources, frame pacing and layout stability',async({page})=>{

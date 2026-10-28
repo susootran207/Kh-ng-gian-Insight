@@ -1,0 +1,466 @@
+{
+  "flatRequests": [],
+  "records": [
+    {
+      "index": 1,
+      "before": [
+        {
+          "object": "olive-branch",
+          "layer": "background",
+          "transform": "matrix(0.960452, 0, 0, 0.960452, 8.6767, 9.78672)",
+          "x": 8.6767,
+          "y": 9.78672,
+          "depth": -35,
+          "projectedScale": 0.960452,
+          "matrixZ": 0
+        },
+        {
+          "object": "bowl",
+          "layer": "midground",
+          "transform": "matrix(0.994152, 0, 0, 0.994152, 2.10527, 0.804497)",
+          "x": 2.10527,
+          "y": 0.804497,
+          "depth": -5,
+          "projectedScale": 0.994152,
+          "matrixZ": 0
+        },
+        {
+          "object": "stone-moss",
+          "layer": "subject",
+          "transform": "matrix(1.02163, 0, 0, 1.02163, -6.95749, -2.43722)",
+          "x": -6.95749,
+          "y": -2.43722,
+          "depth": 18,
+          "projectedScale": 1.02163,
+          "matrixZ": 0
+        },
+        {
+          "object": "stone-honey",
+          "layer": "subject",
+          "transform": "matrix(1.03281, 0, 0, 1.03281, -7.02276, -3.02908)",
+          "x": -7.02276,
+          "y": -3.02908,
+          "depth": 27,
+          "projectedScale": 1.03281,
+          "matrixZ": 0
+        },
+        {
+          "object": "stone-lilac",
+          "layer": "subject",
+          "transform": "matrix(1.04167, 0, 0, 1.04167, -11.2712, -2.87326)",
+          "x": -11.2712,
+          "y": -2.87326,
+          "depth": 34,
+          "projectedScale": 1.04167,
+          "matrixZ": 0
+        },
+        {
+          "object": "gold-leaf",
+          "layer": "foreground",
+          "transform": "matrix(1.05721, 0, 0, 1.05721, -11.2814, -7.21846)",
+          "x": -11.2814,
+          "y": -7.21846,
+          "depth": 46,
+          "projectedScale": 1.05721,
+          "matrixZ": 0
+        },
+        {
+          "object": "petals",
+          "layer": "foreground",
+          "transform": "matrix(1.07323, 0, 0, 1.07323, -25.7393, -1.0812)",
+          "x": -25.7393,
+          "y": -1.0812,
+          "depth": 58,
+          "projectedScale": 1.07323,
+          "matrixZ": 0
+        }
+      ],
+      "after": [
+        {
+          "object": "olive-branch",
+          "layer": "background",
+          "transform": "matrix(0.960452, 0, 0, 0.960452, -10.5293, 4.16414)",
+          "x": -10.5293,
+          "y": 4.16414,
+          "depth": -35,
+          "projectedScale": 0.960452,
+          "matrixZ": 0
+        },
+        {
+          "object": "bowl",
+          "layer": "midground",
+          "transform": "matrix(0.994152, 0, 0, 0.994152, -0.638451, 0.00127066)",
+          "x": -0.638451,
+          "y": 0.00127066,
+          "depth": -5,
+          "projectedScale": 0.994152,
+          "matrixZ": 0
+        },
+        {
+          "object": "stone-moss",
+          "layer": "subject",
+          "transform": "matrix(1.02163, 0, 0, 1.02163, 2.91989, 0.454397)",
+          "x": 2.91989,
+          "y": 0.454397,
+          "depth": 18,
+          "projectedScale": 1.02163,
+          "matrixZ": 0
+        },
+        {
+          "object": "stone-honey",
+          "layer": "subject",
+          "transform": "matrix(1.03281, 0, 0, 1.03281, 7.79331, 1.30834)",
+          "x": 7.79331,
+          "y": 1.30834,
+          "depth": 27,
+          "projectedScale": 1.03281,
+          "matrixZ": 0
+        },
+        {
+          "object": "stone-lilac",
+          "layer": "subject",
+          "transform": "matrix(1.04167, 0, 0, 1.04167, 7.38604, 2.58868)",
+          "x": 7.38604,
+          "y": 2.58868,
+          "depth": 34,
+          "projectedScale": 1.04167,
+          "matrixZ": 0
+        },
+        {
+          "object": "gold-leaf",
+          "layer": "foreground",
+          "transform": "matrix(1.05721, 0, 0, 1.05721, 13.9608, 0.171222)",
+          "x": 13.9608,
+          "y": 0.171222,
+          "depth": 46,
+          "projectedScale": 1.05721,
+          "matrixZ": 0
+        },
+        {
+          "object": "petals",
+          "layer": "foreground",
+          "transform": "matrix(1.07323, 0, 0, 1.07323, 6.08776, 8.23623)",
+          "x": 6.08776,
+          "y": 8.23623,
+          "depth": 58,
+          "projectedScale": 1.07323,
+          "matrixZ": 0
+        }
+      ],
+      "idle": [
+        "none",
+        "none",
+        "none"
+      ],
+      "active": [
+        "matrix(0.992546, -0.121869, 0.121869, 0.992546, -8, -15)",
+        "matrix(0.990268, 0.139173, -0.139173, 0.990268, 10, -7)",
+        "matrix(0.997564, -0.0697565, 0.0697565, 0.997564, 0, -19)"
+      ],
+      "settled": [
+        "none",
+        "none",
+        "none"
+      ],
+      "pacing": {
+        "medianMs": 16.699999999999818,
+        "p95Ms": 33.30000000000018,
+        "sample": "60 frames while active scene animates, local Chromium, video recording, no CPU/network throttle"
+      }
+    },
+    {
+      "index": 4,
+      "before": [
+        {
+          "object": "moon",
+          "layer": "background",
+          "transform": "matrix(0.971429, 0, 0, 0.971429, 5.52307, 6.20907)",
+          "x": 5.52307,
+          "y": 6.20907,
+          "depth": -25,
+          "projectedScale": 0.971429,
+          "matrixZ": 0
+        },
+        {
+          "object": "cushion",
+          "layer": "midground",
+          "transform": "matrix(0.997653, 0, 0, 0.997653, 0.500618, 0.177634)",
+          "x": 0.500618,
+          "y": 0.177634,
+          "depth": -2,
+          "projectedScale": 0.997653,
+          "matrixZ": 0
+        },
+        {
+          "object": "saucer",
+          "layer": "midground",
+          "transform": "matrix(1.0119, 0, 0, 1.0119, -4.02829, -0.385268)",
+          "x": -4.02829,
+          "y": -0.385268,
+          "depth": 10,
+          "projectedScale": 1.0119,
+          "matrixZ": 0
+        },
+        {
+          "object": "cup",
+          "layer": "subject",
+          "transform": "matrix(1.03659, 0, 0, 1.03659, -11.4316, -3.13011)",
+          "x": -11.4316,
+          "y": -3.13011,
+          "depth": 30,
+          "projectedScale": 1.03659,
+          "matrixZ": 0
+        },
+        {
+          "object": "wisteria",
+          "layer": "foreground",
+          "transform": "matrix(1.0625, 0, 0, 1.0625, -24.1107, -16.7781)",
+          "x": -24.1107,
+          "y": -16.7781,
+          "depth": 50,
+          "projectedScale": 1.0625,
+          "matrixZ": 0
+        },
+        {
+          "object": "gold-leaf",
+          "layer": "foreground",
+          "transform": "matrix(1.06918, 0, 0, 1.06918, -10.4422, -1.04142)",
+          "x": -10.4422,
+          "y": -1.04142,
+          "depth": 55,
+          "projectedScale": 1.06918,
+          "matrixZ": 0
+        }
+      ],
+      "after": [
+        {
+          "object": "moon",
+          "layer": "background",
+          "transform": "matrix(0.971429, 0, 0, 0.971429, -8.2114, 2.19129)",
+          "x": -8.2114,
+          "y": 2.19129,
+          "depth": -25,
+          "projectedScale": 0.971429,
+          "matrixZ": 0
+        },
+        {
+          "object": "cushion",
+          "layer": "midground",
+          "transform": "matrix(0.997653, 0, 0, 0.997653, -0.598139, -0.143788)",
+          "x": -0.598139,
+          "y": -0.143788,
+          "depth": -2,
+          "projectedScale": 0.997653,
+          "matrixZ": 0
+        },
+        {
+          "object": "saucer",
+          "layer": "midground",
+          "transform": "matrix(1.0119, 0, 0, 1.0119, 1.4655, 1.22184)",
+          "x": 1.4655,
+          "y": 1.22184,
+          "depth": 10,
+          "projectedScale": 1.0119,
+          "matrixZ": 0
+        },
+        {
+          "object": "cup",
+          "layer": "subject",
+          "transform": "matrix(1.03659, 0, 0, 1.03659, 5.0498, 1.69122)",
+          "x": 5.0498,
+          "y": 1.69122,
+          "depth": 30,
+          "projectedScale": 1.03659,
+          "matrixZ": 0
+        },
+        {
+          "object": "wisteria",
+          "layer": "foreground",
+          "transform": "matrix(1.0625, 0, 0, 1.0625, 3.35828, -8.74259)",
+          "x": 3.35828,
+          "y": -8.74259,
+          "depth": 50,
+          "projectedScale": 1.0625,
+          "matrixZ": 0
+        },
+        {
+          "object": "gold-leaf",
+          "layer": "foreground",
+          "transform": "matrix(1.06918, 0, 0, 1.06918, 19.7737, 7.7977)",
+          "x": 19.7737,
+          "y": 7.7977,
+          "depth": 55,
+          "projectedScale": 1.06918,
+          "matrixZ": 0
+        }
+      ],
+      "idle": [
+        "none",
+        "none",
+        "none"
+      ],
+      "active": [
+        "matrix(0.996195, -0.0871557, 0.0871557, 0.996195, 0, -12)",
+        "matrix(0.99863, 0.052336, -0.052336, 0.99863, 7, 0)",
+        "matrix(1, 0, 0, 0.94, 0, 5.64)"
+      ],
+      "settled": [
+        "none",
+        "none",
+        "none"
+      ],
+      "pacing": {
+        "medianMs": 16.69999999999891,
+        "p95Ms": 16.700000000000728,
+        "sample": "60 frames while active scene animates, local Chromium, video recording, no CPU/network throttle"
+      }
+    },
+    {
+      "index": 8,
+      "before": [
+        {
+          "object": "paper",
+          "layer": "background",
+          "transform": "matrix(0.965909, 0, 0, 0.965909, 12.7055, 5.43527)",
+          "x": 12.7055,
+          "y": 5.43527,
+          "depth": -30,
+          "projectedScale": 0.965909,
+          "matrixZ": 0
+        },
+        {
+          "object": "repaired-pot",
+          "layer": "midground",
+          "transform": "matrix(1.0095, 0, 0, 1.0095, -2.33292, -0.740621)",
+          "x": -2.33292,
+          "y": -0.740621,
+          "depth": 8,
+          "projectedScale": 1.0095,
+          "matrixZ": 0
+        },
+        {
+          "object": "sprout",
+          "layer": "subject",
+          "transform": "matrix(1.01432, 0, 0, 1.01432, -3.16606, -1.94649)",
+          "x": -3.16606,
+          "y": -1.94649,
+          "depth": 12,
+          "projectedScale": 1.01432,
+          "matrixZ": 0
+        },
+        {
+          "object": "new-leaf",
+          "layer": "subject",
+          "transform": "matrix(1.01918, 0, 0, 1.01918, -3.77272, -2.47595)",
+          "x": -3.77272,
+          "y": -2.47595,
+          "depth": 16,
+          "projectedScale": 1.01918,
+          "matrixZ": 0
+        },
+        {
+          "object": "sage-leaves",
+          "layer": "foreground",
+          "transform": "matrix(1.0559, 0, 0, 1.0559, -19.3576, -1.98294)",
+          "x": -19.3576,
+          "y": -1.98294,
+          "depth": 45,
+          "projectedScale": 1.0559,
+          "matrixZ": 0
+        },
+        {
+          "object": "petals",
+          "layer": "foreground",
+          "transform": "matrix(1.0625, 0, 0, 1.0625, -18.8213, -8.87455)",
+          "x": -18.8213,
+          "y": -8.87455,
+          "depth": 50,
+          "projectedScale": 1.0625,
+          "matrixZ": 0
+        }
+      ],
+      "after": [
+        {
+          "object": "paper",
+          "layer": "background",
+          "transform": "matrix(0.965909, 0, 0, 0.965909, -3.76562, 0.614994)",
+          "x": -3.76562,
+          "y": 0.614994,
+          "depth": -30,
+          "projectedScale": 0.965909,
+          "matrixZ": 0
+        },
+        {
+          "object": "repaired-pot",
+          "layer": "midground",
+          "transform": "matrix(1.0095, 0, 0, 1.0095, 2.05937, 0.544787)",
+          "x": 2.05937,
+          "y": 0.544787,
+          "depth": 8,
+          "projectedScale": 1.0095,
+          "matrixZ": 0
+        },
+        {
+          "object": "sprout",
+          "layer": "subject",
+          "transform": "matrix(1.01432, 0, 0, 1.01432, 3.42238, -0.0183752)",
+          "x": 3.42238,
+          "y": -0.0183752,
+          "depth": 12,
+          "projectedScale": 1.01432,
+          "matrixZ": 0
+        },
+        {
+          "object": "new-leaf",
+          "layer": "subject",
+          "transform": "matrix(1.01918, 0, 0, 1.01918, 5.01186, 0.0948645)",
+          "x": 5.01186,
+          "y": 0.0948645,
+          "depth": 16,
+          "projectedScale": 1.01918,
+          "matrixZ": 0
+        },
+        {
+          "object": "sage-leaves",
+          "layer": "foreground",
+          "transform": "matrix(1.0559, 0, 0, 1.0559, 5.34904, 5.24748)",
+          "x": 5.34904,
+          "y": 5.24748,
+          "depth": 45,
+          "projectedScale": 1.0559,
+          "matrixZ": 0
+        },
+        {
+          "object": "petals",
+          "layer": "foreground",
+          "transform": "matrix(1.0625, 0, 0, 1.0625, 8.63055, -0.840756)",
+          "x": 8.63055,
+          "y": -0.840756,
+          "depth": 50,
+          "projectedScale": 1.0625,
+          "matrixZ": 0
+        }
+      ],
+      "idle": [
+        "none",
+        "none",
+        "none"
+      ],
+      "active": [
+        "matrix(1.15, 0, 0, 1.15, 0, 0)",
+        "matrix(1.16934, -0.520623, 0.520623, 1.16934, 0, 0)",
+        "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 0)"
+      ],
+      "settled": [
+        "none",
+        "none",
+        "none"
+      ],
+      "pacing": {
+        "medianMs": 16.700000000000728,
+        "p95Ms": 33.29999999999927,
+        "sample": "60 frames while active scene animates, local Chromium, video recording, no CPU/network throttle"
+      }
+    }
+  ]
+}

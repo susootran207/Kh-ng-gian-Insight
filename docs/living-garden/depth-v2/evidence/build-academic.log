@@ -1,0 +1,97 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 build:academic
+> tsc -p tsconfig.academic.json && npm run test:academic && vite build --config vite.academic.config.ts && npm run scan:academic
+
+
+> khong-gian-noi-tam-prototype@0.1.0 test:academic
+> node --experimental-strip-types --test --test-isolation=none tests/academic-showcase.test.mts
+
+✔ Academic showcase projects exact accepted 29/29/10 without altering F0 (609.137809ms)
+✔ Showcase scanner rejects raw dossiers, records, sourcemaps, fixtures and foreign assets (753.726224ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1500.001364
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 133 modules transformed.
+rendering chunks...
+Academic showcase scanner: {
+  mode: 'academic-showcase',
+  articles: 29,
+  svg: 29,
+  topics: 10,
+  files: 68,
+  digest: '376aa6d404006241731b816998f82ec04e2cdc057f3ef7c5aaa6b0b9f76e5967'
+}
+computing gzip size...
+dist-academic/index.html                                                                                                            0.93 kB │ gzip:     0.55 kB
+dist-academic/assets/articles/277fff7ceef0864618bf94c88e00fd05c7e945a1b80b77cf4192b2056bf7840d/read-feedback.svg                    1.67 kB │ gzip:     0.75 kB
+dist-academic/assets/articles/59d6a0aeb6dffdb5c710a377e43511980abeea5e9e85e05117992a8bbbee7a10/first-step.svg                       1.75 kB │ gzip:     0.75 kB
+dist-academic/assets/articles/c2086d1ffa0a5fedb503f3e024b9c9332b0cf9d0713480c54d3c8c070ee94905/new-school-map.svg                   1.83 kB │ gzip:     0.81 kB
+dist-academic/assets/articles/60e1fae6ab9742ad70082f689d72e93fa12dcf9b830b417e88c78321adb74cbc/disagreement-dialogue.svg            1.85 kB │ gzip:     0.85 kB
+dist-academic/assets/articles/1ecd2045c183634d7686f8558509a1ce3608df86071f042cfdd5db43ee0ba00f/rest-options.svg                     1.88 kB │ gzip:     0.78 kB
+dist-academic/assets/articles/69ba2f099e4bdf975ba1e3a6472990f44ffc5d0c13c231b73f1113735136c4ea/body-signal-context.svg              1.96 kB │ gzip:     0.87 kB
+dist-academic/assets/articles/18f4f7ec60d4792d7ac5a3045ac41d5a07ed011c873e7d0f72601fc26ca09ce3/connection-options.svg               1.99 kB │ gzip:     0.90 kB
+dist-academic/assets/articles/a5357fccaebd3231aaafac967c7dcbd04bd64f2e90e2b6a1c970f6d78b12f74e/return-to-learn.svg                  1.99 kB │ gzip:     0.84 kB
+dist-academic/assets/articles/008bc7a3944b760bb93f25da704471d8184a9989ab758d229b9196fe4e503ed3/no-with-an-exit.svg                  2.00 kB │ gzip:     0.87 kB
+dist-academic/assets/articles/924e4506dcea4f59be7b40cde89aa7d8bcb9fbf619977b9403b906832126390a/conversation-options.svg             2.04 kB │ gzip:     0.85 kB
+dist-academic/assets/articles/c791406552e81c6e29325ca276cd288252d3b1642dec55f06abf876fa3e92d18/pause-and-choose.svg                 2.04 kB │ gzip:     0.91 kB
+dist-academic/assets/articles/12d407cb5faaa341be0086be2bfce5db9f3013540c0d5777a31740fce07a0e36/expectations-and-support.svg         2.08 kB │ gzip:     0.86 kB
+dist-academic/assets/articles/70625513e9a7c236a3ce72f2da2ba59066ca7f07bd772441eca7330a86d68b83/mistake-and-response.svg             2.14 kB │ gzip:     0.89 kB
+dist-academic/assets/articles/081f04abcb7fa576e7a57777ea0753ed3a8b675facdaeff33f210d1eee145065/listen-and-share-support.svg         2.20 kB │ gzip:     0.92 kB
+dist-academic/assets/articles/27ba1e4dd5442cd8103d5dbd8b02fd8128aa566c6bd3db390f848179921d3d1e/tool-result-conclusion.svg           2.21 kB │ gzip:     0.94 kB
+dist-academic/assets/articles/100ea5f1a412777c1bfed69c1126adcde3569fb4ccd86a8924c10d7771e94cde/study-and-contact.svg                2.23 kB │ gzip:     0.94 kB
+dist-academic/assets/articles/8ff5995d17c89d9d171fd31458db6be85f38786606fbb50d4128f1e7b8fc9c00/score-context-support.svg            2.24 kB │ gzip:     0.95 kB
+dist-academic/assets/articles/3c026ab2dc30150dd44de3eea0feef9190bf6b31b14acd022460a5918cbd44f0/support-without-confronting.svg      2.28 kB │ gzip:     0.92 kB
+dist-academic/assets/articles/bb79d29921e713c431b629e7ec457a6b813656da41bbc47943f51b037a3d025a/movement-options.svg                 2.37 kB │ gzip:     0.95 kB
+dist-academic/assets/articles/fd3ffdf2f8c4a3e722377c69bd68806886c21a3f24e5134e8ca100e289e944d9/exploration-and-reflection.svg       2.38 kB │ gzip:     1.00 kB
+dist-academic/assets/articles/3389ca4eaa3486db671b5933ef986433fba42372c5d99db56450d0c2c8f96f0b/before-class-options.svg             2.39 kB │ gzip:     0.98 kB
+dist-academic/assets/articles/73c3be6d10161bb7135fcff9fba351af5490b1cc600591634a7fdbe36151917d/support-role-map.svg                 2.48 kB │ gzip:     1.00 kB
+dist-academic/assets/articles/0361e599cdba6037aa9e8d8089ca44a2f89c0ce924759c81882a88f2b081cf7e/post-and-missing-context.svg         2.51 kB │ gzip:     1.01 kB
+dist-academic/assets/articles/674ada70eeba61995bdc7df14fc1ca0deea51ee8fed949774dee44846aac9d7c/claim-to-practice.svg                2.74 kB │ gzip:     1.03 kB
+dist-academic/assets/articles/418ef31a22f48d6667a5141cf4ad0bb1555022358a6d44430b26b5af008a2632/six-interest-directions.svg          2.76 kB │ gzip:     1.02 kB
+dist-academic/assets/articles/5619b9549b3671c64f205674867c746493b80e27b9eb5792b3238173fa0b6721/five-dimensions.svg                  3.11 kB │ gzip:     0.95 kB
+dist-academic/assets/articles/df8ea0dad05108c648d3d2e6e597fcf492a0907f85628b7c1494c4e1e9429c05/experience-map.svg                   3.12 kB │ gzip:     1.23 kB
+dist-academic/assets/articles/cde288477075734c2fc5886065a4e9755b42a61c29897884abc2ab12f8c6b111/study-plan.svg                       3.23 kB │ gzip:     1.23 kB
+dist-academic/assets/articles/2279965d4b3799dcd60e420fe09c63d6c572164e70e5c6425a647b9eeef37fae/sleep-context.svg                    4.03 kB │ gzip:     1.39 kB
+dist-academic/assets/be-vietnam-pro-vietnamese-400-normal-BuGn0gnm.woff                                                             6.57 kB
+dist-academic/assets/cormorant-garamond-vietnamese-400-normal-6K-YXo6g.woff2                                                        6.74 kB
+dist-academic/assets/cormorant-garamond-vietnamese-500-normal-BZGLGj12.woff2                                                        6.76 kB
+dist-academic/assets/be-vietnam-pro-vietnamese-500-normal-CfdwVo8-.woff                                                             6.88 kB
+dist-academic/assets/cormorant-garamond-vietnamese-400-normal-4uxlocMh.woff                                                         9.32 kB
+dist-academic/assets/cormorant-garamond-vietnamese-500-normal-DqXqCC0q.woff                                                         9.33 kB
+dist-academic/assets/be-vietnam-pro-vietnamese-400-normal-CRcqvyg1.woff2                                                           11.53 kB
+dist-academic/assets/be-vietnam-pro-vietnamese-500-normal-DREgrEoJ.woff2                                                           12.17 kB
+dist-academic/assets/be-vietnam-pro-latin-400-normal-bXgqVju9.woff                                                                 16.43 kB
+dist-academic/assets/be-vietnam-pro-latin-500-normal-BJkVuMHw.woff                                                                 17.00 kB
+dist-academic/assets/be-vietnam-pro-latin-400-normal-PpnXBOrz.woff2                                                                21.17 kB
+dist-academic/assets/be-vietnam-pro-latin-500-normal-B6LVzGNe.woff2                                                                21.89 kB
+dist-academic/assets/cormorant-garamond-latin-400-normal-B-1hWBU7.woff2                                                            22.88 kB
+dist-academic/assets/cormorant-garamond-latin-500-normal-BsRWmXhO.woff2                                                            23.31 kB
+dist-academic/assets/cormorant-garamond-latin-400-normal-B7YtguxJ.woff                                                             30.98 kB
+dist-academic/assets/cormorant-garamond-latin-500-normal-zIXX3Q-H.woff                                                             31.37 kB
+dist-academic/assets/index-FpS4tTrt.css                                                                                            90.07 kB │ gzip:    19.35 kB
+dist-academic/assets/index-DeZrY45d.js                                                                                          3,351.80 kB │ gzip: 1,463.38 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 6.08s
+
+> khong-gian-noi-tam-prototype@0.1.0 scan:academic
+> node --experimental-strip-types scripts/check-academic.mts
+
+{
+  "mode": "academic-showcase",
+  "articles": 29,
+  "svg": 29,
+  "topics": 10,
+  "files": 68,
+  "digest": "376aa6d404006241731b816998f82ec04e2cdc057f3ef7c5aaa6b0b9f76e5967"
+}
