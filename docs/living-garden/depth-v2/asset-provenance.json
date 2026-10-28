@@ -1,0 +1,434 @@
+[
+  {
+    "name": "bowl",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      45,
+      70,
+      355,
+      239
+    ],
+    "sha256": "a8c799acfd994e4be1972fcc2d0b6c57e6891ae1dced081f9a8e42aaaa9be073"
+  },
+  {
+    "name": "stone-moss",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      449,
+      80,
+      290,
+      199
+    ],
+    "sha256": "0a42c078f26866a6c3d22fbe31009b4f38c7f492f8b39406679e34c62c286d21"
+  },
+  {
+    "name": "stone-honey",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      802,
+      85,
+      305,
+      194
+    ],
+    "sha256": "f5887ae561d4373637968f376baa722e99af2204aedb5044b647cc1156d26af5"
+  },
+  {
+    "name": "stone-lilac",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      1177,
+      87,
+      302,
+      192
+    ],
+    "sha256": "a781d999638dae771cc08261488fa69929063655046ecde99f00cd7da57d53f7"
+  },
+  {
+    "name": "cup",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      45,
+      350,
+      360,
+      265
+    ],
+    "sha256": "6c5bc2cb7d1b44d50d4b02654b6ac6ca1b7712ba58d2ce36a9f3eff7e738d90f"
+  },
+  {
+    "name": "saucer",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      430,
+      397,
+      326,
+      207
+    ],
+    "sha256": "45df35344080ffc0fe42c0a2fbfc2e211bf4ab04fd3b9ba96033cf8e58393267"
+  },
+  {
+    "name": "cushion",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      790,
+      390,
+      370,
+      230
+    ],
+    "sha256": "5492b80cbc2bba56c153f93b7214b9aa3b3870424dd5474d4acf322fea1ab85b"
+  },
+  {
+    "name": "moon",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      1260,
+      340,
+      245,
+      285
+    ],
+    "sha256": "e43d1531126fb59328aa7907c424ab27064213c3b5c30bae7258ea02de35967b"
+  },
+  {
+    "name": "pot-soil",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      65,
+      659,
+      285,
+      300
+    ],
+    "sha256": "b19d9fbc4e5a8232e1015478ba1b7d70c2e07f73160f978165d4f47591ba8d8d"
+  },
+  {
+    "name": "sprout",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      432,
+      654,
+      312,
+      303
+    ],
+    "sha256": "3efcf7ee08c6049e5fa1b96e4944fa852e6350e5aa1aff9d8789ef0dda9dce49"
+  },
+  {
+    "name": "new-leaf",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      823,
+      675,
+      196,
+      287
+    ],
+    "sha256": "4172c01e3c7b94a8d4945985e84cbe0a3b7a06e87340722ce20b4f76d5304631"
+  },
+  {
+    "name": "wisteria",
+    "atlas": "nature",
+    "sourceSha256": "3546a95c309bcb0ef1898ddd78955458829acb50b8ce6290698e72b5669a0641",
+    "crop": [
+      1100,
+      627,
+      420,
+      383
+    ],
+    "sha256": "9b90ab2dfde2391f1a4e21206ca78076fa024d3631851a4166afbbb26ded1f08"
+  },
+  {
+    "name": "gate-left",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      15,
+      5,
+      310,
+      330
+    ],
+    "sha256": "1812c9dd842392394d27ecc31679c5a346036a1e302f8544e5ce960e6d47e5ec"
+  },
+  {
+    "name": "gate-right",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      448,
+      5,
+      300,
+      330
+    ],
+    "sha256": "43f20fa5768c378f81e3f11f8f83c6ef813ab2ab01346aae3d3285d77ef87c6a"
+  },
+  {
+    "name": "daisies-pot",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      800,
+      10,
+      311,
+      330
+    ],
+    "sha256": "448d387b126c0050b20020efd9c5db4aba9262fbcc41754b83a7481d60936276"
+  },
+  {
+    "name": "violets-pot",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      1200,
+      6,
+      300,
+      330
+    ],
+    "sha256": "fd548a4b0a5401c6bbcecd5eb782e9ee20acb03d992e87a167dc3f4195ddb081"
+  },
+  {
+    "name": "chair-left",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      30,
+      350,
+      300,
+      320
+    ],
+    "sha256": "3963968c79061f5565ac5ae72d2824652e38d1cad99822edea3453a5b6e05a70"
+  },
+  {
+    "name": "chair-right",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      448,
+      350,
+      282,
+      315
+    ],
+    "sha256": "1eb34d8b67d7f4f9b22a5da815969986d5d3279451bc76f7bb3c64af941761ec"
+  },
+  {
+    "name": "notebook",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      775,
+      370,
+      370,
+      285
+    ],
+    "sha256": "fda6f0405eb241ea1f7a63c48f6130ab16cabcc1142f4c27758610973b22d1f0"
+  },
+  {
+    "name": "pencil",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      1195,
+      350,
+      310,
+      310
+    ],
+    "sha256": "dedd21791f29521bb063c87c33055bee58375d06fe375e3d904490525e535a0f"
+  },
+  {
+    "name": "sage-leaves",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      35,
+      680,
+      305,
+      330
+    ],
+    "sha256": "c332a4341164a5e2fdd98fabeecde95b31b68e86e77ce8b758418b07046aefc9"
+  },
+  {
+    "name": "book",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      425,
+      688,
+      336,
+      300
+    ],
+    "sha256": "96b805e19830dc83f72641f60617544ec2317a46b6f5c451cb1fcaf8841d9157"
+  },
+  {
+    "name": "hourglass",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      870,
+      667,
+      175,
+      320
+    ],
+    "sha256": "9d84bdcf4d3b69385d9b99433e9f564364119b3a7da0046bf4120f9dbf42d64f"
+  },
+  {
+    "name": "teapot",
+    "atlas": "editorial",
+    "sourceSha256": "0be278ce58c62513a601b602d7a613547d9070c7168406fe3445040cf3779ba0",
+    "crop": [
+      1164,
+      697,
+      350,
+      280
+    ],
+    "sha256": "2814db1f5199bc469af74ed7b50282665cf180f899082e76b4d00b1c97289938"
+  },
+  {
+    "name": "phone",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      40,
+      83,
+      300,
+      245
+    ],
+    "sha256": "fbce44db34010a75219f6ee2b8041bbfca0f7131a5b417f245562b447d083f94"
+  },
+  {
+    "name": "olive-branch",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      425,
+      40,
+      330,
+      290
+    ],
+    "sha256": "6c57086cc01f3c61ef64c13ccd39dd0e6b173f77f1bc08f142a9a95828dbf3c7"
+  },
+  {
+    "name": "signpost",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      810,
+      10,
+      300,
+      333
+    ],
+    "sha256": "60dc4c11cd0be3cca88a2c41d58707a931628b9a003988e8ce2d6175ee589723"
+  },
+  {
+    "name": "hills",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      1175,
+      155,
+      345,
+      152
+    ],
+    "sha256": "42beb751ba2609edd1ca8be8f553c5d2953cd4fa60da8e7ef089dbf95ad42cc8"
+  },
+  {
+    "name": "lavender",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      17,
+      375,
+      350,
+      290
+    ],
+    "sha256": "cb53d87cd37c7f161bead3b04862394db25a5e05a4bab90b8ee38bd689230b9a"
+  },
+  {
+    "name": "daisies",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      414,
+      375,
+      335,
+      295
+    ],
+    "sha256": "ab6c87cce74863047c2ea985fdc3f26e28a796958a85a603f80a8ab2b1ad57ed"
+  },
+  {
+    "name": "petals",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      850,
+      395,
+      260,
+      245
+    ],
+    "sha256": "78b5a559fc796707b3f89bae473fbfa05402ea940d7d9d328a8c478924ab872f"
+  },
+  {
+    "name": "gold-leaf",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      1165,
+      464,
+      335,
+      168
+    ],
+    "sha256": "b7e074fdfa3c2773217b33496f4779125d7829053ba8a64caeccca05b5a5d312"
+  },
+  {
+    "name": "stepping-stone",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      28,
+      730,
+      326,
+      245
+    ],
+    "sha256": "61c7343b1041780df348d88c2994afd79792f12303d5cbed8d0ae0659376a3dc"
+  },
+  {
+    "name": "repaired-pot",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      458,
+      685,
+      256,
+      297
+    ],
+    "sha256": "674d6b0f948c1f9ed3f08488c802300bfe05a4c6b80f1cb451c2044c674d8074"
+  },
+  {
+    "name": "paper",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      830,
+      675,
+      280,
+      307
+    ],
+    "sha256": "ebb64a2bd13b3b01734adabed6a27a3295d80e0f657e6b2aaabfdc9138f070cc"
+  },
+  {
+    "name": "ribbon",
+    "atlas": "landscape",
+    "sourceSha256": "19821b089338a9de33bc0a87ce5f0a837884e7008b627a90f748a4db6d0ea294",
+    "crop": [
+      1175,
+      750,
+      345,
+      190
+    ],
+    "sha256": "515d28c0326b59933a816bc2c90bd1ad07e432a1227f8c94a6ead9e740cc65fc"
+  }
+]

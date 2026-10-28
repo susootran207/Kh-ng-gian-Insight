@@ -1,0 +1,129 @@
+/* Layered scenes: ambient, pointer depth and explicit subject-specific rituals. */
+.living-scene{isolation:isolate;--scene-x:0px;--scene-y:0px}
+.living-scene>img{transform:translate3d(calc(var(--scene-x)*-.35),calc(var(--scene-y)*-.35),0) scale(1.07)!important;transition:transform .8s cubic-bezier(.16,1,.3,1),filter 1.2s}
+.scene-world,.scene-light{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.scene-world{transform:translate3d(var(--scene-x),var(--scene-y),0);transition:transform .6s}
+.scene-light{background:radial-gradient(ellipse at 70% 15%,#ffeeb970,transparent 65%);mix-blend-mode:soft-light;opacity:.3;transition:opacity 1s}
+[data-awake=true] .scene-light{opacity:1}
+.scene-trigger{position:absolute;z-index:4;left:12px;bottom:12px;display:flex;align-items:center;gap:8px;min-height:44px;max-width:calc(100% - 24px);padding:9px 13px;background:#fffdf7f5;color:#554365;border:1px solid #ad99bc;border-radius:24px;font-size:11px;text-align:left}
+.scene-trigger svg{width:18px;height:18px;flex-shrink:0;transition:transform .6s}
+.scene-trigger[aria-pressed=true]{background:#655274;color:#fffdf7}
+.scene-trigger[aria-pressed=true] svg{transform:rotate(90deg)}
+.scene-response{position:absolute;z-index:3;top:14px;left:14px;right:14px;font-size:12px;line-height:1.7;color:#493b50;background:#fffdf7f5;padding:9px 12px;opacity:0;transition:opacity .3s;pointer-events:none}
+[data-awake=true]>.scene-response{opacity:1}
+.scene-world>g:not(.scene-foreground){opacity:.18;transition:opacity .7s,transform 1.5s;transform-origin:center}
+[data-awake=true] .scene-world>g{opacity:1}
+.scene-foreground{transform:translate3d(calc(var(--scene-x)*-1.5),calc(var(--scene-y)*-1.5),0);opacity:.5}
+[data-playing=true] .scene-foreground{animation:scene-petals 9s ease-in-out infinite alternate}
+[data-playing=true] .scene-steam path{animation:tea-breath 3.5s ease-in-out infinite}
+.scene-ripple{fill:none;stroke:#f9f4de;stroke-width:3;transform-origin:185px 190px}
+[data-playing=true] .scene-ripple{animation:water-ring 2.7s ease-out infinite}
+[data-scene='1'][data-awake=true]>img{filter:saturate(1.18);transform:scale(1.11)!important}
+[data-playing=true][data-awake=true] .scene-ribbon{animation:ribbon-breathe 2.5s ease-in-out infinite alternate}
+[data-playing=true] .scene-listen{animation:listen-pulse 3s ease-in-out infinite}
+[data-scene='3'][data-awake=true]>img{transform:translateX(-10px) scale(1.14)!important}
+.scene-note{stroke-dasharray:140;stroke-dashoffset:140;transition:stroke-dashoffset 2s}
+[data-awake=true] .scene-note{stroke-dashoffset:0}
+[data-playing=true] .scene-attention circle{animation:attention-drift 4s ease-in-out infinite alternate}
+[data-awake=true] .scene-attention{transform:translateY(-80px);opacity:0!important}
+[data-playing=true] .scene-sand path:first-child{animation:sand-flow .7s linear infinite}
+[data-scene='7'][data-awake=true]>img{filter:sepia(.15) saturate(1.2)}
+.scene-growth{transform:scaleY(.55);transform-origin:280px 245px!important}
+[data-awake=true] .scene-growth{transform:scaleY(1.15)}
+[data-playing=true] .scene-new-leaf{transform-origin:284px 202px;animation:new-leaf 4s ease-in-out infinite alternate}
+.scene-path path{stroke-dasharray:400;stroke-dashoffset:400;transition:stroke-dashoffset 2.5s}
+[data-awake=true] .scene-path path{stroke-dashoffset:0}
+[data-playing=true] .scene-destination{animation:destination-pulse 2.5s ease-in-out infinite}
+[data-scene='0'][data-awake=true]>img{transform:scale(1.17) translateY(8px)!important}
+.scene-trail{stroke-dasharray:7 20}
+[data-playing=true] .scene-trail{animation:gate-light 2s linear infinite}
+@keyframes scene-petals{to{transform:translate3d(calc(var(--scene-x)*-1.5 + 18px),calc(var(--scene-y)*-1.5 + 40px),0) rotate(8deg)}}
+@keyframes water-ring{from{transform:scale(.4);opacity:.9}to{transform:scale(2.1);opacity:0}}
+@keyframes tea-breath{0%{transform:translateY(8px);opacity:0}35%{opacity:.85}100%{transform:translateY(-35px);opacity:0}}
+@keyframes ribbon-breathe{to{transform:translateY(-20px) scaleX(1.08)}}
+@keyframes listen-pulse{50%{opacity:.7;transform:scaleX(1.18)}}
+@keyframes attention-drift{to{transform:translate(16px,-15px);opacity:.2}}
+@keyframes sand-flow{to{stroke-dashoffset:-16}}
+@keyframes new-leaf{to{transform:rotate(9deg)}}
+@keyframes destination-pulse{50%{r:17;opacity:.5}}
+@keyframes gate-light{to{stroke-dashoffset:-54}}
+.editorial-card{display:grid;grid-template-columns:1fr}
+.library-list>.library-entry:first-child:nth-last-child(n+5) .editorial-card{grid-template-columns:1fr 1fr;align-items:center}
+.library-list>.library-entry:first-child:nth-last-child(n+5) .editorial-card-link{display:block}
+.library-list>.library-entry:first-child:nth-last-child(n+5) .editorial-card>.garden-illustration{height:100%;aspect-ratio:1.3}
+.weekly-side-stories .weekly-story{display:grid;grid-template-columns:42% 1fr;gap:22px;align-items:center}
+.weekly-story>a{display:block}.weekly-feature .weekly-copy{margin:0;padding:30px 35px}
+.scene-trigger:hover{background:#e9e2ee;color:#493b50}
+.flower-cluster{animation:flower-swing var(--sway,8s) ease-in-out var(--delay,0s) infinite alternate!important;transform-origin:var(--pivot)}
+@keyframes flower-swing{from{transform:rotate(-3.8deg)}to{transform:rotate(4.5deg)}}
+.living-petals{animation:living-petal 4.7s ease-in-out var(--petal-lag) infinite alternate}
+@keyframes living-petal{to{transform:rotate(2.7deg) scaleX(.92)}}
+.leaf-sway{animation:leaf-turn 5.4s ease-in-out infinite alternate}
+@keyframes leaf-turn{to{transform:rotate(-9deg)}}
+.botanical-spray{--arc:3.3deg!important}.near-botanical{--arc:5deg!important}.canopy-leaf-breath g{animation-duration:6s}
+.petal-field-back{z-index:2}.petal-field .petal{display:block!important}
+[data-low-power=true] .petal-field-back .petal:nth-child(n+9){display:none!important}
+[data-low-power=true] .petal-field-front{display:block}
+.floating-may{z-index:35;transition:transform 1s cubic-bezier(.16,1,.3,1),opacity .3s;display:block!important}
+.floating-may[data-dragging=true]{transition:opacity .2s}
+.floating-may>button{width:76px;height:76px;touch-action:none;cursor:grab;user-select:none;background:#fffdf7f5}
+.floating-may[data-dragging=true]>button{cursor:grabbing}
+.may-name{display:block;white-space:nowrap;font-size:9px;text-align:center;color:#554365;background:#fffdf7;border-radius:12px;padding:2px 4px}
+.floating-may[data-animated=true] [data-action=walk] .cat-art{animation:may-trot .3s ease-in-out infinite}
+.floating-may[data-animated=true] [data-action=look] .cat-head{animation:may-look 3s ease-in-out infinite!important}
+.floating-may[data-animated=true] .cat-eyes{transform-origin:80px 62px;animation:blink 6s infinite}
+.floating-may[data-animated=true] [data-action=rest] .cat-art{transform:translateY(8px) scaleY(.88)}
+.floating-may[data-animated=true] [data-action=sit] .cat-head{transform:rotate(-6deg)}
+.floating-may[data-animated=true] [data-action=happy] .cat-art{animation:may-joy .6s ease-in-out 3}
+.floating-may[data-animated=true] [data-action=wave] .cat-paw{animation:may-wave .8s ease-in-out 3}
+.reading-motion-control{display:flex;gap:12px;align-items:center;padding-top:14px;font-size:11px;color:#554365}
+.reading-motion-control button{min-height:44px;text-decoration:underline;text-underline-offset:4px}
+.reading-site{padding-bottom:95px}
+@media(max-width:699px){.scene-trigger{font-size:10px;padding:7px 10px;left:8px;bottom:8px;max-width:calc(100% - 16px)}.weekly-story .scene-trigger span{display:none}.weekly-story .scene-response{font-size:10px;left:5px;right:5px;top:5px;padding:5px}.weekly-side-stories .weekly-story{gap:18px}.library-list>.library-entry:first-child:nth-last-child(n+5) .editorial-card{grid-template-columns:1fr}.library-list>.library-entry:first-child:nth-last-child(n+5) .editorial-card>.garden-illustration{aspect-ratio:1.5;height:auto}.petal-field-back .petal:nth-child(n+9){display:none!important}.weekly-feature .weekly-copy{padding:24px}.floating-may>button{width:68px;height:68px}}
+[data-playing=false] .scene-world *{animation-play-state:paused!important}
+[data-motion=off] .living-scene *{animation:none!important;transition:none!important}
+[data-motion=off] .living-scene>img{transform:none!important}
+[data-motion=off] .scene-world,[data-motion=off] .scene-foreground{transform:none!important}
+[data-motion=off] .floating-may{display:block!important;transition:none!important}
+[data-motion=off] .floating-may *{animation:none!important}
+[data-motion=off] .flower-cluster,[data-motion=off] .living-petals,[data-motion=off] .leaf-sway{animation:none!important}
+@media(prefers-reduced-motion:reduce){.floating-may{display:block!important;transition:none!important}.floating-may *,.flower-cluster,.leaf-sway,.living-petals{animation:none!important}.living-scene *{animation:none!important;transition:none!important}.living-scene>img{transform:none!important}.scene-world{transform:none!important}}
+.flower-ritual{position:absolute;inset:0;z-index:3;pointer-events:none}
+.flower-gust-button{position:absolute;right:15px;top:40%;z-index:5;pointer-events:auto;display:flex;gap:8px;align-items:center;background:#fffdf7ed;color:#554365;border-radius:24px;padding:10px 15px;font-size:11px;min-height:44px}
+.flower-gust-button svg{width:22px;height:22px}
+.flower-burst{position:absolute;inset:0;overflow:hidden}
+.flower-burst i{position:absolute;top:10%;width:10px;height:17px;border-radius:70% 10% 65% 35%;background:#ad8ac0;opacity:.8;transform:rotate(var(--gust-turn))}
+.flower-burst[data-animated=true] i{animation:gust-petal 3s ease-out var(--gust-delay) both}
+@keyframes gust-petal{from{transform:translate(0,-20px) rotate(0);opacity:0}15%{opacity:.9}to{transform:translate(var(--gust-drift),420px) rotate(var(--gust-turn));opacity:0}}
+.garden-art:has([data-gust=true]) .flower-cluster{animation-duration:1.4s!important}
+.garden-art:has([data-gust=true]) .leaf-sway{animation-duration:1s}
+.garden-art:has([data-gust=true]) .botanical-art{transform:scale(1.06) translateX(-8px);filter:brightness(1.08);transition:transform 2s,filter 2s}
+.botanical-art{transition:transform 2s,filter 2s}
+[data-motion=off] .flower-burst{display:none}
+[data-motion=off] .garden-art .botanical-art{transform:none!important;transition:none!important}
+@media(prefers-reduced-motion:reduce){.flower-burst{display:none}.garden-art .botanical-art{transform:none!important;transition:none!important}}
+.living-scene[data-context=reader] .scene-foreground{animation:none!important;opacity:.25}
+.living-scene[data-context=library] .scene-light{background:linear-gradient(120deg,transparent,#fff1cf80,transparent);transform:translateX(-50%);transition:transform 1.8s}
+.living-scene[data-context=library][data-awake=true] .scene-light{transform:translateX(30%)}
+.living-scene[data-context=journey] .scene-world{transition:transform 1.3s}
+.journey-map{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin:40px 0 55px;padding-block:25px}
+.journey-map>svg{position:absolute;inset:0;width:100%;height:120px;fill:none;stroke:#a5b290;stroke-width:2;stroke-dasharray:5 7;pointer-events:none}
+.journey-map>a{position:relative;text-align:center;display:grid;justify-items:center;gap:12px;font-size:12px}
+.journey-stop{display:grid;place-items:center;width:68px;height:68px;background:#eee7db;border-radius:50%;transition:background .4s,transform .5s}
+.journey-stop svg{width:36px;height:36px;fill:none;stroke:#655274;stroke-width:1.5;stroke-linecap:round}
+.journey-map [aria-current=step] .journey-stop{background:#d6c6e3;transform:translateY(-9px)}
+.flow-stage{position:relative}.flow-stage:before{content:'';position:absolute;left:-20px;top:0;bottom:0;width:1px;background:#b6c1a6}
+.flow-stage[data-selected=true]:before{background:#8f739e;width:2px}
+@media(max-width:699px){.journey-map{gap:8px}.journey-map>a{font-size:10px}.journey-stop{width:52px;height:52px}.flow-stage:before{left:-10px}}
+[data-motion=off] .journey-stop{transition:none;transform:none!important}
+.garden-art[data-paused=true] .flower-cluster,.garden-art[data-paused=true] .leaf-sway,.garden-art[data-paused=true] .living-petals{animation-play-state:paused!important}
+.editorial-card,.editorial-card>*{min-width:0}
+.library-list>.library-entry:first-child:nth-last-child(n+5) .editorial-card{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+@media(min-width:901px) and (max-width:1150px){.flow-page .library-list>.library-entry:first-child:nth-last-child(n+5) .editorial-card{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:699px){.library-list>.library-entry:first-child:nth-last-child(n+5) .editorial-card{grid-template-columns:minmax(0,1fr)}}
+@media(hover:hover){.living-scene:hover .scene-world>g:not(.scene-attention){opacity:.8}.living-scene:hover .scene-light{opacity:.8}}
+.cat-boundary{pointer-events:none}.cat-boundary>.cat{pointer-events:auto}
+.floating-may[data-visible=false] *{animation-play-state:paused!important}
+.scene-response{top:auto;bottom:68px}
+@media(max-width:699px){.weekly-story .scene-response{top:8px;bottom:auto;left:8px;right:8px}}
+.living-scene{touch-action:pan-y pinch-zoom}

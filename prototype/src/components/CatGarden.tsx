@@ -1,3 +1,5 @@
+import { LayeredScene } from './LayeredScene'
+import { FlowerGust } from './FlowerGust'
 import { useGardenMotion } from './GardenMotion'
 import { useEffect, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react'
 import { MotionRegion } from './MotionRegion'
@@ -10,6 +12,8 @@ const expressions = ['curious', 'happy', 'sleepy', 'wink']
 
 
 export function CatGarden() {
+  const heroScene=useRef<HTMLDivElement>(null)
+  const reactScene=(event:PointerEvent<HTMLDivElement>)=>{if(!allowed||!heroScene.current)return;const box=heroScene.current.getBoundingClientRect();if(event.clientY<box.top||event.clientY>box.bottom)return;heroScene.current.style.setProperty('--scene-x',`${((event.clientX-box.left)/box.width-.5)*24}px`);heroScene.current.style.setProperty('--scene-y',`${((event.clientY-box.top)/box.height-.5)*18}px`)}
   const boundary = useRef<HTMLDivElement>(null)
   const catButton = useRef<HTMLButtonElement>(null)
   const gesture = useRef<{id:number; start:Point; origin:Point; moved:boolean} | null>(null)
@@ -101,10 +105,10 @@ export function CatGarden() {
     const step=e.shiftKey?24:12
     setPoint(p=>clamp({x:p.x+(e.key==='ArrowRight'?step:e.key==='ArrowLeft'?-step:0),y:p.y+(e.key==='ArrowDown'?step:e.key==='ArrowUp'?-step:0)}))
   }
-  return <div className="garden-wrap">
+  return <div className="garden-wrap" onPointerMove={reactScene} onPointerDown={reactScene} onPointerLeave={()=>{heroScene.current?.style.setProperty('--scene-x','0px');heroScene.current?.style.setProperty('--scene-y','0px')}}>
     <MotionRegion className="garden-art">
-      <div className="botanical-art" role="img" aria-label="Giàn tử đằng tím trên lối vườn ngập nắng"/>
-      <Wisteria/>
+      <div ref={heroScene} className="hero-scene living-scene" data-scene="0" data-context="garden" data-playing={allowed&&inGarden} data-awake={action==='happy'||action==='wave'}><LayeredScene index={0} eager visible={inGarden} description="Cổng vườn, đồi xa, cây và hoa được dựng thành các lớp riêng, bên dưới giàn tử đằng của Mây"/></div>
+      <Wisteria/><FlowerGust/>
       <div ref={boundary} className="cat-boundary" aria-label="Khoảng vườn của Mây">
         <button ref={catButton} className="cat" data-action={action} data-dragging={dragging} data-keyboard={moving} aria-label="Mây, chú mèo trong vườn. Chạm để đổi biểu cảm" aria-describedby="cat-help" style={{transform:`translate(${point.x}px, ${point.y}px)`}} onPointerDown={down} onPointerMove={move} onPointerUp={end} onPointerCancel={end} onLostPointerCapture={()=>{gesture.current=null;setDragging(false)}} onClick={greet} onKeyDown={key}>
           <CatArt expression={expressions[expression]} dragging={dragging}/>

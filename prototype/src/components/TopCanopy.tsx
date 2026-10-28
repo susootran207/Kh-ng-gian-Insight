@@ -1,3 +1,4 @@
+import { useBotanicalTouch } from './useBotanicalTouch'
 import { useLayoutEffect, useRef, useState, type CSSProperties } from 'react'
 
 import { approvedWisteria, type BotanicalSpray } from './wisteriaDesign'
@@ -9,6 +10,7 @@ const protectedSelectors='.site-header .brand,.navigation>a,.menu-button,.hero-c
 
 export function TopCanopy() {
   const root=useRef<HTMLDivElement>(null)
+  useBotanicalTouch(root)
   const [mask,setMask]=useState('')
   const [width,setWidth]=useState(()=>window.innerWidth)
   const composition=approvedWisteria
@@ -50,7 +52,7 @@ export function TopCanopy() {
     const size=spray.size*scale
     const anchor=near?.52:rootAnchors[spray.cell]
     return <div key={spray.cell} className={`canopy-cluster botanical-spray ${near?'near-botanical':'main-botanical'}`} data-cell={spray.cell} data-position={spray.x} style={{left:`calc(${spray.x}% - ${size/2}px)`,top:`${spray.y*scale}px`,width:`${size}px`,transformOrigin:`${anchor*100}% 7%`,'--lean':`${spray.lean}deg`,'--arc':`${near?1.7:.9+(index%3)*.2}deg`,'--sway':`${near?11.3+index*1.7:14.2+index*1.3}s`,'--delay':`${-index*2.7-(near?6:2)}s`} as CSSProperties}>
-      <div className="botanical-paint" style={{backgroundPosition:near?`${spray.cell*50}% 50%`:`${(spray.cell%3)*50}% ${Math.floor(spray.cell/3)*100}%`}}/>
+      <div data-botanical="canopy" className="botanical-joint canopy-hand"><div className="botanical-paint" style={{backgroundPosition:near?`${spray.cell*50}% 50%`:`${(spray.cell%3)*50}% ${Math.floor(spray.cell/3)*100}%`}}/></div>
     </div>
   }
   return <div ref={root} className="top-garland living-trellis" data-variant="B" data-ready={Boolean(mask)} aria-hidden="true" style={{maskImage:mask,WebkitMaskImage:mask}}>
